@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>m3u8 downloader</title>
+    <link href="style.css" rel="stylesheet"/>
+</head>
+
+<body>
+<div id="m-loading">
+    Page loading, please wait...
+    <h1 style="white-space: pre;"> Recommend an m3u8 web extraction tool, no need to download software, just open the website to download, automatically detect, one-click download.</h1>
+</div>
+<section id="m-app" v-cloak> <!-- Top operation prompt -->
+    <section class="m-p-action g-box">{{tips}}</section>
+
+    <div class="m-p-temp-url">Test link: https://0472.org/m3u8/index.m3u8</div>
+    <section class="m-p-input-container">
+        <input type="text" v-model="url" :disabled="downloading" placeholder="Please enter m3u8 link">
+        <!-- Range query -->
+        <template v-if="!downloading || rangeDownload.isShowRange">
+            <div v-if="!rangeDownload.isShowRange" @click="getM3U8(true)">Download specific range</div>
+            <template v-else>
+                <input class="range-input" type="number" v-model="rangeDownload.startSegment" :disabled="downloading" placeholder="Start segment">
+                <input class="range-input" type="number" v-model="rangeDownload.endSegment" :disabled="downloading" placeholder="End segment">
+            </template>
+        </template>
+
+        <!-- Not yet started downloading -->
+        <template v-if="!downloading">
+            <div @click="getM3U8(false)">Download original format</div>
+            <div @click="getMP4">Convert to MP4 and download</div>
+        </template>
+        <div v-else-if="finishNum === rangeDownload.targetSegment && rangeDownload.targetSegment > 0" class="disable">Download completed</div>
+        <div v-else @click="togglePause">{{ isPause ? 'Resume download' : 'Pause download' }}</div>
+    </section>
+    <div v-if="!downloading && isSupperStreamWrite" class="m-p-stream" @click="streamDownload(true)">
+        Super large video MP4 format download, download and save simultaneously, completely solve the problem of insufficient memory for large file downloads
+    </div>
+    <template v-if="finishList.length > 0">
+        <div class="m-p-line"></div> <!-- <div class = "m-p-retry" v-if = "errorNum && downloadIndex >= rangeDownload.targetSegment"@click = "retryAll">Redownload error segments</ div> -->
+        <div class="m-p-force" v-if="mediaFileList.length && !streamWriter" @click="forceDownload">Force download existing segments</div>
+        <div class="m-p-tips">Total number of fragments to be downloaded: {{rangeDownload.targetSegment}}, downloaded: {{finishNum}}, errors: {{errorNum}}, progress:
+            {{(finishNum / rangeDownload.targetSegment * 100).toFixed(2)}}%
+        </div>
+        <div class="m-p-tips" :class="[errorNum ? 'error-tips' : '']">If an error occurs during the download of a video fragment, it will be marked in red. You can click the corresponding icon to retry</div>
+        <section class="m-p-segment">
+            <div class="item" v-for="(item, index) in finishList" :class="[item.status]" :title="item.title" @click="retry(index)">{{index + 1}}</div>
+        </section>
+    </template>
+</section>
+
+</body>
+<script src="vue.js"></script>
+<script src="aes-decryptor.js"></script>
+<script src="mux-mp4.js"></script>
+<script src="stream-saver.js"></script>
+<script src="script.js"></script>
+</html>

@@ -1,0 +1,378 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body::-webkit-scrollbar {
+    display: none
+}
+
+p {
+    margin: 0;
+}
+
+[v-cloak] {
+    display: none;
+}
+
+#m-app {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    padding: 10px 50px 80px;
+    box-sizing: border-box;
+}
+
+.m-p-action {
+    margin: 20px auto;
+    max-width: 1100px;
+    width: 100%;
+    font-size: 35px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.m-p-other, .m-p-tamper, .m-p-github, .m-p-language, .m-p-mse {
+    position: fixed;
+    right: 50px;
+    background-color: #eff3f6;
+    background-image: linear-gradient(-180deg, #fafbfc, #eff3f6 90%);
+    color: #24292e;
+    border: 1px solid rgba(27, 31, 35, .2);
+    border-radius: 3px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 6px 12px;
+    z-index: 99;
+}
+
+.m-p-help {
+    position: fixed;
+    right: 50px;
+    top: 50px;
+    width: 30px;
+    height: 30px;
+    color: #666666;
+    z-index: 2;
+    line-height: 30px;
+    font-weight: bolder;
+    border-radius: 50%;
+    border: 1px solid rgba(27, 31, 35, .2);
+    cursor: pointer;
+    background-color: #eff3f6;
+    background-image: linear-gradient(-180deg, #fafbfc, #eff3f6 90%);
+}
+
+.m-p-github:hover, .m-p-other:hover, .m-p-tamper:hover, .m-p-help:hover, .m-p-language:hover, .m-p-mse:hover {
+    opacity: 0.9;
+}
+
+.m-p-language {
+    bottom: 70px;
+}
+
+.m-p-other {
+    bottom: 150px;
+}
+
+.m-p-tamper {
+    bottom: 30px;
+}
+
+.m-p-github {
+    bottom: 190px;
+}
+
+.m-p-mse {
+    bottom: 110px;
+}
+
+.m-p-refer {
+    position: absolute;
+    left: 50px;
+    bottom: 50px;
+}
+
+.m-p-refer .text {
+    position: absolute;
+    top: -80px;
+    left: -40px;
+    animation-name: upAnimation;
+    transform-origin: center bottom;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-delay: .5s;
+}
+
+.m-p-refer .close {
+    display: block;
+    position: absolute;
+    top: -110px;
+    right: -50px;
+    padding: 0;
+    margin: 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    z-index: 3;
+    transition: 0.3s all;
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url(https://www.fanmingming.com/bg.php);
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.m-p-refer .close:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.m-p-refer .link {
+    border-radius: 4px;
+    text-decoration: none;
+    background-color: #4E84E6;
+    transition: 0.3s all;
+}
+
+.m-p-refer .link:hover {
+    top: -10px;
+    color: #333333;
+    border: 1px solid transparent;
+    background: rgba(0, 0, 0, 0.6);
+    box-shadow: 2px 11px 20px 0 rgba(0, 0, 0, 0.6);
+}
+
+@keyframes upAnimation {
+    0% {
+        transform: rotate(0deg);
+        transition-timing-function: cubic-bezier(0.215, .61, .355, 1)
+    }
+
+    10% {
+        transform: rotate(-12deg);
+        transition-timing-function: cubic-bezier(0.215, .61, .355, 1)
+    }
+
+    20% {
+        transform: rotate(12deg);
+        transition-timing-function: cubic-bezier(0.215, .61, .355, 1)
+    }
+
+    28% {
+        transform: rotate(-10deg);
+        transition-timing-function: cubic-bezier(0.215, .61, .355, 1)
+    }
+
+    36% {
+        transform: rotate(10deg);
+        transition-timing-function: cubic-bezier(0.755, .5, .855, .06)
+    }
+
+    42% {
+        transform: rotate(-8deg);
+        transition-timing-function: cubic-bezier(0.755, .5, .855, .06)
+    }
+
+    48% {
+        transform: rotate(8deg);
+        transition-timing-function: cubic-bezier(0.755, .5, .855, .06)
+    }
+
+    52% {
+        transform: rotate(-4deg);
+        transition-timing-function: cubic-bezier(0.755, .5, .855, .06)
+    }
+
+    56% {
+        transform: rotate(4deg);
+        transition-timing-function: cubic-bezier(0.755, .5, .855, .06)
+    }
+
+    60% {
+        transform: rotate(0deg);
+        transition-timing-function: cubic-bezier(0.755, .5, .855, .06)
+    }
+
+    100% {
+        transform: rotate(0deg);
+        transition-timing-function: cubic-bezier(0.215, .61, .355, 1)
+    }
+}
+
+.m-p-temp-url {
+    padding-top: 50px;
+    padding-bottom: 10px;
+    width: 100%;
+    color: #999999;
+    text-align: left;
+    font-style: italic;
+    word-break: break-all;
+}
+
+.m-p-input-container {
+    display: flex;
+}
+
+.m-p-input-container input {
+    flex: 1;
+    margin-bottom: 20px;
+    display: block;
+    width: 280px;
+    padding: 16px;
+    font-size: 24px;
+    border-radius: 4px;
+    box-shadow: none;
+    color: #444444;
+    border: 1px solid #cccccc;
+}
+
+.m-p-input-container .range-input {
+    margin-left: 10px;
+    flex: 0 0 100px;
+    width: 100px;
+    box-sizing: border-box;
+}
+
+.m-p-input-container div {
+    position: relative;
+    display: inline-block;
+    margin-left: 10px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    border: 1px solid #eeeeee;
+    background-color: #3D8AC7;
+    opacity: 1;
+    transition: 0.3s all;
+}
+
+.m-p-input-container div:hover {
+    opacity: 0.9;
+}
+
+.m-p-input-container div {
+    width: 200px;
+}
+
+.m-p-input-container .disable {
+    cursor: not-allowed;
+    background-color: #dddddd;
+}
+
+.m-p-line {
+    margin: 20px 0 50px;
+    vertical-align: top;
+    width: 100%;
+    height: 5px;
+    border-bottom: dotted;
+}
+
+.m-p-tips {
+    width: 100%;
+    color: #999999;
+    text-align: left;
+    font-style: italic;
+    word-break: break-all;
+}
+
+.m-p-tips p {
+    width: 100px;
+    display: inline-block;
+}
+
+.m-p-tips.error-tips {
+    color: #DC5350;
+}
+
+.m-p-segment {
+    text-align: left;
+}
+
+.m-p-segment .item {
+    display: inline-block;
+    margin: 10px 6px;
+    width: 50px;
+    height: 40px;
+    color: white;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 4px;
+    cursor: help;
+    border: solid 1px #eeeeee;
+    background-color: #dddddd;
+    transition: 0.3s all;
+}
+
+.m-p-segment .finish {
+    background-color: #0ACD76;
+}
+
+.m-p-segment .error {
+    cursor: pointer;
+    background-color: #DC5350;
+}
+
+.m-p-segment .error:hover {
+    opacity: 0.9;
+}
+
+.m-p-stream, .m-p-report, .m-p-cross, .m-p-final {
+    margin-top: 10px;
+    display: inline-block;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    border: 1px solid #eeeeee;
+    background-color: #3D8AC7;
+    opacity: 1;
+    transition: 0.3s all;
+}
+
+.m-p-stream {
+    background-color: #0ACD76 !important;
+}
+
+.m-p-report {
+    background-color: #e74c3c !important;
+    text-decoration: none;
+}
+
+.m-p-final {
+    text-decoration: none;
+}
+
+.m-p-force, .m-p-retry {
+    position: absolute;
+    right: 50px;
+    display: inline-block;
+    padding: 6px 12px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    border: 1px solid #eeeeee;
+    background-color: #3D8AC7;
+    opacity: 1;
+    transition: 0.3s all;
+}
+
+.m-p-retry {
+    right: 250px;
+}
+
+.m-p-force:hover, .m-p-retry:hover {
+    opacity: 0.9;
+}
