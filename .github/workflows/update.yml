@@ -33,7 +33,7 @@ jobs:
 
       # Additional steps to create folder, write JSON file and commit changes
       - name: Playlist file
-        run: node --max-old-space-size=4096 playlist.js
+        run: npm run start
 
       - name: Commit and push if necessary
         env:

@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "start": "node --max-old-space-size=4096 playlist.js",
+    "start": "node playlist.js",
     "lint": "npx eslint --fix \"./src/*.js\" ./playlist.js"
   },
   "dependencies": {
