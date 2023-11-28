@@ -25,10 +25,10 @@ const updatePlaylist = async () => {
       try {
         const playlistUrl = `https://iptv-org.github.io/iptv/countries/${raw.code}.m3u`
         const checkM3U = await checker.checkPlaylist(playlistUrl)
-        if (checkM3U && checkM3U.item.length > 0) {
+        if (checkM3U && checkM3U.items && checkM3U.items.length > 0) {
           const items = []
           for (let rawLine of checkM3U.items) {
-            if (rawLine.url && rawLine.status.length > 0) {
+            if (rawLine.url && rawLine.status && rawLine.status.length > 0) {
               if (rawLine.status.ok) {
                 rawLine.status = rawLine.status.code
                 items.push(rawLine)
