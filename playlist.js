@@ -1,6 +1,5 @@
-const fs = require('node:fs')
-const path = require('node:path')
-const process = require('node:process')
+const fs = require('fs')
+const path = require('path')
 const IPTVChecker = require('./src/index')
 
 const updatePlaylist = async () => {
