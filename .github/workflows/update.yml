@@ -1,0 +1,39 @@
+name: Node CI
+
+on:
+  schedule:
+    # Runs every 12 hours
+    - cron: '0 */12 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Set up Node.js version 12
+        uses: actions/setup-node@v1
+        with:
+          node-version: '12'
+
+      - name: Install ffmpeg
+        run: |
+          sudo apt update
+          sudo apt-get install -y --no-install-recommends ffmpeg
+
+      - name: Start project
+        run: npm install
+
+      # Additional steps to create folder, write JSON file and commit changes
+      - name: Playlist file
+        run: node --max-old-space-size=4096 playlist.js
+
+      - name: Commit and push if necessary
+        env:
+          GITHUB_TOKEN: ${{ secrets.TOKEN }}
+        run: |
+          git config --local user.email "devsolux@gmail.com"
+          git config --local user.name "devsolux"
+          git add -A
+          git diff --staged --quiet || (git commit -m "Update Playlist"; git push)
