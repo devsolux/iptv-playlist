@@ -82,7 +82,10 @@ class IPTVChecker {
       })
     }
 
-    return results
+    return {
+      header: playlist.header,
+      items: results,
+    }
   }
 
   async checkStream(item) {
