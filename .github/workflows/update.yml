@@ -1,11 +1,11 @@
 name: Node CI
 
 on:
-  # schedule:
+  schedule:
     # Runs every 12 hours
     # - cron: '0 */12 * * *'
-    # Runs every 3 days at midnight 00:00
-    # - cron: '0 0 */3 * *'
+    # Runs every 4 days at 14:00 UTC
+    - cron: '0 14 */4 * *'
   workflow_dispatch:
     inputs:
       logLevel:
@@ -39,10 +39,10 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.TOKEN }}
 
-      # - name: Commit and push if necessary
-        # env:
+          # - name: Commit and push if necessary
+          # env:
           # GITHUB_TOKEN: ${{ secrets.TOKEN }}
-        # run: |
+          # run: |
           # git config --local user.email "devsolux@gmail.com"
           # git config --local user.name "devsolux"
           # git add -A
