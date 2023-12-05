@@ -117,6 +117,34 @@
       "status": "OK"
     },
     {
+      "name": "Kuriakos Music (1080p)",
+      "tvg": {
+        "id": "KuriakosMusic.pt",
+        "name": "",
+        "logo": "https://i.imgur.com/Zl40NYi.jpg",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Music"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://195.23.211.179:1935/kmusic/smil:kmusic.smil/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"KuriakosMusic.pt\" tvg-logo=\"https://i.imgur.com/Zl40NYi.jpg\" group-title=\"Music\",Kuriakos Music (1080p)\r\nhttp://195.23.211.179:1935/kmusic/smil:kmusic.smil/playlist.m3u8",
+      "line": 47,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "iesTV (1080p)",
       "tvg": {
         "id": "iesTV.pt",
@@ -233,35 +261,7 @@
       "tvg": {
         "id": "ManaChurchOnline.pt",
         "name": "",
-        "logo": "",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://w2.manasat.com/church-online/smil:church-online.smil/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"ManaChurchOnline.pt\" tvg-logo=\"\" group-title=\"Undefined\",Maná Church Online (1080p) [Not 24/7]\r\nhttps://w2.manasat.com/church-online/smil:church-online.smil/playlist.m3u8",
-      "line": 51,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Maná Cirkev Online (1080p) [Not 24/7]",
-      "tvg": {
-        "id": "ManaCirkevOnline.pt",
-        "name": "",
-        "logo": "https://i.imgur.com/tYhXeRq.png",
+        "logo": "https://i.imgur.com/FRDJSim.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -273,9 +273,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://w2.manasat.com/cirkev-online/smil:cirkev-online.smil/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"ManaCirkevOnline.pt\" tvg-logo=\"https://i.imgur.com/tYhXeRq.png\" group-title=\"Religious\",Maná Cirkev Online (1080p) [Not 24/7]\r\nhttps://w2.manasat.com/cirkev-online/smil:cirkev-online.smil/playlist.m3u8",
-      "line": 53,
+      "url": "https://w2.manasat.com/church-online/smil:church-online.smil/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"ManaChurchOnline.pt\" tvg-logo=\"https://i.imgur.com/FRDJSim.png\" group-title=\"Religious\",Maná Church Online (1080p) [Not 24/7]\r\nhttps://w2.manasat.com/church-online/smil:church-online.smil/playlist.m3u8",
+      "line": 51,
       "catchup": {
         "type": "",
         "days": "",
@@ -304,6 +304,34 @@
       "url": "https://w2.manasat.com/eglise-online/smil:eglise-online.smil/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"ManaEgliseOnline.pt\" tvg-logo=\"https://i.imgur.com/xQYly8O.png\" group-title=\"Religious\",Maná Église Online (1080p) [Not 24/7]\r\nhttps://w2.manasat.com/eglise-online/smil:eglise-online.smil/playlist.m3u8",
       "line": 55,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Maná Cirkev Online (1080p) [Not 24/7]",
+      "tvg": {
+        "id": "ManaCirkevOnline.pt",
+        "name": "",
+        "logo": "https://i.imgur.com/tYhXeRq.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Religious"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://w2.manasat.com/cirkev-online/smil:cirkev-online.smil/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"ManaCirkevOnline.pt\" tvg-logo=\"https://i.imgur.com/tYhXeRq.png\" group-title=\"Religious\",Maná Cirkev Online (1080p) [Not 24/7]\r\nhttps://w2.manasat.com/cirkev-online/smil:cirkev-online.smil/playlist.m3u8",
+      "line": 53,
       "catchup": {
         "type": "",
         "days": "",
@@ -369,62 +397,6 @@
       "status": "OK"
     },
     {
-      "name": "Maná Tserkov' Onlayn (1080p) [Not 24/7]",
-      "tvg": {
-        "id": "ManaTserkovOnlayn.pt",
-        "name": "",
-        "logo": "https://i.imgur.com/PruXLqS.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Religious"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://w2.manasat.com:443/tserkov-online/smil:tserkov-online.smil/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"ManaTserkovOnlayn.pt\" tvg-logo=\"https://i.imgur.com/PruXLqS.png\" group-title=\"Religious\",Maná Tserkov' Onlayn (1080p) [Not 24/7]\r\nhttps://w2.manasat.com:443/tserkov-online/smil:tserkov-online.smil/playlist.m3u8",
-      "line": 61,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Kuriakos Music (1080p)",
-      "tvg": {
-        "id": "KuriakosMusic.pt",
-        "name": "",
-        "logo": "https://i.imgur.com/Zl40NYi.jpg",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Music"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://195.23.211.179:1935/kmusic/smil:kmusic.smil/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"KuriakosMusic.pt\" tvg-logo=\"https://i.imgur.com/Zl40NYi.jpg\" group-title=\"Music\",Kuriakos Music (1080p)\r\nhttp://195.23.211.179:1935/kmusic/smil:kmusic.smil/playlist.m3u8",
-      "line": 47,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "ON FM (720p)",
       "tvg": {
         "id": "ONFM.pt",
@@ -444,6 +416,34 @@
       "url": "https://5ce9406b73c33.streamlock.net/ONFM/livestream/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"ONFM.pt\" tvg-logo=\"https://onfmwordpressfiles.ams3.digitaloceanspaces.com/wp-content/uploads/2023/03/17130121/logo-on-fm.png\" group-title=\"Music\",ON FM (720p)\r\nhttps://5ce9406b73c33.streamlock.net/ONFM/livestream/playlist.m3u8",
       "line": 67,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Maná Tserkov' Onlayn (1080p) [Not 24/7]",
+      "tvg": {
+        "id": "ManaTserkovOnlayn.pt",
+        "name": "",
+        "logo": "https://i.imgur.com/PruXLqS.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Religious"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://w2.manasat.com:443/tserkov-online/smil:tserkov-online.smil/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"ManaTserkovOnlayn.pt\" tvg-logo=\"https://i.imgur.com/PruXLqS.png\" group-title=\"Religious\",Maná Tserkov' Onlayn (1080p) [Not 24/7]\r\nhttps://w2.manasat.com:443/tserkov-online/smil:tserkov-online.smil/playlist.m3u8",
+      "line": 61,
       "catchup": {
         "type": "",
         "days": "",
@@ -537,6 +537,34 @@
       "status": "OK"
     },
     {
+      "name": "RTP Madeira (504p) [Not 24/7]",
+      "tvg": {
+        "id": "RTPMadeira.pt",
+        "name": "",
+        "logo": "https://i.imgur.com/nJNWTqA.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0"
+      },
+      "url": "https://streaming-live.rtp.pt/liverepeater/smil:rtpmadeira.smil/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"RTPMadeira.pt\" tvg-logo=\"https://i.imgur.com/nJNWTqA.png\" group-title=\"General\" user-agent=\"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0\",RTP Madeira (504p) [Not 24/7]\r\n#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0\r\nhttps://streaming-live.rtp.pt/liverepeater/smil:rtpmadeira.smil/playlist.m3u8",
+      "line": 93,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Morangos com Açúcar (1080p)",
       "tvg": {
         "id": "MorangoscomAcucar.pt",
@@ -556,90 +584,6 @@
       "url": "https://video-auth2.iol.pt/live_hd2/live_hd2/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"MorangoscomAcucar.pt\" tvg-logo=\"https://i.imgur.com/NRfEs0I.png\" group-title=\"Series\",Morangos com Açúcar (1080p)\r\nhttps://video-auth2.iol.pt/live_hd2/live_hd2/playlist.m3u8",
       "line": 63,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "RTP 1 (720p) [Not 24/7]",
-      "tvg": {
-        "id": "RTP1.pt",
-        "name": "",
-        "logo": "https://i.imgur.com/w7GV86i.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0"
-      },
-      "url": "https://streaming-live.rtp.pt/liverepeater/rtp1HD.smil/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"RTP1.pt\" tvg-logo=\"https://i.imgur.com/w7GV86i.png\" group-title=\"General\" user-agent=\"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0\",RTP 1 (720p) [Not 24/7]\r\n#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0\r\nhttps://streaming-live.rtp.pt/liverepeater/rtp1HD.smil/playlist.m3u8",
-      "line": 81,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "RTP 2 (720p) [Not 24/7]",
-      "tvg": {
-        "id": "RTP2.pt",
-        "name": "",
-        "logo": "https://i.imgur.com/T6WUqdn.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0"
-      },
-      "url": "https://streaming-live.rtp.pt/liverepeater/rtp2HD.smil/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"RTP2.pt\" tvg-logo=\"https://i.imgur.com/T6WUqdn.png\" group-title=\"General\" user-agent=\"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0\",RTP 2 (720p) [Not 24/7]\r\n#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0\r\nhttps://streaming-live.rtp.pt/liverepeater/rtp2HD.smil/playlist.m3u8",
-      "line": 84,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "RTP 3 (720p) [Not 24/7]",
-      "tvg": {
-        "id": "RTP3.pt",
-        "name": "",
-        "logo": "https://i.imgur.com/ohXJmiR.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "News"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0"
-      },
-      "url": "https://streaming-live.rtp.pt/livetvhlsDVR/rtpnHDdvr.smil/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"RTP3.pt\" tvg-logo=\"https://i.imgur.com/ohXJmiR.png\" group-title=\"News\" user-agent=\"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0\",RTP 3 (720p) [Not 24/7]\r\n#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0\r\nhttps://streaming-live.rtp.pt/livetvhlsDVR/rtpnHDdvr.smil/playlist.m3u8",
-      "line": 87,
       "catchup": {
         "type": "",
         "days": "",
@@ -677,25 +621,25 @@
       "status": "OK"
     },
     {
-      "name": "RTP Madeira (504p) [Not 24/7]",
+      "name": "RTP 3 (720p) [Not 24/7]",
       "tvg": {
-        "id": "RTPMadeira.pt",
+        "id": "RTP3.pt",
         "name": "",
-        "logo": "https://i.imgur.com/nJNWTqA.png",
+        "logo": "https://i.imgur.com/ohXJmiR.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "General"
+        "title": "News"
       },
       "http": {
         "referrer": "",
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0"
       },
-      "url": "https://streaming-live.rtp.pt/liverepeater/smil:rtpmadeira.smil/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"RTPMadeira.pt\" tvg-logo=\"https://i.imgur.com/nJNWTqA.png\" group-title=\"General\" user-agent=\"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0\",RTP Madeira (504p) [Not 24/7]\r\n#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0\r\nhttps://streaming-live.rtp.pt/liverepeater/smil:rtpmadeira.smil/playlist.m3u8",
-      "line": 93,
+      "url": "https://streaming-live.rtp.pt/livetvhlsDVR/rtpnHDdvr.smil/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"RTP3.pt\" tvg-logo=\"https://i.imgur.com/ohXJmiR.png\" group-title=\"News\" user-agent=\"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0\",RTP 3 (720p) [Not 24/7]\r\n#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0\r\nhttps://streaming-live.rtp.pt/livetvhlsDVR/rtpnHDdvr.smil/playlist.m3u8",
+      "line": 87,
       "catchup": {
         "type": "",
         "days": "",
@@ -761,34 +705,6 @@
       "status": "OK"
     },
     {
-      "name": "TV Canção Nova Portugal (720p)",
-      "tvg": {
-        "id": "TVCancaoNovaPortugal.pt",
-        "name": "",
-        "logo": "",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://5c65286fc6ace.streamlock.net/cancaonova/CancaoNova/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TVCancaoNovaPortugal.pt\" tvg-logo=\"\" group-title=\"Undefined\",TV Canção Nova Portugal (720p)\r\nhttps://5c65286fc6ace.streamlock.net/cancaonova/CancaoNova/playlist.m3u8",
-      "line": 107,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "TV Fátima (1080p)",
       "tvg": {
         "id": "TVFatima.pt",
@@ -808,6 +724,34 @@
       "url": "https://streamer-b02.videos.sapo.pt/live/santuario/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TVFatima.pt\" tvg-logo=\"https://i.imgur.com/0Nz2GqC.png\" group-title=\"Religious\",TV Fátima (1080p)\r\nhttps://streamer-b02.videos.sapo.pt/live/santuario/playlist.m3u8",
       "line": 109,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "TV Canção Nova Portugal (720p)",
+      "tvg": {
+        "id": "TVCancaoNova.pt",
+        "name": "",
+        "logo": "https://i.imgur.com/rSmwbkj.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://5c65286fc6ace.streamlock.net/cancaonova/CancaoNova/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"TVCancaoNova.pt\" tvg-logo=\"https://i.imgur.com/rSmwbkj.png\" group-title=\"Undefined\",TV Canção Nova Portugal (720p)\r\nhttps://5c65286fc6ace.streamlock.net/cancaonova/CancaoNova/playlist.m3u8",
+      "line": 107,
       "catchup": {
         "type": "",
         "days": "",
@@ -845,34 +789,6 @@
       "status": "OK"
     },
     {
-      "name": "TV Maná English (1080p)",
-      "tvg": {
-        "id": "TVManaEnglish.pt",
-        "name": "",
-        "logo": "https://i.imgur.com/I66IkCw.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Religious"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://w1.manasat.com/tvmana-english/smil:tvmana-english.smil/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TVManaEnglish.pt\" tvg-logo=\"https://i.imgur.com/I66IkCw.png\" group-title=\"Religious\",TV Maná English (1080p)\r\nhttps://w1.manasat.com/tvmana-english/smil:tvmana-english.smil/playlist.m3u8",
-      "line": 117,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "TV Maná 2 (1080p)",
       "tvg": {
         "id": "TVMana2.pt",
@@ -892,6 +808,34 @@
       "url": "https://w1.manasat.com/tvmana-2/smil:tvmana-2.smil/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TVMana2.pt\" tvg-logo=\"https://i.imgur.com/VYNjVov.png\" group-title=\"Religious\",TV Maná 2 (1080p)\r\nhttps://w1.manasat.com/tvmana-2/smil:tvmana-2.smil/playlist.m3u8",
       "line": 113,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "TV Maná English (1080p)",
+      "tvg": {
+        "id": "TVManaEnglish.pt",
+        "name": "",
+        "logo": "https://i.imgur.com/I66IkCw.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Religious"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://w1.manasat.com/tvmana-english/smil:tvmana-english.smil/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"TVManaEnglish.pt\" tvg-logo=\"https://i.imgur.com/I66IkCw.png\" group-title=\"Religious\",TV Maná English (1080p)\r\nhttps://w1.manasat.com/tvmana-english/smil:tvmana-english.smil/playlist.m3u8",
+      "line": 117,
       "catchup": {
         "type": "",
         "days": "",
@@ -975,7 +919,7 @@
       },
       "url": "http://213.13.26.11:1935/live/sobrenaturaltv/livestream.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"WayTV.pt\" tvg-logo=\"https://i.ibb.co/gdpvKpS/cropped-Asset-1.png\" group-title=\"Religious\",Way TV (1080p)\r\nhttp://213.13.26.11:1935/live/sobrenaturaltv/livestream.m3u8",
-      "line": 127,
+      "line": 125,
       "catchup": {
         "type": "",
         "days": "",
