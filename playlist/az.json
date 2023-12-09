@@ -5,6 +5,34 @@
   },
   "items": [
     {
+      "name": "ARB 24 (1080p)",
+      "tvg": {
+        "id": "ARB24.az",
+        "name": "",
+        "logo": "https://i.imgur.com/mtvIFyq.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "News"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://85.132.81.184:8080/arb/live/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"ARB24.az\" tvg-logo=\"https://i.imgur.com/mtvIFyq.png\" group-title=\"News\",ARB 24 (1080p)\r\nhttp://85.132.81.184:8080/arb/live/index.m3u8",
+      "line": 8,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "APA TV (720p)",
       "tvg": {
         "id": "APATv.az",
@@ -33,25 +61,25 @@
       "status": "OK"
     },
     {
-      "name": "ARB 24 (1080p)",
+      "name": "ARB (576p)",
       "tvg": {
-        "id": "ARB24.az",
+        "id": "ARB.az",
         "name": "",
-        "logo": "https://i.imgur.com/mtvIFyq.png",
+        "logo": "https://i.imgur.com/E97M2OL.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "News"
+        "title": "General"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "http://85.132.81.184:8080/arb/live/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"ARB24.az\" tvg-logo=\"https://i.imgur.com/mtvIFyq.png\" group-title=\"News\",ARB 24 (1080p)\r\nhttp://85.132.81.184:8080/arb/live/index.m3u8",
-      "line": 8,
+      "url": "http://109.205.166.68/server124/arb/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"ARB.az\" tvg-logo=\"https://i.imgur.com/E97M2OL.png\" group-title=\"General\",ARB (576p)\r\nhttp://109.205.166.68/server124/arb/index.m3u8",
+      "line": 10,
       "catchup": {
         "type": "",
         "days": "",
@@ -201,62 +229,6 @@
       "status": "OK"
     },
     {
-      "name": "Kanal Turan (576p)",
-      "tvg": {
-        "id": "KanalTuran.fr",
-        "name": "",
-        "logo": "https://i.imgur.com/9AWwu2o.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "News"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://donvolga.com/Turan-TV/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"KanalTuran.fr\" tvg-logo=\"https://i.imgur.com/9AWwu2o.png\" group-title=\"News\",Kanal Turan (576p)\r\nhttps://donvolga.com/Turan-TV/index.m3u8",
-      "line": 51,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "ARB (576p)",
-      "tvg": {
-        "id": "ARB.az",
-        "name": "",
-        "logo": "https://i.imgur.com/E97M2OL.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://109.205.166.68/server124/arb/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"ARB.az\" tvg-logo=\"https://i.imgur.com/E97M2OL.png\" group-title=\"General\",ARB (576p)\r\nhttp://109.205.166.68/server124/arb/index.m3u8",
-      "line": 10,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Kəpəz TV (540p) [Not 24/7]",
       "tvg": {
         "id": "KepezTV.az",
@@ -313,6 +285,34 @@
       "status": "OK"
     },
     {
+      "name": "Kanal Turan (576p)",
+      "tvg": {
+        "id": "KanalTuran.fr",
+        "name": "",
+        "logo": "https://i.imgur.com/9AWwu2o.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "News"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://donvolga.com/Turan-TV/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"KanalTuran.fr\" tvg-logo=\"https://i.imgur.com/9AWwu2o.png\" group-title=\"News\",Kanal Turan (576p)\r\nhttps://donvolga.com/Turan-TV/index.m3u8",
+      "line": 51,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "İdman TV (576p)",
       "tvg": {
         "id": "IdmanTV.az",
@@ -360,34 +360,6 @@
       "url": "https://str.yodacdn.net/medeniyyet/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"MedeniyyetTV.az\" tvg-logo=\"https://i.imgur.com/PlvaDIa.png\" group-title=\"Culture\",Medeniyyet TV (406p)\r\nhttps://str.yodacdn.net/medeniyyet/index.m3u8",
       "line": 55,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Real TV [Geo-blocked]",
-      "tvg": {
-        "id": "RealTV.az",
-        "name": "",
-        "logo": "https://i.imgur.com/e2KFL0R.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://str.yodacdn.net/real/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"RealTV.az\" tvg-logo=\"https://i.imgur.com/e2KFL0R.png\" group-title=\"Undefined\",Real TV [Geo-blocked]\r\nhttps://str.yodacdn.net/real/playlist.m3u8",
-      "line": 69,
       "catchup": {
         "type": "",
         "days": "",
