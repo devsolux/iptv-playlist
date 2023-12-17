@@ -5,6 +5,34 @@
   },
   "items": [
     {
+      "name": "Cartoon Network (576p)",
+      "tvg": {
+        "id": "CartoonNetworkScandinavia.uk",
+        "name": "",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/512px-Cartoon_Network_2010_logo.svg.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Animation;Kids"
+      },
+      "http": {
+        "referrer": "http://89.254.128.5:22280/",
+        "user-agent": ""
+      },
+      "url": "http://89.254.128.5:22280/cartoon_network/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"CartoonNetworkScandinavia.uk\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/512px-Cartoon_Network_2010_logo.svg.png\" group-title=\"Animation;Kids\",Cartoon Network (576p)\r\n#EXTVLCOPT:http-referrer=http://89.254.128.5:22280/\r\nhttp://89.254.128.5:22280/cartoon_network/index.m3u8",
+      "line": 13,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "DRTV (TV Avisen) (720p)",
       "tvg": {
         "id": "DRTV.dk",
@@ -23,7 +51,7 @@
       },
       "url": "https://drevent01hls.akamaized.net/hls/live/2014198/drevent01/master.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"DRTV.dk\" tvg-logo=\"https://i.ibb.co/c6n2vbW/512px-DR-TV-logo-svg.png\" group-title=\"Undefined\",DRTV (TV Avisen) (720p)\r\nhttps://drevent01hls.akamaized.net/hls/live/2014198/drevent01/master.m3u8",
-      "line": 21,
+      "line": 24,
       "catchup": {
         "type": "",
         "days": "",
@@ -61,34 +89,6 @@
       "status": "OK"
     },
     {
-      "name": "Kanal Hovedstaden (720p) [Not 24/7]",
-      "tvg": {
-        "id": "KanalHovedstaden.dk",
-        "name": "",
-        "logo": "https://i.imgur.com/MCXYDwH.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://khkbh.dk:8080/hls/livestream/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"KanalHovedstaden.dk\" tvg-logo=\"https://i.imgur.com/MCXYDwH.png\" group-title=\"Undefined\",Kanal Hovedstaden (720p) [Not 24/7]\r\nhttp://khkbh.dk:8080/hls/livestream/index.m3u8",
-      "line": 33,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Folketinget (1080p) [Not 24/7]",
       "tvg": {
         "id": "TVfromtheDanishParliament.dk",
@@ -107,7 +107,7 @@
       },
       "url": "https://cdnapi.kaltura.com/p/2158211/sp/327418300/playManifest/entryId/1_24gfa7qq/protocol/https/format/applehttp/a.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TVfromtheDanishParliament.dk\" tvg-logo=\"https://i.imgur.com/RqQDUzX.png\" group-title=\"Legislative\",Folketinget (1080p) [Not 24/7]\r\nhttps://cdnapi.kaltura.com/p/2158211/sp/327418300/playManifest/entryId/1_24gfa7qq/protocol/https/format/applehttp/a.m3u8",
-      "line": 31,
+      "line": 34,
       "catchup": {
         "type": "",
         "days": "",
@@ -117,11 +117,11 @@
       "status": "OK"
     },
     {
-      "name": "Rakuten Action (720p)",
+      "name": "Kanal Hovedstaden (720p) [Not 24/7]",
       "tvg": {
-        "id": "",
+        "id": "KanalHovedstaden.dk",
         "name": "",
-        "logo": "",
+        "logo": "https://i.imgur.com/MCXYDwH.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -133,9 +133,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://rakuten-action-10-dk.samsung.wurl.tv/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"\" tvg-logo=\"\" group-title=\"Undefined\",Rakuten Action (720p)\r\nhttps://rakuten-action-10-dk.samsung.wurl.tv/playlist.m3u8",
-      "line": 41,
+      "url": "http://khkbh.dk:8080/hls/livestream/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"KanalHovedstaden.dk\" tvg-logo=\"https://i.imgur.com/MCXYDwH.png\" group-title=\"Undefined\",Kanal Hovedstaden (720p) [Not 24/7]\r\nhttp://khkbh.dk:8080/hls/livestream/index.m3u8",
+      "line": 36,
       "catchup": {
         "type": "",
         "days": "",
@@ -163,7 +163,35 @@
       },
       "url": "http://89.254.128.5:22280/nicktoons/video.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"NicktoonsScandinavia.nl\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/d/d8/Nicktoons_UK_Logo_2014.png\" group-title=\"Kids\",Nicktoons Scandinavia\r\nhttp://89.254.128.5:22280/nicktoons/video.m3u8",
-      "line": 39,
+      "line": 42,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Rakuten Action (720p)",
+      "tvg": {
+        "id": "",
+        "name": "",
+        "logo": "",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://rakuten-action-10-dk.samsung.wurl.tv/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"\" tvg-logo=\"\" group-title=\"Undefined\",Rakuten Action (720p)\r\nhttps://rakuten-action-10-dk.samsung.wurl.tv/playlist.m3u8",
+      "line": 44,
       "catchup": {
         "type": "",
         "days": "",
@@ -191,7 +219,7 @@
       },
       "url": "https://rakuten-comedy-10-dk.samsung.wurl.tv/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"\" tvg-logo=\"\" group-title=\"Undefined\",Rakuten Comedy (720p)\r\nhttps://rakuten-comedy-10-dk.samsung.wurl.tv/playlist.m3u8",
-      "line": 43,
+      "line": 46,
       "catchup": {
         "type": "",
         "days": "",
@@ -219,7 +247,7 @@
       },
       "url": "https://rakuten-drama-10-dk.samsung.wurl.tv/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"\" tvg-logo=\"\" group-title=\"Undefined\",Rakuten Drama (720p)\r\nhttps://rakuten-drama-10-dk.samsung.wurl.tv/playlist.m3u8",
-      "line": 45,
+      "line": 48,
       "catchup": {
         "type": "",
         "days": "",
@@ -247,7 +275,7 @@
       },
       "url": "https://rakuten-family-10-dk.samsung.wurl.tv/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"\" tvg-logo=\"\" group-title=\"Undefined\",Rakuten Family (720p)\r\nhttps://rakuten-family-10-dk.samsung.wurl.tv/playlist.m3u8",
-      "line": 47,
+      "line": 50,
       "catchup": {
         "type": "",
         "days": "",
@@ -275,7 +303,7 @@
       },
       "url": "https://rakuten-spotlight-10-dk.samsung.wurl.tv/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"\" tvg-logo=\"\" group-title=\"Undefined\",Rakuten Spotlight (720p)\r\nhttps://rakuten-spotlight-10-dk.samsung.wurl.tv/playlist.m3u8",
-      "line": 49,
+      "line": 52,
       "catchup": {
         "type": "",
         "days": "",
@@ -303,7 +331,7 @@
       },
       "url": "https://live.tv2bornholm.dk/stream/live/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TV2Bornholm.dk\" tvg-logo=\"https://i.imgur.com/cEOpXU6.png\" group-title=\"Undefined\",TV2/Bornholm (1080p) [Not 24/7]\r\nhttps://live.tv2bornholm.dk/stream/live/playlist.m3u8",
-      "line": 51,
+      "line": 54,
       "catchup": {
         "type": "",
         "days": "",
@@ -331,7 +359,7 @@
       },
       "url": "https://cdnapisec.kaltura.com/p/2045321/sp/204532100/playManifest/entryId/1_2kojfk4m/format/applehttp/protocol/https/uiConfId/32599481/a.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TV2Kosmopol.dk\" tvg-logo=\"https://i.imgur.com/oVmCoKY.png\" group-title=\"Undefined\",TV 2 Kosmopol (720p)\r\nhttps://cdnapisec.kaltura.com/p/2045321/sp/204532100/playManifest/entryId/1_2kojfk4m/format/applehttp/protocol/https/uiConfId/32599481/a.m3u8",
-      "line": 57,
+      "line": 60,
       "catchup": {
         "type": "",
         "days": "",
@@ -359,63 +387,7 @@
       },
       "url": "https://cdnapisec.kaltura.com/p/1966291/sp/196629100/playManifest/entryId/0_vsfrv0zm/format/applehttp/protocol/https/uiConfId/30288171/a.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TV2Fyn.dk\" tvg-logo=\"https://i.imgur.com/4L6AIMH.png\" group-title=\"Undefined\",TV2 Fyn (720p) [Not 24/7]\r\nhttps://cdnapisec.kaltura.com/p/1966291/sp/196629100/playManifest/entryId/0_vsfrv0zm/format/applehttp/protocol/https/uiConfId/30288171/a.m3u8",
-      "line": 55,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "TV2/Østjylland (720p)",
-      "tvg": {
-        "id": "TV2Ostjylland.dk",
-        "name": "",
-        "logo": "https://i.imgur.com/qEUXjHp.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://cdnapisec.kaltura.com/p/2102081/sp/2102081/playManifest/entryId/0_x4p3licd/flavorIds/0_pcvatr5k,0_aezqkdsi,0_dkeq429y,0_99pivdxs/deliveryProfileId/10552/protocol/https/format/applehttp/a.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TV2Ostjylland.dk\" tvg-logo=\"https://i.imgur.com/qEUXjHp.png\" group-title=\"Undefined\",TV2/Østjylland (720p)\r\nhttps://cdnapisec.kaltura.com/p/2102081/sp/2102081/playManifest/entryId/0_x4p3licd/flavorIds/0_pcvatr5k,0_aezqkdsi,0_dkeq429y,0_99pivdxs/deliveryProfileId/10552/protocol/https/format/applehttp/a.m3u8",
-      "line": 53,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "TV SYD (1080p)",
-      "tvg": {
-        "id": "TVSYD.dk",
-        "name": "",
-        "logo": "https://i.imgur.com/k2jf591.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://cdn-lt-live.tvsyd.dk/env/cluster-1-e.live.nvp1/live/hls/p/1956351/e/0_e9slj9wh/tl/main/st/0/t/rFEtaqAbdhUFGef_BNF4WQ/index-s32.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TVSYD.dk\" tvg-logo=\"https://i.imgur.com/k2jf591.png\" group-title=\"Undefined\",TV SYD (1080p)\r\nhttps://cdn-lt-live.tvsyd.dk/env/cluster-1-e.live.nvp1/live/hls/p/1956351/e/0_e9slj9wh/tl/main/st/0/t/rFEtaqAbdhUFGef_BNF4WQ/index-s32.m3u8",
-      "line": 67,
+      "line": 58,
       "catchup": {
         "type": "",
         "days": "",
@@ -443,7 +415,63 @@
       },
       "url": "https://cdnapisec.kaltura.com/p/1956931/sp/195693100/playManifest/entryId/1_h9yfe7h2/protocol/https/format/applehttp/a.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TV2Nord.dk\" tvg-logo=\"https://i.imgur.com/tEJ22UW.png\" group-title=\"Undefined\",TV2 Nord (1080p)\r\nhttps://cdnapisec.kaltura.com/p/1956931/sp/195693100/playManifest/entryId/1_h9yfe7h2/protocol/https/format/applehttp/a.m3u8",
-      "line": 59,
+      "line": 62,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "TV2/Østjylland (720p)",
+      "tvg": {
+        "id": "TV2Ostjylland.dk",
+        "name": "",
+        "logo": "https://i.imgur.com/qEUXjHp.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://cdnapisec.kaltura.com/p/2102081/sp/2102081/playManifest/entryId/0_x4p3licd/flavorIds/0_pcvatr5k,0_aezqkdsi,0_dkeq429y,0_99pivdxs/deliveryProfileId/10552/protocol/https/format/applehttp/a.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"TV2Ostjylland.dk\" tvg-logo=\"https://i.imgur.com/qEUXjHp.png\" group-title=\"Undefined\",TV2/Østjylland (720p)\r\nhttps://cdnapisec.kaltura.com/p/2102081/sp/2102081/playManifest/entryId/0_x4p3licd/flavorIds/0_pcvatr5k,0_aezqkdsi,0_dkeq429y,0_99pivdxs/deliveryProfileId/10552/protocol/https/format/applehttp/a.m3u8",
+      "line": 56,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "TV SYD (1080p)",
+      "tvg": {
+        "id": "TVSYD.dk",
+        "name": "",
+        "logo": "https://i.imgur.com/k2jf591.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://cdn-lt-live.tvsyd.dk/env/cluster-1-e.live.nvp1/live/hls/p/1956351/e/0_e9slj9wh/tl/main/st/0/t/rFEtaqAbdhUFGef_BNF4WQ/index-s32.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"TVSYD.dk\" tvg-logo=\"https://i.imgur.com/k2jf591.png\" group-title=\"Undefined\",TV SYD (1080p)\r\nhttps://cdn-lt-live.tvsyd.dk/env/cluster-1-e.live.nvp1/live/hls/p/1956351/e/0_e9slj9wh/tl/main/st/0/t/rFEtaqAbdhUFGef_BNF4WQ/index-s32.m3u8",
+      "line": 70,
       "catchup": {
         "type": "",
         "days": "",
@@ -471,7 +499,7 @@
       },
       "url": "https://cdnapisec.kaltura.com/p/1953381/sp/195338100/playManifest/entryId/0_zphj9q61/protocol/https/format/applehttp/a.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TV2Ost.dk\" tvg-logo=\"https://i.imgur.com/H9l6Ulw.png\" group-title=\"Undefined\",TV2 Øst (1080p)\r\nhttps://cdnapisec.kaltura.com/p/1953381/sp/195338100/playManifest/entryId/0_zphj9q61/protocol/https/format/applehttp/a.m3u8",
-      "line": 61,
+      "line": 64,
       "catchup": {
         "type": "",
         "days": "",
