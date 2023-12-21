@@ -117,34 +117,6 @@
       "status": "OK"
     },
     {
-      "name": "Az Star TV (1080p)",
-      "tvg": {
-        "id": "AzStarTV.ca",
-        "name": "",
-        "logo": "https://i.imgur.com/di3XX5L.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://live.azstartv.com/azstar/smil:azstar.smil/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"AzStarTV.ca\" tvg-logo=\"https://i.imgur.com/di3XX5L.png\" group-title=\"General\",Az Star TV (1080p)\r\nhttp://live.azstartv.com/azstar/smil:azstar.smil/playlist.m3u8",
-      "line": 14,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Canada One (720p) [Not 24/7]",
       "tvg": {
         "id": "CanadaOne.ca",
@@ -173,25 +145,53 @@
       "status": "OK"
     },
     {
-      "name": "Belmedia TV (1080p)",
+      "name": "Az Star TV (1080p)",
       "tvg": {
-        "id": "BelmediaTV.ca",
+        "id": "AzStarTV.ca",
         "name": "",
-        "logo": "https://i.imgur.com/xEbQsdj.png",
+        "logo": "https://i.imgur.com/di3XX5L.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Music"
+        "title": "General"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://ythls.armelin.one/channel/UCtj2xA6lW9BPE4BxnhxQQkw.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"BelmediaTV.ca\" tvg-logo=\"https://i.imgur.com/xEbQsdj.png\" group-title=\"Music\",Belmedia TV (1080p)\r\nhttps://ythls.armelin.one/channel/UCtj2xA6lW9BPE4BxnhxQQkw.m3u8",
-      "line": 18,
+      "url": "http://live.azstartv.com/azstar/smil:azstar.smil/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"AzStarTV.ca\" tvg-logo=\"https://i.imgur.com/di3XX5L.png\" group-title=\"General\",Az Star TV (1080p)\r\nhttp://live.azstartv.com/azstar/smil:azstar.smil/playlist.m3u8",
+      "line": 14,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Canal Savoir (360p)",
+      "tvg": {
+        "id": "CFTUDT.ca",
+        "name": "",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Savoir_tv_logo.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://hls.savoir.media/live/stream.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"CFTUDT.ca\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/f/ff/Savoir_tv_logo.png\" group-title=\"Undefined\",Canal Savoir (360p)\r\nhttps://hls.savoir.media/live/stream.m3u8",
+      "line": 32,
       "catchup": {
         "type": "",
         "days": "",
@@ -229,25 +229,25 @@
       "status": "OK"
     },
     {
-      "name": "CBC News (720p)",
+      "name": "CBC Comedy (1080p) [Geo-blocked]",
       "tvg": {
-        "id": "CBCNewsNetwork.ca",
+        "id": "",
         "name": "",
-        "logo": "https://i.imgur.com/SjTdhvJ.png",
+        "logo": "",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "News"
+        "title": "Undefined"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxcbcnews/CDN/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"CBCNewsNetwork.ca\" tvg-logo=\"https://i.imgur.com/SjTdhvJ.png\" group-title=\"News\",CBC News (720p)\r\nhttps://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxcbcnews/CDN/playlist.m3u8",
-      "line": 50,
+      "url": "https://webtelly-streams.akamaized.net/prod-cbc-comedy-rtp/hls/master.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"\" tvg-logo=\"\" group-title=\"Undefined\",CBC Comedy (1080p) [Geo-blocked]\r\nhttps://webtelly-streams.akamaized.net/prod-cbc-comedy-rtp/hls/master.m3u8",
+      "line": 38,
       "catchup": {
         "type": "",
         "days": "",
@@ -285,6 +285,34 @@
       "status": "OK"
     },
     {
+      "name": "CHCO-TV (720p) [Geo-blocked]",
+      "tvg": {
+        "id": "CHCOTV.ca",
+        "name": "",
+        "logo": "https://i.imgur.com/EpMawIy.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://temp4.isilive.ca/live/CHCOTV/live/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"CHCOTV.ca\" tvg-logo=\"https://i.imgur.com/EpMawIy.png\" group-title=\"Undefined\",CHCO-TV (720p) [Geo-blocked]\r\nhttps://temp4.isilive.ca/live/CHCOTV/live/index.m3u8",
+      "line": 72,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "CityNews (720p)",
       "tvg": {
         "id": "",
@@ -304,62 +332,6 @@
       "url": "https://citynewsregional.akamaized.net/hls/live/1024053/Regional_Live_8/master.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"\" tvg-logo=\"\" group-title=\"Undefined\",CityNews (720p)\r\nhttps://citynewsregional.akamaized.net/hls/live/1024053/Regional_Live_8/master.m3u8",
       "line": 74,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "CBC Comedy (1080p) [Geo-blocked]",
-      "tvg": {
-        "id": "",
-        "name": "",
-        "logo": "",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://webtelly-streams.akamaized.net/prod-cbc-comedy-rtp/hls/master.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"\" tvg-logo=\"\" group-title=\"Undefined\",CBC Comedy (1080p) [Geo-blocked]\r\nhttps://webtelly-streams.akamaized.net/prod-cbc-comedy-rtp/hls/master.m3u8",
-      "line": 38,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "CityNews Toronto (720p)",
-      "tvg": {
-        "id": "",
-        "name": "",
-        "logo": "",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://citynewsregional.akamaized.net/hls/live/1024052/Regional_Live_7/master.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"\" tvg-logo=\"\" group-title=\"Undefined\",CityNews Toronto (720p)\r\nhttps://citynewsregional.akamaized.net/hls/live/1024052/Regional_Live_7/master.m3u8",
-      "line": 76,
       "catchup": {
         "type": "",
         "days": "",
@@ -425,6 +397,34 @@
       "status": "OK"
     },
     {
+      "name": "CityNews Toronto (720p)",
+      "tvg": {
+        "id": "",
+        "name": "",
+        "logo": "",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://citynewsregional.akamaized.net/hls/live/1024052/Regional_Live_7/master.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"\" tvg-logo=\"\" group-title=\"Undefined\",CityNews Toronto (720p)\r\nhttps://citynewsregional.akamaized.net/hls/live/1024052/Regional_Live_7/master.m3u8",
+      "line": 76,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "CPAC (720p)",
       "tvg": {
         "id": "CPACEnglish.ca",
@@ -453,34 +453,6 @@
       "status": "OK"
     },
     {
-      "name": "Dukh Nivaran (720p) [Not 24/7]",
-      "tvg": {
-        "id": "DukhNivaran.ca",
-        "name": "",
-        "logo": "https://i.imgur.com/Zh60l1x.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://cdn12.henico.net:8080/live/dncal/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"DukhNivaran.ca\" tvg-logo=\"https://i.imgur.com/Zh60l1x.png\" group-title=\"Undefined\",Dukh Nivaran (720p) [Not 24/7]\r\nhttp://cdn12.henico.net:8080/live/dncal/index.m3u8",
-      "line": 94,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "DryBar Comedy",
       "tvg": {
         "id": "",
@@ -500,6 +472,34 @@
       "url": "https://drybar-drybarcomedy-1-ca.samsung.wurl.tv/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"\" tvg-logo=\"\" group-title=\"Undefined\",DryBar Comedy\r\nhttps://drybar-drybarcomedy-1-ca.samsung.wurl.tv/playlist.m3u8",
       "line": 92,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Dukh Nivaran (720p) [Not 24/7]",
+      "tvg": {
+        "id": "DukhNivaran.ca",
+        "name": "",
+        "logo": "https://i.imgur.com/Zh60l1x.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://cdn12.henico.net:8080/live/dncal/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"DukhNivaran.ca\" tvg-logo=\"https://i.imgur.com/Zh60l1x.png\" group-title=\"Undefined\",Dukh Nivaran (720p) [Not 24/7]\r\nhttp://cdn12.henico.net:8080/live/dncal/index.m3u8",
+      "line": 94,
       "catchup": {
         "type": "",
         "days": "",
@@ -817,34 +817,6 @@
       "status": "OK"
     },
     {
-      "name": "Kidoodle TV",
-      "tvg": {
-        "id": "KidoodleTV.ca",
-        "name": "",
-        "logo": "https://i.imgur.com/MaFtbM5.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Kids"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://kidoodletv-kdtv-1-ca.samsung.wurl.tv/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"KidoodleTV.ca\" tvg-logo=\"https://i.imgur.com/MaFtbM5.png\" group-title=\"Kids\",Kidoodle TV\r\nhttps://kidoodletv-kdtv-1-ca.samsung.wurl.tv/playlist.m3u8",
-      "line": 155,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "IIPC TV (480p) [Geo-blocked]",
       "tvg": {
         "id": "IIPCTV.ca",
@@ -864,6 +836,34 @@
       "url": "https://uni10rtmp.tulix.tv/iipctv/iipctv.smil/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"IIPCTV.ca\" tvg-logo=\"https://i.imgur.com/mIih39Y.png\" group-title=\"Religious\",IIPC TV (480p) [Geo-blocked]\r\nhttps://uni10rtmp.tulix.tv/iipctv/iipctv.smil/playlist.m3u8",
       "line": 148,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Kidoodle TV",
+      "tvg": {
+        "id": "KidoodleTV.ca",
+        "name": "",
+        "logo": "https://i.imgur.com/MaFtbM5.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Kids"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://kidoodletv-kdtv-1-ca.samsung.wurl.tv/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"KidoodleTV.ca\" tvg-logo=\"https://i.imgur.com/MaFtbM5.png\" group-title=\"Kids\",Kidoodle TV\r\nhttps://kidoodletv-kdtv-1-ca.samsung.wurl.tv/playlist.m3u8",
+      "line": 155,
       "catchup": {
         "type": "",
         "days": "",
@@ -1097,34 +1097,6 @@
       "status": "OK"
     },
     {
-      "name": "Pamir TV (1080p) [Not 24/7]",
-      "tvg": {
-        "id": "PamirTV.ca",
-        "name": "",
-        "logo": "https://i.imgur.com/sCBbBOj.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Culture;Music"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://live.stream.cdn.pamirtv.com/ptv/d0dbe915091d400bd8ee7f27f0791303.sdp/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"PamirTV.ca\" tvg-logo=\"https://i.imgur.com/sCBbBOj.png\" group-title=\"Culture;Music\",Pamir TV (1080p) [Not 24/7]\r\nhttp://live.stream.cdn.pamirtv.com/ptv/d0dbe915091d400bd8ee7f27f0791303.sdp/index.m3u8",
-      "line": 187,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Pardesi TV (720p)",
       "tvg": {
         "id": "PardesiTV.ca",
@@ -1265,6 +1237,34 @@
       "status": "OK"
     },
     {
+      "name": "Sikh Spiritual Centre Rexdale (720p)",
+      "tvg": {
+        "id": "SikhSpiritualCentreRexdale.ca",
+        "name": "",
+        "logo": "https://i.imgur.com/YKXoIsr.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://cdn12.henico.net:8443/live/ssct/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"SikhSpiritualCentreRexdale.ca\" tvg-logo=\"https://i.imgur.com/YKXoIsr.png\" group-title=\"Undefined\",Sikh Spiritual Centre Rexdale (720p)\r\nhttps://cdn12.henico.net:8443/live/ssct/index.m3u8",
+      "line": 209,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Sooriyan TV",
       "tvg": {
         "id": "SooriyanTV.ca",
@@ -1377,6 +1377,62 @@
       "status": "OK"
     },
     {
+      "name": "TAG TV (1080p) [Not 24/7]",
+      "tvg": {
+        "id": "TAGTV.ca",
+        "name": "",
+        "logo": "https://i.imgur.com/4PA2adF.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://cdn11.live247stream.com/tag/tv/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"TAGTV.ca\" tvg-logo=\"https://i.imgur.com/4PA2adF.png\" group-title=\"Undefined\",TAG TV (1080p) [Not 24/7]\r\nhttp://cdn11.live247stream.com/tag/tv/playlist.m3u8",
+      "line": 255,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "SVBC Sri Venkateswara Bhakti Channel (1080p)",
+      "tvg": {
+        "id": "SVBC.in",
+        "name": "",
+        "logo": "https://i.imgur.com/LSMvXAl.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Religious"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://player.mslivestream.net/telugu/5d076e5c3d34cb8bb08e54a4bb7e223e.sdp/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"SVBC.in\" tvg-logo=\"https://i.imgur.com/LSMvXAl.png\" group-title=\"Religious\",SVBC Sri Venkateswara Bhakti Channel (1080p)\r\nhttps://player.mslivestream.net/telugu/5d076e5c3d34cb8bb08e54a4bb7e223e.sdp/playlist.m3u8",
+      "line": 253,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Tamil Vision TV (1080p)",
       "tvg": {
         "id": "TamilVisionTV.ca",
@@ -1433,25 +1489,25 @@
       "status": "OK"
     },
     {
-      "name": "SVBC Sri Venkateswara Bhakti Channel (1080p)",
+      "name": "Tele Culturelle Medias (1080p)",
       "tvg": {
-        "id": "SVBC.in",
+        "id": "TeleCulturelleMedias.ca",
         "name": "",
-        "logo": "https://i.imgur.com/LSMvXAl.png",
+        "logo": "https://i.imgur.com/xabicXU.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Religious"
+        "title": "Culture"
       },
       "http": {
-        "referrer": "",
+        "referrer": "https://player.castr.com/live_79b37a4032dd11ed85c9d9bece7b557e",
         "user-agent": ""
       },
-      "url": "https://player.mslivestream.net/telugu/5d076e5c3d34cb8bb08e54a4bb7e223e.sdp/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"SVBC.in\" tvg-logo=\"https://i.imgur.com/LSMvXAl.png\" group-title=\"Religious\",SVBC Sri Venkateswara Bhakti Channel (1080p)\r\nhttps://player.mslivestream.net/telugu/5d076e5c3d34cb8bb08e54a4bb7e223e.sdp/playlist.m3u8",
-      "line": 253,
+      "url": "https://stream.castr.com/631f9bb9ecbe28ce6910385a/live_79b37a4032dd11ed85c9d9bece7b557e/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"TeleCulturelleMedias.ca\" tvg-logo=\"https://i.imgur.com/xabicXU.png\" group-title=\"Culture\",Tele Culturelle Medias (1080p)\r\n#EXTVLCOPT:http-referrer=https://player.castr.com/live_79b37a4032dd11ed85c9d9bece7b557e\r\nhttps://stream.castr.com/631f9bb9ecbe28ce6910385a/live_79b37a4032dd11ed85c9d9bece7b557e/index.m3u8",
+      "line": 261,
       "catchup": {
         "type": "",
         "days": "",
@@ -1489,25 +1545,25 @@
       "status": "OK"
     },
     {
-      "name": "Tele Culturelle Medias (1080p)",
+      "name": "Télé-Mag Québec (1080p) [Not 24/7]",
       "tvg": {
-        "id": "TeleCulturelleMedias.ca",
+        "id": "TeleMagQuebec.ca",
         "name": "",
-        "logo": "https://i.imgur.com/xabicXU.png",
+        "logo": "https://i.imgur.com/AeeWZH1.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Culture"
+        "title": "General"
       },
       "http": {
-        "referrer": "https://player.castr.com/live_79b37a4032dd11ed85c9d9bece7b557e",
+        "referrer": "",
         "user-agent": ""
       },
-      "url": "https://stream.castr.com/631f9bb9ecbe28ce6910385a/live_79b37a4032dd11ed85c9d9bece7b557e/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TeleCulturelleMedias.ca\" tvg-logo=\"https://i.imgur.com/xabicXU.png\" group-title=\"Culture\",Tele Culturelle Medias (1080p)\r\n#EXTVLCOPT:http-referrer=https://player.castr.com/live_79b37a4032dd11ed85c9d9bece7b557e\r\nhttps://stream.castr.com/631f9bb9ecbe28ce6910385a/live_79b37a4032dd11ed85c9d9bece7b557e/index.m3u8",
-      "line": 261,
+      "url": "https://ythls.armelin.one/channel/UCNKXYT-Nng5LBMUQrZJ9zWA.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"TeleMagQuebec.ca\" tvg-logo=\"https://i.imgur.com/AeeWZH1.png\" group-title=\"General\",Télé-Mag Québec (1080p) [Not 24/7]\r\nhttps://ythls.armelin.one/channel/UCNKXYT-Nng5LBMUQrZJ9zWA.m3u8",
+      "line": 264,
       "catchup": {
         "type": "",
         "days": "",
@@ -1573,34 +1629,6 @@
       "status": "OK"
     },
     {
-      "name": "Télé-Mag Québec (1080p) [Not 24/7]",
-      "tvg": {
-        "id": "TeleMagQuebec.ca",
-        "name": "",
-        "logo": "https://i.imgur.com/AeeWZH1.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://ythls.armelin.one/channel/UCNKXYT-Nng5LBMUQrZJ9zWA.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TeleMagQuebec.ca\" tvg-logo=\"https://i.imgur.com/AeeWZH1.png\" group-title=\"General\",Télé-Mag Québec (1080p) [Not 24/7]\r\nhttps://ythls.armelin.one/channel/UCNKXYT-Nng5LBMUQrZJ9zWA.m3u8",
-      "line": 264,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Today's Shopping Choice (TSC) (720p)",
       "tvg": {
         "id": "TSC.ca",
@@ -1657,34 +1685,6 @@
       "status": "OK"
     },
     {
-      "name": "Uvagut TV (1080p)",
-      "tvg": {
-        "id": "UvagutTV.ca",
-        "name": "",
-        "logo": "https://i.imgur.com/RR7ATr2.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://dee7mwgg9dzvl.cloudfront.net/hls/uvagut/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"UvagutTV.ca\" tvg-logo=\"https://i.imgur.com/RR7ATr2.png\" group-title=\"Undefined\",Uvagut TV (1080p)\r\nhttps://dee7mwgg9dzvl.cloudfront.net/hls/uvagut/playlist.m3u8",
-      "line": 286,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "TV Punjab (720p)",
       "tvg": {
         "id": "TVPunjab.ca",
@@ -1713,11 +1713,11 @@
       "status": "OK"
     },
     {
-      "name": "Weatherspy (720p)",
+      "name": "Uvagut TV (1080p)",
       "tvg": {
-        "id": "WeatherSpyCanada.ca",
+        "id": "UvagutTV.ca",
         "name": "",
-        "logo": "",
+        "logo": "https://i.imgur.com/RR7ATr2.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -1729,9 +1729,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://jukin-weatherspy-2-ca.samsung.wurl.tv/manifest/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"WeatherSpyCanada.ca\" tvg-logo=\"\" group-title=\"Undefined\",Weatherspy (720p)\r\nhttps://jukin-weatherspy-2-ca.samsung.wurl.tv/manifest/playlist.m3u8",
-      "line": 294,
+      "url": "https://dee7mwgg9dzvl.cloudfront.net/hls/uvagut/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"UvagutTV.ca\" tvg-logo=\"https://i.imgur.com/RR7ATr2.png\" group-title=\"Undefined\",Uvagut TV (1080p)\r\nhttps://dee7mwgg9dzvl.cloudfront.net/hls/uvagut/playlist.m3u8",
+      "line": 286,
       "catchup": {
         "type": "",
         "days": "",
@@ -1760,6 +1760,34 @@
       "url": "https://wowzastream.westmancom.com/wcgtvlive/wcgtvPSA.stream/master.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"WCGtv.ca\" tvg-logo=\"https://i.imgur.com/q7UPbEG.png\" group-title=\"Undefined\",WCGtv Public (720p)\r\nhttps://wowzastream.westmancom.com/wcgtvlive/wcgtvPSA.stream/master.m3u8",
       "line": 292,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Weatherspy (720p)",
+      "tvg": {
+        "id": "WeatherSpyCanada.ca",
+        "name": "",
+        "logo": "",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://jukin-weatherspy-2-ca.samsung.wurl.tv/manifest/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"WeatherSpyCanada.ca\" tvg-logo=\"\" group-title=\"Undefined\",Weatherspy (720p)\r\nhttps://jukin-weatherspy-2-ca.samsung.wurl.tv/manifest/playlist.m3u8",
+      "line": 294,
       "catchup": {
         "type": "",
         "days": "",
