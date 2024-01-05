@@ -33,25 +33,25 @@
       "status": "OK"
     },
     {
-      "name": "ALPO (720p) [Not 24/7]",
+      "name": "BBC News (European feed) (1080p)",
       "tvg": {
-        "id": "AlpoTV.al",
+        "id": "BBCNewsEurope.uk",
         "name": "",
-        "logo": "https://i.imgur.com/Pr4ixiA.png",
+        "logo": "https://i.imgur.com/REuN9RR.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "General"
+        "title": "News"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://5d00db0e0fcd5.streamlock.net/7236/7236/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"AlpoTV.al\" tvg-logo=\"https://i.imgur.com/Pr4ixiA.png\" group-title=\"General\",ALPO (720p) [Not 24/7]\r\nhttps://5d00db0e0fcd5.streamlock.net/7236/7236/playlist.m3u8",
-      "line": 6,
+      "url": "http://livetv.ktv.zone/60/play.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"BBCNewsEurope.uk\" tvg-logo=\"https://i.imgur.com/REuN9RR.png\" group-title=\"News\",BBC News (European feed) (1080p)\r\nhttp://livetv.ktv.zone/60/play.m3u8",
+      "line": 10,
       "catchup": {
         "type": "",
         "days": "",
@@ -61,25 +61,53 @@
       "status": "OK"
     },
     {
-      "name": "Angel TV Europe (720p)",
+      "name": "Bloomberg TV EMEA Live Event (720p)",
       "tvg": {
-        "id": "AngelTVEurope.in",
+        "id": "BloombergTVEMEALiveEvent.uk",
         "name": "",
-        "logo": "https://i.imgur.com/qKLEGU7.png",
+        "logo": "https://i.imgur.com/OuogLHx.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Religious"
+        "title": "Business"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://cdn3.wowza.com/5/TDJ0aWNkNXFxWWta/angeltvcloud/ngrp:angeleurope_all/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"AngelTVEurope.in\" tvg-logo=\"https://i.imgur.com/qKLEGU7.png\" group-title=\"Religious\",Angel TV Europe (720p)\r\nhttps://cdn3.wowza.com/5/TDJ0aWNkNXFxWWta/angeltvcloud/ngrp:angeleurope_all/playlist.m3u8",
-      "line": 8,
+      "url": "https://bloomberg.com/media-manifest/streams/eu-event.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"BloombergTVEMEALiveEvent.uk\" tvg-logo=\"https://i.imgur.com/OuogLHx.png\" group-title=\"Business\",Bloomberg TV EMEA Live Event (720p)\r\nhttps://bloomberg.com/media-manifest/streams/eu-event.m3u8",
+      "line": 12,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Bloomberg TV Europe (720p)",
+      "tvg": {
+        "id": "BloombergTVEurope.uk",
+        "name": "",
+        "logo": "https://i.imgur.com/OuogLHx.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Business"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://bloomberg.com/media-manifest/streams/eu.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"BloombergTVEurope.uk\" tvg-logo=\"https://i.imgur.com/OuogLHx.png\" group-title=\"Business\",Bloomberg TV Europe (720p)\r\nhttps://bloomberg.com/media-manifest/streams/eu.m3u8",
+      "line": 14,
       "catchup": {
         "type": "",
         "days": "",
@@ -108,34 +136,6 @@
       "url": "https://tv.a2news.com/live/smil:a2cnnweb.stream.smil/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"A2CNN.al\" tvg-logo=\"https://i.imgur.com/TgO3Lzi.png\" group-title=\"News\",A2 CNN (720p)\r\nhttps://tv.a2news.com/live/smil:a2cnnweb.stream.smil/playlist.m3u8",
       "line": 2,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "BBC News (European feed) (1080p)",
-      "tvg": {
-        "id": "BBCNewsEurope.uk",
-        "name": "",
-        "logo": "https://i.imgur.com/REuN9RR.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "News"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://livetv.ktv.zone/60/play.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"BBCNewsEurope.uk\" tvg-logo=\"https://i.imgur.com/REuN9RR.png\" group-title=\"News\",BBC News (European feed) (1080p)\r\nhttp://livetv.ktv.zone/60/play.m3u8",
-      "line": 10,
       "catchup": {
         "type": "",
         "days": "",
@@ -229,81 +229,25 @@
       "status": "OK"
     },
     {
-      "name": "Bloomberg TV Europe (720p)",
+      "name": "Angel TV Europe (720p)",
       "tvg": {
-        "id": "BloombergTVEurope.uk",
+        "id": "AngelTVEurope.in",
         "name": "",
-        "logo": "https://i.imgur.com/OuogLHx.png",
+        "logo": "https://i.imgur.com/qKLEGU7.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Business"
+        "title": "Religious"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://bloomberg.com/media-manifest/streams/eu.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"BloombergTVEurope.uk\" tvg-logo=\"https://i.imgur.com/OuogLHx.png\" group-title=\"Business\",Bloomberg TV Europe (720p)\r\nhttps://bloomberg.com/media-manifest/streams/eu.m3u8",
-      "line": 14,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Bloomberg TV EMEA Live Event (720p)",
-      "tvg": {
-        "id": "BloombergTVEMEALiveEvent.uk",
-        "name": "",
-        "logo": "https://i.imgur.com/OuogLHx.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Business"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://bloomberg.com/media-manifest/streams/eu-event.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"BloombergTVEMEALiveEvent.uk\" tvg-logo=\"https://i.imgur.com/OuogLHx.png\" group-title=\"Business\",Bloomberg TV EMEA Live Event (720p)\r\nhttps://bloomberg.com/media-manifest/streams/eu-event.m3u8",
-      "line": 12,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Euronews Albania (1080p) [Not 24/7]",
-      "tvg": {
-        "id": "EuronewsAlbania.al",
-        "name": "",
-        "logo": "https://i.imgur.com/Skf6vdi.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "News"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://ythls.armelin.one/channel/UChR-A__NS_C5kHDWj3PeAhw.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"EuronewsAlbania.al\" tvg-logo=\"https://i.imgur.com/Skf6vdi.png\" group-title=\"News\",Euronews Albania (1080p) [Not 24/7]\r\nhttps://ythls.armelin.one/channel/UChR-A__NS_C5kHDWj3PeAhw.m3u8",
-      "line": 22,
+      "url": "https://cdn3.wowza.com/5/TDJ0aWNkNXFxWWta/angeltvcloud/ngrp:angeleurope_all/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"AngelTVEurope.in\" tvg-logo=\"https://i.imgur.com/qKLEGU7.png\" group-title=\"Religious\",Angel TV Europe (720p)\r\nhttps://cdn3.wowza.com/5/TDJ0aWNkNXFxWWta/angeltvcloud/ngrp:angeleurope_all/playlist.m3u8",
+      "line": 8,
       "catchup": {
         "type": "",
         "days": "",
@@ -341,25 +285,25 @@
       "status": "OK"
     },
     {
-      "name": "Folklorit TV (1080p) [Not 24/7]",
+      "name": "Euronews Albania (1080p) [Not 24/7]",
       "tvg": {
-        "id": "FolkloritTV.al",
+        "id": "EuronewsAlbania.al",
         "name": "",
-        "logo": "https://i.imgur.com/wayxz5S.jpg",
+        "logo": "https://i.imgur.com/Skf6vdi.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Music"
+        "title": "News"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://vs.sednastream.com:1936/folklorit/folklorit/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"FolkloritTV.al\" tvg-logo=\"https://i.imgur.com/wayxz5S.jpg\" group-title=\"Music\",Folklorit TV (1080p) [Not 24/7]\r\nhttps://vs.sednastream.com:1936/folklorit/folklorit/playlist.m3u8",
-      "line": 28,
+      "url": "https://ythls.armelin.one/channel/UChR-A__NS_C5kHDWj3PeAhw.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"EuronewsAlbania.al\" tvg-logo=\"https://i.imgur.com/Skf6vdi.png\" group-title=\"News\",Euronews Albania (1080p) [Not 24/7]\r\nhttps://ythls.armelin.one/channel/UChR-A__NS_C5kHDWj3PeAhw.m3u8",
+      "line": 22,
       "catchup": {
         "type": "",
         "days": "",
@@ -397,34 +341,6 @@
       "status": "OK"
     },
     {
-      "name": "Kanali 7 (576p)",
-      "tvg": {
-        "id": "Kanali7.al",
-        "name": "",
-        "logo": "https://i.imgur.com/rL2v9pM.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "News"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://fe.tring.al/delta/105/out/u/1200_1.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Kanali7.al\" tvg-logo=\"https://i.imgur.com/rL2v9pM.png\" group-title=\"News\",Kanali 7 (576p)\r\nhttps://fe.tring.al/delta/105/out/u/1200_1.m3u8",
-      "line": 30,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Report TV (720p)",
       "tvg": {
         "id": "ReportTV.al",
@@ -444,6 +360,34 @@
       "url": "https://deb10stream.duckdns.org/hls/stream.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"ReportTV.al\" tvg-logo=\"https://i.imgur.com/C9lM1KP.png\" group-title=\"News\",Report TV (720p)\r\nhttps://deb10stream.duckdns.org/hls/stream.m3u8",
       "line": 42,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Kanali 7 (576p)",
+      "tvg": {
+        "id": "Kanali7.al",
+        "name": "",
+        "logo": "https://i.imgur.com/rL2v9pM.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "News"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://fe.tring.al/delta/105/out/u/1200_1.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Kanali7.al\" tvg-logo=\"https://i.imgur.com/rL2v9pM.png\" group-title=\"News\",Kanali 7 (576p)\r\nhttps://fe.tring.al/delta/105/out/u/1200_1.m3u8",
+      "line": 30,
       "catchup": {
         "type": "",
         "days": "",
@@ -481,11 +425,11 @@
       "status": "OK"
     },
     {
-      "name": "Top News (720p)",
+      "name": "Tropoja TV (1080p)",
       "tvg": {
-        "id": "TopChannel.al",
+        "id": "TropojaTelevizion.al",
         "name": "",
-        "logo": "https://i.imgur.com/oKix35b.png",
+        "logo": "https://i.imgur.com/D3hNOVS.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -497,9 +441,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://trueodin.serv00.net/?t=topnewsal",
-      "raw": "#EXTINF:-1 tvg-id=\"TopChannel.al\" tvg-logo=\"https://i.imgur.com/oKix35b.png\" group-title=\"General\",Top News (720p)\r\nhttps://trueodin.serv00.net/?t=topnewsal",
-      "line": 46,
+      "url": "https://live.prostream.al/al/smil:tropojatv.smil/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"TropojaTelevizion.al\" tvg-logo=\"https://i.imgur.com/D3hNOVS.png\" group-title=\"General\",Tropoja TV (1080p)\r\nhttps://live.prostream.al/al/smil:tropojatv.smil/playlist.m3u8",
+      "line": 48,
       "catchup": {
         "type": "",
         "days": "",
@@ -537,6 +481,34 @@
       "status": "OK"
     },
     {
+      "name": "Top News (720p)",
+      "tvg": {
+        "id": "TopChannel.al",
+        "name": "",
+        "logo": "https://i.imgur.com/oKix35b.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://trueodin.serv00.net/?t=topnewsal",
+      "raw": "#EXTINF:-1 tvg-id=\"TopChannel.al\" tvg-logo=\"https://i.imgur.com/oKix35b.png\" group-title=\"General\",Top News (720p)\r\nhttps://trueodin.serv00.net/?t=topnewsal",
+      "line": 46,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "НТВ Мир",
       "tvg": {
         "id": "NTVMir.ru",
@@ -556,34 +528,6 @@
       "url": "http://moobl.ru/hls/NTV_mir.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"NTVMir.ru\" tvg-logo=\"https://i.imgur.com/pUcV46F.png\" group-title=\"Undefined\",НТВ Мир\r\nhttp://moobl.ru/hls/NTV_mir.m3u8",
       "line": 60,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Tropoja TV (1080p)",
-      "tvg": {
-        "id": "TropojaTelevizion.al",
-        "name": "",
-        "logo": "https://i.imgur.com/D3hNOVS.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://live.prostream.al/al/smil:tropojatv.smil/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TropojaTelevizion.al\" tvg-logo=\"https://i.imgur.com/D3hNOVS.png\" group-title=\"General\",Tropoja TV (1080p)\r\nhttps://live.prostream.al/al/smil:tropojatv.smil/playlist.m3u8",
-      "line": 48,
       "catchup": {
         "type": "",
         "days": "",
