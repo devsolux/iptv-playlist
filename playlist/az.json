@@ -33,6 +33,34 @@
       "status": "OK"
     },
     {
+      "name": "AZ News (720p)",
+      "tvg": {
+        "id": "AznewsTV.az",
+        "name": "",
+        "logo": "https://i.imgur.com/2V0AemI.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "News"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://edge1.socialsmart.tv/aznews/smil/aznews/720p/chunks.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"AznewsTV.az\" tvg-logo=\"https://i.imgur.com/2V0AemI.png\" group-title=\"News\",AZ News (720p)\r\nhttps://edge1.socialsmart.tv/aznews/smil/aznews/720p/chunks.m3u8",
+      "line": 14,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Alvin Channel TV (360p) [Not 24/7]",
       "tvg": {
         "id": "AlvinChannelTV.az",
@@ -117,39 +145,11 @@
       "status": "OK"
     },
     {
-      "name": "AZ News (720p)",
+      "name": "EL TV (260p)",
       "tvg": {
-        "id": "AznewsTV.az",
+        "id": "ELTV.az",
         "name": "",
-        "logo": "https://i.imgur.com/2V0AemI.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "News"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://edge1.socialsmart.tv/aznews/smil/aznews/720p/chunks.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"AznewsTV.az\" tvg-logo=\"https://i.imgur.com/2V0AemI.png\" group-title=\"News\",AZ News (720p)\r\nhttps://edge1.socialsmart.tv/aznews/smil/aznews/720p/chunks.m3u8",
-      "line": 14,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Ictimai TV",
-      "tvg": {
-        "id": "IctimaiTV.az",
-        "name": "",
-        "logo": "https://i.imgur.com/HzY4VMo.png",
+        "logo": "https://i.imgur.com/tTlokZ2.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -161,9 +161,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "http://109.205.166.68/server124/ictimai_tv/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"IctimaiTV.az\" tvg-logo=\"https://i.imgur.com/HzY4VMo.png\" group-title=\"General\",Ictimai TV\r\nhttp://109.205.166.68/server124/ictimai_tv/index.m3u8",
-      "line": 46,
+      "url": "http://85.132.53.162:1935/live/eltv/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"ELTV.az\" tvg-logo=\"https://i.imgur.com/tTlokZ2.png\" group-title=\"General\",EL TV (260p)\r\nhttp://85.132.53.162:1935/live/eltv/playlist.m3u8",
+      "line": 38,
       "catchup": {
         "type": "",
         "days": "",
@@ -201,34 +201,6 @@
       "status": "OK"
     },
     {
-      "name": "Kəpəz TV (540p) [Not 24/7]",
-      "tvg": {
-        "id": "KepezTV.az",
-        "name": "",
-        "logo": "https://upload.wikimedia.org/wikipedia/az/thumb/3/3e/K%C9%99p%C9%99z_TV_%282019-h.h.%29.png/512px-K%C9%99p%C9%99z_TV_%282019-h.h.%29.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://85.132.81.184:8080/arbkepez/live/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"KepezTV.az\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/az/thumb/3/3e/K%C9%99p%C9%99z_TV_%282019-h.h.%29.png/512px-K%C9%99p%C9%99z_TV_%282019-h.h.%29.png\" group-title=\"General\",Kəpəz TV (540p) [Not 24/7]\r\nhttp://85.132.81.184:8080/arbkepez/live/index.m3u8",
-      "line": 52,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Kanal Turan (576p)",
       "tvg": {
         "id": "KanalTuran.fr",
@@ -248,6 +220,34 @@
       "url": "https://donvolga.com/Turan-TV/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"KanalTuran.fr\" tvg-logo=\"https://i.imgur.com/9AWwu2o.png\" group-title=\"News\",Kanal Turan (576p)\r\nhttps://donvolga.com/Turan-TV/index.m3u8",
       "line": 50,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Ictimai TV",
+      "tvg": {
+        "id": "IctimaiTV.az",
+        "name": "",
+        "logo": "https://i.imgur.com/HzY4VMo.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://109.205.166.68/server124/ictimai_tv/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"IctimaiTV.az\" tvg-logo=\"https://i.imgur.com/HzY4VMo.png\" group-title=\"General\",Ictimai TV\r\nhttp://109.205.166.68/server124/ictimai_tv/index.m3u8",
+      "line": 46,
       "catchup": {
         "type": "",
         "days": "",
@@ -304,6 +304,34 @@
       "url": "https://str.yodacdn.net/medeniyyet/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"MedeniyyetTV.az\" tvg-logo=\"https://i.imgur.com/PlvaDIa.png\" group-title=\"Culture\",Medeniyyet TV (406p)\r\nhttps://str.yodacdn.net/medeniyyet/index.m3u8",
       "line": 54,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Kəpəz TV (540p) [Not 24/7]",
+      "tvg": {
+        "id": "KepezTV.az",
+        "name": "",
+        "logo": "https://upload.wikimedia.org/wikipedia/az/thumb/3/3e/K%C9%99p%C9%99z_TV_%282019-h.h.%29.png/512px-K%C9%99p%C9%99z_TV_%282019-h.h.%29.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://85.132.81.184:8080/arbkepez/live/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"KepezTV.az\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/az/thumb/3/3e/K%C9%99p%C9%99z_TV_%282019-h.h.%29.png/512px-K%C9%99p%C9%99z_TV_%282019-h.h.%29.png\" group-title=\"General\",Kəpəz TV (540p) [Not 24/7]\r\nhttp://85.132.81.184:8080/arbkepez/live/index.m3u8",
+      "line": 52,
       "catchup": {
         "type": "",
         "days": "",
