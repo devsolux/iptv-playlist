@@ -145,6 +145,34 @@
       "status": "OK"
     },
     {
+      "name": "Az TV (1080p)",
+      "tvg": {
+        "id": "AzTV.az",
+        "name": "",
+        "logo": "https://i.imgur.com/snBMMeH.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://str.yodacdn.net/aztv/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"AzTV.az\" tvg-logo=\"https://i.imgur.com/snBMMeH.png\" group-title=\"General\",Az TV (1080p)\r\nhttps://str.yodacdn.net/aztv/index.m3u8",
+      "line": 18,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "ARB 24 HD",
       "tvg": {
         "id": "ARB24.az",
@@ -201,25 +229,25 @@
       "status": "OK"
     },
     {
-      "name": "Az TV (1080p)",
+      "name": "Kanal Turan (576p)",
       "tvg": {
-        "id": "AzTV.az",
+        "id": "KanalTuran.fr",
         "name": "",
-        "logo": "https://i.imgur.com/snBMMeH.png",
+        "logo": "https://i.imgur.com/9AWwu2o.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "General"
+        "title": "News"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://str.yodacdn.net/aztv/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"AzTV.az\" tvg-logo=\"https://i.imgur.com/snBMMeH.png\" group-title=\"General\",Az TV (1080p)\r\nhttps://str.yodacdn.net/aztv/index.m3u8",
-      "line": 18,
+      "url": "https://donvolga.com/Turan-TV/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"KanalTuran.fr\" tvg-logo=\"https://i.imgur.com/9AWwu2o.png\" group-title=\"News\",Kanal Turan (576p)\r\nhttps://donvolga.com/Turan-TV/index.m3u8",
+      "line": 62,
       "catchup": {
         "type": "",
         "days": "",
@@ -259,63 +287,7 @@
     {
       "name": "Ictimai TV",
       "tvg": {
-        "id": "IctimaiTV.az",
-        "name": "",
-        "logo": "https://i.imgur.com/HzY4VMo.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://109.205.166.68/server124/ictimai_tv/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"IctimaiTV.az\" tvg-logo=\"https://i.imgur.com/HzY4VMo.png\" group-title=\"General\",Ictimai TV\r\nhttp://109.205.166.68/server124/ictimai_tv/index.m3u8",
-      "line": 57,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Kəpəz TV (540p) [Not 24/7]",
-      "tvg": {
-        "id": "KepezTV.az",
-        "name": "",
-        "logo": "https://upload.wikimedia.org/wikipedia/az/thumb/3/3e/K%C9%99p%C9%99z_TV_%282019-h.h.%29.png/512px-K%C9%99p%C9%99z_TV_%282019-h.h.%29.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://85.132.81.184:8080/arbkepez/live/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"KepezTV.az\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/az/thumb/3/3e/K%C9%99p%C9%99z_TV_%282019-h.h.%29.png/512px-K%C9%99p%C9%99z_TV_%282019-h.h.%29.png\" group-title=\"General\",Kəpəz TV (540p) [Not 24/7]\r\nhttp://85.132.81.184:8080/arbkepez/live/index.m3u8",
-      "line": 64,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Ictimai TV",
-      "tvg": {
-        "id": "Ictimai.az",
+        "id": "",
         "name": "",
         "logo": "",
         "url": "",
@@ -330,64 +302,8 @@
         "user-agent": "ExoPlayer2/2.37"
       },
       "url": "https://edge02.odtv.az/o1/ictimai/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Ictimai.az\" tvg-logo=\"\" group-title=\"Undefined\" user-agent=\"ExoPlayer2/2.37\",Ictimai TV\r\n#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37\r\nhttps://edge02.odtv.az/o1/ictimai/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"\" tvg-logo=\"\" group-title=\"Undefined\" user-agent=\"ExoPlayer2/2.37\",Ictimai TV\r\n#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37\r\nhttps://edge02.odtv.az/o1/ictimai/playlist.m3u8",
       "line": 54,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Kanal Turan (576p)",
-      "tvg": {
-        "id": "KanalTuran.fr",
-        "name": "",
-        "logo": "https://i.imgur.com/9AWwu2o.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "News"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://donvolga.com/Turan-TV/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"KanalTuran.fr\" tvg-logo=\"https://i.imgur.com/9AWwu2o.png\" group-title=\"News\",Kanal Turan (576p)\r\nhttps://donvolga.com/Turan-TV/index.m3u8",
-      "line": 62,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Medeniyyet",
-      "tvg": {
-        "id": "MedeniyyetTV.az",
-        "name": "",
-        "logo": "https://i.imgur.com/PlvaDIa.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Culture"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": "ExoPlayer2/2.37"
-      },
-      "url": "https://edge02.odtv.az/o1/medeniyyet/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"MedeniyyetTV.az\" tvg-logo=\"https://i.imgur.com/PlvaDIa.png\" group-title=\"Culture\" user-agent=\"ExoPlayer2/2.37\",Medeniyyet\r\n#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37\r\nhttps://edge02.odtv.az/o1/medeniyyet/playlist.m3u8",
-      "line": 66,
       "catchup": {
         "type": "",
         "days": "",
@@ -425,25 +341,25 @@
       "status": "OK"
     },
     {
-      "name": "Real TV",
+      "name": "Medeniyyet",
       "tvg": {
-        "id": "RealTV.az",
+        "id": "MedeniyyetTV.az",
         "name": "",
-        "logo": "https://i.imgur.com/e2KFL0R.png",
+        "logo": "https://i.imgur.com/PlvaDIa.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Undefined"
+        "title": "Culture"
       },
       "http": {
         "referrer": "",
         "user-agent": "ExoPlayer2/2.37"
       },
-      "url": "https://edge02.odtv.az/o2/realtv/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"RealTV.az\" tvg-logo=\"https://i.imgur.com/e2KFL0R.png\" group-title=\"Undefined\" user-agent=\"ExoPlayer2/2.37\",Real TV\r\n#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37\r\nhttps://edge02.odtv.az/o2/realtv/playlist.m3u8",
-      "line": 79,
+      "url": "https://edge02.odtv.az/o1/medeniyyet/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"MedeniyyetTV.az\" tvg-logo=\"https://i.imgur.com/PlvaDIa.png\" group-title=\"Culture\" user-agent=\"ExoPlayer2/2.37\",Medeniyyet\r\n#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37\r\nhttps://edge02.odtv.az/o1/medeniyyet/playlist.m3u8",
+      "line": 66,
       "catchup": {
         "type": "",
         "days": "",
@@ -472,6 +388,34 @@
       "url": "https://edge02.odtv.az/o1/space/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"SpaceTV.az\" tvg-logo=\"https://i.imgur.com/ufvVQJH.png\" group-title=\"General\" user-agent=\"ExoPlayer2/2.37\",Space TV\r\n#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37\r\nhttps://edge02.odtv.az/o1/space/playlist.m3u8",
       "line": 82,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Real TV",
+      "tvg": {
+        "id": "RealTV.az",
+        "name": "",
+        "logo": "https://i.imgur.com/e2KFL0R.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": "ExoPlayer2/2.37"
+      },
+      "url": "https://edge02.odtv.az/o2/realtv/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"RealTV.az\" tvg-logo=\"https://i.imgur.com/e2KFL0R.png\" group-title=\"Undefined\" user-agent=\"ExoPlayer2/2.37\",Real TV\r\n#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37\r\nhttps://edge02.odtv.az/o2/realtv/playlist.m3u8",
+      "line": 79,
       "catchup": {
         "type": "",
         "days": "",
