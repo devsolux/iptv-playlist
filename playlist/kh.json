@@ -5,7 +5,7 @@
   },
   "items": [
     {
-      "name": "Netlink TV (720p)",
+      "name": "SEATV-Radio (720p)",
       "tvg": {
         "id": "",
         "name": "",
@@ -21,37 +21,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://netlink.netlinkbroadcaster.com/hls/test.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"\" tvg-logo=\"\" group-title=\"Undefined\",Netlink TV (720p)\r\nhttps://netlink.netlinkbroadcaster.com/hls/test.m3u8",
-      "line": 42,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "SEATV (1080p)",
-      "tvg": {
-        "id": "SEATV.kh",
-        "name": "",
-        "logo": "https://i.imgur.com/oZPorvg.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://seatv.netlinkbroadcaster.com/hls/test.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"SEATV.kh\" tvg-logo=\"https://i.imgur.com/oZPorvg.png\" group-title=\"Undefined\",SEATV (1080p)\r\nhttps://seatv.netlinkbroadcaster.com/hls/test.m3u8",
-      "line": 56,
+      "url": "https://fmseatv.netlinkbroadcaster.com/hls/test.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"\" tvg-logo=\"\" group-title=\"Undefined\",SEATV-Radio (720p)\r\nhttps://fmseatv.netlinkbroadcaster.com/hls/test.m3u8",
+      "line": 58,
       "catchup": {
         "type": "",
         "days": "",
@@ -89,34 +61,6 @@
       "status": "OK"
     },
     {
-      "name": "TVK 2 (720p)",
-      "tvg": {
-        "id": "TVK2.kh",
-        "name": "",
-        "logo": "https://i.imgur.com/FYqvxUM.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://live.kh.malimarcdn.com/live/tvk2.stream/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TVK2.kh\" tvg-logo=\"https://i.imgur.com/FYqvxUM.png\" group-title=\"Undefined\",TVK 2 (720p)\r\nhttps://live.kh.malimarcdn.com/live/tvk2.stream/playlist.m3u8",
-      "line": 66,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "TVK (720p)",
       "tvg": {
         "id": "TVK.kh",
@@ -145,11 +89,11 @@
       "status": "OK"
     },
     {
-      "name": "SEATV-Radio (720p)",
+      "name": "SEATV (1080p)",
       "tvg": {
-        "id": "",
+        "id": "SEATV.kh",
         "name": "",
-        "logo": "",
+        "logo": "https://i.imgur.com/oZPorvg.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -161,9 +105,37 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://fmseatv.netlinkbroadcaster.com/hls/test.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"\" tvg-logo=\"\" group-title=\"Undefined\",SEATV-Radio (720p)\r\nhttps://fmseatv.netlinkbroadcaster.com/hls/test.m3u8",
-      "line": 58,
+      "url": "https://seatv.netlinkbroadcaster.com/hls/test.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"SEATV.kh\" tvg-logo=\"https://i.imgur.com/oZPorvg.png\" group-title=\"Undefined\",SEATV (1080p)\r\nhttps://seatv.netlinkbroadcaster.com/hls/test.m3u8",
+      "line": 56,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "TVK 2 (720p)",
+      "tvg": {
+        "id": "TVK2.kh",
+        "name": "",
+        "logo": "https://i.imgur.com/FYqvxUM.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://live.kh.malimarcdn.com/live/tvk2.stream/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"TVK2.kh\" tvg-logo=\"https://i.imgur.com/FYqvxUM.png\" group-title=\"Undefined\",TVK 2 (720p)\r\nhttps://live.kh.malimarcdn.com/live/tvk2.stream/playlist.m3u8",
+      "line": 66,
       "catchup": {
         "type": "",
         "days": "",
