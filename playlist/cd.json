@@ -5,6 +5,34 @@
   },
   "items": [
     {
+      "name": "CDirect (360p)",
+      "tvg": {
+        "id": "CDirect.fr",
+        "name": "",
+        "logo": "https://i.imgur.com/Zis4TRh.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Culture"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://51.254.199.122:8080/cdirectTV/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"CDirect.fr\" tvg-logo=\"https://i.imgur.com/Zis4TRh.png\" group-title=\"Culture\",CDirect (360p)\r\nhttp://51.254.199.122:8080/cdirectTV/index.m3u8",
+      "line": 26,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Boss Brothers TV (1080p)",
       "tvg": {
         "id": "BossBrothersTV.cd",
@@ -33,25 +61,81 @@
       "status": "OK"
     },
     {
-      "name": "Mikuba TV (480p) [Not 24/7]",
+      "name": "EGG PRO TV (720p)",
       "tvg": {
-        "id": "MikubaTV.cd",
+        "id": "EGGPROTV.cd",
         "name": "",
-        "logo": "https://i.imgur.com/yJehCQM.png",
+        "logo": "https://i.imgur.com/rygp3BA.jpg",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Undefined"
+        "title": "General"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "http://51.254.199.122:8080/MIKUBATV/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"MikubaTV.cd\" tvg-logo=\"https://i.imgur.com/yJehCQM.png\" group-title=\"Undefined\",Mikuba TV (480p) [Not 24/7]\r\nhttp://51.254.199.122:8080/MIKUBATV/index.m3u8",
-      "line": 50,
+      "url": "https://cdn.mycloudstream.io/hls/live/broadcast/mgshes9q/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"EGGPROTV.cd\" tvg-logo=\"https://i.imgur.com/rygp3BA.jpg\" group-title=\"General\",EGG PRO TV (720p)\r\nhttps://cdn.mycloudstream.io/hls/live/broadcast/mgshes9q/index.m3u8",
+      "line": 40,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Face Tv (720p)",
+      "tvg": {
+        "id": "FaceTv.cd",
+        "name": "",
+        "logo": "https://i.imgur.com/IjrFG0K.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "https://player.castr.com/live_e691e400276e11ed9134c99c0b3a3c51",
+        "user-agent": ""
+      },
+      "url": "https://stream.castr.com/630bd81fa9990f542884f80e/live_e691e400276e11ed9134c99c0b3a3c51/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"FaceTv.cd\" tvg-logo=\"https://i.imgur.com/IjrFG0K.png\" group-title=\"General\",Face Tv (720p)\r\n#EXTVLCOPT:http-referrer=https://player.castr.com/live_e691e400276e11ed9134c99c0b3a3c51\r\nhttps://stream.castr.com/630bd81fa9990f542884f80e/live_e691e400276e11ed9134c99c0b3a3c51/index.m3u8",
+      "line": 46,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Maboke TV (720p)",
+      "tvg": {
+        "id": "MabokeTV.cg",
+        "name": "",
+        "logo": "https://i.imgur.com/Od2fDTQ.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Entertainment"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://51.254.199.122:8080/mabokeTV/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"MabokeTV.cg\" tvg-logo=\"https://i.imgur.com/Od2fDTQ.png\" group-title=\"Entertainment\",Maboke TV (720p)\r\nhttp://51.254.199.122:8080/mabokeTV/index.m3u8",
+      "line": 55,
       "catchup": {
         "type": "",
         "days": "",
@@ -79,7 +163,203 @@
       },
       "url": "https://stream.telepack.net/evitv/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"EVITV.cd\" tvg-logo=\"https://i.ibb.co/PNXggHL/evi-tv-live-vipotv-democratic-Congo.png\" group-title=\"Entertainment\",EVI TV (720p)\r\nhttps://stream.telepack.net/evitv/index.m3u8",
-      "line": 36,
+      "line": 42,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Mandiko TV (614p) [Not 24/7]",
+      "tvg": {
+        "id": "MandikoTV.cd",
+        "name": "",
+        "logo": "https://i.imgur.com/jsBWsdK.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "https://player.castr.com/live_b072ea703a7111edbfe74bb80437147b",
+        "user-agent": ""
+      },
+      "url": "https://stream.castr.com/632c52e09206c19bee72a6d6/live_b072ea703a7111edbfe74bb80437147b/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"MandikoTV.cd\" tvg-logo=\"https://i.imgur.com/jsBWsdK.png\" group-title=\"General\",Mandiko TV (614p) [Not 24/7]\r\n#EXTVLCOPT:http-referrer=https://player.castr.com/live_b072ea703a7111edbfe74bb80437147b\r\nhttps://stream.castr.com/632c52e09206c19bee72a6d6/live_b072ea703a7111edbfe74bb80437147b/index.m3u8",
+      "line": 59,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Mikuba TV (480p) [Not 24/7]",
+      "tvg": {
+        "id": "MikubaTV.cd",
+        "name": "",
+        "logo": "https://i.imgur.com/yJehCQM.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://51.254.199.122:8080/MIKUBATV/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"MikubaTV.cd\" tvg-logo=\"https://i.imgur.com/yJehCQM.png\" group-title=\"Undefined\",Mikuba TV (480p) [Not 24/7]\r\nhttp://51.254.199.122:8080/MIKUBATV/index.m3u8",
+      "line": 64,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "ONE-TV (720p) [Not 24/7]",
+      "tvg": {
+        "id": "ONETV.cd",
+        "name": "",
+        "logo": "https://i.imgur.com/Wob7gjp.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Religious"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://ssh101.bozztv.com/ssh101/onetvlive/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"ONETV.cd\" tvg-logo=\"https://i.imgur.com/Wob7gjp.png\" group-title=\"Religious\",ONE-TV (720p) [Not 24/7]\r\nhttps://ssh101.bozztv.com/ssh101/onetvlive/playlist.m3u8",
+      "line": 74,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Nyota TV (360p) [Not 24/7]",
+      "tvg": {
+        "id": "NyotaTV.cd",
+        "name": "",
+        "logo": "https://i.imgur.com/Obyh2Ah.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://51.254.199.122:8080/noyaTV/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"NyotaTV.cd\" tvg-logo=\"https://i.imgur.com/Obyh2Ah.png\" group-title=\"Undefined\",Nyota TV (360p) [Not 24/7]\r\nhttp://51.254.199.122:8080/noyaTV/index.m3u8",
+      "line": 72,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Pourim RTV (360p)",
+      "tvg": {
+        "id": "PourimRTV.cd",
+        "name": "",
+        "logo": "https://i.imgur.com/8P7pYrY.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Religious"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://cdn.mycloudstream.io/hls/live/broadcast/u67zmeky/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"PourimRTV.cd\" tvg-logo=\"https://i.imgur.com/8P7pYrY.png\" group-title=\"Religious\",Pourim RTV (360p)\r\nhttps://cdn.mycloudstream.io/hls/live/broadcast/u67zmeky/index.m3u8",
+      "line": 78,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "VOICI L'HOMME TV (720p) [Not 24/7]",
+      "tvg": {
+        "id": "VOICILHOMMETV.cd",
+        "name": "",
+        "logo": "https://i.imgur.com/wKwv347.jpg",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Religious"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://ythls.armelin.one/channel/UChinnBvzSaDcPjRhSBqMjzQ.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"VOICILHOMMETV.cd\" tvg-logo=\"https://i.imgur.com/wKwv347.jpg\" group-title=\"Religious\",VOICI L'HOMME TV (720p) [Not 24/7]\r\nhttps://ythls.armelin.one/channel/UChinnBvzSaDcPjRhSBqMjzQ.m3u8",
+      "line": 110,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Zaire TV (720p) [Not 24/7]",
+      "tvg": {
+        "id": "ZaireTV.uk",
+        "name": "",
+        "logo": "https://i.imgur.com/64TMPXM.jpg",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Culture"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://5caf24a595d94.streamlock.net:1937/kcvugnzbpu/kcvugnzbpu/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"ZaireTV.uk\" tvg-logo=\"https://i.imgur.com/64TMPXM.jpg\" group-title=\"Culture\",Zaire TV (720p) [Not 24/7]\r\nhttps://5caf24a595d94.streamlock.net:1937/kcvugnzbpu/kcvugnzbpu/playlist.m3u8",
+      "line": 112,
       "catchup": {
         "type": "",
         "days": "",
