@@ -5,6 +5,34 @@
   },
   "items": [
     {
+      "name": "ADO TV (720p)",
+      "tvg": {
+        "id": "ADOTV.bj",
+        "name": "",
+        "logo": "https://i.imgur.com/pxFamLr.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Sports"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://stream01.adotv-fm.bj/ado-tv-live/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"ADOTV.bj\" tvg-logo=\"https://i.imgur.com/pxFamLr.png\" group-title=\"Sports\",ADO TV (720p)\r\nhttps://stream01.adotv-fm.bj/ado-tv-live/index.m3u8",
+      "line": 4,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Bénin Web TV (720p)",
       "tvg": {
         "id": "BeninWebTV.bj",
@@ -61,81 +89,25 @@
       "status": "OK"
     },
     {
-      "name": "ADO TV (720p)",
+      "name": "MEC TV (576p) [Not 24/7]",
       "tvg": {
-        "id": "ADOTV.bj",
+        "id": "MECTV.bj",
         "name": "",
-        "logo": "https://i.imgur.com/pxFamLr.png",
+        "logo": "https://i.imgur.com/CT3odZM.jpg",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Sports"
+        "title": "Religious"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://stream01.adotv-fm.bj/ado-tv-live/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"ADOTV.bj\" tvg-logo=\"https://i.imgur.com/pxFamLr.png\" group-title=\"Sports\",ADO TV (720p)\r\nhttps://stream01.adotv-fm.bj/ado-tv-live/index.m3u8",
-      "line": 4,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Eden TV (540p) [Not 24/7]",
-      "tvg": {
-        "id": "EdenTV.bj",
-        "name": "",
-        "logo": "https://i.imgur.com/4ClnG0x.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://rtmp.edentv.bj/hls/stream.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"EdenTV.bj\" tvg-logo=\"https://i.imgur.com/4ClnG0x.png\" group-title=\"Undefined\",Eden TV (540p) [Not 24/7]\r\nhttps://rtmp.edentv.bj/hls/stream.m3u8",
-      "line": 24,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "KassouaTV (480p)",
-      "tvg": {
-        "id": "KassouaTV.bj",
-        "name": "",
-        "logo": "https://i.imgur.com/EfX3HNG.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://tgn.bozztv.com/ssh101/ssh101/kassouatvstream/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"KassouaTV.bj\" tvg-logo=\"https://i.imgur.com/EfX3HNG.png\" group-title=\"General\",KassouaTV (480p)\r\nhttps://tgn.bozztv.com/ssh101/ssh101/kassouatvstream/playlist.m3u8",
-      "line": 34,
+      "url": "https://webstreaming.viewmedia.tv/web_004/Stream/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"MECTV.bj\" tvg-logo=\"https://i.imgur.com/CT3odZM.jpg\" group-title=\"Religious\",MEC TV (576p) [Not 24/7]\r\nhttps://webstreaming.viewmedia.tv/web_004/Stream/playlist.m3u8",
+      "line": 36,
       "catchup": {
         "type": "",
         "days": "",
@@ -173,34 +145,6 @@
       "status": "OK"
     },
     {
-      "name": "Etélé (360p) [Not 24/7]",
-      "tvg": {
-        "id": "Etele.bj",
-        "name": "",
-        "logo": "https://i.imgur.com/y1eg7OC.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://livetvsteam.com:1936/etelebenin/etelebenin/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Etele.bj\" tvg-logo=\"https://i.imgur.com/y1eg7OC.png\" group-title=\"Undefined\",Etélé (360p) [Not 24/7]\r\nhttps://livetvsteam.com:1936/etelebenin/etelebenin/playlist.m3u8",
-      "line": 26,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Soleil Levant TV (720p)",
       "tvg": {
         "id": "SoleilLevantTV.bj",
@@ -229,39 +173,11 @@
       "status": "OK"
     },
     {
-      "name": "MEC TV (576p) [Not 24/7]",
+      "name": "Etélé (360p) [Not 24/7]",
       "tvg": {
-        "id": "MECTV.bj",
+        "id": "Etele.bj",
         "name": "",
-        "logo": "https://i.imgur.com/CT3odZM.jpg",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Religious"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://webstreaming.viewmedia.tv/web_004/Stream/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"MECTV.bj\" tvg-logo=\"https://i.imgur.com/CT3odZM.jpg\" group-title=\"Religious\",MEC TV (576p) [Not 24/7]\r\nhttps://webstreaming.viewmedia.tv/web_004/Stream/playlist.m3u8",
-      "line": 36,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "ORTB TV (720p) [Not 24/7]",
-      "tvg": {
-        "id": "ORTBTV.bj",
-        "name": "",
-        "logo": "https://i.imgur.com/ovhVYvP.png",
+        "logo": "https://i.imgur.com/y1eg7OC.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -273,9 +189,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://strhls.streamakaci.tv/ortb/ortb1-multi/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"ORTBTV.bj\" tvg-logo=\"https://i.imgur.com/ovhVYvP.png\" group-title=\"Undefined\",ORTB TV (720p) [Not 24/7]\r\nhttps://strhls.streamakaci.tv/ortb/ortb1-multi/playlist.m3u8",
-      "line": 40,
+      "url": "https://livetvsteam.com:1936/etelebenin/etelebenin/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Etele.bj\" tvg-logo=\"https://i.imgur.com/y1eg7OC.png\" group-title=\"Undefined\",Etélé (360p) [Not 24/7]\r\nhttps://livetvsteam.com:1936/etelebenin/etelebenin/playlist.m3u8",
+      "line": 26,
       "catchup": {
         "type": "",
         "days": "",
