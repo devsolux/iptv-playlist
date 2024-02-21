@@ -341,6 +341,34 @@
       "status": "OK"
     },
     {
+      "name": "GO TV (720p)",
+      "tvg": {
+        "id": "GOTV.py",
+        "name": "",
+        "logo": "https://i.ibb.co/jkvYVyz/Captura.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Entertainment;Music"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://rds3.desdeparaguay.net/gotv/gotv/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"GOTV.py\" tvg-logo=\"https://i.ibb.co/jkvYVyz/Captura.png\" group-title=\"Entertainment;Music\",GO TV (720p)\r\nhttps://rds3.desdeparaguay.net/gotv/gotv/playlist.m3u8",
+      "line": 96,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Mega TV (720p) [Not 24/7]",
       "tvg": {
         "id": "MegaTV.py",
@@ -360,34 +388,6 @@
       "url": "https://ott3.streann.com/loadbalancer/services/public/channels-secure/5e62b96e2cdcfac2dd8885dd/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"MegaTV.py\" tvg-logo=\"https://i.imgur.com/CaA7l86.png\" group-title=\"Undefined\",Mega TV (720p) [Not 24/7]\r\nhttps://ott3.streann.com/loadbalancer/services/public/channels-secure/5e62b96e2cdcfac2dd8885dd/playlist.m3u8",
       "line": 120,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Estación Cristal (720p)",
-      "tvg": {
-        "id": "EstacionCristal.py",
-        "name": "",
-        "logo": "https://i.imgur.com/48MDOA0.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://59ce1298bfb98.streamlock.net/cristaltv/cristaltv/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"EstacionCristal.py\" tvg-logo=\"https://i.imgur.com/48MDOA0.png\" group-title=\"Undefined\",Estación Cristal (720p)\r\nhttps://59ce1298bfb98.streamlock.net/cristaltv/cristaltv/playlist.m3u8",
-      "line": 76,
       "catchup": {
         "type": "",
         "days": "",
@@ -453,11 +453,39 @@
       "status": "OK"
     },
     {
-      "name": "Más TV (720p) [Not 24/7]",
+      "name": "Next HD (480p)",
       "tvg": {
-        "id": "MasTV.py",
+        "id": "NextHD.py",
         "name": "",
-        "logo": "https://i.imgur.com/L2Dx1NY.png",
+        "logo": "https://i.imgur.com/c2rF3SS.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Movies;Music"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://live.enhdtv.com:19360/nexthd/nexthd.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"NextHD.py\" tvg-logo=\"https://i.imgur.com/c2rF3SS.png\" group-title=\"Movies;Music\",Next HD (480p)\r\nhttps://live.enhdtv.com:19360/nexthd/nexthd.m3u8",
+      "line": 134,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Estación Cristal (720p)",
+      "tvg": {
+        "id": "EstacionCristal.py",
+        "name": "",
+        "logo": "https://i.imgur.com/48MDOA0.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -469,9 +497,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://59ce1298bfb98.streamlock.net/mastv/mastv/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"MasTV.py\" tvg-logo=\"https://i.imgur.com/L2Dx1NY.png\" group-title=\"Undefined\",Más TV (720p) [Not 24/7]\r\nhttps://59ce1298bfb98.streamlock.net/mastv/mastv/playlist.m3u8",
-      "line": 116,
+      "url": "https://59ce1298bfb98.streamlock.net/cristaltv/cristaltv/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"EstacionCristal.py\" tvg-logo=\"https://i.imgur.com/48MDOA0.png\" group-title=\"Undefined\",Estación Cristal (720p)\r\nhttps://59ce1298bfb98.streamlock.net/cristaltv/cristaltv/playlist.m3u8",
+      "line": 76,
       "catchup": {
         "type": "",
         "days": "",
@@ -509,53 +537,25 @@
       "status": "OK"
     },
     {
-      "name": "Next HD (480p)",
+      "name": "Más TV (720p) [Not 24/7]",
       "tvg": {
-        "id": "NextHD.py",
+        "id": "MasTV.py",
         "name": "",
-        "logo": "https://i.imgur.com/c2rF3SS.png",
+        "logo": "https://i.imgur.com/L2Dx1NY.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Movies;Music"
+        "title": "Undefined"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://live.enhdtv.com:19360/nexthd/nexthd.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"NextHD.py\" tvg-logo=\"https://i.imgur.com/c2rF3SS.png\" group-title=\"Movies;Music\",Next HD (480p)\r\nhttps://live.enhdtv.com:19360/nexthd/nexthd.m3u8",
-      "line": 134,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Obedira TV (720p)",
-      "tvg": {
-        "id": "ObediraTV.py",
-        "name": "",
-        "logo": "https://i.imgur.com/fRzOUw5.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Religious"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://59ce1298bfb98.streamlock.net/obediratv/obediratv/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"ObediraTV.py\" tvg-logo=\"https://i.imgur.com/fRzOUw5.png\" group-title=\"Religious\",Obedira TV (720p)\r\nhttps://59ce1298bfb98.streamlock.net/obediratv/obediratv/playlist.m3u8",
-      "line": 142,
+      "url": "https://59ce1298bfb98.streamlock.net/mastv/mastv/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"MasTV.py\" tvg-logo=\"https://i.imgur.com/L2Dx1NY.png\" group-title=\"Undefined\",Más TV (720p) [Not 24/7]\r\nhttps://59ce1298bfb98.streamlock.net/mastv/mastv/playlist.m3u8",
+      "line": 116,
       "catchup": {
         "type": "",
         "days": "",
@@ -593,6 +593,62 @@
       "status": "OK"
     },
     {
+      "name": "Occidental TV (1080p)",
+      "tvg": {
+        "id": "OccidentalTV.py",
+        "name": "",
+        "logo": "https://i.imgur.com/8IRBA9h.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://59ce1298bfb98.streamlock.net/occidentaltv/occidentaltv/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"OccidentalTV.py\" tvg-logo=\"https://i.imgur.com/8IRBA9h.png\" group-title=\"General\",Occidental TV (1080p)\r\nhttps://59ce1298bfb98.streamlock.net/occidentaltv/occidentaltv/playlist.m3u8",
+      "line": 144,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Obedira TV (720p)",
+      "tvg": {
+        "id": "ObediraTV.py",
+        "name": "",
+        "logo": "https://i.imgur.com/fRzOUw5.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Religious"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://59ce1298bfb98.streamlock.net/obediratv/obediratv/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"ObediraTV.py\" tvg-logo=\"https://i.imgur.com/fRzOUw5.png\" group-title=\"Religious\",Obedira TV (720p)\r\nhttps://59ce1298bfb98.streamlock.net/obediratv/obediratv/playlist.m3u8",
+      "line": 142,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Panambi Digital TV (480p) [Not 24/7]",
       "tvg": {
         "id": "PanambiDigitalTV.py",
@@ -612,6 +668,34 @@
       "url": "https://59ce1298bfb98.streamlock.net/panambi/panambi/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"PanambiDigitalTV.py\" tvg-logo=\"https://i.imgur.com/5KX4NvS.jpg\" group-title=\"General\",Panambi Digital TV (480p) [Not 24/7]\r\nhttps://59ce1298bfb98.streamlock.net/panambi/panambi/playlist.m3u8",
       "line": 148,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "PDS Radio-TV Digital (720p) [Not 24/7]",
+      "tvg": {
+        "id": "PDSRadioTVDigital.py",
+        "name": "",
+        "logo": "https://i.imgur.com/GXSZOiI.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "News"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://59ce1298bfb98.streamlock.net/pdstv/pdstv/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"PDSRadioTVDigital.py\" tvg-logo=\"https://i.imgur.com/GXSZOiI.png\" group-title=\"News\",PDS Radio-TV Digital (720p) [Not 24/7]\r\nhttps://59ce1298bfb98.streamlock.net/pdstv/pdstv/playlist.m3u8",
+      "line": 152,
       "catchup": {
         "type": "",
         "days": "",
@@ -705,62 +789,6 @@
       "status": "OK"
     },
     {
-      "name": "República TV (720p)",
-      "tvg": {
-        "id": "RepublicaTV.py",
-        "name": "",
-        "logo": "https://i.ibb.co/qYRw4JP/Captura.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://rds3.desdeparaguay.net/republicatv/republicatv/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"RepublicaTV.py\" tvg-logo=\"https://i.ibb.co/qYRw4JP/Captura.png\" group-title=\"General\",República TV (720p)\r\nhttps://rds3.desdeparaguay.net/republicatv/republicatv/playlist.m3u8",
-      "line": 174,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "SNT (480p)",
-      "tvg": {
-        "id": "SNT.py",
-        "name": "",
-        "logo": "https://i.imgur.com/HNlWRiF.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://deh05ueq91v6s.cloudfront.net/SNTPY/0bd4cfaf086c4ac0ce0101172a42ba20.sdp/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"SNT.py\" tvg-logo=\"https://i.imgur.com/HNlWRiF.png\" group-title=\"Undefined\",SNT (480p)\r\nhttps://deh05ueq91v6s.cloudfront.net/SNTPY/0bd4cfaf086c4ac0ce0101172a42ba20.sdp/playlist.m3u8",
-      "line": 197,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "RCC TV (720p)",
       "tvg": {
         "id": "RCCTV.py",
@@ -817,6 +845,34 @@
       "status": "OK"
     },
     {
+      "name": "SNT (480p)",
+      "tvg": {
+        "id": "SNT.py",
+        "name": "",
+        "logo": "https://i.imgur.com/HNlWRiF.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://deh05ueq91v6s.cloudfront.net/SNTPY/0bd4cfaf086c4ac0ce0101172a42ba20.sdp/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"SNT.py\" tvg-logo=\"https://i.imgur.com/HNlWRiF.png\" group-title=\"Undefined\",SNT (480p)\r\nhttps://deh05ueq91v6s.cloudfront.net/SNTPY/0bd4cfaf086c4ac0ce0101172a42ba20.sdp/playlist.m3u8",
+      "line": 197,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "RTV 12 (720p)",
       "tvg": {
         "id": "RTV12.py",
@@ -845,11 +901,11 @@
       "status": "OK"
     },
     {
-      "name": "Trece Paraguay (1080p) [Not 24/7]",
+      "name": "Somos Del Este (720p)",
       "tvg": {
-        "id": "Trece.py",
+        "id": "SomosdelEste.py",
         "name": "",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Logotrececanal.png/512px-Logotrececanal.png",
+        "logo": "https://i.imgur.com/xkT9d1a.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -861,9 +917,37 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://rds3gen.desdeparaguay.net/trecetv/trecetv_alta/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Trece.py\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Logotrececanal.png/512px-Logotrececanal.png\" group-title=\"Undefined\",Trece Paraguay (1080p) [Not 24/7]\r\nhttps://rds3gen.desdeparaguay.net/trecetv/trecetv_alta/playlist.m3u8",
-      "line": 219,
+      "url": "https://59ce1298bfb98.streamlock.net/somosdeleste/somosdeleste/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"SomosdelEste.py\" tvg-logo=\"https://i.imgur.com/xkT9d1a.png\" group-title=\"Undefined\",Somos Del Este (720p)\r\nhttps://59ce1298bfb98.streamlock.net/somosdeleste/somosdeleste/playlist.m3u8",
+      "line": 201,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Suceso TV (720p)",
+      "tvg": {
+        "id": "SucesoTV.py",
+        "name": "",
+        "logo": "https://i.imgur.com/BwRNes1.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "News"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://59ce1298bfb98.streamlock.net/sucesotv/sucesotv/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"SucesoTV.py\" tvg-logo=\"https://i.imgur.com/BwRNes1.png\" group-title=\"News\",Suceso TV (720p)\r\nhttps://59ce1298bfb98.streamlock.net/sucesotv/sucesotv/playlist.m3u8",
+      "line": 203,
       "catchup": {
         "type": "",
         "days": "",
@@ -901,25 +985,25 @@
       "status": "OK"
     },
     {
-      "name": "Suceso TV (720p)",
+      "name": "Trece Paraguay (1080p) [Not 24/7]",
       "tvg": {
-        "id": "SucesoTV.py",
+        "id": "Trece.py",
         "name": "",
-        "logo": "https://i.imgur.com/BwRNes1.png",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Logotrececanal.png/512px-Logotrececanal.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "News"
+        "title": "Undefined"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://59ce1298bfb98.streamlock.net/sucesotv/sucesotv/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"SucesoTV.py\" tvg-logo=\"https://i.imgur.com/BwRNes1.png\" group-title=\"News\",Suceso TV (720p)\r\nhttps://59ce1298bfb98.streamlock.net/sucesotv/sucesotv/playlist.m3u8",
-      "line": 203,
+      "url": "https://rds3gen.desdeparaguay.net/trecetv/trecetv_alta/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Trece.py\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Logotrececanal.png/512px-Logotrececanal.png\" group-title=\"Undefined\",Trece Paraguay (1080p) [Not 24/7]\r\nhttps://rds3gen.desdeparaguay.net/trecetv/trecetv_alta/playlist.m3u8",
+      "line": 219,
       "catchup": {
         "type": "",
         "days": "",
@@ -1031,7 +1115,7 @@
       },
       "url": "https://rds3gen.desdeparaguay.net/venusmedia/venusmedia/.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"VenusMedia.py\" tvg-logo=\"https://i.imgur.com/XwmUbfp.png\" group-title=\"Undefined\",Venus Media (720p)\r\nhttps://rds3gen.desdeparaguay.net/venusmedia/venusmedia/.m3u8",
-      "line": 251,
+      "line": 253,
       "catchup": {
         "type": "",
         "days": "",
@@ -1087,7 +1171,7 @@
       },
       "url": "https://59ce1298bfb98.streamlock.net/villaelisa/villaelisa/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"VillaElisaRadioTV.py\" tvg-logo=\"https://i.imgur.com/ryzCsvy.jpg\" group-title=\"General\",Villa Elisa Radio TV (720p)\r\nhttps://59ce1298bfb98.streamlock.net/villaelisa/villaelisa/playlist.m3u8",
-      "line": 253,
+      "line": 255,
       "catchup": {
         "type": "",
         "days": "",
