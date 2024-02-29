@@ -117,34 +117,6 @@
       "status": "OK"
     },
     {
-      "name": "Code Health TV (1080p)",
-      "tvg": {
-        "id": "CodeHealthTV.bg",
-        "name": "",
-        "logo": "https://i.imgur.com/NXBMzGV.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Lifestyle"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://cdn3.invivo.bg/codehealth_test/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"CodeHealthTV.bg\" tvg-logo=\"https://i.imgur.com/NXBMzGV.png\" group-title=\"Lifestyle\",Code Health TV (1080p)\r\nhttps://cdn3.invivo.bg/codehealth_test/index.m3u8",
-      "line": 27,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Evrokom (360p)",
       "tvg": {
         "id": "Eurocom.bg",
@@ -173,25 +145,53 @@
       "status": "OK"
     },
     {
-      "name": "Plovdivska Pravoslavna TV (1080p)",
+      "name": "Code Health TV (1080p)",
       "tvg": {
-        "id": "PlovdivOrthodoxTV.bg",
+        "id": "CodeHealthTV.bg",
         "name": "",
-        "logo": "https://i.imgur.com/O4564aX.png",
+        "logo": "https://i.imgur.com/NXBMzGV.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Religious"
+        "title": "Lifestyle"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "http://78.130.149.196:1935/live/pptv.stream/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"PlovdivOrthodoxTV.bg\" tvg-logo=\"https://i.imgur.com/O4564aX.png\" group-title=\"Religious\",Plovdivska Pravoslavna TV (1080p)\r\nhttp://78.130.149.196:1935/live/pptv.stream/playlist.m3u8",
-      "line": 61,
+      "url": "https://cdn3.invivo.bg/codehealth_test/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"CodeHealthTV.bg\" tvg-logo=\"https://i.imgur.com/NXBMzGV.png\" group-title=\"Lifestyle\",Code Health TV (1080p)\r\nhttps://cdn3.invivo.bg/codehealth_test/index.m3u8",
+      "line": 27,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "PIK TV (720p)",
+      "tvg": {
+        "id": "PIKTV.bg",
+        "name": "",
+        "logo": "https://i.ibb.co/NpbZSmX/pik-tv-logo.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "News"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://s.piktv.bg/l/live/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"PIKTV.bg\" tvg-logo=\"https://i.ibb.co/NpbZSmX/pik-tv-logo.png\" group-title=\"News\",PIK TV (720p)\r\nhttps://s.piktv.bg/l/live/index.m3u8",
+      "line": 59,
       "catchup": {
         "type": "",
         "days": "",
@@ -229,25 +229,25 @@
       "status": "OK"
     },
     {
-      "name": "Magic TV (720p)",
+      "name": "Plovdivska Pravoslavna TV (1080p)",
       "tvg": {
-        "id": "MagicTV.bg",
+        "id": "PlovdivOrthodoxTV.bg",
         "name": "",
-        "logo": "https://i.imgur.com/n7bcrrp.png",
+        "logo": "https://i.imgur.com/O4564aX.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Music"
+        "title": "Religious"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://bss1.neterra.tv/magictv/magictv.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"MagicTV.bg\" tvg-logo=\"https://i.imgur.com/n7bcrrp.png\" group-title=\"Music\",Magic TV (720p)\r\nhttps://bss1.neterra.tv/magictv/magictv.m3u8",
-      "line": 57,
+      "url": "http://78.130.149.196:1935/live/pptv.stream/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"PlovdivOrthodoxTV.bg\" tvg-logo=\"https://i.imgur.com/O4564aX.png\" group-title=\"Religious\",Plovdivska Pravoslavna TV (1080p)\r\nhttp://78.130.149.196:1935/live/pptv.stream/playlist.m3u8",
+      "line": 61,
       "catchup": {
         "type": "",
         "days": "",
@@ -276,6 +276,62 @@
       "url": "https://transcoder1.bitcare.eu/streaming/rimextv/rmtv.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"RMTV.bg\" tvg-logo=\"https://rmtv.bg/img/logo.png\" group-title=\"Undefined\",RMTV (288p)\r\nhttps://transcoder1.bitcare.eu/streaming/rimextv/rmtv.m3u8",
       "line": 63,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Magic TV (720p)",
+      "tvg": {
+        "id": "MagicTV.bg",
+        "name": "",
+        "logo": "https://i.imgur.com/n7bcrrp.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Music"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://bss1.neterra.tv/magictv/magictv.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"MagicTV.bg\" tvg-logo=\"https://i.imgur.com/n7bcrrp.png\" group-title=\"Music\",Magic TV (720p)\r\nhttps://bss1.neterra.tv/magictv/magictv.m3u8",
+      "line": 57,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Hope Channel Bulgaria",
+      "tvg": {
+        "id": "HopeChannelBulgaria.bg",
+        "name": "",
+        "logo": "https://www.lyngsat.com/logo/tv/hh/hope-channel-bulgaria-us-bg.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Religious"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://hc1.hopetv.bg/live/hopetv_all.smil/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"HopeChannelBulgaria.bg\" tvg-logo=\"https://www.lyngsat.com/logo/tv/hh/hope-channel-bulgaria-us-bg.png\" group-title=\"Religious\",Hope Channel Bulgaria\r\nhttps://hc1.hopetv.bg/live/hopetv_all.smil/playlist.m3u8",
+      "line": 50,
       "catchup": {
         "type": "",
         "days": "",
@@ -341,25 +397,25 @@
       "status": "OK"
     },
     {
-      "name": "Hope Channel Bulgaria",
+      "name": "This is Bulgaria HD (1080p)",
       "tvg": {
-        "id": "HopeChannelBulgaria.bg",
+        "id": "ThisisBulgariaHD.bg",
         "name": "",
-        "logo": "https://www.lyngsat.com/logo/tv/hh/hope-channel-bulgaria-us-bg.png",
+        "logo": "https://i.imgur.com/062jkXw.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Religious"
+        "title": "Entertainment"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://hc1.hopetv.bg/live/hopetv_all.smil/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"HopeChannelBulgaria.bg\" tvg-logo=\"https://www.lyngsat.com/logo/tv/hh/hope-channel-bulgaria-us-bg.png\" group-title=\"Religious\",Hope Channel Bulgaria\r\nhttps://hc1.hopetv.bg/live/hopetv_all.smil/playlist.m3u8",
-      "line": 50,
+      "url": "https://streamer103.neterra.tv/thisisbulgaria/live.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"ThisisBulgariaHD.bg\" tvg-logo=\"https://i.imgur.com/062jkXw.png\" group-title=\"Entertainment\",This is Bulgaria HD (1080p)\r\nhttps://streamer103.neterra.tv/thisisbulgaria/live.m3u8",
+      "line": 69,
       "catchup": {
         "type": "",
         "days": "",
@@ -397,34 +453,6 @@
       "status": "OK"
     },
     {
-      "name": "This is Bulgaria HD (1080p)",
-      "tvg": {
-        "id": "ThisisBulgariaHD.bg",
-        "name": "",
-        "logo": "https://i.imgur.com/062jkXw.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Entertainment"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://streamer103.neterra.tv/thisisbulgaria/live.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"ThisisBulgariaHD.bg\" tvg-logo=\"https://i.imgur.com/062jkXw.png\" group-title=\"Entertainment\",This is Bulgaria HD (1080p)\r\nhttps://streamer103.neterra.tv/thisisbulgaria/live.m3u8",
-      "line": 69,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Travel TV (576p)",
       "tvg": {
         "id": "TravelTV.bg",
@@ -453,34 +481,6 @@
       "status": "OK"
     },
     {
-      "name": "TV 1 (720p)",
-      "tvg": {
-        "id": "TV1.bg",
-        "name": "",
-        "logo": "https://i.imgur.com/YLDp5u3.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://tv1.cloudcdn.bg:8081/stream.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TV1.bg\" tvg-logo=\"https://i.imgur.com/YLDp5u3.png\" group-title=\"General\",TV 1 (720p)\r\nhttps://tv1.cloudcdn.bg:8081/stream.m3u8",
-      "line": 77,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "TV Zagora (576p)",
       "tvg": {
         "id": "TVZagora.bg",
@@ -500,6 +500,34 @@
       "url": "http://zagoratv.ddns.net:8080/tvzagora.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TVZagora.bg\" tvg-logo=\"https://i.imgur.com/HDGfDkL.png\" group-title=\"General\",TV Zagora (576p)\r\nhttp://zagoratv.ddns.net:8080/tvzagora.m3u8",
       "line": 83,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "TV 1 (720p)",
+      "tvg": {
+        "id": "TV1.bg",
+        "name": "",
+        "logo": "https://i.imgur.com/YLDp5u3.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://tv1.cloudcdn.bg:8081/stream.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"TV1.bg\" tvg-logo=\"https://i.imgur.com/YLDp5u3.png\" group-title=\"General\",TV 1 (720p)\r\nhttps://tv1.cloudcdn.bg:8081/stream.m3u8",
+      "line": 77,
       "catchup": {
         "type": "",
         "days": "",
