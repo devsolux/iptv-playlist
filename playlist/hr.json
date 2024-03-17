@@ -145,34 +145,6 @@
       "status": "OK"
     },
     {
-      "name": "Libertas TV (1080p)",
-      "tvg": {
-        "id": "LibertasTV.hr",
-        "name": "",
-        "logo": "https://i.imgur.com/4R4fhbd.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://stream.luci.xyz/hls/LTV.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"LibertasTV.hr\" tvg-logo=\"https://i.imgur.com/4R4fhbd.png\" group-title=\"General\",Libertas TV (1080p)\r\nhttps://stream.luci.xyz/hls/LTV.m3u8",
-      "line": 47,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Radio Televizija Banovina (1080p) [Not 24/7]",
       "tvg": {
         "id": "RadioTelevizijaBanovina.hr",
@@ -201,25 +173,25 @@
       "status": "OK"
     },
     {
-      "name": "RTL Croatia (1080p)",
+      "name": "Libertas TV (1080p)",
       "tvg": {
-        "id": "RTLCroatiaWorld.hr",
+        "id": "LibertasTV.hr",
         "name": "",
-        "logo": "https://i.imgur.com/rzB6Z6u.png",
+        "logo": "https://i.imgur.com/4R4fhbd.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Undefined"
+        "title": "General"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://d1cs5tlhj75jxe.cloudfront.net/rtl/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"RTLCroatiaWorld.hr\" tvg-logo=\"https://i.imgur.com/rzB6Z6u.png\" group-title=\"Undefined\",RTL Croatia (1080p)\r\nhttps://d1cs5tlhj75jxe.cloudfront.net/rtl/playlist.m3u8",
-      "line": 53,
+      "url": "https://stream.luci.xyz/hls/LTV.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"LibertasTV.hr\" tvg-logo=\"https://i.imgur.com/4R4fhbd.png\" group-title=\"General\",Libertas TV (1080p)\r\nhttps://stream.luci.xyz/hls/LTV.m3u8",
+      "line": 47,
       "catchup": {
         "type": "",
         "days": "",
@@ -257,11 +229,11 @@
       "status": "OK"
     },
     {
-      "name": "RTL Kockica (1080p)",
+      "name": "RTL Croatia (1080p)",
       "tvg": {
-        "id": "RTLKockica.hr",
+        "id": "RTLCroatiaWorld.hr",
         "name": "",
-        "logo": "https://i.imgur.com/C7H5bJs.png",
+        "logo": "https://i.imgur.com/rzB6Z6u.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -273,9 +245,37 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://d1rzyyum8t0q1e.cloudfront.net/rtl-kockica/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"RTLKockica.hr\" tvg-logo=\"https://i.imgur.com/C7H5bJs.png\" group-title=\"Undefined\",RTL Kockica (1080p)\r\nhttps://d1rzyyum8t0q1e.cloudfront.net/rtl-kockica/playlist.m3u8",
-      "line": 55,
+      "url": "https://d1cs5tlhj75jxe.cloudfront.net/rtl/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"RTLCroatiaWorld.hr\" tvg-logo=\"https://i.imgur.com/rzB6Z6u.png\" group-title=\"Undefined\",RTL Croatia (1080p)\r\nhttps://d1cs5tlhj75jxe.cloudfront.net/rtl/playlist.m3u8",
+      "line": 53,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Trend TV (480p)",
+      "tvg": {
+        "id": "TrendTV.hr",
+        "name": "",
+        "logo": "https://i.imgur.com/4SmNISY.jpg",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://185.62.75.22:1935/trend/myStream/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"TrendTV.hr\" tvg-logo=\"https://i.imgur.com/4SmNISY.jpg\" group-title=\"General\",Trend TV (480p)\r\nhttp://185.62.75.22:1935/trend/myStream/playlist.m3u8",
+      "line": 61,
       "catchup": {
         "type": "",
         "days": "",
@@ -313,53 +313,25 @@
       "status": "OK"
     },
     {
-      "name": "TV Zapad (1080p) [Not 24/7]",
+      "name": "RTL Kockica (1080p)",
       "tvg": {
-        "id": "TVZapad.hr",
+        "id": "RTLKockica.hr",
         "name": "",
-        "logo": "https://i.imgur.com/cgCeX12.png",
+        "logo": "https://i.imgur.com/C7H5bJs.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "General"
+        "title": "Undefined"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "http://webtv.zapad.tv:8080/memfs/1ad23803-84c3-41c7-aa91-fce4c7eac52e.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TVZapad.hr\" tvg-logo=\"https://i.imgur.com/cgCeX12.png\" group-title=\"General\",TV Zapad (1080p) [Not 24/7]\r\nhttp://webtv.zapad.tv:8080/memfs/1ad23803-84c3-41c7-aa91-fce4c7eac52e.m3u8",
-      "line": 69,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "TV Nova (720p)",
-      "tvg": {
-        "id": "TVNova.hr",
-        "name": "",
-        "logo": "https://i.imgur.com/gFjJ7YB.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Entertainment"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://stream.agatin.hr:3727/live/tvnovalive.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TVNova.hr\" tvg-logo=\"https://i.imgur.com/gFjJ7YB.png\" group-title=\"Entertainment\",TV Nova (720p)\r\nhttps://stream.agatin.hr:3727/live/tvnovalive.m3u8",
-      "line": 67,
+      "url": "https://d1rzyyum8t0q1e.cloudfront.net/rtl-kockica/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"RTLKockica.hr\" tvg-logo=\"https://i.imgur.com/C7H5bJs.png\" group-title=\"Undefined\",RTL Kockica (1080p)\r\nhttps://d1rzyyum8t0q1e.cloudfront.net/rtl-kockica/playlist.m3u8",
+      "line": 55,
       "catchup": {
         "type": "",
         "days": "",
@@ -388,6 +360,34 @@
       "url": "https://tvjadran.stream.agatin.hr:3412/live/tvjadranlive.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TVJadran.hr\" tvg-logo=\"https://i.imgur.com/UWMHnOG.png\" group-title=\"News\",TV Jadran (720p) [Not 24/7]\r\nhttps://tvjadran.stream.agatin.hr:3412/live/tvjadranlive.m3u8",
       "line": 65,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "TV Nova (720p)",
+      "tvg": {
+        "id": "TVNova.hr",
+        "name": "",
+        "logo": "https://i.imgur.com/gFjJ7YB.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Entertainment"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://stream.agatin.hr:3727/live/tvnovalive.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"TVNova.hr\" tvg-logo=\"https://i.imgur.com/gFjJ7YB.png\" group-title=\"Entertainment\",TV Nova (720p)\r\nhttps://stream.agatin.hr:3727/live/tvnovalive.m3u8",
+      "line": 67,
       "catchup": {
         "type": "",
         "days": "",
