@@ -145,6 +145,34 @@
       "status": "OK"
     },
     {
+      "name": "Az TV (1080p)",
+      "tvg": {
+        "id": "AzTV.az",
+        "name": "",
+        "logo": "https://i.imgur.com/snBMMeH.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://str.yodacdn.net/aztv/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"AzTV.az\" tvg-logo=\"https://i.imgur.com/snBMMeH.png\" group-title=\"General\",Az TV (1080p)\r\nhttps://str.yodacdn.net/aztv/index.m3u8",
+      "line": 20,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "ARB 24 HD",
       "tvg": {
         "id": "ARB24.az",
@@ -192,62 +220,6 @@
       "url": "http://85.132.53.162:1935/live/eltv/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"ELTV.az\" tvg-logo=\"https://i.imgur.com/tTlokZ2.png\" group-title=\"General\",EL TV (260p)\r\nhttp://85.132.53.162:1935/live/eltv/playlist.m3u8",
       "line": 44,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "CBC",
-      "tvg": {
-        "id": "CBC.az",
-        "name": "",
-        "logo": "https://i.imgur.com/wVT0dwO.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "News"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": "ExoPlayer2/2.37"
-      },
-      "url": "https://edge02.odtv.az/o1/cbc/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"CBC.az\" tvg-logo=\"https://i.imgur.com/wVT0dwO.png\" group-title=\"News\" user-agent=\"ExoPlayer2/2.37\",CBC\r\n#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37\r\nhttps://edge02.odtv.az/o1/cbc/playlist.m3u8",
-      "line": 37,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Ictimai TV",
-      "tvg": {
-        "id": "",
-        "name": "",
-        "logo": "",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": "ExoPlayer2/2.37"
-      },
-      "url": "https://edge02.odtv.az/o1/ictimai/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"\" tvg-logo=\"\" group-title=\"Undefined\" user-agent=\"ExoPlayer2/2.37\",Ictimai TV\r\n#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37\r\nhttps://edge02.odtv.az/o1/ictimai/playlist.m3u8",
-      "line": 55,
       "catchup": {
         "type": "",
         "days": "",
@@ -313,6 +285,62 @@
       "status": "OK"
     },
     {
+      "name": "CBC",
+      "tvg": {
+        "id": "CBC.az",
+        "name": "",
+        "logo": "https://i.imgur.com/wVT0dwO.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "News"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": "ExoPlayer2/2.37"
+      },
+      "url": "https://edge02.odtv.az/o1/cbc/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"CBC.az\" tvg-logo=\"https://i.imgur.com/wVT0dwO.png\" group-title=\"News\" user-agent=\"ExoPlayer2/2.37\",CBC\r\n#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37\r\nhttps://edge02.odtv.az/o1/cbc/playlist.m3u8",
+      "line": 37,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Ictimai TV",
+      "tvg": {
+        "id": "",
+        "name": "",
+        "logo": "",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": "ExoPlayer2/2.37"
+      },
+      "url": "https://edge02.odtv.az/o1/ictimai/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"\" tvg-logo=\"\" group-title=\"Undefined\" user-agent=\"ExoPlayer2/2.37\",Ictimai TV\r\n#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37\r\nhttps://edge02.odtv.az/o1/ictimai/playlist.m3u8",
+      "line": 55,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Idman",
       "tvg": {
         "id": "IdmanTV.az",
@@ -360,34 +388,6 @@
       "url": "https://edge02.odtv.az/o1/medeniyyet/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"MedeniyyetTV.az\" tvg-logo=\"https://i.imgur.com/PlvaDIa.png\" group-title=\"Culture\" user-agent=\"ExoPlayer2/2.37\",Medeniyyet\r\n#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37\r\nhttps://edge02.odtv.az/o1/medeniyyet/playlist.m3u8",
       "line": 67,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Az TV (1080p)",
-      "tvg": {
-        "id": "AzTV.az",
-        "name": "",
-        "logo": "https://i.imgur.com/snBMMeH.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://str.yodacdn.net/aztv/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"AzTV.az\" tvg-logo=\"https://i.imgur.com/snBMMeH.png\" group-title=\"General\",Az TV (1080p)\r\nhttps://str.yodacdn.net/aztv/index.m3u8",
-      "line": 20,
       "catchup": {
         "type": "",
         "days": "",
