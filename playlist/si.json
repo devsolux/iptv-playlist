@@ -5,6 +5,34 @@
   },
   "items": [
     {
+      "name": "GTV (360p) [Not 24/7]",
+      "tvg": {
+        "id": "GTV.si",
+        "name": "",
+        "logo": "https://i.imgur.com/LHChpid.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://91.220.221.60/gtv_hls/gtv_03.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"GTV.si\" tvg-logo=\"https://i.imgur.com/LHChpid.png\" group-title=\"Undefined\",GTV (360p) [Not 24/7]\r\nhttp://91.220.221.60/gtv_hls/gtv_03.m3u8",
+      "line": 40,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Exodus TV (720p)",
       "tvg": {
         "id": "ExodusTV.si",
@@ -61,34 +89,6 @@
       "status": "OK"
     },
     {
-      "name": "Radio Aktual (1080p)",
-      "tvg": {
-        "id": "RadioAktual.si",
-        "name": "",
-        "logo": "https://i.imgur.com/HwO1h74.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Music"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://vr1.radioaktual.si/hls/stream.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"RadioAktual.si\" tvg-logo=\"https://i.imgur.com/HwO1h74.png\" group-title=\"Music\",Radio Aktual (1080p)\r\nhttps://vr1.radioaktual.si/hls/stream.m3u8",
-      "line": 58,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Nova24TV (1080p) [Not 24/7]",
       "tvg": {
         "id": "Nova24TV.si",
@@ -108,6 +108,62 @@
       "url": "https://ythls.armelin.one/channel/UCjYCgkpX1eQCTne99oT63yA.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"Nova24TV.si\" tvg-logo=\"https://i.imgur.com/z1HBwin.png\" group-title=\"Undefined\",Nova24TV (1080p) [Not 24/7]\r\nhttps://ythls.armelin.one/channel/UCjYCgkpX1eQCTne99oT63yA.m3u8",
       "line": 54,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "SIP TV (1084p)",
+      "tvg": {
+        "id": "SIPTV.si",
+        "name": "",
+        "logo": "https://i.imgur.com/SkrpQ5l.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://data.siptv.si/live-siptv/hls/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"SIPTV.si\" tvg-logo=\"https://i.imgur.com/SkrpQ5l.png\" group-title=\"Undefined\",SIP TV (1084p)\r\nhttps://data.siptv.si/live-siptv/hls/index.m3u8",
+      "line": 62,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Radio Aktual (1080p)",
+      "tvg": {
+        "id": "RadioAktual.si",
+        "name": "",
+        "logo": "https://i.imgur.com/HwO1h74.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Music"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://vr1.radioaktual.si/hls/stream.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"RadioAktual.si\" tvg-logo=\"https://i.imgur.com/HwO1h74.png\" group-title=\"Music\",Radio Aktual (1080p)\r\nhttps://vr1.radioaktual.si/hls/stream.m3u8",
+      "line": 58,
       "catchup": {
         "type": "",
         "days": "",
