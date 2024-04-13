@@ -5,34 +5,6 @@
   },
   "items": [
     {
-      "name": "Cool TV (1080p) [Not 24/7]",
-      "tvg": {
-        "id": "CoolTV.mk",
-        "name": "",
-        "logo": "https://i.imgur.com/2tFrjUz.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://stream.nasatv.com.mk/cooltv/hls/cooltv_live.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"CoolTV.mk\" tvg-logo=\"https://i.imgur.com/2tFrjUz.png\" group-title=\"General\",Cool TV (1080p) [Not 24/7]\r\nhttps://stream.nasatv.com.mk/cooltv/hls/cooltv_live.m3u8",
-      "line": 23,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Folk TV (1080p) [Not 24/7]",
       "tvg": {
         "id": "FolkTV.mk",
@@ -61,11 +33,11 @@
       "status": "OK"
     },
     {
-      "name": "Kanal 8 (720p)",
+      "name": "Cool TV (1080p) [Not 24/7]",
       "tvg": {
-        "id": "Kanal8.mk",
+        "id": "CoolTV.mk",
         "name": "",
-        "logo": "https://i.imgur.com/jHbTDhH.png",
+        "logo": "https://i.imgur.com/2tFrjUz.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -77,9 +49,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "http://kanal8.hugo.mk:1935/live/kanal8/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Kanal8.mk\" tvg-logo=\"https://i.imgur.com/jHbTDhH.png\" group-title=\"General\",Kanal 8 (720p)\r\nhttp://kanal8.hugo.mk:1935/live/kanal8/index.m3u8",
-      "line": 40,
+      "url": "https://stream.nasatv.com.mk/cooltv/hls/cooltv_live.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"CoolTV.mk\" tvg-logo=\"https://i.imgur.com/2tFrjUz.png\" group-title=\"General\",Cool TV (1080p) [Not 24/7]\r\nhttps://stream.nasatv.com.mk/cooltv/hls/cooltv_live.m3u8",
+      "line": 23,
       "catchup": {
         "type": "",
         "days": "",
@@ -108,6 +80,34 @@
       "url": "http://ares.mnet.mk/hls/mnet.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"MNetHD.mk\" tvg-logo=\"https://i.imgur.com/HDYqWuR.png\" group-title=\"General\",M-Net HD (720p)\r\nhttp://ares.mnet.mk/hls/mnet.m3u8",
       "line": 44,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Kanal 8 (720p)",
+      "tvg": {
+        "id": "Kanal8.mk",
+        "name": "",
+        "logo": "https://i.imgur.com/jHbTDhH.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://kanal8.hugo.mk:1935/live/kanal8/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Kanal8.mk\" tvg-logo=\"https://i.imgur.com/jHbTDhH.png\" group-title=\"General\",Kanal 8 (720p)\r\nhttp://kanal8.hugo.mk:1935/live/kanal8/index.m3u8",
+      "line": 40,
       "catchup": {
         "type": "",
         "days": "",
@@ -313,6 +313,34 @@
       "status": "OK"
     },
     {
+      "name": "Star Folk (1080p)",
+      "tvg": {
+        "id": "StarFolkTV.mk",
+        "name": "",
+        "logo": "https://i.imgur.com/fM7FUgk.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Music"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://live.muzickatv.mk/live/StarMusic.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"StarFolkTV.mk\" tvg-logo=\"https://i.imgur.com/fM7FUgk.png\" group-title=\"Music\",Star Folk (1080p)\r\nhttps://live.muzickatv.mk/live/StarMusic.m3u8",
+      "line": 70,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Star Plus Music (1080p) [Not 24/7]",
       "tvg": {
         "id": "StarPlusTelevizija.mk",
@@ -369,34 +397,6 @@
       "status": "OK"
     },
     {
-      "name": "Star Folk (1080p)",
-      "tvg": {
-        "id": "StarFolkTV.mk",
-        "name": "",
-        "logo": "https://i.imgur.com/fM7FUgk.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Music"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://live.muzickatv.mk/live/StarMusic.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"StarFolkTV.mk\" tvg-logo=\"https://i.imgur.com/fM7FUgk.png\" group-title=\"Music\",Star Folk (1080p)\r\nhttps://live.muzickatv.mk/live/StarMusic.m3u8",
-      "line": 70,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "TV NOVA 12 (576p) [Not 24/7]",
       "tvg": {
         "id": "TVNOVA12.mk",
@@ -425,11 +425,11 @@
       "status": "OK"
     },
     {
-      "name": "TV Orbis (720p)",
+      "name": "TV Zdravkin (400p)",
       "tvg": {
-        "id": "TVOrbis.mk",
+        "id": "TVZdravkin.mk",
         "name": "",
-        "logo": "https://i.imgur.com/TlzpQy6.png",
+        "logo": "https://i.imgur.com/w4rRUNQ.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -441,9 +441,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "http://tvorbis.hugo.mk:1935/live/orbistv/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TVOrbis.mk\" tvg-logo=\"https://i.imgur.com/TlzpQy6.png\" group-title=\"General\",TV Orbis (720p)\r\nhttp://tvorbis.hugo.mk:1935/live/orbistv/index.m3u8",
-      "line": 90,
+      "url": "http://zdravkin.hugo.mk:1935/live/zdravkin/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"TVZdravkin.mk\" tvg-logo=\"https://i.imgur.com/w4rRUNQ.png\" group-title=\"General\",TV Zdravkin (400p)\r\nhttp://zdravkin.hugo.mk:1935/live/zdravkin/playlist.m3u8",
+      "line": 96,
       "catchup": {
         "type": "",
         "days": "",
