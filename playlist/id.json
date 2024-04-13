@@ -145,6 +145,34 @@
       "status": "OK"
     },
     {
+      "name": "Al-Iman TV (720p)",
+      "tvg": {
+        "id": "AlImanTV.id",
+        "name": "",
+        "logo": "https://i.imgur.com/Qj1EFf1.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Religious"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://tv.aliman.id/aliman/live.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"AlImanTV.id\" tvg-logo=\"https://i.imgur.com/Qj1EFf1.png\" group-title=\"Religious\",Al-Iman TV (720p)\r\nhttps://tv.aliman.id/aliman/live.m3u8",
+      "line": 8,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "BTV (720p)",
       "tvg": {
         "id": "BTV.id",
@@ -164,62 +192,6 @@
       "url": "https://b1news.beritasatumedia.com/Beritasatu/B1News_manifest.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"BTV.id\" tvg-logo=\"https://i.imgur.com/fdygcVx.png\" group-title=\"News\",BTV (720p)\r\nhttps://b1news.beritasatumedia.com/Beritasatu/B1News_manifest.m3u8",
       "line": 54,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "DAAI TV (720p)",
-      "tvg": {
-        "id": "DAAITV.id",
-        "name": "",
-        "logo": "https://i.imgur.com/YC7JCHo.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://dacastmmd.mmdlive.lldns.net/dacastmmd/683cc426c19442a4ba31c53be5c963bb/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"DAAITV.id\" tvg-logo=\"https://i.imgur.com/YC7JCHo.png\" group-title=\"Undefined\",DAAI TV (720p)\r\nhttps://dacastmmd.mmdlive.lldns.net/dacastmmd/683cc426c19442a4ba31c53be5c963bb/index.m3u8",
-      "line": 82,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "CNN Indonesia (720p) [Geo-blocked]",
-      "tvg": {
-        "id": "CNNIndonesia.id",
-        "name": "",
-        "logo": "https://i.imgur.com/l0JyOrm.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "News"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://live.cnnindonesia.com/livecnn/smil:cnntv.smil/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"CNNIndonesia.id\" tvg-logo=\"https://i.imgur.com/l0JyOrm.png\" group-title=\"News\",CNN Indonesia (720p) [Geo-blocked]\r\nhttps://live.cnnindonesia.com/livecnn/smil:cnntv.smil/playlist.m3u8",
-      "line": 80,
       "catchup": {
         "type": "",
         "days": "",
@@ -257,11 +229,39 @@
       "status": "OK"
     },
     {
-      "name": "Dhamma TV (720p) [Not 24/7]",
+      "name": "CNN Indonesia (720p) [Geo-blocked]",
       "tvg": {
-        "id": "DhammaTV.id",
+        "id": "CNNIndonesia.id",
         "name": "",
-        "logo": "https://upload.wikimedia.org/wikipedia/id/6/63/Dhamma_TV_baru.png",
+        "logo": "https://i.imgur.com/l0JyOrm.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "News"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://live.cnnindonesia.com/livecnn/smil:cnntv.smil/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"CNNIndonesia.id\" tvg-logo=\"https://i.imgur.com/l0JyOrm.png\" group-title=\"News\",CNN Indonesia (720p) [Geo-blocked]\r\nhttps://live.cnnindonesia.com/livecnn/smil:cnntv.smil/playlist.m3u8",
+      "line": 80,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "DAAI TV (720p)",
+      "tvg": {
+        "id": "DAAITV.id",
+        "name": "",
+        "logo": "https://i.imgur.com/YC7JCHo.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -273,9 +273,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://b.webcache.maxindo.net.id/dhamma/dhamma.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"DhammaTV.id\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/id/6/63/Dhamma_TV_baru.png\" group-title=\"Undefined\",Dhamma TV (720p) [Not 24/7]\r\nhttps://b.webcache.maxindo.net.id/dhamma/dhamma.m3u8",
-      "line": 84,
+      "url": "https://dacastmmd.mmdlive.lldns.net/dacastmmd/683cc426c19442a4ba31c53be5c963bb/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"DAAITV.id\" tvg-logo=\"https://i.imgur.com/YC7JCHo.png\" group-title=\"Undefined\",DAAI TV (720p)\r\nhttps://dacastmmd.mmdlive.lldns.net/dacastmmd/683cc426c19442a4ba31c53be5c963bb/index.m3u8",
+      "line": 82,
       "catchup": {
         "type": "",
         "days": "",
@@ -304,6 +304,34 @@
       "url": "https://dhohotv.siar.us/dhohotv/live/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"DhohoTV.id\" tvg-logo=\"https://i.imgur.com/4Khyyfh.png\" group-title=\"Undefined\",Dhoho TV (720p)\r\nhttps://dhohotv.siar.us/dhohotv/live/playlist.m3u8",
       "line": 86,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Dhamma TV (720p) [Not 24/7]",
+      "tvg": {
+        "id": "DhammaTV.id",
+        "name": "",
+        "logo": "https://upload.wikimedia.org/wikipedia/id/6/63/Dhamma_TV_baru.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://b.webcache.maxindo.net.id/dhamma/dhamma.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"DhammaTV.id\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/id/6/63/Dhamma_TV_baru.png\" group-title=\"Undefined\",Dhamma TV (720p) [Not 24/7]\r\nhttps://b.webcache.maxindo.net.id/dhamma/dhamma.m3u8",
+      "line": 84,
       "catchup": {
         "type": "",
         "days": "",
@@ -387,7 +415,7 @@
       },
       "url": "https://v3.siar.us/humabetangtv/live/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"HumaBetangTV.id\" tvg-logo=\"https://i.imgur.com/xBTqOEu.png\" group-title=\"Undefined\",Huma Betang TV (720p) [Not 24/7]\r\nhttps://v3.siar.us/humabetangtv/live/playlist.m3u8",
-      "line": 118,
+      "line": 116,
       "catchup": {
         "type": "",
         "days": "",
@@ -415,6 +443,34 @@
       },
       "url": "http://iamchannel.org:1935/tes/1/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"IAmChannel.id\" tvg-logo=\"https://i.imgur.com/Gg6OcGT.png\" group-title=\"Undefined\",I AM CHANNEL (576p) [Not 24/7]\r\nhttp://iamchannel.org:1935/tes/1/playlist.m3u8",
+      "line": 118,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "IDTV (720p) [Not 24/7]",
+      "tvg": {
+        "id": "IDTV.id",
+        "name": "",
+        "logo": "https://i.postimg.cc/6pycF7Vx/300px-IDTV.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Business"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://b1world.beritasatumedia.com/Beritasatu/B1World_manifest.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"IDTV.id\" tvg-logo=\"https://i.postimg.cc/6pycF7Vx/300px-IDTV.png\" group-title=\"Business\",IDTV (720p) [Not 24/7]\r\nhttps://b1world.beritasatumedia.com/Beritasatu/B1World_manifest.m3u8",
       "line": 120,
       "catchup": {
         "type": "",
@@ -453,34 +509,6 @@
       "status": "OK"
     },
     {
-      "name": "IDTV (720p) [Not 24/7]",
-      "tvg": {
-        "id": "IDTV.id",
-        "name": "",
-        "logo": "https://i.postimg.cc/6pycF7Vx/300px-IDTV.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Business"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://b1world.beritasatumedia.com/Beritasatu/B1World_manifest.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"IDTV.id\" tvg-logo=\"https://i.postimg.cc/6pycF7Vx/300px-IDTV.png\" group-title=\"Business\",IDTV (720p) [Not 24/7]\r\nhttps://b1world.beritasatumedia.com/Beritasatu/B1World_manifest.m3u8",
-      "line": 122,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Inspira TV (720p) [Not 24/7]",
       "tvg": {
         "id": "InspiraTV.id",
@@ -499,7 +527,7 @@
       },
       "url": "https://inspiratv.siar.us/inspiratv/live/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"InspiraTV.id\" tvg-logo=\"https://i.imgur.com/BF5orkg.png\" group-title=\"Undefined\",Inspira TV (720p) [Not 24/7]\r\nhttps://inspiratv.siar.us/inspiratv/live/playlist.m3u8",
-      "line": 128,
+      "line": 126,
       "catchup": {
         "type": "",
         "days": "",
@@ -527,7 +555,7 @@
       },
       "url": "https://streaming.radiosalamjambi.com/izzahtv.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"IzzahTV.id\" tvg-logo=\"https://i.imgur.com/my7aqLc.png\" group-title=\"Undefined\",Izzah TV (480p)\r\nhttps://streaming.radiosalamjambi.com/izzahtv.m3u8",
-      "line": 130,
+      "line": 128,
       "catchup": {
         "type": "",
         "days": "",
@@ -555,7 +583,7 @@
       },
       "url": "https://jawapostv.siar.us/jawapostv/live/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"JawaPosTV.id\" tvg-logo=\"https://i.imgur.com/Kt2kOGH.png\" group-title=\"Undefined\",Jawa Pos TV (720p) [Not 24/7]\r\nhttps://jawapostv.siar.us/jawapostv/live/playlist.m3u8",
-      "line": 136,
+      "line": 134,
       "catchup": {
         "type": "",
         "days": "",
@@ -583,7 +611,7 @@
       },
       "url": "http://103.255.15.222:1935/tv/jitv_720p/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"JogjaIstimewaTV.id\" tvg-logo=\"https://i.imgur.com/VEqQfTu.png\" group-title=\"Undefined\",Jogja Istimewa TV (720p)\r\nhttp://103.255.15.222:1935/tv/jitv_720p/playlist.m3u8",
-      "line": 140,
+      "line": 138,
       "catchup": {
         "type": "",
         "days": "",
@@ -611,7 +639,7 @@
       },
       "url": "http://210.210.155.37/uq2663/h/h08/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"KPlus.sg\" tvg-logo=\"https://i.imgur.com/RbS0q71.png\" group-title=\"Undefined\",K+ (Indonesian subtitle) (576p)\r\nhttp://210.210.155.37/uq2663/h/h08/index.m3u8",
-      "line": 146,
+      "line": 144,
       "catchup": {
         "type": "",
         "days": "",
@@ -639,7 +667,7 @@
       },
       "url": "https://re1.siar.us/madutv/hd720/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"MaduTV.id\" tvg-logo=\"https://i.imgur.com/cKpgbgW.png\" group-title=\"Undefined\",Madu TV (576p)\r\nhttps://re1.siar.us/madutv/hd720/playlist.m3u8",
-      "line": 158,
+      "line": 156,
       "catchup": {
         "type": "",
         "days": "",
@@ -667,63 +695,7 @@
       },
       "url": "https://lingkartv.my.id/hls/lingkartv.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"LingkarTV.id\" tvg-logo=\"https://lingkartv.com/assets/img/logo-square.png\" group-title=\"Music;News;Religious\",Lingkar TV\r\nhttps://lingkartv.my.id/hls/lingkartv.m3u8",
-      "line": 156,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Media Sunnah Aceh (720p) [Not 24/7]",
-      "tvg": {
-        "id": "MediaSunnahAceh.id",
-        "name": "",
-        "logo": "https://i.imgur.com/CIByKTP.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://ythls.armelin.one/channel/UCem4zrffr93cp-o8cOPDhdQ.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"MediaSunnahAceh.id\" tvg-logo=\"https://i.imgur.com/CIByKTP.png\" group-title=\"Undefined\",Media Sunnah Aceh (720p) [Not 24/7]\r\nhttps://ythls.armelin.one/channel/UCem4zrffr93cp-o8cOPDhdQ.m3u8",
-      "line": 164,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Metro TV (1080p) [Not 24/7]",
-      "tvg": {
-        "id": "MetroTV.id",
-        "name": "",
-        "logo": "https://i.imgur.com/QnU70NI.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "News"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://ythls.armelin.one/channel/UCzl0OrB3-ehunyotIQvK77A.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"MetroTV.id\" tvg-logo=\"https://i.imgur.com/QnU70NI.png\" group-title=\"News\",Metro TV (1080p) [Not 24/7]\r\nhttps://ythls.armelin.one/channel/UCzl0OrB3-ehunyotIQvK77A.m3u8",
-      "line": 166,
+      "line": 154,
       "catchup": {
         "type": "",
         "days": "",
@@ -751,7 +723,7 @@
       },
       "url": "https://5bf7b725107e5.streamlock.net/mqtv/mqtv/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"MQTV.id\" tvg-logo=\"https://i.imgur.com/d8dQo6E.png\" group-title=\"Undefined\",MQTV (720p) [Not 24/7]\r\nhttps://5bf7b725107e5.streamlock.net/mqtv/mqtv/playlist.m3u8",
-      "line": 172,
+      "line": 170,
       "catchup": {
         "type": "",
         "days": "",
@@ -779,63 +751,7 @@
       },
       "url": "http://210.210.155.37/uq2663/h/h192/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"MyCinema.id\" tvg-logo=\"https://i.imgur.com/BTmcTQO.png\" group-title=\"Movies\",My Cinema (1080p)\r\nhttp://210.210.155.37/uq2663/h/h192/index.m3u8",
-      "line": 176,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "MGS TV (720p) [Not 24/7]",
-      "tvg": {
-        "id": "MGSTV.id",
-        "name": "",
-        "logo": "https://i.imgur.com/MYU7dsZ.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://cdn.gunadarma.ac.id/streams/mgstv/ingestmgstv.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"MGSTV.id\" tvg-logo=\"https://i.imgur.com/MYU7dsZ.png\" group-title=\"Undefined\",MGS TV (720p) [Not 24/7]\r\nhttps://cdn.gunadarma.ac.id/streams/mgstv/ingestmgstv.m3u8",
-      "line": 170,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Magna Channel (1080p) [Not 24/7]",
-      "tvg": {
-        "id": "MagnaChannel.id",
-        "name": "",
-        "logo": "https://i.imgur.com/tfJo0SO.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://edge.medcom.id/live-edge/smil:magna.smil/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"MagnaChannel.id\" tvg-logo=\"https://i.imgur.com/tfJo0SO.png\" group-title=\"Undefined\",Magna Channel (1080p) [Not 24/7]\r\nhttps://edge.medcom.id/live-edge/smil:magna.smil/playlist.m3u8",
-      "line": 160,
+      "line": 174,
       "catchup": {
         "type": "",
         "days": "",
@@ -863,7 +779,7 @@
       },
       "url": "http://210.210.155.37/uq2663/h/h193/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"MyCinemaAsia.id\" tvg-logo=\"https://i.imgur.com/4XVZLW0.png\" group-title=\"Movies\",My Cinema Asia (1080p) [Geo-blocked]\r\nhttp://210.210.155.37/uq2663/h/h193/index.m3u8",
-      "line": 178,
+      "line": 176,
       "catchup": {
         "type": "",
         "days": "",
@@ -891,7 +807,35 @@
       },
       "url": "http://210.210.155.37/uq2663/h/h194/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"MyFamily.id\" tvg-logo=\"https://i.imgur.com/IaCmCt9.png\" group-title=\"Family\",My Family Channel (1080p) [Geo-blocked]\r\nhttp://210.210.155.37/uq2663/h/h194/index.m3u8",
-      "line": 180,
+      "line": 178,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "MGS TV (720p) [Not 24/7]",
+      "tvg": {
+        "id": "MGSTV.id",
+        "name": "",
+        "logo": "https://i.imgur.com/MYU7dsZ.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://cdn.gunadarma.ac.id/streams/mgstv/ingestmgstv.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"MGSTV.id\" tvg-logo=\"https://i.imgur.com/MYU7dsZ.png\" group-title=\"Undefined\",MGS TV (720p) [Not 24/7]\r\nhttps://cdn.gunadarma.ac.id/streams/mgstv/ingestmgstv.m3u8",
+      "line": 168,
       "catchup": {
         "type": "",
         "days": "",
@@ -919,7 +863,35 @@
       },
       "url": "http://210.210.155.37/uq2663/h/h191/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"MyKidz.id\" tvg-logo=\"https://i.imgur.com/qzZFU6d.png\" group-title=\"Kids\",My Kidz (1080p) [Geo-blocked]\r\nhttp://210.210.155.37/uq2663/h/h191/index.m3u8",
-      "line": 182,
+      "line": 180,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Magna Channel (1080p) [Not 24/7]",
+      "tvg": {
+        "id": "MagnaChannel.id",
+        "name": "",
+        "logo": "https://i.imgur.com/tfJo0SO.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://edge.medcom.id/live-edge/smil:magna.smil/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"MagnaChannel.id\" tvg-logo=\"https://i.imgur.com/tfJo0SO.png\" group-title=\"Undefined\",Magna Channel (1080p) [Not 24/7]\r\nhttps://edge.medcom.id/live-edge/smil:magna.smil/playlist.m3u8",
+      "line": 158,
       "catchup": {
         "type": "",
         "days": "",
@@ -947,7 +919,7 @@
       },
       "url": "https://nusantaratv.siar.us/nusantaratv/live/chunks.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"NusantaraTV.id\" tvg-logo=\"https://i.imgur.com/viun5hj.png\" group-title=\"Undefined\",Nusantara TV (720p)\r\nhttps://nusantaratv.siar.us/nusantaratv/live/chunks.m3u8",
-      "line": 190,
+      "line": 188,
       "catchup": {
         "type": "",
         "days": "",
@@ -975,7 +947,7 @@
       },
       "url": "https://v6.siar.us/pujatv/live/chunks.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"PujaTVAceh.id\" tvg-logo=\"https://i.imgur.com/0TqABCL.png\" group-title=\"Undefined\",Puja TV Aceh (1080p) [Not 24/7]\r\nhttps://v6.siar.us/pujatv/live/chunks.m3u8",
-      "line": 204,
+      "line": 202,
       "catchup": {
         "type": "",
         "days": "",
@@ -1003,7 +975,7 @@
       },
       "url": "http://103.140.188.211:1935/radartv/myStream/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"RadarTasikmalayaTV.id\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/1/1a/Logo_Radar_Tasikmalaya_TV.png\" group-title=\"Undefined\",Radar Tasikmalaya TV (720p) [Not 24/7]\r\nhttp://103.140.188.211:1935/radartv/myStream/playlist.m3u8",
-      "line": 206,
+      "line": 204,
       "catchup": {
         "type": "",
         "days": "",
@@ -1031,35 +1003,7 @@
       },
       "url": "https://rrinet.rri.co.id/hls/live.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"RRINet.id\" tvg-logo=\"https://i.imgur.com/4mWKUf4.png\" group-title=\"Undefined\",RRI Net (1080p)\r\nhttps://rrinet.rri.co.id/hls/live.m3u8",
-      "line": 228,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Rajawali TV",
-      "tvg": {
-        "id": "RajawaliTV.id",
-        "name": "",
-        "logo": "https://i.imgur.com/dlsv1sl.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://cdn09jtedge.indihometv.com/joss/130/rtv/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"RajawaliTV.id\" tvg-logo=\"https://i.imgur.com/dlsv1sl.png\" group-title=\"Undefined\",Rajawali TV\r\nhttps://cdn09jtedge.indihometv.com/joss/130/rtv/index.m3u8",
-      "line": 212,
+      "line": 226,
       "catchup": {
         "type": "",
         "days": "",
@@ -1087,7 +1031,35 @@
       },
       "url": "https://saktitv.siar.us/saktitv/live/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"SaktiTV.id\" tvg-logo=\"https://i.imgur.com/IDNjMfQ.png\" group-title=\"Undefined\",Sakti TV (720p)\r\nhttps://saktitv.siar.us/saktitv/live/playlist.m3u8",
-      "line": 232,
+      "line": 230,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Rajawali TV",
+      "tvg": {
+        "id": "RajawaliTV.id",
+        "name": "",
+        "logo": "https://i.imgur.com/dlsv1sl.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://cdn09jtedge.indihometv.com/joss/130/rtv/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"RajawaliTV.id\" tvg-logo=\"https://i.imgur.com/dlsv1sl.png\" group-title=\"Undefined\",Rajawali TV\r\nhttps://cdn09jtedge.indihometv.com/joss/130/rtv/index.m3u8",
+      "line": 210,
       "catchup": {
         "type": "",
         "days": "",
@@ -1115,7 +1087,7 @@
       },
       "url": "http://202.150.161.68/spotv2/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"\" tvg-logo=\"\" group-title=\"Undefined\",SPOTV2 (720p)\r\nhttp://202.150.161.68/spotv2/index.m3u8",
-      "line": 242,
+      "line": 240,
       "catchup": {
         "type": "",
         "days": "",
@@ -1143,91 +1115,7 @@
       },
       "url": "http://202.150.161.68/spotv1/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"\" tvg-logo=\"\" group-title=\"Undefined\",SPOTV (720p)\r\nhttp://202.150.161.68/spotv1/index.m3u8",
-      "line": 244,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Rodja TV (720p)",
-      "tvg": {
-        "id": "RodjaTV.id",
-        "name": "",
-        "logo": "https://i.imgur.com/XwCeHlC.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://rodjatv.com/rodjatv/live.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"RodjaTV.id\" tvg-logo=\"https://i.imgur.com/XwCeHlC.png\" group-title=\"Undefined\",Rodja TV (720p)\r\nhttps://rodjatv.com/rodjatv/live.m3u8",
-      "line": 226,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Sangaji TV (720p) [Not 24/7]",
-      "tvg": {
-        "id": "SangajiTV.id",
-        "name": "",
-        "logo": "https://i.imgur.com/4rTNT8F.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://cdn.gunadarma.ac.id/streams/sangajitv/ingestsangajitv.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"SangajiTV.id\" tvg-logo=\"https://i.imgur.com/4rTNT8F.png\" group-title=\"Undefined\",Sangaji TV (720p) [Not 24/7]\r\nhttps://cdn.gunadarma.ac.id/streams/sangajitv/ingestsangajitv.m3u8",
-      "line": 234,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Tawaf TV (720p)",
-      "tvg": {
-        "id": "TawafTV.id",
-        "name": "",
-        "logo": "https://i.postimg.cc/VvVgb6dN/logo-tawaf.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://streamtawaf.asfatv.com/hls/tawaftv.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TawafTV.id\" tvg-logo=\"https://i.postimg.cc/VvVgb6dN/logo-tawaf.png\" group-title=\"Undefined\",Tawaf TV (720p)\r\nhttps://streamtawaf.asfatv.com/hls/tawaftv.m3u8",
-      "line": 248,
+      "line": 242,
       "catchup": {
         "type": "",
         "days": "",
@@ -1255,6 +1143,90 @@
       },
       "url": "http://wms.klikhost.com:1935/tegartv/tegartv/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TegarTVLampung.id\" tvg-logo=\"https://i.imgur.com/0Vp3f2J.png\" group-title=\"Undefined\",Tegar TV Lampung (480p) [Not 24/7] [Geo-blocked]\r\nhttp://wms.klikhost.com:1935/tegartv/tegartv/playlist.m3u8",
+      "line": 250,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Rodja TV (720p)",
+      "tvg": {
+        "id": "RodjaTV.id",
+        "name": "",
+        "logo": "https://i.imgur.com/XwCeHlC.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://rodjatv.com/rodjatv/live.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"RodjaTV.id\" tvg-logo=\"https://i.imgur.com/XwCeHlC.png\" group-title=\"Undefined\",Rodja TV (720p)\r\nhttps://rodjatv.com/rodjatv/live.m3u8",
+      "line": 224,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Tawaf TV (720p)",
+      "tvg": {
+        "id": "TawafTV.id",
+        "name": "",
+        "logo": "https://i.postimg.cc/VvVgb6dN/logo-tawaf.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://streamtawaf.asfatv.com/hls/tawaftv.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"TawafTV.id\" tvg-logo=\"https://i.postimg.cc/VvVgb6dN/logo-tawaf.png\" group-title=\"Undefined\",Tawaf TV (720p)\r\nhttps://streamtawaf.asfatv.com/hls/tawaftv.m3u8",
+      "line": 246,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Trans7 (720p)",
+      "tvg": {
+        "id": "Trans7.id",
+        "name": "",
+        "logo": "https://i.imgur.com/fAbGImS.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://video.detik.com/trans7/smil:trans7.smil/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Trans7.id\" tvg-logo=\"https://i.imgur.com/fAbGImS.png\" group-title=\"General\",Trans7 (720p)\r\nhttps://video.detik.com/trans7/smil:trans7.smil/index.m3u8",
       "line": 252,
       "catchup": {
         "type": "",
@@ -1283,35 +1255,7 @@
       },
       "url": "https://5bf7b725107e5.streamlock.net/tv9/tv9/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TV9Nusantara.id\" tvg-logo=\"https://i.imgur.com/xPjWyiL.png\" group-title=\"Undefined\",TV9 Nusantara (720p)\r\nhttps://5bf7b725107e5.streamlock.net/tv9/tv9/playlist.m3u8",
-      "line": 264,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Trans7 (720p)",
-      "tvg": {
-        "id": "Trans7.id",
-        "name": "",
-        "logo": "https://i.imgur.com/fAbGImS.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://video.detik.com/trans7/smil:trans7.smil/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Trans7.id\" tvg-logo=\"https://i.imgur.com/fAbGImS.png\" group-title=\"General\",Trans7 (720p)\r\nhttps://video.detik.com/trans7/smil:trans7.smil/index.m3u8",
-      "line": 256,
+      "line": 260,
       "catchup": {
         "type": "",
         "days": "",
@@ -1339,7 +1283,7 @@
       },
       "url": "https://5bf7b725107e5.streamlock.net/tvkesehatan/tvkesehatan/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TVKesehatan.id\" tvg-logo=\"https://i.imgur.com/IGIX3o8.jpg\" group-title=\"Lifestyle\",TV Kesehatan (1080p)\r\nhttps://5bf7b725107e5.streamlock.net/tvkesehatan/tvkesehatan/playlist.m3u8",
-      "line": 266,
+      "line": 262,
       "catchup": {
         "type": "",
         "days": "",
@@ -1367,7 +1311,7 @@
       },
       "url": "https://video.detik.com/transtv/smil:transtv.smil/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TransTV.id\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/en/thumb/6/62/Trans_TV_2013.svg/512px-Trans_TV_2013.svg.png\" group-title=\"General\",Trans TV (720p)\r\nhttps://video.detik.com/transtv/smil:transtv.smil/index.m3u8",
-      "line": 258,
+      "line": 254,
       "catchup": {
         "type": "",
         "days": "",
@@ -1395,7 +1339,7 @@
       },
       "url": "http://103.30.1.14:8080/hls/live.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TVKU.id\" tvg-logo=\"https://i.imgur.com/BAklJGy.png\" group-title=\"Undefined\",TVKU (720p)\r\nhttp://103.30.1.14:8080/hls/live.m3u8",
-      "line": 272,
+      "line": 268,
       "catchup": {
         "type": "",
         "days": "",
@@ -1423,7 +1367,7 @@
       },
       "url": "https://5bf7b725107e5.streamlock.net/tvtabalong/tvtabalong/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TVTabalong.id\" tvg-logo=\"https://i.imgur.com/2YhDH98.png\" group-title=\"Undefined\",TV Tabalong (720p) [Not 24/7]\r\nhttps://5bf7b725107e5.streamlock.net/tvtabalong/tvtabalong/playlist.m3u8",
-      "line": 270,
+      "line": 266,
       "catchup": {
         "type": "",
         "days": "",
@@ -1461,34 +1405,6 @@
       "status": "OK"
     },
     {
-      "name": "TVRI Aceh (720p)",
-      "tvg": {
-        "id": "TVRIAceh.id",
-        "name": "",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/TVRILogo2019.svg/512px-TVRILogo2019.svg.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://ott.tvri.co.id/Content/HLS/Live/Channel(TVRIACEH)/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TVRIAceh.id\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/TVRILogo2019.svg/512px-TVRILogo2019.svg.png\" group-title=\"Undefined\",TVRI Aceh (720p)\r\nhttp://ott.tvri.co.id/Content/HLS/Live/Channel(TVRIACEH)/index.m3u8",
-      "line": 278,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "TVRI Bangka Belitung (480p)",
       "tvg": {
         "id": "TVRIBangkaBelitung.id",
@@ -1508,6 +1424,34 @@
       "url": "http://ott.tvri.co.id/Content/HLS/Live/Channel(TVRIBABEL)/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TVRIBangkaBelitung.id\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/TVRILogo2019.svg/512px-TVRILogo2019.svg.png\" group-title=\"Undefined\",TVRI Bangka Belitung (480p)\r\nhttp://ott.tvri.co.id/Content/HLS/Live/Channel(TVRIBABEL)/index.m3u8",
       "line": 282,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "TVRI Aceh (720p)",
+      "tvg": {
+        "id": "TVRIAceh.id",
+        "name": "",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/TVRILogo2019.svg/512px-TVRILogo2019.svg.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://ott.tvri.co.id/Content/HLS/Live/Channel(TVRIACEH)/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"TVRIAceh.id\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/TVRILogo2019.svg/512px-TVRILogo2019.svg.png\" group-title=\"Undefined\",TVRI Aceh (720p)\r\nhttp://ott.tvri.co.id/Content/HLS/Live/Channel(TVRIACEH)/index.m3u8",
+      "line": 278,
       "catchup": {
         "type": "",
         "days": "",
@@ -2273,34 +2217,6 @@
       "status": "OK"
     },
     {
-      "name": "UGTV (720p)",
-      "tvg": {
-        "id": "UGTV.id",
-        "name": "",
-        "logo": "https://i.imgur.com/iEKDH26.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://cdn.gunadarma.ac.id/streams/ugtv/ingestugtv.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"UGTV.id\" tvg-logo=\"https://i.imgur.com/iEKDH26.png\" group-title=\"Undefined\",UGTV (720p)\r\nhttps://cdn.gunadarma.ac.id/streams/ugtv/ingestugtv.m3u8",
-      "line": 338,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "TVRI World",
       "tvg": {
         "id": "TVRIWorld.id",
@@ -2320,6 +2236,34 @@
       "url": "https://ott-balancer.tvri.go.id/live/eds/TVRIWorld/hls/TVRIWorld.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TVRIWorld.id\" tvg-logo=\"https://i.imgur.com/h3RldTO.png\" group-title=\"Undefined\",TVRI World\r\nhttps://ott-balancer.tvri.go.id/live/eds/TVRIWorld/hls/TVRIWorld.m3u8",
       "line": 334,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "UGTV (720p)",
+      "tvg": {
+        "id": "UGTV.id",
+        "name": "",
+        "logo": "https://i.imgur.com/iEKDH26.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://cdn.gunadarma.ac.id/streams/ugtv/ingestugtv.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"UGTV.id\" tvg-logo=\"https://i.imgur.com/iEKDH26.png\" group-title=\"Undefined\",UGTV (720p)\r\nhttps://cdn.gunadarma.ac.id/streams/ugtv/ingestugtv.m3u8",
+      "line": 338,
       "catchup": {
         "type": "",
         "days": "",
