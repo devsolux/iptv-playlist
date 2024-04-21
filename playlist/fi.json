@@ -61,6 +61,34 @@
       "status": "OK"
     },
     {
+      "name": "JRTV Järviradio (720p)",
+      "tvg": {
+        "id": "JRTVJarviradio.fi",
+        "name": "",
+        "logo": "https://jarviradio.fi/jrtv2/wp-content/uploads/2022/01/jrtv1.jpg",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Music"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://streamer.radiotaajuus.fi/memfs/47f113bf-04ea-493b-a9d4-52945fd9db31.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"JRTVJarviradio.fi\" tvg-logo=\"https://jarviradio.fi/jrtv2/wp-content/uploads/2022/01/jrtv1.jpg\" group-title=\"Music\",JRTV Järviradio (720p)\r\nhttps://streamer.radiotaajuus.fi/memfs/47f113bf-04ea-493b-a9d4-52945fd9db31.m3u8",
+      "line": 37,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "ÅrvasTV (1080p) [Not 24/7]",
       "tvg": {
         "id": "ArvasTV.fi",
@@ -89,25 +117,25 @@
       "status": "OK"
     },
     {
-      "name": "JRTV Järviradio (720p)",
+      "name": "MTV3 (720p)",
       "tvg": {
-        "id": "JRTVJarviradio.fi",
+        "id": "MTV3.fi",
         "name": "",
-        "logo": "https://jarviradio.fi/jrtv2/wp-content/uploads/2022/01/jrtv1.jpg",
+        "logo": "https://i.imgur.com/OJWDnUx.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Music"
+        "title": "Undefined"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://streamer.radiotaajuus.fi/memfs/47f113bf-04ea-493b-a9d4-52945fd9db31.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"JRTVJarviradio.fi\" tvg-logo=\"https://jarviradio.fi/jrtv2/wp-content/uploads/2022/01/jrtv1.jpg\" group-title=\"Music\",JRTV Järviradio (720p)\r\nhttps://streamer.radiotaajuus.fi/memfs/47f113bf-04ea-493b-a9d4-52945fd9db31.m3u8",
-      "line": 37,
+      "url": "https://live-fi.tvkaista.net/mtv3/live.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"MTV3.fi\" tvg-logo=\"https://i.imgur.com/OJWDnUx.png\" group-title=\"Undefined\",MTV3 (720p)\r\nhttps://live-fi.tvkaista.net/mtv3/live.m3u8",
+      "line": 43,
       "catchup": {
         "type": "",
         "days": "",
@@ -145,25 +173,25 @@
       "status": "OK"
     },
     {
-      "name": "MTV3 (720p)",
+      "name": "MTV Uutiset (720p)",
       "tvg": {
-        "id": "MTV3.fi",
+        "id": "MTVUutiset.fi",
         "name": "",
-        "logo": "https://i.imgur.com/OJWDnUx.png",
+        "logo": "https://i.imgur.com/ZO8ShOK.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Undefined"
+        "title": "News"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://live-fi.tvkaista.net/mtv3/live.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"MTV3.fi\" tvg-logo=\"https://i.imgur.com/OJWDnUx.png\" group-title=\"Undefined\",MTV3 (720p)\r\nhttps://live-fi.tvkaista.net/mtv3/live.m3u8",
-      "line": 43,
+      "url": "https://live.streaming.a2d.tv/asset/20025962.isml/.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"MTVUutiset.fi\" tvg-logo=\"https://i.imgur.com/ZO8ShOK.png\" group-title=\"News\",MTV Uutiset (720p)\r\nhttps://live.streaming.a2d.tv/asset/20025962.isml/.m3u8",
+      "line": 45,
       "catchup": {
         "type": "",
         "days": "",
@@ -229,34 +257,6 @@
       "status": "OK"
     },
     {
-      "name": "MTV Uutiset (720p)",
-      "tvg": {
-        "id": "MTVUutiset.fi",
-        "name": "",
-        "logo": "https://i.imgur.com/ZO8ShOK.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "News"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://live.streaming.a2d.tv/asset/20025962.isml/.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"MTVUutiset.fi\" tvg-logo=\"https://i.imgur.com/ZO8ShOK.png\" group-title=\"News\",MTV Uutiset (720p)\r\nhttps://live.streaming.a2d.tv/asset/20025962.isml/.m3u8",
-      "line": 45,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Rakuten TV Draama",
       "tvg": {
         "id": "RakutenTVDramaMovies.fi",
@@ -276,34 +276,6 @@
       "url": "https://rakuten-drama-12-eu.rakuten.wurl.tv/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"RakutenTVDramaMovies.fi\" tvg-logo=\"https://i.imgur.com/NJYEYE3.png\" group-title=\"Movies\",Rakuten TV Draama\r\nhttps://rakuten-drama-12-eu.rakuten.wurl.tv/playlist.m3u8",
       "line": 59,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Nelonen (720p)",
-      "tvg": {
-        "id": "Nelonen.fi",
-        "name": "",
-        "logo": "https://i.imgur.com/BFbCyfY.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://live-fi.tvkaista.net/nelonen/live.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Nelonen.fi\" tvg-logo=\"https://i.imgur.com/BFbCyfY.png\" group-title=\"Undefined\",Nelonen (720p)\r\nhttps://live-fi.tvkaista.net/nelonen/live.m3u8",
-      "line": 53,
       "catchup": {
         "type": "",
         "days": "",
@@ -341,25 +313,25 @@
       "status": "OK"
     },
     {
-      "name": "Rakuten TV Komedia",
+      "name": "Nelonen (720p)",
       "tvg": {
-        "id": "RakutenTVComedyMovies.fi",
+        "id": "Nelonen.fi",
         "name": "",
-        "logo": "https://i.imgur.com/NJYEYE3.png",
+        "logo": "https://i.imgur.com/BFbCyfY.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Movies"
+        "title": "Undefined"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://rakuten-comedy-12-eu.rakuten.wurl.tv/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"RakutenTVComedyMovies.fi\" tvg-logo=\"https://i.imgur.com/NJYEYE3.png\" group-title=\"Movies\",Rakuten TV Komedia\r\nhttps://rakuten-comedy-12-eu.rakuten.wurl.tv/playlist.m3u8",
-      "line": 63,
+      "url": "https://live-fi.tvkaista.net/nelonen/live.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Nelonen.fi\" tvg-logo=\"https://i.imgur.com/BFbCyfY.png\" group-title=\"Undefined\",Nelonen (720p)\r\nhttps://live-fi.tvkaista.net/nelonen/live.m3u8",
+      "line": 53,
       "catchup": {
         "type": "",
         "days": "",
@@ -397,9 +369,9 @@
       "status": "OK"
     },
     {
-      "name": "Rakuten TV Toiminta",
+      "name": "Rakuten TV Komedia",
       "tvg": {
-        "id": "RakutenTVActionMovies.fi",
+        "id": "RakutenTVComedyMovies.fi",
         "name": "",
         "logo": "https://i.imgur.com/NJYEYE3.png",
         "url": "",
@@ -413,9 +385,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://rakuten-action-12-eu.rakuten.wurl.tv/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"RakutenTVActionMovies.fi\" tvg-logo=\"https://i.imgur.com/NJYEYE3.png\" group-title=\"Movies\",Rakuten TV Toiminta\r\nhttps://rakuten-action-12-eu.rakuten.wurl.tv/playlist.m3u8",
-      "line": 69,
+      "url": "https://rakuten-comedy-12-eu.rakuten.wurl.tv/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"RakutenTVComedyMovies.fi\" tvg-logo=\"https://i.imgur.com/NJYEYE3.png\" group-title=\"Movies\",Rakuten TV Komedia\r\nhttps://rakuten-comedy-12-eu.rakuten.wurl.tv/playlist.m3u8",
+      "line": 63,
       "catchup": {
         "type": "",
         "days": "",
@@ -444,6 +416,34 @@
       "url": "https://rakuten-spotlight-12-eu.rakuten.wurl.tv/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"RakutenTVRakutenStories.fi\" tvg-logo=\"https://i.imgur.com/NJYEYE3.png\" group-title=\"Movies\",Rakuten TV Rakuten Stories\r\nhttps://rakuten-spotlight-12-eu.rakuten.wurl.tv/playlist.m3u8",
       "line": 67,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Rakuten TV Toiminta",
+      "tvg": {
+        "id": "RakutenTVActionMovies.fi",
+        "name": "",
+        "logo": "https://i.imgur.com/NJYEYE3.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Movies"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://rakuten-action-12-eu.rakuten.wurl.tv/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"RakutenTVActionMovies.fi\" tvg-logo=\"https://i.imgur.com/NJYEYE3.png\" group-title=\"Movies\",Rakuten TV Toiminta\r\nhttps://rakuten-action-12-eu.rakuten.wurl.tv/playlist.m3u8",
+      "line": 69,
       "catchup": {
         "type": "",
         "days": "",
