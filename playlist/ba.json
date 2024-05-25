@@ -89,11 +89,11 @@
       "status": "OK"
     },
     {
-      "name": "RTRS TV (576p) [Not 24/7]",
+      "name": "RTRS Plus (576p) [Not 24/7]",
       "tvg": {
-        "id": "RTRSTV.ba",
+        "id": "RTRSplus.ba",
         "name": "",
-        "logo": "https://i.imgur.com/2Sgs5gM.png",
+        "logo": "https://i.imgur.com/k06WvYl.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -105,9 +105,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://uzivo.rtrs.tv/tv/live/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"RTRSTV.ba\" tvg-logo=\"https://i.imgur.com/2Sgs5gM.png\" group-title=\"Undefined\",RTRS TV (576p) [Not 24/7]\r\nhttps://uzivo.rtrs.tv/tv/live/index.m3u8",
-      "line": 42,
+      "url": "https://pluslive.rtrs.tv/plus/plus/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"RTRSplus.ba\" tvg-logo=\"https://i.imgur.com/k06WvYl.png\" group-title=\"Undefined\",RTRS Plus (576p) [Not 24/7]\r\nhttps://pluslive.rtrs.tv/plus/plus/playlist.m3u8",
+      "line": 40,
       "catchup": {
         "type": "",
         "days": "",
@@ -145,53 +145,25 @@
       "status": "OK"
     },
     {
-      "name": "RTV Herceg-Bosne (576p) [Not 24/7]",
+      "name": "RTV Glas Drine (404p) [Not 24/7]",
       "tvg": {
-        "id": "RTVHB.ba",
+        "id": "RTVGlasDrine.ba",
         "name": "",
-        "logo": "https://i.imgur.com/6FNL8Iv.png",
+        "logo": "https://i.imgur.com/9NgxOdb.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "General"
+        "title": "General;Music"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://prd-hometv-live-open.spectar.tv/ERO_1_083/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"RTVHB.ba\" tvg-logo=\"https://i.imgur.com/6FNL8Iv.png\" group-title=\"General\",RTV Herceg-Bosne (576p) [Not 24/7]\r\nhttps://prd-hometv-live-open.spectar.tv/ERO_1_083/playlist.m3u8",
-      "line": 46,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "RTV Zenica (720p)",
-      "tvg": {
-        "id": "RTVZenica.ba",
-        "name": "",
-        "logo": "https://i.imgur.com/TKUaflB.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://stream.rtvze.ba/live/123/123.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"RTVZenica.ba\" tvg-logo=\"https://i.imgur.com/TKUaflB.png\" group-title=\"Undefined\",RTV Zenica (720p)\r\nhttps://stream.rtvze.ba/live/123/123.m3u8",
-      "line": 48,
+      "url": "http://glasdrine.cutuk.net:8081/433ssdsw/GlasDrineSD/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"RTVGlasDrine.ba\" tvg-logo=\"https://i.imgur.com/9NgxOdb.png\" group-title=\"General;Music\",RTV Glas Drine (404p) [Not 24/7]\r\nhttp://glasdrine.cutuk.net:8081/433ssdsw/GlasDrineSD/playlist.m3u8",
+      "line": 44,
       "catchup": {
         "type": "",
         "days": "",
@@ -229,6 +201,34 @@
       "status": "OK"
     },
     {
+      "name": "RTV Zenica (720p)",
+      "tvg": {
+        "id": "RTVZenica.ba",
+        "name": "",
+        "logo": "https://i.imgur.com/TKUaflB.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://stream.rtvze.ba/live/123/123.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"RTVZenica.ba\" tvg-logo=\"https://i.imgur.com/TKUaflB.png\" group-title=\"Undefined\",RTV Zenica (720p)\r\nhttps://stream.rtvze.ba/live/123/123.m3u8",
+      "line": 48,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Super TV Media (720p)",
       "tvg": {
         "id": "SuperTV.ba",
@@ -257,25 +257,25 @@
       "status": "OK"
     },
     {
-      "name": "Televizija 5 (576p)",
+      "name": "RTV Herceg-Bosne (576p) [Not 24/7]",
       "tvg": {
-        "id": "Televizija5.ba",
+        "id": "RTVHB.ba",
         "name": "",
-        "logo": "https://i.imgur.com/znpvJys.png",
+        "logo": "https://i.imgur.com/6FNL8Iv.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Undefined"
+        "title": "General"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://balkanmedia.dynu.net/hls/tv5web.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Televizija5.ba\" tvg-logo=\"https://i.imgur.com/znpvJys.png\" group-title=\"Undefined\",Televizija 5 (576p)\r\nhttps://balkanmedia.dynu.net/hls/tv5web.m3u8",
-      "line": 56,
+      "url": "https://prd-hometv-live-open.spectar.tv/ERO_1_083/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"RTVHB.ba\" tvg-logo=\"https://i.imgur.com/6FNL8Iv.png\" group-title=\"General\",RTV Herceg-Bosne (576p) [Not 24/7]\r\nhttps://prd-hometv-live-open.spectar.tv/ERO_1_083/playlist.m3u8",
+      "line": 46,
       "catchup": {
         "type": "",
         "days": "",
@@ -304,6 +304,34 @@
       "url": "https://restreamer2.tnt.ba/hls/stream.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"SevdahTV.ba\" tvg-logo=\"https://i.imgur.com/gmpkHWT.png\" group-title=\"Music\",Sevdah TV (288p)\r\nhttps://restreamer2.tnt.ba/hls/stream.m3u8",
       "line": 52,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Televizija 5 (576p)",
+      "tvg": {
+        "id": "Televizija5.ba",
+        "name": "",
+        "logo": "https://i.imgur.com/znpvJys.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://balkanmedia.dynu.net/hls/tv5web.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Televizija5.ba\" tvg-logo=\"https://i.imgur.com/znpvJys.png\" group-title=\"Undefined\",Televizija 5 (576p)\r\nhttps://balkanmedia.dynu.net/hls/tv5web.m3u8",
+      "line": 56,
       "catchup": {
         "type": "",
         "days": "",
