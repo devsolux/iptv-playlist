@@ -61,11 +61,11 @@
       "status": "OK"
     },
     {
-      "name": "EVI TV (720p)",
+      "name": "Maboke TV (720p)",
       "tvg": {
-        "id": "EVITV.cd",
+        "id": "MabokeTV.cg",
         "name": "",
-        "logo": "https://i.ibb.co/PNXggHL/evi-tv-live-vipotv-democratic-Congo.png",
+        "logo": "https://i.imgur.com/Od2fDTQ.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -77,9 +77,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://stream.telepack.net/evitv/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"EVITV.cd\" tvg-logo=\"https://i.ibb.co/PNXggHL/evi-tv-live-vipotv-democratic-Congo.png\" group-title=\"Entertainment\",EVI TV (720p)\r\nhttps://stream.telepack.net/evitv/index.m3u8",
-      "line": 46,
+      "url": "http://51.254.199.122:8080/mabokeTV/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"MabokeTV.cg\" tvg-logo=\"https://i.imgur.com/Od2fDTQ.png\" group-title=\"Entertainment\",Maboke TV (720p)\r\nhttp://51.254.199.122:8080/mabokeTV/index.m3u8",
+      "line": 59,
       "catchup": {
         "type": "",
         "days": "",
@@ -108,6 +108,118 @@
       "url": "https://stream.castr.com/632c52e09206c19bee72a6d6/live_b072ea703a7111edbfe74bb80437147b/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"MandikoTV.cd\" tvg-logo=\"https://i.imgur.com/jsBWsdK.png\" group-title=\"General\",Mandiko TV (614p) [Not 24/7]\r\n#EXTVLCOPT:http-referrer=https://player.castr.com/live_b072ea703a7111edbfe74bb80437147b\r\nhttps://stream.castr.com/632c52e09206c19bee72a6d6/live_b072ea703a7111edbfe74bb80437147b/index.m3u8",
       "line": 63,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "EVI TV (720p)",
+      "tvg": {
+        "id": "EVITV.cd",
+        "name": "",
+        "logo": "https://i.ibb.co/PNXggHL/evi-tv-live-vipotv-democratic-Congo.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Entertainment"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://stream.telepack.net/evitv/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"EVITV.cd\" tvg-logo=\"https://i.ibb.co/PNXggHL/evi-tv-live-vipotv-democratic-Congo.png\" group-title=\"Entertainment\",EVI TV (720p)\r\nhttps://stream.telepack.net/evitv/index.m3u8",
+      "line": 46,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Mikuba TV (480p) [Not 24/7]",
+      "tvg": {
+        "id": "MikubaTV.cd",
+        "name": "",
+        "logo": "https://i.imgur.com/yJehCQM.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://51.254.199.122:8080/MIKUBATV/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"MikubaTV.cd\" tvg-logo=\"https://i.imgur.com/yJehCQM.png\" group-title=\"Undefined\",Mikuba TV (480p) [Not 24/7]\r\nhttp://51.254.199.122:8080/MIKUBATV/index.m3u8",
+      "line": 68,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Nyota TV (360p) [Not 24/7]",
+      "tvg": {
+        "id": "NyotaTV.cd",
+        "name": "",
+        "logo": "https://i.imgur.com/Obyh2Ah.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://51.254.199.122:8080/noyaTV/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"NyotaTV.cd\" tvg-logo=\"https://i.imgur.com/Obyh2Ah.png\" group-title=\"Undefined\",Nyota TV (360p) [Not 24/7]\r\nhttp://51.254.199.122:8080/noyaTV/index.m3u8",
+      "line": 76,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "ONE-TV (720p) [Not 24/7]",
+      "tvg": {
+        "id": "ONETV.cd",
+        "name": "",
+        "logo": "https://i.imgur.com/Wob7gjp.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Religious"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://ssh101.bozztv.com/ssh101/onetvlive/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"ONETV.cd\" tvg-logo=\"https://i.imgur.com/Wob7gjp.png\" group-title=\"Religious\",ONE-TV (720p) [Not 24/7]\r\nhttps://ssh101.bozztv.com/ssh101/onetvlive/playlist.m3u8",
+      "line": 78,
       "catchup": {
         "type": "",
         "days": "",
