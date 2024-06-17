@@ -201,6 +201,34 @@
       "status": "OK"
     },
     {
+      "name": "JRTV Järviradio (720p)",
+      "tvg": {
+        "id": "JRTVJarviradio.fi",
+        "name": "",
+        "logo": "https://jarviradio.fi/jrtv2/wp-content/uploads/2022/01/jrtv1.jpg",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Music"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://streamer.radiotaajuus.fi/memfs/47f113bf-04ea-493b-a9d4-52945fd9db31.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"JRTVJarviradio.fi\" tvg-logo=\"https://jarviradio.fi/jrtv2/wp-content/uploads/2022/01/jrtv1.jpg\" group-title=\"Music\",JRTV Järviradio (720p)\r\nhttps://streamer.radiotaajuus.fi/memfs/47f113bf-04ea-493b-a9d4-52945fd9db31.m3u8",
+      "line": 43,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Kutonen (720p)",
       "tvg": {
         "id": "Kutonen.fi",
@@ -304,34 +332,6 @@
       "url": "https://hls.navahang.live/hls/stream.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"NavahangTV.fi\" tvg-logo=\"https://i.imgur.com/YteKXJy.png\" group-title=\"Music\",Navahang TV (720p)\r\nhttps://hls.navahang.live/hls/stream.m3u8",
       "line": 59,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "JRTV Järviradio (720p)",
-      "tvg": {
-        "id": "JRTVJarviradio.fi",
-        "name": "",
-        "logo": "https://jarviradio.fi/jrtv2/wp-content/uploads/2022/01/jrtv1.jpg",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Music"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://streamer.radiotaajuus.fi/memfs/47f113bf-04ea-493b-a9d4-52945fd9db31.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"JRTVJarviradio.fi\" tvg-logo=\"https://jarviradio.fi/jrtv2/wp-content/uploads/2022/01/jrtv1.jpg\" group-title=\"Music\",JRTV Järviradio (720p)\r\nhttps://streamer.radiotaajuus.fi/memfs/47f113bf-04ea-493b-a9d4-52945fd9db31.m3u8",
-      "line": 43,
       "catchup": {
         "type": "",
         "days": "",
@@ -453,34 +453,6 @@
       "status": "OK"
     },
     {
-      "name": "Rakuten TV Perhe",
-      "tvg": {
-        "id": "RakutenTVFamilyMovies.fi",
-        "name": "",
-        "logo": "https://i.imgur.com/NJYEYE3.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Family;Movies"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://rakuten-family-12-eu.rakuten.wurl.tv/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"RakutenTVFamilyMovies.fi\" tvg-logo=\"https://i.imgur.com/NJYEYE3.png\" group-title=\"Family;Movies\",Rakuten TV Perhe\r\nhttps://rakuten-family-12-eu.rakuten.wurl.tv/playlist.m3u8",
-      "line": 81,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Onni TV (720p)",
       "tvg": {
         "id": "OnniTV.fi",
@@ -537,9 +509,9 @@
       "status": "OK"
     },
     {
-      "name": "Rakuten TV Rakuten Stories",
+      "name": "Rakuten TV Perhe",
       "tvg": {
-        "id": "RakutenTVRakutenStories.fi",
+        "id": "RakutenTVFamilyMovies.fi",
         "name": "",
         "logo": "https://i.imgur.com/NJYEYE3.png",
         "url": "",
@@ -547,15 +519,15 @@
         "shift": ""
       },
       "group": {
-        "title": "Movies"
+        "title": "Family;Movies"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://rakuten-spotlight-12-eu.rakuten.wurl.tv/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"RakutenTVRakutenStories.fi\" tvg-logo=\"https://i.imgur.com/NJYEYE3.png\" group-title=\"Movies\",Rakuten TV Rakuten Stories\r\nhttps://rakuten-spotlight-12-eu.rakuten.wurl.tv/playlist.m3u8",
-      "line": 83,
+      "url": "https://rakuten-family-12-eu.rakuten.wurl.tv/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"RakutenTVFamilyMovies.fi\" tvg-logo=\"https://i.imgur.com/NJYEYE3.png\" group-title=\"Family;Movies\",Rakuten TV Perhe\r\nhttps://rakuten-family-12-eu.rakuten.wurl.tv/playlist.m3u8",
+      "line": 81,
       "catchup": {
         "type": "",
         "days": "",
@@ -584,6 +556,62 @@
       "url": "https://rakuten-action-12-eu.rakuten.wurl.tv/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"RakutenTVActionMovies.fi\" tvg-logo=\"https://i.imgur.com/NJYEYE3.png\" group-title=\"Movies\",Rakuten TV Toiminta\r\nhttps://rakuten-action-12-eu.rakuten.wurl.tv/playlist.m3u8",
       "line": 85,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Rakuten TV Rakuten Stories",
+      "tvg": {
+        "id": "RakutenTVRakutenStories.fi",
+        "name": "",
+        "logo": "https://i.imgur.com/NJYEYE3.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Movies"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://rakuten-spotlight-12-eu.rakuten.wurl.tv/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"RakutenTVRakutenStories.fi\" tvg-logo=\"https://i.imgur.com/NJYEYE3.png\" group-title=\"Movies\",Rakuten TV Rakuten Stories\r\nhttps://rakuten-spotlight-12-eu.rakuten.wurl.tv/playlist.m3u8",
+      "line": 83,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Nopola News (1080p) [Not 24/7]",
+      "tvg": {
+        "id": "NopolaNews.fi",
+        "name": "",
+        "logo": "https://i.imgur.com/vDoQaGl.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://virta2.nopolanews.fi:8443/live/smil:Stream1.smil/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"NopolaNews.fi\" tvg-logo=\"https://i.imgur.com/vDoQaGl.png\" group-title=\"Undefined\",Nopola News (1080p) [Not 24/7]\r\nhttps://virta2.nopolanews.fi:8443/live/smil:Stream1.smil/playlist.m3u8",
+      "line": 65,
       "catchup": {
         "type": "",
         "days": "",
@@ -649,34 +677,6 @@
       "status": "OK"
     },
     {
-      "name": "Nopola News (1080p) [Not 24/7]",
-      "tvg": {
-        "id": "NopolaNews.fi",
-        "name": "",
-        "logo": "https://i.imgur.com/vDoQaGl.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://virta2.nopolanews.fi:8443/live/smil:Stream1.smil/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"NopolaNews.fi\" tvg-logo=\"https://i.imgur.com/vDoQaGl.png\" group-title=\"Undefined\",Nopola News (1080p) [Not 24/7]\r\nhttps://virta2.nopolanews.fi:8443/live/smil:Stream1.smil/playlist.m3u8",
-      "line": 65,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Sundom TV (1080p) [Not 24/7]",
       "tvg": {
         "id": "SundomTV.fi",
@@ -705,34 +705,6 @@
       "status": "OK"
     },
     {
-      "name": "YleX Studio Live (720p)",
-      "tvg": {
-        "id": "YleX.fi",
-        "name": "",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/YleX.svg/450px-YleX.svg.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Music"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://ylestudiolive.akamaized.net/hls/live/2007826/ylestudiolive-YleX/master.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"YleX.fi\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/YleX.svg/450px-YleX.svg.png\" group-title=\"Music\",YleX Studio Live (720p)\r\nhttps://ylestudiolive.akamaized.net/hls/live/2007826/ylestudiolive-YleX/master.m3u8",
-      "line": 107,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "WörTV (1080p) [Not 24/7]",
       "tvg": {
         "id": "WorTV.fi",
@@ -752,6 +724,34 @@
       "url": "https://ythls.armelin.one/channel/UCQ36NJ8-XNhBDvSSsh8gS2Q.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"WorTV.fi\" tvg-logo=\"https://i.imgur.com/P9O1jo0.png\" group-title=\"Undefined\",WörTV (1080p) [Not 24/7]\r\nhttps://ythls.armelin.one/channel/UCQ36NJ8-XNhBDvSSsh8gS2Q.m3u8",
       "line": 99,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "YleX Studio Live (720p)",
+      "tvg": {
+        "id": "YleX.fi",
+        "name": "",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/YleX.svg/450px-YleX.svg.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Music"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://ylestudiolive.akamaized.net/hls/live/2007826/ylestudiolive-YleX/master.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"YleX.fi\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/YleX.svg/450px-YleX.svg.png\" group-title=\"Music\",YleX Studio Live (720p)\r\nhttps://ylestudiolive.akamaized.net/hls/live/2007826/ylestudiolive-YleX/master.m3u8",
+      "line": 107,
       "catchup": {
         "type": "",
         "days": "",
