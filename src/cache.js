@@ -1,6 +1,3 @@
-module.exports.add = add
-module.exports.check = check
-
 let cache = new Set()
 
 function add({ url }) {
@@ -15,4 +12,9 @@ function check({ url }) {
 
 function hashUrl(u) {
   return Buffer.from(u).toString(`hex`)
+}
+
+module.exports = {
+  add,
+  check,
 }

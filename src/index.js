@@ -4,8 +4,8 @@ const commandExists = require('command-exists')
 const eachLimit = require('async/eachLimit')
 const { parsePlaylist } = require('./parser')
 const cache = require('./cache')
-const Logger = require('./Logger')
-const cpus = require('os').cpus()
+const Logger = require('./logger')
+const { cpus } = require('os')
 const { loadStream } = require('./http')
 const ffprobe = require('./ffprobe')
 
@@ -13,10 +13,10 @@ const defaultConfig = {
   debug: false,
   userAgent: null,
   timeout: 60000,
-  parallel: cpus.length,
-  setUp: playlist => {}, // eslint-disable-line
-  afterEach: item => {}, // eslint-disable-line
-  beforeEach: item => {}, // eslint-disable-line
+  parallel: cpus().length,
+  setUp: async playlist => {}, // eslint-disable-line
+  afterEach: async item => {}, // eslint-disable-line
+  beforeEach: async item => {}, // eslint-disable-line
 }
 
 class IPTVChecker {
@@ -26,24 +26,28 @@ class IPTVChecker {
   }
 
   async checkPlaylist(input) {
-    await commandExists(`ffprobe`).catch(() => {
-      throw new Error(`Executable "ffprobe" not found. Have you installed "ffmpeg"?`)
-    })
+    try {
+      await commandExists('ffprobe')
+    } catch {
+      throw new Error('Executable ffprobe not found.')
+    }
 
-    if (!(input instanceof Object) && !Buffer.isBuffer(input) && typeof input !== `string`) {
+    if (!(input instanceof Object) && !Buffer.isBuffer(input) && typeof input !== 'string') {
       throw new Error('Unsupported input type')
     }
 
     const results = []
     const duplicates = []
-    const config = this.config
-    const logger = this.logger
+    const { config, logger } = this
 
     logger.debug({ config })
 
-    const playlist = await parsePlaylist(input).catch(err => {
+    let playlist
+    try {
+      playlist = await parsePlaylist(input)
+    } catch (err) {
       throw new Error(err)
-    })
+    }
 
     await config.setUp(playlist)
 
@@ -63,16 +67,15 @@ class IPTVChecker {
       })
       .filter(Boolean)
 
-    for (let item of duplicates) {
-      item.status = { ok: false, code: 'DUPLICATE', message: `Duplicate` }
+    for (const item of duplicates) {
+      item.status = { ok: false, code: 'DUPLICATE', message: 'Duplicate' }
       await config.afterEach(item)
       results.push(item)
     }
 
     if (+config.parallel === 1) {
-      for (let item of items) {
+      for (const item of items) {
         const checkedItem = await this.checkStream(item)
-
         results.push(checkedItem)
       }
     } else {
@@ -93,9 +96,12 @@ class IPTVChecker {
 
     await config.beforeEach(item)
 
-    item.status = await loadStream(item, config, logger)
-      .then(() => ffprobe(item, config, logger))
-      .catch(status => status)
+    try {
+      await loadStream(item, config, logger)
+      item.status = await ffprobe(item, config, logger)
+    } catch (status) {
+      item.status = status
+    }
 
     if (item.status.ok) {
       logger.debug(`OK: ${item.url}`.green)

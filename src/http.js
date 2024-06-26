@@ -1,12 +1,9 @@
-const curlirize = require('axios-curlirize')
 const axios = require('axios')
 const https = require('https')
 const errors = require('./errors')
+const curlirize = require('./curl')
+
 const CancelToken = axios.CancelToken
-
-module.exports.loadPlaylist = loadPlaylist
-module.exports.loadStream = loadStream
-
 const playlistClient = axios.create({
   method: 'GET',
   timeout: 60000, // 60 second timeout
@@ -25,8 +22,8 @@ playlistClient.interceptors.response.use(
 
     return response.data
   },
-  () => {
-    return Promise.reject('Error fetching playlist')
+  error => {
+    return Promise.reject('Error fetching playlist: ' + (error.message || error))
   }
 )
 
@@ -48,7 +45,7 @@ curlirize(streamClient, result => {
 })
 
 function loadPlaylist(url) {
-  return playlistClient(url)
+  return playlistClient.get(url)
 }
 
 function loadStream(item, config, logger) {
@@ -73,12 +70,13 @@ function loadStream(item, config, logger) {
     source.cancel('timeout')
   }, timeout)
 
-  return streamClient(item.url, {
-    timeout,
-    headers,
-    cancelToken: source.token,
-    curlirize: config.debug,
-  })
+  return streamClient
+    .get(item.url, {
+      timeout,
+      headers,
+      cancelToken: source.token,
+      curlirize: config.debug,
+    })
     .then(() => Promise.resolve())
     .catch(err => {
       const code = parseError(err, config, logger)
@@ -163,4 +161,9 @@ function parseResponseStatus(status) {
   }
 
   return codes[status]
+}
+
+module.exports = {
+  loadPlaylist,
+  loadStream,
 }

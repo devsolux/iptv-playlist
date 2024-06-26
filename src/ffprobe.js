@@ -1,50 +1,58 @@
-const util = require('util')
-const exec = require('child_process').exec
-const execAsync = util.promisify(exec)
+const { exec } = require('child_process')
 const errors = require('./errors')
 
-module.exports = ffprobe
-
-function ffprobe(item, config, logger) {
+async function ffprobe(item, config, logger) {
   const command = buildCommand(item, config)
   logger.debug(`FFMPEG: "${command}"`)
   const timeout = item.timeout || config.timeout
-  return execAsync(command, { timeout })
-    .then(({ stdout, stderr }) => {
-      if (stdout && isJSON(stdout) && stderr) {
-        const metadata = JSON.parse(stdout)
-        if (!metadata.streams.length) {
-          return {
-            ok: false,
-            code: 'FFMPEG_STREAMS_NOT_FOUND',
-            message: errors['FFMPEG_STREAMS_NOT_FOUND'],
-          }
+
+  try {
+    const { stdout, stderr } = await execCommand(command, { timeout })
+    if (stdout && isJSON(stdout) && stderr) {
+      const metadata = JSON.parse(stdout)
+      if (!metadata.streams.length) {
+        return {
+          ok: false,
+          code: 'FFMPEG_STREAMS_NOT_FOUND',
+          message: errors['FFMPEG_STREAMS_NOT_FOUND'],
         }
-        const results = parseStderr(stderr)
-        metadata.requests = results.requests
-
-        return { ok: true, code: 'OK', metadata }
       }
+      const results = parseStderr(stderr)
+      metadata.requests = results.requests
 
-      logger.debug('FFMPEG_UNDEFINED')
-      logger.debug(stdout)
-      logger.debug(stderr)
+      return { ok: true, code: 'OK', metadata }
+    }
 
-      return {
-        ok: false,
-        code: 'FFMPEG_UNDEFINED',
-        message: errors['FFMPEG_UNDEFINED'],
+    logger.debug('FFMPEG_UNDEFINED')
+    logger.debug(stdout)
+    logger.debug(stderr)
+
+    return {
+      ok: false,
+      code: 'FFMPEG_UNDEFINED',
+      message: errors['FFMPEG_UNDEFINED'],
+    }
+  } catch (err) {
+    const code = parseError(err.message, item, config, logger)
+
+    return {
+      ok: false,
+      code,
+      message: errors[code],
+    }
+  }
+}
+
+function execCommand(command, options) {
+  return new Promise((resolve, reject) => {
+    exec(command, options, (error, stdout, stderr) => {
+      if (error) {
+        reject(error)
+      } else {
+        resolve({ stdout, stderr })
       }
     })
-    .catch(err => {
-      const code = parseError(err.message, item, config, logger)
-
-      return {
-        ok: false,
-        code,
-        message: errors[code],
-      }
-    })
+  })
 }
 
 function parseStderr(stderr) {
@@ -57,13 +65,13 @@ function parseStderr(stderr) {
 }
 
 function buildCommand(item, config) {
-  const userAgent = item.http && item.http['user-agent'] ? item.http['user-agent'] : config.userAgent
-  const referer = item.http && item.http.referrer ? item.http.referrer : config.httpReferer
+  const userAgent = item.http?.['user-agent'] || config.userAgent
+  const referer = item.http?.referrer || config.httpReferer
   const timeout = item.timeout || config.timeout
   let args = [`ffprobe`, `-of json`, `-v verbose`, `-hide_banner`, `-show_streams`, `-show_format`]
 
   if (timeout) {
-    args.push(`-timeout`, `"${timeout * 1000}"`)
+    args.push(`-timeout`, `${timeout * 1000}`)
   }
 
   if (referer) {
@@ -76,9 +84,7 @@ function buildCommand(item, config) {
 
   args.push(`"${item.url}"`)
 
-  args = args.join(` `)
-
-  return args
+  return args.join(' ')
 }
 
 function parseRequest(string) {
@@ -139,18 +145,20 @@ function parseError(output, item, config, logger) {
       return 'HTTP_CANNOT_ASSIGN_REQUESTED_ADDRESS'
     case 'Server returned 4XX Client Error, but not one of 40{0,1,3,4}':
       return 'HTTP_4XX_CLIENT_ERROR'
+    default:
+      logger.debug('FFMPEG_UNDEFINED')
+      logger.debug(err)
+      return 'FFMPEG_UNDEFINED'
   }
-
-  logger.debug('FFMPEG_UNDEFINED')
-  logger.debug(err)
-
-  return 'FFMPEG_UNDEFINED'
 }
 
 function isJSON(str) {
   try {
-    return !!JSON.parse(str)
+    JSON.parse(str)
+    return true
   } catch (e) {
     return false
   }
 }
+
+module.exports = ffprobe

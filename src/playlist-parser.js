@@ -4,13 +4,13 @@ const isValidPath = require('is-valid-path')
 const Parser = {}
 
 Parser.parse = content => {
-  let playlist = {
+  const playlist = {
     header: {},
     items: [],
   }
 
-  let lines = content.split('\n').map(parseLine)
-  let firstLine = lines.find(l => l.index === 0)
+  const lines = content.split('\n').map(parseLine)
+  const firstLine = lines.find(l => l.index === 0)
 
   if (!firstLine || !/^#EXTM3U/.test(firstLine.raw)) {
     throw new Error('Playlist is not valid')
@@ -20,10 +20,9 @@ Parser.parse = content => {
 
   let i = 0
   const items = {}
-  for (let line of lines) {
-    if (line.index === 0) {
-      continue
-    }
+  for (const line of lines) {
+    if (line.index === 0) continue
+
     const string = line.raw.toString().trim()
     if (string.startsWith('#EXTINF:')) {
       const EXTINF = string
@@ -55,27 +54,25 @@ Parser.parse = content => {
         timeshift: EXTINF.getAttribute('timeshift'),
       }
     } else if (string.startsWith('#EXTVLCOPT:')) {
-      if (!items[i]) {
-        continue
-      }
+      if (!items[i]) continue
+
       const EXTVLCOPT = string
       items[i].http.referrer = EXTVLCOPT.getOption('http-referrer') || items[i].http.referrer
       items[i].http['user-agent'] = EXTVLCOPT.getOption('http-user-agent') || items[i].http['user-agent']
       items[i].raw += `\r\n${line.raw}`
     } else if (string.startsWith('#EXTGRP:')) {
-      if (!items[i]) {
-        continue
-      }
+      if (!items[i]) continue
+
       const EXTGRP = string
       items[i].group.title = EXTGRP.getValue() || items[i].group.title
       items[i].raw += `\r\n${line.raw}`
     } else {
-      if (!items[i]) {
-        continue
-      }
+      if (!items[i]) continue
+
       const url = string.getURL()
       const user_agent = string.getParameter('user-agent')
       const referrer = string.getParameter('referer')
+
       if (url && (isValidPath(url) || isValidUrl(url))) {
         items[i].url = url
         items[i].http['user-agent'] = user_agent || items[i].http['user-agent']
@@ -83,9 +80,6 @@ Parser.parse = content => {
         items[i].raw += `\r\n${line.raw}`
         i++
       } else {
-        if (!items[i]) {
-          continue
-        }
         items[i].raw += `\r\n${line.raw}`
       }
     }
@@ -106,8 +100,8 @@ function parseLine(line, index) {
 function parseHeader(line) {
   const supportedAttrs = ['x-tvg-url', 'url-tvg']
 
-  let attrs = {}
-  for (let attrName of supportedAttrs) {
+  const attrs = {}
+  for (const attrName of supportedAttrs) {
     const tvgUrl = line.raw.getAttribute(attrName)
     if (tvgUrl) {
       attrs[attrName] = tvgUrl
@@ -121,33 +115,30 @@ function parseHeader(line) {
 }
 
 String.prototype.getName = function () {
-  /* eslint-disable no-useless-escape */
-  let info = this.replace(/\="(.*?)"/g, '')
-  let parts = info.split(/,(.*)/)
+  const info = this.replace(/\="(.*?)"/g, '')
+  const parts = info.split(/,(.*)/)
 
   return parts[1] || ''
 }
 
 String.prototype.getAttribute = function (name) {
-  let regex = new RegExp(`${name}="(.*?)"`, 'gi')
-  let match = regex.exec(this)
+  const regex = new RegExp(`${name}="(.*?)"`, 'gi')
+  const match = regex.exec(this)
 
   return match && match[1] ? match[1] : ''
 }
 
 String.prototype.getOption = function (name) {
-  let regex = new RegExp(`:${name}=(.*)`, 'gi')
-  let match = regex.exec(this)
+  const regex = new RegExp(`:${name}=(.*)`, 'gi')
+  const match = regex.exec(this)
 
-  /* eslint-disable no-useless-escape */
   return match && match[1] && typeof match[1] === 'string' ? match[1].replace(/\"/g, '') : ''
 }
 
 String.prototype.getValue = function () {
-  let regex = new RegExp(':(.*)', 'gi')
-  let match = regex.exec(this)
+  const regex = new RegExp(':(.*)', 'gi')
+  const match = regex.exec(this)
 
-  /* eslint-disable no-useless-escape */
   return match && match[1] && typeof match[1] === 'string' ? match[1].replace(/\"/g, '') : ''
 }
 
