@@ -5,7 +5,7 @@
   },
   "items": [
     {
-      "name": "SSTV",
+      "name": "SSTV (1080p)",
       "tvg": {
         "id": "SSTV.mv",
         "name": "",
@@ -22,8 +22,36 @@
         "user-agent": ""
       },
       "url": "https://sstv.ssplay.mv/hls/sstv-live/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"SSTV.mv\" tvg-logo=\"https://i.imgur.com/jtIhDZk.png\" group-title=\"General\",SSTV\r\nhttps://sstv.ssplay.mv/hls/sstv-live/index.m3u8",
-      "line": 20,
+      "raw": "#EXTINF:-1 tvg-id=\"SSTV.mv\" tvg-logo=\"https://i.imgur.com/jtIhDZk.png\" group-title=\"General\",SSTV (1080p)\r\nhttps://sstv.ssplay.mv/hls/sstv-live/index.m3u8",
+      "line": 26,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Maldives TV (608p)",
+      "tvg": {
+        "id": "MaldivesTV.mv",
+        "name": "",
+        "logo": "https://i.imgur.com/Zl2FmFC.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Travel"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://live.maldivestv.mv/hls/stream/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"MaldivesTV.mv\" tvg-logo=\"https://i.imgur.com/Zl2FmFC.png\" group-title=\"Travel\",Maldives TV (608p)\r\nhttps://live.maldivestv.mv/hls/stream/index.m3u8",
+      "line": 18,
       "catchup": {
         "type": "",
         "days": "",
@@ -51,7 +79,7 @@
       },
       "url": "https://stream.raajje.mv/live/rtv_live/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"RaajjeTV.mv\" tvg-logo=\"https://i.imgur.com/NvYCCGl.png\" group-title=\"Undefined\",Raajje TV (480p)\r\nhttps://stream.raajje.mv/live/rtv_live/index.m3u8",
-      "line": 16,
+      "line": 22,
       "catchup": {
         "type": "",
         "days": "",
@@ -61,25 +89,25 @@
       "status": "OK"
     },
     {
-      "name": "Channel 13 [Not 24/7]",
+      "name": "Dhaaris TV (1080p) [Not 24/7]",
       "tvg": {
-        "id": "Channel13.mv",
+        "id": "DhaarisTV.mv",
         "name": "",
-        "logo": "https://i.imgur.com/6Vmy4pC.png",
+        "logo": "https://www.lyngsat.com/logo/tv/dd/dhaaris-tv-mv.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "General"
+        "title": "Lifestyle;Religious"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://stream.theyraonline.com/live/channel13@live/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Channel13.mv\" tvg-logo=\"https://i.imgur.com/6Vmy4pC.png\" group-title=\"General\",Channel 13 [Not 24/7]\r\nhttps://stream.theyraonline.com/live/channel13@live/index.m3u8",
-      "line": 10,
+      "url": "https://ythls.armelin.one/channel/UCmTIhD3NGdWo04RlF91L4uw.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"DhaarisTV.mv\" tvg-logo=\"https://www.lyngsat.com/logo/tv/dd/dhaaris-tv-mv.png\" group-title=\"Lifestyle;Religious\",Dhaaris TV (1080p) [Not 24/7]\r\nhttps://ythls.armelin.one/channel/UCmTIhD3NGdWo04RlF91L4uw.m3u8",
+      "line": 12,
       "catchup": {
         "type": "",
         "days": "",
