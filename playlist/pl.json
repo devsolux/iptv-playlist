@@ -5,39 +5,11 @@
   },
   "items": [
     {
-      "name": "4FUN TV (576p) [Not 24/7]",
+      "name": "Disney Channel PL (1080p)",
       "tvg": {
-        "id": "4FunTV.pl",
+        "id": "DisneyChannel.pl",
         "name": "",
-        "logo": "https://i.imgur.com/rI1wo2l.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://stream.4fun.tv:8888/hls/4f.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"4FunTV.pl\" tvg-logo=\"https://i.imgur.com/rI1wo2l.png\" group-title=\"Undefined\",4FUN TV (576p) [Not 24/7]\r\nhttps://stream.4fun.tv:8888/hls/4f.m3u8",
-      "line": 2,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Disney Junior (576p)",
-      "tvg": {
-        "id": "DisneyJunior.pl",
-        "name": "",
-        "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bb/Disney_Junior.svg/512px-Disney_Junior.svg.png",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Disney_Channel_logo_%282014%29.svg/512px-Disney_Channel_logo_%282014%29.svg.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -49,9 +21,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "http://185.236.229.62:9981/play/a06n",
-      "raw": "#EXTINF:-1 tvg-id=\"DisneyJunior.pl\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/en/thumb/b/bb/Disney_Junior.svg/512px-Disney_Junior.svg.png\" group-title=\"Kids\",Disney Junior (576p)\r\nhttp://185.236.229.62:9981/play/a06n",
-      "line": 17,
+      "url": "http://185.236.229.62:9981/play/a07d",
+      "raw": "#EXTINF:-1 tvg-id=\"DisneyChannel.pl\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Disney_Channel_logo_%282014%29.svg/512px-Disney_Channel_logo_%282014%29.svg.png\" group-title=\"Kids\",Disney Channel PL (1080p)\r\nhttp://185.236.229.62:9981/play/a07d",
+      "line": 15,
       "catchup": {
         "type": "",
         "days": "",
@@ -80,6 +52,34 @@
       "url": "http://178.219.128.68:64888/DISNXD",
       "raw": "#EXTINF:-1 tvg-id=\"DisneyXD.pl\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Disney_XD_-_2015.svg/512px-Disney_XD_-_2015.svg.png\" group-title=\"Kids\",Disney XD (576p)\r\nhttp://178.219.128.68:64888/DISNXD",
       "line": 19,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Disney Junior (576p)",
+      "tvg": {
+        "id": "DisneyJunior.pl",
+        "name": "",
+        "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bb/Disney_Junior.svg/512px-Disney_Junior.svg.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Kids"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://185.236.229.62:9981/play/a06n",
+      "raw": "#EXTINF:-1 tvg-id=\"DisneyJunior.pl\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/en/thumb/b/bb/Disney_Junior.svg/512px-Disney_Junior.svg.png\" group-title=\"Kids\",Disney Junior (576p)\r\nhttp://185.236.229.62:9981/play/a06n",
+      "line": 17,
       "catchup": {
         "type": "",
         "days": "",
@@ -145,6 +145,90 @@
       "status": "OK"
     },
     {
+      "name": "4FUN TV (576p) [Not 24/7]",
+      "tvg": {
+        "id": "4FunTV.pl",
+        "name": "",
+        "logo": "https://i.imgur.com/rI1wo2l.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://stream.4fun.tv:8888/hls/4f.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"4FunTV.pl\" tvg-logo=\"https://i.imgur.com/rI1wo2l.png\" group-title=\"Undefined\",4FUN TV (576p) [Not 24/7]\r\nhttps://stream.4fun.tv:8888/hls/4f.m3u8",
+      "line": 2,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "HTS Słubice (720p) [Not 24/7]",
+      "tvg": {
+        "id": "HTSSlubice.pl",
+        "name": "",
+        "logo": "https://i.imgur.com/tnUSXdK.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://ythls.armelin.one/channel/UCENo4wEDe_59Bb8rGGMZl_w.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"HTSSlubice.pl\" tvg-logo=\"https://i.imgur.com/tnUSXdK.png\" group-title=\"General\",HTS Słubice (720p) [Not 24/7]\r\nhttps://ythls.armelin.one/channel/UCENo4wEDe_59Bb8rGGMZl_w.m3u8",
+      "line": 40,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Katolicka Telewizja Serbinów (1080p) [Not 24/7]",
+      "tvg": {
+        "id": "KTVSerbinow.pl",
+        "name": "",
+        "logo": "https://i.ibb.co/LxD181B/Logo-Kwadrat-Rewers.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Religious"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://ythls.armelin.one/channel/UCcYdi3Y11OndqAYkGhLsm8A.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"KTVSerbinow.pl\" tvg-logo=\"https://i.ibb.co/LxD181B/Logo-Kwadrat-Rewers.png\" group-title=\"Religious\",Katolicka Telewizja Serbinów (1080p) [Not 24/7]\r\nhttps://ythls.armelin.one/channel/UCcYdi3Y11OndqAYkGhLsm8A.m3u8",
+      "line": 42,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Radio Czwórka (1080p)",
       "tvg": {
         "id": "RadiowaCzworka.pl",
@@ -173,25 +257,25 @@
       "status": "OK"
     },
     {
-      "name": "Disney Channel PL (1080p)",
+      "name": "RTV Podlasie (720p) [Not 24/7]",
       "tvg": {
-        "id": "DisneyChannel.pl",
+        "id": "RTVP.pl",
         "name": "",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Disney_Channel_logo_%282014%29.svg/512px-Disney_Channel_logo_%282014%29.svg.png",
+        "logo": "https://i.imgur.com/slyxgyO.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Kids"
+        "title": "News"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "http://185.236.229.62:9981/play/a07d",
-      "raw": "#EXTINF:-1 tvg-id=\"DisneyChannel.pl\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Disney_Channel_logo_%282014%29.svg/512px-Disney_Channel_logo_%282014%29.svg.png\" group-title=\"Kids\",Disney Channel PL (1080p)\r\nhttp://185.236.229.62:9981/play/a07d",
-      "line": 15,
+      "url": "https://ythls.armelin.one/channel/UCU7uwCYami150L_lydp2OHQ.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"RTVP.pl\" tvg-logo=\"https://i.imgur.com/slyxgyO.png\" group-title=\"News\",RTV Podlasie (720p) [Not 24/7]\r\nhttps://ythls.armelin.one/channel/UCU7uwCYami150L_lydp2OHQ.m3u8",
+      "line": 52,
       "catchup": {
         "type": "",
         "days": "",
@@ -257,11 +341,11 @@
       "status": "OK"
     },
     {
-      "name": "Telewizja Olsztyn (720p) [Not 24/7]",
+      "name": "Telewizja Narew (1080p) [Not 24/7]",
       "tvg": {
-        "id": "TelewizjaOlsztyn.pl",
+        "id": "TelewizjaNarew.pl",
         "name": "",
-        "logo": "https://i.imgur.com/Gy3KZly.png",
+        "logo": "https://i.imgur.com/RevNbUo.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -273,9 +357,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://ythls.armelin.one/channel/UC0vwjMGoZpwG_lLBuF6_ALA.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TelewizjaOlsztyn.pl\" tvg-logo=\"https://i.imgur.com/Gy3KZly.png\" group-title=\"General\",Telewizja Olsztyn (720p) [Not 24/7]\r\nhttps://ythls.armelin.one/channel/UC0vwjMGoZpwG_lLBuF6_ALA.m3u8",
-      "line": 66,
+      "url": "https://ythls.armelin.one/channel/UCdBYAZdagaQcr-Fe15ifMPQ.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"TelewizjaNarew.pl\" tvg-logo=\"https://i.imgur.com/RevNbUo.png\" group-title=\"General\",Telewizja Narew (1080p) [Not 24/7]\r\nhttps://ythls.armelin.one/channel/UCdBYAZdagaQcr-Fe15ifMPQ.m3u8",
+      "line": 64,
       "catchup": {
         "type": "",
         "days": "",
@@ -332,6 +416,34 @@
       "url": "https://ythls.armelin.one/channel/UC29dc_mBUWW4mz5h754v88w.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TelewizjaRegionalnaZary.pl\" tvg-logo=\"https://i.imgur.com/FB9H8DO.png\" group-title=\"General\",Telewizja Regionalna Żary (720p) [Not 24/7]\r\nhttps://ythls.armelin.one/channel/UC29dc_mBUWW4mz5h754v88w.m3u8",
       "line": 70,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Telewizja Relax (1080p) [Not 24/7]",
+      "tvg": {
+        "id": "TelewizjaRelax.pl",
+        "name": "",
+        "logo": "https://i.imgur.com/dejnH0O.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://ythls.armelin.one/channel/UCZvmZep3wknWdBPcKnwsPHA.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"TelewizjaRelax.pl\" tvg-logo=\"https://i.imgur.com/dejnH0O.png\" group-title=\"General\",Telewizja Relax (1080p) [Not 24/7]\r\nhttps://ythls.armelin.one/channel/UCZvmZep3wknWdBPcKnwsPHA.m3u8",
+      "line": 72,
       "catchup": {
         "type": "",
         "days": "",
@@ -453,6 +565,34 @@
       "status": "OK"
     },
     {
+      "name": "TV Dami (720p) [Not 24/7]",
+      "tvg": {
+        "id": "TVDami.pl",
+        "name": "",
+        "logo": "https://i.imgur.com/FlEMW5F.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://ythls.armelin.one/channel/UCL1u3cY7_nPjbZmKljCy_Cw.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"TVDami.pl\" tvg-logo=\"https://i.imgur.com/FlEMW5F.png\" group-title=\"General\",TV Dami (720p) [Not 24/7]\r\nhttps://ythls.armelin.one/channel/UCL1u3cY7_nPjbZmKljCy_Cw.m3u8",
+      "line": 86,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "TV Kujawy (576p) [Not 24/7]",
       "tvg": {
         "id": "TVKujawy.pl",
@@ -472,34 +612,6 @@
       "url": "http://stream.tvkujawy.pl:8080/live/broadcast.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TVKujawy.pl\" tvg-logo=\"https://i.imgur.com/dGP7cIW.png\" group-title=\"Undefined\",TV Kujawy (576p) [Not 24/7]\r\nhttp://stream.tvkujawy.pl:8080/live/broadcast.m3u8",
       "line": 92,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "TV Jasło (720p)",
-      "tvg": {
-        "id": "TelewizjaJaslo.pl",
-        "name": "",
-        "logo": "https://i.imgur.com/nV2jQQP.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://cdn02.sesja.pl/live_tvjaslo/live_tvjaslo.stream/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TelewizjaJaslo.pl\" tvg-logo=\"https://i.imgur.com/nV2jQQP.png\" group-title=\"General\",TV Jasło (720p)\r\nhttps://cdn02.sesja.pl/live_tvjaslo/live_tvjaslo.stream/playlist.m3u8",
-      "line": 90,
       "catchup": {
         "type": "",
         "days": "",
@@ -537,6 +649,34 @@
       "status": "OK"
     },
     {
+      "name": "TV Republika (1080p) [Not 24/7]",
+      "tvg": {
+        "id": "TVRepublika.pl",
+        "name": "",
+        "logo": "https://i.imgur.com/ljpK6dZ.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://ythls.armelin.one/channel/UCc282c_TN8xIba_Z6GaDnQw.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"TVRepublika.pl\" tvg-logo=\"https://i.imgur.com/ljpK6dZ.png\" group-title=\"Undefined\",TV Republika (1080p) [Not 24/7]\r\nhttps://ythls.armelin.one/channel/UCc282c_TN8xIba_Z6GaDnQw.m3u8",
+      "line": 96,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "TV Toruń (1080p) [Not 24/7]",
       "tvg": {
         "id": "TVTorun.pl",
@@ -556,6 +696,34 @@
       "url": "http://217.173.176.107:1935/live/tvk.stream/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TVTorun.pl\" tvg-logo=\"https://i.imgur.com/ZJ0yDWI.png\" group-title=\"Undefined\",TV Toruń (1080p) [Not 24/7]\r\nhttp://217.173.176.107:1935/live/tvk.stream/playlist.m3u8",
       "line": 100,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "TV Słowianin (1080p) [Not 24/7]",
+      "tvg": {
+        "id": "TVSlowianin.pl",
+        "name": "",
+        "logo": "https://i.ibb.co/xM9nCym/logo-na-strone.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://ythls.armelin.one/channel/UCpUZqLZNnVwlBIeOZYslMDw.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"TVSlowianin.pl\" tvg-logo=\"https://i.ibb.co/xM9nCym/logo-na-strone.png\" group-title=\"General\",TV Słowianin (1080p) [Not 24/7]\r\nhttps://ythls.armelin.one/channel/UCpUZqLZNnVwlBIeOZYslMDw.m3u8",
+      "line": 98,
       "catchup": {
         "type": "",
         "days": "",
@@ -593,11 +761,11 @@
       "status": "OK"
     },
     {
-      "name": "TVP 3 Białystok (576p)",
+      "name": "TVT (720p)",
       "tvg": {
-        "id": "TVP3Bialystok.pl",
+        "id": "TVT.pl",
         "name": "",
-        "logo": "https://i.imgur.com/zPSpvss.jpg",
+        "logo": "https://i.imgur.com/oZyeUzG.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -609,9 +777,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://cdndai.pl/tvp3bialystoksd/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TVP3Bialystok.pl\" tvg-logo=\"https://i.imgur.com/zPSpvss.jpg\" group-title=\"Undefined\",TVP 3 Białystok (576p)\r\nhttps://cdndai.pl/tvp3bialystoksd/index.m3u8",
-      "line": 116,
+      "url": "https://live.streamtvt.pl/LiveAppStreamTVT/streams/853271271313930867905724.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"TVT.pl\" tvg-logo=\"https://i.imgur.com/oZyeUzG.png\" group-title=\"Undefined\",TVT (720p)\r\nhttps://live.streamtvt.pl/LiveAppStreamTVT/streams/853271271313930867905724.m3u8",
+      "line": 148,
       "catchup": {
         "type": "",
         "days": "",
@@ -677,6 +845,34 @@
       "status": "OK"
     },
     {
+      "name": "wPolsce PL (1080p) [Not 24/7]",
+      "tvg": {
+        "id": "WPolscePL.pl",
+        "name": "",
+        "logo": "https://i.imgur.com/HQ8UyhL.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://ythls.armelin.one/channel/UCPiu4CZlknkTworskK79CPg.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"WPolscePL.pl\" tvg-logo=\"https://i.imgur.com/HQ8UyhL.png\" group-title=\"Undefined\",wPolsce PL (1080p) [Not 24/7]\r\nhttps://ythls.armelin.one/channel/UCPiu4CZlknkTworskK79CPg.m3u8",
+      "line": 152,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "TVMN (1080p)",
       "tvg": {
         "id": "TVMN.pl",
@@ -696,454 +892,6 @@
       "url": "https://r.e.blueonline.tv/nb/videokadrabr/live1/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TVMN.pl\" tvg-logo=\"https://i.imgur.com/QjmtXxU.jpeg\" group-title=\"News\",TVMN (1080p)\r\nhttps://r.e.blueonline.tv/nb/videokadrabr/live1/playlist.m3u8",
       "line": 108,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "TVP 3 Bydgoszcz (576p)",
-      "tvg": {
-        "id": "TVP3Bydgoszcz.pl",
-        "name": "",
-        "logo": "https://i.imgur.com/b0Xevsc.jpg",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://cdndai.pl/tvp3bydgoszczsd/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TVP3Bydgoszcz.pl\" tvg-logo=\"https://i.imgur.com/b0Xevsc.jpg\" group-title=\"Undefined\",TVP 3 Bydgoszcz (576p)\r\nhttps://cdndai.pl/tvp3bydgoszczsd/index.m3u8",
-      "line": 118,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "TVP 3 Gdańsk (576p)",
-      "tvg": {
-        "id": "TVP3Gdansk.pl",
-        "name": "",
-        "logo": "https://i.imgur.com/wGZCj7G.jpg",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://cdndai.pl/tvp3gdansksd/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TVP3Gdansk.pl\" tvg-logo=\"https://i.imgur.com/wGZCj7G.jpg\" group-title=\"Undefined\",TVP 3 Gdańsk (576p)\r\nhttps://cdndai.pl/tvp3gdansksd/index.m3u8",
-      "line": 120,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "TVP 3 Gorzów Wielkopolski (576p)",
-      "tvg": {
-        "id": "TVP3GorzowWielkopolski.pl",
-        "name": "",
-        "logo": "https://i.imgur.com/H3jtBQm.jpg",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://cdndai.pl/tvp3gorzowsd/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TVP3GorzowWielkopolski.pl\" tvg-logo=\"https://i.imgur.com/H3jtBQm.jpg\" group-title=\"Undefined\",TVP 3 Gorzów Wielkopolski (576p)\r\nhttps://cdndai.pl/tvp3gorzowsd/index.m3u8",
-      "line": 122,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "TVP 3 Katowice (576p)",
-      "tvg": {
-        "id": "TVP3Katowice.pl",
-        "name": "",
-        "logo": "https://i.imgur.com/burRKHa.jpg",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://cdndai.pl/tvp3katowicesd/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TVP3Katowice.pl\" tvg-logo=\"https://i.imgur.com/burRKHa.jpg\" group-title=\"Undefined\",TVP 3 Katowice (576p)\r\nhttps://cdndai.pl/tvp3katowicesd/index.m3u8",
-      "line": 124,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "TVP 3 Kielce (576p)",
-      "tvg": {
-        "id": "TVP3Kielce.pl",
-        "name": "",
-        "logo": "https://i.imgur.com/YcQxM94.jpg",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://cdndai.pl/tvp3kielcesd/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TVP3Kielce.pl\" tvg-logo=\"https://i.imgur.com/YcQxM94.jpg\" group-title=\"Undefined\",TVP 3 Kielce (576p)\r\nhttps://cdndai.pl/tvp3kielcesd/index.m3u8",
-      "line": 126,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "TVP 3 Łódź (576p)",
-      "tvg": {
-        "id": "TVP3Lodz.pl",
-        "name": "",
-        "logo": "https://i.imgur.com/r5wxdkB.jpg",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://cdndai.pl/tvp3lodzsd/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TVP3Lodz.pl\" tvg-logo=\"https://i.imgur.com/r5wxdkB.jpg\" group-title=\"Undefined\",TVP 3 Łódź (576p)\r\nhttps://cdndai.pl/tvp3lodzsd/index.m3u8",
-      "line": 130,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "TVP 3 Kraków (576p)",
-      "tvg": {
-        "id": "TVP3Krakow.pl",
-        "name": "",
-        "logo": "https://i.imgur.com/MbAKxD1.jpg",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://cdndai.pl/tvp3krakowsd/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TVP3Krakow.pl\" tvg-logo=\"https://i.imgur.com/MbAKxD1.jpg\" group-title=\"Undefined\",TVP 3 Kraków (576p)\r\nhttps://cdndai.pl/tvp3krakowsd/index.m3u8",
-      "line": 128,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "TVP 3 Lublin (576p)",
-      "tvg": {
-        "id": "TVP3Lublin.pl",
-        "name": "",
-        "logo": "https://i.imgur.com/h7oq2yg.jpg",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://cdndai.pl/tvp3lublinsd/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TVP3Lublin.pl\" tvg-logo=\"https://i.imgur.com/h7oq2yg.jpg\" group-title=\"Undefined\",TVP 3 Lublin (576p)\r\nhttps://cdndai.pl/tvp3lublinsd/index.m3u8",
-      "line": 132,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "TVP 3 Olsztyn (576p)",
-      "tvg": {
-        "id": "TVP3Olsztyn.pl",
-        "name": "",
-        "logo": "https://i.imgur.com/Aa0HedU.jpg",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://cdndai.pl/tvp3olsztynsd/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TVP3Olsztyn.pl\" tvg-logo=\"https://i.imgur.com/Aa0HedU.jpg\" group-title=\"Undefined\",TVP 3 Olsztyn (576p)\r\nhttps://cdndai.pl/tvp3olsztynsd/index.m3u8",
-      "line": 134,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "TVP 3 Poznań (576p)",
-      "tvg": {
-        "id": "TVP3Poznan.pl",
-        "name": "",
-        "logo": "https://i.imgur.com/mTnjVGQ.jpg",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://cdndai.pl/tvp3poznansd/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TVP3Poznan.pl\" tvg-logo=\"https://i.imgur.com/mTnjVGQ.jpg\" group-title=\"Undefined\",TVP 3 Poznań (576p)\r\nhttps://cdndai.pl/tvp3poznansd/index.m3u8",
-      "line": 138,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "TVP 3 Opole (576p)",
-      "tvg": {
-        "id": "TVP3Opole.pl",
-        "name": "",
-        "logo": "https://i.imgur.com/dYRtDRA.jpg",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://cdndai.pl/tvp3opolesd/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TVP3Opole.pl\" tvg-logo=\"https://i.imgur.com/dYRtDRA.jpg\" group-title=\"Undefined\",TVP 3 Opole (576p)\r\nhttps://cdndai.pl/tvp3opolesd/index.m3u8",
-      "line": 136,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "TVP 3 Rzeszów (576p)",
-      "tvg": {
-        "id": "TVP3Rzeszow.pl",
-        "name": "",
-        "logo": "https://i.imgur.com/6jGX6Xy.jpg",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://cdndai.pl/tvp3rzeszowsd/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TVP3Rzeszow.pl\" tvg-logo=\"https://i.imgur.com/6jGX6Xy.jpg\" group-title=\"Undefined\",TVP 3 Rzeszów (576p)\r\nhttps://cdndai.pl/tvp3rzeszowsd/index.m3u8",
-      "line": 140,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "TVT (720p)",
-      "tvg": {
-        "id": "TVT.pl",
-        "name": "",
-        "logo": "https://i.imgur.com/oZyeUzG.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://live.streamtvt.pl/LiveAppStreamTVT/streams/853271271313930867905724.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TVT.pl\" tvg-logo=\"https://i.imgur.com/oZyeUzG.png\" group-title=\"Undefined\",TVT (720p)\r\nhttps://live.streamtvt.pl/LiveAppStreamTVT/streams/853271271313930867905724.m3u8",
-      "line": 148,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "TVP 3 Szczecin (576p)",
-      "tvg": {
-        "id": "TVP3Szczecin.pl",
-        "name": "",
-        "logo": "https://i.imgur.com/NRb6S8z.jpg",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://cdndai.pl/tvp3szczecinsd/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TVP3Szczecin.pl\" tvg-logo=\"https://i.imgur.com/NRb6S8z.jpg\" group-title=\"Undefined\",TVP 3 Szczecin (576p)\r\nhttps://cdndai.pl/tvp3szczecinsd/index.m3u8",
-      "line": 142,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "TVP 3 Wrocław (576p)",
-      "tvg": {
-        "id": "TVP3Wroclaw.pl",
-        "name": "",
-        "logo": "https://i.imgur.com/0em2QIh.jpg",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://cdndai.pl/tvp3wroclawsd/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TVP3Wroclaw.pl\" tvg-logo=\"https://i.imgur.com/0em2QIh.jpg\" group-title=\"Undefined\",TVP 3 Wrocław (576p)\r\nhttps://cdndai.pl/tvp3wroclawsd/index.m3u8",
-      "line": 146,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "TVP 3 Warszawa (576p)",
-      "tvg": {
-        "id": "TVP3Warszawa.pl",
-        "name": "",
-        "logo": "https://i.imgur.com/AfZOO8U.jpg",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://cdndai.pl/tvp3warszawasd/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TVP3Warszawa.pl\" tvg-logo=\"https://i.imgur.com/AfZOO8U.jpg\" group-title=\"Undefined\",TVP 3 Warszawa (576p)\r\nhttps://cdndai.pl/tvp3warszawasd/index.m3u8",
-      "line": 144,
       "catchup": {
         "type": "",
         "days": "",
