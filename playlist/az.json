@@ -173,34 +173,6 @@
       "status": "OK"
     },
     {
-      "name": "EL TV (260p) [Not 24/7]",
-      "tvg": {
-        "id": "ELTV.az",
-        "name": "",
-        "logo": "https://i.imgur.com/tTlokZ2.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://85.132.53.162:1935/live/eltv/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"ELTV.az\" tvg-logo=\"https://i.imgur.com/tTlokZ2.png\" group-title=\"General\",EL TV (260p) [Not 24/7]\r\nhttp://85.132.53.162:1935/live/eltv/playlist.m3u8",
-      "line": 42,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "ARB TV HD",
       "tvg": {
         "id": "ARB.az",
@@ -220,6 +192,34 @@
       "url": "https://edge02.odtv.az/o1/arbtv/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"ARB.az\" tvg-logo=\"https://i.imgur.com/E97M2OL.png\" group-title=\"General\" user-agent=\"ExoPlayer2/2.37\",ARB TV HD\r\n#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37\r\nhttps://edge02.odtv.az/o1/arbtv/playlist.m3u8",
       "line": 15,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "CBC",
+      "tvg": {
+        "id": "CBC.az",
+        "name": "",
+        "logo": "https://i.imgur.com/wVT0dwO.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "News"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": "ExoPlayer2/2.37"
+      },
+      "url": "https://edge02.odtv.az/o1/cbc/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"CBC.az\" tvg-logo=\"https://i.imgur.com/wVT0dwO.png\" group-title=\"News\" user-agent=\"ExoPlayer2/2.37\",CBC\r\n#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37\r\nhttps://edge02.odtv.az/o1/cbc/playlist.m3u8",
+      "line": 37,
       "catchup": {
         "type": "",
         "days": "",
@@ -257,25 +257,25 @@
       "status": "OK"
     },
     {
-      "name": "CBC",
+      "name": "EL TV (260p) [Not 24/7]",
       "tvg": {
-        "id": "CBC.az",
+        "id": "ELTV.az",
         "name": "",
-        "logo": "https://i.imgur.com/wVT0dwO.png",
+        "logo": "https://i.imgur.com/tTlokZ2.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "News"
+        "title": "General"
       },
       "http": {
         "referrer": "",
-        "user-agent": "ExoPlayer2/2.37"
+        "user-agent": ""
       },
-      "url": "https://edge02.odtv.az/o1/cbc/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"CBC.az\" tvg-logo=\"https://i.imgur.com/wVT0dwO.png\" group-title=\"News\" user-agent=\"ExoPlayer2/2.37\",CBC\r\n#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37\r\nhttps://edge02.odtv.az/o1/cbc/playlist.m3u8",
-      "line": 37,
+      "url": "http://85.132.53.162:1935/live/eltv/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"ELTV.az\" tvg-logo=\"https://i.imgur.com/tTlokZ2.png\" group-title=\"General\",EL TV (260p) [Not 24/7]\r\nhttp://85.132.53.162:1935/live/eltv/playlist.m3u8",
+      "line": 42,
       "catchup": {
         "type": "",
         "days": "",
