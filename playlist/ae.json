@@ -5,25 +5,53 @@
   },
   "items": [
     {
-      "name": "Ajman TV (1080p)",
+      "name": "Al Arabiya (1080p)",
       "tvg": {
-        "id": "AjmanTV.ae",
+        "id": "Alarabiya.ae",
         "name": "",
-        "logo": "https://i.imgur.com/hVNIwgE.png",
+        "logo": "https://i.imgur.com/NXFkYFj.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "General"
+        "title": "News"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://cdn.logichost.in/ajmantv/live/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"AjmanTV.ae\" tvg-logo=\"https://i.imgur.com/hVNIwgE.png\" group-title=\"General\",Ajman TV (1080p)\r\nhttps://cdn.logichost.in/ajmantv/live/playlist.m3u8",
-      "line": 12,
+      "url": "https://live.alarabiya.net/alarabiapublish/alarabiya.smil/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Alarabiya.ae\" tvg-logo=\"https://i.imgur.com/NXFkYFj.png\" group-title=\"News\",Al Arabiya (1080p)\r\nhttps://live.alarabiya.net/alarabiapublish/alarabiya.smil/playlist.m3u8",
+      "line": 14,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Al Arabiya Business (1080p)",
+      "tvg": {
+        "id": "AlArabiyaBusiness.ae",
+        "name": "",
+        "logo": "https://i.imgur.com/eEV4r6J.jpg",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Business"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://alarabiya-business-ak.akamaized.net/out/v1/126027fa2f8c4d19be4551b77ec08cbb/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"AlArabiyaBusiness.ae\" tvg-logo=\"https://i.imgur.com/eEV4r6J.jpg\" group-title=\"Business\",Al Arabiya Business (1080p)\r\nhttps://alarabiya-business-ak.akamaized.net/out/v1/126027fa2f8c4d19be4551b77ec08cbb/index.m3u8",
+      "line": 16,
       "catchup": {
         "type": "",
         "days": "",
@@ -61,11 +89,11 @@
       "status": "OK"
     },
     {
-      "name": "Al Arabiya (1080p)",
+      "name": "Al Hadath TV (1080p)",
       "tvg": {
-        "id": "Alarabiya.ae",
+        "id": "AlHadath.sa",
         "name": "",
-        "logo": "https://i.imgur.com/NXFkYFj.png",
+        "logo": "https://i.imgur.com/De4SEWE.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -77,9 +105,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://live.alarabiya.net/alarabiapublish/alarabiya.smil/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Alarabiya.ae\" tvg-logo=\"https://i.imgur.com/NXFkYFj.png\" group-title=\"News\",Al Arabiya (1080p)\r\nhttps://live.alarabiya.net/alarabiapublish/alarabiya.smil/playlist.m3u8",
-      "line": 14,
+      "url": "https://shls-hadath-prod-dub.shahid.net/out/v1/0e1a306399c346faac4226aa0858f99b/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"AlHadath.sa\" tvg-logo=\"https://i.imgur.com/De4SEWE.png\" group-title=\"News\",Al Hadath TV (1080p)\r\nhttps://shls-hadath-prod-dub.shahid.net/out/v1/0e1a306399c346faac4226aa0858f99b/index.m3u8",
+      "line": 18,
       "catchup": {
         "type": "",
         "days": "",
@@ -117,34 +145,6 @@
       "status": "OK"
     },
     {
-      "name": "Abu Dhabi Sports 2 (1080p)",
-      "tvg": {
-        "id": "AbuDhabiSports2.ae",
-        "name": "",
-        "logo": "https://i.imgur.com/4rVm3oZ.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Sports"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://vo-live.cdb.cdn.orange.com/Content/Channel/AbuDhabiSportsChannel2/HLS/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"AbuDhabiSports2.ae\" tvg-logo=\"https://i.imgur.com/4rVm3oZ.png\" group-title=\"Sports\",Abu Dhabi Sports 2 (1080p)\r\nhttps://vo-live.cdb.cdn.orange.com/Content/Channel/AbuDhabiSportsChannel2/HLS/index.m3u8",
-      "line": 10,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Al Mashhad (1080p)",
       "tvg": {
         "id": "AlMashhad.ae",
@@ -173,25 +173,25 @@
       "status": "OK"
     },
     {
-      "name": "Al Hadath TV (1080p)",
+      "name": "Abu Dhabi Sports 2 (1080p)",
       "tvg": {
-        "id": "AlHadath.sa",
+        "id": "AbuDhabiSports2.ae",
         "name": "",
-        "logo": "https://i.imgur.com/De4SEWE.png",
+        "logo": "https://i.imgur.com/4rVm3oZ.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "News"
+        "title": "Sports"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://shls-hadath-prod-dub.shahid.net/out/v1/0e1a306399c346faac4226aa0858f99b/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"AlHadath.sa\" tvg-logo=\"https://i.imgur.com/De4SEWE.png\" group-title=\"News\",Al Hadath TV (1080p)\r\nhttps://shls-hadath-prod-dub.shahid.net/out/v1/0e1a306399c346faac4226aa0858f99b/index.m3u8",
-      "line": 18,
+      "url": "https://vo-live.cdb.cdn.orange.com/Content/Channel/AbuDhabiSportsChannel2/HLS/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"AbuDhabiSports2.ae\" tvg-logo=\"https://i.imgur.com/4rVm3oZ.png\" group-title=\"Sports\",Abu Dhabi Sports 2 (1080p)\r\nhttps://vo-live.cdb.cdn.orange.com/Content/Channel/AbuDhabiSportsChannel2/HLS/index.m3u8",
+      "line": 10,
       "catchup": {
         "type": "",
         "days": "",
@@ -201,11 +201,11 @@
       "status": "OK"
     },
     {
-      "name": "Al Shallal TV (1080p)",
+      "name": "Al Sharqiya Min Kabla (1080p)",
       "tvg": {
-        "id": "AlShallalTV.ae",
+        "id": "AlSharqiyaMinKabla.ae",
         "name": "",
-        "logo": "https://i.imgur.com/otAHLRo.png",
+        "logo": "https://i.imgur.com/WGX5SCx.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -217,37 +217,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://amg01480-alshallalfze-alshallal-ono-q0hfg.amagi.tv/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"AlShallalTV.ae\" tvg-logo=\"https://i.imgur.com/otAHLRo.png\" group-title=\"General\",Al Shallal TV (1080p)\r\nhttps://amg01480-alshallalfze-alshallal-ono-q0hfg.amagi.tv/playlist.m3u8",
-      "line": 32,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Al Yaum TV (720p)",
-      "tvg": {
-        "id": "AlYaumTV.ae",
-        "name": "",
-        "logo": "https://i.imgur.com/rBixF3P.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "News"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://alyaum-tv.akamaized.net/hls/alyaum-tv.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"AlYaumTV.ae\" tvg-logo=\"https://i.imgur.com/rBixF3P.png\" group-title=\"News\",Al Yaum TV (720p)\r\nhttps://alyaum-tv.akamaized.net/hls/alyaum-tv.m3u8",
-      "line": 38,
+      "url": "https://svs.itworkscdn.net/kablatvlive/kabtv1.smil/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"AlSharqiyaMinKabla.ae\" tvg-logo=\"https://i.imgur.com/WGX5SCx.png\" group-title=\"General\",Al Sharqiya Min Kabla (1080p)\r\nhttps://svs.itworkscdn.net/kablatvlive/kabtv1.smil/playlist.m3u8",
+      "line": 34,
       "catchup": {
         "type": "",
         "days": "",
@@ -313,34 +285,6 @@
       "status": "OK"
     },
     {
-      "name": "Al Arabiya Business (1080p)",
-      "tvg": {
-        "id": "AlArabiyaBusiness.ae",
-        "name": "",
-        "logo": "https://i.imgur.com/eEV4r6J.jpg",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Business"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://alarabiya-business-ak.akamaized.net/out/v1/126027fa2f8c4d19be4551b77ec08cbb/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"AlArabiyaBusiness.ae\" tvg-logo=\"https://i.imgur.com/eEV4r6J.jpg\" group-title=\"Business\",Al Arabiya Business (1080p)\r\nhttps://alarabiya-business-ak.akamaized.net/out/v1/126027fa2f8c4d19be4551b77ec08cbb/index.m3u8",
-      "line": 16,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Damac Persian (720p)",
       "tvg": {
         "id": "DamacPersian.ae",
@@ -369,11 +313,11 @@
       "status": "OK"
     },
     {
-      "name": "Al Sharqiya Min Kabla (1080p)",
+      "name": "Al Shallal TV (1080p)",
       "tvg": {
-        "id": "AlSharqiyaMinKabla.ae",
+        "id": "AlShallalTV.ae",
         "name": "",
-        "logo": "https://i.imgur.com/WGX5SCx.png",
+        "logo": "https://i.imgur.com/otAHLRo.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -385,9 +329,37 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://svs.itworkscdn.net/kablatvlive/kabtv1.smil/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"AlSharqiyaMinKabla.ae\" tvg-logo=\"https://i.imgur.com/WGX5SCx.png\" group-title=\"General\",Al Sharqiya Min Kabla (1080p)\r\nhttps://svs.itworkscdn.net/kablatvlive/kabtv1.smil/playlist.m3u8",
-      "line": 34,
+      "url": "https://amg01480-alshallalfze-alshallal-ono-q0hfg.amagi.tv/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"AlShallalTV.ae\" tvg-logo=\"https://i.imgur.com/otAHLRo.png\" group-title=\"General\",Al Shallal TV (1080p)\r\nhttps://amg01480-alshallalfze-alshallal-ono-q0hfg.amagi.tv/playlist.m3u8",
+      "line": 32,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Fujairah TV (720p)",
+      "tvg": {
+        "id": "FujairahTV.ae",
+        "name": "",
+        "logo": "https://i.imgur.com/D2tOhbE.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://live.kwikmotion.com/fujairahlive/fujairah.smil/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"FujairahTV.ae\" tvg-logo=\"https://i.imgur.com/D2tOhbE.png\" group-title=\"Undefined\",Fujairah TV (720p)\r\nhttps://live.kwikmotion.com/fujairahlive/fujairah.smil/playlist.m3u8",
+      "line": 92,
       "catchup": {
         "type": "",
         "days": "",
@@ -453,62 +425,6 @@
       "status": "OK"
     },
     {
-      "name": "Fujairah TV (720p)",
-      "tvg": {
-        "id": "FujairahTV.ae",
-        "name": "",
-        "logo": "https://i.imgur.com/D2tOhbE.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://live.kwikmotion.com/fujairahlive/fujairah.smil/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"FujairahTV.ae\" tvg-logo=\"https://i.imgur.com/D2tOhbE.png\" group-title=\"Undefined\",Fujairah TV (720p)\r\nhttps://live.kwikmotion.com/fujairahlive/fujairah.smil/playlist.m3u8",
-      "line": 92,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Baynounah TV (1080p)",
-      "tvg": {
-        "id": "BaynounahTV.ae",
-        "name": "",
-        "logo": "https://i.imgur.com/n2nczHO.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Culture"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://vo-live.cdb.cdn.orange.com/Content/Channel/Baynounah/HLS/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"BaynounahTV.ae\" tvg-logo=\"https://i.imgur.com/n2nczHO.png\" group-title=\"Culture\",Baynounah TV (1080p)\r\nhttps://vo-live.cdb.cdn.orange.com/Content/Channel/Baynounah/HLS/index.m3u8",
-      "line": 50,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "MBC Persia (1080p)",
       "tvg": {
         "id": "MBCPersia.ae",
@@ -528,34 +444,6 @@
       "url": "https://shls-mbcpersia-prod-dub.shahid.net/out/v1/bdc7cd0d990e4c54808632a52c396946/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"MBCPersia.ae\" tvg-logo=\"https://i.imgur.com/4FXiyjn.png\" group-title=\"General\",MBC Persia (1080p)\r\nhttps://shls-mbcpersia-prod-dub.shahid.net/out/v1/bdc7cd0d990e4c54808632a52c396946/index.m3u8",
       "line": 110,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Nour TV (720p)",
-      "tvg": {
-        "id": "NourTV.ae",
-        "name": "",
-        "logo": "https://upload.wikimedia.org/wikipedia/en/8/8c/Nourtv_logo.jpg",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://cdn.bestream.io:19360/elfaro4/elfaro4.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"NourTV.ae\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/en/8/8c/Nourtv_logo.jpg\" group-title=\"Undefined\",Nour TV (720p)\r\nhttps://cdn.bestream.io:19360/elfaro4/elfaro4.m3u8",
-      "line": 118,
       "catchup": {
         "type": "",
         "days": "",
@@ -593,25 +481,53 @@
       "status": "OK"
     },
     {
-      "name": "Majid TV (1080p)",
+      "name": "Nour TV (720p)",
       "tvg": {
-        "id": "Majid.ae",
+        "id": "NourTV.ae",
         "name": "",
-        "logo": "https://i.imgur.com/TzOKMMy.png",
+        "logo": "https://upload.wikimedia.org/wikipedia/en/8/8c/Nourtv_logo.jpg",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Kids"
+        "title": "Undefined"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://vo-live.cdb.cdn.orange.com/Content/Channel/MajidChildrenChannel/HLS/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Majid.ae\" tvg-logo=\"https://i.imgur.com/TzOKMMy.png\" group-title=\"Kids\",Majid TV (1080p)\r\nhttps://vo-live.cdb.cdn.orange.com/Content/Channel/MajidChildrenChannel/HLS/index.m3u8",
-      "line": 94,
+      "url": "https://cdn.bestream.io:19360/elfaro4/elfaro4.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"NourTV.ae\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/en/8/8c/Nourtv_logo.jpg\" group-title=\"Undefined\",Nour TV (720p)\r\nhttps://cdn.bestream.io:19360/elfaro4/elfaro4.m3u8",
+      "line": 118,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Sharjah 2 (1080p)",
+      "tvg": {
+        "id": "Sharjah2.ae",
+        "name": "",
+        "logo": "https://i.imgur.com/ob1GhbC.jpg",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Religious"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://svs.itworkscdn.net/smc2live/smc2tv.smil/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Sharjah2.ae\" tvg-logo=\"https://i.imgur.com/ob1GhbC.jpg\" group-title=\"Religious\",Sharjah 2 (1080p)\r\nhttps://svs.itworkscdn.net/smc2live/smc2tv.smil/playlist.m3u8",
+      "line": 128,
       "catchup": {
         "type": "",
         "days": "",
@@ -677,34 +593,6 @@
       "status": "OK"
     },
     {
-      "name": "Sharjah 2 (1080p)",
-      "tvg": {
-        "id": "Sharjah2.ae",
-        "name": "",
-        "logo": "https://i.imgur.com/ob1GhbC.jpg",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Religious"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://svs.itworkscdn.net/smc2live/smc2tv.smil/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Sharjah2.ae\" tvg-logo=\"https://i.imgur.com/ob1GhbC.jpg\" group-title=\"Religious\",Sharjah 2 (1080p)\r\nhttps://svs.itworkscdn.net/smc2live/smc2tv.smil/playlist.m3u8",
-      "line": 128,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Weyyak Action (1080p) [Geo-blocked]",
       "tvg": {
         "id": "WeyyakAction.ae",
@@ -733,25 +621,25 @@
       "status": "OK"
     },
     {
-      "name": "Weyyak Mix (720p) [Geo-blocked]",
+      "name": "Majid TV (1080p)",
       "tvg": {
-        "id": "WeyyakMix.ae",
+        "id": "Majid.ae",
         "name": "",
-        "logo": "https://content.weyyak.com/bc777336-328d-ea11-831d-02d662556796/poster-image",
+        "logo": "https://i.imgur.com/TzOKMMy.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Undefined"
+        "title": "Kids"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://weyyak-live.akamaized.net/weyyak_mix/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"WeyyakMix.ae\" tvg-logo=\"https://content.weyyak.com/bc777336-328d-ea11-831d-02d662556796/poster-image\" group-title=\"Undefined\",Weyyak Mix (720p) [Geo-blocked]\r\nhttps://weyyak-live.akamaized.net/weyyak_mix/index.m3u8",
-      "line": 154,
+      "url": "https://vo-live.cdb.cdn.orange.com/Content/Channel/MajidChildrenChannel/HLS/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Majid.ae\" tvg-logo=\"https://i.imgur.com/TzOKMMy.png\" group-title=\"Kids\",Majid TV (1080p)\r\nhttps://vo-live.cdb.cdn.orange.com/Content/Channel/MajidChildrenChannel/HLS/index.m3u8",
+      "line": 94,
       "catchup": {
         "type": "",
         "days": "",
@@ -789,6 +677,34 @@
       "status": "OK"
     },
     {
+      "name": "Weyyak Mix (720p) [Geo-blocked]",
+      "tvg": {
+        "id": "WeyyakMix.ae",
+        "name": "",
+        "logo": "https://content.weyyak.com/bc777336-328d-ea11-831d-02d662556796/poster-image",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://weyyak-live.akamaized.net/weyyak_mix/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"WeyyakMix.ae\" tvg-logo=\"https://content.weyyak.com/bc777336-328d-ea11-831d-02d662556796/poster-image\" group-title=\"Undefined\",Weyyak Mix (720p) [Geo-blocked]\r\nhttps://weyyak-live.akamaized.net/weyyak_mix/index.m3u8",
+      "line": 154,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Weyyak Nawaem (720p) [Geo-blocked]",
       "tvg": {
         "id": "WeyyakNawaem.ae",
@@ -808,6 +724,34 @@
       "url": "https://weyyak-live.akamaized.net/weyyak_nawaem/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"WeyyakNawaem.ae\" tvg-logo=\"https://content.weyyak.com/d867c2e9-328d-ea11-831d-02d662556796/poster-image\" group-title=\"Undefined\",Weyyak Nawaem (720p) [Geo-blocked]\r\nhttps://weyyak-live.akamaized.net/weyyak_nawaem/index.m3u8",
       "line": 156,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Baynounah TV (1080p)",
+      "tvg": {
+        "id": "BaynounahTV.ae",
+        "name": "",
+        "logo": "https://i.imgur.com/n2nczHO.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Culture"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://vo-live.cdb.cdn.orange.com/Content/Channel/Baynounah/HLS/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"BaynounahTV.ae\" tvg-logo=\"https://i.imgur.com/n2nczHO.png\" group-title=\"Culture\",Baynounah TV (1080p)\r\nhttps://vo-live.cdb.cdn.orange.com/Content/Channel/Baynounah/HLS/index.m3u8",
+      "line": 50,
       "catchup": {
         "type": "",
         "days": "",
