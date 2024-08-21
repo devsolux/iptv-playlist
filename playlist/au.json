@@ -5,6 +5,34 @@
   },
   "items": [
     {
+      "name": "ABC News Australia (720p)",
+      "tvg": {
+        "id": "ABCNewsSydney.au",
+        "name": "",
+        "logo": "https://i.imgur.com/BrW7gk8.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "News"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://abc-iview-mediapackagestreams-2.akamaized.net/out/v1/6e1cc6d25ec0480ea099a5399d73bc4b/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"ABCNewsSydney.au\" tvg-logo=\"https://i.imgur.com/BrW7gk8.png\" group-title=\"News\",ABC News Australia (720p)\r\nhttps://abc-iview-mediapackagestreams-2.akamaized.net/out/v1/6e1cc6d25ec0480ea099a5399d73bc4b/index.m3u8",
+      "line": 22,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "ABC Me (720p)",
       "tvg": {
         "id": "ABCMESydney.au",
@@ -24,6 +52,34 @@
       "url": "https://c.mjh.nz/abc-me.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"ABCMESydney.au\" tvg-logo=\"https://i.imgur.com/6NyFLAm.png\" group-title=\"Education;Kids\",ABC Me (720p)\r\nhttps://c.mjh.nz/abc-me.m3u8",
       "line": 20,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "ABC TV Adelaide (720p)",
+      "tvg": {
+        "id": "ABCTVSA.au",
+        "name": "",
+        "logo": "https://i.imgur.com/Ekjb7w8.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://c.mjh.nz/abc-sa.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"ABCTVSA.au\" tvg-logo=\"https://i.imgur.com/Ekjb7w8.png\" group-title=\"General\",ABC TV Adelaide (720p)\r\nhttps://c.mjh.nz/abc-sa.m3u8",
+      "line": 24,
       "catchup": {
         "type": "",
         "days": "",
@@ -61,34 +117,6 @@
       "status": "OK"
     },
     {
-      "name": "ABC TV Melbourne (720p)",
-      "tvg": {
-        "id": "ABCTVVIC.au",
-        "name": "",
-        "logo": "https://i.imgur.com/Ekjb7w8.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://c.mjh.nz/abc-vic.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"ABCTVVIC.au\" tvg-logo=\"https://i.imgur.com/Ekjb7w8.png\" group-title=\"General\",ABC TV Melbourne (720p)\r\nhttps://c.mjh.nz/abc-vic.m3u8",
-      "line": 34,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "AUS Tamil TV (720p) [Not 24/7]",
       "tvg": {
         "id": "AUSTamilTV.au",
@@ -117,53 +145,25 @@
       "status": "OK"
     },
     {
-      "name": "ABC TV Plus (720p)",
+      "name": "ABC TV Hobart (720p)",
       "tvg": {
-        "id": "ABCTVPlusSydney.au",
+        "id": "ABCTVTAS.au",
         "name": "",
-        "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0f/ABC_TV_Plus_logo_2021.svg/512px-ABC_TV_Plus_logo_2021.svg.png",
+        "logo": "https://i.imgur.com/Ekjb7w8.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Entertainment"
+        "title": "General"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://c.mjh.nz/abc-tv-plus.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"ABCTVPlusSydney.au\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/en/thumb/0/0f/ABC_TV_Plus_logo_2021.svg/512px-ABC_TV_Plus_logo_2021.svg.png\" group-title=\"Entertainment\",ABC TV Plus (720p)\r\nhttps://c.mjh.nz/abc-tv-plus.m3u8",
-      "line": 38,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Ausbiz TV",
-      "tvg": {
-        "id": "AusbizTV.au",
-        "name": "",
-        "logo": "https://i.imgur.com/8vGGdB0.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Business"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://ausbiztv-ausbiz-1-nz.samsung.wurl.tv/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"AusbizTV.au\" tvg-logo=\"https://i.imgur.com/8vGGdB0.png\" group-title=\"Business\",Ausbiz TV\r\nhttps://ausbiztv-ausbiz-1-nz.samsung.wurl.tv/playlist.m3u8",
-      "line": 48,
+      "url": "https://c.mjh.nz/abc-tas.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"ABCTVTAS.au\" tvg-logo=\"https://i.imgur.com/Ekjb7w8.png\" group-title=\"General\",ABC TV Hobart (720p)\r\nhttps://c.mjh.nz/abc-tas.m3u8",
+      "line": 32,
       "catchup": {
         "type": "",
         "days": "",
@@ -201,25 +201,25 @@
       "status": "OK"
     },
     {
-      "name": "C31 Melbourne (240p)",
+      "name": "Ausbiz TV",
       "tvg": {
-        "id": "C31Melbourne.au",
+        "id": "AusbizTV.au",
         "name": "",
-        "logo": "https://i.imgur.com/Ge1EutY.png",
+        "logo": "https://i.imgur.com/8vGGdB0.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "General"
+        "title": "Business"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://d1k6kax80wecy5.cloudfront.net/RLnAKY/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"C31Melbourne.au\" tvg-logo=\"https://i.imgur.com/Ge1EutY.png\" group-title=\"General\",C31 Melbourne (240p)\r\nhttps://d1k6kax80wecy5.cloudfront.net/RLnAKY/index.m3u8",
-      "line": 58,
+      "url": "https://ausbiztv-ausbiz-1-nz.samsung.wurl.tv/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"AusbizTV.au\" tvg-logo=\"https://i.imgur.com/8vGGdB0.png\" group-title=\"Business\",Ausbiz TV\r\nhttps://ausbiztv-ausbiz-1-nz.samsung.wurl.tv/playlist.m3u8",
+      "line": 48,
       "catchup": {
         "type": "",
         "days": "",
@@ -229,25 +229,25 @@
       "status": "OK"
     },
     {
-      "name": "Expo Channel (360p)",
+      "name": "ABC TV Plus (720p)",
       "tvg": {
-        "id": "ExpoChannel.au",
+        "id": "ABCTVPlusSydney.au",
         "name": "",
-        "logo": "https://i.imgur.com/2KzCShW.png",
+        "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0f/ABC_TV_Plus_logo_2021.svg/512px-ABC_TV_Plus_logo_2021.svg.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Shop"
+        "title": "Entertainment"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://tvsnhlslivetest.akamaized.net/hls/live/2034711/EXPO-MSL4/master.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"ExpoChannel.au\" tvg-logo=\"https://i.imgur.com/2KzCShW.png\" group-title=\"Shop\",Expo Channel (360p)\r\nhttps://tvsnhlslivetest.akamaized.net/hls/live/2034711/EXPO-MSL4/master.m3u8",
-      "line": 72,
+      "url": "https://c.mjh.nz/abc-tv-plus.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"ABCTVPlusSydney.au\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/en/thumb/0/0f/ABC_TV_Plus_logo_2021.svg/512px-ABC_TV_Plus_logo_2021.svg.png\" group-title=\"Entertainment\",ABC TV Plus (720p)\r\nhttps://c.mjh.nz/abc-tv-plus.m3u8",
+      "line": 38,
       "catchup": {
         "type": "",
         "days": "",
@@ -313,25 +313,53 @@
       "status": "OK"
     },
     {
-      "name": "Horse and Country Free",
+      "name": "Expo Channel (360p)",
       "tvg": {
-        "id": "HorseCountryTV.uk",
+        "id": "ExpoChannel.au",
         "name": "",
-        "logo": "https://i.imgur.com/1x6zYZr.png",
+        "logo": "https://i.imgur.com/2KzCShW.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Outdoor"
+        "title": "Shop"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg00810-horsecountrytvl-hncfreenz-samsungnz/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"HorseCountryTV.uk\" tvg-logo=\"https://i.imgur.com/1x6zYZr.png\" group-title=\"Outdoor\",Horse and Country Free\r\nhttps://cdn-apse1-prod.tsv2.amagi.tv/linear/amg00810-horsecountrytvl-hncfreenz-samsungnz/playlist.m3u8",
-      "line": 80,
+      "url": "https://tvsnhlslivetest.akamaized.net/hls/live/2034711/EXPO-MSL4/master.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"ExpoChannel.au\" tvg-logo=\"https://i.imgur.com/2KzCShW.png\" group-title=\"Shop\",Expo Channel (360p)\r\nhttps://tvsnhlslivetest.akamaized.net/hls/live/2034711/EXPO-MSL4/master.m3u8",
+      "line": 72,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "C31 Melbourne (240p)",
+      "tvg": {
+        "id": "C31Melbourne.au",
+        "name": "",
+        "logo": "https://i.imgur.com/Ge1EutY.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://d1k6kax80wecy5.cloudfront.net/RLnAKY/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"C31Melbourne.au\" tvg-logo=\"https://i.imgur.com/Ge1EutY.png\" group-title=\"General\",C31 Melbourne (240p)\r\nhttps://d1k6kax80wecy5.cloudfront.net/RLnAKY/index.m3u8",
+      "line": 58,
       "catchup": {
         "type": "",
         "days": "",
@@ -360,6 +388,34 @@
       "url": "http://tv1.intv.mk:1935/live/intv/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"INTVAustralia.au\" tvg-logo=\"https://i.imgur.com/1nJl0Pv.png\" group-title=\"Music\",INTV Australia (720p)\r\nhttp://tv1.intv.mk:1935/live/intv/index.m3u8",
       "line": 82,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Horse and Country Free",
+      "tvg": {
+        "id": "HorseCountryTV.uk",
+        "name": "",
+        "logo": "https://i.imgur.com/1x6zYZr.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Outdoor"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg00810-horsecountrytvl-hncfreenz-samsungnz/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"HorseCountryTV.uk\" tvg-logo=\"https://i.imgur.com/1x6zYZr.png\" group-title=\"Outdoor\",Horse and Country Free\r\nhttps://cdn-apse1-prod.tsv2.amagi.tv/linear/amg00810-horsecountrytvl-hncfreenz-samsungnz/playlist.m3u8",
+      "line": 80,
       "catchup": {
         "type": "",
         "days": "",
@@ -425,34 +481,6 @@
       "status": "OK"
     },
     {
-      "name": "Guidance TV Australia (720p) [Not 24/7]",
-      "tvg": {
-        "id": "GuidanceTVAustralia.au",
-        "name": "",
-        "logo": "https://i.ibb.co/xHhLpvT/unnamed.jpg",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Religious"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://ythls.armelin.one/channel/UC81VkX0QeICZw7o2jMwGThg.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"GuidanceTVAustralia.au\" tvg-logo=\"https://i.ibb.co/xHhLpvT/unnamed.jpg\" group-title=\"Religious\",Guidance TV Australia (720p) [Not 24/7]\r\nhttps://ythls.armelin.one/channel/UC81VkX0QeICZw7o2jMwGThg.m3u8",
-      "line": 76,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Juice TV (1080p) [Not 24/7]",
       "tvg": {
         "id": "JuiceTV.nz",
@@ -481,34 +509,6 @@
       "status": "OK"
     },
     {
-      "name": "MIS Televizija (720p) [Not 24/7]",
-      "tvg": {
-        "id": "MISTelevizija.au",
-        "name": "",
-        "logo": "https://i.imgur.com/qvrNVFg.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://5afd52b55ff79.streamlock.net/MISTV/myStream/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"MISTelevizija.au\" tvg-logo=\"https://i.imgur.com/qvrNVFg.png\" group-title=\"Undefined\",MIS Televizija (720p) [Not 24/7]\r\nhttps://5afd52b55ff79.streamlock.net/MISTV/myStream/playlist.m3u8",
-      "line": 92,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Kordia TV (1080p)",
       "tvg": {
         "id": "KordiaTV.nz",
@@ -528,6 +528,34 @@
       "url": "https://ptvlive.kordia.net.nz/out/v1/3fc2254c865a457c8d7fbbce227a2aae/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"KordiaTV.nz\" tvg-logo=\"https://i.imgur.com/BQ0qWzX.png\" group-title=\"Undefined\",Kordia TV (1080p)\r\nhttps://ptvlive.kordia.net.nz/out/v1/3fc2254c865a457c8d7fbbce227a2aae/index.m3u8",
       "line": 88,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "MIS Televizija (720p) [Not 24/7]",
+      "tvg": {
+        "id": "MISTelevizija.au",
+        "name": "",
+        "logo": "https://i.imgur.com/qvrNVFg.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://5afd52b55ff79.streamlock.net/MISTV/myStream/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"MISTelevizija.au\" tvg-logo=\"https://i.imgur.com/qvrNVFg.png\" group-title=\"Undefined\",MIS Televizija (720p) [Not 24/7]\r\nhttps://5afd52b55ff79.streamlock.net/MISTV/myStream/playlist.m3u8",
+      "line": 92,
       "catchup": {
         "type": "",
         "days": "",
@@ -705,6 +733,34 @@
       "status": "OK"
     },
     {
+      "name": "Swamiji TV Australian (1080p) [Not 24/7]",
+      "tvg": {
+        "id": "SwamijiTVAustralian.at",
+        "name": "",
+        "logo": "https://i.imgur.com/nrLcuzs.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Outdoor"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://stream.swamiji.tv/YogaIPTV/smil:YogaStreamAU.smil/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"SwamijiTVAustralian.at\" tvg-logo=\"https://i.imgur.com/nrLcuzs.png\" group-title=\"Outdoor\",Swamiji TV Australian (1080p) [Not 24/7]\r\nhttps://stream.swamiji.tv/YogaIPTV/smil:YogaStreamAU.smil/playlist.m3u8",
+      "line": 116,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "TBN Inspire (720p)",
       "tvg": {
         "id": "TBNInspire.us",
@@ -752,34 +808,6 @@
       "url": "https://tfcguam-abscbn-ono.amagi.tv/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TheFilipinoChannelGuam.us\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/en/thumb/d/d1/The_Filipino_Channel_2011_logo.svg/512px-The_Filipino_Channel_2011_logo.svg.png\" group-title=\"Undefined\",The Filipino Channel Guam (1080p)\r\nhttps://tfcguam-abscbn-ono.amagi.tv/index.m3u8",
       "line": 122,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Swamiji TV Australian (1080p) [Not 24/7]",
-      "tvg": {
-        "id": "SwamijiTVAustralian.at",
-        "name": "",
-        "logo": "https://i.imgur.com/nrLcuzs.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Outdoor"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://stream.swamiji.tv/YogaIPTV/smil:YogaStreamAU.smil/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"SwamijiTVAustralian.at\" tvg-logo=\"https://i.imgur.com/nrLcuzs.png\" group-title=\"Outdoor\",Swamiji TV Australian (1080p) [Not 24/7]\r\nhttps://stream.swamiji.tv/YogaIPTV/smil:YogaStreamAU.smil/playlist.m3u8",
-      "line": 116,
       "catchup": {
         "type": "",
         "days": "",
