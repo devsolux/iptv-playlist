@@ -341,6 +341,34 @@
       "status": "OK"
     },
     {
+      "name": "ESTV (420p)",
+      "tvg": {
+        "id": "ESTV.hu",
+        "name": "",
+        "logo": "https://i.imgur.com/OCZ8CfK.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://cloudfront44.lexanetwork.com:1344/relay01/HDE032.sdp/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"ESTV.hu\" tvg-logo=\"https://i.imgur.com/OCZ8CfK.png\" group-title=\"General\",ESTV (420p)\r\nhttps://cloudfront44.lexanetwork.com:1344/relay01/HDE032.sdp/playlist.m3u8",
+      "line": 57,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Gran TV (720p)",
       "tvg": {
         "id": "GranTV.hu",
@@ -360,34 +388,6 @@
       "url": "https://stream.medialive.hu/gran/grantvlive/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"GranTV.hu\" tvg-logo=\"https://i.ibb.co/qJN7Qh2/gran-kicsi.png\" group-title=\"Religious\",Gran TV (720p)\r\nhttps://stream.medialive.hu/gran/grantvlive/playlist.m3u8",
       "line": 76,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Halom TV (576p)",
-      "tvg": {
-        "id": "HalomTV.hu",
-        "name": "",
-        "logo": "https://i.imgur.com/x8shi7l.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://stream.battanet.hu:8080/hls/livestream1/1_2/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"HalomTV.hu\" tvg-logo=\"https://i.imgur.com/x8shi7l.png\" group-title=\"General\",Halom TV (576p)\r\nhttp://stream.battanet.hu:8080/hls/livestream1/1_2/index.m3u8",
-      "line": 82,
       "catchup": {
         "type": "",
         "days": "",
@@ -584,6 +584,34 @@
       "url": "http://rtmp1.40e.hu:8000/live/ktv.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"KecskemetiTV.hu\" tvg-logo=\"https://i.imgur.com/yxwrX2N.png\" group-title=\"General\",Kecskemeti TV (416p) [Not 24/7]\r\nhttp://rtmp1.40e.hu:8000/live/ktv.m3u8",
       "line": 104,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Hegyvidek Tv Budapest (576p) [Not 24/7]",
+      "tvg": {
+        "id": "HegyvidekTV.hu",
+        "name": "",
+        "logo": "https://i.imgur.com/t5bw1J1.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://tv.hegyvidek.hu/stream_mpeg.flv",
+      "raw": "#EXTINF:-1 tvg-id=\"HegyvidekTV.hu\" tvg-logo=\"https://i.imgur.com/t5bw1J1.png\" group-title=\"General\",Hegyvidek Tv Budapest (576p) [Not 24/7]\r\nhttps://tv.hegyvidek.hu/stream_mpeg.flv",
+      "line": 88,
       "catchup": {
         "type": "",
         "days": "",
@@ -808,34 +836,6 @@
       "url": "https://stream.streaming4u.hu/ObudaTV/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"ObudaTV.hu\" tvg-logo=\"https://i.ibb.co/42C026p/6172.png\" group-title=\"General\",Óbuda TV (576p)\r\nhttps://stream.streaming4u.hu/ObudaTV/index.m3u8",
       "line": 144,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "NYTV (1080p) [Not 24/7]",
-      "tvg": {
-        "id": "NYTV.hu",
-        "name": "",
-        "logo": "https://i.imgur.com/LUKbF3N.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://ythls.armelin.one/channel/UCx7cFh63AWsK3cbfgX3GaaQ.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"NYTV.hu\" tvg-logo=\"https://i.imgur.com/LUKbF3N.png\" group-title=\"General\",NYTV (1080p) [Not 24/7]\r\nhttps://ythls.armelin.one/channel/UCx7cFh63AWsK3cbfgX3GaaQ.m3u8",
-      "line": 142,
       "catchup": {
         "type": "",
         "days": "",
@@ -1293,11 +1293,11 @@
       "status": "OK"
     },
     {
-      "name": "Völgyhíd TV (540p)",
+      "name": "Vásárhelyi Televízió (576p)",
       "tvg": {
-        "id": "VolgyhidTV.hu",
+        "id": "VasarhelyiTelevizio.hu",
         "name": "",
-        "logo": "https://i.imgur.com/9krKKgU.png",
+        "logo": "https://i.imgur.com/WOEqdmx.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -1309,9 +1309,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://5cd03f21c7193.streamlock.net/volgyhidtv/mediakft/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"VolgyhidTV.hu\" tvg-logo=\"https://i.imgur.com/9krKKgU.png\" group-title=\"General\",Völgyhíd TV (540p)\r\nhttps://5cd03f21c7193.streamlock.net/volgyhidtv/mediakft/playlist.m3u8",
-      "line": 232,
+      "url": "https://stream.vasarhelyitelevizio.hu/stream/stream.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"VasarhelyiTelevizio.hu\" tvg-logo=\"https://i.imgur.com/WOEqdmx.png\" group-title=\"General\",Vásárhelyi Televízió (576p)\r\nhttps://stream.vasarhelyitelevizio.hu/stream/stream.m3u8",
+      "line": 230,
       "catchup": {
         "type": "",
         "days": "",
@@ -1349,11 +1349,11 @@
       "status": "OK"
     },
     {
-      "name": "Vásárhelyi Televízió (576p)",
+      "name": "Völgyhíd TV (540p)",
       "tvg": {
-        "id": "VasarhelyiTelevizio.hu",
+        "id": "VolgyhidTV.hu",
         "name": "",
-        "logo": "https://i.imgur.com/WOEqdmx.png",
+        "logo": "https://i.imgur.com/9krKKgU.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -1365,9 +1365,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://stream.vasarhelyitelevizio.hu/stream/stream.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"VasarhelyiTelevizio.hu\" tvg-logo=\"https://i.imgur.com/WOEqdmx.png\" group-title=\"General\",Vásárhelyi Televízió (576p)\r\nhttps://stream.vasarhelyitelevizio.hu/stream/stream.m3u8",
-      "line": 230,
+      "url": "https://5cd03f21c7193.streamlock.net/volgyhidtv/mediakft/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"VolgyhidTV.hu\" tvg-logo=\"https://i.imgur.com/9krKKgU.png\" group-title=\"General\",Völgyhíd TV (540p)\r\nhttps://5cd03f21c7193.streamlock.net/volgyhidtv/mediakft/playlist.m3u8",
+      "line": 232,
       "catchup": {
         "type": "",
         "days": "",
