@@ -61,25 +61,25 @@
       "status": "OK"
     },
     {
-      "name": "dlaCiebie.tv (1080p) [Not 24/7]",
+      "name": "EWTN Poland (1080p)",
       "tvg": {
-        "id": "dlaCiebietv.pl",
+        "id": "EWTNPoland.pl",
         "name": "",
-        "logo": "https://i.imgur.com/Tf32BJa.png",
+        "logo": "https://i.imgur.com/VtKYELf.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Undefined"
+        "title": "Religious"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "http://94.246.128.53:1935/tv/dlaCiebieTv/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"dlaCiebietv.pl\" tvg-logo=\"https://i.imgur.com/Tf32BJa.png\" group-title=\"Undefined\",dlaCiebie.tv (1080p) [Not 24/7]\r\nhttp://94.246.128.53:1935/tv/dlaCiebieTv/playlist.m3u8",
-      "line": 23,
+      "url": "https://cdn3.wowza.com/1/ZHdrMWt1NjlDSzFu/bzdDVG10/hls/live/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"EWTNPoland.pl\" tvg-logo=\"https://i.imgur.com/VtKYELf.png\" group-title=\"Religious\",EWTN Poland (1080p)\r\nhttps://cdn3.wowza.com/1/ZHdrMWt1NjlDSzFu/bzdDVG10/hls/live/playlist.m3u8",
+      "line": 31,
       "catchup": {
         "type": "",
         "days": "",
@@ -136,34 +136,6 @@
       "url": "http://178.219.128.68:64888/DISNXD",
       "raw": "#EXTINF:-1 tvg-id=\"DisneyXD.pl\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Disney_XD_-_2015.svg/512px-Disney_XD_-_2015.svg.png\" group-title=\"Kids\",Disney XD (576p)\r\nhttp://178.219.128.68:64888/DISNXD",
       "line": 21,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "EWTN Poland (1080p)",
-      "tvg": {
-        "id": "EWTNPoland.pl",
-        "name": "",
-        "logo": "https://i.imgur.com/VtKYELf.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Religious"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://cdn3.wowza.com/1/ZHdrMWt1NjlDSzFu/bzdDVG10/hls/live/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"EWTNPoland.pl\" tvg-logo=\"https://i.imgur.com/VtKYELf.png\" group-title=\"Religious\",EWTN Poland (1080p)\r\nhttps://cdn3.wowza.com/1/ZHdrMWt1NjlDSzFu/bzdDVG10/hls/live/playlist.m3u8",
-      "line": 31,
       "catchup": {
         "type": "",
         "days": "",
@@ -509,34 +481,6 @@
       "status": "OK"
     },
     {
-      "name": "TV Trwam (1080p) [Geo-blocked]",
-      "tvg": {
-        "id": "TVTrwam.pl",
-        "name": "",
-        "logo": "https://i.imgur.com/yq10wS5.png",
-        "url": "",
-        "rec": "",
-        "shift": "3 hours"
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://live-ch1.trwam.cf.insyscd.net/out/v1/b99041a282774d4a8fe84a54243af5de/trwamtv-live-ch1.mpd",
-      "raw": "#EXTINF:-1 tvg-id=\"TVTrwam.pl\" tvg-shift=\"3 hours\" tvg-logo=\"https://i.imgur.com/yq10wS5.png\" group-title=\"Undefined\",TV Trwam (1080p) [Geo-blocked]\r\nhttps://live-ch1.trwam.cf.insyscd.net/out/v1/b99041a282774d4a8fe84a54243af5de/trwamtv-live-ch1.mpd",
-      "line": 110,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "TVP",
       "tvg": {
         "id": "TVPWorld.pl",
@@ -565,6 +509,34 @@
       "status": "OK"
     },
     {
+      "name": "TV Trwam (1080p) [Geo-blocked]",
+      "tvg": {
+        "id": "TVTrwam.pl",
+        "name": "",
+        "logo": "https://i.imgur.com/yq10wS5.png",
+        "url": "",
+        "rec": "",
+        "shift": "3 hours"
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://live-ch1.trwam.cf.insyscd.net/out/v1/b99041a282774d4a8fe84a54243af5de/trwamtv-live-ch1.mpd",
+      "raw": "#EXTINF:-1 tvg-id=\"TVTrwam.pl\" tvg-shift=\"3 hours\" tvg-logo=\"https://i.imgur.com/yq10wS5.png\" group-title=\"Undefined\",TV Trwam (1080p) [Geo-blocked]\r\nhttps://live-ch1.trwam.cf.insyscd.net/out/v1/b99041a282774d4a8fe84a54243af5de/trwamtv-live-ch1.mpd",
+      "line": 110,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "TVP2 (1080p)",
       "tvg": {
         "id": "TVP2.pl",
@@ -584,34 +556,6 @@
       "url": "https://ec04-waw4.cache.orange.pl/dai4/org2/vb/105/tvp2hd/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TVP2.pl\" tvg-logo=\"https://i.imgur.com/XxCc32B.png\" group-title=\"Undefined\",TVP2 (1080p)\r\nhttps://ec04-waw4.cache.orange.pl/dai4/org2/vb/105/tvp2hd/index.m3u8",
       "line": 120,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "TVP ABC 2 (1080p)",
-      "tvg": {
-        "id": "TVPABC2.pl",
-        "name": "",
-        "logo": "https://i.imgur.com/Ur7CUAh.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Kids"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://irylek.ct8.pl/stream/tvpabc2",
-      "raw": "#EXTINF:-1 tvg-id=\"TVPABC2.pl\" tvg-logo=\"https://i.imgur.com/Ur7CUAh.png\" group-title=\"Kids\",TVP ABC 2 (1080p)\r\nhttps://irylek.ct8.pl/stream/tvpabc2",
-      "line": 154,
       "catchup": {
         "type": "",
         "days": "",
@@ -677,6 +621,34 @@
       "status": "OK"
     },
     {
+      "name": "TVP ABC 2 (1080p)",
+      "tvg": {
+        "id": "TVPABC2.pl",
+        "name": "",
+        "logo": "https://i.imgur.com/Ur7CUAh.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Kids"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://irylek.ct8.pl/stream/tvpabc2",
+      "raw": "#EXTINF:-1 tvg-id=\"TVPABC2.pl\" tvg-logo=\"https://i.imgur.com/Ur7CUAh.png\" group-title=\"Kids\",TVP ABC 2 (1080p)\r\nhttps://irylek.ct8.pl/stream/tvpabc2",
+      "line": 154,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "TVP Dokument (1080p)",
       "tvg": {
         "id": "TVPDokument.pl",
@@ -696,6 +668,34 @@
       "url": "https://irylek.ct8.pl/stream/tvpdokument",
       "raw": "#EXTINF:-1 tvg-id=\"TVPDokument.pl\" tvg-logo=\"https://i.imgur.com/oQUNtzs.png\" group-title=\"Undefined\",TVP Dokument (1080p)\r\nhttps://irylek.ct8.pl/stream/tvpdokument",
       "line": 158,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "TVP Info (1080p)",
+      "tvg": {
+        "id": "TVPInfo.pl",
+        "name": "",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/TVP_Info_logo.svg/512px-TVP_Info_logo.svg.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://irylek.ct8.pl/stream/tvpinfo",
+      "raw": "#EXTINF:-1 tvg-id=\"TVPInfo.pl\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/TVP_Info_logo.svg/512px-TVP_Info_logo.svg.png\" group-title=\"Undefined\",TVP Info (1080p)\r\nhttps://irylek.ct8.pl/stream/tvpinfo",
+      "line": 164,
       "catchup": {
         "type": "",
         "days": "",
@@ -761,34 +761,6 @@
       "status": "OK"
     },
     {
-      "name": "TVP Info (1080p)",
-      "tvg": {
-        "id": "TVPInfo.pl",
-        "name": "",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/TVP_Info_logo.svg/512px-TVP_Info_logo.svg.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://irylek.ct8.pl/stream/tvpinfo",
-      "raw": "#EXTINF:-1 tvg-id=\"TVPInfo.pl\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/TVP_Info_logo.svg/512px-TVP_Info_logo.svg.png\" group-title=\"Undefined\",TVP Info (1080p)\r\nhttps://irylek.ct8.pl/stream/tvpinfo",
-      "line": 164,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "TVP Kobieta (1080p) [Geo-blocked]",
       "tvg": {
         "id": "TVPKobieta.pl",
@@ -808,62 +780,6 @@
       "url": "https://irylek.ct8.pl/stream/tvpkobieta",
       "raw": "#EXTINF:-1 tvg-id=\"TVPKobieta.pl\" tvg-shift=\"30 minutes\" tvg-logo=\"https://i.imgur.com/aAH98qO.png\" group-title=\"Undefined\",TVP Kobieta (1080p) [Geo-blocked]\r\nhttps://irylek.ct8.pl/stream/tvpkobieta",
       "line": 166,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "TVP Kultura 2 (1080p)",
-      "tvg": {
-        "id": "TVPKultura2.pl",
-        "name": "",
-        "logo": "https://i.imgur.com/hXAUpMj.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Culture"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://irylek.ct8.pl/stream/tvpkultura2",
-      "raw": "#EXTINF:-1 tvg-id=\"TVPKultura2.pl\" tvg-logo=\"https://i.imgur.com/hXAUpMj.png\" group-title=\"Culture\",TVP Kultura 2 (1080p)\r\nhttps://irylek.ct8.pl/stream/tvpkultura2",
-      "line": 168,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "TVP Kultura (1080p)",
-      "tvg": {
-        "id": "TVPKultura.pl",
-        "name": "",
-        "logo": "https://i.imgur.com/JU858Es.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://irylek.ct8.pl/stream/tvpkultura",
-      "raw": "#EXTINF:-1 tvg-id=\"TVPKultura.pl\" tvg-logo=\"https://i.imgur.com/JU858Es.png\" group-title=\"Undefined\",TVP Kultura (1080p)\r\nhttps://irylek.ct8.pl/stream/tvpkultura",
-      "line": 170,
       "catchup": {
         "type": "",
         "days": "",
@@ -901,11 +817,11 @@
       "status": "OK"
     },
     {
-      "name": "TVP Polonia (1080p)",
+      "name": "TVP Kultura (1080p)",
       "tvg": {
-        "id": "TVPPolonia.pl",
+        "id": "TVPKultura.pl",
         "name": "",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/TVP_Polonia_Logo_2020.svg/512px-TVP_Polonia_Logo_2020.svg.png",
+        "logo": "https://i.imgur.com/JU858Es.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -917,9 +833,37 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://irylek.ct8.pl/stream/tvppolonia",
-      "raw": "#EXTINF:-1 tvg-id=\"TVPPolonia.pl\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/TVP_Polonia_Logo_2020.svg/512px-TVP_Polonia_Logo_2020.svg.png\" group-title=\"Undefined\",TVP Polonia (1080p)\r\nhttps://irylek.ct8.pl/stream/tvppolonia",
-      "line": 174,
+      "url": "https://irylek.ct8.pl/stream/tvpkultura",
+      "raw": "#EXTINF:-1 tvg-id=\"TVPKultura.pl\" tvg-logo=\"https://i.imgur.com/JU858Es.png\" group-title=\"Undefined\",TVP Kultura (1080p)\r\nhttps://irylek.ct8.pl/stream/tvpkultura",
+      "line": 170,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "TVP Kultura 2 (1080p)",
+      "tvg": {
+        "id": "TVPKultura2.pl",
+        "name": "",
+        "logo": "https://i.imgur.com/hXAUpMj.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Culture"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://irylek.ct8.pl/stream/tvpkultura2",
+      "raw": "#EXTINF:-1 tvg-id=\"TVPKultura2.pl\" tvg-logo=\"https://i.imgur.com/hXAUpMj.png\" group-title=\"Culture\",TVP Kultura 2 (1080p)\r\nhttps://irylek.ct8.pl/stream/tvpkultura2",
+      "line": 168,
       "catchup": {
         "type": "",
         "days": "",
@@ -948,6 +892,34 @@
       "url": "https://live.streamtvt.pl/LiveAppStreamTVT/streams/853271271313930867905724.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TVT.pl\" tvg-logo=\"https://i.imgur.com/oZyeUzG.png\" group-title=\"Undefined\",TVT (720p)\r\nhttps://live.streamtvt.pl/LiveAppStreamTVT/streams/853271271313930867905724.m3u8",
       "line": 180,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "TVP Polonia (1080p)",
+      "tvg": {
+        "id": "TVPPolonia.pl",
+        "name": "",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/TVP_Polonia_Logo_2020.svg/512px-TVP_Polonia_Logo_2020.svg.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://irylek.ct8.pl/stream/tvppolonia",
+      "raw": "#EXTINF:-1 tvg-id=\"TVPPolonia.pl\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/TVP_Polonia_Logo_2020.svg/512px-TVP_Polonia_Logo_2020.svg.png\" group-title=\"Undefined\",TVP Polonia (1080p)\r\nhttps://irylek.ct8.pl/stream/tvppolonia",
+      "line": 174,
       "catchup": {
         "type": "",
         "days": "",
