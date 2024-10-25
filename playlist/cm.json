@@ -5,11 +5,11 @@
   },
   "items": [
     {
-      "name": "For You TV (480p)",
+      "name": "Balafon TV (1080p) [Not 24/7]",
       "tvg": {
-        "id": "ForYouTV.cm",
+        "id": "BalafonTV.cm",
         "name": "",
-        "logo": "https://i.imgur.com/FgEDzTZ.png",
+        "logo": "https://i.imgur.com/EqOzhYw.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -18,12 +18,12 @@
         "title": "News"
       },
       "http": {
-        "referrer": "",
+        "referrer": "https://odysee.com/",
         "user-agent": ""
       },
-      "url": "https://stream.az-multimedia.com:3793/live/foryoutvlive.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"ForYouTV.cm\" tvg-logo=\"https://i.imgur.com/FgEDzTZ.png\" group-title=\"News\",For You TV (480p)\r\nhttps://stream.az-multimedia.com:3793/live/foryoutvlive.m3u8",
-      "line": 53,
+      "url": "https://cloud.odysee.live/content/d174f640b38d9d2f3967fd5e1b47b58c58f911a1/master.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"BalafonTV.cm\" tvg-logo=\"https://i.imgur.com/EqOzhYw.png\" group-title=\"News\",Balafon TV (1080p) [Not 24/7]\r\n#EXTVLCOPT:http-referrer=https://odysee.com/\r\nhttps://cloud.odysee.live/content/d174f640b38d9d2f3967fd5e1b47b58c58f911a1/master.m3u8",
+      "line": 24,
       "catchup": {
         "type": "",
         "days": "",
@@ -33,11 +33,11 @@
       "status": "OK"
     },
     {
-      "name": "CEN Télévision (1080p)",
+      "name": "CTV Afrique (720p)",
       "tvg": {
-        "id": "CENTelevision.cm",
+        "id": "CTVAfrique.cm",
         "name": "",
-        "logo": "https://i.ibb.co/2vJfdgN/unnamed.jpg",
+        "logo": "https://i.ibb.co/k0mws9B/Ctv-Afrique.jpg",
         "url": "",
         "rec": "",
         "shift": ""
@@ -49,65 +49,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://strhlslb01.streamakaci.tv/cen/cen-multi/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"CENTelevision.cm\" tvg-logo=\"https://i.ibb.co/2vJfdgN/unnamed.jpg\" group-title=\"General\",CEN Télévision (1080p)\r\nhttps://strhlslb01.streamakaci.tv/cen/cen-multi/playlist.m3u8",
-      "line": 35,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "IBA Channel (720p) [Not 24/7]",
-      "tvg": {
-        "id": "IBAChannel.cm",
-        "name": "",
-        "logo": "https://i.imgur.com/uqFTd3U.jpg",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Business"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://video1.getstreamhosting.com:1936/8190/8190/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"IBAChannel.cm\" tvg-logo=\"https://i.imgur.com/uqFTd3U.jpg\" group-title=\"Business\",IBA Channel (720p) [Not 24/7]\r\nhttps://video1.getstreamhosting.com:1936/8190/8190/playlist.m3u8",
-      "line": 63,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Play TV (720p) [Not 24/7]",
-      "tvg": {
-        "id": "PlayTV.cm",
-        "name": "",
-        "logo": "https://i.imgur.com/1dmBqpf.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Music"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://connectiktv.ddns.net:5000/playtv/@playtv/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"PlayTV.cm\" tvg-logo=\"https://i.imgur.com/1dmBqpf.png\" group-title=\"Music\",Play TV (720p) [Not 24/7]\r\nhttp://connectiktv.ddns.net:5000/playtv/@playtv/playlist.m3u8",
-      "line": 77,
+      "url": "https://stream.it-innov.com/ctv/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"CTVAfrique.cm\" tvg-logo=\"https://i.ibb.co/k0mws9B/Ctv-Afrique.jpg\" group-title=\"General\",CTV Afrique (720p)\r\nhttps://stream.it-innov.com/ctv/index.m3u8",
+      "line": 45,
       "catchup": {
         "type": "",
         "days": "",
@@ -136,6 +80,34 @@
       "url": "http://connectiktv.ddns.net:5000/mytvchannel/@mytvchannel/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"MyTVChannel.cm\" tvg-logo=\"https://i.imgur.com/vh2373L.png\" group-title=\"Undefined\",My TV Channel (720p) [Not 24/7]\r\nhttp://connectiktv.ddns.net:5000/mytvchannel/@mytvchannel/playlist.m3u8",
       "line": 75,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Play TV (720p) [Not 24/7]",
+      "tvg": {
+        "id": "PlayTV.cm",
+        "name": "",
+        "logo": "https://i.imgur.com/1dmBqpf.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Music"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://connectiktv.ddns.net:5000/playtv/@playtv/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"PlayTV.cm\" tvg-logo=\"https://i.imgur.com/1dmBqpf.png\" group-title=\"Music\",Play TV (720p) [Not 24/7]\r\nhttp://connectiktv.ddns.net:5000/playtv/@playtv/playlist.m3u8",
+      "line": 77,
       "catchup": {
         "type": "",
         "days": "",
