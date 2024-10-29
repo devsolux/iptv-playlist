@@ -5,6 +5,34 @@
   },
   "items": [
     {
+      "name": "4E (720p)",
+      "tvg": {
+        "id": "4E.gr",
+        "name": "",
+        "logo": "https://i.imgur.com/Na0UCV7.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Religious"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://eu2.tv4e.gr:554/live/smil:myStream.sdp.smil/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"4E.gr\" tvg-logo=\"https://i.imgur.com/Na0UCV7.png\" group-title=\"Religious\",4E (720p)\r\nhttp://eu2.tv4e.gr:554/live/smil:myStream.sdp.smil/playlist.m3u8",
+      "line": 2,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Aeolos TV (1080p)",
       "tvg": {
         "id": "AeolosTV.gr",
@@ -24,34 +52,6 @@
       "url": "https://cdn.istoikona.com/aeolostv/live/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"AeolosTV.gr\" tvg-logo=\"https://i.imgur.com/4G9VvUg.png\" group-title=\"General\",Aeolos TV (1080p)\r\nhttps://cdn.istoikona.com/aeolostv/live/playlist.m3u8",
       "line": 14,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Alert (576p) [Not 24/7]",
-      "tvg": {
-        "id": "AlertTV.gr",
-        "name": "",
-        "logo": "https://i.imgur.com/xqa87lG.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "News"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://itv.streams.ovh/ALEERT/ALEERT/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"AlertTV.gr\" tvg-logo=\"https://i.imgur.com/xqa87lG.png\" group-title=\"News\",Alert (576p) [Not 24/7]\r\nhttps://itv.streams.ovh/ALEERT/ALEERT/playlist.m3u8",
-      "line": 18,
       "catchup": {
         "type": "",
         "days": "",
@@ -89,6 +89,34 @@
       "status": "OK"
     },
     {
+      "name": "Alert (576p) [Not 24/7]",
+      "tvg": {
+        "id": "AlertTV.gr",
+        "name": "",
+        "logo": "https://i.imgur.com/xqa87lG.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "News"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://itv.streams.ovh/ALEERT/ALEERT/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"AlertTV.gr\" tvg-logo=\"https://i.imgur.com/xqa87lG.png\" group-title=\"News\",Alert (576p) [Not 24/7]\r\nhttps://itv.streams.ovh/ALEERT/ALEERT/playlist.m3u8",
+      "line": 18,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Astra TV (480p) [Not 24/7]",
       "tvg": {
         "id": "AstraTV.gr",
@@ -108,34 +136,6 @@
       "url": "https://ssh101.bozztv.com/ssh101/astratv/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"AstraTV.gr\" tvg-logo=\"https://i.imgur.com/oYRPfZm.png\" group-title=\"News\",Astra TV (480p) [Not 24/7]\r\nhttps://ssh101.bozztv.com/ssh101/astratv/playlist.m3u8",
       "line": 30,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Attica TV (1080p)",
-      "tvg": {
-        "id": "AtticaTV.gr",
-        "name": "",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Attica_logo_155.jpg",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://atticatv.siliconweb.com/atticatv/atticaliveabr/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"AtticaTV.gr\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/c/c5/Attica_logo_155.jpg\" group-title=\"General\",Attica TV (1080p)\r\nhttp://atticatv.siliconweb.com/atticatv/atticaliveabr/playlist.m3u8",
-      "line": 32,
       "catchup": {
         "type": "",
         "days": "",
@@ -173,25 +173,25 @@
       "status": "OK"
     },
     {
-      "name": "4E (720p)",
+      "name": "Attica TV (1080p)",
       "tvg": {
-        "id": "4E.gr",
+        "id": "AtticaTV.gr",
         "name": "",
-        "logo": "https://i.imgur.com/Na0UCV7.png",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Attica_logo_155.jpg",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Religious"
+        "title": "General"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "http://eu2.tv4e.gr:554/live/smil:myStream.sdp.smil/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"4E.gr\" tvg-logo=\"https://i.imgur.com/Na0UCV7.png\" group-title=\"Religious\",4E (720p)\r\nhttp://eu2.tv4e.gr:554/live/smil:myStream.sdp.smil/playlist.m3u8",
-      "line": 2,
+      "url": "http://atticatv.siliconweb.com/atticatv/atticaliveabr/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"AtticaTV.gr\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/c/c5/Attica_logo_155.jpg\" group-title=\"General\",Attica TV (1080p)\r\nhttp://atticatv.siliconweb.com/atticatv/atticaliveabr/playlist.m3u8",
+      "line": 32,
       "catchup": {
         "type": "",
         "days": "",
@@ -257,34 +257,6 @@
       "status": "OK"
     },
     {
-      "name": "Baraza TV Relaxing (720p)",
-      "tvg": {
-        "id": "BarazaTVRelaxing.gr",
-        "name": "",
-        "logo": "https://i.imgur.com/TZ1unwF.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Music"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://rtmp.streams.ovh:1936/barazarelax/barazarelax/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"BarazaTVRelaxing.gr\" tvg-logo=\"https://i.imgur.com/TZ1unwF.png\" group-title=\"Music\",Baraza TV Relaxing (720p)\r\nhttps://rtmp.streams.ovh:1936/barazarelax/barazarelax/playlist.m3u8",
-      "line": 40,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Best TV (720p) [Not 24/7]",
       "tvg": {
         "id": "BestTV.gr",
@@ -304,6 +276,34 @@
       "url": "http://push-int.siliconweb.com/bestTV/stream/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"BestTV.gr\" tvg-logo=\"https://i.imgur.com/AeeeDUc.png\" group-title=\"Undefined\",Best TV (720p) [Not 24/7]\r\nhttp://push-int.siliconweb.com/bestTV/stream/playlist.m3u8",
       "line": 47,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Baraza TV Relaxing (720p)",
+      "tvg": {
+        "id": "BarazaTVRelaxing.gr",
+        "name": "",
+        "logo": "https://i.imgur.com/TZ1unwF.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Music"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://rtmp.streams.ovh:1936/barazarelax/barazarelax/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"BarazaTVRelaxing.gr\" tvg-logo=\"https://i.imgur.com/TZ1unwF.png\" group-title=\"Music\",Baraza TV Relaxing (720p)\r\nhttps://rtmp.streams.ovh:1936/barazarelax/barazarelax/playlist.m3u8",
+      "line": 40,
       "catchup": {
         "type": "",
         "days": "",
@@ -369,34 +369,6 @@
       "status": "OK"
     },
     {
-      "name": "Ellas TV (1080p)",
-      "tvg": {
-        "id": "EllasTV.gr",
-        "name": "",
-        "logo": "https://i.imgur.com/aRWB7ss.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://ellastv.gotdns.com:88/freetv/promo/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"EllasTV.gr\" tvg-logo=\"https://i.imgur.com/aRWB7ss.png\" group-title=\"Undefined\",Ellas TV (1080p)\r\nhttp://ellastv.gotdns.com:88/freetv/promo/index.m3u8",
-      "line": 77,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Corfu TV (576p) [Not 24/7]",
       "tvg": {
         "id": "CorfuTV.gr",
@@ -416,6 +388,34 @@
       "url": "https://itv.streams.ovh/corfuchannel/corfuchannel/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"CorfuTV.gr\" tvg-logo=\"https://i.imgur.com/CvxVN0L.png\" group-title=\"News\",Corfu TV (576p) [Not 24/7]\r\nhttps://itv.streams.ovh/corfuchannel/corfuchannel/playlist.m3u8",
       "line": 61,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Ellas TV (1080p)",
+      "tvg": {
+        "id": "EllasTV.gr",
+        "name": "",
+        "logo": "https://i.imgur.com/aRWB7ss.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://ellastv.gotdns.com:88/freetv/promo/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"EllasTV.gr\" tvg-logo=\"https://i.imgur.com/aRWB7ss.png\" group-title=\"Undefined\",Ellas TV (1080p)\r\nhttp://ellastv.gotdns.com:88/freetv/promo/index.m3u8",
+      "line": 77,
       "catchup": {
         "type": "",
         "days": "",
@@ -453,34 +453,6 @@
       "status": "OK"
     },
     {
-      "name": "Epiloges TV (480p)",
-      "tvg": {
-        "id": "EpilogesTV.gr",
-        "name": "",
-        "logo": "https://i.imgur.com/3S4P7ob.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://5d00db0e0fcd5.streamlock.net/7170/7170/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"EpilogesTV.gr\" tvg-logo=\"https://i.imgur.com/3S4P7ob.png\" group-title=\"General\",Epiloges TV (480p)\r\nhttps://5d00db0e0fcd5.streamlock.net/7170/7170/playlist.m3u8",
-      "line": 83,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Center TV (1080p) [Not 24/7]",
       "tvg": {
         "id": "CenterTV.gr",
@@ -500,6 +472,34 @@
       "url": "https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/centertv.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"CenterTV.gr\" tvg-logo=\"https://i.imgur.com/52JW71Q.png\" group-title=\"General\",Center TV (1080p) [Not 24/7]\r\nhttps://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/centertv.m3u8",
       "line": 57,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Epiloges TV (480p)",
+      "tvg": {
+        "id": "EpilogesTV.gr",
+        "name": "",
+        "logo": "https://i.imgur.com/3S4P7ob.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://5d00db0e0fcd5.streamlock.net/7170/7170/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"EpilogesTV.gr\" tvg-logo=\"https://i.imgur.com/3S4P7ob.png\" group-title=\"General\",Epiloges TV (480p)\r\nhttps://5d00db0e0fcd5.streamlock.net/7170/7170/playlist.m3u8",
+      "line": 83,
       "catchup": {
         "type": "",
         "days": "",
@@ -537,6 +537,34 @@
       "status": "OK"
     },
     {
+      "name": "Epirus TV1 (1080p)",
+      "tvg": {
+        "id": "EpirusTV1.gr",
+        "name": "",
+        "logo": "https://i.imgur.com/nYVqhu8.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://til.pp.ua:3928/live/epiruslive.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"EpirusTV1.gr\" tvg-logo=\"https://i.imgur.com/nYVqhu8.png\" group-title=\"General\",Epirus TV1 (1080p)\r\nhttps://til.pp.ua:3928/live/epiruslive.m3u8",
+      "line": 85,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Galaxy (432p) [Geo-blocked]",
       "tvg": {
         "id": "Galaxy.gr",
@@ -565,25 +593,81 @@
       "status": "OK"
     },
     {
-      "name": "Epirus TV1 (1080p)",
+      "name": "Faros TV2 (480p) [Geo-blocked]",
       "tvg": {
-        "id": "EpirusTV1.gr",
+        "id": "FarosTV2.gr",
         "name": "",
-        "logo": "https://i.imgur.com/nYVqhu8.png",
+        "logo": "https://i.imgur.com/7xtz1Jo.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "General"
+        "title": "Undefined"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://til.pp.ua:3928/live/epiruslive.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"EpirusTV1.gr\" tvg-logo=\"https://i.imgur.com/nYVqhu8.png\" group-title=\"General\",Epirus TV1 (1080p)\r\nhttps://til.pp.ua:3928/live/epiruslive.m3u8",
-      "line": 85,
+      "url": "https://s1.cystream.net/live/faros2/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"FarosTV2.gr\" tvg-logo=\"https://i.imgur.com/7xtz1Jo.png\" group-title=\"Undefined\",Faros TV2 (480p) [Geo-blocked]\r\nhttps://s1.cystream.net/live/faros2/playlist.m3u8",
+      "line": 106,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Faros TV (540p) [Geo-blocked]",
+      "tvg": {
+        "id": "FarosTV.gr",
+        "name": "",
+        "logo": "https://i.imgur.com/X19638q.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://s1.cystream.net/live/faros1/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"FarosTV.gr\" tvg-logo=\"https://i.imgur.com/X19638q.png\" group-title=\"Undefined\",Faros TV (540p) [Geo-blocked]\r\nhttps://s1.cystream.net/live/faros1/playlist.m3u8",
+      "line": 108,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Greek TV London (720p) [Not 24/7]",
+      "tvg": {
+        "id": "",
+        "name": "",
+        "logo": "",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://vdo3.alphaserver.gr:3466/stream/play.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"\" tvg-logo=\"\" group-title=\"Undefined\",Greek TV London (720p) [Not 24/7]\r\nhttps://vdo3.alphaserver.gr:3466/stream/play.m3u8",
+      "line": 122,
       "catchup": {
         "type": "",
         "days": "",
@@ -621,25 +705,25 @@
       "status": "OK"
     },
     {
-      "name": "Greek TV London (720p) [Not 24/7]",
+      "name": "High TV (720p) [Not 24/7]",
       "tvg": {
-        "id": "",
+        "id": "HighTV.gr",
         "name": "",
-        "logo": "",
+        "logo": "https://i.imgur.com/8gHuwt7.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Undefined"
+        "title": "Shop"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://vdo3.alphaserver.gr:3466/stream/play.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"\" tvg-logo=\"\" group-title=\"Undefined\",Greek TV London (720p) [Not 24/7]\r\nhttps://vdo3.alphaserver.gr:3466/stream/play.m3u8",
-      "line": 122,
+      "url": "http://live.streams.ovh:1935/hightv/hightv/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"HighTV.gr\" tvg-logo=\"https://i.imgur.com/8gHuwt7.png\" group-title=\"Shop\",High TV (720p) [Not 24/7]\r\nhttp://live.streams.ovh:1935/hightv/hightv/playlist.m3u8",
+      "line": 128,
       "catchup": {
         "type": "",
         "days": "",
@@ -705,34 +789,6 @@
       "status": "OK"
     },
     {
-      "name": "High TV (720p) [Not 24/7]",
-      "tvg": {
-        "id": "HighTV.gr",
-        "name": "",
-        "logo": "https://i.imgur.com/8gHuwt7.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Shop"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://live.streams.ovh:1935/hightv/hightv/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"HighTV.gr\" tvg-logo=\"https://i.imgur.com/8gHuwt7.png\" group-title=\"Shop\",High TV (720p) [Not 24/7]\r\nhttp://live.streams.ovh:1935/hightv/hightv/playlist.m3u8",
-      "line": 128,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Ionian Channel (1080p) [Not 24/7]",
       "tvg": {
         "id": "IonianTV.gr",
@@ -752,6 +808,34 @@
       "url": "http://stream.ioniantv.gr:8081/ionian/live/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"IonianTV.gr\" tvg-logo=\"https://i.imgur.com/JILN3kS.png\" group-title=\"General\",Ionian Channel (1080p) [Not 24/7]\r\nhttp://stream.ioniantv.gr:8081/ionian/live/playlist.m3u8",
       "line": 133,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Lepanto TV (1080p) [Not 24/7]",
+      "tvg": {
+        "id": "LepantoTV.gr",
+        "name": "",
+        "logo": "https://static-media.streema.com/media/cache/52/5e/525e3ae49d881cb702f2d4156b3c14a3.jpg",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/LePanto.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"LepantoTV.gr\" tvg-logo=\"https://static-media.streema.com/media/cache/52/5e/525e3ae49d881cb702f2d4156b3c14a3.jpg\" group-title=\"General\",Lepanto TV (1080p) [Not 24/7]\r\nhttps://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/LePanto.m3u8",
+      "line": 139,
       "catchup": {
         "type": "",
         "days": "",
@@ -845,34 +929,6 @@
       "status": "OK"
     },
     {
-      "name": "Lepanto TV (1080p) [Not 24/7]",
-      "tvg": {
-        "id": "LepantoTV.gr",
-        "name": "",
-        "logo": "https://static-media.streema.com/media/cache/52/5e/525e3ae49d881cb702f2d4156b3c14a3.jpg",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/LePanto.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"LepantoTV.gr\" tvg-logo=\"https://static-media.streema.com/media/cache/52/5e/525e3ae49d881cb702f2d4156b3c14a3.jpg\" group-title=\"General\",Lepanto TV (1080p) [Not 24/7]\r\nhttps://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/LePanto.m3u8",
-      "line": 139,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Lychnos TV (1080p)",
       "tvg": {
         "id": "LychnosTV.gr",
@@ -901,34 +957,6 @@
       "status": "OK"
     },
     {
-      "name": "Mesogeios TV (404p)",
-      "tvg": {
-        "id": "MesogeiosTV.gr",
-        "name": "",
-        "logo": "https://i.imgur.com/KX5olay.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://til.pp.ua:3872/live/mesogeiostvlive.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"MesogeiosTV.gr\" tvg-logo=\"https://i.imgur.com/KX5olay.png\" group-title=\"Undefined\",Mesogeios TV (404p)\r\nhttps://til.pp.ua:3872/live/mesogeiostvlive.m3u8",
-      "line": 149,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Naftemporiki TV (1080p)",
       "tvg": {
         "id": "NaftemporikiTV.gr",
@@ -948,6 +976,34 @@
       "url": "https://naftemporiki-live.cdn.vustreams.com/live/a4b4a88a-681c-4a2d-8e74-33daa5f2cb61/live.isml/.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"NaftemporikiTV.gr\" tvg-logo=\"https://i.imgur.com/9OFdMud.png\" group-title=\"News\",Naftemporiki TV (1080p)\r\nhttps://naftemporiki-live.cdn.vustreams.com/live/a4b4a88a-681c-4a2d-8e74-33daa5f2cb61/live.isml/.m3u8",
       "line": 153,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Mesogeios TV (404p)",
+      "tvg": {
+        "id": "MesogeiosTV.gr",
+        "name": "",
+        "logo": "https://i.imgur.com/KX5olay.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://til.pp.ua:3872/live/mesogeiostvlive.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"MesogeiosTV.gr\" tvg-logo=\"https://i.imgur.com/KX5olay.png\" group-title=\"Undefined\",Mesogeios TV (404p)\r\nhttps://til.pp.ua:3872/live/mesogeiostvlive.m3u8",
+      "line": 149,
       "catchup": {
         "type": "",
         "days": "",
@@ -1041,34 +1097,6 @@
       "status": "OK"
     },
     {
-      "name": "NS TV (720p) [Not 24/7]",
-      "tvg": {
-        "id": "NSTV.gr",
-        "name": "",
-        "logo": "https://i.imgur.com/tZnziRp.jpg",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://til.pp.ua:3262/live/nstv7live.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"NSTV.gr\" tvg-logo=\"https://i.imgur.com/tZnziRp.jpg\" group-title=\"Undefined\",NS TV (720p) [Not 24/7]\r\nhttps://til.pp.ua:3262/live/nstv7live.m3u8",
-      "line": 167,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Open TV (576p)",
       "tvg": {
         "id": "OpenTV.gr",
@@ -1088,34 +1116,6 @@
       "url": "http://liveopencloud.siliconweb.com/1/ZlRza2R6L2tFRnFJ/eWVLSlQx/hls/live/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"OpenTV.gr\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/el/thumb/e/e5/Open_TV_logo.png/498px-Open_TV_logo.png\" group-title=\"General\",Open TV (576p)\r\nhttp://liveopencloud.siliconweb.com/1/ZlRza2R6L2tFRnFJ/eWVLSlQx/hls/live/playlist.m3u8",
       "line": 171,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Nea TV (720p)",
-      "tvg": {
-        "id": "NeaTV.gr",
-        "name": "",
-        "logo": "https://i.imgur.com/nvNW8G7.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://live.neatv.gr:8888/hls/neatv.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"NeaTV.gr\" tvg-logo=\"https://i.imgur.com/nvNW8G7.png\" group-title=\"Undefined\",Nea TV (720p)\r\nhttps://live.neatv.gr:8888/hls/neatv.m3u8",
-      "line": 155,
       "catchup": {
         "type": "",
         "days": "",
@@ -1153,6 +1153,62 @@
       "status": "OK"
     },
     {
+      "name": "NS TV (720p) [Not 24/7]",
+      "tvg": {
+        "id": "NSTV.gr",
+        "name": "",
+        "logo": "https://i.imgur.com/tZnziRp.jpg",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://til.pp.ua:3262/live/nstv7live.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"NSTV.gr\" tvg-logo=\"https://i.imgur.com/tZnziRp.jpg\" group-title=\"Undefined\",NS TV (720p) [Not 24/7]\r\nhttps://til.pp.ua:3262/live/nstv7live.m3u8",
+      "line": 167,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Nea TV (720p)",
+      "tvg": {
+        "id": "NeaTV.gr",
+        "name": "",
+        "logo": "https://i.imgur.com/nvNW8G7.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://live.neatv.gr:8888/hls/neatv.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"NeaTV.gr\" tvg-logo=\"https://i.imgur.com/nvNW8G7.png\" group-title=\"Undefined\",Nea TV (720p)\r\nhttps://live.neatv.gr:8888/hls/neatv.m3u8",
+      "line": 155,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Play TV (480p) [Not 24/7]",
       "tvg": {
         "id": "PlayTV.gr",
@@ -1172,6 +1228,34 @@
       "url": "http://web.onair-radio.eu:1935/Alpha-Host/Alpha-Host/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"PlayTV.gr\" tvg-logo=\"https://i.imgur.com/JWFOYuD.png\" group-title=\"Music\",Play TV (480p) [Not 24/7]\r\nhttp://web.onair-radio.eu:1935/Alpha-Host/Alpha-Host/playlist.m3u8",
       "line": 187,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "PLP",
+      "tvg": {
+        "id": "PLP.gr",
+        "name": "",
+        "logo": "https://i.imgur.com/vMohImJ.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://www.hellasnet.tv/rest2.live.hn/w2r.plp/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"PLP.gr\" tvg-logo=\"https://i.imgur.com/vMohImJ.png\" group-title=\"Undefined\",PLP\r\nhttps://www.hellasnet.tv/rest2.live.hn/w2r.plp/playlist.m3u8",
+      "line": 189,
       "catchup": {
         "type": "",
         "days": "",
@@ -1237,34 +1321,6 @@
       "status": "OK"
     },
     {
-      "name": "PLP",
-      "tvg": {
-        "id": "PLP.gr",
-        "name": "",
-        "logo": "https://i.imgur.com/vMohImJ.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://www.hellasnet.tv/rest2.live.hn/w2r.plp/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"PLP.gr\" tvg-logo=\"https://i.imgur.com/vMohImJ.png\" group-title=\"Undefined\",PLP\r\nhttps://www.hellasnet.tv/rest2.live.hn/w2r.plp/playlist.m3u8",
-      "line": 189,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Rise TV (240p)",
       "tvg": {
         "id": "RISETV.gr",
@@ -1321,6 +1377,34 @@
       "status": "OK"
     },
     {
+      "name": "Skai TV (720p)",
+      "tvg": {
+        "id": "SkaiTV.gr",
+        "name": "",
+        "logo": "https://i.imgur.com/mrKRFnf.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://skai-live-back.siliconweb.com/media/cambria4/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"SkaiTV.gr\" tvg-logo=\"https://i.imgur.com/mrKRFnf.png\" group-title=\"General\",Skai TV (720p)\r\nhttp://skai-live-back.siliconweb.com/media/cambria4/index.m3u8",
+      "line": 203,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Samiaki TV (540p) [Not 24/7]",
       "tvg": {
         "id": "SamiakiTV.gr",
@@ -1349,25 +1433,25 @@
       "status": "OK"
     },
     {
-      "name": "Skai TV (720p)",
+      "name": "Smile TV (360p) [Geo-blocked]",
       "tvg": {
-        "id": "SkaiTV.gr",
+        "id": "SmileTV.gr",
         "name": "",
-        "logo": "https://i.imgur.com/mrKRFnf.png",
+        "logo": "https://i.imgur.com/IAb4Gbf.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "General"
+        "title": "Kids"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "http://skai-live-back.siliconweb.com/media/cambria4/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"SkaiTV.gr\" tvg-logo=\"https://i.imgur.com/mrKRFnf.png\" group-title=\"General\",Skai TV (720p)\r\nhttp://skai-live-back.siliconweb.com/media/cambria4/index.m3u8",
-      "line": 203,
+      "url": "https://s1.cystream.net/live/smile/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"SmileTV.gr\" tvg-logo=\"https://i.imgur.com/IAb4Gbf.png\" group-title=\"Kids\",Smile TV (360p) [Geo-blocked]\r\nhttps://s1.cystream.net/live/smile/playlist.m3u8",
+      "line": 205,
       "catchup": {
         "type": "",
         "days": "",
@@ -1433,34 +1517,6 @@
       "status": "OK"
     },
     {
-      "name": "Start TV (480p)",
-      "tvg": {
-        "id": "StartTV.gr",
-        "name": "",
-        "logo": "https://i.ibb.co/4PrPG5j/Start-TV-Corfu-Radio-100-1-www-startmedia-gr-1.jpg",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "News"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://live.cast-control.eu/StartMedia/StartMedia/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"StartTV.gr\" tvg-logo=\"https://i.ibb.co/4PrPG5j/Start-TV-Corfu-Radio-100-1-www-startmedia-gr-1.jpg\" group-title=\"News\",Start TV (480p)\r\nhttps://live.cast-control.eu/StartMedia/StartMedia/playlist.m3u8",
-      "line": 214,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Syros TV1 (720p)",
       "tvg": {
         "id": "SyrosTV1.gr",
@@ -1489,6 +1545,34 @@
       "status": "OK"
     },
     {
+      "name": "Start TV (480p)",
+      "tvg": {
+        "id": "StartTV.gr",
+        "name": "",
+        "logo": "https://i.ibb.co/4PrPG5j/Start-TV-Corfu-Radio-100-1-www-startmedia-gr-1.jpg",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "News"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://live.cast-control.eu/StartMedia/StartMedia/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"StartTV.gr\" tvg-logo=\"https://i.ibb.co/4PrPG5j/Start-TV-Corfu-Radio-100-1-www-startmedia-gr-1.jpg\" group-title=\"News\",Start TV (480p)\r\nhttps://live.cast-control.eu/StartMedia/StartMedia/playlist.m3u8",
+      "line": 214,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Telekriti (720p) [Not 24/7]",
       "tvg": {
         "id": "Telekriti.gr",
@@ -1508,34 +1592,6 @@
       "url": "https://neon.streams.gr:8081/telekriti/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"Telekriti.gr\" tvg-logo=\"https://telekriti.com/wp-content/uploads/2023/08/NEW-LOGO-7c-300x50.png\" group-title=\"General\",Telekriti (720p) [Not 24/7]\r\nhttps://neon.streams.gr:8081/telekriti/index.m3u8",
       "line": 218,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Thessalia TV (720p) [Not 24/7]",
-      "tvg": {
-        "id": "ThessaliaTV.gr",
-        "name": "",
-        "logo": "https://i.imgur.com/BqPnIiy.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/thessaliatv.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"ThessaliaTV.gr\" tvg-logo=\"https://i.imgur.com/BqPnIiy.png\" group-title=\"General\",Thessalia TV (720p) [Not 24/7]\r\nhttps://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/thessaliatv.m3u8",
-      "line": 222,
       "catchup": {
         "type": "",
         "days": "",
@@ -1601,6 +1657,34 @@
       "status": "OK"
     },
     {
+      "name": "TRT (360p)",
+      "tvg": {
+        "id": "TRT.gr",
+        "name": "",
+        "logo": "https://i.imgur.com/g0jPOcC.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "News"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://www.hellasnet.tv/rest2.live.hn/u2r.trt/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"TRT.gr\" tvg-logo=\"https://i.imgur.com/g0jPOcC.png\" group-title=\"News\",TRT (360p)\r\nhttps://www.hellasnet.tv/rest2.live.hn/u2r.trt/playlist.m3u8",
+      "line": 230,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "TV Filopoli (360p) [Not 24/7]",
       "tvg": {
         "id": "TVFilopoli.gr",
@@ -1629,25 +1713,53 @@
       "status": "OK"
     },
     {
-      "name": "TRT (360p)",
+      "name": "Thessalia TV (720p) [Not 24/7]",
       "tvg": {
-        "id": "TRT.gr",
+        "id": "ThessaliaTV.gr",
         "name": "",
-        "logo": "https://i.imgur.com/g0jPOcC.png",
+        "logo": "https://i.imgur.com/BqPnIiy.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "News"
+        "title": "General"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://www.hellasnet.tv/rest2.live.hn/u2r.trt/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TRT.gr\" tvg-logo=\"https://i.imgur.com/g0jPOcC.png\" group-title=\"News\",TRT (360p)\r\nhttps://www.hellasnet.tv/rest2.live.hn/u2r.trt/playlist.m3u8",
-      "line": 230,
+      "url": "https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/thessaliatv.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"ThessaliaTV.gr\" tvg-logo=\"https://i.imgur.com/BqPnIiy.png\" group-title=\"General\",Thessalia TV (720p) [Not 24/7]\r\nhttps://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/thessaliatv.m3u8",
+      "line": 222,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "TV Kosmos (576p) [Not 24/7]",
+      "tvg": {
+        "id": "TVKosmos.gr",
+        "name": "",
+        "logo": "https://play-lh.googleusercontent.com/72ZSoN11sHL5AtqrapJ5nHRPGDG-CRY5WZuI2KgRWbQDwlunzCOxSa2MFHPmdJiI1UQ=w240-h480-rw",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/tvkosmosgr.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"TVKosmos.gr\" tvg-logo=\"https://play-lh.googleusercontent.com/72ZSoN11sHL5AtqrapJ5nHRPGDG-CRY5WZuI2KgRWbQDwlunzCOxSa2MFHPmdJiI1UQ=w240-h480-rw\" group-title=\"General\",TV Kosmos (576p) [Not 24/7]\r\nhttps://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/tvkosmosgr.m3u8",
+      "line": 238,
       "catchup": {
         "type": "",
         "days": "",
@@ -1704,62 +1816,6 @@
       "url": "https://live.fm100.gr/hls/tv100/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TV100.gr\" tvg-logo=\"https://i.imgur.com/OBH2DfE.png\" group-title=\"General\",TV 100 (576p) [Not 24/7]\r\nhttps://live.fm100.gr/hls/tv100/index.m3u8",
       "line": 234,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "TV Kosmos (576p) [Not 24/7]",
-      "tvg": {
-        "id": "TVKosmos.gr",
-        "name": "",
-        "logo": "https://play-lh.googleusercontent.com/72ZSoN11sHL5AtqrapJ5nHRPGDG-CRY5WZuI2KgRWbQDwlunzCOxSa2MFHPmdJiI1UQ=w240-h480-rw",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/tvkosmosgr.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TVKosmos.gr\" tvg-logo=\"https://play-lh.googleusercontent.com/72ZSoN11sHL5AtqrapJ5nHRPGDG-CRY5WZuI2KgRWbQDwlunzCOxSa2MFHPmdJiI1UQ=w240-h480-rw\" group-title=\"General\",TV Kosmos (576p) [Not 24/7]\r\nhttps://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/tvkosmosgr.m3u8",
-      "line": 238,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "TV Rodopi (720p) [Not 24/7]",
-      "tvg": {
-        "id": "TVRodopi.gr",
-        "name": "",
-        "logo": "https://i.imgur.com/1u9a6G7.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/TVRodopi.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TVRodopi.gr\" tvg-logo=\"https://i.imgur.com/1u9a6G7.png\" group-title=\"Undefined\",TV Rodopi (720p) [Not 24/7]\r\nhttps://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/TVRodopi.m3u8",
-      "line": 240,
       "catchup": {
         "type": "",
         "days": "",
@@ -1853,34 +1909,6 @@
       "status": "OK"
     },
     {
-      "name": "Βουλή Τηλεόραση (540p) [Not 24/7]",
-      "tvg": {
-        "id": "HellenicParliamentTV.gr",
-        "name": "",
-        "logo": "https://i.imgur.com/o2cvqv3.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Legislative"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://streamer-cache.grnet.gr/parliament/hls/webtv.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"HellenicParliamentTV.gr\" tvg-logo=\"https://i.imgur.com/o2cvqv3.png\" group-title=\"Legislative\",Βουλή Τηλεόραση (540p) [Not 24/7]\r\nhttps://streamer-cache.grnet.gr/parliament/hls/webtv.m3u8",
-      "line": 256,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Βουλή Τηλεόραση 2 (540p) [Not 24/7]",
       "tvg": {
         "id": "HellenicParliamentTV2.gr",
@@ -1900,6 +1928,34 @@
       "url": "https://streamer-cache.grnet.gr/parliament/hls/webtv2.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"HellenicParliamentTV2.gr\" tvg-logo=\"https://i.imgur.com/o2cvqv3.png\" group-title=\"Legislative\",Βουλή Τηλεόραση 2 (540p) [Not 24/7]\r\nhttps://streamer-cache.grnet.gr/parliament/hls/webtv2.m3u8",
       "line": 252,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Βουλή Τηλεόραση (540p) [Not 24/7]",
+      "tvg": {
+        "id": "HellenicParliamentTV.gr",
+        "name": "",
+        "logo": "https://i.imgur.com/o2cvqv3.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Legislative"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://streamer-cache.grnet.gr/parliament/hls/webtv.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"HellenicParliamentTV.gr\" tvg-logo=\"https://i.imgur.com/o2cvqv3.png\" group-title=\"Legislative\",Βουλή Τηλεόραση (540p) [Not 24/7]\r\nhttps://streamer-cache.grnet.gr/parliament/hls/webtv.m3u8",
+      "line": 256,
       "catchup": {
         "type": "",
         "days": "",
