@@ -89,34 +89,6 @@
       "status": "OK"
     },
     {
-      "name": "ABC Me (720p)",
-      "tvg": {
-        "id": "ABCMESydney.au",
-        "name": "",
-        "logo": "https://i.imgur.com/6NyFLAm.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Education;Kids"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://c.mjh.nz/abc-me.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"ABCMESydney.au\" tvg-logo=\"https://i.imgur.com/6NyFLAm.png\" group-title=\"Education;Kids\",ABC Me (720p)\r\nhttps://c.mjh.nz/abc-me.m3u8",
-      "line": 22,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "6PR Perth (1080p)",
       "tvg": {
         "id": "6PR.au",
@@ -136,6 +108,34 @@
       "url": "https://6prlive.akamaized.net/hls/live/2033806/6PR/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"6PR.au\" tvg-logo=\"https://i.imgur.com/Q9iCxg1.png\" group-title=\"News\",6PR Perth (1080p)\r\nhttps://6prlive.akamaized.net/hls/live/2033806/6PR/index.m3u8",
       "line": 6,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "ABC TV Brisbane (720p)",
+      "tvg": {
+        "id": "ABCTVQLD.au",
+        "name": "",
+        "logo": "https://i.imgur.com/Ekjb7w8.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://c.mjh.nz/abc-qld.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"ABCTVQLD.au\" tvg-logo=\"https://i.imgur.com/Ekjb7w8.png\" group-title=\"General\",ABC TV Brisbane (720p)\r\nhttps://c.mjh.nz/abc-qld.m3u8",
+      "line": 28,
       "catchup": {
         "type": "",
         "days": "",
@@ -173,9 +173,9 @@
       "status": "OK"
     },
     {
-      "name": "ABC TV Melbourne (720p)",
+      "name": "ABC TV Perth (720p)",
       "tvg": {
-        "id": "ABCTVVIC.au",
+        "id": "ABCTVWA.au",
         "name": "",
         "logo": "https://i.imgur.com/Ekjb7w8.png",
         "url": "",
@@ -189,9 +189,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://c.mjh.nz/abc-vic.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"ABCTVVIC.au\" tvg-logo=\"https://i.imgur.com/Ekjb7w8.png\" group-title=\"General\",ABC TV Melbourne (720p)\r\nhttps://c.mjh.nz/abc-vic.m3u8",
-      "line": 36,
+      "url": "https://c.mjh.nz/abc-wa.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"ABCTVWA.au\" tvg-logo=\"https://i.imgur.com/Ekjb7w8.png\" group-title=\"General\",ABC TV Perth (720p)\r\nhttps://c.mjh.nz/abc-wa.m3u8",
+      "line": 38,
       "catchup": {
         "type": "",
         "days": "",
@@ -201,11 +201,11 @@
       "status": "OK"
     },
     {
-      "name": "ABC TV Canberra (720p)",
+      "name": "ABC TV Hobart (720p)",
       "tvg": {
-        "id": "ABCTVACT.au",
+        "id": "ABCTVTAS.au",
         "name": "",
-        "logo": "https://i.imgur.com/Puq8t7f.png",
+        "logo": "https://i.imgur.com/Ekjb7w8.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -217,9 +217,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://c.mjh.nz/abc-act.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"ABCTVACT.au\" tvg-logo=\"https://i.imgur.com/Puq8t7f.png\" group-title=\"General\",ABC TV Canberra (720p)\r\nhttps://c.mjh.nz/abc-act.m3u8",
-      "line": 30,
+      "url": "https://c.mjh.nz/abc-tas.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"ABCTVTAS.au\" tvg-logo=\"https://i.imgur.com/Ekjb7w8.png\" group-title=\"General\",ABC TV Hobart (720p)\r\nhttps://c.mjh.nz/abc-tas.m3u8",
+      "line": 34,
       "catchup": {
         "type": "",
         "days": "",
@@ -229,25 +229,53 @@
       "status": "OK"
     },
     {
-      "name": "Bloomberg TV Australia (270p)",
+      "name": "AUS Tamil TV (720p) [Not 24/7]",
       "tvg": {
-        "id": "BloombergTVAustralia.au",
+        "id": "AUSTamilTV.au",
         "name": "",
-        "logo": "https://i.imgur.com/OuogLHx.png",
+        "logo": "https://i.imgur.com/7xcDrJw.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Business"
+        "title": "General"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://bloomberg.com/media-manifest/streams/aus.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"BloombergTVAustralia.au\" tvg-logo=\"https://i.imgur.com/OuogLHx.png\" group-title=\"Business\",Bloomberg TV Australia (270p)\r\nhttps://bloomberg.com/media-manifest/streams/aus.m3u8",
-      "line": 58,
+      "url": "https://bk7l2pn7dx53-hls-live.5centscdn.com/austamil/fe01ce2a7fbac8fafaed7c982a04e229.sdp/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"AUSTamilTV.au\" tvg-logo=\"https://i.imgur.com/7xcDrJw.png\" group-title=\"General\",AUS Tamil TV (720p) [Not 24/7]\r\nhttps://bk7l2pn7dx53-hls-live.5centscdn.com/austamil/fe01ce2a7fbac8fafaed7c982a04e229.sdp/playlist.m3u8",
+      "line": 48,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "ABC TV Plus (720p)",
+      "tvg": {
+        "id": "ABCTVPlusSydney.au",
+        "name": "",
+        "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0f/ABC_TV_Plus_logo_2021.svg/512px-ABC_TV_Plus_logo_2021.svg.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Entertainment"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://c.mjh.nz/abc-tv-plus.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"ABCTVPlusSydney.au\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/en/thumb/0/0f/ABC_TV_Plus_logo_2021.svg/512px-ABC_TV_Plus_logo_2021.svg.png\" group-title=\"Entertainment\",ABC TV Plus (720p)\r\nhttps://c.mjh.nz/abc-tv-plus.m3u8",
+      "line": 40,
       "catchup": {
         "type": "",
         "days": "",
@@ -285,11 +313,39 @@
       "status": "OK"
     },
     {
-      "name": "C31 Melbourne (240p)",
+      "name": "Bloomberg TV Australia (270p)",
       "tvg": {
-        "id": "C31Melbourne.au",
+        "id": "BloombergTVAustralia.au",
         "name": "",
-        "logo": "https://i.imgur.com/Ge1EutY.png",
+        "logo": "https://i.imgur.com/OuogLHx.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Business"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://bloomberg.com/media-manifest/streams/aus.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"BloombergTVAustralia.au\" tvg-logo=\"https://i.imgur.com/OuogLHx.png\" group-title=\"Business\",Bloomberg TV Australia (270p)\r\nhttps://bloomberg.com/media-manifest/streams/aus.m3u8",
+      "line": 58,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "ABC TV Sydney (720p)",
+      "tvg": {
+        "id": "ABCTVNSW.au",
+        "name": "",
+        "logo": "https://i.imgur.com/Ekjb7w8.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -301,9 +357,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://d1k6kax80wecy5.cloudfront.net/RLnAKY/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"C31Melbourne.au\" tvg-logo=\"https://i.imgur.com/Ge1EutY.png\" group-title=\"General\",C31 Melbourne (240p)\r\nhttps://d1k6kax80wecy5.cloudfront.net/RLnAKY/index.m3u8",
-      "line": 60,
+      "url": "https://c.mjh.nz/abc-nsw.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"ABCTVNSW.au\" tvg-logo=\"https://i.imgur.com/Ekjb7w8.png\" group-title=\"General\",ABC TV Sydney (720p)\r\nhttps://c.mjh.nz/abc-nsw.m3u8",
+      "line": 42,
       "catchup": {
         "type": "",
         "days": "",
@@ -341,6 +397,34 @@
       "status": "OK"
     },
     {
+      "name": "C31 Melbourne (240p)",
+      "tvg": {
+        "id": "C31Melbourne.au",
+        "name": "",
+        "logo": "https://i.imgur.com/Ge1EutY.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://d1k6kax80wecy5.cloudfront.net/RLnAKY/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"C31Melbourne.au\" tvg-logo=\"https://i.imgur.com/Ge1EutY.png\" group-title=\"General\",C31 Melbourne (240p)\r\nhttps://d1k6kax80wecy5.cloudfront.net/RLnAKY/index.m3u8",
+      "line": 60,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Expo Channel (360p)",
       "tvg": {
         "id": "ExpoChannel.au",
@@ -369,25 +453,25 @@
       "status": "OK"
     },
     {
-      "name": "Hope Channel Australia (1080p)",
+      "name": "INTV Australia (720p)",
       "tvg": {
-        "id": "HopeChannelAustralia.au",
+        "id": "INTVAustralia.au",
         "name": "",
-        "logo": "https://i.imgur.com/8Zs7rDm.png",
+        "logo": "https://i.imgur.com/1nJl0Pv.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Religious"
+        "title": "Music"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://videodelivery.net/9fb3596948ddf463fde0ec4b85625b24/manifest/video.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"HopeChannelAustralia.au\" tvg-logo=\"https://i.imgur.com/8Zs7rDm.png\" group-title=\"Religious\",Hope Channel Australia (1080p)\r\nhttps://videodelivery.net/9fb3596948ddf463fde0ec4b85625b24/manifest/video.m3u8",
-      "line": 86,
+      "url": "http://tv1.intv.mk:1935/live/intv/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"INTVAustralia.au\" tvg-logo=\"https://i.imgur.com/1nJl0Pv.png\" group-title=\"Music\",INTV Australia (720p)\r\nhttp://tv1.intv.mk:1935/live/intv/index.m3u8",
+      "line": 90,
       "catchup": {
         "type": "",
         "days": "",
@@ -425,6 +509,34 @@
       "status": "OK"
     },
     {
+      "name": "Hope Channel Australia (1080p)",
+      "tvg": {
+        "id": "HopeChannelAustralia.au",
+        "name": "",
+        "logo": "https://i.imgur.com/8Zs7rDm.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Religious"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://videodelivery.net/9fb3596948ddf463fde0ec4b85625b24/manifest/video.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"HopeChannelAustralia.au\" tvg-logo=\"https://i.imgur.com/8Zs7rDm.png\" group-title=\"Religious\",Hope Channel Australia (1080p)\r\nhttps://videodelivery.net/9fb3596948ddf463fde0ec4b85625b24/manifest/video.m3u8",
+      "line": 86,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Channel 44 (480p)",
       "tvg": {
         "id": "Channel44.au",
@@ -444,34 +556,6 @@
       "url": "https://d1k6kax80wecy5.cloudfront.net/WFqZJc/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"Channel44.au\" tvg-logo=\"https://i.imgur.com/P2wUGh9.png\" group-title=\"General\",Channel 44 (480p)\r\nhttps://d1k6kax80wecy5.cloudfront.net/WFqZJc/index.m3u8",
       "line": 76,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "INTV Australia (720p)",
-      "tvg": {
-        "id": "INTVAustralia.au",
-        "name": "",
-        "logo": "https://i.imgur.com/1nJl0Pv.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Music"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://tv1.intv.mk:1935/live/intv/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"INTVAustralia.au\" tvg-logo=\"https://i.imgur.com/1nJl0Pv.png\" group-title=\"Music\",INTV Australia (720p)\r\nhttp://tv1.intv.mk:1935/live/intv/index.m3u8",
-      "line": 90,
       "catchup": {
         "type": "",
         "days": "",
@@ -733,34 +817,6 @@
       "status": "OK"
     },
     {
-      "name": "The Filipino Channel Guam (1080p)",
-      "tvg": {
-        "id": "TheFilipinoChannelGuam.us",
-        "name": "",
-        "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d1/The_Filipino_Channel_2011_logo.svg/512px-The_Filipino_Channel_2011_logo.svg.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://tfcguam-abscbn-ono.amagi.tv/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TheFilipinoChannelGuam.us\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/en/thumb/d/d1/The_Filipino_Channel_2011_logo.svg/512px-The_Filipino_Channel_2011_logo.svg.png\" group-title=\"Undefined\",The Filipino Channel Guam (1080p)\r\nhttps://tfcguam-abscbn-ono.amagi.tv/index.m3u8",
-      "line": 132,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Swamiji TV Australian (1080p) [Not 24/7]",
       "tvg": {
         "id": "SwamijiTVAustralian.at",
@@ -780,6 +836,34 @@
       "url": "https://stream.swamiji.tv/YogaIPTV/smil:YogaStreamAU.smil/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"SwamijiTVAustralian.at\" tvg-logo=\"https://i.imgur.com/nrLcuzs.png\" group-title=\"Outdoor\",Swamiji TV Australian (1080p) [Not 24/7]\r\nhttps://stream.swamiji.tv/YogaIPTV/smil:YogaStreamAU.smil/playlist.m3u8",
       "line": 126,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "The Filipino Channel Guam (1080p)",
+      "tvg": {
+        "id": "TheFilipinoChannelGuam.us",
+        "name": "",
+        "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d1/The_Filipino_Channel_2011_logo.svg/512px-The_Filipino_Channel_2011_logo.svg.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://tfcguam-abscbn-ono.amagi.tv/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"TheFilipinoChannelGuam.us\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/en/thumb/d/d1/The_Filipino_Channel_2011_logo.svg/512px-The_Filipino_Channel_2011_logo.svg.png\" group-title=\"Undefined\",The Filipino Channel Guam (1080p)\r\nhttps://tfcguam-abscbn-ono.amagi.tv/index.m3u8",
+      "line": 132,
       "catchup": {
         "type": "",
         "days": "",
