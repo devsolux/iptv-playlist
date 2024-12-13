@@ -61,6 +61,34 @@
       "status": "OK"
     },
     {
+      "name": "dlaCiebie.tv (1080p) [Not 24/7]",
+      "tvg": {
+        "id": "dlaCiebietv.pl",
+        "name": "",
+        "logo": "https://i.imgur.com/Tf32BJa.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://94.246.128.53:1935/tv/dlaCiebieTv/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"dlaCiebietv.pl\" tvg-logo=\"https://i.imgur.com/Tf32BJa.png\" group-title=\"General\",dlaCiebie.tv (1080p) [Not 24/7]\r\nhttp://94.246.128.53:1935/tv/dlaCiebieTv/playlist.m3u8",
+      "line": 25,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "EWTN Poland (1080p)",
       "tvg": {
         "id": "EWTNPoland.pl",
@@ -80,34 +108,6 @@
       "url": "https://cdn3.wowza.com/1/ZHdrMWt1NjlDSzFu/bzdDVG10/hls/live/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"EWTNPoland.pl\" tvg-logo=\"https://i.imgur.com/VtKYELf.png\" group-title=\"Religious\",EWTN Poland (1080p)\r\nhttps://cdn3.wowza.com/1/ZHdrMWt1NjlDSzFu/bzdDVG10/hls/live/playlist.m3u8",
       "line": 33,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "4FUN TV (576p) [Not 24/7]",
-      "tvg": {
-        "id": "4FunTV.pl",
-        "name": "",
-        "logo": "https://i.imgur.com/rI1wo2l.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://stream.4fun.tv:8888/hls/4f.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"4FunTV.pl\" tvg-logo=\"https://i.imgur.com/rI1wo2l.png\" group-title=\"Undefined\",4FUN TV (576p) [Not 24/7]\r\nhttps://stream.4fun.tv:8888/hls/4f.m3u8",
-      "line": 2,
       "catchup": {
         "type": "",
         "days": "",
@@ -145,25 +145,25 @@
       "status": "OK"
     },
     {
-      "name": "Nick Jr. Poland (576i)",
+      "name": "4FUN TV (576p) [Not 24/7]",
       "tvg": {
-        "id": "NickJr.pl",
+        "id": "4FunTV.pl",
         "name": "",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Nick_Jr._logo_2009.svg/512px-Nick_Jr._logo_2009.svg.png",
+        "logo": "https://i.imgur.com/rI1wo2l.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Kids"
+        "title": "Undefined"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "http://178.219.128.68:64888/NICKJR",
-      "raw": "#EXTINF:-1 tvg-id=\"NickJr.pl\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Nick_Jr._logo_2009.svg/512px-Nick_Jr._logo_2009.svg.png\" group-title=\"Kids\",Nick Jr. Poland (576i)\r\nhttp://178.219.128.68:64888/NICKJR",
-      "line": 48,
+      "url": "https://stream.4fun.tv:8888/hls/4f.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"4FunTV.pl\" tvg-logo=\"https://i.imgur.com/rI1wo2l.png\" group-title=\"Undefined\",4FUN TV (576p) [Not 24/7]\r\nhttps://stream.4fun.tv:8888/hls/4f.m3u8",
+      "line": 2,
       "catchup": {
         "type": "",
         "days": "",
@@ -192,6 +192,34 @@
       "url": "https://irylek.ct8.pl/stream/alfatvp",
       "raw": "#EXTINF:-1 tvg-id=\"AlfaTVP.pl\" tvg-logo=\"https://i.imgur.com/WwE7fhC.png\" group-title=\"General\",Alfa TVP (1080p)\r\nhttps://irylek.ct8.pl/stream/alfatvp",
       "line": 6,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Nick Jr. Poland (576i)",
+      "tvg": {
+        "id": "NickJr.pl",
+        "name": "",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Nick_Jr._logo_2009.svg/512px-Nick_Jr._logo_2009.svg.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Kids"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://178.219.128.68:64888/NICKJR",
+      "raw": "#EXTINF:-1 tvg-id=\"NickJr.pl\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Nick_Jr._logo_2009.svg/512px-Nick_Jr._logo_2009.svg.png\" group-title=\"Kids\",Nick Jr. Poland (576i)\r\nhttp://178.219.128.68:64888/NICKJR",
+      "line": 48,
       "catchup": {
         "type": "",
         "days": "",
@@ -369,34 +397,6 @@
       "status": "OK"
     },
     {
-      "name": "TV Kujawy (576p) [Not 24/7]",
-      "tvg": {
-        "id": "TVKujawy.pl",
-        "name": "",
-        "logo": "https://i.imgur.com/dGP7cIW.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://stream.tvkujawy.pl:8080/live/broadcast.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TVKujawy.pl\" tvg-logo=\"https://i.imgur.com/dGP7cIW.png\" group-title=\"Undefined\",TV Kujawy (576p) [Not 24/7]\r\nhttp://stream.tvkujawy.pl:8080/live/broadcast.m3u8",
-      "line": 104,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "TV ASTA (720p)",
       "tvg": {
         "id": "TVASTA.pl",
@@ -416,6 +416,34 @@
       "url": "https://5cce8c6f0e84c.streamlock.net/LiveCast/smil:PlayStream9.smil/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TVASTA.pl\" tvg-logo=\"https://i.imgur.com/5g7lq9N.png\" group-title=\"General\",TV ASTA (720p)\r\nhttps://5cce8c6f0e84c.streamlock.net/LiveCast/smil:PlayStream9.smil/playlist.m3u8",
       "line": 96,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "TV Kujawy (576p) [Not 24/7]",
+      "tvg": {
+        "id": "TVKujawy.pl",
+        "name": "",
+        "logo": "https://i.imgur.com/dGP7cIW.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://stream.tvkujawy.pl:8080/live/broadcast.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"TVKujawy.pl\" tvg-logo=\"https://i.imgur.com/dGP7cIW.png\" group-title=\"Undefined\",TV Kujawy (576p) [Not 24/7]\r\nhttp://stream.tvkujawy.pl:8080/live/broadcast.m3u8",
+      "line": 104,
       "catchup": {
         "type": "",
         "days": "",
@@ -845,6 +873,34 @@
       "status": "OK"
     },
     {
+      "name": "TVP Kultura (1080p)",
+      "tvg": {
+        "id": "TVPKultura.pl",
+        "name": "",
+        "logo": "https://i.imgur.com/JU858Es.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://irylek.ct8.pl/stream/tvpkultura",
+      "raw": "#EXTINF:-1 tvg-id=\"TVPKultura.pl\" tvg-logo=\"https://i.imgur.com/JU858Es.png\" group-title=\"Undefined\",TVP Kultura (1080p)\r\nhttps://irylek.ct8.pl/stream/tvpkultura",
+      "line": 174,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "TVP Rozrywka (1080p)",
       "tvg": {
         "id": "TVPRozrywka.pl",
@@ -901,62 +957,6 @@
       "status": "OK"
     },
     {
-      "name": "TVP Kultura (1080p)",
-      "tvg": {
-        "id": "TVPKultura.pl",
-        "name": "",
-        "logo": "https://i.imgur.com/JU858Es.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://irylek.ct8.pl/stream/tvpkultura",
-      "raw": "#EXTINF:-1 tvg-id=\"TVPKultura.pl\" tvg-logo=\"https://i.imgur.com/JU858Es.png\" group-title=\"Undefined\",TVP Kultura (1080p)\r\nhttps://irylek.ct8.pl/stream/tvpkultura",
-      "line": 174,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "TVT Zgorzelec (576p) [Not 24/7]",
-      "tvg": {
-        "id": "TVTZgorzelec.pl",
-        "name": "",
-        "logo": "https://i.imgur.com/zhzVpgf.jpg",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://gargoyle.tomkow.pl/hls/tvt.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TVTZgorzelec.pl\" tvg-logo=\"https://i.imgur.com/zhzVpgf.jpg\" group-title=\"Undefined\",TVT Zgorzelec (576p) [Not 24/7]\r\nhttp://gargoyle.tomkow.pl/hls/tvt.m3u8",
-      "line": 188,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "TVP Wilno (1080p)",
       "tvg": {
         "id": "TVPWilno.pl",
@@ -1004,6 +1004,34 @@
       "url": "https://irylek.ct8.pl/stream/tvpworld",
       "raw": "#EXTINF:-1 tvg-id=\"TVPWorld.pl\" tvg-logo=\"https://i.imgur.com/lB4MgRI.png\" group-title=\"News\",TVP World (1080p)\r\nhttps://irylek.ct8.pl/stream/tvpworld",
       "line": 184,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "TVT Zgorzelec (576p) [Not 24/7]",
+      "tvg": {
+        "id": "TVTZgorzelec.pl",
+        "name": "",
+        "logo": "https://i.imgur.com/zhzVpgf.jpg",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://gargoyle.tomkow.pl/hls/tvt.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"TVTZgorzelec.pl\" tvg-logo=\"https://i.imgur.com/zhzVpgf.jpg\" group-title=\"Undefined\",TVT Zgorzelec (576p) [Not 24/7]\r\nhttp://gargoyle.tomkow.pl/hls/tvt.m3u8",
+      "line": 188,
       "catchup": {
         "type": "",
         "days": "",
