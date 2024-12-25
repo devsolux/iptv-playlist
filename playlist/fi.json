@@ -5,6 +5,34 @@
   },
   "items": [
     {
+      "name": "AVA (720p)",
+      "tvg": {
+        "id": "AVA.fi",
+        "name": "",
+        "logo": "https://i.imgur.com/8TR4noi.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Entertainment"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://live-fi.tvkaista.net/ava/live.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"AVA.fi\" tvg-logo=\"https://i.imgur.com/8TR4noi.png\" group-title=\"Entertainment\",AVA (720p)\r\nhttps://live-fi.tvkaista.net/ava/live.m3u8",
+      "line": 6,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Eveo (720p)",
       "tvg": {
         "id": "Eveo.fi",
@@ -52,34 +80,6 @@
       "url": "https://live-fi.tvkaista.net/frii/live.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"Frii.fi\" tvg-logo=\"https://i.imgur.com/9sYC2IE.png\" group-title=\"Undefined\",Frii (720p)\r\nhttps://live-fi.tvkaista.net/frii/live.m3u8",
       "line": 30,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "AVA (720p)",
-      "tvg": {
-        "id": "AVA.fi",
-        "name": "",
-        "logo": "https://i.imgur.com/8TR4noi.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Entertainment"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://live-fi.tvkaista.net/ava/live.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"AVA.fi\" tvg-logo=\"https://i.imgur.com/8TR4noi.png\" group-title=\"Entertainment\",AVA (720p)\r\nhttps://live-fi.tvkaista.net/ava/live.m3u8",
-      "line": 6,
       "catchup": {
         "type": "",
         "days": "",
@@ -341,25 +341,25 @@
       "status": "OK"
     },
     {
-      "name": "STAR Channel (Finland) (720p)",
+      "name": "NärTV (360p)",
       "tvg": {
-        "id": "",
+        "id": "NarTV.fi",
         "name": "",
-        "logo": "",
+        "logo": "https://i.imgur.com/Ht5yePq.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Undefined"
+        "title": "General"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://live-fi.tvkaista.net/star-channel/live.m3u8?hd=true",
-      "raw": "#EXTINF:-1 tvg-id=\"\" tvg-logo=\"\" group-title=\"Undefined\",STAR Channel (Finland) (720p)\r\nhttps://live-fi.tvkaista.net/star-channel/live.m3u8?hd=true",
-      "line": 82,
+      "url": "https://streaming.nartv.fi/live/ngrp:NAR_TV.stream_all/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"NarTV.fi\" tvg-logo=\"https://i.imgur.com/Ht5yePq.png\" group-title=\"General\",NärTV (360p)\r\nhttps://streaming.nartv.fi/live/ngrp:NAR_TV.stream_all/playlist.m3u8",
+      "line": 52,
       "catchup": {
         "type": "",
         "days": "",
@@ -397,25 +397,25 @@
       "status": "OK"
     },
     {
-      "name": "NärTV (360p)",
+      "name": "STAR Channel (Finland) (720p)",
       "tvg": {
-        "id": "NarTV.fi",
+        "id": "",
         "name": "",
-        "logo": "https://i.imgur.com/Ht5yePq.png",
+        "logo": "",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "General"
+        "title": "Undefined"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://streaming.nartv.fi/live/ngrp:NAR_TV.stream_all/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"NarTV.fi\" tvg-logo=\"https://i.imgur.com/Ht5yePq.png\" group-title=\"General\",NärTV (360p)\r\nhttps://streaming.nartv.fi/live/ngrp:NAR_TV.stream_all/playlist.m3u8",
-      "line": 52,
+      "url": "https://live-fi.tvkaista.net/star-channel/live.m3u8?hd=true",
+      "raw": "#EXTINF:-1 tvg-id=\"\" tvg-logo=\"\" group-title=\"Undefined\",STAR Channel (Finland) (720p)\r\nhttps://live-fi.tvkaista.net/star-channel/live.m3u8?hd=true",
+      "line": 82,
       "catchup": {
         "type": "",
         "days": "",
@@ -453,34 +453,6 @@
       "status": "OK"
     },
     {
-      "name": "Nopola News (1080p) [Not 24/7]",
-      "tvg": {
-        "id": "NopolaNews.fi",
-        "name": "",
-        "logo": "https://i.imgur.com/vDoQaGl.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "News"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://virta2.nopolanews.fi:8443/live/smil:Stream1.smil/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"NopolaNews.fi\" tvg-logo=\"https://i.imgur.com/vDoQaGl.png\" group-title=\"News\",Nopola News (1080p) [Not 24/7]\r\nhttps://virta2.nopolanews.fi:8443/live/smil:Stream1.smil/playlist.m3u8",
-      "line": 60,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "TV5 (720p) [Not 24/7]",
       "tvg": {
         "id": "TV5.fi",
@@ -500,6 +472,34 @@
       "url": "https://live-fi.tvkaista.net/tv5/live.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TV5.fi\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/TV5_Finland_logo_2019.png/512px-TV5_Finland_logo_2019.png\" group-title=\"Undefined\",TV5 (720p) [Not 24/7]\r\nhttps://live-fi.tvkaista.net/tv5/live.m3u8",
       "line": 92,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Nopola News (1080p) [Not 24/7]",
+      "tvg": {
+        "id": "NopolaNews.fi",
+        "name": "",
+        "logo": "https://i.imgur.com/vDoQaGl.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "News"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://virta2.nopolanews.fi:8443/live/smil:Stream1.smil/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"NopolaNews.fi\" tvg-logo=\"https://i.imgur.com/vDoQaGl.png\" group-title=\"News\",Nopola News (1080p) [Not 24/7]\r\nhttps://virta2.nopolanews.fi:8443/live/smil:Stream1.smil/playlist.m3u8",
+      "line": 60,
       "catchup": {
         "type": "",
         "days": "",
