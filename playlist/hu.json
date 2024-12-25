@@ -33,25 +33,25 @@
       "status": "OK"
     },
     {
-      "name": "Apostol TV (576p)",
+      "name": "Balaton TV (432p)",
       "tvg": {
-        "id": "ApostolTV.hu",
+        "id": "BalatonTV.hu",
         "name": "",
-        "logo": "https://i.imgur.com/C43Cc9N.png",
+        "logo": "https://balatontelevizio.hu/wp-content/uploads/2020/05/balaton_tv_logo.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Religious"
+        "title": "Undefined"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://live.apostoltv.hu/live/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"ApostolTV.hu\" tvg-logo=\"https://i.imgur.com/C43Cc9N.png\" group-title=\"Religious\",Apostol TV (576p)\r\nhttps://live.apostoltv.hu/live/playlist.m3u8",
-      "line": 10,
+      "url": "https://stream.iptvservice.eu/hls/balatontv.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"BalatonTV.hu\" tvg-logo=\"https://balatontelevizio.hu/wp-content/uploads/2020/05/balaton_tv_logo.png\" group-title=\"Undefined\",Balaton TV (432p)\r\nhttps://stream.iptvservice.eu/hls/balatontv.m3u8",
+      "line": 20,
       "catchup": {
         "type": "",
         "days": "",
@@ -89,25 +89,25 @@
       "status": "OK"
     },
     {
-      "name": "Berente TV (1080p)",
+      "name": "Apostol TV (576p)",
       "tvg": {
-        "id": "BerenteTV.hu",
+        "id": "ApostolTV.hu",
         "name": "",
-        "logo": "https://i.imgur.com/3H3Ct9f.png",
+        "logo": "https://i.imgur.com/C43Cc9N.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "General"
+        "title": "Religious"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://stream.streaming4u.hu/BerenteTV/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"BerenteTV.hu\" tvg-logo=\"https://i.imgur.com/3H3Ct9f.png\" group-title=\"General\",Berente TV (1080p)\r\nhttps://stream.streaming4u.hu/BerenteTV/index.m3u8",
-      "line": 25,
+      "url": "https://live.apostoltv.hu/live/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"ApostolTV.hu\" tvg-logo=\"https://i.imgur.com/C43Cc9N.png\" group-title=\"Religious\",Apostol TV (576p)\r\nhttps://live.apostoltv.hu/live/playlist.m3u8",
+      "line": 10,
       "catchup": {
         "type": "",
         "days": "",
@@ -145,11 +145,11 @@
       "status": "OK"
     },
     {
-      "name": "Daru TV (720p)",
+      "name": "Berente TV (1080p)",
       "tvg": {
-        "id": "DaruTV.hu",
+        "id": "BerenteTV.hu",
         "name": "",
-        "logo": "https://i.imgur.com/0P7QHde.png",
+        "logo": "https://i.imgur.com/3H3Ct9f.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -161,9 +161,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://5cd03f21c7193.streamlock.net/darutv/darutvlive/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"DaruTV.hu\" tvg-logo=\"https://i.imgur.com/0P7QHde.png\" group-title=\"General\",Daru TV (720p)\r\nhttps://5cd03f21c7193.streamlock.net/darutv/darutvlive/playlist.m3u8",
-      "line": 43,
+      "url": "https://stream.streaming4u.hu/BerenteTV/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"BerenteTV.hu\" tvg-logo=\"https://i.imgur.com/3H3Ct9f.png\" group-title=\"General\",Berente TV (1080p)\r\nhttps://stream.streaming4u.hu/BerenteTV/index.m3u8",
+      "line": 25,
       "catchup": {
         "type": "",
         "days": "",
@@ -192,6 +192,34 @@
       "url": "http://cloudfront44.lexanetwork.com:1732/hlsrelay003/hls/livestream.sdp.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"DTV.hu\" tvg-logo=\"https://i.imgur.com/YSpqmSO.png\" group-title=\"Undefined\",DTV (720p) [Not 24/7]\r\nhttp://cloudfront44.lexanetwork.com:1732/hlsrelay003/hls/livestream.sdp.m3u8",
       "line": 49,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Daru TV (720p)",
+      "tvg": {
+        "id": "DaruTV.hu",
+        "name": "",
+        "logo": "https://i.imgur.com/0P7QHde.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://5cd03f21c7193.streamlock.net/darutv/darutvlive/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"DaruTV.hu\" tvg-logo=\"https://i.imgur.com/0P7QHde.png\" group-title=\"General\",Daru TV (720p)\r\nhttps://5cd03f21c7193.streamlock.net/darutv/darutvlive/playlist.m3u8",
+      "line": 43,
       "catchup": {
         "type": "",
         "days": "",
@@ -285,34 +313,6 @@
       "status": "OK"
     },
     {
-      "name": "Hévízi TV (1080p)",
-      "tvg": {
-        "id": "HeviziTV.hu",
-        "name": "",
-        "logo": "https://i.imgur.com/zuWQKDm.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://cloudfront44.lexanetwork.com:1344/relay03/livestream003.sdp/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"HeviziTV.hu\" tvg-logo=\"https://i.imgur.com/zuWQKDm.png\" group-title=\"General\",Hévízi TV (1080p)\r\nhttps://cloudfront44.lexanetwork.com:1344/relay03/livestream003.sdp/playlist.m3u8",
-      "line": 92,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Hegyvidek Tv Budapest (576p) [Not 24/7]",
       "tvg": {
         "id": "HegyvidekTV.hu",
@@ -332,6 +332,34 @@
       "url": "https://tv.hegyvidek.hu/stream_mpeg.flv",
       "raw": "#EXTINF:-1 tvg-id=\"HegyvidekTV.hu\" tvg-logo=\"https://i.imgur.com/t5bw1J1.png\" group-title=\"General\",Hegyvidek Tv Budapest (576p) [Not 24/7]\r\nhttps://tv.hegyvidek.hu/stream_mpeg.flv",
       "line": 90,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Hévízi TV (1080p)",
+      "tvg": {
+        "id": "HeviziTV.hu",
+        "name": "",
+        "logo": "https://i.imgur.com/zuWQKDm.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://cloudfront44.lexanetwork.com:1344/relay03/livestream003.sdp/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"HeviziTV.hu\" tvg-logo=\"https://i.imgur.com/zuWQKDm.png\" group-title=\"General\",Hévízi TV (1080p)\r\nhttps://cloudfront44.lexanetwork.com:1344/relay03/livestream003.sdp/playlist.m3u8",
+      "line": 92,
       "catchup": {
         "type": "",
         "days": "",
@@ -621,6 +649,34 @@
       "status": "OK"
     },
     {
+      "name": "Óbuda TV (576p)",
+      "tvg": {
+        "id": "ObudaTV.hu",
+        "name": "",
+        "logo": "https://i.ibb.co/42C026p/6172.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://stream.streaming4u.hu/ObudaTV/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"ObudaTV.hu\" tvg-logo=\"https://i.ibb.co/42C026p/6172.png\" group-title=\"General\",Óbuda TV (576p)\r\nhttps://stream.streaming4u.hu/ObudaTV/index.m3u8",
+      "line": 146,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Oroszlányi Városi Televízió (720p)",
       "tvg": {
         "id": "OroszlanyiVarosiTelevizio.hu",
@@ -649,11 +705,11 @@
       "status": "OK"
     },
     {
-      "name": "Óbuda TV (576p)",
+      "name": "Pannon RTV (648p)",
       "tvg": {
-        "id": "ObudaTV.hu",
+        "id": "PannonTV.rs",
         "name": "",
-        "logo": "https://i.ibb.co/42C026p/6172.png",
+        "logo": "https://i.imgur.com/xQa2idL.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -665,9 +721,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://stream.streaming4u.hu/ObudaTV/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"ObudaTV.hu\" tvg-logo=\"https://i.ibb.co/42C026p/6172.png\" group-title=\"General\",Óbuda TV (576p)\r\nhttps://stream.streaming4u.hu/ObudaTV/index.m3u8",
-      "line": 146,
+      "url": "https://stream.nmih.hu:4102/live.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"PannonTV.rs\" tvg-logo=\"https://i.imgur.com/xQa2idL.png\" group-title=\"General\",Pannon RTV (648p)\r\nhttps://stream.nmih.hu:4102/live.m3u8",
+      "line": 158,
       "catchup": {
         "type": "",
         "days": "",
@@ -733,34 +789,6 @@
       "status": "OK"
     },
     {
-      "name": "Rákosmente TV (720p)",
-      "tvg": {
-        "id": "RakosmenteTV.hu",
-        "name": "",
-        "logo": "https://i.imgur.com/n39a2DT.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://rakosmentetv.hu:8080/hls/rmtv.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"RakosmenteTV.hu\" tvg-logo=\"https://i.imgur.com/n39a2DT.png\" group-title=\"General\",Rákosmente TV (720p)\r\nhttp://rakosmentetv.hu:8080/hls/rmtv.m3u8",
-      "line": 170,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Régió TV (406p)",
       "tvg": {
         "id": "RegioTV.sk",
@@ -780,6 +808,34 @@
       "url": "http://tv.geniusnet.sk:8081/regiotv/pl.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"RegioTV.sk\" tvg-logo=\"https://i.imgur.com/WlF6tlZ.png\" group-title=\"General\",Régió TV (406p)\r\nhttp://tv.geniusnet.sk:8081/regiotv/pl.m3u8",
       "line": 172,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Rákosmente TV (720p)",
+      "tvg": {
+        "id": "RakosmenteTV.hu",
+        "name": "",
+        "logo": "https://i.imgur.com/n39a2DT.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://rakosmentetv.hu:8080/hls/rmtv.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"RakosmenteTV.hu\" tvg-logo=\"https://i.imgur.com/n39a2DT.png\" group-title=\"General\",Rákosmente TV (720p)\r\nhttp://rakosmentetv.hu:8080/hls/rmtv.m3u8",
+      "line": 170,
       "catchup": {
         "type": "",
         "days": "",
