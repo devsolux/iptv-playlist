@@ -5,34 +5,6 @@
   },
   "items": [
     {
-      "name": "AlbKanale Music TV (720p)",
-      "tvg": {
-        "id": "AlbKanaleMusicTV.al",
-        "name": "",
-        "logo": "https://i.imgur.com/JdKxscs.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Music"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://albportal.net/albkanalemusic.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"AlbKanaleMusicTV.al\" tvg-logo=\"https://i.imgur.com/JdKxscs.png\" group-title=\"Music\",AlbKanale Music TV (720p)\r\nhttps://albportal.net/albkanalemusic.m3u8",
-      "line": 6,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "24 Horas Internacional [Geo-blocked]",
       "tvg": {
         "id": "24HorasInternacional.es",
@@ -61,9 +33,37 @@
       "status": "OK"
     },
     {
-      "name": "Bloomberg TV EMEA Live Event (720p)",
+      "name": "AlbKanale Music TV (720p)",
       "tvg": {
-        "id": "BloombergTVEMEALiveEvent.uk",
+        "id": "AlbKanaleMusicTV.al",
+        "name": "",
+        "logo": "https://i.imgur.com/JdKxscs.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Music"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://albportal.net/albkanalemusic.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"AlbKanaleMusicTV.al\" tvg-logo=\"https://i.imgur.com/JdKxscs.png\" group-title=\"Music\",AlbKanale Music TV (720p)\r\nhttps://albportal.net/albkanalemusic.m3u8",
+      "line": 6,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Bloomberg TV Europe (720p)",
+      "tvg": {
+        "id": "BloombergTVEurope.uk",
         "name": "",
         "logo": "https://i.imgur.com/OuogLHx.png",
         "url": "",
@@ -77,9 +77,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://bloomberg.com/media-manifest/streams/eu-event.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"BloombergTVEMEALiveEvent.uk\" tvg-logo=\"https://i.imgur.com/OuogLHx.png\" group-title=\"Business\",Bloomberg TV EMEA Live Event (720p)\r\nhttps://bloomberg.com/media-manifest/streams/eu-event.m3u8",
-      "line": 13,
+      "url": "https://bloomberg.com/media-manifest/streams/eu.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"BloombergTVEurope.uk\" tvg-logo=\"https://i.imgur.com/OuogLHx.png\" group-title=\"Business\",Bloomberg TV Europe (720p)\r\nhttps://bloomberg.com/media-manifest/streams/eu.m3u8",
+      "line": 15,
       "catchup": {
         "type": "",
         "days": "",
@@ -117,37 +117,9 @@
       "status": "OK"
     },
     {
-      "name": "BBC World News (480p) [Not 24/7]",
+      "name": "Bloomberg TV EMEA Live Event (720p)",
       "tvg": {
-        "id": "BBCNewsEurope.uk",
-        "name": "",
-        "logo": "https://i.imgur.com/vSz2WEp.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "News"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML,like Gecko) Mobile/15E148"
-      },
-      "url": "http://ott-cdn.ucom.am/s24/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"BBCNewsEurope.uk\" tvg-logo=\"https://i.imgur.com/vSz2WEp.png\" group-title=\"News\" user-agent=\"Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML,like Gecko) Mobile/15E148\",BBC World News (480p) [Not 24/7]\r\n#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML,like Gecko) Mobile/15E148\r\nhttp://ott-cdn.ucom.am/s24/index.m3u8",
-      "line": 10,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Bloomberg TV Europe (720p)",
-      "tvg": {
-        "id": "BloombergTVEurope.uk",
+        "id": "BloombergTVEMEALiveEvent.uk",
         "name": "",
         "logo": "https://i.imgur.com/OuogLHx.png",
         "url": "",
@@ -161,9 +133,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://bloomberg.com/media-manifest/streams/eu.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"BloombergTVEurope.uk\" tvg-logo=\"https://i.imgur.com/OuogLHx.png\" group-title=\"Business\",Bloomberg TV Europe (720p)\r\nhttps://bloomberg.com/media-manifest/streams/eu.m3u8",
-      "line": 15,
+      "url": "https://bloomberg.com/media-manifest/streams/eu-event.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"BloombergTVEMEALiveEvent.uk\" tvg-logo=\"https://i.imgur.com/OuogLHx.png\" group-title=\"Business\",Bloomberg TV EMEA Live Event (720p)\r\nhttps://bloomberg.com/media-manifest/streams/eu-event.m3u8",
+      "line": 13,
       "catchup": {
         "type": "",
         "days": "",
@@ -229,6 +201,34 @@
       "status": "OK"
     },
     {
+      "name": "BBC World News (480p) [Not 24/7]",
+      "tvg": {
+        "id": "BBCNewsEurope.uk",
+        "name": "",
+        "logo": "https://i.imgur.com/vSz2WEp.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "News"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML,like Gecko) Mobile/15E148"
+      },
+      "url": "http://ott-cdn.ucom.am/s24/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"BBCNewsEurope.uk\" tvg-logo=\"https://i.imgur.com/vSz2WEp.png\" group-title=\"News\" user-agent=\"Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML,like Gecko) Mobile/15E148\",BBC World News (480p) [Not 24/7]\r\n#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML,like Gecko) Mobile/15E148\r\nhttp://ott-cdn.ucom.am/s24/index.m3u8",
+      "line": 10,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "CNBC Europe/World (1080p) [Geo-blocked]",
       "tvg": {
         "id": "CNBCEurope.uk",
@@ -285,34 +285,6 @@
       "status": "OK"
     },
     {
-      "name": "Folklorit TV (1080p) [Not 24/7]",
-      "tvg": {
-        "id": "FolkloritTV.al",
-        "name": "",
-        "logo": "https://i.imgur.com/wayxz5S.jpg",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Music"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://vs.sednastream.com:1936/folklorit/folklorit/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"FolkloritTV.al\" tvg-logo=\"https://i.imgur.com/wayxz5S.jpg\" group-title=\"Music\",Folklorit TV (1080p) [Not 24/7]\r\nhttps://vs.sednastream.com:1936/folklorit/folklorit/playlist.m3u8",
-      "line": 30,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Panorama TV (720p) [Not 24/7]",
       "tvg": {
         "id": "PanoramaTV.al",
@@ -332,6 +304,34 @@
       "url": "http://198.244.188.94/panorama/livestream/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"PanoramaTV.al\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Panorama_logo.svg/512px-Panorama_logo.svg.png\" group-title=\"News\",Panorama TV (720p) [Not 24/7]\r\nhttp://198.244.188.94/panorama/livestream/playlist.m3u8",
       "line": 42,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Folklorit TV (1080p) [Not 24/7]",
+      "tvg": {
+        "id": "FolkloritTV.al",
+        "name": "",
+        "logo": "https://i.imgur.com/wayxz5S.jpg",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Music"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://vs.sednastream.com:1936/folklorit/folklorit/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"FolkloritTV.al\" tvg-logo=\"https://i.imgur.com/wayxz5S.jpg\" group-title=\"Music\",Folklorit TV (1080p) [Not 24/7]\r\nhttps://vs.sednastream.com:1936/folklorit/folklorit/playlist.m3u8",
+      "line": 30,
       "catchup": {
         "type": "",
         "days": "",
@@ -500,6 +500,34 @@
       "url": "https://live.prostream.al/al/smil:tropojatv.smil/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TropojaTelevizion.al\" tvg-logo=\"https://i.imgur.com/D3hNOVS.png\" group-title=\"General\",Tropoja TV (1080p)\r\nhttps://live.prostream.al/al/smil:tropojatv.smil/playlist.m3u8",
       "line": 56,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "РТР Планета Евро",
+      "tvg": {
+        "id": "RTRPlanetaEurope.ru",
+        "name": "",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/RTR-Planeta_Logo.svg/512px-RTR-Planeta_Logo.svg.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://player.smotrim.ru/iframe/stream/live_id/1525504b-449d-432d-ab5d-1f11081f8603",
+      "raw": "#EXTINF:-1 tvg-id=\"RTRPlanetaEurope.ru\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/RTR-Planeta_Logo.svg/512px-RTR-Planeta_Logo.svg.png\" group-title=\"General\",РТР Планета Евро\r\nhttps://player.smotrim.ru/iframe/stream/live_id/1525504b-449d-432d-ab5d-1f11081f8603",
+      "line": 70,
       "catchup": {
         "type": "",
         "days": "",
