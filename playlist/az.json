@@ -117,6 +117,34 @@
       "status": "OK"
     },
     {
+      "name": "APA TV (720p)",
+      "tvg": {
+        "id": "APATv.az",
+        "name": "",
+        "logo": "https://i.imgur.com/2CSW4V4.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "News"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://rtmp.apa.tv/@pagroup!23.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"APATv.az\" tvg-logo=\"https://i.imgur.com/2CSW4V4.png\" group-title=\"News\",APA TV (720p)\r\nhttp://rtmp.apa.tv/@pagroup!23.m3u8",
+      "line": 8,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "ARB Gunes",
       "tvg": {
         "id": "ARBGunes.az",
@@ -164,6 +192,34 @@
       "url": "https://rtmp.baku.tv/live/bakutv_720p.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"BakuTV.az\" tvg-logo=\"https://i.imgur.com/r4FzxSg.png\" group-title=\"News\",Baku TV (720p)\r\nhttps://rtmp.baku.tv/live/bakutv_720p.m3u8",
       "line": 20,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Kəpəz TV (540p) [Not 24/7]",
+      "tvg": {
+        "id": "",
+        "name": "",
+        "logo": "",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://85.132.81.184:8080/arbkepez/live/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"\" tvg-logo=\"\" group-title=\"Undefined\",Kəpəz TV (540p) [Not 24/7]\r\nhttp://85.132.81.184:8080/arbkepez/live/index.m3u8",
+      "line": 45,
       "catchup": {
         "type": "",
         "days": "",
@@ -247,35 +303,7 @@
       },
       "url": "https://glb.bozztv.com/glb/ssh101/showplus/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"ShowPlusTV.az\" tvg-logo=\"https://i.imgur.com/Je2DGSG.jpg\" group-title=\"Entertainment\",Show Plus TV (720p)\r\nhttps://glb.bozztv.com/glb/ssh101/showplus/index.m3u8",
-      "line": 57,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Azad TV",
-      "tvg": {
-        "id": "AzadTV.az",
-        "name": "",
-        "logo": "https://i.imgur.com/rDYSoRL.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://stream.atv.az/WebRTCAppEE/streams/780339739845112514894920_adaptive.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"AzadTV.az\" tvg-logo=\"https://i.imgur.com/rDYSoRL.png\" group-title=\"General\",Azad TV\r\nhttps://stream.atv.az/WebRTCAppEE/streams/780339739845112514894920_adaptive.m3u8",
-      "line": 18,
+      "line": 59,
       "catchup": {
         "type": "",
         "days": "",
@@ -303,7 +331,7 @@
       },
       "url": "https://raw.githubusercontent.com/UzunMuhalefet/streams/main/myvideo-az/xezer-tv.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"XezerTV.az\" tvg-logo=\"https://i.imgur.com/YR5iC8h.png\" group-title=\"General\",Xezer TV\r\nhttps://raw.githubusercontent.com/UzunMuhalefet/streams/main/myvideo-az/xezer-tv.m3u8",
-      "line": 67,
+      "line": 71,
       "catchup": {
         "type": "",
         "days": "",
@@ -331,35 +359,7 @@
       },
       "url": "https://raw.githubusercontent.com/UzunMuhalefet/streams/main/myvideo-az/space-tv.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"SpaceTV.az\" tvg-logo=\"https://i.imgur.com/ufvVQJH.png\" group-title=\"General\",Space TV\r\nhttps://raw.githubusercontent.com/UzunMuhalefet/streams/main/myvideo-az/space-tv.m3u8",
-      "line": 59,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Medeniyyet TV (406p)",
-      "tvg": {
-        "id": "MedeniyyetTV.az",
-        "name": "",
-        "logo": "https://i.imgur.com/PlvaDIa.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Culture"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://str.yodacdn.net/medeniyyet/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"MedeniyyetTV.az\" tvg-logo=\"https://i.imgur.com/PlvaDIa.png\" group-title=\"Culture\",Medeniyyet TV (406p)\r\nhttps://str.yodacdn.net/medeniyyet/index.m3u8",
-      "line": 45,
+      "line": 61,
       "catchup": {
         "type": "",
         "days": "",
