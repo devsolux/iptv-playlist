@@ -33,9 +33,9 @@
       "status": "OK"
     },
     {
-      "name": "Bolivia TV (720p) [Not 24/7]",
+      "name": "Bolivia TV 7.2 (720p)",
       "tvg": {
-        "id": "BoliviaTV.bo",
+        "id": "BoliviaTV72.bo",
         "name": "",
         "logo": "https://i.imgur.com/tKLYYys.png",
         "url": "",
@@ -49,9 +49,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "http://boliviatv1.srfms.com:5735/live/livestream/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"BoliviaTV.bo\" tvg-logo=\"https://i.imgur.com/tKLYYys.png\" group-title=\"General\",Bolivia TV (720p) [Not 24/7]\r\nhttp://boliviatv1.srfms.com:5735/live/livestream/playlist.m3u8",
-      "line": 30,
+      "url": "https://5ca3e84a76d30.streamlock.net/boliviatv2/videoboliviatv2/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"BoliviaTV72.bo\" tvg-logo=\"https://i.imgur.com/tKLYYys.png\" group-title=\"General\",Bolivia TV 7.2 (720p)\r\nhttps://5ca3e84a76d30.streamlock.net/boliviatv2/videoboliviatv2/playlist.m3u8",
+      "line": 28,
       "catchup": {
         "type": "",
         "days": "",
@@ -89,6 +89,34 @@
       "status": "OK"
     },
     {
+      "name": "Bolivia TV (720p) [Not 24/7]",
+      "tvg": {
+        "id": "BoliviaTV.bo",
+        "name": "",
+        "logo": "https://i.imgur.com/tKLYYys.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://boliviatv1.srfms.com:5735/live/livestream/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"BoliviaTV.bo\" tvg-logo=\"https://i.imgur.com/tKLYYys.png\" group-title=\"General\",Bolivia TV (720p) [Not 24/7]\r\nhttp://boliviatv1.srfms.com:5735/live/livestream/playlist.m3u8",
+      "line": 30,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Cadena A (720p) [Not 24/7]",
       "tvg": {
         "id": "CadenaA.bo",
@@ -108,34 +136,6 @@
       "url": "https://5fe2654d6127d.streamlock.net/cadenaa/videocadenaa/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"CadenaA.bo\" tvg-logo=\"https://i.imgur.com/BxQPPAA.png\" group-title=\"Undefined\",Cadena A (720p) [Not 24/7]\r\nhttps://5fe2654d6127d.streamlock.net/cadenaa/videocadenaa/playlist.m3u8",
       "line": 34,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Bolivia TV 7.2 (720p)",
-      "tvg": {
-        "id": "BoliviaTV72.bo",
-        "name": "",
-        "logo": "https://i.imgur.com/tKLYYys.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://5ca3e84a76d30.streamlock.net/boliviatv2/videoboliviatv2/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"BoliviaTV72.bo\" tvg-logo=\"https://i.imgur.com/tKLYYys.png\" group-title=\"General\",Bolivia TV 7.2 (720p)\r\nhttps://5ca3e84a76d30.streamlock.net/boliviatv2/videoboliviatv2/playlist.m3u8",
-      "line": 28,
       "catchup": {
         "type": "",
         "days": "",
@@ -313,34 +313,6 @@
       "status": "OK"
     },
     {
-      "name": "MegaTV (480p)",
-      "tvg": {
-        "id": "MegaTV.bo",
-        "name": "",
-        "logo": "https://i.imgur.com/3d4uiZF.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Entertainment"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://solo.disfrutaenlared.com:1936/tvcbba/tvcbba/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"MegaTV.bo\" tvg-logo=\"https://i.imgur.com/3d4uiZF.png\" group-title=\"Entertainment\",MegaTV (480p)\r\nhttps://solo.disfrutaenlared.com:1936/tvcbba/tvcbba/playlist.m3u8",
-      "line": 135,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "PTV (720p)",
       "tvg": {
         "id": "PTV.bo",
@@ -360,62 +332,6 @@
       "url": "https://glb.bozztv.com/glb/ssh101/centralptv/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"PTV.bo\" tvg-logo=\"https://i.imgur.com/vPvR7dX.png\" group-title=\"Undefined\",PTV (720p)\r\nhttps://glb.bozztv.com/glb/ssh101/centralptv/index.m3u8",
       "line": 155,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Radio Uno PST (720p)",
-      "tvg": {
-        "id": "RadioUnoPST.bo",
-        "name": "",
-        "logo": "https://i.imgur.com/TmSNZTg.jpg",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://master.tucableip.com/pstbolivia/video.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"RadioUnoPST.bo\" tvg-logo=\"https://i.imgur.com/TmSNZTg.jpg\" group-title=\"General\",Radio Uno PST (720p)\r\nhttps://master.tucableip.com/pstbolivia/video.m3u8",
-      "line": 157,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Red CCTV (480p)",
-      "tvg": {
-        "id": "RedCCTV.bo",
-        "name": "",
-        "logo": "https://i.imgur.com/YC5FRmq.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://solo.disfrutaenlared.com:1936/redcctv/redcctv/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"RedCCTV.bo\" tvg-logo=\"https://i.imgur.com/YC5FRmq.png\" group-title=\"Undefined\",Red CCTV (480p)\r\nhttps://solo.disfrutaenlared.com:1936/redcctv/redcctv/playlist.m3u8",
-      "line": 167,
       "catchup": {
         "type": "",
         "days": "",
@@ -481,62 +397,6 @@
       "status": "OK"
     },
     {
-      "name": "Tu Tv (720p) [Not 24/7]",
-      "tvg": {
-        "id": "TuTv.bo",
-        "name": "",
-        "logo": "https://i.imgur.com/WFycUP7.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://solo.disfrutaenlared.com:1936/tutv/tutv/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TuTv.bo\" tvg-logo=\"https://i.imgur.com/WFycUP7.png\" group-title=\"General\",Tu Tv (720p) [Not 24/7]\r\nhttps://solo.disfrutaenlared.com:1936/tutv/tutv/playlist.m3u8",
-      "line": 226,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "TV Show Oruro (480p)",
-      "tvg": {
-        "id": "TVShowOruro.bo",
-        "name": "",
-        "logo": "https://i.ibb.co/nnsYJCq/IMG-20210731-094609.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://tv.istbolivia.com:1935/tvshow/tvshow/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TVShowOruro.bo\" tvg-logo=\"https://i.ibb.co/nnsYJCq/IMG-20210731-094609.png\" group-title=\"General\",TV Show Oruro (480p)\r\nhttp://tv.istbolivia.com:1935/tvshow/tvshow/playlist.m3u8",
-      "line": 234,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "TVU (1080p) [Not 24/7]",
       "tvg": {
         "id": "TVU.bo",
@@ -556,34 +416,6 @@
       "url": "https://s1.tvdatta.com:3557/live/tvulive.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TVU.bo\" tvg-shift=\"-4\" tvg-logo=\"https://i.imgur.com/YdiF5k6.png\" group-title=\"Undefined\",TVU (1080p) [Not 24/7]\r\nhttps://s1.tvdatta.com:3557/live/tvulive.m3u8",
       "line": 246,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "TVU (720p) [Not 24/7]",
-      "tvg": {
-        "id": "TVU.bo",
-        "name": "",
-        "logo": "https://i.imgur.com/YdiF5k6.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://video.live.com.bo:3003/live/tvuumsalive.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TVU.bo\" tvg-logo=\"https://i.imgur.com/YdiF5k6.png\" group-title=\"Undefined\",TVU (720p) [Not 24/7]\r\nhttps://video.live.com.bo:3003/live/tvuumsalive.m3u8",
-      "line": 244,
       "catchup": {
         "type": "",
         "days": "",
@@ -696,6 +528,62 @@
       "url": "http://190.104.15.135/0.ts",
       "raw": "#EXTINF:-1 tvg-id=\"XTOTV.bo\" tvg-logo=\"https://i.imgur.com/MLwLlWl.png\" group-title=\"Undefined\",XTOTV (1280p) [Not 24/7]\r\n#EXTVLCOPT:http-referrer=https://www.sccbolivia.com/\r\nhttp://190.104.15.135/0.ts",
       "line": 262,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Zoy TV Sports 1",
+      "tvg": {
+        "id": "ZoyTVSports1.bo",
+        "name": "",
+        "logo": "https://i.imgur.com/0YHztGq.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Sports"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://fl1004.bozztv.com/ssh101/zoytvsports/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"ZoyTVSports1.bo\" tvg-logo=\"https://i.imgur.com/0YHztGq.png\" group-title=\"Sports\",Zoy TV Sports 1\r\nhttps://fl1004.bozztv.com/ssh101/zoytvsports/index.m3u8",
+      "line": 267,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Zoy TV Turcas",
+      "tvg": {
+        "id": "ZoyTVTurcas.bo",
+        "name": "",
+        "logo": "https://i.imgur.com/0YHztGq.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Entertainment"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://fl1004.bozztv.com/ssh101/zoytvturcas/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"ZoyTVTurcas.bo\" tvg-logo=\"https://i.imgur.com/0YHztGq.png\" group-title=\"Entertainment\",Zoy TV Turcas\r\nhttps://fl1004.bozztv.com/ssh101/zoytvturcas/index.m3u8",
+      "line": 277,
       "catchup": {
         "type": "",
         "days": "",
