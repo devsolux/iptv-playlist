@@ -201,34 +201,6 @@
       "status": "OK"
     },
     {
-      "name": "AMC (1080p)",
-      "tvg": {
-        "id": "AMC.pl",
-        "name": "",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/AMC_logo_2019.svg/512px-AMC_logo_2019.svg.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Movies"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://109.233.89.166/AMC_HD/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"AMC.pl\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/AMC_logo_2019.svg/512px-AMC_logo_2019.svg.png\" group-title=\"Movies\",AMC (1080p)\r\nhttp://109.233.89.166/AMC_HD/index.m3u8",
-      "line": 22,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Antena HD (1080p)",
       "tvg": {
         "id": "AntenaHD.pl",
@@ -257,11 +229,11 @@
       "status": "OK"
     },
     {
-      "name": "Ale Kino+ (1080p)",
+      "name": "AMC (1080p)",
       "tvg": {
-        "id": "AleKinoPlus.pl",
+        "id": "AMC.pl",
         "name": "",
-        "logo": "https://i.imgur.com/iZMsGnC.png",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/AMC_logo_2019.svg/512px-AMC_logo_2019.svg.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -273,9 +245,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "http://178.219.128.68:64889/ALEKINOHD",
-      "raw": "#EXTINF:-1 tvg-id=\"AleKinoPlus.pl\" tvg-logo=\"https://i.imgur.com/iZMsGnC.png\" group-title=\"Movies\",Ale Kino+ (1080p)\r\nhttp://178.219.128.68:64889/ALEKINOHD",
-      "line": 18,
+      "url": "http://109.233.89.166/AMC_HD/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"AMC.pl\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/AMC_logo_2019.svg/512px-AMC_logo_2019.svg.png\" group-title=\"Movies\",AMC (1080p)\r\nhttp://109.233.89.166/AMC_HD/index.m3u8",
+      "line": 22,
       "catchup": {
         "type": "",
         "days": "",
@@ -304,6 +276,34 @@
       "url": "http://109.233.89.170/BBC_Earth_HD/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"BBCEarth.pl\" tvg-logo=\"https://i.imgur.com/z4rLIVW.png\" group-title=\"Documentary\",BBC Earth (1080p)\r\nhttp://109.233.89.170/BBC_Earth_HD/index.m3u8",
       "line": 36,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Ale Kino+ (1080p)",
+      "tvg": {
+        "id": "AleKinoPlus.pl",
+        "name": "",
+        "logo": "https://i.imgur.com/iZMsGnC.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Movies"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://178.219.128.68:64889/ALEKINOHD",
+      "raw": "#EXTINF:-1 tvg-id=\"AleKinoPlus.pl\" tvg-logo=\"https://i.imgur.com/iZMsGnC.png\" group-title=\"Movies\",Ale Kino+ (1080p)\r\nhttp://178.219.128.68:64889/ALEKINOHD",
+      "line": 18,
       "catchup": {
         "type": "",
         "days": "",
@@ -565,34 +565,6 @@
       "status": "OK"
     },
     {
-      "name": "Canal+ Seriale (1080p)",
-      "tvg": {
-        "id": "CanalPlusSeriale.pl",
-        "name": "",
-        "logo": "https://i.imgur.com/B55Rl3T.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Series"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://178.219.128.68:64888/CANASERIHD",
-      "raw": "#EXTINF:-1 tvg-id=\"CanalPlusSeriale.pl\" tvg-logo=\"https://i.imgur.com/B55Rl3T.png\" group-title=\"Series\",Canal+ Seriale (1080p)\r\nhttp://178.219.128.68:64888/CANASERIHD",
-      "line": 67,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Canal+ Premium (1080p)",
       "tvg": {
         "id": "CanalPlusPremium.pl",
@@ -649,6 +621,34 @@
       "status": "OK"
     },
     {
+      "name": "Canal+ Seriale (1080p)",
+      "tvg": {
+        "id": "CanalPlusSeriale.pl",
+        "name": "",
+        "logo": "https://i.imgur.com/B55Rl3T.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Series"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://178.219.128.68:64888/CANASERIHD",
+      "raw": "#EXTINF:-1 tvg-id=\"CanalPlusSeriale.pl\" tvg-logo=\"https://i.imgur.com/B55Rl3T.png\" group-title=\"Series\",Canal+ Seriale (1080p)\r\nhttp://178.219.128.68:64888/CANASERIHD",
+      "line": 67,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Canal+ Sport 3 (1080p)",
       "tvg": {
         "id": "CanalPlusSport3.pl",
@@ -668,34 +668,6 @@
       "url": "http://185.236.229.62:9981/play/a05e",
       "raw": "#EXTINF:-1 tvg-id=\"CanalPlusSport3.pl\" tvg-logo=\"https://i.imgur.com/QZwPFa8.png\" group-title=\"Sports\",Canal+ Sport 3 (1080p)\r\nhttp://185.236.229.62:9981/play/a05e",
       "line": 71,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Canal+ Sport (1080p)",
-      "tvg": {
-        "id": "CanalPlusSport.pl",
-        "name": "",
-        "logo": "https://i.imgur.com/E0WTMa2.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Sports"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://178.219.128.68:64888/CANASPORHD",
-      "raw": "#EXTINF:-1 tvg-id=\"CanalPlusSport.pl\" tvg-logo=\"https://i.imgur.com/E0WTMa2.png\" group-title=\"Sports\",Canal+ Sport (1080p)\r\nhttp://178.219.128.68:64888/CANASPORHD",
-      "line": 77,
       "catchup": {
         "type": "",
         "days": "",
@@ -733,6 +705,34 @@
       "status": "OK"
     },
     {
+      "name": "Canal+ Sport (1080p)",
+      "tvg": {
+        "id": "CanalPlusSport.pl",
+        "name": "",
+        "logo": "https://i.imgur.com/E0WTMa2.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Sports"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://178.219.128.68:64888/CANASPORHD",
+      "raw": "#EXTINF:-1 tvg-id=\"CanalPlusSport.pl\" tvg-logo=\"https://i.imgur.com/E0WTMa2.png\" group-title=\"Sports\",Canal+ Sport (1080p)\r\nhttp://178.219.128.68:64888/CANASPORHD",
+      "line": 77,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "CBS Reality (1080p)",
       "tvg": {
         "id": "CBSReality.pl",
@@ -752,34 +752,6 @@
       "url": "http://109.233.89.170/CBS_Reality_HD/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"CBSReality.pl\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/CBS_Reality.png/512px-CBS_Reality.png\" group-title=\"Entertainment\",CBS Reality (1080p)\r\nhttp://109.233.89.170/CBS_Reality_HD/index.m3u8",
       "line": 85,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "CBeebies (1080p)",
-      "tvg": {
-        "id": "CBeebies.pl",
-        "name": "",
-        "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/16/CBeebies.svg/512px-CBeebies.svg.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Kids"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://185.236.229.62:9981/play/a06s",
-      "raw": "#EXTINF:-1 tvg-id=\"CBeebies.pl\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/en/thumb/1/16/CBeebies.svg/512px-CBeebies.svg.png\" group-title=\"Kids\",CBeebies (1080p)\r\nhttp://185.236.229.62:9981/play/a06s",
-      "line": 81,
       "catchup": {
         "type": "",
         "days": "",
@@ -836,34 +808,6 @@
       "url": "http://109.233.89.170/Da_Vinci_HD/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"DaVinci.pl\" tvg-logo=\"https://i.imgur.com/iBx7K1M.png\" group-title=\"Education\",Da Vinci (1080p)\r\nhttp://109.233.89.170/Da_Vinci_HD/index.m3u8",
       "line": 97,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "CBS Europa (1080p)",
-      "tvg": {
-        "id": "CBSEuropa.pl",
-        "name": "",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/d/d4/CBS_Europa.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Movies"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://195.189.60.33:9011/play/a005",
-      "raw": "#EXTINF:-1 tvg-id=\"CBSEuropa.pl\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/d/d4/CBS_Europa.png\" group-title=\"Movies\",CBS Europa (1080p)\r\nhttp://195.189.60.33:9011/play/a005",
-      "line": 83,
       "catchup": {
         "type": "",
         "days": "",
@@ -985,34 +929,6 @@
       "status": "OK"
     },
     {
-      "name": "dlaCiebie.tv (1080p)",
-      "tvg": {
-        "id": "dlaCiebietv.pl",
-        "name": "",
-        "logo": "https://i.imgur.com/Tf32BJa.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://178.219.128.68:64889/DLAC",
-      "raw": "#EXTINF:-1 tvg-id=\"dlaCiebietv.pl\" tvg-logo=\"https://i.imgur.com/Tf32BJa.png\" group-title=\"General\",dlaCiebie.tv (1080p)\r\nhttp://178.219.128.68:64889/DLAC",
-      "line": 111,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Disney XD (576p)",
       "tvg": {
         "id": "DisneyXD.pl",
@@ -1032,6 +948,34 @@
       "url": "http://178.219.128.68:64888/DISNXD",
       "raw": "#EXTINF:-1 tvg-id=\"DisneyXD.pl\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Disney_XD_-_2015.svg/512px-Disney_XD_-_2015.svg.png\" group-title=\"Kids\",Disney XD (576p)\r\nhttp://178.219.128.68:64888/DISNXD",
       "line": 109,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "dlaCiebie.tv (1080p)",
+      "tvg": {
+        "id": "dlaCiebietv.pl",
+        "name": "",
+        "logo": "https://i.imgur.com/Tf32BJa.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://178.219.128.68:64889/DLAC",
+      "raw": "#EXTINF:-1 tvg-id=\"dlaCiebietv.pl\" tvg-logo=\"https://i.imgur.com/Tf32BJa.png\" group-title=\"General\",dlaCiebie.tv (1080p)\r\nhttp://178.219.128.68:64889/DLAC",
+      "line": 111,
       "catchup": {
         "type": "",
         "days": "",
@@ -1125,25 +1069,25 @@
       "status": "OK"
     },
     {
-      "name": "E! HD (1080p)",
+      "name": "Eleven Sports 4 (1080p)",
       "tvg": {
-        "id": "EHD.pl",
+        "id": "ElevenSports4.pl",
         "name": "",
-        "logo": "https://i.imgur.com/AG6ySqp.png",
+        "logo": "https://i.imgur.com/SEKXaAW.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Entertainment"
+        "title": "Sports"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "http://195.189.60.33:9002/play/a003",
-      "raw": "#EXTINF:-1 tvg-id=\"EHD.pl\" tvg-logo=\"https://i.imgur.com/AG6ySqp.png\" group-title=\"Entertainment\",E! HD (1080p)\r\nhttp://195.189.60.33:9002/play/a003",
-      "line": 117,
+      "url": "http://109.233.89.166/ELEVEN_SPORTS_4_HD/mono.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"ElevenSports4.pl\" tvg-logo=\"https://i.imgur.com/SEKXaAW.png\" group-title=\"Sports\",Eleven Sports 4 (1080p)\r\nhttp://109.233.89.166/ELEVEN_SPORTS_4_HD/mono.m3u8",
+      "line": 131,
       "catchup": {
         "type": "",
         "days": "",
@@ -1181,62 +1125,6 @@
       "status": "OK"
     },
     {
-      "name": "Eleven Sports 4 (1080p)",
-      "tvg": {
-        "id": "ElevenSports4.pl",
-        "name": "",
-        "logo": "https://i.imgur.com/SEKXaAW.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Sports"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://109.233.89.166/ELEVEN_SPORTS_4_HD/mono.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"ElevenSports4.pl\" tvg-logo=\"https://i.imgur.com/SEKXaAW.png\" group-title=\"Sports\",Eleven Sports 4 (1080p)\r\nhttp://109.233.89.166/ELEVEN_SPORTS_4_HD/mono.m3u8",
-      "line": 131,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "E! (1080p)",
-      "tvg": {
-        "id": "E.pl",
-        "name": "",
-        "logo": "https://i.imgur.com/TWFDkap.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Entertainment"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://185.236.229.62:9981/play/a03j",
-      "raw": "#EXTINF:-1 tvg-id=\"E.pl\" tvg-logo=\"https://i.imgur.com/TWFDkap.png\" group-title=\"Entertainment\",E! (1080p)\r\nhttp://185.236.229.62:9981/play/a03j",
-      "line": 115,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Eska TV (1080p)",
       "tvg": {
         "id": "EskaTV.pl",
@@ -1265,25 +1153,25 @@
       "status": "OK"
     },
     {
-      "name": "EWTN Poland (1080p)",
+      "name": "E! (1080p)",
       "tvg": {
-        "id": "EWTNPoland.pl",
+        "id": "E.pl",
         "name": "",
-        "logo": "https://i.imgur.com/VtKYELf.png",
+        "logo": "https://i.imgur.com/TWFDkap.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Religious"
+        "title": "Entertainment"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://cdn3.wowza.com/1/ZHdrMWt1NjlDSzFu/bzdDVG10/hls/live/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"EWTNPoland.pl\" tvg-logo=\"https://i.imgur.com/VtKYELf.png\" group-title=\"Religious\",EWTN Poland (1080p)\r\nhttps://cdn3.wowza.com/1/ZHdrMWt1NjlDSzFu/bzdDVG10/hls/live/playlist.m3u8",
-      "line": 141,
+      "url": "http://185.236.229.62:9981/play/a03j",
+      "raw": "#EXTINF:-1 tvg-id=\"E.pl\" tvg-logo=\"https://i.imgur.com/TWFDkap.png\" group-title=\"Entertainment\",E! (1080p)\r\nhttp://185.236.229.62:9981/play/a03j",
+      "line": 115,
       "catchup": {
         "type": "",
         "days": "",
@@ -1349,11 +1237,39 @@
       "status": "OK"
     },
     {
-      "name": "Extreme Sports Channel Polska (1080p)",
+      "name": "EWTN Poland (1080p)",
       "tvg": {
-        "id": "ExtremeSportsChannelPolska.pl",
+        "id": "EWTNPoland.pl",
         "name": "",
-        "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f0/Extreme_Sports_Channel.svg/512px-Extreme_Sports_Channel.svg.png",
+        "logo": "https://i.imgur.com/VtKYELf.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Religious"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://cdn3.wowza.com/1/ZHdrMWt1NjlDSzFu/bzdDVG10/hls/live/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"EWTNPoland.pl\" tvg-logo=\"https://i.imgur.com/VtKYELf.png\" group-title=\"Religious\",EWTN Poland (1080p)\r\nhttps://cdn3.wowza.com/1/ZHdrMWt1NjlDSzFu/bzdDVG10/hls/live/playlist.m3u8",
+      "line": 141,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Fight Klub (1080p)",
+      "tvg": {
+        "id": "FightKlub.pl",
+        "name": "",
+        "logo": "https://i.imgur.com/6kaNvZi.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -1365,9 +1281,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "http://195.189.60.33:9011/play/a004",
-      "raw": "#EXTINF:-1 tvg-id=\"ExtremeSportsChannelPolska.pl\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/en/thumb/f/f0/Extreme_Sports_Channel.svg/512px-Extreme_Sports_Channel.svg.png\" group-title=\"Sports\",Extreme Sports Channel Polska (1080p)\r\nhttp://195.189.60.33:9011/play/a004",
-      "line": 143,
+      "url": "http://185.236.229.62:9981/play/a02l",
+      "raw": "#EXTINF:-1 tvg-id=\"FightKlub.pl\" tvg-logo=\"https://i.imgur.com/6kaNvZi.png\" group-title=\"Sports\",Fight Klub (1080p)\r\nhttp://185.236.229.62:9981/play/a02l",
+      "line": 153,
       "catchup": {
         "type": "",
         "days": "",
@@ -1461,34 +1377,6 @@
       "status": "OK"
     },
     {
-      "name": "Fox Comedy (1080p)",
-      "tvg": {
-        "id": "FoxComedy.pl",
-        "name": "",
-        "logo": "https://i.imgur.com/7oZaSDI.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Comedy"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://178.219.128.68:64889/FOXCOMEHD",
-      "raw": "#EXTINF:-1 tvg-id=\"FoxComedy.pl\" tvg-logo=\"https://i.imgur.com/7oZaSDI.png\" group-title=\"Comedy\",Fox Comedy (1080p)\r\nhttp://178.219.128.68:64889/FOXCOMEHD",
-      "line": 165,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Fox [Geo-blocked]",
       "tvg": {
         "id": "Fox.pl",
@@ -1517,25 +1405,25 @@
       "status": "OK"
     },
     {
-      "name": "Golf Channel (1080p)",
+      "name": "Fox Comedy (1080p)",
       "tvg": {
-        "id": "GolfChannel.pl",
+        "id": "FoxComedy.pl",
         "name": "",
-        "logo": "https://i.imgur.com/vqEdhhG.png",
+        "logo": "https://i.imgur.com/7oZaSDI.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Sports"
+        "title": "Comedy"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "http://185.236.229.62:9981/play/a03m",
-      "raw": "#EXTINF:-1 tvg-id=\"GolfChannel.pl\" tvg-logo=\"https://i.imgur.com/vqEdhhG.png\" group-title=\"Sports\",Golf Channel (1080p)\r\nhttp://185.236.229.62:9981/play/a03m",
-      "line": 167,
+      "url": "http://178.219.128.68:64889/FOXCOMEHD",
+      "raw": "#EXTINF:-1 tvg-id=\"FoxComedy.pl\" tvg-logo=\"https://i.imgur.com/7oZaSDI.png\" group-title=\"Comedy\",Fox Comedy (1080p)\r\nhttp://178.219.128.68:64889/FOXCOMEHD",
+      "line": 165,
       "catchup": {
         "type": "",
         "days": "",
@@ -1601,6 +1489,34 @@
       "status": "OK"
     },
     {
+      "name": "Home TV (1080p)",
+      "tvg": {
+        "id": "HomeTV.pl",
+        "name": "",
+        "logo": "https://i.imgur.com/qAFR1Cr.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://109.233.89.166/TVR_HD/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"HomeTV.pl\" tvg-logo=\"https://i.imgur.com/qAFR1Cr.png\" group-title=\"Undefined\",Home TV (1080p)\r\nhttp://109.233.89.166/TVR_HD/index.m3u8",
+      "line": 177,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Kino Polska (1080p)",
       "tvg": {
         "id": "KinoPolska.pl",
@@ -1629,25 +1545,25 @@
       "status": "OK"
     },
     {
-      "name": "Home TV (1080p)",
+      "name": "Golf Channel (1080p)",
       "tvg": {
-        "id": "HomeTV.pl",
+        "id": "GolfChannel.pl",
         "name": "",
-        "logo": "https://i.imgur.com/qAFR1Cr.png",
+        "logo": "https://i.imgur.com/vqEdhhG.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Undefined"
+        "title": "Sports"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "http://109.233.89.166/TVR_HD/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"HomeTV.pl\" tvg-logo=\"https://i.imgur.com/qAFR1Cr.png\" group-title=\"Undefined\",Home TV (1080p)\r\nhttp://109.233.89.166/TVR_HD/index.m3u8",
-      "line": 177,
+      "url": "http://185.236.229.62:9981/play/a03m",
+      "raw": "#EXTINF:-1 tvg-id=\"GolfChannel.pl\" tvg-logo=\"https://i.imgur.com/vqEdhhG.png\" group-title=\"Sports\",Golf Channel (1080p)\r\nhttp://185.236.229.62:9981/play/a03m",
+      "line": 167,
       "catchup": {
         "type": "",
         "days": "",
@@ -1713,25 +1629,25 @@
       "status": "OK"
     },
     {
-      "name": "MiniMini+ (1080p)",
+      "name": "Motowizja (1080p)",
       "tvg": {
-        "id": "MiniMiniPlus.pl",
+        "id": "Motowizja.pl",
         "name": "",
-        "logo": "https://i.imgur.com/1AdUC53.png",
+        "logo": "https://ocdn.eu/ptv2-images-transforms/1/bqxkrtsb2dvLW1pZ3JhdGVkL21vdG93aXpqYS5wbmeSlQJkAMLDlQIAKMLD",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Kids"
+        "title": "Auto"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "http://178.219.128.68:64889/MINIHD",
-      "raw": "#EXTINF:-1 tvg-id=\"MiniMiniPlus.pl\" tvg-logo=\"https://i.imgur.com/1AdUC53.png\" group-title=\"Kids\",MiniMini+ (1080p)\r\nhttp://178.219.128.68:64889/MINIHD",
-      "line": 185,
+      "url": "http://109.233.89.170/Motowizja_HD/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Motowizja.pl\" tvg-logo=\"https://ocdn.eu/ptv2-images-transforms/1/bqxkrtsb2dvLW1pZ3JhdGVkL21vdG93aXpqYS5wbmeSlQJkAMLDlQIAKMLD\" group-title=\"Auto\",Motowizja (1080p)\r\nhttp://109.233.89.170/Motowizja_HD/index.m3u8",
+      "line": 189,
       "catchup": {
         "type": "",
         "days": "",
@@ -1769,25 +1685,25 @@
       "status": "OK"
     },
     {
-      "name": "Motowizja (1080p)",
+      "name": "MiniMini+ (1080p)",
       "tvg": {
-        "id": "Motowizja.pl",
+        "id": "MiniMiniPlus.pl",
         "name": "",
-        "logo": "https://ocdn.eu/ptv2-images-transforms/1/bqxkrtsb2dvLW1pZ3JhdGVkL21vdG93aXpqYS5wbmeSlQJkAMLDlQIAKMLD",
+        "logo": "https://i.imgur.com/1AdUC53.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Auto"
+        "title": "Kids"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "http://109.233.89.170/Motowizja_HD/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Motowizja.pl\" tvg-logo=\"https://ocdn.eu/ptv2-images-transforms/1/bqxkrtsb2dvLW1pZ3JhdGVkL21vdG93aXpqYS5wbmeSlQJkAMLDlQIAKMLD\" group-title=\"Auto\",Motowizja (1080p)\r\nhttp://109.233.89.170/Motowizja_HD/index.m3u8",
-      "line": 189,
+      "url": "http://178.219.128.68:64889/MINIHD",
+      "raw": "#EXTINF:-1 tvg-id=\"MiniMiniPlus.pl\" tvg-logo=\"https://i.imgur.com/1AdUC53.png\" group-title=\"Kids\",MiniMini+ (1080p)\r\nhttp://178.219.128.68:64889/MINIHD",
+      "line": 185,
       "catchup": {
         "type": "",
         "days": "",
@@ -1825,62 +1741,6 @@
       "status": "OK"
     },
     {
-      "name": "National Geographic (1080p)",
-      "tvg": {
-        "id": "NationalGeographic.pl",
-        "name": "",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/512px-Natgeologo.svg.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Documentary"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://178.219.128.68:64889/NATIGEOGHD",
-      "raw": "#EXTINF:-1 tvg-id=\"NationalGeographic.pl\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/512px-Natgeologo.svg.png\" group-title=\"Documentary\",National Geographic (1080p)\r\nhttp://178.219.128.68:64889/NATIGEOGHD",
-      "line": 197,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Fight Klub (1080p)",
-      "tvg": {
-        "id": "FightKlub.pl",
-        "name": "",
-        "logo": "https://i.imgur.com/6kaNvZi.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Sports"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://185.236.229.62:9981/play/a02l",
-      "raw": "#EXTINF:-1 tvg-id=\"FightKlub.pl\" tvg-logo=\"https://i.imgur.com/6kaNvZi.png\" group-title=\"Sports\",Fight Klub (1080p)\r\nhttp://185.236.229.62:9981/play/a02l",
-      "line": 153,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Nat Geo People",
       "tvg": {
         "id": "NatGeoPeople.pl",
@@ -1900,6 +1760,34 @@
       "url": "http://185.236.229.62:9981/play/a06f",
       "raw": "#EXTINF:-1 tvg-id=\"NatGeoPeople.pl\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/New_NatGeo_People_logo.svg/512px-New_NatGeo_People_logo.svg.png\" group-title=\"Culture\",Nat Geo People\r\nhttp://185.236.229.62:9981/play/a06f",
       "line": 195,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "National Geographic (1080p)",
+      "tvg": {
+        "id": "NationalGeographic.pl",
+        "name": "",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/512px-Natgeologo.svg.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Documentary"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://178.219.128.68:64889/NATIGEOGHD",
+      "raw": "#EXTINF:-1 tvg-id=\"NationalGeographic.pl\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/512px-Natgeologo.svg.png\" group-title=\"Documentary\",National Geographic (1080p)\r\nhttp://178.219.128.68:64889/NATIGEOGHD",
+      "line": 197,
       "catchup": {
         "type": "",
         "days": "",
@@ -1937,34 +1825,6 @@
       "status": "OK"
     },
     {
-      "name": "Nick Jr. Poland (576i)",
-      "tvg": {
-        "id": "NickJr.pl",
-        "name": "",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Nick_Jr._logo_2009.svg/512px-Nick_Jr._logo_2009.svg.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Kids"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://178.219.128.68:64888/NICKJR",
-      "raw": "#EXTINF:-1 tvg-id=\"NickJr.pl\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Nick_Jr._logo_2009.svg/512px-Nick_Jr._logo_2009.svg.png\" group-title=\"Kids\",Nick Jr. Poland (576i)\r\nhttp://178.219.128.68:64888/NICKJR",
-      "line": 201,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Nowa TV (1080p)",
       "tvg": {
         "id": "NowaTV.pl",
@@ -1984,6 +1844,34 @@
       "url": "http://109.233.89.170/NOWA_TV_HD/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"NowaTV.pl\" tvg-logo=\"https://i.imgur.com/8cHK49r.png\" group-title=\"General\",Nowa TV (1080p)\r\nhttp://109.233.89.170/NOWA_TV_HD/index.m3u8",
       "line": 211,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Nick Jr. Poland (576i)",
+      "tvg": {
+        "id": "NickJr.pl",
+        "name": "",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Nick_Jr._logo_2009.svg/512px-Nick_Jr._logo_2009.svg.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Kids"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://178.219.128.68:64888/NICKJR",
+      "raw": "#EXTINF:-1 tvg-id=\"NickJr.pl\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Nick_Jr._logo_2009.svg/512px-Nick_Jr._logo_2009.svg.png\" group-title=\"Kids\",Nick Jr. Poland (576i)\r\nhttp://178.219.128.68:64888/NICKJR",
+      "line": 201,
       "catchup": {
         "type": "",
         "days": "",
@@ -2049,53 +1937,25 @@
       "status": "OK"
     },
     {
-      "name": "Novela TV (576p)",
+      "name": "NSport+ (1080p)",
       "tvg": {
-        "id": "NovelaTV.pl",
+        "id": "NSportPlus.pl",
         "name": "",
-        "logo": "https://i.imgur.com/qgqS2vy.png",
+        "logo": "https://i.imgur.com/Kpx4GUi.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Series"
+        "title": "Sports"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "http://195.189.60.33:9019/play/a008",
-      "raw": "#EXTINF:-1 tvg-id=\"NovelaTV.pl\" tvg-logo=\"https://i.imgur.com/qgqS2vy.png\" group-title=\"Series\",Novela TV (576p)\r\nhttp://195.189.60.33:9019/play/a008",
-      "line": 207,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Nuta TV (576p)",
-      "tvg": {
-        "id": "NutaTV.pl",
-        "name": "",
-        "logo": "https://i.imgur.com/JHFUxDu.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Music"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://178.219.128.68:64888/NUTA",
-      "raw": "#EXTINF:-1 tvg-id=\"NutaTV.pl\" tvg-logo=\"https://i.imgur.com/JHFUxDu.png\" group-title=\"Music\",Nuta TV (576p)\r\nhttp://178.219.128.68:64888/NUTA",
-      "line": 215,
+      "url": "http://185.236.229.62:9981/play/a05h",
+      "raw": "#EXTINF:-1 tvg-id=\"NSportPlus.pl\" tvg-logo=\"https://i.imgur.com/Kpx4GUi.png\" group-title=\"Sports\",NSport+ (1080p)\r\nhttp://185.236.229.62:9981/play/a05h",
+      "line": 213,
       "catchup": {
         "type": "",
         "days": "",
@@ -2133,53 +1993,25 @@
       "status": "OK"
     },
     {
-      "name": "NSport+ (1080p)",
+      "name": "Nuta TV (576p)",
       "tvg": {
-        "id": "NSportPlus.pl",
+        "id": "NutaTV.pl",
         "name": "",
-        "logo": "https://i.imgur.com/Kpx4GUi.png",
+        "logo": "https://i.imgur.com/JHFUxDu.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Sports"
+        "title": "Music"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "http://185.236.229.62:9981/play/a05h",
-      "raw": "#EXTINF:-1 tvg-id=\"NSportPlus.pl\" tvg-logo=\"https://i.imgur.com/Kpx4GUi.png\" group-title=\"Sports\",NSport+ (1080p)\r\nhttp://185.236.229.62:9981/play/a05h",
-      "line": 213,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Polsat 2 (1080p)",
-      "tvg": {
-        "id": "Polsat2.pl",
-        "name": "",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Polsat_2_2021_gradient.svg/512px-Polsat_2_2021_gradient.svg.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://109.233.89.166/Polsat_2_HD/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Polsat2.pl\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Polsat_2_2021_gradient.svg/512px-Polsat_2_2021_gradient.svg.png\" group-title=\"Undefined\",Polsat 2 (1080p)\r\nhttp://109.233.89.166/Polsat_2_HD/index.m3u8",
-      "line": 231,
+      "url": "http://178.219.128.68:64888/NUTA",
+      "raw": "#EXTINF:-1 tvg-id=\"NutaTV.pl\" tvg-logo=\"https://i.imgur.com/JHFUxDu.png\" group-title=\"Music\",Nuta TV (576p)\r\nhttp://178.219.128.68:64888/NUTA",
+      "line": 215,
       "catchup": {
         "type": "",
         "days": "",
@@ -2217,11 +2049,11 @@
       "status": "OK"
     },
     {
-      "name": "Polonia 1 (1080p)",
+      "name": "Polsat 2 (1080p)",
       "tvg": {
-        "id": "Polonia1.pl",
+        "id": "Polsat2.pl",
         "name": "",
-        "logo": "https://i.imgur.com/4TVDMGD.png",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Polsat_2_2021_gradient.svg/512px-Polsat_2_2021_gradient.svg.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -2233,9 +2065,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "http://178.219.128.68:64889/POLO1",
-      "raw": "#EXTINF:-1 tvg-id=\"Polonia1.pl\" tvg-logo=\"https://i.imgur.com/4TVDMGD.png\" group-title=\"Undefined\",Polonia 1 (1080p)\r\nhttp://178.219.128.68:64889/POLO1",
-      "line": 229,
+      "url": "http://109.233.89.166/Polsat_2_HD/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Polsat2.pl\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Polsat_2_2021_gradient.svg/512px-Polsat_2_2021_gradient.svg.png\" group-title=\"Undefined\",Polsat 2 (1080p)\r\nhttp://109.233.89.166/Polsat_2_HD/index.m3u8",
+      "line": 231,
       "catchup": {
         "type": "",
         "days": "",
@@ -2292,6 +2124,34 @@
       "url": "http://109.233.89.166/Polsat_Doku_HD/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"PolsatDoku.pl\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Polsat_Doku_2021_gradient.svg/512px-Polsat_Doku_2021_gradient.svg.png\" group-title=\"Undefined\",Polsat Doku (1080p)\r\nhttp://109.233.89.166/Polsat_Doku_HD/index.m3u8",
       "line": 241,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Polonia 1 (1080p)",
+      "tvg": {
+        "id": "Polonia1.pl",
+        "name": "",
+        "logo": "https://i.imgur.com/4TVDMGD.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://178.219.128.68:64889/POLO1",
+      "raw": "#EXTINF:-1 tvg-id=\"Polonia1.pl\" tvg-logo=\"https://i.imgur.com/4TVDMGD.png\" group-title=\"Undefined\",Polonia 1 (1080p)\r\nhttp://178.219.128.68:64889/POLO1",
+      "line": 229,
       "catchup": {
         "type": "",
         "days": "",
@@ -2385,25 +2245,25 @@
       "status": "OK"
     },
     {
-      "name": "Polsat Comedy Central Extra HD (1080p)",
+      "name": "Polsat Music (1080p)",
       "tvg": {
-        "id": "PolsatComedyCentralExtraHD.pl",
+        "id": "PolsatMusic.pl",
         "name": "",
-        "logo": "https://i.imgur.com/6GOWgtE.png",
+        "logo": "https://i.imgur.com/uXygf1l.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Comedy"
+        "title": "Music"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "http://195.189.60.33:9015/play/a00b",
-      "raw": "#EXTINF:-1 tvg-id=\"PolsatComedyCentralExtraHD.pl\" tvg-logo=\"https://i.imgur.com/6GOWgtE.png\" group-title=\"Comedy\",Polsat Comedy Central Extra HD (1080p)\r\nhttp://195.189.60.33:9015/play/a00b",
-      "line": 239,
+      "url": "http://109.233.89.170/Polsat_Music_HD/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"PolsatMusic.pl\" tvg-logo=\"https://i.imgur.com/uXygf1l.png\" group-title=\"Music\",Polsat Music (1080p)\r\nhttp://109.233.89.170/Polsat_Music_HD/index.m3u8",
+      "line": 251,
       "catchup": {
         "type": "",
         "days": "",
@@ -2441,53 +2301,25 @@
       "status": "OK"
     },
     {
-      "name": "Polsat Music (1080p)",
+      "name": "Polsat News (1080p)",
       "tvg": {
-        "id": "PolsatMusic.pl",
+        "id": "PolsatNews.pl",
         "name": "",
-        "logo": "https://i.imgur.com/uXygf1l.png",
+        "logo": "https://i.imgur.com/sx1yPuc.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Music"
+        "title": "News"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "http://109.233.89.170/Polsat_Music_HD/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"PolsatMusic.pl\" tvg-logo=\"https://i.imgur.com/uXygf1l.png\" group-title=\"Music\",Polsat Music (1080p)\r\nhttp://109.233.89.170/Polsat_Music_HD/index.m3u8",
-      "line": 251,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Polsat Film 2 (576p)",
-      "tvg": {
-        "id": "PolsatFilm2.pl",
-        "name": "",
-        "logo": "https://i.imgur.com/19aDJjn.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Movies"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://195.189.60.33:9016/play/a00m",
-      "raw": "#EXTINF:-1 tvg-id=\"PolsatFilm2.pl\" tvg-logo=\"https://i.imgur.com/19aDJjn.png\" group-title=\"Movies\",Polsat Film 2 (576p)\r\nhttp://195.189.60.33:9016/play/a00m",
-      "line": 243,
+      "url": "http://109.233.89.166/Polsat_News_HD/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"PolsatNews.pl\" tvg-logo=\"https://i.imgur.com/sx1yPuc.png\" group-title=\"News\",Polsat News (1080p)\r\nhttp://109.233.89.166/Polsat_News_HD/index.m3u8",
+      "line": 257,
       "catchup": {
         "type": "",
         "days": "",
@@ -2516,34 +2348,6 @@
       "url": "http://109.233.89.166/Polsat_News_2/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"PolsatNews2.pl\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Polsat_News_2_2021_gradient.svg/512px-Polsat_News_2_2021_gradient.svg.png\" group-title=\"News\",Polsat News 2 (1080p)\r\nhttp://109.233.89.166/Polsat_News_2/index.m3u8",
       "line": 253,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Polsat News (1080p)",
-      "tvg": {
-        "id": "PolsatNews.pl",
-        "name": "",
-        "logo": "https://i.imgur.com/sx1yPuc.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "News"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://109.233.89.166/Polsat_News_HD/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"PolsatNews.pl\" tvg-logo=\"https://i.imgur.com/sx1yPuc.png\" group-title=\"News\",Polsat News (1080p)\r\nhttp://109.233.89.166/Polsat_News_HD/index.m3u8",
-      "line": 257,
       "catchup": {
         "type": "",
         "days": "",
@@ -2637,34 +2441,6 @@
       "status": "OK"
     },
     {
-      "name": "Polsat Sport Extra (1080p)",
-      "tvg": {
-        "id": "PolsatSportExtra.pl",
-        "name": "",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Polsat_Sport_Extra_2021_gradient.svg/512px-Polsat_Sport_Extra_2021_gradient.svg.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Sports"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://109.233.89.170/Polsat_Sport_Extra_HD/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"PolsatSportExtra.pl\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Polsat_Sport_Extra_2021_gradient.svg/512px-Polsat_Sport_Extra_2021_gradient.svg.png\" group-title=\"Sports\",Polsat Sport Extra (1080p)\r\nhttp://109.233.89.170/Polsat_Sport_Extra_HD/index.m3u8",
-      "line": 271,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Polsat Sport (1080p)",
       "tvg": {
         "id": "PolsatSport.pl",
@@ -2693,25 +2469,25 @@
       "status": "OK"
     },
     {
-      "name": "Polsat Reality (576p)",
+      "name": "Polsat Sport Extra (1080p)",
       "tvg": {
-        "id": "PolsatReality.pl",
+        "id": "PolsatSportExtra.pl",
         "name": "",
-        "logo": "https://i.imgur.com/NVW5txC.png",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Polsat_Sport_Extra_2021_gradient.svg/512px-Polsat_Sport_Extra_2021_gradient.svg.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Entertainment"
+        "title": "Sports"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "http://195.189.60.33:9016/play/a00l",
-      "raw": "#EXTINF:-1 tvg-id=\"PolsatReality.pl\" tvg-logo=\"https://i.imgur.com/NVW5txC.png\" group-title=\"Entertainment\",Polsat Reality (576p)\r\nhttp://195.189.60.33:9016/play/a00l",
-      "line": 263,
+      "url": "http://109.233.89.170/Polsat_Sport_Extra_HD/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"PolsatSportExtra.pl\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Polsat_Sport_Extra_2021_gradient.svg/512px-Polsat_Sport_Extra_2021_gradient.svg.png\" group-title=\"Sports\",Polsat Sport Extra (1080p)\r\nhttp://109.233.89.170/Polsat_Sport_Extra_HD/index.m3u8",
+      "line": 271,
       "catchup": {
         "type": "",
         "days": "",
@@ -2777,146 +2553,6 @@
       "status": "OK"
     },
     {
-      "name": "Polsat Sport Premium 1 (1080p)",
-      "tvg": {
-        "id": "PolsatSportPremium1.pl",
-        "name": "",
-        "logo": "https://i.imgur.com/hy1SKE0.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Sports"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://195.189.60.33:9003/play/a002",
-      "raw": "#EXTINF:-1 tvg-id=\"PolsatSportPremium1.pl\" tvg-logo=\"https://i.imgur.com/hy1SKE0.png\" group-title=\"Sports\",Polsat Sport Premium 1 (1080p)\r\nhttp://195.189.60.33:9003/play/a002",
-      "line": 277,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Polsat Sport Premium 2 (1080p)",
-      "tvg": {
-        "id": "PolsatSportPremium2.pl",
-        "name": "",
-        "logo": "https://i.imgur.com/myyWeXY.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Sports"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://195.189.60.33:9003/play/a003",
-      "raw": "#EXTINF:-1 tvg-id=\"PolsatSportPremium2.pl\" tvg-logo=\"https://i.imgur.com/myyWeXY.png\" group-title=\"Sports\",Polsat Sport Premium 2 (1080p)\r\nhttp://195.189.60.33:9003/play/a003",
-      "line": 279,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Polsat Sport Premium 3 PPV (1080p)",
-      "tvg": {
-        "id": "PolsatSportPremium3PPV.pl",
-        "name": "",
-        "logo": "https://i.imgur.com/leFNP03.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Sports"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://195.189.60.33:9002/play/a009",
-      "raw": "#EXTINF:-1 tvg-id=\"PolsatSportPremium3PPV.pl\" tvg-logo=\"https://i.imgur.com/leFNP03.png\" group-title=\"Sports\",Polsat Sport Premium 3 PPV (1080p)\r\nhttp://195.189.60.33:9002/play/a009",
-      "line": 281,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Polsat Sport Premium 4 PPV (1080p)",
-      "tvg": {
-        "id": "PolsatSportPremium4PPV.pl",
-        "name": "",
-        "logo": "https://i.imgur.com/SulxUvc.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Sports"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://195.189.60.33:9002/play/a00a",
-      "raw": "#EXTINF:-1 tvg-id=\"PolsatSportPremium4PPV.pl\" tvg-logo=\"https://i.imgur.com/SulxUvc.png\" group-title=\"Sports\",Polsat Sport Premium 4 PPV (1080p)\r\nhttp://195.189.60.33:9002/play/a00a",
-      "line": 283,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Polsat Sport Premium 5 PPV (1080p)",
-      "tvg": {
-        "id": "PolsatSportPremium5PPV.pl",
-        "name": "",
-        "logo": "https://i.imgur.com/W1uhsGm.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Sports"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://195.189.60.33:9013/play/a00m",
-      "raw": "#EXTINF:-1 tvg-id=\"PolsatSportPremium5PPV.pl\" tvg-logo=\"https://i.imgur.com/W1uhsGm.png\" group-title=\"Sports\",Polsat Sport Premium 5 PPV (1080p)\r\nhttp://195.189.60.33:9013/play/a00m",
-      "line": 285,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Polsat Viasat History (1080p)",
       "tvg": {
         "id": "PolsatViasatHistory.pl",
@@ -2973,11 +2609,11 @@
       "status": "OK"
     },
     {
-      "name": "Polsat X (576p)",
+      "name": "Puls 2 (1080p)",
       "tvg": {
-        "id": "PolsatX.pl",
+        "id": "Puls2.pl",
         "name": "",
-        "logo": "https://i.imgur.com/8juCHsb.png",
+        "logo": "https://i.imgur.com/EOnzPiZ.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -2989,9 +2625,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "http://195.189.60.33:9016/play/a00e",
-      "raw": "#EXTINF:-1 tvg-id=\"PolsatX.pl\" tvg-logo=\"https://i.imgur.com/8juCHsb.png\" group-title=\"Undefined\",Polsat X (576p)\r\nhttp://195.189.60.33:9016/play/a00e",
-      "line": 293,
+      "url": "http://178.219.128.68:64889/PULS2HD",
+      "raw": "#EXTINF:-1 tvg-id=\"Puls2.pl\" tvg-logo=\"https://i.imgur.com/EOnzPiZ.png\" group-title=\"Undefined\",Puls 2 (1080p)\r\nhttp://178.219.128.68:64889/PULS2HD",
+      "line": 295,
       "catchup": {
         "type": "",
         "days": "",
@@ -3029,34 +2665,6 @@
       "status": "OK"
     },
     {
-      "name": "Radio Czwórka (1080p)",
-      "tvg": {
-        "id": "RadiowaCzworka.pl",
-        "name": "",
-        "logo": "https://i.imgur.com/VAtxF7k.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Entertainment"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://stream14.polskieradio.pl/pr4_video/video_pr4.stream/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"RadiowaCzworka.pl\" tvg-logo=\"https://i.imgur.com/VAtxF7k.png\" group-title=\"Entertainment\",Radio Czwórka (1080p)\r\nhttps://stream14.polskieradio.pl/pr4_video/video_pr4.stream/playlist.m3u8",
-      "line": 297,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Romance TV (1080p)",
       "tvg": {
         "id": "RomanceTV.pl",
@@ -3085,34 +2693,6 @@
       "status": "OK"
     },
     {
-      "name": "Puls 2 (1080p)",
-      "tvg": {
-        "id": "Puls2.pl",
-        "name": "",
-        "logo": "https://i.imgur.com/EOnzPiZ.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://178.219.128.68:64889/PULS2HD",
-      "raw": "#EXTINF:-1 tvg-id=\"Puls2.pl\" tvg-logo=\"https://i.imgur.com/EOnzPiZ.png\" group-title=\"Undefined\",Puls 2 (1080p)\r\nhttp://178.219.128.68:64889/PULS2HD",
-      "line": 295,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Sci Fi (1080p)",
       "tvg": {
         "id": "SciFi.pl",
@@ -3132,6 +2712,34 @@
       "url": "http://109.233.89.166/SciFi_HD/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"SciFi.pl\" tvg-logo=\"https://i.imgur.com/QEqai8a.png\" group-title=\"Undefined\",Sci Fi (1080p)\r\nhttp://109.233.89.166/SciFi_HD/index.m3u8",
       "line": 309,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Radio Czwórka (1080p)",
+      "tvg": {
+        "id": "RadiowaCzworka.pl",
+        "name": "",
+        "logo": "https://i.imgur.com/VAtxF7k.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Entertainment"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://stream14.polskieradio.pl/pr4_video/video_pr4.stream/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"RadiowaCzworka.pl\" tvg-logo=\"https://i.imgur.com/VAtxF7k.png\" group-title=\"Entertainment\",Radio Czwórka (1080p)\r\nhttps://stream14.polskieradio.pl/pr4_video/video_pr4.stream/playlist.m3u8",
+      "line": 297,
       "catchup": {
         "type": "",
         "days": "",
@@ -3188,62 +2796,6 @@
       "url": "http://178.219.128.68:64888/STARTVHD",
       "raw": "#EXTINF:-1 tvg-id=\"StarsTV.pl\" tvg-logo=\"https://i.imgur.com/NdITPCk.png\" group-title=\"Undefined\",Stars TV (1080p)\r\nhttp://178.219.128.68:64888/STARTVHD",
       "line": 313,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "StudioMed TV (576p)",
-      "tvg": {
-        "id": "StudioMedTV.pl",
-        "name": "",
-        "logo": "https://i.imgur.com/prF1T3P.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://195.189.60.33:9017/play/a004",
-      "raw": "#EXTINF:-1 tvg-id=\"StudioMedTV.pl\" tvg-logo=\"https://i.imgur.com/prF1T3P.png\" group-title=\"Undefined\",StudioMed TV (576p)\r\nhttp://195.189.60.33:9017/play/a004",
-      "line": 317,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Sundance TV (1080p)",
-      "tvg": {
-        "id": "SundanceTV.pl",
-        "name": "",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/SundanceTV_2014.svg/512px-SundanceTV_2014.svg.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Movies"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://185.236.229.62:9981/play/a03i",
-      "raw": "#EXTINF:-1 tvg-id=\"SundanceTV.pl\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/SundanceTV_2014.svg/512px-SundanceTV_2014.svg.png\" group-title=\"Movies\",Sundance TV (1080p)\r\nhttp://185.236.229.62:9981/play/a03i",
-      "line": 319,
       "catchup": {
         "type": "",
         "days": "",
@@ -3393,34 +2945,6 @@
       "status": "OK"
     },
     {
-      "name": "Telewizja Jaslo (720p)",
-      "tvg": {
-        "id": "TelewizjaJaslo.pl",
-        "name": "",
-        "logo": "https://i.imgur.com/nV2jQQP.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://cdn01.sesja.pl/live_tvjaslo/live_tvjaslo.stream/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TelewizjaJaslo.pl\" tvg-logo=\"https://i.imgur.com/nV2jQQP.png\" group-title=\"General\",Telewizja Jaslo (720p)\r\nhttps://cdn01.sesja.pl/live_tvjaslo/live_tvjaslo.stream/playlist.m3u8",
-      "line": 333,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Telewizja Biznesowa (1080p)",
       "tvg": {
         "id": "TelewizjaBiznesowa.pl",
@@ -3440,6 +2964,34 @@
       "url": "https://s-pl-01.mediatool.tv/playout/tbpl-abr/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TelewizjaBiznesowa.pl\" tvg-logo=\"https://i.imgur.com/XC7i7ZL.png\" group-title=\"Business\",Telewizja Biznesowa (1080p)\r\nhttps://s-pl-01.mediatool.tv/playout/tbpl-abr/index.m3u8",
       "line": 331,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Telewizja Jaslo (720p)",
+      "tvg": {
+        "id": "TelewizjaJaslo.pl",
+        "name": "",
+        "logo": "https://i.imgur.com/nV2jQQP.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://cdn01.sesja.pl/live_tvjaslo/live_tvjaslo.stream/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"TelewizjaJaslo.pl\" tvg-logo=\"https://i.imgur.com/nV2jQQP.png\" group-title=\"General\",Telewizja Jaslo (720p)\r\nhttps://cdn01.sesja.pl/live_tvjaslo/live_tvjaslo.stream/playlist.m3u8",
+      "line": 333,
       "catchup": {
         "type": "",
         "days": "",
@@ -3477,34 +3029,6 @@
       "status": "OK"
     },
     {
-      "name": "Truso TV (576p) [Not 24/7]",
-      "tvg": {
-        "id": "TrusoTV.pl",
-        "name": "",
-        "logo": "https://i.imgur.com/GUsauxk.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "News"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://stream.truso.tv/elblag/myStream_aac/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TrusoTV.pl\" tvg-logo=\"https://i.imgur.com/GUsauxk.png\" group-title=\"News\",Truso TV (576p) [Not 24/7]\r\nhttps://stream.truso.tv/elblag/myStream_aac/playlist.m3u8",
-      "line": 343,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Telewizja Toruń (1080p) [Not 24/7]",
       "tvg": {
         "id": "TelewizjaTorun.pl",
@@ -3524,6 +3048,34 @@
       "url": "http://217.173.176.107:1935/live/ngrp:tvk.stream_mobile/chunks.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TelewizjaTorun.pl\" tvg-logo=\"https://i.imgur.com/UNwzRHN.png\" group-title=\"Undefined\",Telewizja Toruń (1080p) [Not 24/7]\r\nhttp://217.173.176.107:1935/live/ngrp:tvk.stream_mobile/chunks.m3u8",
       "line": 337,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Truso TV (576p) [Not 24/7]",
+      "tvg": {
+        "id": "TrusoTV.pl",
+        "name": "",
+        "logo": "https://i.imgur.com/GUsauxk.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "News"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://stream.truso.tv/elblag/myStream_aac/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"TrusoTV.pl\" tvg-logo=\"https://i.imgur.com/GUsauxk.png\" group-title=\"News\",Truso TV (576p) [Not 24/7]\r\nhttps://stream.truso.tv/elblag/myStream_aac/playlist.m3u8",
+      "line": 343,
       "catchup": {
         "type": "",
         "days": "",
@@ -3645,34 +3197,6 @@
       "status": "OK"
     },
     {
-      "name": "TV Republika (1080p)",
-      "tvg": {
-        "id": "TVRepublika.pl",
-        "name": "",
-        "logo": "https://i.imgur.com/ljpK6dZ.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://109.233.89.166/TV_Republika_HD/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TVRepublika.pl\" tvg-logo=\"https://i.imgur.com/ljpK6dZ.png\" group-title=\"Undefined\",TV Republika (1080p)\r\nhttp://109.233.89.166/TV_Republika_HD/index.m3u8",
-      "line": 365,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "TV Puls (1080p)",
       "tvg": {
         "id": "TVPuls.pl",
@@ -3729,11 +3253,11 @@
       "status": "OK"
     },
     {
-      "name": "TV Trwam (576p)",
+      "name": "TV Republika (1080p)",
       "tvg": {
-        "id": "TVTrwam.pl",
+        "id": "TVRepublika.pl",
         "name": "",
-        "logo": "https://i.imgur.com/yq10wS5.png",
+        "logo": "https://i.imgur.com/ljpK6dZ.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -3745,9 +3269,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "http://109.233.89.170/TV_TRWAM/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TVTrwam.pl\" tvg-logo=\"https://i.imgur.com/yq10wS5.png\" group-title=\"Undefined\",TV Trwam (576p)\r\nhttp://109.233.89.170/TV_TRWAM/index.m3u8",
-      "line": 369,
+      "url": "http://109.233.89.166/TV_Republika_HD/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"TVRepublika.pl\" tvg-logo=\"https://i.imgur.com/ljpK6dZ.png\" group-title=\"Undefined\",TV Republika (1080p)\r\nhttp://109.233.89.166/TV_Republika_HD/index.m3u8",
+      "line": 365,
       "catchup": {
         "type": "",
         "days": "",
@@ -3776,6 +3300,34 @@
       "url": "http://217.173.176.107:1935/live/tvk.stream/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TVTorun.pl\" tvg-logo=\"https://i.imgur.com/ZJ0yDWI.png\" group-title=\"Undefined\",TV Toruń (1080p) [Not 24/7]\r\nhttp://217.173.176.107:1935/live/tvk.stream/playlist.m3u8",
       "line": 367,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "TV Trwam (576p)",
+      "tvg": {
+        "id": "TVTrwam.pl",
+        "name": "",
+        "logo": "https://i.imgur.com/yq10wS5.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://109.233.89.170/TV_TRWAM/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"TVTrwam.pl\" tvg-logo=\"https://i.imgur.com/yq10wS5.png\" group-title=\"Undefined\",TV Trwam (576p)\r\nhttp://109.233.89.170/TV_TRWAM/index.m3u8",
+      "line": 369,
       "catchup": {
         "type": "",
         "days": "",
@@ -3869,34 +3421,6 @@
       "status": "OK"
     },
     {
-      "name": "TVP 3 Warszawa (1080p)",
-      "tvg": {
-        "id": "TVP3Warszawa.pl",
-        "name": "",
-        "logo": "https://i.imgur.com/AfZOO8U.jpg",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://195.189.60.33:9014/play/a00a",
-      "raw": "#EXTINF:-1 tvg-id=\"TVP3Warszawa.pl\" tvg-logo=\"https://i.imgur.com/AfZOO8U.jpg\" group-title=\"Undefined\",TVP 3 Warszawa (1080p)\r\nhttp://195.189.60.33:9014/play/a00a",
-      "line": 407,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "TVP Dokument (1080p)",
       "tvg": {
         "id": "TVPDokument.pl",
@@ -3953,34 +3477,6 @@
       "status": "OK"
     },
     {
-      "name": "TVP Historia (1080p)",
-      "tvg": {
-        "id": "TVPHistoria.pl",
-        "name": "",
-        "logo": "https://i.imgur.com/Bc4QZiy.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://109.233.89.170/TVP_Historia/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TVPHistoria.pl\" tvg-logo=\"https://i.imgur.com/Bc4QZiy.png\" group-title=\"Undefined\",TVP Historia (1080p)\r\nhttp://109.233.89.170/TVP_Historia/index.m3u8",
-      "line": 421,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "TVP Info (1080p)",
       "tvg": {
         "id": "TVPInfo.pl",
@@ -4000,6 +3496,34 @@
       "url": "http://109.233.89.166/TVP_INFO_HD/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TVPInfo.pl\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/TVP_Info_logo.svg/512px-TVP_Info_logo.svg.png\" group-title=\"Undefined\",TVP Info (1080p)\r\nhttp://109.233.89.166/TVP_INFO_HD/index.m3u8",
       "line": 423,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "TVP Historia (1080p)",
+      "tvg": {
+        "id": "TVPHistoria.pl",
+        "name": "",
+        "logo": "https://i.imgur.com/Bc4QZiy.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://109.233.89.170/TVP_Historia/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"TVPHistoria.pl\" tvg-logo=\"https://i.imgur.com/Bc4QZiy.png\" group-title=\"Undefined\",TVP Historia (1080p)\r\nhttp://109.233.89.170/TVP_Historia/index.m3u8",
+      "line": 421,
       "catchup": {
         "type": "",
         "days": "",
@@ -4177,25 +3701,25 @@
       "status": "OK"
     },
     {
-      "name": "TVP Kobieta (1080p) [Geo-blocked]",
+      "name": "TVP Kultura 2 (1080p)",
       "tvg": {
-        "id": "TVPKobieta.pl",
+        "id": "TVPKultura2.pl",
         "name": "",
-        "logo": "https://i.imgur.com/aAH98qO.png",
+        "logo": "https://i.imgur.com/hXAUpMj.png",
         "url": "",
         "rec": "",
-        "shift": "30 minutes"
+        "shift": ""
       },
       "group": {
-        "title": "Undefined"
+        "title": "Culture"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://irylek.ct8.pl/stream/tvpkobieta",
-      "raw": "#EXTINF:-1 tvg-id=\"TVPKobieta.pl\" tvg-shift=\"30 minutes\" tvg-logo=\"https://i.imgur.com/aAH98qO.png\" group-title=\"Undefined\",TVP Kobieta (1080p) [Geo-blocked]\r\nhttps://irylek.ct8.pl/stream/tvpkobieta",
-      "line": 427,
+      "url": "https://irylek.ct8.pl/stream/tvpkultura2",
+      "raw": "#EXTINF:-1 tvg-id=\"TVPKultura2.pl\" tvg-logo=\"https://i.imgur.com/hXAUpMj.png\" group-title=\"Culture\",TVP Kultura 2 (1080p)\r\nhttps://irylek.ct8.pl/stream/tvpkultura2",
+      "line": 429,
       "catchup": {
         "type": "",
         "days": "",
@@ -4261,25 +3785,25 @@
       "status": "OK"
     },
     {
-      "name": "TVP Kultura 2 (1080p)",
+      "name": "TVP World (1080p)",
       "tvg": {
-        "id": "TVPKultura2.pl",
+        "id": "TVPWorld.pl",
         "name": "",
-        "logo": "https://i.imgur.com/hXAUpMj.png",
+        "logo": "https://i.imgur.com/lB4MgRI.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Culture"
+        "title": "News"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://irylek.ct8.pl/stream/tvpkultura2",
-      "raw": "#EXTINF:-1 tvg-id=\"TVPKultura2.pl\" tvg-logo=\"https://i.imgur.com/hXAUpMj.png\" group-title=\"Culture\",TVP Kultura 2 (1080p)\r\nhttps://irylek.ct8.pl/stream/tvpkultura2",
-      "line": 429,
+      "url": "http://178.219.128.68:64888/TVPWORLHD",
+      "raw": "#EXTINF:-1 tvg-id=\"TVPWorld.pl\" tvg-logo=\"https://i.imgur.com/lB4MgRI.png\" group-title=\"News\",TVP World (1080p)\r\nhttp://178.219.128.68:64888/TVPWORLHD",
+      "line": 443,
       "catchup": {
         "type": "",
         "days": "",
@@ -4317,11 +3841,11 @@
       "status": "OK"
     },
     {
-      "name": "TVT Zgorzelec (576p) [Not 24/7]",
+      "name": "TVS (1080p)",
       "tvg": {
-        "id": "TVTZgorzelec.pl",
+        "id": "TVS.pl",
         "name": "",
-        "logo": "https://i.imgur.com/zhzVpgf.jpg",
+        "logo": "https://i.imgur.com/RHwlp35.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -4333,37 +3857,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "http://gargoyle.tomkow.pl/hls/tvt.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TVTZgorzelec.pl\" tvg-logo=\"https://i.imgur.com/zhzVpgf.jpg\" group-title=\"Undefined\",TVT Zgorzelec (576p) [Not 24/7]\r\nhttp://gargoyle.tomkow.pl/hls/tvt.m3u8",
-      "line": 449,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "TVP World (1080p)",
-      "tvg": {
-        "id": "TVPWorld.pl",
-        "name": "",
-        "logo": "https://i.imgur.com/lB4MgRI.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "News"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://178.219.128.68:64888/TVPWORLHD",
-      "raw": "#EXTINF:-1 tvg-id=\"TVPWorld.pl\" tvg-logo=\"https://i.imgur.com/lB4MgRI.png\" group-title=\"News\",TVP World (1080p)\r\nhttp://178.219.128.68:64888/TVPWORLHD",
-      "line": 443,
+      "url": "http://178.219.128.68:64888/TVS",
+      "raw": "#EXTINF:-1 tvg-id=\"TVS.pl\" tvg-logo=\"https://i.imgur.com/RHwlp35.png\" group-title=\"Undefined\",TVS (1080p)\r\nhttp://178.219.128.68:64888/TVS",
+      "line": 445,
       "catchup": {
         "type": "",
         "days": "",
@@ -4401,11 +3897,11 @@
       "status": "OK"
     },
     {
-      "name": "TVS (1080p)",
+      "name": "TVT Zgorzelec (576p) [Not 24/7]",
       "tvg": {
-        "id": "TVS.pl",
+        "id": "TVTZgorzelec.pl",
         "name": "",
-        "logo": "https://i.imgur.com/RHwlp35.png",
+        "logo": "https://i.imgur.com/zhzVpgf.jpg",
         "url": "",
         "rec": "",
         "shift": ""
@@ -4417,9 +3913,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "http://178.219.128.68:64888/TVS",
-      "raw": "#EXTINF:-1 tvg-id=\"TVS.pl\" tvg-logo=\"https://i.imgur.com/RHwlp35.png\" group-title=\"Undefined\",TVS (1080p)\r\nhttp://178.219.128.68:64888/TVS",
-      "line": 445,
+      "url": "http://gargoyle.tomkow.pl/hls/tvt.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"TVTZgorzelec.pl\" tvg-logo=\"https://i.imgur.com/zhzVpgf.jpg\" group-title=\"Undefined\",TVT Zgorzelec (576p) [Not 24/7]\r\nhttp://gargoyle.tomkow.pl/hls/tvt.m3u8",
+      "line": 449,
       "catchup": {
         "type": "",
         "days": "",
@@ -4485,34 +3981,6 @@
       "status": "OK"
     },
     {
-      "name": "VOX Music TV (1080p)",
-      "tvg": {
-        "id": "VOXMusicTV.pl",
-        "name": "",
-        "logo": "https://i.imgur.com/N993msF.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Music"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://195.189.60.33:9011/play/a00e",
-      "raw": "#EXTINF:-1 tvg-id=\"VOXMusicTV.pl\" tvg-logo=\"https://i.imgur.com/N993msF.png\" group-title=\"Music\",VOX Music TV (1080p)\r\nhttp://195.189.60.33:9011/play/a00e",
-      "line": 455,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "TVP Wilno (1080p)",
       "tvg": {
         "id": "TVPWilno.pl",
@@ -4569,14 +4037,14 @@
       "status": "OK"
     },
     {
-      "name": "Water Planet (576p)",
+      "name": "TVP Kobieta (1080p) [Geo-blocked]",
       "tvg": {
-        "id": "WaterPlanet.pl",
+        "id": "TVPKobieta.pl",
         "name": "",
-        "logo": "https://i.imgur.com/ZKczKhD.png",
+        "logo": "https://i.imgur.com/aAH98qO.png",
         "url": "",
         "rec": "",
-        "shift": ""
+        "shift": "30 minutes"
       },
       "group": {
         "title": "Undefined"
@@ -4585,9 +4053,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "http://195.189.60.33:9019/play/a006",
-      "raw": "#EXTINF:-1 tvg-id=\"WaterPlanet.pl\" tvg-logo=\"https://i.imgur.com/ZKczKhD.png\" group-title=\"Undefined\",Water Planet (576p)\r\nhttp://195.189.60.33:9019/play/a006",
-      "line": 459,
+      "url": "https://irylek.ct8.pl/stream/tvpkobieta",
+      "raw": "#EXTINF:-1 tvg-id=\"TVPKobieta.pl\" tvg-shift=\"30 minutes\" tvg-logo=\"https://i.imgur.com/aAH98qO.png\" group-title=\"Undefined\",TVP Kobieta (1080p) [Geo-blocked]\r\nhttps://irylek.ct8.pl/stream/tvpkobieta",
+      "line": 427,
       "catchup": {
         "type": "",
         "days": "",
