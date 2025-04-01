@@ -5,11 +5,11 @@
   },
   "items": [
     {
-      "name": "TMA (1080p)",
+      "name": "RHT Guadeloupe (720p)",
       "tvg": {
-        "id": "TMA.gp",
+        "id": "RHTGuadeloupe.gp",
         "name": "",
-        "logo": "https://i.imgur.com/1iOAl2j.png",
+        "logo": "https://i.imgur.com/lV8M3nn.jpg",
         "url": "",
         "rec": "",
         "shift": ""
@@ -21,9 +21,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "http://hls.tmacaraibes.com/live/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TMA.gp\" tvg-logo=\"https://i.imgur.com/1iOAl2j.png\" group-title=\"Music\",TMA (1080p)\r\nhttp://hls.tmacaraibes.com/live/index.m3u8",
-      "line": 50,
+      "url": "https://edge12.vedge.infomaniak.com/livecast/ik:livehautetension/manifest.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"RHTGuadeloupe.gp\" tvg-logo=\"https://i.imgur.com/lV8M3nn.jpg\" group-title=\"Music\",RHT Guadeloupe (720p)\r\nhttps://edge12.vedge.infomaniak.com/livecast/ik:livehautetension/manifest.m3u8",
+      "line": 40,
       "catchup": {
         "type": "",
         "days": "",
@@ -51,7 +51,7 @@
       },
       "url": "https://vdo.ssl-stream.com:3412/stream/play.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"RadioTVBasseTerre.gp\" tvg-logo=\"https://i.imgur.com/1gGz3Uw.jpg\" group-title=\"General\",Radio TV Basse-Terre (720p)\r\nhttps://vdo.ssl-stream.com:3412/stream/play.m3u8",
-      "line": 42,
+      "line": 38,
       "catchup": {
         "type": "",
         "days": "",
@@ -61,11 +61,11 @@
       "status": "OK"
     },
     {
-      "name": "RHT Guadeloupe (720p)",
+      "name": "TMA (1080p)",
       "tvg": {
-        "id": "RHTGuadeloupe.gp",
+        "id": "TMA.gp",
         "name": "",
-        "logo": "https://i.imgur.com/lV8M3nn.jpg",
+        "logo": "https://i.imgur.com/1iOAl2j.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -77,9 +77,37 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://edge12.vedge.infomaniak.com/livecast/ik:livehautetension/manifest.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"RHTGuadeloupe.gp\" tvg-logo=\"https://i.imgur.com/lV8M3nn.jpg\" group-title=\"Music\",RHT Guadeloupe (720p)\r\nhttps://edge12.vedge.infomaniak.com/livecast/ik:livehautetension/manifest.m3u8",
-      "line": 44,
+      "url": "http://hls.tmacaraibes.com/live/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"TMA.gp\" tvg-logo=\"https://i.imgur.com/1iOAl2j.png\" group-title=\"Music\",TMA (1080p)\r\nhttp://hls.tmacaraibes.com/live/index.m3u8",
+      "line": 46,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "ETV (1080p)",
+      "tvg": {
+        "id": "ETV.gp",
+        "name": "",
+        "logo": "https://i.imgur.com/m5E2VP0.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://edge12.vedge.infomaniak.com/livecast/ik:etvgp/manifest.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"ETV.gp\" tvg-logo=\"https://i.imgur.com/m5E2VP0.png\" group-title=\"General\",ETV (1080p)\r\nhttps://edge12.vedge.infomaniak.com/livecast/ik:etvgp/manifest.m3u8",
+      "line": 18,
       "catchup": {
         "type": "",
         "days": "",
@@ -107,7 +135,7 @@
       },
       "url": "https://edge12.vedge.infomaniak.com/livecast/ik:madrasfmtv/manifest.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"MadrasFMTV.gp\" tvg-logo=\"https://i.imgur.com/spGg1CZ.png\" group-title=\"Music\",Madras FM TV (1080p)\r\nhttps://edge12.vedge.infomaniak.com/livecast/ik:madrasfmtv/manifest.m3u8",
-      "line": 34,
+      "line": 30,
       "catchup": {
         "type": "",
         "days": "",
