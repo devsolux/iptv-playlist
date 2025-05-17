@@ -285,34 +285,6 @@
       "status": "OK"
     },
     {
-      "name": "Asil TV (720p)",
-      "tvg": {
-        "id": "AsilTV.ir",
-        "name": "",
-        "logo": "https://i.imgur.com/gROQqFD.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://live.asil.tv/asiltv/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"AsilTV.ir\" tvg-logo=\"https://i.imgur.com/gROQqFD.png\" group-title=\"Undefined\",Asil TV (720p)\r\r\nhttps://live.asil.tv/asiltv/index.m3u8\r",
-      "line": 24,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Bravo Farsi TV (360p)",
       "tvg": {
         "id": "BravoFarsiTV.ir",
@@ -341,11 +313,11 @@
       "status": "OK"
     },
     {
-      "name": "Bushehr",
+      "name": "Asil TV (720p)",
       "tvg": {
-        "id": "BoushehrTV.ir",
+        "id": "AsilTV.ir",
         "name": "",
-        "logo": "https://upload.wikimedia.org/wikipedia/fa/thumb/9/94/Bushehr_TV.svg/200px-Bushehr_TV.svg.png",
+        "logo": "https://i.imgur.com/gROQqFD.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -357,9 +329,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://ncdn.telewebion.com/bushehr/live/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"BoushehrTV.ir\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/fa/thumb/9/94/Bushehr_TV.svg/200px-Bushehr_TV.svg.png\" group-title=\"Undefined\",Bushehr\r\r\nhttps://ncdn.telewebion.com/bushehr/live/playlist.m3u8\r",
-      "line": 42,
+      "url": "https://live.asil.tv/asiltv/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"AsilTV.ir\" tvg-logo=\"https://i.imgur.com/gROQqFD.png\" group-title=\"Undefined\",Asil TV (720p)\r\r\nhttps://live.asil.tv/asiltv/index.m3u8\r",
+      "line": 24,
       "catchup": {
         "type": "",
         "days": "",
@@ -388,6 +360,34 @@
       "url": "https://cafetradehls.wns.live/hls/stream.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"CafeTradeTV.us\" tvg-logo=\"https://i.ibb.co/GW4cMfc/cafe-trade-tv.png\" group-title=\"Business\",Cafe Trade TV (720p)\r\r\nhttps://cafetradehls.wns.live/hls/stream.m3u8\r",
       "line": 44,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Bushehr",
+      "tvg": {
+        "id": "BoushehrTV.ir",
+        "name": "",
+        "logo": "https://upload.wikimedia.org/wikipedia/fa/thumb/9/94/Bushehr_TV.svg/200px-Bushehr_TV.svg.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://ncdn.telewebion.com/bushehr/live/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"BoushehrTV.ir\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/fa/thumb/9/94/Bushehr_TV.svg/200px-Bushehr_TV.svg.png\" group-title=\"Undefined\",Bushehr\r\r\nhttps://ncdn.telewebion.com/bushehr/live/playlist.m3u8\r",
+      "line": 42,
       "catchup": {
         "type": "",
         "days": "",
@@ -453,6 +453,90 @@
       "status": "OK"
     },
     {
+      "name": "GEM Mifa",
+      "tvg": {
+        "id": "GEMMifa.ca",
+        "name": "",
+        "logo": "https://i.imgur.com/qlI7o7V.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Music"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://ca-rt.onetv.app/gemmifa/index-0.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"GEMMifa.ca\" tvg-logo=\"https://i.imgur.com/qlI7o7V.png\" group-title=\"Music\",GEM Mifa\r\r\nhttps://ca-rt.onetv.app/gemmifa/index-0.m3u8\r",
+      "line": 76,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "GEM River",
+      "tvg": {
+        "id": "GEMRiver.ca",
+        "name": "",
+        "logo": "https://i.imgur.com/yJ6f1B6.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Entertainment"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://ca-rt.onetv.app/gemriver/index-0.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"GEMRiver.ca\" tvg-logo=\"https://i.imgur.com/yJ6f1B6.png\" group-title=\"Entertainment\",GEM River\r\r\nhttps://ca-rt.onetv.app/gemriver/index-0.m3u8\r",
+      "line": 80,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "GEM Rubix",
+      "tvg": {
+        "id": "GEMRubix.ca",
+        "name": "",
+        "logo": "https://i.imgur.com/cDjOj58.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Movies"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://ca-rt.onetv.app/gemrubix/index-0.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"GEMRubix.ca\" tvg-logo=\"https://i.imgur.com/cDjOj58.png\" group-title=\"Movies\",GEM Rubix\r\r\nhttps://ca-rt.onetv.app/gemrubix/index-0.m3u8\r",
+      "line": 82,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Hamedan",
       "tvg": {
         "id": "HamedanTV.ir",
@@ -472,34 +556,6 @@
       "url": "https://ncdn.telewebion.com/sina/live/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"HamedanTV.ir\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/IRIB_Hamadan_tv.svg/296px-IRIB_Hamadan_tv.svg.png\" group-title=\"Undefined\",Hamedan\r\r\nhttps://ncdn.telewebion.com/sina/live/playlist.m3u8\r",
       "line": 88,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Hamoon",
-      "tvg": {
-        "id": "HamoonTV.ir",
-        "name": "",
-        "logo": "https://upload.wikimedia.org/wikipedia/fa/b/bc/Zahedan_Hamoon.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://ncdn.telewebion.com/hamoon/live/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"HamoonTV.ir\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/fa/b/bc/Zahedan_Hamoon.png\" group-title=\"Undefined\",Hamoon\r\r\nhttps://ncdn.telewebion.com/hamoon/live/playlist.m3u8\r",
-      "line": 90,
       "catchup": {
         "type": "",
         "days": "",
@@ -537,25 +593,25 @@
       "status": "OK"
     },
     {
-      "name": "iFilm 2",
+      "name": "Hamoon",
       "tvg": {
-        "id": "iFilm2.ir",
+        "id": "HamoonTV.ir",
         "name": "",
-        "logo": "https://upload.wikimedia.org/wikipedia/fa/c/ce/Ifilm2logo.png",
+        "logo": "https://upload.wikimedia.org/wikipedia/fa/b/bc/Zahedan_Hamoon.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Movies"
+        "title": "Undefined"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://live.presstv.ir/hls/ifilm2.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"iFilm2.ir\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/fa/c/ce/Ifilm2logo.png\" group-title=\"Movies\",iFilm 2\r\r\nhttps://live.presstv.ir/hls/ifilm2.m3u8\r",
-      "line": 98,
+      "url": "https://ncdn.telewebion.com/hamoon/live/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"HamoonTV.ir\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/fa/b/bc/Zahedan_Hamoon.png\" group-title=\"Undefined\",Hamoon\r\r\nhttps://ncdn.telewebion.com/hamoon/live/playlist.m3u8\r",
+      "line": 90,
       "catchup": {
         "type": "",
         "days": "",
@@ -584,6 +640,62 @@
       "url": "https://live.presstv.ir/hls/ifilmar.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"iFilmArabic.ir\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/b/b9/IFILM.png\" group-title=\"Movies\",iFilm Arabic\r\r\nhttps://live.presstv.ir/hls/ifilmar.m3u8\r",
       "line": 100,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "iFilm 2",
+      "tvg": {
+        "id": "iFilm2.ir",
+        "name": "",
+        "logo": "https://upload.wikimedia.org/wikipedia/fa/c/ce/Ifilm2logo.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Movies"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://live.presstv.ir/hls/ifilm2.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"iFilm2.ir\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/fa/c/ce/Ifilm2logo.png\" group-title=\"Movies\",iFilm 2\r\r\nhttps://live.presstv.ir/hls/ifilm2.m3u8\r",
+      "line": 98,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "iFilm Persian",
+      "tvg": {
+        "id": "iFilmPersian.ir",
+        "name": "",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/b/b9/IFILM.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Movies"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://live.presstv.ir/hls/ifilmfa.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"iFilmPersian.ir\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/b/b9/IFILM.png\" group-title=\"Movies\",iFilm Persian\r\r\nhttps://live.presstv.ir/hls/ifilmfa.m3u8\r",
+      "line": 104,
       "catchup": {
         "type": "",
         "days": "",
@@ -649,34 +761,6 @@
       "status": "OK"
     },
     {
-      "name": "iFilm Persian",
-      "tvg": {
-        "id": "iFilmPersian.ir",
-        "name": "",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/b/b9/IFILM.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Movies"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://live.presstv.ir/hls/ifilmfa.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"iFilmPersian.ir\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/b/b9/IFILM.png\" group-title=\"Movies\",iFilm Persian\r\r\nhttps://live.presstv.ir/hls/ifilmfa.m3u8\r",
-      "line": 104,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Iran Jewish TV (720p)",
       "tvg": {
         "id": "IranJewishTV.ir",
@@ -724,6 +808,34 @@
       "url": "https://ncdn.telewebion.com/ilam/live/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"IlamTV.ir\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Ilam_TV.png/240px-Ilam_TV.png\" group-title=\"General\",Ilam\r\r\nhttps://ncdn.telewebion.com/ilam/live/playlist.m3u8\r",
       "line": 106,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "ITN [Not 24/7]",
+      "tvg": {
+        "id": "TVITN.ir",
+        "name": "",
+        "logo": "https://i.imgur.com/U4sKHWy.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Entertainment"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://ca-rt.onetv.app:8443/ITN/index-0.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"TVITN.ir\" tvg-logo=\"https://i.imgur.com/U4sKHWy.png\" group-title=\"Entertainment\",ITN [Not 24/7]\r\r\nhttps://ca-rt.onetv.app:8443/ITN/index-0.m3u8\r",
+      "line": 128,
       "catchup": {
         "type": "",
         "days": "",
@@ -845,34 +957,6 @@
       "status": "OK"
     },
     {
-      "name": "Kerman",
-      "tvg": {
-        "id": "KermanTV.ir",
-        "name": "",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Kerman_irib_logo_%28blue_version%29.png/240px-Kerman_irib_logo_%28blue_version%29.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://lenz.splus.ir/PLTV/88888888/224/3221226856/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"KermanTV.ir\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Kerman_irib_logo_%28blue_version%29.png/240px-Kerman_irib_logo_%28blue_version%29.png\" group-title=\"General\",Kerman\r\r\nhttps://lenz.splus.ir/PLTV/88888888/224/3221226856/index.m3u8\r",
-      "line": 138,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Khorasan Razavi",
       "tvg": {
         "id": "KhorasanRazaviTV.ir",
@@ -892,34 +976,6 @@
       "url": "https://ncdn.telewebion.com/khorasanrazavi/live/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"KhorasanRazaviTV.ir\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/fa/b/bd/%D9%84%D9%88%DA%AF%D9%88_%D8%B4%D8%A8%DA%A9%D9%87_%D8%AE%D8%B1%D8%A7%D8%B3%D8%A7%D9%86_%D8%B1%D8%B6%D9%88%DB%8C.png\" group-title=\"General\",Khorasan Razavi\r\r\nhttps://ncdn.telewebion.com/khorasanrazavi/live/playlist.m3u8\r",
       "line": 144,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "KhozestanTV",
-      "tvg": {
-        "id": "KhozestanTV.ir",
-        "name": "",
-        "logo": "https://upload.wikimedia.org/wikipedia/fa/thumb/9/9a/Ahwaz_TV.svg/320px-Ahwaz_TV.svg.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://lenz.splus.ir/PLTV/88888888/224/3221226415/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"KhozestanTV.ir\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/fa/thumb/9/9a/Ahwaz_TV.svg/320px-Ahwaz_TV.svg.png\" group-title=\"General\",KhozestanTV\r\r\nhttps://lenz.splus.ir/PLTV/88888888/224/3221226415/index.m3u8\r",
-      "line": 146,
       "catchup": {
         "type": "",
         "days": "",
@@ -985,62 +1041,6 @@
       "status": "OK"
     },
     {
-      "name": "Kordestan",
-      "tvg": {
-        "id": "KordestanTV.ir",
-        "name": "",
-        "logo": "https://upload.wikimedia.org/wikipedia/fa/thumb/2/2c/Sanandaj_KORDESTAN.svg/240px-Sanandaj_KORDESTAN.svg.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://lenz.splus.ir/PLTV/88888888/224/3221226647/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"KordestanTV.ir\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/fa/thumb/2/2c/Sanandaj_KORDESTAN.svg/240px-Sanandaj_KORDESTAN.svg.png\" group-title=\"General\",Kordestan\r\r\nhttps://lenz.splus.ir/PLTV/88888888/224/3221226647/index.m3u8\r",
-      "line": 150,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Mihan TV (720p)",
-      "tvg": {
-        "id": "MihanTV.ir",
-        "name": "",
-        "logo": "https://i.imgur.com/XEMsM7w.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "News"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://iptv.mihantv.com/mihantv/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"MihanTV.ir\" tvg-logo=\"https://i.imgur.com/XEMsM7w.png\" group-title=\"News\",Mihan TV (720p)\r\r\nhttps://iptv.mihantv.com/mihantv/playlist.m3u8\r",
-      "line": 158,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Mahabad",
       "tvg": {
         "id": "MahabadTV.ir",
@@ -1069,25 +1069,25 @@
       "status": "OK"
     },
     {
-      "name": "Mohabat TV (540p)",
+      "name": "Mihan TV (720p)",
       "tvg": {
-        "id": "MohabatTV.ir",
+        "id": "MihanTV.ir",
         "name": "",
-        "logo": "https://i.imgur.com/Ig0SPev.png",
+        "logo": "https://i.imgur.com/XEMsM7w.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Religious"
+        "title": "News"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "http://204.11.235.251:1935/live_transcoder/ngrp:mohabat.stream_all/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"MohabatTV.ir\" tvg-logo=\"https://i.imgur.com/Ig0SPev.png\" group-title=\"Religious\",Mohabat TV (540p)\r\r\nhttp://204.11.235.251:1935/live_transcoder/ngrp:mohabat.stream_all/playlist.m3u8\r",
-      "line": 160,
+      "url": "https://iptv.mihantv.com/mihantv/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"MihanTV.ir\" tvg-logo=\"https://i.imgur.com/XEMsM7w.png\" group-title=\"News\",Mihan TV (720p)\r\r\nhttps://iptv.mihantv.com/mihantv/playlist.m3u8\r",
+      "line": 158,
       "catchup": {
         "type": "",
         "days": "",
@@ -1153,11 +1153,11 @@
       "status": "OK"
     },
     {
-      "name": "Namayesh",
+      "name": "OXIR TV (720p)",
       "tvg": {
-        "id": "NamayeshTV.ir",
+        "id": "OXIRTV.ir",
         "name": "",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Namayesh_TV_logo.svg/300px-Namayesh_TV_logo.svg.png",
+        "logo": "https://i.imgur.com/MGMhUDx.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -1169,65 +1169,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://lenz.splus.ir/PLTV/88888888/224/3221226148/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"NamayeshTV.ir\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Namayesh_TV_logo.svg/300px-Namayesh_TV_logo.svg.png\" group-title=\"Entertainment\",Namayesh\r\r\nhttps://lenz.splus.ir/PLTV/88888888/224/3221226148/index.m3u8\r",
-      "line": 164,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Nasim",
-      "tvg": {
-        "id": "Nasim.ir",
-        "name": "",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Nasim_TV_logo.svg/320px-Nasim_TV_logo.svg.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Entertainment"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://lenz.splus.ir/PLTV/88888888/224/3221226653/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Nasim.ir\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Nasim_TV_logo.svg/320px-Nasim_TV_logo.svg.png\" group-title=\"Entertainment\",Nasim\r\r\nhttps://lenz.splus.ir/PLTV/88888888/224/3221226653/index.m3u8\r",
-      "line": 166,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Mostanad",
-      "tvg": {
-        "id": "IRIBMostanad.ir",
-        "name": "",
-        "logo": "https://upload.wikimedia.org/wikipedia/fa/8/89/Mostanad-tv.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://lenz.splus.ir/PLTV/88888888/224/3221226901/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"IRIBMostanad.ir\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/fa/8/89/Mostanad-tv.png\" group-title=\"General\",Mostanad\r\r\nhttps://lenz.splus.ir/PLTV/88888888/224/3221226901/index.m3u8\r",
-      "line": 162,
+      "url": "https://hls.oxir.live/hls/stream.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"OXIRTV.ir\" tvg-logo=\"https://i.imgur.com/MGMhUDx.png\" group-title=\"Entertainment\",OXIR TV (720p)\r\r\nhttps://hls.oxir.live/hls/stream.m3u8\r",
+      "line": 176,
       "catchup": {
         "type": "",
         "days": "",
@@ -1256,34 +1200,6 @@
       "url": "https://uni6rtmp.tulix.tv/ucur1/Payvand/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"PayvandTV.ir\" tvg-logo=\"https://i.imgur.com/o2Ww77N.png\" group-title=\"Religious\",Payvand TV (720p) [Not 24/7]\r\r\nhttps://uni6rtmp.tulix.tv/ucur1/Payvand/playlist.m3u8\r",
       "line": 180,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "OXIR TV (720p)",
-      "tvg": {
-        "id": "OXIRTV.ir",
-        "name": "",
-        "logo": "https://i.imgur.com/MGMhUDx.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Entertainment"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://hls.oxir.live/hls/stream.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"OXIRTV.ir\" tvg-logo=\"https://i.imgur.com/MGMhUDx.png\" group-title=\"Entertainment\",OXIR TV (720p)\r\r\nhttps://hls.oxir.live/hls/stream.m3u8\r",
-      "line": 176,
       "catchup": {
         "type": "",
         "days": "",
@@ -1452,62 +1368,6 @@
       "url": "https://irhls.persiana.live/hls/stream.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"PersianaIranian.fr\" tvg-logo=\"https://i.imgur.com/vqrrpBi.png\" group-title=\"Movies\",Persiana Iranian\r\r\nhttps://irhls.persiana.live/hls/stream.m3u8\r",
       "line": 196,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Ofogh",
-      "tvg": {
-        "id": "OfoghTV.ir",
-        "name": "",
-        "logo": "https://upload.wikimedia.org/wikipedia/fa/thumb/f/fe/Ofogh_TV_logo.svg/320px-Ofogh_TV_logo.svg.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Culture"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://lenz.splus.ir/PLTV/88888888/224/3221226143/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"OfoghTV.ir\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/fa/thumb/f/fe/Ofogh_TV_logo.svg/320px-Ofogh_TV_logo.svg.png\" group-title=\"Culture\",Ofogh\r\r\nhttps://lenz.splus.ir/PLTV/88888888/224/3221226143/index.m3u8\r",
-      "line": 172,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Omid",
-      "tvg": {
-        "id": "IRIBOmid.ir",
-        "name": "",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/IRIB_Omid.svg/512px-IRIB_Omid.svg.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Kids"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://lenz.splus.ir/PLTV/88888888/224/3221226159/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"IRIBOmid.ir\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/IRIB_Omid.svg/512px-IRIB_Omid.svg.png\" group-title=\"Kids\",Omid\r\r\nhttps://lenz.splus.ir/PLTV/88888888/224/3221226159/index.m3u8\r",
-      "line": 174,
       "catchup": {
         "type": "",
         "days": "",
@@ -1937,25 +1797,25 @@
       "status": "OK"
     },
     {
-      "name": "RasoulallahTv (1080p)",
+      "name": "Ran TV Israel (720p)",
       "tvg": {
-        "id": "RasoulallahTv.ir",
+        "id": "RanTVIsrael.il",
         "name": "",
-        "logo": "https://i.imgur.com/Jh5ADee.png",
+        "logo": "https://i.ibb.co/yhY2TD5/IMG-20230629-135926.jpg",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Religious"
+        "title": "Entertainment"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://avr.host247.net/live/rasoulallahtv/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"RasoulallahTv.ir\" tvg-logo=\"https://i.imgur.com/Jh5ADee.png\" group-title=\"Religious\",RasoulallahTv (1080p)\r\r\nhttps://avr.host247.net/live/rasoulallahtv/playlist.m3u8\r",
-      "line": 240,
+      "url": "https://streaminglive.co.il:3730/live/raniamranilive.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"RanTVIsrael.il\" tvg-logo=\"https://i.ibb.co/yhY2TD5/IMG-20230629-135926.jpg\" group-title=\"Entertainment\",Ran TV Israel (720p)\r\r\nhttps://streaminglive.co.il:3730/live/raniamranilive.m3u8\r",
+      "line": 238,
       "catchup": {
         "type": "",
         "days": "",
@@ -2077,34 +1937,6 @@
       "status": "OK"
     },
     {
-      "name": "Semnan",
-      "tvg": {
-        "id": "SemnanTV.ir",
-        "name": "",
-        "logo": "https://upload.wikimedia.org/wikipedia/fa/3/35/Semnan_TV.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://ncdn.telewebion.com/semnan/live/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"SemnanTV.ir\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/fa/3/35/Semnan_TV.png\" group-title=\"Undefined\",Semnan\r\r\nhttps://ncdn.telewebion.com/semnan/live/playlist.m3u8\r",
-      "line": 250,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Salamat",
       "tvg": {
         "id": "SalamatTV.ir",
@@ -2124,6 +1956,34 @@
       "url": "https://lenz.splus.ir/PLTV/88888888/224/3221226152/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"SalamatTV.ir\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/fa/f/f0/IRIB_Salamat_Logo.png\" group-title=\"Undefined\",Salamat\r\r\nhttps://lenz.splus.ir/PLTV/88888888/224/3221226152/index.m3u8\r",
       "line": 248,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Semnan",
+      "tvg": {
+        "id": "SemnanTV.ir",
+        "name": "",
+        "logo": "https://upload.wikimedia.org/wikipedia/fa/3/35/Semnan_TV.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://ncdn.telewebion.com/semnan/live/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"SemnanTV.ir\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/fa/3/35/Semnan_TV.png\" group-title=\"Undefined\",Semnan\r\r\nhttps://ncdn.telewebion.com/semnan/live/playlist.m3u8\r",
+      "line": 250,
       "catchup": {
         "type": "",
         "days": "",
@@ -2273,34 +2133,6 @@
       "status": "OK"
     },
     {
-      "name": "Tabarestan",
-      "tvg": {
-        "id": "TabarestanTV.ir",
-        "name": "",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/IRIB_Mazandaran_Last_Orange_Logo.png/240px-IRIB_Mazandaran_Last_Orange_Logo.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://ncdn.telewebion.com/tabarestan/live/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TabarestanTV.ir\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/IRIB_Mazandaran_Last_Orange_Logo.png/240px-IRIB_Mazandaran_Last_Orange_Logo.png\" group-title=\"General\",Tabarestan\r\r\nhttps://ncdn.telewebion.com/tabarestan/live/playlist.m3u8\r",
-      "line": 262,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "TM TV (720p)",
       "tvg": {
         "id": "TMTV.us",
@@ -2320,34 +2152,6 @@
       "url": "https://hls.tmtv.live/hls/stream.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TMTV.us\" tvg-logo=\"https://tmlive.tv/wp-content/uploads/2018/07/immigration-consultants-network-en-.png\" group-title=\"General\",TM TV (720p)\r\r\nhttps://hls.tmtv.live/hls/stream.m3u8\r",
       "line": 270,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Tamasha",
-      "tvg": {
-        "id": "Tamasha.ir",
-        "name": "",
-        "logo": "https://upload.wikimedia.org/wikipedia/fa/thumb/f/f2/IRIB_tamashaTV.svg/240px-IRIB_tamashaTV.svg.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://lenz.splus.ir/PLTV/88888888/224/3221226879/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Tamasha.ir\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/fa/thumb/f/f2/IRIB_tamashaTV.svg/240px-IRIB_tamashaTV.svg.png\" group-title=\"Undefined\",Tamasha\r\r\nhttps://lenz.splus.ir/PLTV/88888888/224/3221226879/index.m3u8\r",
-      "line": 264,
       "catchup": {
         "type": "",
         "days": "",
@@ -2385,25 +2189,25 @@
       "status": "OK"
     },
     {
-      "name": "VOX1 (720p) [Not 24/7]",
+      "name": "Tabarestan",
       "tvg": {
-        "id": "VOX1.ir",
+        "id": "TabarestanTV.ir",
         "name": "",
-        "logo": "https://i.imgur.com/YtCmlNT.png",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/IRIB_Mazandaran_Last_Orange_Logo.png/240px-IRIB_Mazandaran_Last_Orange_Logo.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Entertainment"
+        "title": "General"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://hls.vox1.live/hls/stream.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"VOX1.ir\" tvg-logo=\"https://i.imgur.com/YtCmlNT.png\" group-title=\"Entertainment\",VOX1 (720p) [Not 24/7]\r\r\nhttps://hls.vox1.live/hls/stream.m3u8\r",
-      "line": 278,
+      "url": "https://ncdn.telewebion.com/tabarestan/live/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"TabarestanTV.ir\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/IRIB_Mazandaran_Last_Orange_Logo.png/240px-IRIB_Mazandaran_Last_Orange_Logo.png\" group-title=\"General\",Tabarestan\r\r\nhttps://ncdn.telewebion.com/tabarestan/live/playlist.m3u8\r",
+      "line": 262,
       "catchup": {
         "type": "",
         "days": "",
@@ -2441,6 +2245,62 @@
       "status": "OK"
     },
     {
+      "name": "Tamasha",
+      "tvg": {
+        "id": "Tamasha.ir",
+        "name": "",
+        "logo": "https://upload.wikimedia.org/wikipedia/fa/thumb/f/f2/IRIB_tamashaTV.svg/240px-IRIB_tamashaTV.svg.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://lenz.splus.ir/PLTV/88888888/224/3221226879/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Tamasha.ir\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/fa/thumb/f/f2/IRIB_tamashaTV.svg/240px-IRIB_tamashaTV.svg.png\" group-title=\"Undefined\",Tamasha\r\r\nhttps://lenz.splus.ir/PLTV/88888888/224/3221226879/index.m3u8\r",
+      "line": 264,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "VOX1 (720p) [Not 24/7]",
+      "tvg": {
+        "id": "VOX1.ir",
+        "name": "",
+        "logo": "https://i.imgur.com/YtCmlNT.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Entertainment"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://hls.vox1.live/hls/stream.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"VOX1.ir\" tvg-logo=\"https://i.imgur.com/YtCmlNT.png\" group-title=\"Entertainment\",VOX1 (720p) [Not 24/7]\r\r\nhttps://hls.vox1.live/hls/stream.m3u8\r",
+      "line": 278,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "WiseHumanTv (720p)",
       "tvg": {
         "id": "WiseHumanTv.ir",
@@ -2469,34 +2329,6 @@
       "status": "OK"
     },
     {
-      "name": "YourTime TV (720p) [Not 24/7]",
-      "tvg": {
-        "id": "YourTimeTV.ir",
-        "name": "",
-        "logo": "https://i.imgur.com/X38vWJ1.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Entertainment"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://hls.yourtime.live/hls/stream.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"YourTimeTV.ir\" tvg-logo=\"https://i.imgur.com/X38vWJ1.png\" group-title=\"Entertainment\",YourTime TV (720p) [Not 24/7]\r\r\nhttps://hls.yourtime.live/hls/stream.m3u8\r",
-      "line": 284,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Varzesh TV (480p)",
       "tvg": {
         "id": "VarzeshTV.ir",
@@ -2516,6 +2348,34 @@
       "url": "https://stream.sainaertebat.com/hls2/varzeshtest.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"VarzeshTV.ir\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/fa/thumb/f/f5/Iribvarzesh2022.png/240px-Iribvarzesh2022.png\" group-title=\"Undefined\",Varzesh TV (480p)\r\r\nhttps://stream.sainaertebat.com/hls2/varzeshtest.m3u8\r",
       "line": 276,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "YourTime TV (720p) [Not 24/7]",
+      "tvg": {
+        "id": "YourTimeTV.ir",
+        "name": "",
+        "logo": "https://i.imgur.com/X38vWJ1.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Entertainment"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://hls.yourtime.live/hls/stream.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"YourTimeTV.ir\" tvg-logo=\"https://i.imgur.com/X38vWJ1.png\" group-title=\"Entertainment\",YourTime TV (720p) [Not 24/7]\r\r\nhttps://hls.yourtime.live/hls/stream.m3u8\r",
+      "line": 284,
       "catchup": {
         "type": "",
         "days": "",
