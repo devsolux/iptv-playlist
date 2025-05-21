@@ -5,11 +5,11 @@
   },
   "items": [
     {
-      "name": "Central TV (1080p)",
+      "name": "C1 (1080p)",
       "tvg": {
-        "id": "CentralTV.mn",
+        "id": "C1.mn",
         "name": "",
-        "logo": "https://i.imgur.com/E9wAUrT.png",
+        "logo": "https://i.imgur.com/v1mHG5x.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -21,9 +21,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://cdn3.skygo.mn/live/disk1/Ekh_Oron/HLS-FTA/Ekh_Oron.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"CentralTV.mn\" tvg-logo=\"https://i.imgur.com/E9wAUrT.png\" group-title=\"General\",Central TV (1080p)\r\r\nhttps://cdn3.skygo.mn/live/disk1/Ekh_Oron/HLS-FTA/Ekh_Oron.m3u8\r",
-      "line": 12,
+      "url": "https://cdn2.skygo.mn/live/disk1/C1/HLS-FTA/C1.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"C1.mn\" tvg-logo=\"https://i.imgur.com/v1mHG5x.png\" group-title=\"General\",C1 (1080p)\r\r\nhttps://cdn2.skygo.mn/live/disk1/C1/HLS-FTA/C1.m3u8\r",
+      "line": 10,
       "catchup": {
         "type": "",
         "days": "",
@@ -61,11 +61,11 @@
       "status": "OK"
     },
     {
-      "name": "C1 (1080p)",
+      "name": "Central TV (1080p)",
       "tvg": {
-        "id": "C1.mn",
+        "id": "CentralTV.mn",
         "name": "",
-        "logo": "https://i.imgur.com/v1mHG5x.png",
+        "logo": "https://i.imgur.com/E9wAUrT.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -77,9 +77,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://cdn2.skygo.mn/live/disk1/C1/HLS-FTA/C1.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"C1.mn\" tvg-logo=\"https://i.imgur.com/v1mHG5x.png\" group-title=\"General\",C1 (1080p)\r\r\nhttps://cdn2.skygo.mn/live/disk1/C1/HLS-FTA/C1.m3u8\r",
-      "line": 10,
+      "url": "https://cdn3.skygo.mn/live/disk1/Ekh_Oron/HLS-FTA/Ekh_Oron.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"CentralTV.mn\" tvg-logo=\"https://i.imgur.com/E9wAUrT.png\" group-title=\"General\",Central TV (1080p)\r\r\nhttps://cdn3.skygo.mn/live/disk1/Ekh_Oron/HLS-FTA/Ekh_Oron.m3u8\r",
+      "line": 12,
       "catchup": {
         "type": "",
         "days": "",
@@ -257,34 +257,6 @@
       "status": "OK"
     },
     {
-      "name": "MNB Монголын Мэдээ (1080p)",
-      "tvg": {
-        "id": "MNBMongoliinMedee.mn",
-        "name": "",
-        "logo": "https://i.imgur.com/KUvJzUD.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://cdn3.skygo.mn/live/disk1/MNB2/DASH-FTA/MNB2.mpd",
-      "raw": "#EXTINF:-1 tvg-id=\"MNBMongoliinMedee.mn\" tvg-logo=\"https://i.imgur.com/KUvJzUD.png\" group-title=\"Undefined\",MNB Монголын Мэдээ (1080p)\r\r\nhttps://cdn3.skygo.mn/live/disk1/MNB2/DASH-FTA/MNB2.mpd\r",
-      "line": 32,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "MovieBox (1080p)",
       "tvg": {
         "id": "MovieBox.mn",
@@ -304,6 +276,34 @@
       "url": "https://cdn3.skygo.mn/live/disk1/Moviebox/HLS-FTA/Moviebox.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"MovieBox.mn\" tvg-logo=\"https://i.imgur.com/xeO1Zb4.png\" group-title=\"Movies\",MovieBox (1080p)\r\r\nhttps://cdn3.skygo.mn/live/disk1/Moviebox/HLS-FTA/Moviebox.m3u8\r",
       "line": 34,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "MNB Монголын Мэдээ (1080p)",
+      "tvg": {
+        "id": "MNBMongoliinMedee.mn",
+        "name": "",
+        "logo": "https://i.imgur.com/KUvJzUD.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://cdn3.skygo.mn/live/disk1/MNB2/DASH-FTA/MNB2.mpd",
+      "raw": "#EXTINF:-1 tvg-id=\"MNBMongoliinMedee.mn\" tvg-logo=\"https://i.imgur.com/KUvJzUD.png\" group-title=\"Undefined\",MNB Монголын Мэдээ (1080p)\r\r\nhttps://cdn3.skygo.mn/live/disk1/MNB2/DASH-FTA/MNB2.mpd\r",
+      "line": 32,
       "catchup": {
         "type": "",
         "days": "",
@@ -341,34 +341,6 @@
       "status": "OK"
     },
     {
-      "name": "TV5 (1080p)",
-      "tvg": {
-        "id": "TV5.mn",
-        "name": "",
-        "logo": "https://i.imgur.com/asGQfGN.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://10st.vcast.im/MYASIATV/TV5/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TV5.mn\" tvg-logo=\"https://i.imgur.com/asGQfGN.png\" group-title=\"General\",TV5 (1080p)\r\r\nhttps://10st.vcast.im/MYASIATV/TV5/playlist.m3u8\r",
-      "line": 44,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "SBN (1080p)",
       "tvg": {
         "id": "SBN.mn",
@@ -397,34 +369,6 @@
       "status": "OK"
     },
     {
-      "name": "NTV (1080p)",
-      "tvg": {
-        "id": "NTV.mn",
-        "name": "",
-        "logo": "https://i.imgur.com/2JbqbPY.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://cdn2.skygo.mn/live/disk1/NTVHD/DASH-FTA/NTVHD.mpd",
-      "raw": "#EXTINF:-1 tvg-id=\"NTV.mn\" tvg-logo=\"https://i.imgur.com/2JbqbPY.png\" group-title=\"General\",NTV (1080p)\r\r\nhttps://cdn2.skygo.mn/live/disk1/NTVHD/DASH-FTA/NTVHD.mpd\r",
-      "line": 36,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "TV8 (1080p)",
       "tvg": {
         "id": "TV8.mn",
@@ -444,6 +388,34 @@
       "url": "https://cdn3.skygo.mn/live/disk1/TV8HD/HLS-FTA/TV8HD.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TV8.mn\" tvg-logo=\"https://i.imgur.com/EguOdxW.png\" group-title=\"General\",TV8 (1080p)\r\r\nhttps://cdn3.skygo.mn/live/disk1/TV8HD/HLS-FTA/TV8HD.m3u8\r",
       "line": 48,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "NTV (1080p)",
+      "tvg": {
+        "id": "NTV.mn",
+        "name": "",
+        "logo": "https://i.imgur.com/2JbqbPY.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://cdn2.skygo.mn/live/disk1/NTVHD/DASH-FTA/NTVHD.mpd",
+      "raw": "#EXTINF:-1 tvg-id=\"NTV.mn\" tvg-logo=\"https://i.imgur.com/2JbqbPY.png\" group-title=\"General\",NTV (1080p)\r\r\nhttps://cdn2.skygo.mn/live/disk1/NTVHD/DASH-FTA/NTVHD.mpd\r",
+      "line": 36,
       "catchup": {
         "type": "",
         "days": "",
