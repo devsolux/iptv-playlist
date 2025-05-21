@@ -33,34 +33,6 @@
       "status": "OK"
     },
     {
-      "name": "2TV (720p)",
-      "tvg": {
-        "id": "2TV.ge",
-        "name": "",
-        "logo": "https://i.imgur.com/FJBL6zI.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://tv.cdn.xsg.ge/gpb-2tv/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"2TV.ge\" tvg-logo=\"https://i.imgur.com/FJBL6zI.png\" group-title=\"General\",2TV (720p)\r\r\nhttps://tv.cdn.xsg.ge/gpb-2tv/index.m3u8\r",
-      "line": 4,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "1TV (720p)",
       "tvg": {
         "id": "1TV.ge",
@@ -89,11 +61,11 @@
       "status": "OK"
     },
     {
-      "name": "GDS TV",
+      "name": "2TV (720p)",
       "tvg": {
-        "id": "GDSTV.ge",
+        "id": "2TV.ge",
         "name": "",
-        "logo": "https://i.imgur.com/gv61tFf.png",
+        "logo": "https://i.imgur.com/FJBL6zI.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -105,9 +77,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "http://31.146.5.178:8087/play/a00a/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"GDSTV.ge\" tvg-logo=\"https://i.imgur.com/gv61tFf.png\" group-title=\"General\",GDS TV\r\r\nhttp://31.146.5.178:8087/play/a00a/index.m3u8\r",
-      "line": 31,
+      "url": "https://tv.cdn.xsg.ge/gpb-2tv/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"2TV.ge\" tvg-logo=\"https://i.imgur.com/FJBL6zI.png\" group-title=\"General\",2TV (720p)\r\r\nhttps://tv.cdn.xsg.ge/gpb-2tv/index.m3u8\r",
+      "line": 4,
       "catchup": {
         "type": "",
         "days": "",
@@ -117,25 +89,25 @@
       "status": "OK"
     },
     {
-      "name": "Formula (1080p)",
+      "name": "Ertsulovneba",
       "tvg": {
-        "id": "Formula.ge",
+        "id": "Ertsulovneba.ge@SD",
         "name": "",
-        "logo": "https://i.imgur.com/fsqBn8G.png",
+        "logo": "https://i.imgur.com/KuuODMM.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "News"
+        "title": "Religious"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://c4635.cdn.xsg.ge/c4635/TVFormula/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Formula.ge\" tvg-logo=\"https://i.imgur.com/fsqBn8G.png\" group-title=\"News\",Formula (1080p)\r\r\nhttps://c4635.cdn.xsg.ge/c4635/TVFormula/index.m3u8\r",
-      "line": 29,
+      "url": "https://stream.sstv.ge/live/sstv/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Ertsulovneba.ge@SD\" tvg-logo=\"https://i.imgur.com/KuuODMM.png\" group-title=\"Religious\",Ertsulovneba\r\r\nhttps://stream.sstv.ge/live/sstv/playlist.m3u8\r",
+      "line": 19,
       "catchup": {
         "type": "",
         "days": "",
@@ -163,7 +135,35 @@
       },
       "url": "https://tv.cdn.xsg.ge/imedihd/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"ImediTV.ge\" tvg-logo=\"https://i.imgur.com/94hNyxZ.png\" group-title=\"General\",Imedi TV (1080p)\r\r\nhttps://tv.cdn.xsg.ge/imedihd/index.m3u8\r",
-      "line": 35,
+      "line": 37,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "GDS TV",
+      "tvg": {
+        "id": "GDSTV.ge",
+        "name": "",
+        "logo": "https://i.imgur.com/gv61tFf.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://31.146.5.178:8087/play/a00a/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"GDSTV.ge\" tvg-logo=\"https://i.imgur.com/gv61tFf.png\" group-title=\"General\",GDS TV\r\r\nhttp://31.146.5.178:8087/play/a00a/index.m3u8\r",
+      "line": 33,
       "catchup": {
         "type": "",
         "days": "",
@@ -191,7 +191,7 @@
       },
       "url": "https://live.palitranews.ge/hls/palitratv/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"PalitraNews.ge\" tvg-logo=\"https://i.imgur.com/BW95PMF.png\" group-title=\"News\",Palitra News (480p) [Not 24/7]\r\r\nhttps://live.palitranews.ge/hls/palitratv/index.m3u8\r",
-      "line": 45,
+      "line": 47,
       "catchup": {
         "type": "",
         "days": "",
@@ -219,7 +219,35 @@
       },
       "url": "http://31.146.5.178:8087/play/a008/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"Rustavi2.ge\" tvg-logo=\"https://i.imgur.com/rPqd1Cx.png\" group-title=\"Undefined\",Rustavi 2\r\r\nhttp://31.146.5.178:8087/play/a008/index.m3u8\r",
-      "line": 67,
+      "line": 69,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Formula (1080p)",
+      "tvg": {
+        "id": "Formula.ge",
+        "name": "",
+        "logo": "https://i.imgur.com/fsqBn8G.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "News"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://c4635.cdn.xsg.ge/c4635/TVFormula/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Formula.ge\" tvg-logo=\"https://i.imgur.com/fsqBn8G.png\" group-title=\"News\",Formula (1080p)\r\r\nhttps://c4635.cdn.xsg.ge/c4635/TVFormula/index.m3u8\r",
+      "line": 31,
       "catchup": {
         "type": "",
         "days": "",
@@ -247,7 +275,7 @@
       },
       "url": "http://31.146.5.178:8087/play/a009/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TVC.ge\" tvg-logo=\"https://sul.ge/images/televizia/tvc.png\" group-title=\"General\",TVC (1080p)\r\r\nhttp://31.146.5.178:8087/play/a009/index.m3u8\r",
-      "line": 83,
+      "line": 85,
       "catchup": {
         "type": "",
         "days": "",
