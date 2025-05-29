@@ -5,6 +5,34 @@
   },
   "items": [
     {
+      "name": "Kanal Hovedstaden (720p) [Not 24/7]",
+      "tvg": {
+        "id": "KanalHovedstaden.dk",
+        "name": "",
+        "logo": "https://i.imgur.com/afujBQs.jpeg",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://khkbh.dk:8080/hls/livestream/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"KanalHovedstaden.dk\" tvg-logo=\"https://i.imgur.com/afujBQs.jpeg\" group-title=\"General\",Kanal Hovedstaden (720p) [Not 24/7]\r\r\nhttp://khkbh.dk:8080/hls/livestream/index.m3u8\r",
+      "line": 45,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Folketinget (1080p) [Not 24/7]",
       "tvg": {
         "id": "TVfromtheDanishParliament.dk",
@@ -33,25 +61,25 @@
       "status": "OK"
     },
     {
-      "name": "Kanal Hovedstaden (720p) [Not 24/7]",
+      "name": "TV2/Bornholm (1080p) [Not 24/7]",
       "tvg": {
-        "id": "KanalHovedstaden.dk",
+        "id": "TV2Bornholm.dk",
         "name": "",
-        "logo": "https://i.imgur.com/afujBQs.jpeg",
+        "logo": "https://i.imgur.com/cEOpXU6.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "General"
+        "title": "Undefined"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "http://khkbh.dk:8080/hls/livestream/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"KanalHovedstaden.dk\" tvg-logo=\"https://i.imgur.com/afujBQs.jpeg\" group-title=\"General\",Kanal Hovedstaden (720p) [Not 24/7]\r\r\nhttp://khkbh.dk:8080/hls/livestream/index.m3u8\r",
-      "line": 45,
+      "url": "https://cdn-akamai-live.tv2bornholm.dk/stream/live/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"TV2Bornholm.dk\" tvg-logo=\"https://i.imgur.com/cEOpXU6.png\" group-title=\"Undefined\",TV2/Bornholm (1080p) [Not 24/7]\r\r\nhttps://cdn-akamai-live.tv2bornholm.dk/stream/live/playlist.m3u8\r",
+      "line": 99,
       "catchup": {
         "type": "",
         "days": "",
@@ -89,34 +117,6 @@
       "status": "OK"
     },
     {
-      "name": "TV2/Bornholm (1080p) [Not 24/7]",
-      "tvg": {
-        "id": "TV2Bornholm.dk",
-        "name": "",
-        "logo": "https://i.imgur.com/cEOpXU6.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://cdn-akamai-live.tv2bornholm.dk/stream/live/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TV2Bornholm.dk\" tvg-logo=\"https://i.imgur.com/cEOpXU6.png\" group-title=\"Undefined\",TV2/Bornholm (1080p) [Not 24/7]\r\r\nhttps://cdn-akamai-live.tv2bornholm.dk/stream/live/playlist.m3u8\r",
-      "line": 95,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "TVMarineret (1080p)",
       "tvg": {
         "id": "TVMarineret.dk",
@@ -135,7 +135,7 @@
       },
       "url": "http://sdream.info:8080/hls/livestream/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TVMarineret.dk\" tvg-logo=\"https://i.imgur.com/r1Caske.jpg\" group-title=\"General\",TVMarineret (1080p)\r\r\nhttp://sdream.info:8080/hls/livestream/index.m3u8\r",
-      "line": 115,
+      "line": 119,
       "catchup": {
         "type": "",
         "days": "",
