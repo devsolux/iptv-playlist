@@ -5,6 +5,34 @@
   },
   "items": [
     {
+      "name": "Eden TV (540p) [Not 24/7]",
+      "tvg": {
+        "id": "EdenTV.bj",
+        "name": "",
+        "logo": "https://i.imgur.com/4ClnG0x.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://rtmp.edentv.bj/hls/stream.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"EdenTV.bj\" tvg-logo=\"https://i.imgur.com/4ClnG0x.png\" group-title=\"General\",Eden TV (540p) [Not 24/7]\r\r\nhttps://rtmp.edentv.bj/hls/stream.m3u8\r",
+      "line": 32,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Bénin Web TV (720p)",
       "tvg": {
         "id": "BeninWebTV.bj",
@@ -24,34 +52,6 @@
       "url": "https://stream.beninwebtv.bj/2/live/stream.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"BeninWebTV.bj\" tvg-logo=\"https://i.imgur.com/CYy4n0N.png\" group-title=\"News\",Bénin Web TV (720p)\r\r\nhttps://stream.beninwebtv.bj/2/live/stream.m3u8\r",
       "line": 20,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Etélé (360p) [Not 24/7]",
-      "tvg": {
-        "id": "Etele.bj",
-        "name": "",
-        "logo": "https://i.imgur.com/y1eg7OC.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://livetvsteam.com:1936/etelebenin/etelebenin/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Etele.bj\" tvg-logo=\"https://i.imgur.com/y1eg7OC.png\" group-title=\"General\",Etélé (360p) [Not 24/7]\r\r\nhttps://livetvsteam.com:1936/etelebenin/etelebenin/playlist.m3u8\r",
-      "line": 34,
       "catchup": {
         "type": "",
         "days": "",
@@ -89,11 +89,11 @@
       "status": "OK"
     },
     {
-      "name": "Eden TV (540p) [Not 24/7]",
+      "name": "Etélé (360p) [Not 24/7]",
       "tvg": {
-        "id": "EdenTV.bj",
+        "id": "Etele.bj",
         "name": "",
-        "logo": "https://i.imgur.com/4ClnG0x.png",
+        "logo": "https://i.imgur.com/y1eg7OC.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -105,9 +105,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://rtmp.edentv.bj/hls/stream.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"EdenTV.bj\" tvg-logo=\"https://i.imgur.com/4ClnG0x.png\" group-title=\"General\",Eden TV (540p) [Not 24/7]\r\r\nhttps://rtmp.edentv.bj/hls/stream.m3u8\r",
-      "line": 32,
+      "url": "https://livetvsteam.com:1936/etelebenin/etelebenin/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Etele.bj\" tvg-logo=\"https://i.imgur.com/y1eg7OC.png\" group-title=\"General\",Etélé (360p) [Not 24/7]\r\r\nhttps://livetvsteam.com:1936/etelebenin/etelebenin/playlist.m3u8\r",
+      "line": 34,
       "catchup": {
         "type": "",
         "days": "",
