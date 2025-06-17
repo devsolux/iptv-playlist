@@ -61,34 +61,6 @@
       "status": "OK"
     },
     {
-      "name": "Bandung TV (360p)",
-      "tvg": {
-        "id": "BandungTV.id",
-        "name": "",
-        "logo": "https://i.postimg.cc/JzqSzcj9/200px-Logo-bdg-tv-2016.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://202.150.153.254:65500/bandungtvWEBSITE.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"BandungTV.id\" tvg-logo=\"https://i.postimg.cc/JzqSzcj9/200px-Logo-bdg-tv-2016.png\" group-title=\"Undefined\",Bandung TV (360p)\r\r\nhttp://202.150.153.254:65500/bandungtvWEBSITE.m3u8\r",
-      "line": 16,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Banten TV (720p) [Not 24/7]",
       "tvg": {
         "id": "BantenTV.id",
@@ -257,6 +229,34 @@
       "status": "OK"
     },
     {
+      "name": "CNBC Indonesia (720p)",
+      "tvg": {
+        "id": "CNBCIndonesia.id",
+        "name": "",
+        "logo": "https://i.imgur.com/bUfeG7Y.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Business"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://live.cnbcindonesia.com/livecnbc/smil:cnbctv.smil/master.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"CNBCIndonesia.id\" tvg-logo=\"https://i.imgur.com/bUfeG7Y.png\" group-title=\"Business\",CNBC Indonesia (720p)\r\r\nhttps://live.cnbcindonesia.com/livecnbc/smil:cnbctv.smil/master.m3u8\r",
+      "line": 56,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Dhamma TV (720p) [Not 24/7]",
       "tvg": {
         "id": "DhammaTV.id",
@@ -285,25 +285,25 @@
       "status": "OK"
     },
     {
-      "name": "CNBC Indonesia (720p)",
+      "name": "DM TV Malang",
       "tvg": {
-        "id": "CNBCIndonesia.id",
+        "id": "DMTVMalang.id@SD",
         "name": "",
-        "logo": "https://i.imgur.com/bUfeG7Y.png",
+        "logo": "https://i.imgur.com/3iC41QX.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Business"
+        "title": "General"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://live.cnbcindonesia.com/livecnbc/smil:cnbctv.smil/master.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"CNBCIndonesia.id\" tvg-logo=\"https://i.imgur.com/bUfeG7Y.png\" group-title=\"Business\",CNBC Indonesia (720p)\r\r\nhttps://live.cnbcindonesia.com/livecnbc/smil:cnbctv.smil/master.m3u8\r",
-      "line": 56,
+      "url": "https://e.siar.us/live/dmtv.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"DMTVMalang.id@SD\" tvg-logo=\"https://i.imgur.com/3iC41QX.png\" group-title=\"General\",DM TV Malang\r\r\nhttps://e.siar.us/live/dmtv.m3u8\r",
+      "line": 68,
       "catchup": {
         "type": "",
         "days": "",
@@ -341,11 +341,11 @@
       "status": "OK"
     },
     {
-      "name": "DM TV Malang",
+      "name": "Duta TV (360p) [Not 24/7]",
       "tvg": {
-        "id": "DMTVMalang.id@SD",
+        "id": "DutaTV.id",
         "name": "",
-        "logo": "https://i.imgur.com/3iC41QX.png",
+        "logo": "https://i.imgur.com/B4JW54M.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -357,9 +357,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://e.siar.us/live/dmtv.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"DMTVMalang.id@SD\" tvg-logo=\"https://i.imgur.com/3iC41QX.png\" group-title=\"General\",DM TV Malang\r\r\nhttps://e.siar.us/live/dmtv.m3u8\r",
-      "line": 68,
+      "url": "https://dutatv.siar.us/dutatv/live/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"DutaTV.id\" tvg-logo=\"https://i.imgur.com/B4JW54M.png\" group-title=\"General\",Duta TV (360p) [Not 24/7]\r\r\nhttps://dutatv.siar.us/dutatv/live/playlist.m3u8\r",
+      "line": 74,
       "catchup": {
         "type": "",
         "days": "",
@@ -425,6 +425,34 @@
       "status": "OK"
     },
     {
+      "name": "Bandung TV (360p)",
+      "tvg": {
+        "id": "BandungTV.id",
+        "name": "",
+        "logo": "https://i.postimg.cc/JzqSzcj9/200px-Logo-bdg-tv-2016.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://202.150.153.254:65500/bandungtvWEBSITE.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"BandungTV.id\" tvg-logo=\"https://i.postimg.cc/JzqSzcj9/200px-Logo-bdg-tv-2016.png\" group-title=\"Undefined\",Bandung TV (360p)\r\r\nhttp://202.150.153.254:65500/bandungtvWEBSITE.m3u8\r",
+      "line": 16,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Inspira TV (720p) [Not 24/7]",
       "tvg": {
         "id": "InspiraTV.id",
@@ -444,34 +472,6 @@
       "url": "https://inspiratv.siar.us/inspiratv/live/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"InspiraTV.id\" tvg-logo=\"https://i.imgur.com/BF5orkg.png\" group-title=\"General\",Inspira TV (720p) [Not 24/7]\r\r\nhttps://inspiratv.siar.us/inspiratv/live/playlist.m3u8\r",
       "line": 106,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Izzah TV (480p)",
-      "tvg": {
-        "id": "IzzahTV.id",
-        "name": "",
-        "logo": "https://i.imgur.com/my7aqLc.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Religious"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://streaming.radiosalamjambi.com/izzahtv.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"IzzahTV.id\" tvg-logo=\"https://i.imgur.com/my7aqLc.png\" group-title=\"Religious\",Izzah TV (480p)\r\r\nhttps://streaming.radiosalamjambi.com/izzahtv.m3u8\r",
-      "line": 108,
       "catchup": {
         "type": "",
         "days": "",
@@ -873,34 +873,6 @@
       "status": "OK"
     },
     {
-      "name": "TVRI Bangka Belitung (480p)",
-      "tvg": {
-        "id": "TVRI.id@BangkaBelitung",
-        "name": "",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/TVRILogo2019.svg/512px-TVRILogo2019.svg.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://ott-balancer.tvri.go.id/live/eds/Babel/hls/Babel.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TVRI.id@BangkaBelitung\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/TVRILogo2019.svg/512px-TVRILogo2019.svg.png\" group-title=\"General\",TVRI Bangka Belitung (480p)\r\r\nhttps://ott-balancer.tvri.go.id/live/eds/Babel/hls/Babel.m3u8\r",
-      "line": 250,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "TVRI Aceh (720p)",
       "tvg": {
         "id": "TVRI.id@Aceh",
@@ -920,62 +892,6 @@
       "url": "https://ott-balancer.tvri.go.id/live/eds/Aceh/hls/Aceh.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TVRI.id@Aceh\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/TVRILogo2019.svg/512px-TVRILogo2019.svg.png\" group-title=\"General\",TVRI Aceh (720p)\r\r\nhttps://ott-balancer.tvri.go.id/live/eds/Aceh/hls/Aceh.m3u8\r",
       "line": 246,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "TVRI Bali (480p)",
-      "tvg": {
-        "id": "TVRI.id@Bali",
-        "name": "",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/TVRILogo2019.svg/512px-TVRILogo2019.svg.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://ott-balancer.tvri.go.id/live/eds/Bali/hls/Bali.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TVRI.id@Bali\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/TVRILogo2019.svg/512px-TVRILogo2019.svg.png\" group-title=\"General\",TVRI Bali (480p)\r\r\nhttps://ott-balancer.tvri.go.id/live/eds/Bali/hls/Bali.m3u8\r",
-      "line": 248,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "TVRI Jawa Barat (480p)",
-      "tvg": {
-        "id": "TVRI.id@WestJava",
-        "name": "",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/TVRILogo2019.svg/512px-TVRILogo2019.svg.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://ott-balancer.tvri.go.id/live/eds/Jabar/hls/Jabar.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TVRI.id@WestJava\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/TVRILogo2019.svg/512px-TVRILogo2019.svg.png\" group-title=\"General\",TVRI Jawa Barat (480p)\r\r\nhttps://ott-balancer.tvri.go.id/live/eds/Jabar/hls/Jabar.m3u8\r",
-      "line": 258,
       "catchup": {
         "type": "",
         "days": "",
@@ -1013,9 +929,9 @@
       "status": "OK"
     },
     {
-      "name": "TVRI Jambi (720p) [Not 24/7]",
+      "name": "TVRI Bali (480p)",
       "tvg": {
-        "id": "TVRI.id@Jambi",
+        "id": "TVRI.id@Bali",
         "name": "",
         "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/TVRILogo2019.svg/512px-TVRILogo2019.svg.png",
         "url": "",
@@ -1029,9 +945,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://ott-balancer.tvri.go.id/live/eds/Jambi/hls/Jambi.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TVRI.id@Jambi\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/TVRILogo2019.svg/512px-TVRILogo2019.svg.png\" group-title=\"General\",TVRI Jambi (720p) [Not 24/7]\r\r\nhttps://ott-balancer.tvri.go.id/live/eds/Jambi/hls/Jambi.m3u8\r",
-      "line": 256,
+      "url": "https://ott-balancer.tvri.go.id/live/eds/Bali/hls/Bali.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"TVRI.id@Bali\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/TVRILogo2019.svg/512px-TVRILogo2019.svg.png\" group-title=\"General\",TVRI Bali (480p)\r\r\nhttps://ott-balancer.tvri.go.id/live/eds/Bali/hls/Bali.m3u8\r",
+      "line": 248,
       "catchup": {
         "type": "",
         "days": "",
@@ -1069,9 +985,9 @@
       "status": "OK"
     },
     {
-      "name": "TVRI Kalimantan Barat (480p)",
+      "name": "TVRI Bangka Belitung (480p)",
       "tvg": {
-        "id": "TVRI.id@WestKalimantan",
+        "id": "TVRI.id@BangkaBelitung",
         "name": "",
         "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/TVRILogo2019.svg/512px-TVRILogo2019.svg.png",
         "url": "",
@@ -1085,9 +1001,65 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://ott-balancer.tvri.go.id/live/eds/Kalbar/hls/Kalbar.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TVRI.id@WestKalimantan\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/TVRILogo2019.svg/512px-TVRILogo2019.svg.png\" group-title=\"General\",TVRI Kalimantan Barat (480p)\r\r\nhttps://ott-balancer.tvri.go.id/live/eds/Kalbar/hls/Kalbar.m3u8\r",
-      "line": 264,
+      "url": "https://ott-balancer.tvri.go.id/live/eds/Babel/hls/Babel.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"TVRI.id@BangkaBelitung\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/TVRILogo2019.svg/512px-TVRILogo2019.svg.png\" group-title=\"General\",TVRI Bangka Belitung (480p)\r\r\nhttps://ott-balancer.tvri.go.id/live/eds/Babel/hls/Babel.m3u8\r",
+      "line": 250,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "TVRI Jambi (720p) [Not 24/7]",
+      "tvg": {
+        "id": "TVRI.id@Jambi",
+        "name": "",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/TVRILogo2019.svg/512px-TVRILogo2019.svg.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://ott-balancer.tvri.go.id/live/eds/Jambi/hls/Jambi.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"TVRI.id@Jambi\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/TVRILogo2019.svg/512px-TVRILogo2019.svg.png\" group-title=\"General\",TVRI Jambi (720p) [Not 24/7]\r\r\nhttps://ott-balancer.tvri.go.id/live/eds/Jambi/hls/Jambi.m3u8\r",
+      "line": 256,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "TVRI Jawa Barat (480p)",
+      "tvg": {
+        "id": "TVRI.id@WestJava",
+        "name": "",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/TVRILogo2019.svg/512px-TVRILogo2019.svg.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://ott-balancer.tvri.go.id/live/eds/Jabar/hls/Jabar.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"TVRI.id@WestJava\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/TVRILogo2019.svg/512px-TVRILogo2019.svg.png\" group-title=\"General\",TVRI Jawa Barat (480p)\r\r\nhttps://ott-balancer.tvri.go.id/live/eds/Jabar/hls/Jabar.m3u8\r",
+      "line": 258,
       "catchup": {
         "type": "",
         "days": "",
@@ -1125,34 +1097,6 @@
       "status": "OK"
     },
     {
-      "name": "TVRI Kalimantan Selatan (720p)",
-      "tvg": {
-        "id": "TVRI.id@SouthKalimantan",
-        "name": "",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/TVRILogo2019.svg/512px-TVRILogo2019.svg.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://ott-balancer.tvri.go.id/live/eds/Kalsel/hls/Kalsel.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TVRI.id@SouthKalimantan\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/TVRILogo2019.svg/512px-TVRILogo2019.svg.png\" group-title=\"General\",TVRI Kalimantan Selatan (720p)\r\r\nhttps://ott-balancer.tvri.go.id/live/eds/Kalsel/hls/Kalsel.m3u8\r",
-      "line": 266,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "TVRI Jawa Timur (720p)",
       "tvg": {
         "id": "TVRI.id@EastJava",
@@ -1181,9 +1125,9 @@
       "status": "OK"
     },
     {
-      "name": "TVRI Kalimantan Timur (720p)",
+      "name": "TVRI Kalimantan Barat (480p)",
       "tvg": {
-        "id": "TVRI.id@EastKalimantan",
+        "id": "TVRI.id@WestKalimantan",
         "name": "",
         "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/TVRILogo2019.svg/512px-TVRILogo2019.svg.png",
         "url": "",
@@ -1197,9 +1141,65 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://ott-balancer.tvri.go.id/live/eds/Kaltim/hls/Kaltim.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TVRI.id@EastKalimantan\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/TVRILogo2019.svg/512px-TVRILogo2019.svg.png\" group-title=\"General\",TVRI Kalimantan Timur (720p)\r\r\nhttps://ott-balancer.tvri.go.id/live/eds/Kaltim/hls/Kaltim.m3u8\r",
-      "line": 270,
+      "url": "https://ott-balancer.tvri.go.id/live/eds/Kalbar/hls/Kalbar.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"TVRI.id@WestKalimantan\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/TVRILogo2019.svg/512px-TVRILogo2019.svg.png\" group-title=\"General\",TVRI Kalimantan Barat (480p)\r\r\nhttps://ott-balancer.tvri.go.id/live/eds/Kalbar/hls/Kalbar.m3u8\r",
+      "line": 264,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "TVRI Kalimantan Selatan (720p)",
+      "tvg": {
+        "id": "TVRI.id@SouthKalimantan",
+        "name": "",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/TVRILogo2019.svg/512px-TVRILogo2019.svg.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://ott-balancer.tvri.go.id/live/eds/Kalsel/hls/Kalsel.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"TVRI.id@SouthKalimantan\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/TVRILogo2019.svg/512px-TVRILogo2019.svg.png\" group-title=\"General\",TVRI Kalimantan Selatan (720p)\r\r\nhttps://ott-balancer.tvri.go.id/live/eds/Kalsel/hls/Kalsel.m3u8\r",
+      "line": 266,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "TVRI Kalimantan Tengah (480p)",
+      "tvg": {
+        "id": "TVRI.id@CentralKalimantan",
+        "name": "",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/TVRILogo2019.svg/512px-TVRILogo2019.svg.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://ott-balancer.tvri.go.id/live/eds/Kalteng/hls/Kalteng.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"TVRI.id@CentralKalimantan\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/TVRILogo2019.svg/512px-TVRILogo2019.svg.png\" group-title=\"General\",TVRI Kalimantan Tengah (480p)\r\r\nhttps://ott-balancer.tvri.go.id/live/eds/Kalteng/hls/Kalteng.m3u8\r",
+      "line": 268,
       "catchup": {
         "type": "",
         "days": "",
@@ -1228,6 +1228,34 @@
       "url": "https://ott-balancer.tvri.go.id/live/eds/Lampung/hls/Lampung.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TVRI.id@Lampung\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/TVRILogo2019.svg/512px-TVRILogo2019.svg.png\" group-title=\"General\",TVRI Lampung (720p)\r\r\nhttps://ott-balancer.tvri.go.id/live/eds/Lampung/hls/Lampung.m3u8\r",
       "line": 272,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "TVRI Kalimantan Timur (720p)",
+      "tvg": {
+        "id": "TVRI.id@EastKalimantan",
+        "name": "",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/TVRILogo2019.svg/512px-TVRILogo2019.svg.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://ott-balancer.tvri.go.id/live/eds/Kaltim/hls/Kaltim.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"TVRI.id@EastKalimantan\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/TVRILogo2019.svg/512px-TVRILogo2019.svg.png\" group-title=\"General\",TVRI Kalimantan Timur (720p)\r\r\nhttps://ott-balancer.tvri.go.id/live/eds/Kaltim/hls/Kaltim.m3u8\r",
+      "line": 270,
       "catchup": {
         "type": "",
         "days": "",
@@ -1293,62 +1321,6 @@
       "status": "OK"
     },
     {
-      "name": "TVRI Kalimantan Tengah (480p)",
-      "tvg": {
-        "id": "TVRI.id@CentralKalimantan",
-        "name": "",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/TVRILogo2019.svg/512px-TVRILogo2019.svg.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://ott-balancer.tvri.go.id/live/eds/Kalteng/hls/Kalteng.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TVRI.id@CentralKalimantan\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/TVRILogo2019.svg/512px-TVRILogo2019.svg.png\" group-title=\"General\",TVRI Kalimantan Tengah (480p)\r\r\nhttps://ott-balancer.tvri.go.id/live/eds/Kalteng/hls/Kalteng.m3u8\r",
-      "line": 268,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "TVRI Papua (480p)",
-      "tvg": {
-        "id": "TVRI.id@Papua",
-        "name": "",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/TVRILogo2019.svg/512px-TVRILogo2019.svg.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://ott-balancer.tvri.go.id/live/eds/Papua/hls/Papua.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TVRI.id@Papua\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/TVRILogo2019.svg/512px-TVRILogo2019.svg.png\" group-title=\"General\",TVRI Papua (480p)\r\r\nhttps://ott-balancer.tvri.go.id/live/eds/Papua/hls/Papua.m3u8\r",
-      "line": 280,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "TVRI Nusa Tenggara Timur (480p)",
       "tvg": {
         "id": "TVRI.id@EastNusaTenggara",
@@ -1368,34 +1340,6 @@
       "url": "https://ott-balancer.tvri.go.id/live/eds/NTT/hls/NTT.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TVRI.id@EastNusaTenggara\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/TVRILogo2019.svg/512px-TVRILogo2019.svg.png\" group-title=\"General\",TVRI Nusa Tenggara Timur (480p)\r\r\nhttps://ott-balancer.tvri.go.id/live/eds/NTT/hls/NTT.m3u8\r",
       "line": 278,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "TVRI Sulawesi Selatan (480p)",
-      "tvg": {
-        "id": "TVRI.id@SouthSulawesi",
-        "name": "",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/TVRILogo2019.svg/512px-TVRILogo2019.svg.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://ott-balancer.tvri.go.id/live/eds/Sulsel/hls/Sulsel.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TVRI.id@SouthSulawesi\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/TVRILogo2019.svg/512px-TVRILogo2019.svg.png\" group-title=\"General\",TVRI Sulawesi Selatan (480p)\r\r\nhttps://ott-balancer.tvri.go.id/live/eds/Sulsel/hls/Sulsel.m3u8\r",
-      "line": 288,
       "catchup": {
         "type": "",
         "days": "",
@@ -1489,9 +1433,9 @@
       "status": "OK"
     },
     {
-      "name": "TVRI Sumatera Barat (720p)",
+      "name": "TVRI Sulawesi Selatan (480p)",
       "tvg": {
-        "id": "TVRI.id@WestSumatra",
+        "id": "TVRI.id@SouthSulawesi",
         "name": "",
         "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/TVRILogo2019.svg/512px-TVRILogo2019.svg.png",
         "url": "",
@@ -1505,9 +1449,37 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://ott-balancer.tvri.go.id/live/eds/Sumbar/hls/Sumbar.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TVRI.id@WestSumatra\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/TVRILogo2019.svg/512px-TVRILogo2019.svg.png\" group-title=\"General\",TVRI Sumatera Barat (720p)\r\r\nhttps://ott-balancer.tvri.go.id/live/eds/Sumbar/hls/Sumbar.m3u8\r",
-      "line": 294,
+      "url": "https://ott-balancer.tvri.go.id/live/eds/Sulsel/hls/Sulsel.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"TVRI.id@SouthSulawesi\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/TVRILogo2019.svg/512px-TVRILogo2019.svg.png\" group-title=\"General\",TVRI Sulawesi Selatan (480p)\r\r\nhttps://ott-balancer.tvri.go.id/live/eds/Sulsel/hls/Sulsel.m3u8\r",
+      "line": 288,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "TVRI Papua (480p)",
+      "tvg": {
+        "id": "TVRI.id@Papua",
+        "name": "",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/TVRILogo2019.svg/512px-TVRILogo2019.svg.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://ott-balancer.tvri.go.id/live/eds/Papua/hls/Papua.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"TVRI.id@Papua\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/TVRILogo2019.svg/512px-TVRILogo2019.svg.png\" group-title=\"General\",TVRI Papua (480p)\r\r\nhttps://ott-balancer.tvri.go.id/live/eds/Papua/hls/Papua.m3u8\r",
+      "line": 280,
       "catchup": {
         "type": "",
         "days": "",
@@ -1545,6 +1517,34 @@
       "status": "OK"
     },
     {
+      "name": "TVRI Sumatera Barat (720p)",
+      "tvg": {
+        "id": "TVRI.id@WestSumatra",
+        "name": "",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/TVRILogo2019.svg/512px-TVRILogo2019.svg.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://ott-balancer.tvri.go.id/live/eds/Sumbar/hls/Sumbar.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"TVRI.id@WestSumatra\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/TVRILogo2019.svg/512px-TVRILogo2019.svg.png\" group-title=\"General\",TVRI Sumatera Barat (720p)\r\r\nhttps://ott-balancer.tvri.go.id/live/eds/Sumbar/hls/Sumbar.m3u8\r",
+      "line": 294,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "TVRI Sulawesi Tenggara (480p)",
       "tvg": {
         "id": "TVRI.id@SoutheastSulawesi",
@@ -1564,34 +1564,6 @@
       "url": "https://ott-balancer.tvri.go.id/live/eds/Sultra/hls/Sultra.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TVRI.id@SoutheastSulawesi\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/TVRILogo2019.svg/512px-TVRILogo2019.svg.png\" group-title=\"General\",TVRI Sulawesi Tenggara (480p)\r\r\nhttps://ott-balancer.tvri.go.id/live/eds/Sultra/hls/Sultra.m3u8\r",
       "line": 292,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "TVRI World",
-      "tvg": {
-        "id": "TVRIWorld.id",
-        "name": "",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/TVRIWorld.png/512px-TVRIWorld.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://ott-balancer.tvri.go.id/live/eds/TVRIWorld/hls/TVRIWorld.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TVRIWorld.id\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/TVRIWorld.png/512px-TVRIWorld.png\" group-title=\"Undefined\",TVRI World\r\r\nhttps://ott-balancer.tvri.go.id/live/eds/TVRIWorld/hls/TVRIWorld.m3u8\r",
-      "line": 298,
       "catchup": {
         "type": "",
         "days": "",
@@ -1629,34 +1601,6 @@
       "status": "OK"
     },
     {
-      "name": "TVRI Sumatera Selatan (480p)",
-      "tvg": {
-        "id": "TVRI.id@SouthSumatra",
-        "name": "",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/TVRILogo2019.svg/512px-TVRILogo2019.svg.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://ott-balancer.tvri.go.id/live/eds/Sumsel/hls/Sumsel.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TVRI.id@SouthSumatra\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/TVRILogo2019.svg/512px-TVRILogo2019.svg.png\" group-title=\"General\",TVRI Sumatera Selatan (480p)\r\r\nhttps://ott-balancer.tvri.go.id/live/eds/Sumsel/hls/Sumsel.m3u8\r",
-      "line": 296,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Wesal TV (720p) [Not 24/7]",
       "tvg": {
         "id": "WesalTV.id",
@@ -1685,6 +1629,34 @@
       "status": "OK"
     },
     {
+      "name": "TVRI Sumatera Selatan (480p)",
+      "tvg": {
+        "id": "TVRI.id@SouthSumatra",
+        "name": "",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/TVRILogo2019.svg/512px-TVRILogo2019.svg.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://ott-balancer.tvri.go.id/live/eds/Sumsel/hls/Sumsel.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"TVRI.id@SouthSumatra\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/TVRILogo2019.svg/512px-TVRILogo2019.svg.png\" group-title=\"General\",TVRI Sumatera Selatan (480p)\r\r\nhttps://ott-balancer.tvri.go.id/live/eds/Sumsel/hls/Sumsel.m3u8\r",
+      "line": 296,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "TVRI Yogyakarta (720p)",
       "tvg": {
         "id": "TVRI.id@Yogyakarta",
@@ -1704,6 +1676,34 @@
       "url": "https://ott-balancer.tvri.go.id/live/eds/Jogjakarta/hls/Jogjakarta.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TVRI.id@Yogyakarta\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/TVRILogo2019.svg/512px-TVRILogo2019.svg.png\" group-title=\"General\",TVRI Yogyakarta (720p)\r\r\nhttps://ott-balancer.tvri.go.id/live/eds/Jogjakarta/hls/Jogjakarta.m3u8\r",
       "line": 300,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "TVRI World",
+      "tvg": {
+        "id": "TVRIWorld.id",
+        "name": "",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/TVRIWorld.png/512px-TVRIWorld.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://ott-balancer.tvri.go.id/live/eds/TVRIWorld/hls/TVRIWorld.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"TVRIWorld.id\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/TVRIWorld.png/512px-TVRIWorld.png\" group-title=\"Undefined\",TVRI World\r\r\nhttps://ott-balancer.tvri.go.id/live/eds/TVRIWorld/hls/TVRIWorld.m3u8\r",
+      "line": 298,
       "catchup": {
         "type": "",
         "days": "",
