@@ -5,6 +5,34 @@
   },
   "items": [
     {
+      "name": "Multilandia",
+      "tvg": {
+        "id": "Multilandia.ru@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/ccwijY0.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Kids"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://178.217.72.66:8080/multilandiya/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Multilandia.ru@SD\" tvg-logo=\"https://i.imgur.com/ccwijY0.png\" group-title=\"Kids\",Multilandia\r\r\nhttp://178.217.72.66:8080/multilandiya/index.m3u8\r",
+      "line": 41,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "CGTN Русский (1080p)",
       "tvg": {
         "id": "CGTNRussian.cn",
@@ -33,25 +61,25 @@
       "status": "OK"
     },
     {
-      "name": "Multilandia",
+      "name": "SONGTV Armenia (720p)",
       "tvg": {
-        "id": "Multilandia.ru@SD",
+        "id": "SONGTVArmenia.am",
         "name": "",
-        "logo": "https://i.imgur.com/ccwijY0.png",
+        "logo": "https://i.imgur.com/nM7LbmV.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Kids"
+        "title": "Music"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "http://178.217.72.66:8080/multilandiya/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Multilandia.ru@SD\" tvg-logo=\"https://i.imgur.com/ccwijY0.png\" group-title=\"Kids\",Multilandia\r\r\nhttp://178.217.72.66:8080/multilandiya/index.m3u8\r",
-      "line": 41,
+      "url": "https://songtv.hls.iptvdc.com/web-armenia/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"SONGTVArmenia.am\" tvg-logo=\"https://i.imgur.com/nM7LbmV.png\" group-title=\"Music\",SONGTV Armenia (720p)\r\r\nhttps://songtv.hls.iptvdc.com/web-armenia/index.m3u8\r",
+      "line": 69,
       "catchup": {
         "type": "",
         "days": "",
@@ -117,25 +145,25 @@
       "status": "OK"
     },
     {
-      "name": "SONGTV Armenia (720p)",
+      "name": "АTV ԱԹԻՎԻ (480p) [Not 24/7]",
       "tvg": {
-        "id": "SONGTVArmenia.am",
+        "id": "ATV.am",
         "name": "",
-        "logo": "https://i.imgur.com/nM7LbmV.png",
+        "logo": "https://i.imgur.com/xrqFEou.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Music"
+        "title": "General"
       },
       "http": {
         "referrer": "",
-        "user-agent": ""
+        "user-agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML,like Gecko) Mobile/15E148"
       },
-      "url": "https://songtv.hls.iptvdc.com/web-armenia/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"SONGTVArmenia.am\" tvg-logo=\"https://i.imgur.com/nM7LbmV.png\" group-title=\"Music\",SONGTV Armenia (720p)\r\r\nhttps://songtv.hls.iptvdc.com/web-armenia/index.m3u8\r",
-      "line": 69,
+      "url": "http://ott-cdn.ucom.am/s8/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"ATV.am\" tvg-logo=\"https://i.imgur.com/xrqFEou.png\" group-title=\"General\" http-user-agent=\"Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML,like Gecko) Mobile/15E148\",АTV ԱԹԻՎԻ (480p) [Not 24/7]\r\r\n#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML,like Gecko) Mobile/15E148\r\r\nhttp://ott-cdn.ucom.am/s8/index.m3u8\r",
+      "line": 93,
       "catchup": {
         "type": "",
         "days": "",
@@ -164,34 +192,6 @@
       "url": "http://hls.volgograd1vtv.cdnvideo.ru/volgograd1vtv/volgograd1vtv.sdp/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"MTV.ru\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/MTV-2021.svg/512px-MTV-2021.svg.png\" group-title=\"Entertainment\",МТВ (Волгоград) (720p) [Not 24/7]\r\r\nhttp://hls.volgograd1vtv.cdnvideo.ru/volgograd1vtv/volgograd1vtv.sdp/playlist.m3u8\r",
       "line": 99,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "АTV ԱԹԻՎԻ (480p) [Not 24/7]",
-      "tvg": {
-        "id": "ATV.am",
-        "name": "",
-        "logo": "https://i.imgur.com/xrqFEou.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML,like Gecko) Mobile/15E148"
-      },
-      "url": "http://ott-cdn.ucom.am/s8/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"ATV.am\" tvg-logo=\"https://i.imgur.com/xrqFEou.png\" group-title=\"General\" http-user-agent=\"Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML,like Gecko) Mobile/15E148\",АTV ԱԹԻՎԻ (480p) [Not 24/7]\r\r\n#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML,like Gecko) Mobile/15E148\r\r\nhttp://ott-cdn.ucom.am/s8/index.m3u8\r",
-      "line": 93,
       "catchup": {
         "type": "",
         "days": "",
