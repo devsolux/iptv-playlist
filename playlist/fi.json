@@ -5,25 +5,53 @@
   },
   "items": [
     {
-      "name": "Navahang TV (720p)",
+      "name": "Hero (720p) [Not 24/7]",
       "tvg": {
-        "id": "NavahangTV.fi",
+        "id": "Hero.fi",
         "name": "",
-        "logo": "https://i.imgur.com/YteKXJy.png",
+        "logo": "https://i.imgur.com/4t5JQLY.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Music"
+        "title": "Movies"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://hls.navahang.live/hls/stream.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"NavahangTV.fi\" tvg-logo=\"https://i.imgur.com/YteKXJy.png\" group-title=\"Music\",Navahang TV (720p)\r\r\nhttps://hls.navahang.live/hls/stream.m3u8\r",
-      "line": 69,
+      "url": "https://live-fi.tvkaista.net/hero/live.m3u8?hd=true",
+      "raw": "#EXTINF:-1 tvg-id=\"Hero.fi\" tvg-logo=\"https://i.imgur.com/4t5JQLY.png\" group-title=\"Movies\",Hero (720p) [Not 24/7]\r\r\nhttps://live-fi.tvkaista.net/hero/live.m3u8?hd=true\r",
+      "line": 37,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Jim (720p)",
+      "tvg": {
+        "id": "Jim.fi",
+        "name": "",
+        "logo": "https://i.imgur.com/PkMgY0K.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Entertainment"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://live-fi.tvkaista.net/jim/live.m3u8?hd=true",
+      "raw": "#EXTINF:-1 tvg-id=\"Jim.fi\" tvg-logo=\"https://i.imgur.com/PkMgY0K.png\" group-title=\"Entertainment\",Jim (720p)\r\r\nhttps://live-fi.tvkaista.net/jim/live.m3u8?hd=true\r",
+      "line": 43,
       "catchup": {
         "type": "",
         "days": "",
@@ -61,11 +89,39 @@
       "status": "OK"
     },
     {
-      "name": "Onni TV (720p)",
+      "name": "Liv (720p)",
       "tvg": {
-        "id": "OnniTV.fi",
+        "id": "Liv.fi",
         "name": "",
-        "logo": "https://i.imgur.com/Vba4jUk.png",
+        "logo": "https://i.imgur.com/k6NsXBj.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Entertainment"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://live-fi.tvkaista.net/liv/live.m3u8?hd=true",
+      "raw": "#EXTINF:-1 tvg-id=\"Liv.fi\" tvg-logo=\"https://i.imgur.com/k6NsXBj.png\" group-title=\"Entertainment\",Liv (720p)\r\r\nhttps://live-fi.tvkaista.net/liv/live.m3u8?hd=true\r",
+      "line": 47,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "MTV3 (720p)",
+      "tvg": {
+        "id": "MTV3.fi",
+        "name": "",
+        "logo": "https://i.imgur.com/C5rQbBM.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -77,9 +133,121 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://onnitv.digitacdn.net/live/ott/onnitv/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"OnniTV.fi\" tvg-logo=\"https://i.imgur.com/Vba4jUk.png\" group-title=\"General\",Onni TV (720p)\r\r\nhttps://onnitv.digitacdn.net/live/ott/onnitv/playlist.m3u8\r",
-      "line": 75,
+      "url": "https://live-fi.tvkaista.net/mtv3/live.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"MTV3.fi\" tvg-logo=\"https://i.imgur.com/C5rQbBM.png\" group-title=\"General\",MTV3 (720p)\r\r\nhttps://live-fi.tvkaista.net/mtv3/live.m3u8\r",
+      "line": 53,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "MTV Ava (720p)",
+      "tvg": {
+        "id": "MTVAva.fi",
+        "name": "",
+        "logo": "https://i.imgur.com/WxNCiAk.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Entertainment"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://live-fi.tvkaista.net/ava/live.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"MTVAva.fi\" tvg-logo=\"https://i.imgur.com/WxNCiAk.png\" group-title=\"Entertainment\",MTV Ava (720p)\r\r\nhttps://live-fi.tvkaista.net/ava/live.m3u8\r",
+      "line": 55,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "MTV Sub (720p)",
+      "tvg": {
+        "id": "MTVSub.fi",
+        "name": "",
+        "logo": "https://i.imgur.com/rmV8LO1.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://live-fi.tvkaista.net/sub/live.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"MTVSub.fi\" tvg-logo=\"https://i.imgur.com/rmV8LO1.png\" group-title=\"Undefined\",MTV Sub (720p)\r\r\nhttps://live-fi.tvkaista.net/sub/live.m3u8\r",
+      "line": 59,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Navahang TV (720p)",
+      "tvg": {
+        "id": "NavahangTV.fi",
+        "name": "",
+        "logo": "https://i.imgur.com/YteKXJy.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Music"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://hls.navahang.live/hls/stream.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"NavahangTV.fi\" tvg-logo=\"https://i.imgur.com/YteKXJy.png\" group-title=\"Music\",Navahang TV (720p)\r\r\nhttps://hls.navahang.live/hls/stream.m3u8\r",
+      "line": 69,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Nelonen (720p)",
+      "tvg": {
+        "id": "Nelonen.fi",
+        "name": "",
+        "logo": "https://i.imgur.com/BFbCyfY.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://live-fi.tvkaista.net/nelonen/live.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Nelonen.fi\" tvg-logo=\"https://i.imgur.com/BFbCyfY.png\" group-title=\"General\",Nelonen (720p)\r\r\nhttps://live-fi.tvkaista.net/nelonen/live.m3u8\r",
+      "line": 71,
       "catchup": {
         "type": "",
         "days": "",
@@ -108,6 +276,34 @@
       "url": "https://streaming.nartv.fi/live/ngrp:NAR_TV.stream_all/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"NarTV.fi\" tvg-logo=\"https://i.imgur.com/Ht5yePq.png\" group-title=\"General\",NärTV (360p)\r\r\nhttps://streaming.nartv.fi/live/ngrp:NAR_TV.stream_all/playlist.m3u8\r",
       "line": 65,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Onni TV (720p)",
+      "tvg": {
+        "id": "OnniTV.fi",
+        "name": "",
+        "logo": "https://i.imgur.com/Vba4jUk.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://onnitv.digitacdn.net/live/ott/onnitv/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"OnniTV.fi\" tvg-logo=\"https://i.imgur.com/Vba4jUk.png\" group-title=\"General\",Onni TV (720p)\r\r\nhttps://onnitv.digitacdn.net/live/ott/onnitv/playlist.m3u8\r",
+      "line": 75,
       "catchup": {
         "type": "",
         "days": "",
