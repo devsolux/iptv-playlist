@@ -5,34 +5,6 @@
   },
   "items": [
     {
-      "name": "13Max Televisión (1080p)",
-      "tvg": {
-        "id": "13MaxTelevision.ar",
-        "name": "",
-        "logo": "https://i.imgur.com/QvF4l2t.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://coninfo.net:1935/13maxhd/live13maxtvnuevo/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"13MaxTelevision.ar\" tvg-logo=\"https://i.imgur.com/QvF4l2t.png\" group-title=\"General\",13Max Televisión (1080p)\r\r\nhttp://coninfo.net:1935/13maxhd/live13maxtvnuevo/playlist.m3u8\r",
-      "line": 4,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "5TV Corrientes (480p) [Not 24/7]",
       "tvg": {
         "id": "5tv.ar",
@@ -52,6 +24,34 @@
       "url": "http://www.coninfo.net:1935/tvcinco/live1/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"5tv.ar\" tvg-logo=\"https://i.imgur.com/mSn7ACs.png\" group-title=\"General\",5TV Corrientes (480p) [Not 24/7]\r\r\nhttp://www.coninfo.net:1935/tvcinco/live1/playlist.m3u8\r",
       "line": 2,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "13Max Televisión (1080p)",
+      "tvg": {
+        "id": "13MaxTelevision.ar",
+        "name": "",
+        "logo": "https://i.imgur.com/QvF4l2t.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://coninfo.net:1935/13maxhd/live13maxtvnuevo/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"13MaxTelevision.ar\" tvg-logo=\"https://i.imgur.com/QvF4l2t.png\" group-title=\"General\",13Max Televisión (1080p)\r\r\nhttp://coninfo.net:1935/13maxhd/live13maxtvnuevo/playlist.m3u8\r",
+      "line": 4,
       "catchup": {
         "type": "",
         "days": "",
@@ -89,25 +89,25 @@
       "status": "OK"
     },
     {
-      "name": "Azahares Radio Multimedia (720p)",
+      "name": "Alterna TV (720p)",
       "tvg": {
-        "id": "AzaharesRadiovisualMultimedia.ar",
+        "id": "AlternaTV.ar",
         "name": "",
-        "logo": "https://i.imgur.com/g1BFoSs.png",
+        "logo": "https://alternatv.ar/alternatv.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Music"
+        "title": "Culture;Documentary;Entertainment;General;Movies;Music"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://streamyes.alsolnet.com/azaharesfm/live/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"AzaharesRadiovisualMultimedia.ar\" tvg-logo=\"https://i.imgur.com/g1BFoSs.png\" group-title=\"Music\",Azahares Radio Multimedia (720p)\r\r\nhttps://streamyes.alsolnet.com/azaharesfm/live/playlist.m3u8\r",
-      "line": 22,
+      "url": "https://alternatv.ar/stream/hls/live.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"AlternaTV.ar\" tvg-logo=\"https://alternatv.ar/alternatv.png\" group-title=\"Culture;Documentary;Entertainment;General;Movies;Music\",Alterna TV (720p)\r\r\nhttps://alternatv.ar/stream/hls/live.m3u8\r",
+      "line": 14,
       "catchup": {
         "type": "",
         "days": "",
@@ -145,25 +145,25 @@
       "status": "OK"
     },
     {
-      "name": "Alterna TV (720p)",
+      "name": "Azahares Radio Multimedia (720p)",
       "tvg": {
-        "id": "AlternaTV.ar",
+        "id": "AzaharesRadiovisualMultimedia.ar",
         "name": "",
-        "logo": "https://alternatv.ar/alternatv.png",
+        "logo": "https://i.imgur.com/g1BFoSs.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Culture;Documentary;Entertainment;General;Movies;Music"
+        "title": "Music"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://alternatv.ar/stream/hls/live.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"AlternaTV.ar\" tvg-logo=\"https://alternatv.ar/alternatv.png\" group-title=\"Culture;Documentary;Entertainment;General;Movies;Music\",Alterna TV (720p)\r\r\nhttps://alternatv.ar/stream/hls/live.m3u8\r",
-      "line": 14,
+      "url": "https://streamyes.alsolnet.com/azaharesfm/live/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"AzaharesRadiovisualMultimedia.ar\" tvg-logo=\"https://i.imgur.com/g1BFoSs.png\" group-title=\"Music\",Azahares Radio Multimedia (720p)\r\r\nhttps://streamyes.alsolnet.com/azaharesfm/live/playlist.m3u8\r",
+      "line": 22,
       "catchup": {
         "type": "",
         "days": "",
@@ -173,53 +173,25 @@
       "status": "OK"
     },
     {
-      "name": "24 Horas HEVC",
+      "name": "Beats Radio (480p)",
       "tvg": {
-        "id": "24Horas.es@HEVC",
+        "id": "BeatsRadio.ar",
         "name": "",
-        "logo": "https://i.imgur.com/IUVRm5L.png",
+        "logo": "https://i.imgur.com/zkNUO5p.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "News"
+        "title": "Music"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://d3pfmk89wc0vm9.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-nlow3qkp9tmdm/24H_ES.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"24Horas.es@HEVC\" tvg-logo=\"https://i.imgur.com/IUVRm5L.png\" group-title=\"News\",24 Horas HEVC\r\r\nhttps://d3pfmk89wc0vm9.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-nlow3qkp9tmdm/24H_ES.m3u8\r",
-      "line": 6,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Cable Imagen Armstrong (540p) [Not 24/7]",
-      "tvg": {
-        "id": "CableImagenArmstrong.ar",
-        "name": "",
-        "logo": "https://i.imgur.com/U9NuJQC.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://stream.arcast.com.ar/casse/casse/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"CableImagenArmstrong.ar\" tvg-logo=\"https://i.imgur.com/U9NuJQC.png\" group-title=\"Undefined\",Cable Imagen Armstrong (540p) [Not 24/7]\r\r\nhttps://stream.arcast.com.ar/casse/casse/playlist.m3u8\r",
-      "line": 32,
+      "url": "https://videostream.shockmedia.com.ar:19360/beatsradio/beatsradio.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"BeatsRadio.ar\" tvg-logo=\"https://i.imgur.com/zkNUO5p.png\" group-title=\"Music\",Beats Radio (480p)\r\r\nhttps://videostream.shockmedia.com.ar:19360/beatsradio/beatsradio.m3u8\r",
+      "line": 28,
       "catchup": {
         "type": "",
         "days": "",
@@ -257,34 +229,6 @@
       "status": "OK"
     },
     {
-      "name": "Cadena 103 (720p) [Not 24/7]",
-      "tvg": {
-        "id": "Cadena103TV.ar",
-        "name": "",
-        "logo": "https://i.imgur.com/vBsry35.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://arcast.net:1935/cadena103/cadena103/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Cadena103TV.ar\" tvg-logo=\"https://i.imgur.com/vBsry35.png\" group-title=\"Undefined\",Cadena 103 (720p) [Not 24/7]\r\r\nhttp://arcast.net:1935/cadena103/cadena103/playlist.m3u8\r",
-      "line": 34,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Bob Esponja LATAM",
       "tvg": {
         "id": "BobEsponja.us@LATAM",
@@ -304,6 +248,34 @@
       "url": "https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/6254598f5083f800076d8563/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=94b33a50-52dc-11ed-8a57-a7949f30f39c&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=c32ca8be-d69f-4d5d-af36-5defdd524167&userId=&serverSideAds=false",
       "raw": "#EXTINF:-1 tvg-id=\"BobEsponja.us@LATAM\" tvg-logo=\"https://i.imgur.com/nmZ2nId.png\" group-title=\"Kids\",Bob Esponja LATAM\r\r\nhttps://service-stitcher.clusters.pluto.tv/stitch/hls/channel/6254598f5083f800076d8563/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=94b33a50-52dc-11ed-8a57-a7949f30f39c&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=c32ca8be-d69f-4d5d-af36-5defdd524167&userId=&serverSideAds=false\r",
       "line": 30,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Cadena 103 (720p) [Not 24/7]",
+      "tvg": {
+        "id": "Cadena103TV.ar",
+        "name": "",
+        "logo": "https://i.imgur.com/vBsry35.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://arcast.net:1935/cadena103/cadena103/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Cadena103TV.ar\" tvg-logo=\"https://i.imgur.com/vBsry35.png\" group-title=\"Undefined\",Cadena 103 (720p) [Not 24/7]\r\r\nhttp://arcast.net:1935/cadena103/cadena103/playlist.m3u8\r",
+      "line": 34,
       "catchup": {
         "type": "",
         "days": "",
@@ -341,6 +313,34 @@
       "status": "OK"
     },
     {
+      "name": "Cable Imagen Armstrong (540p) [Not 24/7]",
+      "tvg": {
+        "id": "CableImagenArmstrong.ar",
+        "name": "",
+        "logo": "https://i.imgur.com/U9NuJQC.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://stream.arcast.com.ar/casse/casse/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"CableImagenArmstrong.ar\" tvg-logo=\"https://i.imgur.com/U9NuJQC.png\" group-title=\"Undefined\",Cable Imagen Armstrong (540p) [Not 24/7]\r\r\nhttps://stream.arcast.com.ar/casse/casse/playlist.m3u8\r",
+      "line": 32,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Canal 3 Las Heras (720p)",
       "tvg": {
         "id": "Canal3LasHeras.ar",
@@ -360,34 +360,6 @@
       "url": "https://stream.arcast.com.ar/canal3/canal3/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"Canal3LasHeras.ar\" tvg-logo=\"https://i.imgur.com/bd2afET.png\" group-title=\"Undefined\",Canal 3 Las Heras (720p)\r\r\nhttps://stream.arcast.com.ar/canal3/canal3/playlist.m3u8\r",
       "line": 42,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Canal 3 La Pampa (1080p)",
-      "tvg": {
-        "id": "Canal3LaPampa.ar",
-        "name": "",
-        "logo": "https://i.imgur.com/SsNFudZ.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://stream.arcast.com.ar/c3lapampa/ngrp:c3lapampa_all/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Canal3LaPampa.ar\" tvg-logo=\"https://i.imgur.com/SsNFudZ.png\" group-title=\"Undefined\",Canal 3 La Pampa (1080p)\r\r\nhttps://stream.arcast.com.ar/c3lapampa/ngrp:c3lapampa_all/playlist.m3u8\r",
-      "line": 40,
       "catchup": {
         "type": "",
         "days": "",
@@ -425,34 +397,6 @@
       "status": "OK"
     },
     {
-      "name": "Canal 4 San Juan (576p)",
-      "tvg": {
-        "id": "Canal4SanJuan.ar",
-        "name": "",
-        "logo": "https://i.imgur.com/MsCnwRA.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://streamlov.alsolnet.com/canal4sanjuan/live/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Canal4SanJuan.ar\" tvg-logo=\"https://i.imgur.com/MsCnwRA.png\" group-title=\"Undefined\",Canal 4 San Juan (576p)\r\r\nhttps://streamlov.alsolnet.com/canal4sanjuan/live/playlist.m3u8\r",
-      "line": 46,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Canal 2 Misiones (1080p)",
       "tvg": {
         "id": "Canal2Misiones.ar",
@@ -481,11 +425,11 @@
       "status": "OK"
     },
     {
-      "name": "Canal 7 Salta (1080p)",
+      "name": "Canal 3 La Pampa (1080p)",
       "tvg": {
-        "id": "Canal7Salta.ar",
+        "id": "Canal3LaPampa.ar",
         "name": "",
-        "logo": "https://i.imgur.com/CudG6sl.png",
+        "logo": "https://i.imgur.com/SsNFudZ.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -497,9 +441,37 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://vivo.solumedia.com:19360/cooperativa/cooperativa.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Canal7Salta.ar\" tvg-logo=\"https://i.imgur.com/CudG6sl.png\" group-title=\"Undefined\",Canal 7 Salta (1080p)\r\r\nhttps://vivo.solumedia.com:19360/cooperativa/cooperativa.m3u8\r",
-      "line": 56,
+      "url": "https://stream.arcast.com.ar/c3lapampa/ngrp:c3lapampa_all/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Canal3LaPampa.ar\" tvg-logo=\"https://i.imgur.com/SsNFudZ.png\" group-title=\"Undefined\",Canal 3 La Pampa (1080p)\r\r\nhttps://stream.arcast.com.ar/c3lapampa/ngrp:c3lapampa_all/playlist.m3u8\r",
+      "line": 40,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Canal 4 San Juan (576p)",
+      "tvg": {
+        "id": "Canal4SanJuan.ar",
+        "name": "",
+        "logo": "https://i.imgur.com/MsCnwRA.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://streamlov.alsolnet.com/canal4sanjuan/live/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Canal4SanJuan.ar\" tvg-logo=\"https://i.imgur.com/MsCnwRA.png\" group-title=\"Undefined\",Canal 4 San Juan (576p)\r\r\nhttps://streamlov.alsolnet.com/canal4sanjuan/live/playlist.m3u8\r",
+      "line": 46,
       "catchup": {
         "type": "",
         "days": "",
@@ -537,6 +509,90 @@
       "status": "OK"
     },
     {
+      "name": "Canal 4 Posadas (576p)",
+      "tvg": {
+        "id": "Canal4Posadas.ar",
+        "name": "",
+        "logo": "https://i.imgur.com/tElJr3e.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://iptv.ixfo.com.ar:30443/live/C4POS/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Canal4Posadas.ar\" tvg-logo=\"https://i.imgur.com/tElJr3e.png\" group-title=\"Undefined\",Canal 4 Posadas (576p)\r\r\nhttps://iptv.ixfo.com.ar:30443/live/C4POS/playlist.m3u8\r",
+      "line": 44,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Canal 5 Santa Fe (240p)",
+      "tvg": {
+        "id": "Canal5SantaFe.ar",
+        "name": "",
+        "logo": "https://i.imgur.com/WX0esjQ.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://stream.arcast.com.ar/c5sf/c5sf/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Canal5SantaFe.ar\" tvg-logo=\"https://i.imgur.com/WX0esjQ.png\" group-title=\"Undefined\",Canal 5 Santa Fe (240p)\r\r\nhttps://stream.arcast.com.ar/c5sf/c5sf/playlist.m3u8\r",
+      "line": 50,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Canal 7 Salta (1080p)",
+      "tvg": {
+        "id": "Canal7Salta.ar",
+        "name": "",
+        "logo": "https://i.imgur.com/CudG6sl.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://vivo.solumedia.com:19360/cooperativa/cooperativa.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Canal7Salta.ar\" tvg-logo=\"https://i.imgur.com/CudG6sl.png\" group-title=\"Undefined\",Canal 7 Salta (1080p)\r\r\nhttps://vivo.solumedia.com:19360/cooperativa/cooperativa.m3u8\r",
+      "line": 56,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Canal 7 Santiago del Estero (720p)",
       "tvg": {
         "id": "Canal7TV.ar",
@@ -556,6 +612,34 @@
       "url": "https://stream.arcast.com.ar/envivo/castv/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"Canal7TV.ar\" tvg-logo=\"https://i.imgur.com/iJMH0UK.png\" group-title=\"Undefined\",Canal 7 Santiago del Estero (720p)\r\r\nhttps://stream.arcast.com.ar/envivo/castv/playlist.m3u8\r",
       "line": 58,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Canal 9 Resistencia (720p)",
+      "tvg": {
+        "id": "Canal9Resistencia.ar",
+        "name": "",
+        "logo": "https://i.imgur.com/xqgRFpC.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://coninfo.net:1935/9linklivert/smil:9linkmultibr.smil/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Canal9Resistencia.ar\" tvg-logo=\"https://i.imgur.com/xqgRFpC.png\" group-title=\"General\",Canal 9 Resistencia (720p)\r\r\nhttp://coninfo.net:1935/9linklivert/smil:9linkmultibr.smil/playlist.m3u8\r",
+      "line": 62,
       "catchup": {
         "type": "",
         "days": "",
@@ -593,11 +677,11 @@
       "status": "OK"
     },
     {
-      "name": "Canal 4 Posadas (576p)",
+      "name": "Canal 6 Posadas (1080p)",
       "tvg": {
-        "id": "Canal4Posadas.ar",
+        "id": "Canal6Posadas.ar",
         "name": "",
-        "logo": "https://i.imgur.com/tElJr3e.png",
+        "logo": "https://i.imgur.com/OamBiS5.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -609,37 +693,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://iptv.ixfo.com.ar:30443/live/C4POS/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Canal4Posadas.ar\" tvg-logo=\"https://i.imgur.com/tElJr3e.png\" group-title=\"Undefined\",Canal 4 Posadas (576p)\r\r\nhttps://iptv.ixfo.com.ar:30443/live/C4POS/playlist.m3u8\r",
-      "line": 44,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Canal 9 Resistencia (720p)",
-      "tvg": {
-        "id": "Canal9Resistencia.ar",
-        "name": "",
-        "logo": "https://i.imgur.com/xqgRFpC.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://coninfo.net:1935/9linklivert/smil:9linkmultibr.smil/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Canal9Resistencia.ar\" tvg-logo=\"https://i.imgur.com/xqgRFpC.png\" group-title=\"General\",Canal 9 Resistencia (720p)\r\r\nhttp://coninfo.net:1935/9linklivert/smil:9linkmultibr.smil/playlist.m3u8\r",
-      "line": 62,
+      "url": "https://iptv.ixfo.com.ar:30443/live/c6digital/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Canal6Posadas.ar\" tvg-logo=\"https://i.imgur.com/OamBiS5.png\" group-title=\"Undefined\",Canal 6 Posadas (1080p)\r\r\nhttps://iptv.ixfo.com.ar:30443/live/c6digital/playlist.m3u8\r",
+      "line": 52,
       "catchup": {
         "type": "",
         "days": "",
@@ -733,34 +789,6 @@
       "status": "OK"
     },
     {
-      "name": "Canal 6 Posadas (1080p)",
-      "tvg": {
-        "id": "Canal6Posadas.ar",
-        "name": "",
-        "logo": "https://i.imgur.com/OamBiS5.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://iptv.ixfo.com.ar:30443/live/c6digital/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Canal6Posadas.ar\" tvg-logo=\"https://i.imgur.com/OamBiS5.png\" group-title=\"Undefined\",Canal 6 Posadas (1080p)\r\r\nhttps://iptv.ixfo.com.ar:30443/live/c6digital/playlist.m3u8\r",
-      "line": 52,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Canal 13 Jujuy TV (720p)",
       "tvg": {
         "id": "Canal13Jujuy.ar",
@@ -817,11 +845,11 @@
       "status": "OK"
     },
     {
-      "name": "Canal 22 (720p)",
+      "name": "Canal 21 TV (1080p)",
       "tvg": {
-        "id": "Canal22.ar",
+        "id": "Canal21TV.ar",
         "name": "",
-        "logo": "https://i.imgur.com/R4wXVxf.png",
+        "logo": "https://i.imgur.com/Am7yMXg.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -833,9 +861,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://5f700d5b2c46f.streamlock.net/canal22/canal22/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Canal22.ar\" tvg-logo=\"https://i.imgur.com/R4wXVxf.png\" group-title=\"Undefined\",Canal 22 (720p)\r\r\nhttps://5f700d5b2c46f.streamlock.net/canal22/canal22/playlist.m3u8\r",
-      "line": 76,
+      "url": "https://iptv.ixfo.com.ar:30443/c21tv/hd/c21tv/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Canal21TV.ar\" tvg-logo=\"https://i.imgur.com/Am7yMXg.png\" group-title=\"Undefined\",Canal 21 TV (1080p)\r\r\nhttps://iptv.ixfo.com.ar:30443/c21tv/hd/c21tv/playlist.m3u8\r",
+      "line": 74,
       "catchup": {
         "type": "",
         "days": "",
@@ -920,34 +948,6 @@
       "url": "https://streamconex.com:19360/puan/puan.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"Canal79Puan.ar\" tvg-logo=\"https://i.imgur.com/HYuSqJy.png\" group-title=\"Undefined\",Canal 79 Puan (240p)\r\r\nhttps://streamconex.com:19360/puan/puan.m3u8\r",
       "line": 82,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Canal 21 TV (1080p)",
-      "tvg": {
-        "id": "Canal21TV.ar",
-        "name": "",
-        "logo": "https://i.imgur.com/Am7yMXg.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://iptv.ixfo.com.ar:30443/c21tv/hd/c21tv/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Canal21TV.ar\" tvg-logo=\"https://i.imgur.com/Am7yMXg.png\" group-title=\"Undefined\",Canal 21 TV (1080p)\r\r\nhttps://iptv.ixfo.com.ar:30443/c21tv/hd/c21tv/playlist.m3u8\r",
-      "line": 74,
       "catchup": {
         "type": "",
         "days": "",
@@ -1097,62 +1097,6 @@
       "status": "OK"
     },
     {
-      "name": "Cine Adrenalina (720p)",
-      "tvg": {
-        "id": "CineAdrenalina.us@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/njCKaMv.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Movies"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5d8d164d92e97a5e107638d2/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5d8d164d92e97a5e107638d2&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=904&terminate=false&userId=",
-      "raw": "#EXTINF:-1 tvg-id=\"CineAdrenalina.us@SD\" tvg-logo=\"https://i.imgur.com/njCKaMv.png\" group-title=\"Movies\",Cine Adrenalina (720p)\r\r\nhttps://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5d8d164d92e97a5e107638d2/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5d8d164d92e97a5e107638d2&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=904&terminate=false&userId=\r",
-      "line": 104,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Cine Clásico",
-      "tvg": {
-        "id": "PlutoTVCineClasico.us@US",
-        "name": "",
-        "logo": "https://i.imgur.com/hCA5BRr.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Movies"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/64b9671cdac71b0008f371df/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c27b8f8-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=28fb2aae-fcc1-4b39-a190-1ac70222ae41",
-      "raw": "#EXTINF:-1 tvg-id=\"PlutoTVCineClasico.us@US\" tvg-logo=\"https://i.imgur.com/hCA5BRr.png\" group-title=\"Movies\",Cine Clásico\r\r\nhttp://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/64b9671cdac71b0008f371df/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c27b8f8-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=28fb2aae-fcc1-4b39-a190-1ac70222ae41\r",
-      "line": 106,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Canal Santa María (360p)",
       "tvg": {
         "id": "CanalSantaMaria.ar",
@@ -1209,39 +1153,11 @@
       "status": "OK"
     },
     {
-      "name": "Chaco TV (720p) [Not 24/7]",
+      "name": "Cine Adrenalina (720p)",
       "tvg": {
-        "id": "ChacoTV.ar",
+        "id": "CineAdrenalina.us@SD",
         "name": "",
-        "logo": "https://i.imgur.com/b6RerDw.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://wowzasrv.chaco.gov.ar/Streamtv/chacotv/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"ChacoTV.ar\" tvg-logo=\"https://i.imgur.com/b6RerDw.png\" group-title=\"Undefined\",Chaco TV (720p) [Not 24/7]\r\r\nhttps://wowzasrv.chaco.gov.ar/Streamtv/chacotv/playlist.m3u8\r",
-      "line": 100,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Cine Terror LATAM [Geo-blocked]",
-      "tvg": {
-        "id": "CineTerror.us@LATAM",
-        "name": "",
-        "logo": "https://i.imgur.com/I5XxyLI.png",
+        "logo": "https://i.imgur.com/njCKaMv.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -1253,37 +1169,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5dcddf1ed95e740009fef7ab/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS",
-      "raw": "#EXTINF:-1 tvg-id=\"CineTerror.us@LATAM\" tvg-logo=\"https://i.imgur.com/I5XxyLI.png\" group-title=\"Movies\",Cine Terror LATAM [Geo-blocked]\r\r\nhttps://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5dcddf1ed95e740009fef7ab/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS\r",
-      "line": 112,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Cine Terror",
-      "tvg": {
-        "id": "CineTerror.us",
-        "name": "",
-        "logo": "https://i.imgur.com/I5XxyLI.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Movies"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5d8d180092e97a5e107638d3/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c27e001-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=c0a34186-d9cb-4907-882c-bf61e4d59e0f",
-      "raw": "#EXTINF:-1 tvg-id=\"CineTerror.us\" tvg-logo=\"https://i.imgur.com/I5XxyLI.png\" group-title=\"Movies\",Cine Terror\r\r\nhttp://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5d8d180092e97a5e107638d3/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c27e001-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=c0a34186-d9cb-4907-882c-bf61e4d59e0f\r",
-      "line": 110,
+      "url": "https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5d8d164d92e97a5e107638d2/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5d8d164d92e97a5e107638d2&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=904&terminate=false&userId=",
+      "raw": "#EXTINF:-1 tvg-id=\"CineAdrenalina.us@SD\" tvg-logo=\"https://i.imgur.com/njCKaMv.png\" group-title=\"Movies\",Cine Adrenalina (720p)\r\r\nhttps://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5d8d164d92e97a5e107638d2/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5d8d164d92e97a5e107638d2&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=904&terminate=false&userId=\r",
+      "line": 104,
       "catchup": {
         "type": "",
         "days": "",
@@ -1321,6 +1209,118 @@
       "status": "OK"
     },
     {
+      "name": "Chaco TV (720p) [Not 24/7]",
+      "tvg": {
+        "id": "ChacoTV.ar",
+        "name": "",
+        "logo": "https://i.imgur.com/b6RerDw.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://wowzasrv.chaco.gov.ar/Streamtv/chacotv/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"ChacoTV.ar\" tvg-logo=\"https://i.imgur.com/b6RerDw.png\" group-title=\"Undefined\",Chaco TV (720p) [Not 24/7]\r\r\nhttps://wowzasrv.chaco.gov.ar/Streamtv/chacotv/playlist.m3u8\r",
+      "line": 100,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Cine Terror",
+      "tvg": {
+        "id": "CineTerror.us",
+        "name": "",
+        "logo": "https://i.imgur.com/I5XxyLI.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Movies"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5d8d180092e97a5e107638d3/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c27e001-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=c0a34186-d9cb-4907-882c-bf61e4d59e0f",
+      "raw": "#EXTINF:-1 tvg-id=\"CineTerror.us\" tvg-logo=\"https://i.imgur.com/I5XxyLI.png\" group-title=\"Movies\",Cine Terror\r\r\nhttp://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5d8d180092e97a5e107638d3/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c27e001-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=c0a34186-d9cb-4907-882c-bf61e4d59e0f\r",
+      "line": 110,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Cine Clásico",
+      "tvg": {
+        "id": "PlutoTVCineClasico.us@US",
+        "name": "",
+        "logo": "https://i.imgur.com/hCA5BRr.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Movies"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/64b9671cdac71b0008f371df/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c27b8f8-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=28fb2aae-fcc1-4b39-a190-1ac70222ae41",
+      "raw": "#EXTINF:-1 tvg-id=\"PlutoTVCineClasico.us@US\" tvg-logo=\"https://i.imgur.com/hCA5BRr.png\" group-title=\"Movies\",Cine Clásico\r\r\nhttp://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/64b9671cdac71b0008f371df/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c27b8f8-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=28fb2aae-fcc1-4b39-a190-1ac70222ae41\r",
+      "line": 106,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Cine Terror LATAM [Geo-blocked]",
+      "tvg": {
+        "id": "CineTerror.us@LATAM",
+        "name": "",
+        "logo": "https://i.imgur.com/I5XxyLI.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Movies"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5dcddf1ed95e740009fef7ab/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS",
+      "raw": "#EXTINF:-1 tvg-id=\"CineTerror.us@LATAM\" tvg-logo=\"https://i.imgur.com/I5XxyLI.png\" group-title=\"Movies\",Cine Terror LATAM [Geo-blocked]\r\r\nhttps://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5dcddf1ed95e740009fef7ab/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS\r",
+      "line": 112,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Cine XOXO",
       "tvg": {
         "id": "CineXOXO.us",
@@ -1340,34 +1340,6 @@
       "url": "http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5f5136317aedfb0007016f93/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c27e002-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=308fd9dd-2f8a-441f-b59d-e02f4b0aacd7",
       "raw": "#EXTINF:-1 tvg-id=\"CineXOXO.us\" tvg-logo=\"https://i.imgur.com/eAS86qH.png\" group-title=\"Movies\",Cine XOXO\r\r\nhttp://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5f5136317aedfb0007016f93/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c27e002-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=308fd9dd-2f8a-441f-b59d-e02f4b0aacd7\r",
       "line": 114,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "CPEtv (720p)",
-      "tvg": {
-        "id": "CPEtv.ar",
-        "name": "",
-        "logo": "https://i.imgur.com/zFgbobO.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://stream.arcast.live/cpe/ngrp:cpe_all/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"CPEtv.ar\" tvg-logo=\"https://i.imgur.com/zFgbobO.png\" group-title=\"Undefined\",CPEtv (720p)\r\r\nhttps://stream.arcast.live/cpe/ngrp:cpe_all/playlist.m3u8\r",
-      "line": 122,
       "catchup": {
         "type": "",
         "days": "",
@@ -1405,25 +1377,25 @@
       "status": "OK"
     },
     {
-      "name": "DW Español (1080p)",
+      "name": "CPEtv (720p)",
       "tvg": {
-        "id": "DW.de@Espanol",
+        "id": "CPEtv.ar",
         "name": "",
-        "logo": "https://i.imgur.com/8MRNFb9.png",
+        "logo": "https://i.imgur.com/zFgbobO.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "News"
+        "title": "Undefined"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"DW.de@Espanol\" tvg-logo=\"https://i.imgur.com/8MRNFb9.png\" group-title=\"News\",DW Español (1080p)\r\r\nhttps://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/index.m3u8\r",
-      "line": 132,
+      "url": "https://stream.arcast.live/cpe/ngrp:cpe_all/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"CPEtv.ar\" tvg-logo=\"https://i.imgur.com/zFgbobO.png\" group-title=\"Undefined\",CPEtv (720p)\r\r\nhttps://stream.arcast.live/cpe/ngrp:cpe_all/playlist.m3u8\r",
+      "line": 122,
       "catchup": {
         "type": "",
         "days": "",
@@ -1489,11 +1461,11 @@
       "status": "OK"
     },
     {
-      "name": "France 24 Español (1080p)",
+      "name": "DW Español (1080p)",
       "tvg": {
-        "id": "France24.fr@Spanish",
+        "id": "DW.de@Espanol",
         "name": "",
-        "logo": "https://i.imgur.com/u8N6uoj.png",
+        "logo": "https://i.imgur.com/8MRNFb9.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -1505,9 +1477,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://live.france24.com/hls/live/2037220-b/F24_ES_HI_HLS/master_5000.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"France24.fr@Spanish\" tvg-logo=\"https://i.imgur.com/u8N6uoj.png\" group-title=\"News\",France 24 Español (1080p)\r\r\nhttps://live.france24.com/hls/live/2037220-b/F24_ES_HI_HLS/master_5000.m3u8\r",
-      "line": 144,
+      "url": "https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"DW.de@Espanol\" tvg-logo=\"https://i.imgur.com/8MRNFb9.png\" group-title=\"News\",DW Español (1080p)\r\r\nhttps://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/index.m3u8\r",
+      "line": 132,
       "catchup": {
         "type": "",
         "days": "",
@@ -1545,6 +1517,62 @@
       "status": "OK"
     },
     {
+      "name": "Ciudad Magazine (1080p) [Geo-blocked]",
+      "tvg": {
+        "id": "CiudadMagazine.ar",
+        "name": "",
+        "logo": "https://i.imgur.com/V1xZV72.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://live-01-07-ciudad.vodgc.net/live-01-07-ciudad.vodgc.net/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"CiudadMagazine.ar\" tvg-logo=\"https://i.imgur.com/V1xZV72.png\" group-title=\"General\",Ciudad Magazine (1080p) [Geo-blocked]\r\r\nhttps://live-01-07-ciudad.vodgc.net/live-01-07-ciudad.vodgc.net/index.m3u8\r",
+      "line": 116,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "France 24 Español (1080p)",
+      "tvg": {
+        "id": "France24.fr@Spanish",
+        "name": "",
+        "logo": "https://i.imgur.com/u8N6uoj.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "News"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://live.france24.com/hls/live/2037220-b/F24_ES_HI_HLS/master_5000.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"France24.fr@Spanish\" tvg-logo=\"https://i.imgur.com/u8N6uoj.png\" group-title=\"News\",France 24 Español (1080p)\r\r\nhttps://live.france24.com/hls/live/2037220-b/F24_ES_HI_HLS/master_5000.m3u8\r",
+      "line": 144,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Frecuencia Musical TV [Not 24/7]",
       "tvg": {
         "id": "FMTV.uk",
@@ -1573,25 +1601,25 @@
       "status": "OK"
     },
     {
-      "name": "Hiperconectados TV",
+      "name": "El Trece (1080p)",
       "tvg": {
-        "id": "HiperconectadosTV.cl",
+        "id": "ElTrece.ar",
         "name": "",
-        "logo": "https://i.imgur.com/CBbbrkI.png",
+        "logo": "https://i.imgur.com/TrgBAdA.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Science"
+        "title": "General"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://stmv5.voxtvhd.com.br/hiperconectados/hiperconectados/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"HiperconectadosTV.cl\" tvg-logo=\"https://i.imgur.com/CBbbrkI.png\" group-title=\"Science\",Hiperconectados TV\r\r\nhttps://stmv5.voxtvhd.com.br/hiperconectados/hiperconectados/playlist.m3u8\r",
-      "line": 156,
+      "url": "https://live-01-02-eltrece.vodgc.net/eltrecetv/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"ElTrece.ar\" tvg-logo=\"https://i.imgur.com/TrgBAdA.png\" group-title=\"General\",El Trece (1080p)\r\r\nhttps://live-01-02-eltrece.vodgc.net/eltrecetv/index.m3u8\r",
+      "line": 134,
       "catchup": {
         "type": "",
         "days": "",
@@ -1620,6 +1648,34 @@
       "url": "https://stream1.sersat.com/hls/garagetv.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"GarageTVLatinAmerica.ar\" tvg-logo=\"https://i.imgur.com/FqFxog1.png\" group-title=\"Auto\",Garage TV Latin America\r\r\nhttps://stream1.sersat.com/hls/garagetv.m3u8\r",
       "line": 150,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Hiperconectados TV",
+      "tvg": {
+        "id": "HiperconectadosTV.cl",
+        "name": "",
+        "logo": "https://i.imgur.com/CBbbrkI.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Science"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://stmv5.voxtvhd.com.br/hiperconectados/hiperconectados/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"HiperconectadosTV.cl\" tvg-logo=\"https://i.imgur.com/CBbbrkI.png\" group-title=\"Science\",Hiperconectados TV\r\r\nhttps://stmv5.voxtvhd.com.br/hiperconectados/hiperconectados/playlist.m3u8\r",
+      "line": 156,
       "catchup": {
         "type": "",
         "days": "",
@@ -1685,34 +1741,6 @@
       "status": "OK"
     },
     {
-      "name": "Lapacho TV Canal 11 (720p)",
-      "tvg": {
-        "id": "LapachoTVCanal11.ar",
-        "name": "",
-        "logo": "https://i.imgur.com/PmFBL7x.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://vivo.solumedia.com:19360/lapacho/lapacho.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"LapachoTVCanal11.ar\" tvg-logo=\"https://i.imgur.com/PmFBL7x.png\" group-title=\"General\",Lapacho TV Canal 11 (720p)\r\r\nhttps://vivo.solumedia.com:19360/lapacho/lapacho.m3u8\r",
-      "line": 168,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Investiga",
       "tvg": {
         "id": "Investiga.us",
@@ -1732,6 +1760,34 @@
       "url": "http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5cf96b8f4f1ca3f0629f4bf1/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c293f99-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=28f850bd-0f1c-4ede-b97c-ebd1d9a28126",
       "raw": "#EXTINF:-1 tvg-id=\"Investiga.us\" tvg-logo=\"https://i.imgur.com/Sb5adD7.png\" group-title=\"Series\",Investiga\r\r\nhttp://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5cf96b8f4f1ca3f0629f4bf1/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c293f99-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=28f850bd-0f1c-4ede-b97c-ebd1d9a28126\r",
       "line": 164,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Lapacho TV Canal 11 (720p)",
+      "tvg": {
+        "id": "LapachoTVCanal11.ar",
+        "name": "",
+        "logo": "https://i.imgur.com/PmFBL7x.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://vivo.solumedia.com:19360/lapacho/lapacho.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"LapachoTVCanal11.ar\" tvg-logo=\"https://i.imgur.com/PmFBL7x.png\" group-title=\"General\",Lapacho TV Canal 11 (720p)\r\r\nhttps://vivo.solumedia.com:19360/lapacho/lapacho.m3u8\r",
+      "line": 168,
       "catchup": {
         "type": "",
         "days": "",
@@ -1769,62 +1825,6 @@
       "status": "OK"
     },
     {
-      "name": "Litus TV (720p)",
-      "tvg": {
-        "id": "LitusTV.ar",
-        "name": "",
-        "logo": "https://i.imgur.com/QIGSf4L.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://stream.arcast.com.ar/litustv/ngrp:litustv_all/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"LitusTV.ar\" tvg-logo=\"https://i.imgur.com/QIGSf4L.png\" group-title=\"General\",Litus TV (720p)\r\r\nhttps://stream.arcast.com.ar/litustv/ngrp:litustv_all/playlist.m3u8\r",
-      "line": 170,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Ciudad Magazine (1080p) [Geo-blocked]",
-      "tvg": {
-        "id": "CiudadMagazine.ar",
-        "name": "",
-        "logo": "https://i.imgur.com/V1xZV72.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://live-01-07-ciudad.vodgc.net/live-01-07-ciudad.vodgc.net/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"CiudadMagazine.ar\" tvg-logo=\"https://i.imgur.com/V1xZV72.png\" group-title=\"General\",Ciudad Magazine (1080p) [Geo-blocked]\r\r\nhttps://live-01-07-ciudad.vodgc.net/live-01-07-ciudad.vodgc.net/index.m3u8\r",
-      "line": 116,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Más FM 95.9 (720p)",
       "tvg": {
         "id": "MasFM.ar",
@@ -1853,25 +1853,25 @@
       "status": "OK"
     },
     {
-      "name": "El Trece (1080p)",
+      "name": "Kanade (1080p)",
       "tvg": {
-        "id": "ElTrece.ar",
+        "id": "Kanade.cl",
         "name": "",
-        "logo": "https://i.imgur.com/TrgBAdA.png",
+        "logo": "https://static.kanade.cl/assets/img/profilepic_512px.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "General"
+        "title": "Animation;Entertainment"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://live-01-02-eltrece.vodgc.net/eltrecetv/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"ElTrece.ar\" tvg-logo=\"https://i.imgur.com/TrgBAdA.png\" group-title=\"General\",El Trece (1080p)\r\r\nhttps://live-01-02-eltrece.vodgc.net/eltrecetv/index.m3u8\r",
-      "line": 134,
+      "url": "https://backend.energeek.cl/webtv/kanadeweb/index.m3u8?token=ZZDemoIPTVGH",
+      "raw": "#EXTINF:-1 tvg-id=\"Kanade.cl\" tvg-logo=\"https://static.kanade.cl/assets/img/profilepic_512px.png\" group-title=\"Animation;Entertainment\",Kanade (1080p)\r\r\nhttps://backend.energeek.cl/webtv/kanadeweb/index.m3u8?token=ZZDemoIPTVGH\r",
+      "line": 166,
       "catchup": {
         "type": "",
         "days": "",
@@ -1900,6 +1900,62 @@
       "url": "https://magicstream.ddns.net/magicstream/stream.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"MagicKids.ar\" tvg-logo=\"https://i.imgur.com/CMImqQY.png\" group-title=\"Animation\",Magic Kids (486p)\r\r\nhttps://magicstream.ddns.net/magicstream/stream.m3u8\r",
       "line": 174,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Litus TV (720p)",
+      "tvg": {
+        "id": "LitusTV.ar",
+        "name": "",
+        "logo": "https://i.imgur.com/QIGSf4L.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://stream.arcast.com.ar/litustv/ngrp:litustv_all/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"LitusTV.ar\" tvg-logo=\"https://i.imgur.com/QIGSf4L.png\" group-title=\"General\",Litus TV (720p)\r\r\nhttps://stream.arcast.com.ar/litustv/ngrp:litustv_all/playlist.m3u8\r",
+      "line": 170,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Metro TV (720p)",
+      "tvg": {
+        "id": "MetroTV.ar",
+        "name": "",
+        "logo": "https://i.imgur.com/7f7M7zl.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Entertainment"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://streamtv12.ddns.net:5443/LiveApp/streams/193945633734205616732920.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"MetroTV.ar\" tvg-logo=\"https://i.imgur.com/7f7M7zl.png\" group-title=\"Entertainment\",Metro TV (720p)\r\r\nhttps://streamtv12.ddns.net:5443/LiveApp/streams/193945633734205616732920.m3u8\r",
+      "line": 178,
       "catchup": {
         "type": "",
         "days": "",
@@ -1965,62 +2021,6 @@
       "status": "OK"
     },
     {
-      "name": "Metro TV (720p)",
-      "tvg": {
-        "id": "MetroTV.ar",
-        "name": "",
-        "logo": "https://i.imgur.com/7f7M7zl.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Entertainment"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://streamtv12.ddns.net:5443/LiveApp/streams/193945633734205616732920.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"MetroTV.ar\" tvg-logo=\"https://i.imgur.com/7f7M7zl.png\" group-title=\"Entertainment\",Metro TV (720p)\r\r\nhttps://streamtv12.ddns.net:5443/LiveApp/streams/193945633734205616732920.m3u8\r",
-      "line": 178,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Panc TV (720p) [Not 24/7]",
-      "tvg": {
-        "id": "PancTV.ar",
-        "name": "",
-        "logo": "https://i.imgur.com/u1dnEVv.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://panel.host-live.com:19360/20004/20004.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"PancTV.ar\" tvg-logo=\"https://i.imgur.com/u1dnEVv.png\" group-title=\"General\",Panc TV (720p) [Not 24/7]\r\r\nhttps://panel.host-live.com:19360/20004/20004.m3u8\r",
-      "line": 194,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Nuevo Tiempo (720p) [Not 24/7]",
       "tvg": {
         "id": "NuevoTiempo.br",
@@ -2040,34 +2040,6 @@
       "url": "https://stream.live.novotempo.com/tv/smil:tvnuevotiempo.smil/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"NuevoTiempo.br\" tvg-logo=\"https://i.imgur.com/exdDHml.png\" group-title=\"Religious\",Nuevo Tiempo (720p) [Not 24/7]\r\r\nhttps://stream.live.novotempo.com/tv/smil:tvnuevotiempo.smil/playlist.m3u8\r",
       "line": 192,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Play Television (720p)",
-      "tvg": {
-        "id": "PlayTelevision.ar",
-        "name": "",
-        "logo": "https://i.ibb.co/nR85vvb/2021-01-03.jpg",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Entertainment"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://vivo.solumedia.com:19360/playtv/playtv.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"PlayTelevision.ar\" tvg-logo=\"https://i.ibb.co/nR85vvb/2021-01-03.jpg\" group-title=\"Entertainment\",Play Television (720p)\r\r\nhttps://vivo.solumedia.com:19360/playtv/playtv.m3u8\r",
-      "line": 198,
       "catchup": {
         "type": "",
         "days": "",
@@ -2105,6 +2077,34 @@
       "status": "OK"
     },
     {
+      "name": "Play Television (720p)",
+      "tvg": {
+        "id": "PlayTelevision.ar",
+        "name": "",
+        "logo": "https://i.ibb.co/nR85vvb/2021-01-03.jpg",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Entertainment"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://vivo.solumedia.com:19360/playtv/playtv.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"PlayTelevision.ar\" tvg-logo=\"https://i.ibb.co/nR85vvb/2021-01-03.jpg\" group-title=\"Entertainment\",Play Television (720p)\r\r\nhttps://vivo.solumedia.com:19360/playtv/playtv.m3u8\r",
+      "line": 198,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Platzi TV (1080p)",
       "tvg": {
         "id": "PlatziTV.es",
@@ -2124,62 +2124,6 @@
       "url": "https://mdstrm.com/live-stream-playlist/629a63ae8df27c082901f78b.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"PlatziTV.es\" tvg-logo=\"https://i.imgur.com/vEzeqHP.png\" group-title=\"Education\",Platzi TV (1080p)\r\r\nhttps://mdstrm.com/live-stream-playlist/629a63ae8df27c082901f78b.m3u8\r",
       "line": 196,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Pluto TV Cine Accion",
-      "tvg": {
-        "id": "PlutoTVCineAccion.us@US",
-        "name": "",
-        "logo": "https://i.imgur.com/PXhCzXn.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Movies"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5dcb62e63d4d8f0009f36881/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=bfef8b40-6307-11eb-b3fa-019cb96f121b&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=787d09fb-c219-46d0-b022-07fb4d7f7395&userId=&serverSideAds=false",
-      "raw": "#EXTINF:-1 tvg-id=\"PlutoTVCineAccion.us@US\" tvg-logo=\"https://i.imgur.com/PXhCzXn.png\" group-title=\"Movies\",Pluto TV Cine Accion\r\r\nhttp://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5dcb62e63d4d8f0009f36881/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=bfef8b40-6307-11eb-b3fa-019cb96f121b&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=787d09fb-c219-46d0-b022-07fb4d7f7395&userId=&serverSideAds=false\r",
-      "line": 202,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Plous TV (1080p)",
-      "tvg": {
-        "id": "PlousTV.ve",
-        "name": "",
-        "logo": "https://i.imgur.com/OSet4en.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Lifestyle"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://vcp.myplaytv.com/glowtv/glowtv/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"PlousTV.ve\" tvg-logo=\"https://i.imgur.com/OSet4en.png\" group-title=\"Lifestyle\",Plous TV (1080p)\r\r\nhttps://vcp.myplaytv.com/glowtv/glowtv/playlist.m3u8\r",
-      "line": 200,
       "catchup": {
         "type": "",
         "days": "",
@@ -2217,25 +2161,81 @@
       "status": "OK"
     },
     {
-      "name": "Pluto TV Telefe Clásico (720p)",
+      "name": "Pluto TV Cine Accion",
       "tvg": {
-        "id": "PlutoTVTelefeClasico.us",
+        "id": "PlutoTVCineAccion.us@US",
         "name": "",
-        "logo": "https://i.imgur.com/3fuWMmy.png",
+        "logo": "https://i.imgur.com/PXhCzXn.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Undefined"
+        "title": "Movies"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5de91cf02fc07c0009910465/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=19.4358&deviceLon=-99.1441&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=VE&serverSideAds=false&sessionID=b8e5a857-714a-11eb-b532-0242ac110002&sid=b8e5a857-714a-11eb-b532-0242ac110002&userId=",
-      "raw": "#EXTINF:-1 tvg-id=\"PlutoTVTelefeClasico.us\" tvg-logo=\"https://i.imgur.com/3fuWMmy.png\" group-title=\"Undefined\",Pluto TV Telefe Clásico (720p)\r\r\nhttps://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5de91cf02fc07c0009910465/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=19.4358&deviceLon=-99.1441&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=VE&serverSideAds=false&sessionID=b8e5a857-714a-11eb-b532-0242ac110002&sid=b8e5a857-714a-11eb-b532-0242ac110002&userId=\r",
-      "line": 208,
+      "url": "http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5dcb62e63d4d8f0009f36881/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=bfef8b40-6307-11eb-b3fa-019cb96f121b&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=787d09fb-c219-46d0-b022-07fb4d7f7395&userId=&serverSideAds=false",
+      "raw": "#EXTINF:-1 tvg-id=\"PlutoTVCineAccion.us@US\" tvg-logo=\"https://i.imgur.com/PXhCzXn.png\" group-title=\"Movies\",Pluto TV Cine Accion\r\r\nhttp://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5dcb62e63d4d8f0009f36881/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=bfef8b40-6307-11eb-b3fa-019cb96f121b&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=787d09fb-c219-46d0-b022-07fb4d7f7395&userId=&serverSideAds=false\r",
+      "line": 202,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Panc TV (720p) [Not 24/7]",
+      "tvg": {
+        "id": "PancTV.ar",
+        "name": "",
+        "logo": "https://i.imgur.com/u1dnEVv.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://panel.host-live.com:19360/20004/20004.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"PancTV.ar\" tvg-logo=\"https://i.imgur.com/u1dnEVv.png\" group-title=\"General\",Panc TV (720p) [Not 24/7]\r\r\nhttps://panel.host-live.com:19360/20004/20004.m3u8\r",
+      "line": 194,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Plous TV (1080p)",
+      "tvg": {
+        "id": "PlousTV.ve",
+        "name": "",
+        "logo": "https://i.imgur.com/OSet4en.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Lifestyle"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://vcp.myplaytv.com/glowtv/glowtv/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"PlousTV.ve\" tvg-logo=\"https://i.imgur.com/OSet4en.png\" group-title=\"Lifestyle\",Plous TV (1080p)\r\r\nhttps://vcp.myplaytv.com/glowtv/glowtv/playlist.m3u8\r",
+      "line": 200,
       "catchup": {
         "type": "",
         "days": "",
@@ -2264,6 +2264,34 @@
       "url": "https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5ddc4e8bcbb9010009b4e84f/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=19.4358&deviceLon=-99.1441&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=VE&serverSideAds=false&sessionID=b8e5a857-714a-11eb-b532-0242ac110002&sid=b8e5a857-714a-11eb-b532-0242ac110002&userId=",
       "raw": "#EXTINF:-1 tvg-id=\"PlutoTVCineSuspenso.us\" tvg-logo=\"https://i.imgur.com/GnUmEZn.png\" group-title=\"Movies\",Pluto TV Cine Suspenso (720p)\r\r\nhttps://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5ddc4e8bcbb9010009b4e84f/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=19.4358&deviceLon=-99.1441&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=VE&serverSideAds=false&sessionID=b8e5a857-714a-11eb-b532-0242ac110002&sid=b8e5a857-714a-11eb-b532-0242ac110002&userId=\r",
       "line": 206,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Pluto TV Telefe Clásico (720p)",
+      "tvg": {
+        "id": "PlutoTVTelefeClasico.us",
+        "name": "",
+        "logo": "https://i.imgur.com/3fuWMmy.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5de91cf02fc07c0009910465/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=19.4358&deviceLon=-99.1441&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=VE&serverSideAds=false&sessionID=b8e5a857-714a-11eb-b532-0242ac110002&sid=b8e5a857-714a-11eb-b532-0242ac110002&userId=",
+      "raw": "#EXTINF:-1 tvg-id=\"PlutoTVTelefeClasico.us\" tvg-logo=\"https://i.imgur.com/3fuWMmy.png\" group-title=\"Undefined\",Pluto TV Telefe Clásico (720p)\r\r\nhttps://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5de91cf02fc07c0009910465/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=19.4358&deviceLon=-99.1441&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=VE&serverSideAds=false&sessionID=b8e5a857-714a-11eb-b532-0242ac110002&sid=b8e5a857-714a-11eb-b532-0242ac110002&userId=\r",
+      "line": 208,
       "catchup": {
         "type": "",
         "days": "",
@@ -2329,25 +2357,25 @@
       "status": "OK"
     },
     {
-      "name": "Radio Realpolitik (720p)",
+      "name": "Quantica TV",
       "tvg": {
-        "id": "RadioRealpolitik.ar",
+        "id": "QuanticaTV.ar",
         "name": "",
-        "logo": "https://i.imgur.com/L9KCdTX.png",
+        "logo": "https://i.imgur.com/6f8EYC2.jpeg",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Music"
+        "title": "News"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://vivo.solumedia.com:19360/realpolitik/realpolitik.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"RadioRealpolitik.ar\" tvg-logo=\"https://i.imgur.com/L9KCdTX.png\" group-title=\"Music\",Radio Realpolitik (720p)\r\r\nhttps://vivo.solumedia.com:19360/realpolitik/realpolitik.m3u8\r",
-      "line": 222,
+      "url": "https://videostream.shockmedia.com.ar:19360/quanticatv/quanticatv.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"QuanticaTV.ar\" tvg-logo=\"https://i.imgur.com/6f8EYC2.jpeg\" group-title=\"News\",Quantica TV\r\r\nhttps://videostream.shockmedia.com.ar:19360/quanticatv/quanticatv.m3u8\r",
+      "line": 216,
       "catchup": {
         "type": "",
         "days": "",
@@ -2376,6 +2404,62 @@
       "url": "https://stream.arcast.live/quatro/quatro/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"QuatroTV.ar\" tvg-logo=\"https://i.imgur.com/fhHFGwv.png\" group-title=\"Undefined\",Quatro TV (540p)\r\r\nhttps://stream.arcast.live/quatro/quatro/playlist.m3u8\r",
       "line": 218,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "PRIDEtv LATAM (1080p)",
+      "tvg": {
+        "id": "PRIDEtvLATAM.cl@HD",
+        "name": "",
+        "logo": "https://neotv.cl/img/pridetv-512.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Entertainment;Lifestyle;Music"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://backend.energeek.cl/webtv/pridetvweb/index.m3u8?token=ZZDemoIPTVGH",
+      "raw": "#EXTINF:-1 tvg-id=\"PRIDEtvLATAM.cl@HD\" tvg-logo=\"https://neotv.cl/img/pridetv-512.png\" group-title=\"Entertainment;Lifestyle;Music\",PRIDEtv LATAM (1080p)\r\r\nhttps://backend.energeek.cl/webtv/pridetvweb/index.m3u8?token=ZZDemoIPTVGH\r",
+      "line": 214,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Radio Realpolitik (720p)",
+      "tvg": {
+        "id": "RadioRealpolitik.ar",
+        "name": "",
+        "logo": "https://i.imgur.com/L9KCdTX.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Music"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://vivo.solumedia.com:19360/realpolitik/realpolitik.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"RadioRealpolitik.ar\" tvg-logo=\"https://i.imgur.com/L9KCdTX.png\" group-title=\"Music\",Radio Realpolitik (720p)\r\r\nhttps://vivo.solumedia.com:19360/realpolitik/realpolitik.m3u8\r",
+      "line": 222,
       "catchup": {
         "type": "",
         "days": "",
@@ -2441,34 +2525,6 @@
       "status": "OK"
     },
     {
-      "name": "PRIDEtv LATAM (720p)",
-      "tvg": {
-        "id": "PRIDEtvLATAM.cl@HD",
-        "name": "",
-        "logo": "https://neotv.cl/img/pridetv-512.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Entertainment;Lifestyle;Music"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://panel.miplay.cl:8082/spectrumchannel/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"PRIDEtvLATAM.cl@HD\" tvg-logo=\"https://neotv.cl/img/pridetv-512.png\" group-title=\"Entertainment;Lifestyle;Music\",PRIDEtv LATAM (720p)\r\r\nhttps://panel.miplay.cl:8082/spectrumchannel/index.m3u8\r",
-      "line": 214,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Radio Yguazú TV (480p)",
       "tvg": {
         "id": "RadioYguazuTV.ar",
@@ -2516,34 +2572,6 @@
       "url": "http://204.199.3.2/.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"Radiocanal.ar\" tvg-logo=\"https://i.ibb.co/NNyDWsz/download-8.png\" group-title=\"General\",Radiocanal San Francisco (1080p)\r\r\nhttp://204.199.3.2/.m3u8\r",
       "line": 233,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "RCN Más (1080p)",
-      "tvg": {
-        "id": "RCNMas.co",
-        "name": "",
-        "logo": "https://i.imgur.com/MJzuRAN.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Entertainment"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://rcntv-rcnmas-1-us.plex.wurl.tv/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"RCNMas.co\" tvg-logo=\"https://i.imgur.com/MJzuRAN.png\" group-title=\"Entertainment\",RCN Más (1080p)\r\r\nhttps://rcntv-rcnmas-1-us.plex.wurl.tv/playlist.m3u8\r",
-      "line": 237,
       "catchup": {
         "type": "",
         "days": "",
@@ -2637,109 +2665,25 @@
       "status": "OK"
     },
     {
-      "name": "Somos La Pampa (1080p)",
+      "name": "RCN Más (1080p)",
       "tvg": {
-        "id": "SomosLaPampa.ar",
+        "id": "RCNMas.co",
         "name": "",
-        "logo": "https://i2.paste.pics/91920f8c1ac64beaaf70f7fbc09982c8.png",
+        "logo": "https://i.imgur.com/MJzuRAN.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Undefined"
+        "title": "Entertainment"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://stream.arcast.com.ar/somosnoticias/somosnoticias/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"SomosLaPampa.ar\" tvg-logo=\"https://i2.paste.pics/91920f8c1ac64beaaf70f7fbc09982c8.png\" group-title=\"Undefined\",Somos La Pampa (1080p)\r\r\nhttps://stream.arcast.com.ar/somosnoticias/somosnoticias/playlist.m3u8\r",
-      "line": 252,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Radio TV Neuquén (720p) [Not 24/7]",
-      "tvg": {
-        "id": "RadioTVNeuquen.ar",
-        "name": "",
-        "logo": "https://i.imgur.com/HXBLozl.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://media.neuquen.gov.ar/rtn/television/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"RadioTVNeuquen.ar\" tvg-logo=\"https://i.imgur.com/HXBLozl.png\" group-title=\"Undefined\",Radio TV Neuquén (720p) [Not 24/7]\r\r\nhttps://media.neuquen.gov.ar/rtn/television/playlist.m3u8\r",
-      "line": 229,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Tastemade en Espanol [Geo-blocked]",
-      "tvg": {
-        "id": "TastemadeenEspanol.us",
-        "name": "",
-        "logo": "https://i.imgur.com/8s6aRwv.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Cooking"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://tastemadees16us-xumo.amagi.tv/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TastemadeenEspanol.us\" tvg-logo=\"https://i.imgur.com/8s6aRwv.png\" group-title=\"Cooking\",Tastemade en Espanol [Geo-blocked]\r\r\nhttps://tastemadees16us-xumo.amagi.tv/playlist.m3u8\r",
-      "line": 257,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Suyai TV (1080p)",
-      "tvg": {
-        "id": "SuyaiTV.cl",
-        "name": "",
-        "logo": "https://suyaitv.cl/wp-content/uploads/2024/10/ico_Suyai_TV_512.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Culture"
-      },
-      "http": {
-        "referrer": "https://suyaitv.cl",
-        "user-agent": ""
-      },
-      "url": "https://signal.suyaitv.cl/live/35/playlist.m3u8?username=ZZDemoIPTVGH&password=9PcdCnFxUe",
-      "raw": "#EXTINF:-1 tvg-id=\"SuyaiTV.cl\" tvg-logo=\"https://suyaitv.cl/wp-content/uploads/2024/10/ico_Suyai_TV_512.png\" group-title=\"Culture\" http-referrer=\"https://suyaitv.cl\",Suyai TV (1080p)\r\r\n#EXTVLCOPT:http-referrer=https://suyaitv.cl\r\r\nhttps://signal.suyaitv.cl/live/35/playlist.m3u8?username=ZZDemoIPTVGH&password=9PcdCnFxUe\r",
-      "line": 254,
+      "url": "https://rcntv-rcnmas-1-us.plex.wurl.tv/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"RCNMas.co\" tvg-logo=\"https://i.imgur.com/MJzuRAN.png\" group-title=\"Entertainment\",RCN Más (1080p)\r\r\nhttps://rcntv-rcnmas-1-us.plex.wurl.tv/playlist.m3u8\r",
+      "line": 237,
       "catchup": {
         "type": "",
         "days": "",
@@ -2777,34 +2721,6 @@
       "status": "OK"
     },
     {
-      "name": "Telenord (720p) [Not 24/7]",
-      "tvg": {
-        "id": "Telenord.ar",
-        "name": "",
-        "logo": "https://i.imgur.com/yqXORkt.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://617c5175c970b.streamlock.net:4444/previsoratv/live/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Telenord.ar\" tvg-logo=\"https://i.imgur.com/yqXORkt.png\" group-title=\"Undefined\",Telenord (720p) [Not 24/7]\r\r\nhttps://617c5175c970b.streamlock.net:4444/previsoratv/live/playlist.m3u8\r",
-      "line": 267,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "TeleCinco Trelew (240p)",
       "tvg": {
         "id": "Telecinco.ar",
@@ -2833,11 +2749,39 @@
       "status": "OK"
     },
     {
-      "name": "RTN (Neuquén) (720p) [Not 24/7]",
+      "name": "Suyai TV (1080p)",
       "tvg": {
-        "id": "RTN.ar",
+        "id": "SuyaiTV.cl",
         "name": "",
-        "logo": "https://i.imgur.com/8xqYg4C.png",
+        "logo": "https://suyaitv.cl/wp-content/uploads/2024/10/ico_Suyai_TV_512.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Culture"
+      },
+      "http": {
+        "referrer": "https://suyaitv.cl",
+        "user-agent": ""
+      },
+      "url": "https://signal.suyaitv.cl/live/35/playlist.m3u8?username=ZZDemoIPTVGH&password=9PcdCnFxUe",
+      "raw": "#EXTINF:-1 tvg-id=\"SuyaiTV.cl\" tvg-logo=\"https://suyaitv.cl/wp-content/uploads/2024/10/ico_Suyai_TV_512.png\" group-title=\"Culture\" http-referrer=\"https://suyaitv.cl\",Suyai TV (1080p)\r\r\n#EXTVLCOPT:http-referrer=https://suyaitv.cl\r\r\nhttps://signal.suyaitv.cl/live/35/playlist.m3u8?username=ZZDemoIPTVGH&password=9PcdCnFxUe\r",
+      "line": 254,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Telenord (720p) [Not 24/7]",
+      "tvg": {
+        "id": "Telenord.ar",
+        "name": "",
+        "logo": "https://i.imgur.com/yqXORkt.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -2849,9 +2793,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://media.neuquen.gov.ar/rtn/television/media.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"RTN.ar\" tvg-logo=\"https://i.imgur.com/8xqYg4C.png\" group-title=\"Undefined\",RTN (Neuquén) (720p) [Not 24/7]\r\r\nhttps://media.neuquen.gov.ar/rtn/television/media.m3u8\r",
-      "line": 242,
+      "url": "https://617c5175c970b.streamlock.net:4444/previsoratv/live/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Telenord.ar\" tvg-logo=\"https://i.imgur.com/yqXORkt.png\" group-title=\"Undefined\",Telenord (720p) [Not 24/7]\r\r\nhttps://617c5175c970b.streamlock.net:4444/previsoratv/live/playlist.m3u8\r",
+      "line": 267,
       "catchup": {
         "type": "",
         "days": "",
@@ -2880,6 +2824,34 @@
       "url": "https://v4.tustreaming.cl/tevexinter/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"Tevex.cl\" tvg-logo=\"https://i.imgur.com/FnInQRd.png\" group-title=\"Business\",Tevex (720p) [Not 24/7]\r\r\nhttps://v4.tustreaming.cl/tevexinter/index.m3u8\r",
       "line": 271,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Tastemade en Espanol [Geo-blocked]",
+      "tvg": {
+        "id": "TastemadeenEspanol.us",
+        "name": "",
+        "logo": "https://i.imgur.com/8s6aRwv.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Cooking"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://tastemadees16us-xumo.amagi.tv/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"TastemadeenEspanol.us\" tvg-logo=\"https://i.imgur.com/8s6aRwv.png\" group-title=\"Cooking\",Tastemade en Espanol [Geo-blocked]\r\r\nhttps://tastemadees16us-xumo.amagi.tv/playlist.m3u8\r",
+      "line": 257,
       "catchup": {
         "type": "",
         "days": "",
@@ -3057,62 +3029,6 @@
       "status": "OK"
     },
     {
-      "name": "Venevisión Internacional (720p)",
-      "tvg": {
-        "id": "VenevisionInternacional.ve",
-        "name": "",
-        "logo": "https://i.imgur.com/vtGED07.jpg",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://vod2live.univtec.com/manifest/4c41c0d8-e2e4-43cc-bd43-79afe715e1b3.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"VenevisionInternacional.ve\" tvg-logo=\"https://i.imgur.com/vtGED07.jpg\" group-title=\"General\",Venevisión Internacional (720p)\r\r\nhttps://vod2live.univtec.com/manifest/4c41c0d8-e2e4-43cc-bd43-79afe715e1b3.m3u8\r",
-      "line": 304,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "VerTV (VTV) (720p) [Not 24/7]",
-      "tvg": {
-        "id": "VTV.ar",
-        "name": "",
-        "logo": "https://i.imgur.com/TLaausJ.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://5f700d5b2c46f.streamlock.net/vertv/vertv/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"VTV.ar\" tvg-logo=\"https://i.imgur.com/TLaausJ.png\" group-title=\"Undefined\",VerTV (VTV) (720p) [Not 24/7]\r\r\nhttps://5f700d5b2c46f.streamlock.net/vertv/vertv/playlist.m3u8\r",
-      "line": 306,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Vive Kanal D Drama (1080p)",
       "tvg": {
         "id": "KanalDDrama.tr@SD",
@@ -3188,6 +3104,34 @@
       "url": "https://stmv6.voxtvhd.com.br/xtremaanimal/xtremaanimal/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"XtremaAnimal.ar\" tvg-logo=\"https://i.imgur.com/HQxKLlK.png\" group-title=\"Documentary;Science\" http-referrer=\"https://xtrematv.com/?p=1504\",Xtrema Animal\r\r\n#EXTVLCOPT:http-referrer=https://xtrematv.com/?p=1504\r\r\nhttps://stmv6.voxtvhd.com.br/xtremaanimal/xtremaanimal/playlist.m3u8\r",
       "line": 315,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Venevisión Internacional (720p)",
+      "tvg": {
+        "id": "VenevisionInternacional.ve",
+        "name": "",
+        "logo": "https://i.imgur.com/vtGED07.jpg",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://vod2live.univtec.com/manifest/4c41c0d8-e2e4-43cc-bd43-79afe715e1b3.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"VenevisionInternacional.ve\" tvg-logo=\"https://i.imgur.com/vtGED07.jpg\" group-title=\"General\",Venevisión Internacional (720p)\r\r\nhttps://vod2live.univtec.com/manifest/4c41c0d8-e2e4-43cc-bd43-79afe715e1b3.m3u8\r",
+      "line": 304,
       "catchup": {
         "type": "",
         "days": "",
