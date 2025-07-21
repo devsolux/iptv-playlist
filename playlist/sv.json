@@ -33,34 +33,6 @@
       "status": "OK"
     },
     {
-      "name": "Canal 4 (1080p) [Not 24/7]",
-      "tvg": {
-        "id": "Canal4.sv@SD",
-        "name": "",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Canal_4_TCS.png/512px-Canal_4_TCS.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://tmp-sv3.teleon.live:8080/play/a011/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Canal4.sv@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Canal_4_TCS.png/512px-Canal_4_TCS.png\" group-title=\"General\",Canal 4 (1080p) [Not 24/7]\r\r\nhttp://tmp-sv3.teleon.live:8080/play/a011/index.m3u8\r",
-      "line": 24,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Canal 3 Impresionante (480p)",
       "tvg": {
         "id": "Canal3Impresionante.sv",
@@ -89,11 +61,11 @@
       "status": "OK"
     },
     {
-      "name": "Canal 6 (480p) [Not 24/7]",
+      "name": "Canal 4 (1080p) [Not 24/7]",
       "tvg": {
-        "id": "Canal6.sv",
+        "id": "Canal4.sv@SD",
         "name": "",
-        "logo": "https://i.imgur.com/M4muPLK.png",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Canal_4_TCS.png/512px-Canal_4_TCS.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -105,9 +77,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://telecorporacion.cdn.vustreams.com/live/b164ebe7-decf-4a5a-8aea-5bb56fb92dfc/live.isml/live.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Canal6.sv\" tvg-logo=\"https://i.imgur.com/M4muPLK.png\" group-title=\"General\",Canal 6 (480p) [Not 24/7]\r\r\nhttps://telecorporacion.cdn.vustreams.com/live/b164ebe7-decf-4a5a-8aea-5bb56fb92dfc/live.isml/live.m3u8\r",
-      "line": 26,
+      "url": "http://tmp-sv3.teleon.live:8080/play/a011/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Canal4.sv@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Canal_4_TCS.png/512px-Canal_4_TCS.png\" group-title=\"General\",Canal 4 (1080p) [Not 24/7]\r\r\nhttp://tmp-sv3.teleon.live:8080/play/a011/index.m3u8\r",
+      "line": 24,
       "catchup": {
         "type": "",
         "days": "",
@@ -136,6 +108,34 @@
       "url": "https://alba-sv-c12-c12.stream.mediatiquestream.com/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"Canal12.sv\" tvg-logo=\"https://i.imgur.com/UGDbp3O.png\" group-title=\"General\",Canal 12 (220p)\r\r\nhttps://alba-sv-c12-c12.stream.mediatiquestream.com/index.m3u8\r",
       "line": 30,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Canal 6 (480p) [Not 24/7]",
+      "tvg": {
+        "id": "Canal6.sv",
+        "name": "",
+        "logo": "https://i.imgur.com/M4muPLK.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://telecorporacion.cdn.vustreams.com/live/b164ebe7-decf-4a5a-8aea-5bb56fb92dfc/live.isml/live.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Canal6.sv\" tvg-logo=\"https://i.imgur.com/M4muPLK.png\" group-title=\"General\",Canal 6 (480p) [Not 24/7]\r\r\nhttps://telecorporacion.cdn.vustreams.com/live/b164ebe7-decf-4a5a-8aea-5bb56fb92dfc/live.isml/live.m3u8\r",
+      "line": 26,
       "catchup": {
         "type": "",
         "days": "",
@@ -201,6 +201,34 @@
       "status": "OK"
     },
     {
+      "name": "Canal 11 TuTV (349p)",
+      "tvg": {
+        "id": "Canal11TuTV.sv",
+        "name": "",
+        "logo": "https://i.imgur.com/itqQEux.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://stream.giostreaming.net:19360/canal11/canal11.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Canal11TuTV.sv\" tvg-logo=\"https://i.imgur.com/itqQEux.png\" group-title=\"General\",Canal 11 TuTV (349p)\r\r\nhttps://stream.giostreaming.net:19360/canal11/canal11.m3u8\r",
+      "line": 28,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Josué TV (1080p)",
       "tvg": {
         "id": "JosueTV.sv",
@@ -220,34 +248,6 @@
       "url": "https://videoserver.tmcreativos.com:19360/abbftuhxxs/abbftuhxxs.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"JosueTV.sv\" tvg-logo=\"https://i.imgur.com/LNWGe1D.jpg\" group-title=\"Religious\",Josué TV (1080p)\r\r\nhttps://videoserver.tmcreativos.com:19360/abbftuhxxs/abbftuhxxs.m3u8\r",
       "line": 108,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Legislative Assembly of El Salvador (1080p) [Not 24/7]",
-      "tvg": {
-        "id": "LegislativeAssemblyofElSalvador.sv",
-        "name": "",
-        "logo": "https://i.imgur.com/OBuiCyb.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Legislative"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://streaming.asamblea.gob.sv/hls/plenariahd.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"LegislativeAssemblyofElSalvador.sv\" tvg-logo=\"https://i.imgur.com/OBuiCyb.png\" group-title=\"Legislative\",Legislative Assembly of El Salvador (1080p) [Not 24/7]\r\r\nhttps://streaming.asamblea.gob.sv/hls/plenariahd.m3u8\r",
-      "line": 112,
       "catchup": {
         "type": "",
         "days": "",
@@ -285,34 +285,6 @@
       "status": "OK"
     },
     {
-      "name": "Canal 11 TuTV (349p)",
-      "tvg": {
-        "id": "Canal11TuTV.sv",
-        "name": "",
-        "logo": "https://i.imgur.com/itqQEux.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://stream.giostreaming.net:19360/canal11/canal11.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Canal11TuTV.sv\" tvg-logo=\"https://i.imgur.com/itqQEux.png\" group-title=\"General\",Canal 11 TuTV (349p)\r\r\nhttps://stream.giostreaming.net:19360/canal11/canal11.m3u8\r",
-      "line": 28,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "TCS+ (480p) [Not 24/7]",
       "tvg": {
         "id": "TCSPlus.sv",
@@ -332,34 +304,6 @@
       "url": "https://telecorporacion.cdn.vustreams.com/live/19b307cf-3f2d-44cb-bce6-0fd65365c56a/live.isml/live.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TCSPlus.sv\" tvg-logo=\"https://i.imgur.com/iYFWG06.png\" group-title=\"General\",TCS+ (480p) [Not 24/7]\r\r\nhttps://telecorporacion.cdn.vustreams.com/live/19b307cf-3f2d-44cb-bce6-0fd65365c56a/live.isml/live.m3u8\r",
       "line": 177,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "TV Getsemaní (720p)",
-      "tvg": {
-        "id": "TVGetsemani.sv",
-        "name": "",
-        "logo": "https://i.imgur.com/C9SJCcE.jpg",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Religious"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://serversv.com:8080/hls/tvgetsemani.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TVGetsemani.sv\" tvg-logo=\"https://i.imgur.com/C9SJCcE.jpg\" group-title=\"Religious\",TV Getsemaní (720p)\r\r\nhttps://serversv.com:8080/hls/tvgetsemani.m3u8\r",
-      "line": 203,
       "catchup": {
         "type": "",
         "days": "",
@@ -397,25 +341,25 @@
       "status": "OK"
     },
     {
-      "name": "TVM El Salvador",
+      "name": "TV Getsemaní (720p)",
       "tvg": {
-        "id": "TVMElSalvador.sv",
+        "id": "TVGetsemani.sv",
         "name": "",
-        "logo": "https://i.imgur.com/fyCC8R6.png",
+        "logo": "https://i.imgur.com/C9SJCcE.jpg",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "News"
+        "title": "Religious"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "http://201.247.102.189/tmp_hls/stream/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TVMElSalvador.sv\" tvg-logo=\"https://i.imgur.com/fyCC8R6.png\" group-title=\"News\",TVM El Salvador\r\r\nhttp://201.247.102.189/tmp_hls/stream/index.m3u8\r",
-      "line": 212,
+      "url": "https://serversv.com:8080/hls/tvgetsemani.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"TVGetsemani.sv\" tvg-logo=\"https://i.imgur.com/C9SJCcE.jpg\" group-title=\"Religious\",TV Getsemaní (720p)\r\r\nhttps://serversv.com:8080/hls/tvgetsemani.m3u8\r",
+      "line": 203,
       "catchup": {
         "type": "",
         "days": "",
@@ -444,6 +388,62 @@
       "url": "https://6110f70ea8d0e.streamlock.net/1838/1838/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TVLeondeJuda.sv\" tvg-logo=\"https://i.imgur.com/ZUCppwi.png\" group-title=\"Religious\",TV León de Judá (720p)\r\r\nhttps://6110f70ea8d0e.streamlock.net/1838/1838/playlist.m3u8\r",
       "line": 205,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "TVM El Salvador",
+      "tvg": {
+        "id": "TVMElSalvador.sv",
+        "name": "",
+        "logo": "https://i.imgur.com/fyCC8R6.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "News"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://201.247.102.189/tmp_hls/stream/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"TVMElSalvador.sv\" tvg-logo=\"https://i.imgur.com/fyCC8R6.png\" group-title=\"News\",TVM El Salvador\r\r\nhttp://201.247.102.189/tmp_hls/stream/index.m3u8\r",
+      "line": 212,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "TVC Network (720p) [Not 24/7]",
+      "tvg": {
+        "id": "TVCNetwork.sv",
+        "name": "",
+        "logo": "https://i.imgur.com/S1xiWB3.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "https://player.castr.com/live_d0b3cf70e24111ed8ed2951b4c7d1b75",
+        "user-agent": ""
+      },
+      "url": "https://stream.castr.com/643880749cf895435bf8eadf/live_d0b3cf70e24111ed8ed2951b4c7d1b75/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"TVCNetwork.sv\" tvg-logo=\"https://i.imgur.com/S1xiWB3.png\" group-title=\"General\" http-referrer=\"https://player.castr.com/live_d0b3cf70e24111ed8ed2951b4c7d1b75\",TVC Network (720p) [Not 24/7]\r\r\n#EXTVLCOPT:http-referrer=https://player.castr.com/live_d0b3cf70e24111ed8ed2951b4c7d1b75\r\r\nhttps://stream.castr.com/643880749cf895435bf8eadf/live_d0b3cf70e24111ed8ed2951b4c7d1b75/index.m3u8\r",
+      "line": 207,
       "catchup": {
         "type": "",
         "days": "",
