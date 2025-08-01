@@ -5,62 +5,6 @@
   },
   "items": [
     {
-      "name": "EAC News TV",
-      "tvg": {
-        "id": "EACNewsTV.kh@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/EuYhS9Z.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "News"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://live-evg17.tv360.metfone.com.kh/LiveApp/streams/eacnews.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"EACNewsTV.kh@SD\" tvg-logo=\"https://i.imgur.com/EuYhS9Z.png\" group-title=\"News\",EAC News TV\r\r\nhttps://live-evg17.tv360.metfone.com.kh/LiveApp/streams/eacnews.m3u8\r",
-      "line": 32,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Apsara TV11 (720p)",
-      "tvg": {
-        "id": "ApsaraTV11.kh",
-        "name": "",
-        "logo": "https://i.imgur.com/9wJe71I.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://live.ams.com.kh/app/stream/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"ApsaraTV11.kh\" tvg-logo=\"https://i.imgur.com/9wJe71I.png\" group-title=\"General\",Apsara TV11 (720p)\r\r\nhttps://live.ams.com.kh/app/stream/playlist.m3u8\r",
-      "line": 4,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "BTV News (720p)",
       "tvg": {
         "id": "BTVNews.kh",
@@ -89,25 +33,53 @@
       "status": "OK"
     },
     {
-      "name": "Komsan TV [Not 24/7]",
+      "name": "EAC News TV",
       "tvg": {
-        "id": "KomsanTV.kh",
+        "id": "EACNewsTV.kh@SD",
         "name": "",
-        "logo": "https://i.imgur.com/SNTf2r3.png",
+        "logo": "https://i.imgur.com/EuYhS9Z.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Movies"
+        "title": "News"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "http://tv.cootel.com.kh:8077/streams/d/Komsan/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"KomsanTV.kh\" tvg-logo=\"https://i.imgur.com/SNTf2r3.png\" group-title=\"Movies\",Komsan TV [Not 24/7]\r\r\nhttp://tv.cootel.com.kh:8077/streams/d/Komsan/playlist.m3u8\r",
-      "line": 46,
+      "url": "https://live-evg17.tv360.metfone.com.kh/LiveApp/streams/eacnews.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"EACNewsTV.kh@SD\" tvg-logo=\"https://i.imgur.com/EuYhS9Z.png\" group-title=\"News\",EAC News TV\r\r\nhttps://live-evg17.tv360.metfone.com.kh/LiveApp/streams/eacnews.m3u8\r",
+      "line": 32,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "MOI TV",
+      "tvg": {
+        "id": "MOITV.kh@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/fbI2ybo.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Legislative"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://202.62.56.22:8080/hls/MOITV.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"MOITV.kh@SD\" tvg-logo=\"https://i.imgur.com/fbI2ybo.png\" group-title=\"Legislative\",MOI TV\r\r\nhttp://202.62.56.22:8080/hls/MOITV.m3u8\r",
+      "line": 48,
       "catchup": {
         "type": "",
         "days": "",
@@ -145,25 +117,25 @@
       "status": "OK"
     },
     {
-      "name": "MOI TV",
+      "name": "Komsan TV [Not 24/7]",
       "tvg": {
-        "id": "MOITV.kh@SD",
+        "id": "KomsanTV.kh",
         "name": "",
-        "logo": "https://i.imgur.com/fbI2ybo.png",
+        "logo": "https://i.imgur.com/SNTf2r3.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Legislative"
+        "title": "Movies"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "http://202.62.56.22:8080/hls/MOITV.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"MOITV.kh@SD\" tvg-logo=\"https://i.imgur.com/fbI2ybo.png\" group-title=\"Legislative\",MOI TV\r\r\nhttp://202.62.56.22:8080/hls/MOITV.m3u8\r",
-      "line": 48,
+      "url": "http://tv.cootel.com.kh:8077/streams/d/Komsan/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"KomsanTV.kh\" tvg-logo=\"https://i.imgur.com/SNTf2r3.png\" group-title=\"Movies\",Komsan TV [Not 24/7]\r\r\nhttp://tv.cootel.com.kh:8077/streams/d/Komsan/playlist.m3u8\r",
+      "line": 46,
       "catchup": {
         "type": "",
         "days": "",
@@ -285,34 +257,6 @@
       "status": "OK"
     },
     {
-      "name": "TVK 2 (720p)",
-      "tvg": {
-        "id": "TVK2.kh",
-        "name": "",
-        "logo": "https://i.imgur.com/L36ptO2.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Education"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://live.kh.malimarcdn.com/live/tvk2.stream/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TVK2.kh\" tvg-logo=\"https://i.imgur.com/L36ptO2.png\" group-title=\"Education\",TVK 2 (720p)\r\r\nhttps://live.kh.malimarcdn.com/live/tvk2.stream/playlist.m3u8\r",
-      "line": 81,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "TVK (720p)",
       "tvg": {
         "id": "TVK.kh",
@@ -331,7 +275,7 @@
       },
       "url": "https://live.kh.malimarcdn.com/live/tvk.stream/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TVK.kh\" tvg-logo=\"https://i.imgur.com/5hPxjcl.png\" group-title=\"General\",TVK (720p)\r\r\nhttps://live.kh.malimarcdn.com/live/tvk.stream/playlist.m3u8\r",
-      "line": 83,
+      "line": 81,
       "catchup": {
         "type": "",
         "days": "",
@@ -341,25 +285,25 @@
       "status": "OK"
     },
     {
-      "name": "TV5 Cambodia (1080p)",
+      "name": "TVK 2 (720p)",
       "tvg": {
-        "id": "TV5Cambodia.kh",
+        "id": "TVK2.kh",
         "name": "",
-        "logo": "https://i.imgur.com/iMZLyoX.png",
+        "logo": "https://i.imgur.com/L36ptO2.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Undefined"
+        "title": "Education"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://es1-p1-netcdn.metfone.com.kh/netcdn-live-36/36/output/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TV5Cambodia.kh\" tvg-logo=\"https://i.imgur.com/iMZLyoX.png\" group-title=\"Undefined\",TV5 Cambodia (1080p)\r\r\nhttps://es1-p1-netcdn.metfone.com.kh/netcdn-live-36/36/output/playlist.m3u8\r",
-      "line": 75,
+      "url": "https://live.kh.malimarcdn.com/live/tvk2.stream/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"TVK2.kh\" tvg-logo=\"https://i.imgur.com/L36ptO2.png\" group-title=\"Education\",TVK 2 (720p)\r\r\nhttps://live.kh.malimarcdn.com/live/tvk2.stream/playlist.m3u8\r",
+      "line": 83,
       "catchup": {
         "type": "",
         "days": "",
@@ -388,6 +332,34 @@
       "url": "https://streaming.freshnewsasia.com/live/ngrp:myStream_all/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"FreshNews.kh\" tvg-logo=\"https://i.imgur.com/bV6sawt.png\" group-title=\"News\",Fresh News (720p)\r\r\nhttps://streaming.freshnewsasia.com/live/ngrp:myStream_all/playlist.m3u8\r",
       "line": 38,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "TV5 Cambodia (1080p)",
+      "tvg": {
+        "id": "TV5Cambodia.kh",
+        "name": "",
+        "logo": "https://i.imgur.com/iMZLyoX.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://es1-p1-netcdn.metfone.com.kh/netcdn-live-36/36/output/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"TV5Cambodia.kh\" tvg-logo=\"https://i.imgur.com/iMZLyoX.png\" group-title=\"Undefined\",TV5 Cambodia (1080p)\r\r\nhttps://es1-p1-netcdn.metfone.com.kh/netcdn-live-36/36/output/playlist.m3u8\r",
+      "line": 75,
       "catchup": {
         "type": "",
         "days": "",
