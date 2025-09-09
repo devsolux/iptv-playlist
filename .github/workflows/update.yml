@@ -13,28 +13,46 @@ on:
         required: false
         default: 'warning'
 
+# Needed to allow the workflow to push commits back to the repo
+permissions:
+  contents: write
+
+# Avoid overlapping runs on the same ref
+concurrency:
+  group: node-ci-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - name: Set up Node.js version 20
-        uses: actions/setup-node@v4
+      - name: Set up Node.js
+        uses: actions/setup-node@v5
         with:
           node-version: '20'
+          cache: 'npm'
 
       - name: Install ffmpeg
         run: |
           sudo apt update
           sudo apt-get install -y --no-install-recommends ffmpeg
 
-      - name: Start project
-        run: npm install
+      - name: Install dependencies
+        run: |
+          if [ -f package-lock.json ]; then
+            npm ci
+          else
+            npm install
+          fi
 
       # Additional steps to create folder, write JSON file and commit changes
       - name: Playlist run
         run: node playlist.js
         env:
+          # Pass logLevel from manual dispatch; default to 'warning'
+          LOG_LEVEL: ${{ github.event.inputs.logLevel || 'warning' }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

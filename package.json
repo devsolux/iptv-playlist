@@ -1,26 +1,26 @@
 {
   "name": "iptv-playlist",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "private": true,
   "scripts": {
     "start": "node playlist.js",
     "prettier": "prettier --write \"src/**/*.js\" \"playlist.js\" \"checker.js\""
   },
   "dependencies": {
-    "async": "^3.2.5",
-    "axios": "^1.7.2",
+    "async": "^3.2.6",
+    "axios": "^1.11.0",
     "colors": "^1.4.0",
     "command-exists": "^1.2.9",
-    "commander": "^12.1.0",
+    "commander": "^14.0.0",
     "dateformat": "^5.0.3",
     "get-stdin": "^9.0.0",
     "is-valid-path": "^0.1.1",
-    "validator": "^13.12.0",
+    "validator": "^13.15.15",
     "progress": "^2.0.3",
     "valid-url": "^1.0.9"
   },
   "devDependencies": {
-    "prettier": "^3.3.2"
+    "prettier": "^3.6.2"
   },
   "engines": {
     "node": ">=20"
