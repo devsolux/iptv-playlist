@@ -3,9 +3,9 @@ name: Node CI
 on:
   schedule:
     # Runs every 12 hours
-    # - cron: '0 */12 * * *'
+    - cron: '0 */12 * * *'
     # Runs every 4 days at 14:00 UTC
-    - cron: '0 14 */4 * *'
+    # - cron: '0 14 */4 * *'
   workflow_dispatch:
     inputs:
       logLevel:

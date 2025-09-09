@@ -9,6 +9,9 @@ const {cpus} = require('os')
 const {loadStream} = require('./http')
 const ffprobe = require('./ffprobe')
 
+// Toggle ffprobe usage
+const CHECK_FFPROBE = false
+
 const defaultConfig = {
     debug: false,
     userAgent: null,
@@ -31,10 +34,12 @@ class IPTVChecker {
     }
 
     async checkPlaylist(input) {
-        try {
-            await commandExists('ffprobe')
-        } catch {
-            throw new Error('Executable ffprobe not found.')
+        if (CHECK_FFPROBE) {
+            try {
+                await commandExists('ffprobe')
+            } catch {
+                throw new Error('Executable ffprobe not found.')
+            }
         }
 
         if (!(input instanceof Object) && !Buffer.isBuffer(input) && typeof input !== 'string') {
@@ -106,7 +111,13 @@ class IPTVChecker {
 
         try {
             await loadStream(item, config, logger)
-            item.status = await ffprobe(item, config, logger)
+
+            if (CHECK_FFPROBE) {
+                item.status = await ffprobe(item, config, logger)
+            } else {
+                // If we don't use ffprobe, consider successful load as OK
+                item.status = {ok: true, code: 'OK', message: 'Stream loaded'}
+            }
         } catch (status) {
             item.status = status
         }
