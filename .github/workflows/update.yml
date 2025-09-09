@@ -25,7 +25,7 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 4320 # maximum 72 hours
 
     steps:
       - uses: actions/checkout@v5
