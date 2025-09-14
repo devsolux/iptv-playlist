@@ -5,6 +5,34 @@
   },
   "items": [
     {
+      "name": "Bum Televisión (720p) [Not 24/7]",
+      "tvg": {
+        "id": "CanalVisionDorada.co",
+        "name": "",
+        "logo": "https://i.imgur.com/TerY4iM.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://movil.ejeserver.com/live/visiondorada.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"CanalVisionDorada.co\" tvg-logo=\"https://i.imgur.com/TerY4iM.png\" group-title=\"General\",Bum Televisión (720p) [Not 24/7]\r\r\nhttps://movil.ejeserver.com/live/visiondorada.m3u8\r",
+      "line": 4,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Avivamiento TV (1080p) [Not 24/7]",
       "tvg": {
         "id": "AvivamientoTV.co",
@@ -33,11 +61,11 @@
       "status": "OK"
     },
     {
-      "name": "Bum Televisión (720p) [Not 24/7]",
+      "name": "Canal 8 TV+ (720p)",
       "tvg": {
-        "id": "CanalVisionDorada.co",
+        "id": "Canal8TVPlus.co",
         "name": "",
-        "logo": "https://i.imgur.com/TerY4iM.png",
+        "logo": "https://i.imgur.com/peOIG1F.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -49,9 +77,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://movil.ejeserver.com/live/visiondorada.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"CanalVisionDorada.co\" tvg-logo=\"https://i.imgur.com/TerY4iM.png\" group-title=\"General\",Bum Televisión (720p) [Not 24/7]\r\r\nhttps://movil.ejeserver.com/live/visiondorada.m3u8\r",
-      "line": 4,
+      "url": "https://movil.ejeserver.com/live/canal8tv.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Canal8TVPlus.co\" tvg-logo=\"https://i.imgur.com/peOIG1F.png\" group-title=\"General\",Canal 8 TV+ (720p)\r\r\nhttps://movil.ejeserver.com/live/canal8tv.m3u8\r",
+      "line": 14,
       "catchup": {
         "type": "",
         "days": "",
@@ -117,11 +145,11 @@
       "status": "OK"
     },
     {
-      "name": "Canal 8 TV+ (720p)",
+      "name": "Canal 10 SOL TV (1080p)",
       "tvg": {
-        "id": "Canal8TVPlus.co",
+        "id": "Canal10SOLTV.co",
         "name": "",
-        "logo": "https://i.imgur.com/peOIG1F.png",
+        "logo": "https://i.imgur.com/kAbrHqt.jpeg",
         "url": "",
         "rec": "",
         "shift": ""
@@ -133,9 +161,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://movil.ejeserver.com/live/canal8tv.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Canal8TVPlus.co\" tvg-logo=\"https://i.imgur.com/peOIG1F.png\" group-title=\"General\",Canal 8 TV+ (720p)\r\r\nhttps://movil.ejeserver.com/live/canal8tv.m3u8\r",
-      "line": 14,
+      "url": "http://190.211.140.89:8081/SVTranscoder/SOLTVabr.stream/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Canal10SOLTV.co\" tvg-logo=\"https://i.imgur.com/kAbrHqt.jpeg\" group-title=\"General\",Canal 10 SOL TV (1080p)\r\r\nhttp://190.211.140.89:8081/SVTranscoder/SOLTVabr.stream/playlist.m3u8\r",
+      "line": 16,
       "catchup": {
         "type": "",
         "days": "",
@@ -173,11 +201,11 @@
       "status": "OK"
     },
     {
-      "name": "Canal 10 SOL TV (1080p)",
+      "name": "Canal Más Televisión (720p)",
       "tvg": {
-        "id": "Canal10SOLTV.co",
+        "id": "CanalMasTelevision.co",
         "name": "",
-        "logo": "https://i.imgur.com/kAbrHqt.jpeg",
+        "logo": "https://i.imgur.com/ODMa27W.jpg",
         "url": "",
         "rec": "",
         "shift": ""
@@ -189,9 +217,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "http://190.211.140.89:8081/SVTranscoder/SOLTVabr.stream/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Canal10SOLTV.co\" tvg-logo=\"https://i.imgur.com/kAbrHqt.jpeg\" group-title=\"General\",Canal 10 SOL TV (1080p)\r\r\nhttp://190.211.140.89:8081/SVTranscoder/SOLTVabr.stream/playlist.m3u8\r",
-      "line": 16,
+      "url": "https://movil.ejeserver.com/live/teledoradahd.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"CanalMasTelevision.co\" tvg-logo=\"https://i.imgur.com/ODMa27W.jpg\" group-title=\"General\",Canal Más Televisión (720p)\r\r\nhttps://movil.ejeserver.com/live/teledoradahd.m3u8\r",
+      "line": 24,
       "catchup": {
         "type": "",
         "days": "",
@@ -229,53 +257,25 @@
       "status": "OK"
     },
     {
-      "name": "Canal Más Televisión (720p)",
+      "name": "Canal 14 Codazzi (720p) [Not 24/7]",
       "tvg": {
-        "id": "CanalMasTelevision.co",
+        "id": "Canal14Codazzi.co",
         "name": "",
-        "logo": "https://i.imgur.com/ODMa27W.jpg",
+        "logo": "https://i.imgur.com/wNSUMhJ.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "General"
+        "title": "Entertainment"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://movil.ejeserver.com/live/teledoradahd.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"CanalMasTelevision.co\" tvg-logo=\"https://i.imgur.com/ODMa27W.jpg\" group-title=\"General\",Canal Más Televisión (720p)\r\r\nhttps://movil.ejeserver.com/live/teledoradahd.m3u8\r",
-      "line": 24,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Canal 55 Telemorisco TV (720p)",
-      "tvg": {
-        "id": "Canal55TelemoriscoTV.co",
-        "name": "",
-        "logo": "https://i.imgur.com/9BwZyhM.jpg",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://canal.mediaserver.com.co/live/telemorisco.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Canal55TelemoriscoTV.co\" tvg-logo=\"https://i.imgur.com/9BwZyhM.jpg\" group-title=\"General\",Canal 55 Telemorisco TV (720p)\r\r\nhttp://canal.mediaserver.com.co/live/telemorisco.m3u8\r",
-      "line": 20,
+      "url": "https://eu1.servers10.com:8081/8056/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Canal14Codazzi.co\" tvg-logo=\"https://i.imgur.com/wNSUMhJ.png\" group-title=\"Entertainment\",Canal 14 Codazzi (720p) [Not 24/7]\r\r\nhttps://eu1.servers10.com:8081/8056/index.m3u8\r",
+      "line": 18,
       "catchup": {
         "type": "",
         "days": "",
@@ -313,39 +313,11 @@
       "status": "OK"
     },
     {
-      "name": "Canal 14 Codazzi (720p) [Not 24/7]",
+      "name": "Canal 55 Telemorisco TV (720p)",
       "tvg": {
-        "id": "Canal14Codazzi.co",
+        "id": "Canal55TelemoriscoTV.co",
         "name": "",
-        "logo": "https://i.imgur.com/wNSUMhJ.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Entertainment"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://eu1.servers10.com:8081/8056/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Canal14Codazzi.co\" tvg-logo=\"https://i.imgur.com/wNSUMhJ.png\" group-title=\"Entertainment\",Canal 14 Codazzi (720p) [Not 24/7]\r\r\nhttps://eu1.servers10.com:8081/8056/index.m3u8\r",
-      "line": 18,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Canal TRO Plus (1080p) [Geo-blocked]",
-      "tvg": {
-        "id": "CanalTROPlus.co",
-        "name": "",
-        "logo": "https://i.imgur.com/4lNPj9m.png",
+        "logo": "https://i.imgur.com/9BwZyhM.jpg",
         "url": "",
         "rec": "",
         "shift": ""
@@ -355,11 +327,11 @@
       },
       "http": {
         "referrer": "",
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160"
+        "user-agent": ""
       },
-      "url": "https://liveingesta118.cdnmedia.tv/canaltro2live/smil:troplus.smil/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"CanalTROPlus.co\" tvg-logo=\"https://i.imgur.com/4lNPj9m.png\" group-title=\"General\" http-user-agent=\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160\",Canal TRO Plus (1080p) [Geo-blocked]\r\r\n#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160\r\r\nhttps://liveingesta118.cdnmedia.tv/canaltro2live/smil:troplus.smil/playlist.m3u8\r",
-      "line": 35,
+      "url": "http://canal.mediaserver.com.co/live/telemorisco.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Canal55TelemoriscoTV.co\" tvg-logo=\"https://i.imgur.com/9BwZyhM.jpg\" group-title=\"General\",Canal 55 Telemorisco TV (720p)\r\r\nhttp://canal.mediaserver.com.co/live/telemorisco.m3u8\r",
+      "line": 20,
       "catchup": {
         "type": "",
         "days": "",
@@ -397,6 +369,34 @@
       "status": "OK"
     },
     {
+      "name": "Canal TRO Plus (1080p) [Geo-blocked]",
+      "tvg": {
+        "id": "CanalTROPlus.co",
+        "name": "",
+        "logo": "https://i.imgur.com/4lNPj9m.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160"
+      },
+      "url": "https://liveingesta118.cdnmedia.tv/canaltro2live/smil:troplus.smil/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"CanalTROPlus.co\" tvg-logo=\"https://i.imgur.com/4lNPj9m.png\" group-title=\"General\" http-user-agent=\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160\",Canal TRO Plus (1080p) [Geo-blocked]\r\r\n#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160\r\r\nhttps://liveingesta118.cdnmedia.tv/canaltro2live/smil:troplus.smil/playlist.m3u8\r",
+      "line": 35,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Caracol TV [Not 24/7]",
       "tvg": {
         "id": "CaracolTV.co@SD",
@@ -425,25 +425,25 @@
       "status": "OK"
     },
     {
-      "name": "CMB Television (1080p)",
+      "name": "Cinecanal",
       "tvg": {
-        "id": "CMBTelevision.co",
+        "id": "Cinecanal.us",
         "name": "",
-        "logo": "https://i.imgur.com/akGKPsk.png",
+        "logo": "https://comteco.com.bo/img/upload/canales/qvJQXi.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Religious"
+        "title": "Movies"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://catv.cmbcolombia.tv/bethesda/bethesda/chunklist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"CMBTelevision.co\" tvg-logo=\"https://i.imgur.com/akGKPsk.png\" group-title=\"Religious\",CMB Television (1080p)\r\r\nhttps://catv.cmbcolombia.tv/bethesda/bethesda/chunklist.m3u8\r",
-      "line": 44,
+      "url": "https://cors-proxy.cooks.fyi/https://streamer1.nexgen.bz/CINECANAL/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Cinecanal.us\" tvg-logo=\"https://comteco.com.bo/img/upload/canales/qvJQXi.png\" group-title=\"Movies\",Cinecanal\r\r\nhttps://cors-proxy.cooks.fyi/https://streamer1.nexgen.bz/CINECANAL/index.m3u8\r",
+      "line": 42,
       "catchup": {
         "type": "",
         "days": "",
@@ -481,25 +481,25 @@
       "status": "OK"
     },
     {
-      "name": "Cinecanal",
+      "name": "CMB Television (1080p)",
       "tvg": {
-        "id": "Cinecanal.us",
+        "id": "CMBTelevision.co",
         "name": "",
-        "logo": "https://comteco.com.bo/img/upload/canales/qvJQXi.png",
+        "logo": "https://i.imgur.com/akGKPsk.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Movies"
+        "title": "Religious"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://cors-proxy.cooks.fyi/https://streamer1.nexgen.bz/CINECANAL/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Cinecanal.us\" tvg-logo=\"https://comteco.com.bo/img/upload/canales/qvJQXi.png\" group-title=\"Movies\",Cinecanal\r\r\nhttps://cors-proxy.cooks.fyi/https://streamer1.nexgen.bz/CINECANAL/index.m3u8\r",
-      "line": 42,
+      "url": "https://catv.cmbcolombia.tv/bethesda/bethesda/chunklist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"CMBTelevision.co\" tvg-logo=\"https://i.imgur.com/akGKPsk.png\" group-title=\"Religious\",CMB Television (1080p)\r\r\nhttps://catv.cmbcolombia.tv/bethesda/bethesda/chunklist.m3u8\r",
+      "line": 44,
       "catchup": {
         "type": "",
         "days": "",
@@ -621,34 +621,6 @@
       "status": "OK"
     },
     {
-      "name": "Canal Telefamilia (360p) [Not 24/7]",
-      "tvg": {
-        "id": "CanalTelefamilia.co",
-        "name": "",
-        "logo": "https://i.imgur.com/D1s1Q3k.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Religious"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://stmv2.voxtvhd.com.br/telefamilia/telefamilia/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"CanalTelefamilia.co\" tvg-logo=\"https://i.imgur.com/D1s1Q3k.png\" group-title=\"Religious\",Canal Telefamilia (360p) [Not 24/7]\r\r\nhttps://stmv2.voxtvhd.com.br/telefamilia/telefamilia/playlist.m3u8\r",
-      "line": 30,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "MasMusica FM (720p)",
       "tvg": {
         "id": "MasMusicaFM.co",
@@ -677,25 +649,25 @@
       "status": "OK"
     },
     {
-      "name": "Luna Estéreo 106.4 FM (720p) [Not 24/7]",
+      "name": "Canal Telefamilia (360p) [Not 24/7]",
       "tvg": {
-        "id": "LunaEstereo1064FM.co",
+        "id": "CanalTelefamilia.co",
         "name": "",
-        "logo": "https://i.imgur.com/cESeD6R.png",
+        "logo": "https://i.imgur.com/D1s1Q3k.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Music"
+        "title": "Religious"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://servervideo.intermediacolombia.com:19360/kychbbfhdz/kychbbfhdz.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"LunaEstereo1064FM.co\" tvg-logo=\"https://i.imgur.com/cESeD6R.png\" group-title=\"Music\",Luna Estéreo 106.4 FM (720p) [Not 24/7]\r\r\nhttps://servervideo.intermediacolombia.com:19360/kychbbfhdz/kychbbfhdz.m3u8\r",
-      "line": 69,
+      "url": "https://stmv2.voxtvhd.com.br/telefamilia/telefamilia/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"CanalTelefamilia.co\" tvg-logo=\"https://i.imgur.com/D1s1Q3k.png\" group-title=\"Religious\",Canal Telefamilia (360p) [Not 24/7]\r\r\nhttps://stmv2.voxtvhd.com.br/telefamilia/telefamilia/playlist.m3u8\r",
+      "line": 30,
       "catchup": {
         "type": "",
         "days": "",
@@ -733,34 +705,6 @@
       "status": "OK"
     },
     {
-      "name": "Mundo Mas",
-      "tvg": {
-        "id": "MundoMas.co@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/CREs19T.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://edge.teveo.net/live/AeAAAgA_AALTA1IAyADIUDAAAAGAAAAAAmg03eFAIAByAAAA/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"MundoMas.co@SD\" tvg-logo=\"https://i.imgur.com/CREs19T.png\" group-title=\"General\",Mundo Mas\r\r\nhttps://edge.teveo.net/live/AeAAAgA_AALTA1IAyADIUDAAAAGAAAAAAmg03eFAIAByAAAA/playlist.m3u8\r",
-      "line": 77,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "MaxTV [Not 24/7]",
       "tvg": {
         "id": "MaxTV.co",
@@ -780,6 +724,34 @@
       "url": "https://inliveserver.com:1936/8078/8078/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"MaxTV.co\" tvg-logo=\"https://i.postimg.cc/02YKz58q/maxtv.png\" group-title=\"Entertainment\",MaxTV [Not 24/7]\r\r\nhttps://inliveserver.com:1936/8078/8078/playlist.m3u8\r",
       "line": 73,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Mundo Mas",
+      "tvg": {
+        "id": "MundoMas.co@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/CREs19T.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://edge.teveo.net/live/AeAAAgA_AALTA1IAyADIUDAAAAGAAAAAAmg03eFAIAByAAAA/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"MundoMas.co@SD\" tvg-logo=\"https://i.imgur.com/CREs19T.png\" group-title=\"General\",Mundo Mas\r\r\nhttps://edge.teveo.net/live/AeAAAgA_AALTA1IAyADIUDAAAAGAAAAAAmg03eFAIAByAAAA/playlist.m3u8\r",
+      "line": 77,
       "catchup": {
         "type": "",
         "days": "",
