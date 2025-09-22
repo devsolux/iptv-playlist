@@ -5,6 +5,34 @@
   },
   "items": [
     {
+      "name": "Di TV (1080p)",
+      "tvg": {
+        "id": "DiTV.se",
+        "name": "",
+        "logo": "https://i.imgur.com/zApTDWn.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "News"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://cdn0-03837-liveedge0.dna.ip-only.net/03837-liveedge0/smil:03837-tx4/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"DiTV.se\" tvg-logo=\"https://i.imgur.com/zApTDWn.png\" group-title=\"News\",Di TV (1080p)\r\r\nhttps://cdn0-03837-liveedge0.dna.ip-only.net/03837-liveedge0/smil:03837-tx4/playlist.m3u8\r",
+      "line": 6,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Expressen TV (1080p)",
       "tvg": {
         "id": "ExpressenTV.se",
@@ -33,25 +61,25 @@
       "status": "OK"
     },
     {
-      "name": "Di TV (1080p)",
+      "name": "Himlen TV7 (720p)",
       "tvg": {
-        "id": "DiTV.se",
+        "id": "HimlenTV7.fi",
         "name": "",
-        "logo": "https://i.imgur.com/zApTDWn.png",
+        "logo": "https://i.imgur.com/k8a7KNn.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "News"
+        "title": "Religious"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://cdn0-03837-liveedge0.dna.ip-only.net/03837-liveedge0/smil:03837-tx4/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"DiTV.se\" tvg-logo=\"https://i.imgur.com/zApTDWn.png\" group-title=\"News\",Di TV (1080p)\r\r\nhttps://cdn0-03837-liveedge0.dna.ip-only.net/03837-liveedge0/smil:03837-tx4/playlist.m3u8\r",
-      "line": 6,
+      "url": "https://vod.tv7.fi/tv7-se/smil:tv7-se.smil/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"HimlenTV7.fi\" tvg-logo=\"https://i.imgur.com/k8a7KNn.png\" group-title=\"Religious\",Himlen TV7 (720p)\r\r\nhttps://vod.tv7.fi/tv7-se/smil:tv7-se.smil/playlist.m3u8\r",
+      "line": 10,
       "catchup": {
         "type": "",
         "days": "",
@@ -117,25 +145,53 @@
       "status": "OK"
     },
     {
-      "name": "Himlen TV7 (720p)",
+      "name": "The Pet Collective Sweden",
       "tvg": {
-        "id": "HimlenTV7.fi",
+        "id": "ThePetCollective.us@Sweden",
         "name": "",
-        "logo": "https://i.imgur.com/k8a7KNn.png",
+        "logo": "https://i.imgur.com/yH7n2dF.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Religious"
+        "title": "Family"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://vod.tv7.fi/tv7-se/smil:tv7-se.smil/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"HimlenTV7.fi\" tvg-logo=\"https://i.imgur.com/k8a7KNn.png\" group-title=\"Religious\",Himlen TV7 (720p)\r\r\nhttps://vod.tv7.fi/tv7-se/smil:tv7-se.smil/playlist.m3u8\r",
-      "line": 10,
+      "url": "https://the-pet-collective-international-se.samsung.wurl.tv/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"ThePetCollective.us@Sweden\" tvg-logo=\"https://i.imgur.com/yH7n2dF.png\" group-title=\"Family\",The Pet Collective Sweden\r\r\nhttps://the-pet-collective-international-se.samsung.wurl.tv/playlist.m3u8\r",
+      "line": 34,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Miracle Channel (576p)",
+      "tvg": {
+        "id": "MiracleChannel.se",
+        "name": "",
+        "logo": "https://i.imgur.com/yrt7Rw9.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "News"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://miracle.stream.boxigy.com/hls/miracle1.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"MiracleChannel.se\" tvg-logo=\"https://i.imgur.com/yrt7Rw9.png\" group-title=\"News\",Miracle Channel (576p)\r\r\nhttps://miracle.stream.boxigy.com/hls/miracle1.m3u8\r",
+      "line": 18,
       "catchup": {
         "type": "",
         "days": "",
@@ -192,62 +248,6 @@
       "url": "https://live.miraclechannel.com/hls/miracle1.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"MiracleTV.se\" tvg-logo=\"https://i.imgur.com/rc68GZJ.png\" group-title=\"Religious\",Miracle TV (576p)\r\r\nhttps://live.miraclechannel.com/hls/miracle1.m3u8\r",
       "line": 20,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "The Pet Collective Sweden",
-      "tvg": {
-        "id": "ThePetCollective.us@Sweden",
-        "name": "",
-        "logo": "https://i.imgur.com/yH7n2dF.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Family"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://the-pet-collective-international-se.samsung.wurl.tv/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"ThePetCollective.us@Sweden\" tvg-logo=\"https://i.imgur.com/yH7n2dF.png\" group-title=\"Family\",The Pet Collective Sweden\r\r\nhttps://the-pet-collective-international-se.samsung.wurl.tv/playlist.m3u8\r",
-      "line": 34,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Miracle Channel (576p)",
-      "tvg": {
-        "id": "MiracleChannel.se",
-        "name": "",
-        "logo": "https://i.imgur.com/yrt7Rw9.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "News"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://miracle.stream.boxigy.com/hls/miracle1.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"MiracleChannel.se\" tvg-logo=\"https://i.imgur.com/yrt7Rw9.png\" group-title=\"News\",Miracle Channel (576p)\r\r\nhttps://miracle.stream.boxigy.com/hls/miracle1.m3u8\r",
-      "line": 18,
       "catchup": {
         "type": "",
         "days": "",
