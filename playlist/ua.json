@@ -89,25 +89,25 @@
       "status": "OK"
     },
     {
-      "name": "EWTN Ukraine (1080p)",
+      "name": "DniproTV (1080p)",
       "tvg": {
-        "id": "EWTNUkraine.ua",
+        "id": "DniproTV.ua",
         "name": "",
-        "logo": "",
+        "logo": "https://i.imgur.com/mbPTVh1.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Religious"
+        "title": "General"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://cdn3.wowza.com/1/WjduMm1tYnlwNXQx/M01NV3Uz/hls/live/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"EWTNUkraine.ua\" tvg-logo=\"\" group-title=\"Religious\",EWTN Ukraine (1080p)\r\r\nhttps://cdn3.wowza.com/1/WjduMm1tYnlwNXQx/M01NV3Uz/hls/live/playlist.m3u8\r",
-      "line": 24,
+      "url": "http://vcdn1.produck.company:1935/out/dtv/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"DniproTV.ua\" tvg-logo=\"https://i.imgur.com/mbPTVh1.png\" group-title=\"General\",DniproTV (1080p)\r\r\nhttp://vcdn1.produck.company:1935/out/dtv/playlist.m3u8\r",
+      "line": 22,
       "catchup": {
         "type": "",
         "days": "",
@@ -145,25 +145,25 @@
       "status": "OK"
     },
     {
-      "name": "DniproTV (1080p)",
+      "name": "EWTN Ukraine (1080p)",
       "tvg": {
-        "id": "DniproTV.ua",
+        "id": "EWTNUkraine.ua",
         "name": "",
-        "logo": "https://i.imgur.com/mbPTVh1.png",
+        "logo": "",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "General"
+        "title": "Religious"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "http://vcdn1.produck.company:1935/out/dtv/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"DniproTV.ua\" tvg-logo=\"https://i.imgur.com/mbPTVh1.png\" group-title=\"General\",DniproTV (1080p)\r\r\nhttp://vcdn1.produck.company:1935/out/dtv/playlist.m3u8\r",
-      "line": 22,
+      "url": "https://cdn3.wowza.com/1/WjduMm1tYnlwNXQx/M01NV3Uz/hls/live/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"EWTNUkraine.ua\" tvg-logo=\"\" group-title=\"Religious\",EWTN Ukraine (1080p)\r\r\nhttps://cdn3.wowza.com/1/WjduMm1tYnlwNXQx/M01NV3Uz/hls/live/playlist.m3u8\r",
+      "line": 24,
       "catchup": {
         "type": "",
         "days": "",
@@ -1041,34 +1041,6 @@
       "status": "OK"
     },
     {
-      "name": "Тернопіль 1 (720p)",
-      "tvg": {
-        "id": "Ternopil1.ua",
-        "name": "",
-        "logo": "https://i.imgur.com/f5EtIzV.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "News"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://ott.columbus.te.ua/ternopil1/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Ternopil1.ua\" tvg-logo=\"https://i.imgur.com/f5EtIzV.png\" group-title=\"News\",Тернопіль 1 (720p)\r\r\nhttps://ott.columbus.te.ua/ternopil1/index.m3u8\r",
-      "line": 140,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Телерадиокомпания 555 (Алушта) (720p)",
       "tvg": {
         "id": "555.ru",
@@ -1088,6 +1060,34 @@
       "url": "http://trk555.tv:8888/live",
       "raw": "#EXTINF:-1 tvg-id=\"555.ru\" tvg-logo=\"https://i.imgur.com/JQZkxeA.png\" group-title=\"General\",Телерадиокомпания 555 (Алушта) (720p)\r\r\nhttp://trk555.tv:8888/live\r",
       "line": 138,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Тернопіль 1 (720p)",
+      "tvg": {
+        "id": "Ternopil1.ua",
+        "name": "",
+        "logo": "https://i.imgur.com/f5EtIzV.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "News"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://ott.columbus.te.ua/ternopil1/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Ternopil1.ua\" tvg-logo=\"https://i.imgur.com/f5EtIzV.png\" group-title=\"News\",Тернопіль 1 (720p)\r\r\nhttps://ott.columbus.te.ua/ternopil1/index.m3u8\r",
+      "line": 140,
       "catchup": {
         "type": "",
         "days": "",
