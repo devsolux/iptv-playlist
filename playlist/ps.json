@@ -33,34 +33,6 @@
       "status": "OK"
     },
     {
-      "name": "Al Najah News (720p)",
-      "tvg": {
-        "id": "AlNajahNews.ps",
-        "name": "",
-        "logo": "https://i.imgur.com/c2bwn4G.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "News"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://streaming.najah.edu:8443/hls/AlNajah.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"AlNajahNews.ps\" tvg-logo=\"https://i.imgur.com/c2bwn4G.png\" group-title=\"News\",Al Najah News (720p)\r\r\nhttps://streaming.najah.edu:8443/hls/AlNajah.m3u8\r",
-      "line": 8,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Al Madina (720p)",
       "tvg": {
         "id": "AlMadina.ps",
@@ -80,6 +52,34 @@
       "url": "https://streaming.zaytonatube.com:8081/AlMadinatv/almadina21/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"AlMadina.ps\" tvg-logo=\"https://i.imgur.com/NVOeM3P.png\" group-title=\"Undefined\",Al Madina (720p)\r\r\nhttps://streaming.zaytonatube.com:8081/AlMadinatv/almadina21/index.m3u8\r",
       "line": 6,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Al Najah News (720p)",
+      "tvg": {
+        "id": "AlNajahNews.ps",
+        "name": "",
+        "logo": "https://i.imgur.com/c2bwn4G.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "News"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://streaming.najah.edu:8443/hls/AlNajah.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"AlNajahNews.ps\" tvg-logo=\"https://i.imgur.com/c2bwn4G.png\" group-title=\"News\",Al Najah News (720p)\r\r\nhttps://streaming.najah.edu:8443/hls/AlNajah.m3u8\r",
+      "line": 8,
       "catchup": {
         "type": "",
         "days": "",
@@ -117,6 +117,34 @@
       "status": "OK"
     },
     {
+      "name": "Holy Quran Radio Nablus (720p)",
+      "tvg": {
+        "id": "HolyQuranRadioNablus.ps",
+        "name": "",
+        "logo": "https://quran-radio.com/assets/images/site/quran-radio-logo-h-rtl.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Religious"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://streaming.zaytonatube.com:8080/holyquran/holyquran/video.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"HolyQuranRadioNablus.ps\" tvg-logo=\"https://quran-radio.com/assets/images/site/quran-radio-logo-h-rtl.png\" group-title=\"Religious\",Holy Quran Radio Nablus (720p)\r\r\nhttp://streaming.zaytonatube.com:8080/holyquran/holyquran/video.m3u8\r",
+      "line": 18,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Ajyal TV (720p)",
       "tvg": {
         "id": "AjyalTV.ps",
@@ -145,25 +173,25 @@
       "status": "OK"
     },
     {
-      "name": "Holy Quran Radio Nablus (720p)",
+      "name": "Kolalnas TV",
       "tvg": {
-        "id": "HolyQuranRadioNablus.ps",
+        "id": "KolalnasTV.ps@SD",
         "name": "",
-        "logo": "https://quran-radio.com/assets/images/site/quran-radio-logo-h-rtl.png",
+        "logo": "https://i.imgur.com/OyMxcRG.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Religious"
+        "title": "News"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "http://streaming.zaytonatube.com:8080/holyquran/holyquran/video.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"HolyQuranRadioNablus.ps\" tvg-logo=\"https://quran-radio.com/assets/images/site/quran-radio-logo-h-rtl.png\" group-title=\"Religious\",Holy Quran Radio Nablus (720p)\r\r\nhttp://streaming.zaytonatube.com:8080/holyquran/holyquran/video.m3u8\r",
-      "line": 18,
+      "url": "https://htvint.mada.ps/kolalnas/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"KolalnasTV.ps@SD\" tvg-logo=\"https://i.imgur.com/OyMxcRG.png\" group-title=\"News\",Kolalnas TV\r\r\nhttps://htvint.mada.ps/kolalnas/index.m3u8\r",
+      "line": 20,
       "catchup": {
         "type": "",
         "days": "",
@@ -201,11 +229,11 @@
       "status": "OK"
     },
     {
-      "name": "Kolalnas TV",
+      "name": "Nablus TV (1080p)",
       "tvg": {
-        "id": "KolalnasTV.ps@SD",
+        "id": "NablusTV.ps",
         "name": "",
-        "logo": "https://i.imgur.com/OyMxcRG.png",
+        "logo": "https://i.imgur.com/GoLhaDK.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -217,9 +245,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://htvint.mada.ps/kolalnas/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"KolalnasTV.ps@SD\" tvg-logo=\"https://i.imgur.com/OyMxcRG.png\" group-title=\"News\",Kolalnas TV\r\r\nhttps://htvint.mada.ps/kolalnas/index.m3u8\r",
-      "line": 20,
+      "url": "https://htvint.mada.ps/nabluslive/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"NablusTV.ps\" tvg-logo=\"https://i.imgur.com/GoLhaDK.png\" group-title=\"News\",Nablus TV (1080p)\r\r\nhttps://htvint.mada.ps/nabluslive/index.m3u8\r",
+      "line": 25,
       "catchup": {
         "type": "",
         "days": "",
@@ -285,6 +313,34 @@
       "status": "OK"
     },
     {
+      "name": "Radio Albalad TV (720p)",
+      "tvg": {
+        "id": "RadioAlbaladTV.ps",
+        "name": "",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/7/71/Nothing_whitespace_blank.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://streaming.zaytonatube.com:8080/radioalbalad/radioalbalad/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"RadioAlbaladTV.ps\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/7/71/Nothing_whitespace_blank.png\" group-title=\"General\",Radio Albalad TV (720p)\r\r\nhttp://streaming.zaytonatube.com:8080/radioalbalad/radioalbalad/playlist.m3u8\r",
+      "line": 37,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Palestine Satellite Channel (1080p)",
       "tvg": {
         "id": "PalestineSatelliteChannel.ps",
@@ -332,34 +388,6 @@
       "url": "https://live.paltodaytv.com/paltv/live/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"PalestineToday.ps\" tvg-logo=\"https://i.imgur.com/BS8XXug.png\" group-title=\"News\",Palestine Today (480p) [Geo-blocked]\r\r\nhttps://live.paltodaytv.com/paltv/live/playlist.m3u8\r",
       "line": 35,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Radio Albalad TV (720p)",
-      "tvg": {
-        "id": "RadioAlbaladTV.ps",
-        "name": "",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/7/71/Nothing_whitespace_blank.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://streaming.zaytonatube.com:8080/radioalbalad/radioalbalad/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"RadioAlbaladTV.ps\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/7/71/Nothing_whitespace_blank.png\" group-title=\"General\",Radio Albalad TV (720p)\r\r\nhttp://streaming.zaytonatube.com:8080/radioalbalad/radioalbalad/playlist.m3u8\r",
-      "line": 37,
       "catchup": {
         "type": "",
         "days": "",
