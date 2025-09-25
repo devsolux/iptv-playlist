@@ -5,34 +5,6 @@
   },
   "items": [
     {
-      "name": ":Šport (1080p)",
-      "tvg": {
-        "id": "Sport.sk",
-        "name": "",
-        "logo": "https://i.imgur.com/oAtcxNZ.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Sports"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://88.212.15.27/live/test_rtvs_sport_hevc/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Sport.sk\" tvg-logo=\"https://i.imgur.com/oAtcxNZ.png\" group-title=\"Sports\",:Šport (1080p)\r\r\nhttp://88.212.15.27/live/test_rtvs_sport_hevc/playlist.m3u8\r",
-      "line": 2,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": ":24 (1080p)",
       "tvg": {
         "id": "24.sk",
@@ -61,25 +33,53 @@
       "status": "OK"
     },
     {
-      "name": "JOJ24 (720p)",
+      "name": ":Šport (1080p)",
       "tvg": {
-        "id": "JOJ24.sk",
+        "id": "Sport.sk",
         "name": "",
-        "logo": "https://i.imgur.com/Tv12wOd.png",
+        "logo": "https://i.imgur.com/oAtcxNZ.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "News"
+        "title": "Sports"
       },
       "http": {
-        "referrer": "https://media.joj.sk/",
+        "referrer": "",
         "user-agent": ""
       },
-      "url": "https://live.cdn.joj.sk/live/andromeda/joj_news-720.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"JOJ24.sk\" tvg-logo=\"https://i.imgur.com/Tv12wOd.png\" group-title=\"News\" http-referrer=\"https://media.joj.sk/\",JOJ24 (720p)\r\r\n#EXTVLCOPT:http-referrer=https://media.joj.sk/\r\r\nhttps://live.cdn.joj.sk/live/andromeda/joj_news-720.m3u8\r",
-      "line": 12,
+      "url": "http://88.212.15.27/live/test_rtvs_sport_hevc/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Sport.sk\" tvg-logo=\"https://i.imgur.com/oAtcxNZ.png\" group-title=\"Sports\",:Šport (1080p)\r\r\nhttp://88.212.15.27/live/test_rtvs_sport_hevc/playlist.m3u8\r",
+      "line": 2,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "BTV (480p)",
+      "tvg": {
+        "id": "BTV.sk",
+        "name": "",
+        "logo": "https://i.imgur.com/5CZ6HHn.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://fs3.kabelko.sk/9011/index.m3u8?token=btv",
+      "raw": "#EXTINF:-1 tvg-id=\"BTV.sk\" tvg-logo=\"https://i.imgur.com/5CZ6HHn.png\" group-title=\"Undefined\",BTV (480p)\r\r\nhttps://fs3.kabelko.sk/9011/index.m3u8?token=btv\r",
+      "line": 6,
       "catchup": {
         "type": "",
         "days": "",
@@ -108,6 +108,34 @@
       "url": "https://live.cdn.joj.sk/live/andromeda/cinema-720.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"JOJCinema.sk\" tvg-logo=\"https://i.imgur.com/5Auduch.png\" group-title=\"Movies\" http-referrer=\"https://media.joj.sk/\",JOJ Cinema (720p)\r\r\n#EXTVLCOPT:http-referrer=https://media.joj.sk/\r\r\nhttps://live.cdn.joj.sk/live/andromeda/cinema-720.m3u8\r",
       "line": 15,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "JOJ24 (720p)",
+      "tvg": {
+        "id": "JOJ24.sk",
+        "name": "",
+        "logo": "https://i.imgur.com/Tv12wOd.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "News"
+      },
+      "http": {
+        "referrer": "https://media.joj.sk/",
+        "user-agent": ""
+      },
+      "url": "https://live.cdn.joj.sk/live/andromeda/joj_news-720.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"JOJ24.sk\" tvg-logo=\"https://i.imgur.com/Tv12wOd.png\" group-title=\"News\" http-referrer=\"https://media.joj.sk/\",JOJ24 (720p)\r\r\n#EXTVLCOPT:http-referrer=https://media.joj.sk/\r\r\nhttps://live.cdn.joj.sk/live/andromeda/joj_news-720.m3u8\r",
+      "line": 12,
       "catchup": {
         "type": "",
         "days": "",
@@ -285,34 +313,6 @@
       "status": "OK"
     },
     {
-      "name": "LifeTv (1080p)",
-      "tvg": {
-        "id": "LifeTv.sk",
-        "name": "",
-        "logo": "https://i.imgur.com/jO8kAY2.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Religious"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://lifetv.mpks.sk/s.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"LifeTv.sk\" tvg-logo=\"https://i.imgur.com/jO8kAY2.png\" group-title=\"Religious\",LifeTv (1080p)\r\r\nhttps://lifetv.mpks.sk/s.m3u8\r",
-      "line": 37,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Markíza Klasik (1080p)",
       "tvg": {
         "id": "MarkizaKlasik.sk",
@@ -332,34 +332,6 @@
       "url": "https://cdnsk003.panaccess.com/local/Markiza_Klasik/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"MarkizaKlasik.sk\" tvg-logo=\"https://sledovanietv.sk/cache/logos256/markiza_klasik.png\" group-title=\"Entertainment\",Markíza Klasik (1080p)\r\r\nhttps://cdnsk003.panaccess.com/local/Markiza_Klasik/index.m3u8\r",
       "line": 41,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "MarkízaDoma (1080p)",
-      "tvg": {
-        "id": "MarkizaDoma.sk",
-        "name": "",
-        "logo": "https://i.imgur.com/emVnkFK.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Entertainment"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://88.212.7.11/live/test_doma_hd_hevc/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"MarkizaDoma.sk\" tvg-logo=\"https://i.imgur.com/emVnkFK.png\" group-title=\"Entertainment\",MarkízaDoma (1080p)\r\r\nhttp://88.212.7.11/live/test_doma_hd_hevc/playlist.m3u8\r",
-      "line": 45,
       "catchup": {
         "type": "",
         "days": "",
@@ -397,25 +369,25 @@
       "status": "OK"
     },
     {
-      "name": "BTV (480p)",
+      "name": "MarkízaDoma (1080p)",
       "tvg": {
-        "id": "BTV.sk",
+        "id": "MarkizaDoma.sk",
         "name": "",
-        "logo": "https://i.imgur.com/5CZ6HHn.png",
+        "logo": "https://i.imgur.com/emVnkFK.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Undefined"
+        "title": "Entertainment"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://fs3.kabelko.sk/9011/index.m3u8?token=btv",
-      "raw": "#EXTINF:-1 tvg-id=\"BTV.sk\" tvg-logo=\"https://i.imgur.com/5CZ6HHn.png\" group-title=\"Undefined\",BTV (480p)\r\r\nhttps://fs3.kabelko.sk/9011/index.m3u8?token=btv\r",
-      "line": 6,
+      "url": "http://88.212.7.11/live/test_doma_hd_hevc/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"MarkizaDoma.sk\" tvg-logo=\"https://i.imgur.com/emVnkFK.png\" group-title=\"Entertainment\",MarkízaDoma (1080p)\r\r\nhttp://88.212.7.11/live/test_doma_hd_hevc/playlist.m3u8\r",
+      "line": 45,
       "catchup": {
         "type": "",
         "days": "",
@@ -444,6 +416,34 @@
       "url": "https://cdnsk003.panaccess.com/local/Ruzomberok/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"MTR.sk\" tvg-logo=\"https://www.mtr.sk/img/logo-mtr-0.png\" group-title=\"General\",MTR (1080p)\r\r\nhttps://cdnsk003.panaccess.com/local/Ruzomberok/index.m3u8\r",
       "line": 49,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "LifeTv (1080p)",
+      "tvg": {
+        "id": "LifeTv.sk",
+        "name": "",
+        "logo": "https://i.imgur.com/jO8kAY2.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Religious"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://lifetv.mpks.sk/s.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"LifeTv.sk\" tvg-logo=\"https://i.imgur.com/jO8kAY2.png\" group-title=\"Religious\",LifeTv (1080p)\r\r\nhttps://lifetv.mpks.sk/s.m3u8\r",
+      "line": 37,
       "catchup": {
         "type": "",
         "days": "",
