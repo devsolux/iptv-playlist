@@ -61,34 +61,6 @@
       "status": "OK"
     },
     {
-      "name": "Komsan TV [Not 24/7]",
-      "tvg": {
-        "id": "KomsanTV.kh",
-        "name": "",
-        "logo": "https://i.imgur.com/SNTf2r3.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Movies"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://tv.cootel.com.kh:8077/streams/d/Komsan/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"KomsanTV.kh\" tvg-logo=\"https://i.imgur.com/SNTf2r3.png\" group-title=\"Movies\",Komsan TV [Not 24/7]\r\r\nhttp://tv.cootel.com.kh:8077/streams/d/Komsan/playlist.m3u8\r",
-      "line": 24,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "BTV News (720p)",
       "tvg": {
         "id": "BTVNews.kh",
@@ -145,25 +117,25 @@
       "status": "OK"
     },
     {
-      "name": "MNB World (1080p)",
+      "name": "Komsan TV [Not 24/7]",
       "tvg": {
-        "id": "MNBWorld.mn",
+        "id": "KomsanTV.kh",
         "name": "",
-        "logo": "https://i.imgur.com/PHlj84Q.png",
+        "logo": "https://i.imgur.com/SNTf2r3.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "General"
+        "title": "Movies"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://cdn4.skygo.mn/live/disk1/MNB_World/HLSv3-FTA/MNB_World.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"MNBWorld.mn\" tvg-logo=\"https://i.imgur.com/PHlj84Q.png\" group-title=\"General\",MNB World (1080p)\r\r\nhttps://cdn4.skygo.mn/live/disk1/MNB_World/HLSv3-FTA/MNB_World.m3u8\r",
-      "line": 26,
+      "url": "http://tv.cootel.com.kh:8077/streams/d/Komsan/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"KomsanTV.kh\" tvg-logo=\"https://i.imgur.com/SNTf2r3.png\" group-title=\"Movies\",Komsan TV [Not 24/7]\r\r\nhttp://tv.cootel.com.kh:8077/streams/d/Komsan/playlist.m3u8\r",
+      "line": 24,
       "catchup": {
         "type": "",
         "days": "",
@@ -192,6 +164,34 @@
       "url": "http://43.252.18.195:5080/LiveApp/streams/ntvhd.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"NTV.kh\" tvg-logo=\"https://i.postimg.cc/Zq6V5Bfz/ntv.png\" group-title=\"Undefined\",NTV\r\r\nhttp://43.252.18.195:5080/LiveApp/streams/ntvhd.m3u8\r",
       "line": 35,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "MNB World (1080p)",
+      "tvg": {
+        "id": "MNBWorld.mn",
+        "name": "",
+        "logo": "https://i.imgur.com/PHlj84Q.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://cdn4.skygo.mn/live/disk1/MNB_World/HLSv3-FTA/MNB_World.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"MNBWorld.mn\" tvg-logo=\"https://i.imgur.com/PHlj84Q.png\" group-title=\"General\",MNB World (1080p)\r\r\nhttps://cdn4.skygo.mn/live/disk1/MNB_World/HLSv3-FTA/MNB_World.m3u8\r",
+      "line": 26,
       "catchup": {
         "type": "",
         "days": "",
@@ -248,6 +248,34 @@
       "url": "https://seatv.netlinkbroadcaster.com/hls/test.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"SEATV.kh\" tvg-logo=\"https://i.imgur.com/oZPorvg.png\" group-title=\"Undefined\",SEATV (1080p)\r\r\nhttps://seatv.netlinkbroadcaster.com/hls/test.m3u8\r",
       "line": 43,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "MSJ TV (1080p)",
+      "tvg": {
+        "id": "MSJTV.kh",
+        "name": "",
+        "logo": "https://i.imgur.com/TilslGU.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "https://www.iptvservice.site/",
+        "user-agent": ""
+      },
+      "url": "https://live-ali7.tv360.metfone.com.kh/live/myStream/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"MSJTV.kh\" tvg-logo=\"https://i.imgur.com/TilslGU.png\" group-title=\"General\" http-referrer=\"https://www.iptvservice.site/\",MSJ TV (1080p)\r\r\n#EXTVLCOPT:http-referrer=https://www.iptvservice.site/\r\r\nhttps://live-ali7.tv360.metfone.com.kh/live/myStream/playlist.m3u8\r",
+      "line": 30,
       "catchup": {
         "type": "",
         "days": "",
@@ -332,34 +360,6 @@
       "url": "https://stream.wikitv.asia/live/ngrp:myStream_all/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"WikiTV.kh\" tvg-logo=\"https://i.imgur.com/rnV0Ui1.png\" group-title=\"Education\",WIKI TV (720p)\r\r\nhttps://stream.wikitv.asia/live/ngrp:myStream_all/playlist.m3u8\r",
       "line": 55,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "MSJ TV (1080p)",
-      "tvg": {
-        "id": "MSJTV.kh",
-        "name": "",
-        "logo": "https://i.imgur.com/TilslGU.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "https://www.iptvservice.site/",
-        "user-agent": ""
-      },
-      "url": "https://live-ali7.tv360.metfone.com.kh/live/myStream/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"MSJTV.kh\" tvg-logo=\"https://i.imgur.com/TilslGU.png\" group-title=\"General\" http-referrer=\"https://www.iptvservice.site/\",MSJ TV (1080p)\r\r\n#EXTVLCOPT:http-referrer=https://www.iptvservice.site/\r\r\nhttps://live-ali7.tv360.metfone.com.kh/live/myStream/playlist.m3u8\r",
-      "line": 30,
       "catchup": {
         "type": "",
         "days": "",
