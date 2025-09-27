@@ -117,9 +117,9 @@
       "status": "OK"
     },
     {
-      "name": "Carac 4 (1080p)",
+      "name": "Carac 2 (1080p)",
       "tvg": {
-        "id": "Carac4.ch",
+        "id": "Carac2.ch",
         "name": "",
         "logo": "https://www.bejart.ch/wp-content/uploads//carac-400x304.png",
         "url": "",
@@ -133,9 +133,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://edge17.vedge.infomaniak.com/livecast/ik:compack_media_1/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Carac4.ch\" tvg-logo=\"https://www.bejart.ch/wp-content/uploads//carac-400x304.png\" group-title=\"Entertainment\",Carac 4 (1080p)\r\r\nhttps://edge17.vedge.infomaniak.com/livecast/ik:compack_media_1/playlist.m3u8\r",
-      "line": 20,
+      "url": "https://onefmhd.vedge.infomaniak.com/livecast/ik:onefmhd/manifest.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Carac2.ch\" tvg-logo=\"https://www.bejart.ch/wp-content/uploads//carac-400x304.png\" group-title=\"Entertainment\",Carac 2 (1080p)\r\r\nhttps://onefmhd.vedge.infomaniak.com/livecast/ik:onefmhd/manifest.m3u8\r",
+      "line": 16,
       "catchup": {
         "type": "",
         "days": "",
@@ -173,9 +173,9 @@
       "status": "OK"
     },
     {
-      "name": "Carac 2 (1080p)",
+      "name": "Carac 4 (1080p)",
       "tvg": {
-        "id": "Carac2.ch",
+        "id": "Carac4.ch",
         "name": "",
         "logo": "https://www.bejart.ch/wp-content/uploads//carac-400x304.png",
         "url": "",
@@ -189,9 +189,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://onefmhd.vedge.infomaniak.com/livecast/ik:onefmhd/manifest.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Carac2.ch\" tvg-logo=\"https://www.bejart.ch/wp-content/uploads//carac-400x304.png\" group-title=\"Entertainment\",Carac 2 (1080p)\r\r\nhttps://onefmhd.vedge.infomaniak.com/livecast/ik:onefmhd/manifest.m3u8\r",
-      "line": 16,
+      "url": "https://edge17.vedge.infomaniak.com/livecast/ik:compack_media_1/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Carac4.ch\" tvg-logo=\"https://www.bejart.ch/wp-content/uploads//carac-400x304.png\" group-title=\"Entertainment\",Carac 4 (1080p)\r\r\nhttps://edge17.vedge.infomaniak.com/livecast/ik:compack_media_1/playlist.m3u8\r",
+      "line": 20,
       "catchup": {
         "type": "",
         "days": "",
@@ -313,34 +313,6 @@
       "status": "OK"
     },
     {
-      "name": "Leman Bleu (1080p)",
-      "tvg": {
-        "id": "LemanBleu.ch@SD",
-        "name": "",
-        "logo": "https://i.postimg.cc/QCKvxn5f/lemanbleu.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "News"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://viamotionhsi.netplus.ch/live/eds/lemanbleu/browser-HLS8/lemanbleu.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"LemanBleu.ch@SD\" tvg-logo=\"https://i.postimg.cc/QCKvxn5f/lemanbleu.png\" group-title=\"News\",Leman Bleu (1080p)\r\r\nhttps://viamotionhsi.netplus.ch/live/eds/lemanbleu/browser-HLS8/lemanbleu.m3u8\r",
-      "line": 52,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Meteonews (1080p)",
       "tvg": {
         "id": "Meteonews.ch",
@@ -360,6 +332,34 @@
       "url": "https://streaming.meteonews.net/hls/stream.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"Meteonews.ch\" tvg-logo=\"https://i.imgur.com/YtYhbJD.png\" group-title=\"Weather\",Meteonews (1080p)\r\r\nhttps://streaming.meteonews.net/hls/stream.m3u8\r",
       "line": 56,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Leman Bleu (1080p)",
+      "tvg": {
+        "id": "LemanBleu.ch@SD",
+        "name": "",
+        "logo": "https://i.postimg.cc/QCKvxn5f/lemanbleu.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "News"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://viamotionhsi.netplus.ch/live/eds/lemanbleu/browser-HLS8/lemanbleu.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"LemanBleu.ch@SD\" tvg-logo=\"https://i.postimg.cc/QCKvxn5f/lemanbleu.png\" group-title=\"News\",Leman Bleu (1080p)\r\r\nhttps://viamotionhsi.netplus.ch/live/eds/lemanbleu/browser-HLS8/lemanbleu.m3u8\r",
+      "line": 52,
       "catchup": {
         "type": "",
         "days": "",
@@ -425,34 +425,6 @@
       "status": "OK"
     },
     {
-      "name": "Radio 3i (720p)",
-      "tvg": {
-        "id": "Radio3i.ch",
-        "name": "",
-        "logo": "https://i.imgur.com/0Kmh49G.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://vstream-cdn.ch/hls/radio3i.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Radio3i.ch\" tvg-logo=\"https://i.imgur.com/0Kmh49G.png\" group-title=\"Undefined\",Radio 3i (720p)\r\r\nhttps://vstream-cdn.ch/hls/radio3i.m3u8\r",
-      "line": 76,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "RADIO DISCOunt TV (1080p)",
       "tvg": {
         "id": "RADIODISCOuntTV.ch",
@@ -472,6 +444,34 @@
       "url": "https://585b674743bbb.streamlock.net/9030/9030/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"RADIODISCOuntTV.ch\" tvg-logo=\"https://i.imgur.com/ScNYMmx.png\" group-title=\"Music\",RADIO DISCOunt TV (1080p)\r\r\nhttps://585b674743bbb.streamlock.net/9030/9030/playlist.m3u8\r",
       "line": 78,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Radio 3i (720p)",
+      "tvg": {
+        "id": "Radio3i.ch",
+        "name": "",
+        "logo": "https://i.imgur.com/0Kmh49G.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://vstream-cdn.ch/hls/radio3i.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Radio3i.ch\" tvg-logo=\"https://i.imgur.com/0Kmh49G.png\" group-title=\"Undefined\",Radio 3i (720p)\r\r\nhttps://vstream-cdn.ch/hls/radio3i.m3u8\r",
+      "line": 76,
       "catchup": {
         "type": "",
         "days": "",
@@ -509,34 +509,6 @@
       "status": "OK"
     },
     {
-      "name": "RTS 1 (1080p)",
-      "tvg": {
-        "id": "RTS1.ch@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/OP5lHv9.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://viamotionhsi.netplus.ch/live/eds/rts1hd/browser-dash/rts1hd.mpd",
-      "raw": "#EXTINF:-1 tvg-id=\"RTS1.ch@SD\" tvg-logo=\"https://i.imgur.com/OP5lHv9.png\" group-title=\"Undefined\",RTS 1 (1080p)\r\r\nhttps://viamotionhsi.netplus.ch/live/eds/rts1hd/browser-dash/rts1hd.mpd\r",
-      "line": 92,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "RSI La 2 (720p)",
       "tvg": {
         "id": "RSILa2.ch",
@@ -556,6 +528,34 @@
       "url": "https://viamotionhsi.netplus.ch/live/eds/rsila2hd/browser-HLS8/rsila2hd.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"RSILa2.ch\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/RSI_La_2_2012.svg/512px-RSI_La_2_2012.svg.png\" group-title=\"Undefined\",RSI La 2 (720p)\r\r\nhttps://viamotionhsi.netplus.ch/live/eds/rsila2hd/browser-HLS8/rsila2hd.m3u8\r",
       "line": 86,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "RTS 1 (1080p)",
+      "tvg": {
+        "id": "RTS1.ch@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/OP5lHv9.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://viamotionhsi.netplus.ch/live/eds/rts1hd/browser-dash/rts1hd.mpd",
+      "raw": "#EXTINF:-1 tvg-id=\"RTS1.ch@SD\" tvg-logo=\"https://i.imgur.com/OP5lHv9.png\" group-title=\"Undefined\",RTS 1 (1080p)\r\r\nhttps://viamotionhsi.netplus.ch/live/eds/rts1hd/browser-dash/rts1hd.mpd\r",
+      "line": 92,
       "catchup": {
         "type": "",
         "days": "",
@@ -733,34 +733,6 @@
       "status": "OK"
     },
     {
-      "name": "Star TV",
-      "tvg": {
-        "id": "StarTV.ch@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/04y9wz8.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://viamotionhsi.netplus.ch/live/eds/startv/browser-HLS8/startv.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"StarTV.ch@SD\" tvg-logo=\"https://i.imgur.com/04y9wz8.png\" group-title=\"Undefined\",Star TV\r\r\nhttps://viamotionhsi.netplus.ch/live/eds/startv/browser-HLS8/startv.m3u8\r",
-      "line": 110,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Tele 1 (1080p)",
       "tvg": {
         "id": "Tele1.ch",
@@ -780,34 +752,6 @@
       "url": "https://cdnapisec.kaltura.com/p/1719221/sp/171922100/playManifest/entryId/1_xias5bqq/format/applehttp/protocol/https/a.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"Tele1.ch\" tvg-logo=\"https://i.postimg.cc/ZY7bcVmn/tele1.png\" group-title=\"Undefined\",Tele 1 (1080p)\r\r\nhttps://cdnapisec.kaltura.com/p/1719221/sp/171922100/playManifest/entryId/1_xias5bqq/format/applehttp/protocol/https/a.m3u8\r",
       "line": 112,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "SRF zwei (1080p)",
-      "tvg": {
-        "id": "SRFzwei.ch@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/887SKjm.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://viamotionhsi.netplus.ch/live/eds/srf2hd/browser-HLS8/srf2hd.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"SRFzwei.ch@SD\" tvg-logo=\"https://i.imgur.com/887SKjm.png\" group-title=\"Undefined\",SRF zwei (1080p)\r\r\nhttps://viamotionhsi.netplus.ch/live/eds/srf2hd/browser-HLS8/srf2hd.m3u8\r",
-      "line": 108,
       "catchup": {
         "type": "",
         "days": "",
@@ -845,11 +789,11 @@
       "status": "OK"
     },
     {
-      "name": "TeleTicino (720p)",
+      "name": "SRF zwei (1080p)",
       "tvg": {
-        "id": "TeleTicino.ch",
+        "id": "SRFzwei.ch@SD",
         "name": "",
-        "logo": "https://i.postimg.cc/j5qL9mmn/teleticino.png",
+        "logo": "https://i.imgur.com/887SKjm.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -861,9 +805,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://vstream-cdn.ch/hls/teleticino.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TeleTicino.ch\" tvg-logo=\"https://i.postimg.cc/j5qL9mmn/teleticino.png\" group-title=\"Undefined\",TeleTicino (720p)\r\r\nhttps://vstream-cdn.ch/hls/teleticino.m3u8\r",
-      "line": 122,
+      "url": "https://viamotionhsi.netplus.ch/live/eds/srf2hd/browser-HLS8/srf2hd.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"SRFzwei.ch@SD\" tvg-logo=\"https://i.imgur.com/887SKjm.png\" group-title=\"Undefined\",SRF zwei (1080p)\r\r\nhttps://viamotionhsi.netplus.ch/live/eds/srf2hd/browser-HLS8/srf2hd.m3u8\r",
+      "line": 108,
       "catchup": {
         "type": "",
         "days": "",
@@ -873,11 +817,11 @@
       "status": "OK"
     },
     {
-      "name": "TeleZuri",
+      "name": "Star TV",
       "tvg": {
-        "id": "TeleZuri.ch@SD",
+        "id": "StarTV.ch@SD",
         "name": "",
-        "logo": "https://i.postimg.cc/G3VmJ4Ly/telezuri.png",
+        "logo": "https://i.imgur.com/04y9wz8.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -889,9 +833,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://cdnapisec.kaltura.com/p/1719221/sp/171922100/playManifest/entryId/1_se36k3uk/protocol/https/format/applehttp/flavorIds/1_i4zc9zv3,1_2vzxm8zl,1_yjohpwzj/a.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TeleZuri.ch@SD\" tvg-logo=\"https://i.postimg.cc/G3VmJ4Ly/telezuri.png\" group-title=\"Undefined\",TeleZuri\r\r\nhttps://cdnapisec.kaltura.com/p/1719221/sp/171922100/playManifest/entryId/1_se36k3uk/protocol/https/format/applehttp/flavorIds/1_i4zc9zv3,1_2vzxm8zl,1_yjohpwzj/a.m3u8\r",
-      "line": 124,
+      "url": "https://viamotionhsi.netplus.ch/live/eds/startv/browser-HLS8/startv.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"StarTV.ch@SD\" tvg-logo=\"https://i.imgur.com/04y9wz8.png\" group-title=\"Undefined\",Star TV\r\r\nhttps://viamotionhsi.netplus.ch/live/eds/startv/browser-HLS8/startv.m3u8\r",
+      "line": 110,
       "catchup": {
         "type": "",
         "days": "",
@@ -957,6 +901,90 @@
       "status": "OK"
     },
     {
+      "name": "TeleZuri",
+      "tvg": {
+        "id": "TeleZuri.ch@SD",
+        "name": "",
+        "logo": "https://i.postimg.cc/G3VmJ4Ly/telezuri.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://cdnapisec.kaltura.com/p/1719221/sp/171922100/playManifest/entryId/1_se36k3uk/protocol/https/format/applehttp/flavorIds/1_i4zc9zv3,1_2vzxm8zl,1_yjohpwzj/a.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"TeleZuri.ch@SD\" tvg-logo=\"https://i.postimg.cc/G3VmJ4Ly/telezuri.png\" group-title=\"Undefined\",TeleZuri\r\r\nhttps://cdnapisec.kaltura.com/p/1719221/sp/171922100/playManifest/entryId/1_se36k3uk/protocol/https/format/applehttp/flavorIds/1_i4zc9zv3,1_2vzxm8zl,1_yjohpwzj/a.m3u8\r",
+      "line": 124,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "TeleTicino (720p)",
+      "tvg": {
+        "id": "TeleTicino.ch",
+        "name": "",
+        "logo": "https://i.postimg.cc/j5qL9mmn/teleticino.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://vstream-cdn.ch/hls/teleticino.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"TeleTicino.ch\" tvg-logo=\"https://i.postimg.cc/j5qL9mmn/teleticino.png\" group-title=\"Undefined\",TeleTicino (720p)\r\r\nhttps://vstream-cdn.ch/hls/teleticino.m3u8\r",
+      "line": 122,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "TV Rheintal (720p)",
+      "tvg": {
+        "id": "TVRheintal.ch",
+        "name": "",
+        "logo": "https://i.imgur.com/8PY1o81.jpg",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://rtmp-vm.fidion.de/live/tvrt.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"TVRheintal.ch\" tvg-logo=\"https://i.imgur.com/8PY1o81.jpg\" group-title=\"General\",TV Rheintal (720p)\r\r\nhttps://rtmp-vm.fidion.de/live/tvrt.m3u8\r",
+      "line": 132,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "TV 24 (1080p)",
       "tvg": {
         "id": "TV24.ch@SD",
@@ -1004,34 +1032,6 @@
       "url": "https://cdnapisec.kaltura.com/p/1719221/sp/171922100/playManifest/entryId/1_t5h46v64/format/applehttp/protocol/https/a.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TVO.ch\" tvg-logo=\"https://i.imgur.com/i57Vst6.png\" group-title=\"Undefined\",TVO (CH) (720p)\r\r\nhttps://cdnapisec.kaltura.com/p/1719221/sp/171922100/playManifest/entryId/1_t5h46v64/format/applehttp/protocol/https/a.m3u8\r",
       "line": 136,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "TV Rheintal (720p)",
-      "tvg": {
-        "id": "TVRheintal.ch",
-        "name": "",
-        "logo": "https://i.imgur.com/8PY1o81.jpg",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://rtmp-vm.fidion.de/live/tvrt.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TVRheintal.ch\" tvg-logo=\"https://i.imgur.com/8PY1o81.jpg\" group-title=\"General\",TV Rheintal (720p)\r\r\nhttps://rtmp-vm.fidion.de/live/tvrt.m3u8\r",
-      "line": 132,
       "catchup": {
         "type": "",
         "days": "",
