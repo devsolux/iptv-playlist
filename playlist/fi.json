@@ -5,34 +5,6 @@
   },
   "items": [
     {
-      "name": "MTV Uutiset (720p)",
-      "tvg": {
-        "id": "MTVUutiset.fi",
-        "name": "",
-        "logo": "https://i.imgur.com/ZO8ShOK.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "News"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://live.streaming.a2d.tv/asset/20025962.isml/.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"MTVUutiset.fi\" tvg-logo=\"https://i.imgur.com/ZO8ShOK.png\" group-title=\"News\",MTV Uutiset (720p)\r\r\nhttps://live.streaming.a2d.tv/asset/20025962.isml/.m3u8\r",
-      "line": 7,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "JRTV Järviradio (720p)",
       "tvg": {
         "id": "JRTVJarviradio.fi",
@@ -52,34 +24,6 @@
       "url": "https://streamer.radiotaajuus.fi/memfs/47f113bf-04ea-493b-a9d4-52945fd9db31.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"JRTVJarviradio.fi\" tvg-logo=\"https://jarviradio.fi/jrtv2/wp-content/uploads/2022/01/jrtv1.jpg\" group-title=\"Music\",JRTV Järviradio (720p)\r\r\nhttps://streamer.radiotaajuus.fi/memfs/47f113bf-04ea-493b-a9d4-52945fd9db31.m3u8\r",
       "line": 2,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Navahang TV (720p)",
-      "tvg": {
-        "id": "NavahangTV.fi",
-        "name": "",
-        "logo": "https://i.imgur.com/YteKXJy.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Music"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://hls.navahang.live/hls/stream.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"NavahangTV.fi\" tvg-logo=\"https://i.imgur.com/YteKXJy.png\" group-title=\"Music\",Navahang TV (720p)\r\r\nhttps://hls.navahang.live/hls/stream.m3u8\r",
-      "line": 11,
       "catchup": {
         "type": "",
         "days": "",
@@ -117,25 +61,53 @@
       "status": "OK"
     },
     {
-      "name": "Onni TV (720p)",
+      "name": "Navahang TV (720p)",
       "tvg": {
-        "id": "OnniTV.fi",
+        "id": "NavahangTV.fi",
         "name": "",
-        "logo": "https://i.imgur.com/Vba4jUk.png",
+        "logo": "https://i.imgur.com/YteKXJy.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "General"
+        "title": "Music"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://onnitv.digitacdn.net/live/ott/onnitv/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"OnniTV.fi\" tvg-logo=\"https://i.imgur.com/Vba4jUk.png\" group-title=\"General\",Onni TV (720p)\r\r\nhttps://onnitv.digitacdn.net/live/ott/onnitv/playlist.m3u8\r",
-      "line": 15,
+      "url": "https://hls.navahang.live/hls/stream.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"NavahangTV.fi\" tvg-logo=\"https://i.imgur.com/YteKXJy.png\" group-title=\"Music\",Navahang TV (720p)\r\r\nhttps://hls.navahang.live/hls/stream.m3u8\r",
+      "line": 11,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "MTV Uutiset (720p)",
+      "tvg": {
+        "id": "MTVUutiset.fi",
+        "name": "",
+        "logo": "https://i.imgur.com/ZO8ShOK.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "News"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://live.streaming.a2d.tv/asset/20025962.isml/.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"MTVUutiset.fi\" tvg-logo=\"https://i.imgur.com/ZO8ShOK.png\" group-title=\"News\",MTV Uutiset (720p)\r\r\nhttps://live.streaming.a2d.tv/asset/20025962.isml/.m3u8\r",
+      "line": 7,
       "catchup": {
         "type": "",
         "days": "",
@@ -173,6 +145,34 @@
       "status": "OK"
     },
     {
+      "name": "Onni TV (720p)",
+      "tvg": {
+        "id": "OnniTV.fi",
+        "name": "",
+        "logo": "https://i.imgur.com/Vba4jUk.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://onnitv.digitacdn.net/live/ott/onnitv/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"OnniTV.fi\" tvg-logo=\"https://i.imgur.com/Vba4jUk.png\" group-title=\"General\",Onni TV (720p)\r\r\nhttps://onnitv.digitacdn.net/live/ott/onnitv/playlist.m3u8\r",
+      "line": 15,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Nopola News (1080p) [Not 24/7]",
       "tvg": {
         "id": "NopolaNews.fi",
@@ -192,34 +192,6 @@
       "url": "https://virta2.nopolanews.fi:8443/live/smil:Stream1.smil/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"NopolaNews.fi\" tvg-logo=\"https://i.imgur.com/vDoQaGl.png\" group-title=\"News\",Nopola News (1080p) [Not 24/7]\r\r\nhttps://virta2.nopolanews.fi:8443/live/smil:Stream1.smil/playlist.m3u8\r",
       "line": 13,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Rakuten TV Drama Movies Finland (1080p)",
-      "tvg": {
-        "id": "RakutenTVDramaMovies.es@Finland",
-        "name": "",
-        "logo": "https://i.imgur.com/Meew6eX.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Movies"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://d7e8ee3c924d4305a0c1840fe94c5d36.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6102/master.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"RakutenTVDramaMovies.es@Finland\" tvg-logo=\"https://i.imgur.com/Meew6eX.png\" group-title=\"Movies\",Rakuten TV Drama Movies Finland (1080p)\r\r\nhttps://d7e8ee3c924d4305a0c1840fe94c5d36.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6102/master.m3u8\r",
-      "line": 21,
       "catchup": {
         "type": "",
         "days": "",
@@ -257,6 +229,34 @@
       "status": "OK"
     },
     {
+      "name": "Rakuten TV Drama Movies Finland (1080p)",
+      "tvg": {
+        "id": "RakutenTVDramaMovies.es@Finland",
+        "name": "",
+        "logo": "https://i.imgur.com/Meew6eX.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Movies"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://d7e8ee3c924d4305a0c1840fe94c5d36.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6102/master.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"RakutenTVDramaMovies.es@Finland\" tvg-logo=\"https://i.imgur.com/Meew6eX.png\" group-title=\"Movies\",Rakuten TV Drama Movies Finland (1080p)\r\r\nhttps://d7e8ee3c924d4305a0c1840fe94c5d36.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6102/master.m3u8\r",
+      "line": 21,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Rakuten TV Family Movies Finland (1080p)",
       "tvg": {
         "id": "RakutenTVFamilyMovies.es@Finland",
@@ -276,34 +276,6 @@
       "url": "https://758ee983d61e400381dea6fa8154f4e0.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6227/master.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"RakutenTVFamilyMovies.es@Finland\" tvg-logo=\"https://i.imgur.com/Meew6eX.png\" group-title=\"Family;Movies\",Rakuten TV Family Movies Finland (1080p)\r\r\nhttps://758ee983d61e400381dea6fa8154f4e0.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6227/master.m3u8\r",
       "line": 23,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Rakuten TV Nordic Films (1080p)",
-      "tvg": {
-        "id": "RakutenTVNordicFilms.es@Finland",
-        "name": "",
-        "logo": "https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/ff79e878-3eea-45fc-b0cd-55d6acce9b18-width200-quality90.jpeg",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Movies"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://4aa9ef08b70d4b0c8f3519c5950b1930.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6303/master.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"RakutenTVNordicFilms.es@Finland\" tvg-logo=\"https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/ff79e878-3eea-45fc-b0cd-55d6acce9b18-width200-quality90.jpeg\" group-title=\"Movies\",Rakuten TV Nordic Films (1080p)\r\r\nhttps://4aa9ef08b70d4b0c8f3519c5950b1930.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6303/master.m3u8\r",
-      "line": 25,
       "catchup": {
         "type": "",
         "days": "",
@@ -341,25 +313,25 @@
       "status": "OK"
     },
     {
-      "name": "Taivas TV7 (720p)",
+      "name": "Rakuten TV Nordic Films (1080p)",
       "tvg": {
-        "id": "TaivasTV7.fi",
+        "id": "RakutenTVNordicFilms.es@Finland",
         "name": "",
-        "logo": "https://i.imgur.com/JyJNiXy.png",
+        "logo": "https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/ff79e878-3eea-45fc-b0cd-55d6acce9b18-width200-quality90.jpeg",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Religious"
+        "title": "Movies"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://vod.tv7.fi/tv7-fi/smil:tv7-fi.smil/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TaivasTV7.fi\" tvg-logo=\"https://i.imgur.com/JyJNiXy.png\" group-title=\"Religious\",Taivas TV7 (720p)\r\r\nhttps://vod.tv7.fi/tv7-fi/smil:tv7-fi.smil/playlist.m3u8\r",
-      "line": 29,
+      "url": "https://4aa9ef08b70d4b0c8f3519c5950b1930.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6303/master.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"RakutenTVNordicFilms.es@Finland\" tvg-logo=\"https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/ff79e878-3eea-45fc-b0cd-55d6acce9b18-width200-quality90.jpeg\" group-title=\"Movies\",Rakuten TV Nordic Films (1080p)\r\r\nhttps://4aa9ef08b70d4b0c8f3519c5950b1930.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6303/master.m3u8\r",
+      "line": 25,
       "catchup": {
         "type": "",
         "days": "",
@@ -388,6 +360,34 @@
       "url": "https://ylestudiolive.akamaized.net/hls/live/2007826/ylestudiolive-YleX/master.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"YleX.fi\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/YleX.svg/450px-YleX.svg.png\" group-title=\"Music\",YleX Studio Live (720p)\r\r\nhttps://ylestudiolive.akamaized.net/hls/live/2007826/ylestudiolive-YleX/master.m3u8\r",
       "line": 37,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Taivas TV7 (720p)",
+      "tvg": {
+        "id": "TaivasTV7.fi",
+        "name": "",
+        "logo": "https://i.imgur.com/JyJNiXy.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Religious"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://vod.tv7.fi/tv7-fi/smil:tv7-fi.smil/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"TaivasTV7.fi\" tvg-logo=\"https://i.imgur.com/JyJNiXy.png\" group-title=\"Religious\",Taivas TV7 (720p)\r\r\nhttps://vod.tv7.fi/tv7-fi/smil:tv7-fi.smil/playlist.m3u8\r",
+      "line": 29,
       "catchup": {
         "type": "",
         "days": "",
