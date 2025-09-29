@@ -37,7 +37,7 @@
       "tvg": {
         "id": "CBCTV.cd",
         "name": "",
-        "logo": "https://i.postimg.cc/3rvqG2MD/cbctv.png",
+        "logo": "https://i.imgur.com/zmsDo6X.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -50,7 +50,7 @@
         "user-agent": ""
       },
       "url": "https://stream.berosat.live:19360/cbc-tv/cbc-tv.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"CBCTV.cd\" tvg-logo=\"https://i.postimg.cc/3rvqG2MD/cbctv.png\" group-title=\"General\",CBC TV (720p)\r\r\nhttps://stream.berosat.live:19360/cbc-tv/cbc-tv.m3u8\r",
+      "raw": "#EXTINF:-1 tvg-id=\"CBCTV.cd\" tvg-logo=\"https://i.imgur.com/zmsDo6X.png\" group-title=\"General\",CBC TV (720p)\r\r\nhttps://stream.berosat.live:19360/cbc-tv/cbc-tv.m3u8\r",
       "line": 6,
       "catchup": {
         "type": "",
@@ -117,6 +117,34 @@
       "status": "OK"
     },
     {
+      "name": "Géopolis TV (240p)",
+      "tvg": {
+        "id": "GeopolisTV.cd",
+        "name": "",
+        "logo": "https://i.imgur.com/WzGAIYe.jpg",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "News"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://tnt-television.com/Geopolis_tv/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"GeopolisTV.cd\" tvg-logo=\"https://i.imgur.com/WzGAIYe.jpg\" group-title=\"News\",Géopolis TV (240p)\r\r\nhttps://tnt-television.com/Geopolis_tv/index.m3u8\r",
+      "line": 18,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Metanoia TV (720p)",
       "tvg": {
         "id": "MetanoiaTV.cd",
@@ -136,34 +164,6 @@
       "url": "https://tnt-television.com/METANOIA-STREAM1/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"MetanoiaTV.cd\" tvg-logo=\"https://i.imgur.com/Bf00ttL.png\" group-title=\"Religious\",Metanoia TV (720p)\r\r\nhttps://tnt-television.com/METANOIA-STREAM1/index.m3u8\r",
       "line": 24,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Mishapi Voice TV (1080p)",
-      "tvg": {
-        "id": "MishapiVoiceTV.cd",
-        "name": "",
-        "logo": "https://i.imgur.com/GfOy2ok.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Religious"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://tnt-television.com/MISHAPI-STREAM1/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"MishapiVoiceTV.cd\" tvg-logo=\"https://i.imgur.com/GfOy2ok.png\" group-title=\"Religious\",Mishapi Voice TV (1080p)\r\r\nhttps://tnt-television.com/MISHAPI-STREAM1/index.m3u8\r",
-      "line": 28,
       "catchup": {
         "type": "",
         "days": "",
@@ -201,11 +201,11 @@
       "status": "OK"
     },
     {
-      "name": "ONE-TV (720p) [Not 24/7]",
+      "name": "Mishapi Voice TV (1080p)",
       "tvg": {
-        "id": "ONETV.cd",
+        "id": "MishapiVoiceTV.cd",
         "name": "",
-        "logo": "https://i.imgur.com/Wob7gjp.png",
+        "logo": "https://i.imgur.com/GfOy2ok.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -217,9 +217,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://core.live-apc.eu:5443/LiveApp/streams/backup.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"ONETV.cd\" tvg-logo=\"https://i.imgur.com/Wob7gjp.png\" group-title=\"Religious\",ONE-TV (720p) [Not 24/7]\r\r\nhttps://core.live-apc.eu:5443/LiveApp/streams/backup.m3u8\r",
-      "line": 32,
+      "url": "https://tnt-television.com/MISHAPI-STREAM1/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"MishapiVoiceTV.cd\" tvg-logo=\"https://i.imgur.com/GfOy2ok.png\" group-title=\"Religious\",Mishapi Voice TV (1080p)\r\r\nhttps://tnt-television.com/MISHAPI-STREAM1/index.m3u8\r",
+      "line": 28,
       "catchup": {
         "type": "",
         "days": "",
@@ -248,6 +248,34 @@
       "url": "https://stream.berosat.live:19360/rlpro-tv/rlpro-tv.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"RLPROTV.cd\" tvg-logo=\"https://i.imgur.com/PIBtCEN.jpeg\" group-title=\"Documentary\",RL PRO TV\r\r\nhttps://stream.berosat.live:19360/rlpro-tv/rlpro-tv.m3u8\r",
       "line": 36,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "ONE-TV (720p) [Not 24/7]",
+      "tvg": {
+        "id": "ONETV.cd",
+        "name": "",
+        "logo": "https://i.imgur.com/Wob7gjp.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Religious"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://core.live-apc.eu:5443/LiveApp/streams/backup.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"ONETV.cd\" tvg-logo=\"https://i.imgur.com/Wob7gjp.png\" group-title=\"Religious\",ONE-TV (720p) [Not 24/7]\r\r\nhttps://core.live-apc.eu:5443/LiveApp/streams/backup.m3u8\r",
+      "line": 32,
       "catchup": {
         "type": "",
         "days": "",
