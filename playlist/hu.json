@@ -5,6 +5,34 @@
   },
   "items": [
     {
+      "name": "16tv Budapest (360p)",
+      "tvg": {
+        "id": "16tvBudapest.hu",
+        "name": "",
+        "logo": "https://i.imgur.com/04fCzHl.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://cloudfront44.lexanetwork.com:1344/freerelay/16tv.sdp/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"16tvBudapest.hu\" tvg-logo=\"https://i.imgur.com/04fCzHl.png\" group-title=\"General\",16tv Budapest (360p)\r\r\nhttps://cloudfront44.lexanetwork.com:1344/freerelay/16tv.sdp/playlist.m3u8\r",
+      "line": 4,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Apostol TV (576p)",
       "tvg": {
         "id": "ApostolTV.hu",
@@ -24,34 +52,6 @@
       "url": "https://live.apostoltv.hu/live/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"ApostolTV.hu\" tvg-logo=\"https://i.imgur.com/C43Cc9N.png\" group-title=\"Religious\",Apostol TV (576p)\r\r\nhttps://live.apostoltv.hu/live/playlist.m3u8\r",
       "line": 8,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Alföld TV (1080p)",
-      "tvg": {
-        "id": "AlfoldTV.hu",
-        "name": "",
-        "logo": "https://i.imgur.com/W6jg8iM.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Entertainment"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://cloudfront41.lexanetwork.com:1344/relay01/livestream006.sdp/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"AlfoldTV.hu\" tvg-logo=\"https://i.imgur.com/W6jg8iM.png\" group-title=\"Entertainment\",Alföld TV (1080p)\r\r\nhttps://cloudfront41.lexanetwork.com:1344/relay01/livestream006.sdp/playlist.m3u8\r",
-      "line": 6,
       "catchup": {
         "type": "",
         "days": "",
@@ -89,25 +89,25 @@
       "status": "OK"
     },
     {
-      "name": "Bajai TV (720p)",
+      "name": "Alföld TV (1080p)",
       "tvg": {
-        "id": "BajaiTV.hu",
+        "id": "AlfoldTV.hu",
         "name": "",
-        "logo": "https://i.imgur.com/cyReGWh.png",
+        "logo": "https://i.imgur.com/W6jg8iM.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "General"
+        "title": "Entertainment"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://cloudfront41.lexanetwork.com:1344/relay01/livestream002.sdp/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"BajaiTV.hu\" tvg-logo=\"https://i.imgur.com/cyReGWh.png\" group-title=\"General\",Bajai TV (720p)\r\r\nhttps://cloudfront41.lexanetwork.com:1344/relay01/livestream002.sdp/playlist.m3u8\r",
-      "line": 16,
+      "url": "https://cloudfront41.lexanetwork.com:1344/relay01/livestream006.sdp/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"AlfoldTV.hu\" tvg-logo=\"https://i.imgur.com/W6jg8iM.png\" group-title=\"Entertainment\",Alföld TV (1080p)\r\r\nhttps://cloudfront41.lexanetwork.com:1344/relay01/livestream006.sdp/playlist.m3u8\r",
+      "line": 6,
       "catchup": {
         "type": "",
         "days": "",
@@ -145,25 +145,25 @@
       "status": "OK"
     },
     {
-      "name": "Balaton TV (432p)",
+      "name": "Bajai TV (720p)",
       "tvg": {
-        "id": "BalatonTV.hu",
+        "id": "BajaiTV.hu",
         "name": "",
-        "logo": "https://balatontelevizio.hu/wp-content/uploads/2020/05/balaton_tv_logo.png",
+        "logo": "https://i.imgur.com/cyReGWh.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Undefined"
+        "title": "General"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://stream.iptvservice.eu/hls/balatontv.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"BalatonTV.hu\" tvg-logo=\"https://balatontelevizio.hu/wp-content/uploads/2020/05/balaton_tv_logo.png\" group-title=\"Undefined\",Balaton TV (432p)\r\r\nhttps://stream.iptvservice.eu/hls/balatontv.m3u8\r",
-      "line": 18,
+      "url": "https://cloudfront41.lexanetwork.com:1344/relay01/livestream002.sdp/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"BajaiTV.hu\" tvg-logo=\"https://i.imgur.com/cyReGWh.png\" group-title=\"General\",Bajai TV (720p)\r\r\nhttps://cloudfront41.lexanetwork.com:1344/relay01/livestream002.sdp/playlist.m3u8\r",
+      "line": 16,
       "catchup": {
         "type": "",
         "days": "",
@@ -229,25 +229,25 @@
       "status": "OK"
     },
     {
-      "name": "16tv Budapest (360p)",
+      "name": "Balaton TV (432p)",
       "tvg": {
-        "id": "16tvBudapest.hu",
+        "id": "BalatonTV.hu",
         "name": "",
-        "logo": "https://i.imgur.com/04fCzHl.png",
+        "logo": "https://balatontelevizio.hu/wp-content/uploads/2020/05/balaton_tv_logo.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "General"
+        "title": "Undefined"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://cloudfront44.lexanetwork.com:1344/freerelay/16tv.sdp/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"16tvBudapest.hu\" tvg-logo=\"https://i.imgur.com/04fCzHl.png\" group-title=\"General\",16tv Budapest (360p)\r\r\nhttps://cloudfront44.lexanetwork.com:1344/freerelay/16tv.sdp/playlist.m3u8\r",
-      "line": 4,
+      "url": "https://stream.iptvservice.eu/hls/balatontv.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"BalatonTV.hu\" tvg-logo=\"https://balatontelevizio.hu/wp-content/uploads/2020/05/balaton_tv_logo.png\" group-title=\"Undefined\",Balaton TV (432p)\r\r\nhttps://stream.iptvservice.eu/hls/balatontv.m3u8\r",
+      "line": 18,
       "catchup": {
         "type": "",
         "days": "",
@@ -313,34 +313,6 @@
       "status": "OK"
     },
     {
-      "name": "ESTV (420p)",
-      "tvg": {
-        "id": "ESTV.hu",
-        "name": "",
-        "logo": "https://i.imgur.com/OCZ8CfK.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://cloudfront44.lexanetwork.com:1344/relay01/HDE032.sdp/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"ESTV.hu\" tvg-logo=\"https://i.imgur.com/OCZ8CfK.png\" group-title=\"General\",ESTV (420p)\r\r\nhttps://cloudfront44.lexanetwork.com:1344/relay01/HDE032.sdp/playlist.m3u8\r",
-      "line": 44,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Duna (720p)",
       "tvg": {
         "id": "Duna.hu@SD",
@@ -369,11 +341,11 @@
       "status": "OK"
     },
     {
-      "name": "Fehérvár TV (360p)",
+      "name": "ESTV (420p)",
       "tvg": {
-        "id": "FehervarTV.hu",
+        "id": "ESTV.hu",
         "name": "",
-        "logo": "https://www.fehervartv.hu/css/img/icon-1-2.png",
+        "logo": "https://i.imgur.com/OCZ8CfK.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -385,9 +357,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://cloudfront44.lexanetwork.com:1344/freerelay/fehervartv.sdp/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"FehervarTV.hu\" tvg-logo=\"https://www.fehervartv.hu/css/img/icon-1-2.png\" group-title=\"General\",Fehérvár TV (360p)\r\r\nhttps://cloudfront44.lexanetwork.com:1344/freerelay/fehervartv.sdp/playlist.m3u8\r",
-      "line": 46,
+      "url": "https://cloudfront44.lexanetwork.com:1344/relay01/HDE032.sdp/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"ESTV.hu\" tvg-logo=\"https://i.imgur.com/OCZ8CfK.png\" group-title=\"General\",ESTV (420p)\r\r\nhttps://cloudfront44.lexanetwork.com:1344/relay01/HDE032.sdp/playlist.m3u8\r",
+      "line": 44,
       "catchup": {
         "type": "",
         "days": "",
@@ -416,6 +388,34 @@
       "url": "https://cloudfront41.lexanetwork.com:1344/relay02/livestream005.sdp/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"GyongyosiTV.hu\" tvg-logo=\"https://i.imgur.com/RHgaPCk.png\" group-title=\"General\",Gyöngyösi TV (576p)\r\r\nhttps://cloudfront41.lexanetwork.com:1344/relay02/livestream005.sdp/playlist.m3u8\r",
       "line": 58,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Fehérvár TV (360p)",
+      "tvg": {
+        "id": "FehervarTV.hu",
+        "name": "",
+        "logo": "https://www.fehervartv.hu/css/img/icon-1-2.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://cloudfront44.lexanetwork.com:1344/freerelay/fehervartv.sdp/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"FehervarTV.hu\" tvg-logo=\"https://www.fehervartv.hu/css/img/icon-1-2.png\" group-title=\"General\",Fehérvár TV (360p)\r\r\nhttps://cloudfront44.lexanetwork.com:1344/freerelay/fehervartv.sdp/playlist.m3u8\r",
+      "line": 46,
       "catchup": {
         "type": "",
         "days": "",
@@ -1125,6 +1125,34 @@
       "status": "OK"
     },
     {
+      "name": "VTV Mór (360p)",
+      "tvg": {
+        "id": "VTVMor.hu",
+        "name": "",
+        "logo": "https://i.imgur.com/x8jstsh.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://cloudfront44.lexanetwork.com:1344/freerelay/morvtv.sdp/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"VTVMor.hu\" tvg-logo=\"https://i.imgur.com/x8jstsh.png\" group-title=\"General\",VTV Mór (360p)\r\r\nhttps://cloudfront44.lexanetwork.com:1344/freerelay/morvtv.sdp/playlist.m3u8\r",
+      "line": 188,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "XV TV (480p)",
       "tvg": {
         "id": "XVTV.hu",
@@ -1172,34 +1200,6 @@
       "url": "https://cloudfront44.lexanetwork.com:1344/freerelay/zegtv.sdp/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"ZalaegerszegiTV.hu\" tvg-logo=\"https://i.imgur.com/MLVPf0i.png\" group-title=\"Undefined\",Zalaegerszegi TV (360p)\r\r\nhttps://cloudfront44.lexanetwork.com:1344/freerelay/zegtv.sdp/playlist.m3u8\r",
       "line": 194,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "VTV Mór (360p)",
-      "tvg": {
-        "id": "VTVMor.hu",
-        "name": "",
-        "logo": "https://i.imgur.com/x8jstsh.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://cloudfront44.lexanetwork.com:1344/freerelay/morvtv.sdp/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"VTVMor.hu\" tvg-logo=\"https://i.imgur.com/x8jstsh.png\" group-title=\"General\",VTV Mór (360p)\r\r\nhttps://cloudfront44.lexanetwork.com:1344/freerelay/morvtv.sdp/playlist.m3u8\r",
-      "line": 188,
       "catchup": {
         "type": "",
         "days": "",
