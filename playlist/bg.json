@@ -61,34 +61,6 @@
       "status": "OK"
     },
     {
-      "name": "Agro TV (480p)",
-      "tvg": {
-        "id": "AgroTV.bg",
-        "name": "",
-        "logo": "https://i.imgur.com/tPMNDtD.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Outdoor"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://restr2.bgtv.bg/agro/hls/agro.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"AgroTV.bg\" tvg-logo=\"https://i.imgur.com/tPMNDtD.png\" group-title=\"Outdoor\",Agro TV (480p)\r\r\nhttps://restr2.bgtv.bg/agro/hls/agro.m3u8\r",
-      "line": 4,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "BNT 4",
       "tvg": {
         "id": "BNT4.bg@SD",
@@ -108,6 +80,34 @@
       "url": "https://viamotionhsi.netplus.ch/live/eds/bntworld/browser-HLS8/bntworld.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"BNT4.bg@SD\" tvg-logo=\"https://i.imgur.com/Lw8b3yu.png\" group-title=\"General\",BNT 4\r\r\nhttps://viamotionhsi.netplus.ch/live/eds/bntworld/browser-HLS8/bntworld.m3u8\r",
       "line": 6,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Agro TV (480p)",
+      "tvg": {
+        "id": "AgroTV.bg",
+        "name": "",
+        "logo": "https://i.imgur.com/tPMNDtD.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Outdoor"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://restr2.bgtv.bg/agro/hls/agro.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"AgroTV.bg\" tvg-logo=\"https://i.imgur.com/tPMNDtD.png\" group-title=\"Outdoor\",Agro TV (480p)\r\r\nhttps://restr2.bgtv.bg/agro/hls/agro.m3u8\r",
+      "line": 4,
       "catchup": {
         "type": "",
         "days": "",
@@ -173,34 +173,6 @@
       "status": "OK"
     },
     {
-      "name": "Hope Channel Bulgaria",
-      "tvg": {
-        "id": "HopeChannelBulgaria.bg",
-        "name": "",
-        "logo": "https://i.imgur.com/bxzeEML.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Religious"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://hc1.hopetv.bg/live/hopetv_all.smil/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"HopeChannelBulgaria.bg\" tvg-logo=\"https://i.imgur.com/bxzeEML.png\" group-title=\"Religious\",Hope Channel Bulgaria\r\r\nhttps://hc1.hopetv.bg/live/hopetv_all.smil/playlist.m3u8\r",
-      "line": 14,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Magic TV (720p)",
       "tvg": {
         "id": "MagicTV.bg",
@@ -229,25 +201,53 @@
       "status": "OK"
     },
     {
-      "name": "RMTV (288p)",
+      "name": "Plovdivska Pravoslavna TV (1080p)",
       "tvg": {
-        "id": "RMTV.bg",
+        "id": "PlovdivOrthodoxTV.bg",
         "name": "",
-        "logo": "https://rmtv.bg/img/logo.png",
+        "logo": "",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Undefined"
+        "title": "Religious"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://transcoder1.bitcare.eu/streaming/rimextv/rmtv.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"RMTV.bg\" tvg-logo=\"https://rmtv.bg/img/logo.png\" group-title=\"Undefined\",RMTV (288p)\r\r\nhttps://transcoder1.bitcare.eu/streaming/rimextv/rmtv.m3u8\r",
-      "line": 25,
+      "url": "http://78.130.149.196:1935/live/pptv.stream/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"PlovdivOrthodoxTV.bg\" tvg-logo=\"\" group-title=\"Religious\",Plovdivska Pravoslavna TV (1080p)\r\r\nhttp://78.130.149.196:1935/live/pptv.stream/playlist.m3u8\r",
+      "line": 23,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Hope Channel Bulgaria",
+      "tvg": {
+        "id": "HopeChannelBulgaria.bg",
+        "name": "",
+        "logo": "https://i.imgur.com/bxzeEML.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Religious"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://hc1.hopetv.bg/live/hopetv_all.smil/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"HopeChannelBulgaria.bg\" tvg-logo=\"https://i.imgur.com/bxzeEML.png\" group-title=\"Religious\",Hope Channel Bulgaria\r\r\nhttps://hc1.hopetv.bg/live/hopetv_all.smil/playlist.m3u8\r",
+      "line": 14,
       "catchup": {
         "type": "",
         "days": "",
@@ -285,25 +285,25 @@
       "status": "OK"
     },
     {
-      "name": "Tiankov Folk (576p)",
+      "name": "RMTV (288p)",
       "tvg": {
-        "id": "TiankovFolk.bg",
+        "id": "RMTV.bg",
         "name": "",
-        "logo": "https://i.imgur.com/VKY4q64.png",
+        "logo": "https://rmtv.bg/img/logo.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Music"
+        "title": "Undefined"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://streamer103.neterra.tv/tiankov-folk/live.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TiankovFolk.bg\" tvg-logo=\"https://i.imgur.com/VKY4q64.png\" group-title=\"Music\",Tiankov Folk (576p)\r\r\nhttps://streamer103.neterra.tv/tiankov-folk/live.m3u8\r",
-      "line": 31,
+      "url": "https://transcoder1.bitcare.eu/streaming/rimextv/rmtv.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"RMTV.bg\" tvg-logo=\"https://rmtv.bg/img/logo.png\" group-title=\"Undefined\",RMTV (288p)\r\r\nhttps://transcoder1.bitcare.eu/streaming/rimextv/rmtv.m3u8\r",
+      "line": 25,
       "catchup": {
         "type": "",
         "days": "",
@@ -341,11 +341,11 @@
       "status": "OK"
     },
     {
-      "name": "Tiankov Orient Folk (576p)",
+      "name": "Tiankov Folk (576p)",
       "tvg": {
-        "id": "TiankovOrientFolk.bg",
+        "id": "TiankovFolk.bg",
         "name": "",
-        "logo": "https://i.postimg.cc/KYNvL1ML/tiankovorientfolk.png",
+        "logo": "https://i.imgur.com/VKY4q64.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -357,9 +357,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://streamer103.neterra.tv/tiankov-orient/live.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TiankovOrientFolk.bg\" tvg-logo=\"https://i.postimg.cc/KYNvL1ML/tiankovorientfolk.png\" group-title=\"Music\",Tiankov Orient Folk (576p)\r\r\nhttps://streamer103.neterra.tv/tiankov-orient/live.m3u8\r",
-      "line": 33,
+      "url": "https://streamer103.neterra.tv/tiankov-folk/live.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"TiankovFolk.bg\" tvg-logo=\"https://i.imgur.com/VKY4q64.png\" group-title=\"Music\",Tiankov Folk (576p)\r\r\nhttps://streamer103.neterra.tv/tiankov-folk/live.m3u8\r",
+      "line": 31,
       "catchup": {
         "type": "",
         "days": "",
@@ -388,6 +388,34 @@
       "url": "http://zagoratv.ddns.net:8080/tvzagora.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TVZagora.bg\" tvg-logo=\"https://i.imgur.com/DvBboqe.png\" group-title=\"General\",TV Zagora (576p)\r\r\nhttp://zagoratv.ddns.net:8080/tvzagora.m3u8\r",
       "line": 37,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Tiankov Orient Folk (576p)",
+      "tvg": {
+        "id": "TiankovOrientFolk.bg",
+        "name": "",
+        "logo": "https://i.postimg.cc/KYNvL1ML/tiankovorientfolk.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Music"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://streamer103.neterra.tv/tiankov-orient/live.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"TiankovOrientFolk.bg\" tvg-logo=\"https://i.postimg.cc/KYNvL1ML/tiankovorientfolk.png\" group-title=\"Music\",Tiankov Orient Folk (576p)\r\r\nhttps://streamer103.neterra.tv/tiankov-orient/live.m3u8\r",
+      "line": 33,
       "catchup": {
         "type": "",
         "days": "",
