@@ -33,11 +33,11 @@
       "status": "OK"
     },
     {
-      "name": "B+ TV (480p)",
+      "name": "KC2 (720p) [Not 24/7]",
       "tvg": {
-        "id": "BPlusTV.rw",
+        "id": "KC2.rw",
         "name": "",
-        "logo": "https://i.ibb.co/WzLwj3X/IMG-20230703-155036.jpg",
+        "logo": "https://i.imgur.com/PsYPzNc.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -49,37 +49,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://tv.btnrwanda.com:3432/live/bpluslive.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"BPlusTV.rw\" tvg-logo=\"https://i.ibb.co/WzLwj3X/IMG-20230703-155036.jpg\" group-title=\"Entertainment\",B+ TV (480p)\r\r\nhttps://tv.btnrwanda.com:3432/live/bpluslive.m3u8\r",
-      "line": 4,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Isibo TV",
-      "tvg": {
-        "id": "IsiboTV.rw@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/bXhEeTC.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://5c46fa289c89f.streamlock.net/pub2live/myStream/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"IsiboTV.rw@SD\" tvg-logo=\"https://i.imgur.com/bXhEeTC.png\" group-title=\"General\",Isibo TV\r\r\nhttps://5c46fa289c89f.streamlock.net/pub2live/myStream/playlist.m3u8\r",
-      "line": 10,
+      "url": "http://197.243.19.131:1935/kc2/kc2/chunklist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"KC2.rw\" tvg-logo=\"https://i.imgur.com/PsYPzNc.png\" group-title=\"Entertainment\",KC2 (720p) [Not 24/7]\r\r\nhttp://197.243.19.131:1935/kc2/kc2/chunklist.m3u8\r",
+      "line": 12,
       "catchup": {
         "type": "",
         "days": "",
@@ -108,6 +80,34 @@
       "url": "https://frn.rtsp.me/jDzHciIUzTOuXiUaI-Vg1w/1738881610/hls/BtBbfbnK.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TV1.rw\" tvg-logo=\"https://i.imgur.com/wk59tHA.png\" group-title=\"General\",TV1 (360p)\r\r\nhttps://frn.rtsp.me/jDzHciIUzTOuXiUaI-Vg1w/1738881610/hls/BtBbfbnK.m3u8\r",
       "line": 16,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Isibo TV",
+      "tvg": {
+        "id": "IsiboTV.rw@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/bXhEeTC.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://5c46fa289c89f.streamlock.net/pub2live/myStream/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"IsiboTV.rw@SD\" tvg-logo=\"https://i.imgur.com/bXhEeTC.png\" group-title=\"General\",Isibo TV\r\r\nhttps://5c46fa289c89f.streamlock.net/pub2live/myStream/playlist.m3u8\r",
+      "line": 10,
       "catchup": {
         "type": "",
         "days": "",
