@@ -5,34 +5,6 @@
   },
   "items": [
     {
-      "name": "ETV (1080p)",
-      "tvg": {
-        "id": "ETV.gp",
-        "name": "",
-        "logo": "https://i.imgur.com/m5E2VP0.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://edge12.vedge.infomaniak.com/livecast/ik:etvgp/manifest.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"ETV.gp\" tvg-logo=\"https://i.imgur.com/m5E2VP0.png\" group-title=\"General\",ETV (1080p)\r\r\nhttps://edge12.vedge.infomaniak.com/livecast/ik:etvgp/manifest.m3u8\r",
-      "line": 2,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Madras FM TV (1080p)",
       "tvg": {
         "id": "MadrasFMTV.gp",
@@ -61,11 +33,11 @@
       "status": "OK"
     },
     {
-      "name": "Radio TV Basse-Terre (720p)",
+      "name": "ETV (1080p)",
       "tvg": {
-        "id": "RadioTVBasseTerre.gp",
+        "id": "ETV.gp",
         "name": "",
-        "logo": "https://i.imgur.com/OvnRplq.png",
+        "logo": "https://i.imgur.com/m5E2VP0.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -77,9 +49,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://vdo.ssl-stream.com:3412/stream/play.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"RadioTVBasseTerre.gp\" tvg-logo=\"https://i.imgur.com/OvnRplq.png\" group-title=\"General\",Radio TV Basse-Terre (720p)\r\r\nhttps://vdo.ssl-stream.com:3412/stream/play.m3u8\r",
-      "line": 6,
+      "url": "https://edge12.vedge.infomaniak.com/livecast/ik:etvgp/manifest.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"ETV.gp\" tvg-logo=\"https://i.imgur.com/m5E2VP0.png\" group-title=\"General\",ETV (1080p)\r\r\nhttps://edge12.vedge.infomaniak.com/livecast/ik:etvgp/manifest.m3u8\r",
+      "line": 2,
       "catchup": {
         "type": "",
         "days": "",
@@ -108,6 +80,34 @@
       "url": "http://hls.tmacaraibes.com/live/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TMA.gp\" tvg-logo=\"https://i.imgur.com/1iOAl2j.png\" group-title=\"Music\",TMA (1080p)\r\r\nhttp://hls.tmacaraibes.com/live/index.m3u8\r",
       "line": 12,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Radio TV Basse-Terre (720p)",
+      "tvg": {
+        "id": "RadioTVBasseTerre.gp",
+        "name": "",
+        "logo": "https://i.imgur.com/OvnRplq.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://vdo.ssl-stream.com:3412/stream/play.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"RadioTVBasseTerre.gp\" tvg-logo=\"https://i.imgur.com/OvnRplq.png\" group-title=\"General\",Radio TV Basse-Terre (720p)\r\r\nhttps://vdo.ssl-stream.com:3412/stream/play.m3u8\r",
+      "line": 6,
       "catchup": {
         "type": "",
         "days": "",
