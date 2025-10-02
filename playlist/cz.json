@@ -89,6 +89,34 @@
       "status": "OK"
     },
     {
+      "name": "CS History (720p)",
+      "tvg": {
+        "id": "CSHistory.cz",
+        "name": "",
+        "logo": "https://i.imgur.com/rtYj21D.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Documentary"
+      },
+      "http": {
+        "referrer": "https://media.joj.sk/",
+        "user-agent": ""
+      },
+      "url": "https://live.cdn.joj.sk/live/andromeda/cs_history-720.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"CSHistory.cz\" tvg-logo=\"https://i.imgur.com/rtYj21D.png\" group-title=\"Documentary\" http-referrer=\"https://media.joj.sk/\",CS History (720p)\r\r\n#EXTVLCOPT:http-referrer=https://media.joj.sk/\r\r\nhttps://live.cdn.joj.sk/live/andromeda/cs_history-720.m3u8\r",
+      "line": 7,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "ČT24 (1080p)",
       "tvg": {
         "id": "CT24.cz",
@@ -108,6 +136,34 @@
       "url": "http://88.212.15.19/live/test_ct24_hevc/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"CT24.cz\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/%C4%8CT24_logo.png/512px-%C4%8CT24_logo.png\" group-title=\"News\",ČT24 (1080p)\r\r\nhttp://88.212.15.19/live/test_ct24_hevc/playlist.m3u8\r",
       "line": 17,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "ČT:D/ČT art (1080p)",
+      "tvg": {
+        "id": "CTDecko.cz",
+        "name": "",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/%C4%8CT-D_logo.svg/512px-%C4%8CT-D_logo.svg.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Kids"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://88.212.15.19/live/ct_art_avc_25p/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"CTDecko.cz\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/%C4%8CT-D_logo.svg/512px-%C4%8CT-D_logo.svg.png\" group-title=\"Kids\",ČT:D/ČT art (1080p)\r\r\nhttp://88.212.15.19/live/ct_art_avc_25p/playlist.m3u8\r",
+      "line": 21,
       "catchup": {
         "type": "",
         "days": "",
@@ -173,62 +229,6 @@
       "status": "OK"
     },
     {
-      "name": "CS History (720p)",
-      "tvg": {
-        "id": "CSHistory.cz",
-        "name": "",
-        "logo": "https://i.imgur.com/rtYj21D.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Documentary"
-      },
-      "http": {
-        "referrer": "https://media.joj.sk/",
-        "user-agent": ""
-      },
-      "url": "https://live.cdn.joj.sk/live/andromeda/cs_history-720.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"CSHistory.cz\" tvg-logo=\"https://i.imgur.com/rtYj21D.png\" group-title=\"Documentary\" http-referrer=\"https://media.joj.sk/\",CS History (720p)\r\r\n#EXTVLCOPT:http-referrer=https://media.joj.sk/\r\r\nhttps://live.cdn.joj.sk/live/andromeda/cs_history-720.m3u8\r",
-      "line": 7,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "ČT:D/ČT art (1080p)",
-      "tvg": {
-        "id": "CTDecko.cz",
-        "name": "",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/%C4%8CT-D_logo.svg/512px-%C4%8CT-D_logo.svg.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Kids"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://88.212.15.19/live/ct_art_avc_25p/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"CTDecko.cz\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/%C4%8CT-D_logo.svg/512px-%C4%8CT-D_logo.svg.png\" group-title=\"Kids\",ČT:D/ČT art (1080p)\r\r\nhttp://88.212.15.19/live/ct_art_avc_25p/playlist.m3u8\r",
-      "line": 21,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "CS Mystery (720p)",
       "tvg": {
         "id": "CSMystery.cz",
@@ -248,34 +248,6 @@
       "url": "https://live.cdn.joj.sk/live/andromeda/cs_mystery-720.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"CSMystery.cz\" tvg-logo=\"https://i.imgur.com/3cFbkUj.png\" group-title=\"Entertainment\" http-referrer=\"https://media.joj.sk/\",CS Mystery (720p)\r\r\n#EXTVLCOPT:http-referrer=https://media.joj.sk/\r\r\nhttps://live.cdn.joj.sk/live/andromeda/cs_mystery-720.m3u8\r",
       "line": 10,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "JČ1 (1080p)",
-      "tvg": {
-        "id": "JC1.cz",
-        "name": "",
-        "logo": "https://i.imgur.com/AM8YtcV.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://stream.jc1.cz/hls/jc1.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"JC1.cz\" tvg-logo=\"https://i.imgur.com/AM8YtcV.png\" group-title=\"General\",JČ1 (1080p)\r\r\nhttps://stream.jc1.cz/hls/jc1.m3u8\r",
-      "line": 27,
       "catchup": {
         "type": "",
         "days": "",
@@ -425,34 +397,6 @@
       "status": "OK"
     },
     {
-      "name": "Óčko Gold (540p)",
-      "tvg": {
-        "id": "OckoGold.cz",
-        "name": "",
-        "logo": "https://i.imgur.com/nrWNyLc.jpg",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Music"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://ocko-live.ssl.cdn.cra.cz/channels/ocko_gold/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"OckoGold.cz\" tvg-logo=\"https://i.imgur.com/nrWNyLc.jpg\" group-title=\"Music\",Óčko Gold (540p)\r\r\nhttps://ocko-live.ssl.cdn.cra.cz/channels/ocko_gold/playlist.m3u8\r",
-      "line": 45,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Óčko Expres (540p)",
       "tvg": {
         "id": "OckoExpres.cz",
@@ -509,6 +453,62 @@
       "status": "OK"
     },
     {
+      "name": "Óčko Gold (540p)",
+      "tvg": {
+        "id": "OckoGold.cz",
+        "name": "",
+        "logo": "https://i.imgur.com/nrWNyLc.jpg",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Music"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://ocko-live.ssl.cdn.cra.cz/channels/ocko_gold/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"OckoGold.cz\" tvg-logo=\"https://i.imgur.com/nrWNyLc.jpg\" group-title=\"Music\",Óčko Gold (540p)\r\r\nhttps://ocko-live.ssl.cdn.cra.cz/channels/ocko_gold/playlist.m3u8\r",
+      "line": 45,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "OIK TV (720p)",
+      "tvg": {
+        "id": "OIKTV.cz",
+        "name": "",
+        "logo": "https://i.imgur.com/1mXxQ02.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://streamer05.low-latency.cz/oiktv/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"OIKTV.cz\" tvg-logo=\"https://i.imgur.com/1mXxQ02.png\" group-title=\"General\",OIK TV (720p)\r\r\nhttps://streamer05.low-latency.cz/oiktv/index.m3u8\r",
+      "line": 47,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Plzeň TV (1080p)",
       "tvg": {
         "id": "PlzenTV.cz",
@@ -537,34 +537,6 @@
       "status": "OK"
     },
     {
-      "name": "Polar2 TV (1080p)",
-      "tvg": {
-        "id": "Polar2.cz",
-        "name": "",
-        "logo": "https://i.imgur.com/hCPiMYZ.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://stream.polar.cz/polar2/polarlive2-1/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Polar2.cz\" tvg-logo=\"https://i.imgur.com/hCPiMYZ.png\" group-title=\"General\",Polar2 TV (1080p)\r\r\nhttps://stream.polar.cz/polar2/polarlive2-1/playlist.m3u8\r",
-      "line": 51,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Polar TV (1080p)",
       "tvg": {
         "id": "PolarTV.cz",
@@ -584,6 +556,34 @@
       "url": "https://stream.polar.cz/polar/polarlive-1/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"PolarTV.cz\" tvg-logo=\"https://i.imgur.com/pTJHIX1.png\" group-title=\"General\",Polar TV (1080p)\r\r\nhttps://stream.polar.cz/polar/polarlive-1/playlist.m3u8\r",
       "line": 53,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Polar2 TV (1080p)",
+      "tvg": {
+        "id": "Polar2.cz",
+        "name": "",
+        "logo": "https://i.imgur.com/hCPiMYZ.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://stream.polar.cz/polar2/polarlive2-1/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Polar2.cz\" tvg-logo=\"https://i.imgur.com/hCPiMYZ.png\" group-title=\"General\",Polar2 TV (1080p)\r\r\nhttps://stream.polar.cz/polar2/polarlive2-1/playlist.m3u8\r",
+      "line": 51,
       "catchup": {
         "type": "",
         "days": "",
@@ -677,11 +677,11 @@
       "status": "OK"
     },
     {
-      "name": "OIK TV (720p)",
+      "name": "TV Nova (1080p)",
       "tvg": {
-        "id": "OIKTV.cz",
+        "id": "TVNova.cz",
         "name": "",
-        "logo": "https://i.imgur.com/1mXxQ02.png",
+        "logo": "https://i.imgur.com/77ztmd9.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -693,9 +693,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://streamer05.low-latency.cz/oiktv/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"OIKTV.cz\" tvg-logo=\"https://i.imgur.com/1mXxQ02.png\" group-title=\"General\",OIK TV (720p)\r\r\nhttps://streamer05.low-latency.cz/oiktv/index.m3u8\r",
-      "line": 47,
+      "url": "http://88.212.15.19/live/nova_avc_25p/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"TVNova.cz\" tvg-logo=\"https://i.imgur.com/77ztmd9.png\" group-title=\"General\",TV Nova (1080p)\r\r\nhttp://88.212.15.19/live/nova_avc_25p/playlist.m3u8\r",
+      "line": 69,
       "catchup": {
         "type": "",
         "days": "",
@@ -724,34 +724,6 @@
       "url": "https://stream.polar.cz/tvbrno1/tvbrno1live-1/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TVBrno1.cz\" tvg-logo=\"https://i.imgur.com/8Xm3WSn.png\" group-title=\"General\",TV Brno 1 (1080p)\r\r\nhttps://stream.polar.cz/tvbrno1/tvbrno1live-1/playlist.m3u8\r",
       "line": 63,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "TV Nova (1080p)",
-      "tvg": {
-        "id": "TVNova.cz",
-        "name": "",
-        "logo": "https://i.imgur.com/77ztmd9.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://88.212.15.19/live/nova_avc_25p/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TVNova.cz\" tvg-logo=\"https://i.imgur.com/77ztmd9.png\" group-title=\"General\",TV Nova (1080p)\r\r\nhttp://88.212.15.19/live/nova_avc_25p/playlist.m3u8\r",
-      "line": 69,
       "catchup": {
         "type": "",
         "days": "",
