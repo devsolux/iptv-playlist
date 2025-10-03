@@ -5,6 +5,34 @@
   },
   "items": [
     {
+      "name": "America Television",
+      "tvg": {
+        "id": "AmericaTelevision.pe@SD",
+        "name": "",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Am%C3%A9rica_Televisi%C3%B3n.svg/512px-Am%C3%A9rica_Televisi%C3%B3n.svg.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://181.188.216.5:18000/play/a014/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"AmericaTelevision.pe@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Am%C3%A9rica_Televisi%C3%B3n.svg/512px-Am%C3%A9rica_Televisi%C3%B3n.svg.png\" group-title=\"General\",America Television\r\r\nhttp://181.188.216.5:18000/play/a014/index.m3u8\r",
+      "line": 4,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Antares Televisión (720p) [Not 24/7]",
       "tvg": {
         "id": "AntaresTelevision.pe",
@@ -33,25 +61,25 @@
       "status": "OK"
     },
     {
-      "name": "America Television",
+      "name": "AsiriTV (720p) [Not 24/7]",
       "tvg": {
-        "id": "AmericaTelevision.pe@SD",
+        "id": "AsiriTV.pe",
         "name": "",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Am%C3%A9rica_Televisi%C3%B3n.svg/512px-Am%C3%A9rica_Televisi%C3%B3n.svg.png",
+        "logo": "https://i.imgur.com/7bGVFBa.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "General"
+        "title": "Culture"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "http://181.188.216.5:18000/play/a014/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"AmericaTelevision.pe@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Am%C3%A9rica_Televisi%C3%B3n.svg/512px-Am%C3%A9rica_Televisi%C3%B3n.svg.png\" group-title=\"General\",America Television\r\r\nhttp://181.188.216.5:18000/play/a014/index.m3u8\r",
-      "line": 4,
+      "url": "https://video2.lhdserver.es/asiritv/live.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"AsiriTV.pe\" tvg-logo=\"https://i.imgur.com/7bGVFBa.png\" group-title=\"Culture\",AsiriTV (720p) [Not 24/7]\r\r\nhttps://video2.lhdserver.es/asiritv/live.m3u8\r",
+      "line": 10,
       "catchup": {
         "type": "",
         "days": "",
@@ -117,62 +145,6 @@
       "status": "OK"
     },
     {
-      "name": "ATV+",
-      "tvg": {
-        "id": "ATVPlus.pe",
-        "name": "",
-        "logo": "https://i.imgur.com/fY9256H.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "News"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://alba-pe-atv-atvmas.stream.mediatiquestream.com/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"ATVPlus.pe\" tvg-logo=\"https://i.imgur.com/fY9256H.png\" group-title=\"News\",ATV+\r\r\nhttps://alba-pe-atv-atvmas.stream.mediatiquestream.com/index.m3u8\r",
-      "line": 16,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "AsiriTV (720p) [Not 24/7]",
-      "tvg": {
-        "id": "AsiriTV.pe",
-        "name": "",
-        "logo": "https://i.imgur.com/7bGVFBa.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Culture"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://video2.lhdserver.es/asiritv/live.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"AsiriTV.pe\" tvg-logo=\"https://i.imgur.com/7bGVFBa.png\" group-title=\"Culture\",AsiriTV (720p) [Not 24/7]\r\r\nhttps://video2.lhdserver.es/asiritv/live.m3u8\r",
-      "line": 10,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Angienet TV",
       "tvg": {
         "id": "AngienetTV.pe@SD",
@@ -192,6 +164,34 @@
       "url": "https://servilive.com:3624/stream/play.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"AngienetTV.pe@SD\" tvg-logo=\"https://i.imgur.com/GCCriH4.png\" group-title=\"Music\",Angienet TV\r\r\nhttps://servilive.com:3624/stream/play.m3u8\r",
       "line": 6,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "ATV+",
+      "tvg": {
+        "id": "ATVPlus.pe",
+        "name": "",
+        "logo": "https://i.imgur.com/fY9256H.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "News"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://alba-pe-atv-atvmas.stream.mediatiquestream.com/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"ATVPlus.pe\" tvg-logo=\"https://i.imgur.com/fY9256H.png\" group-title=\"News\",ATV+\r\r\nhttps://alba-pe-atv-atvmas.stream.mediatiquestream.com/index.m3u8\r",
+      "line": 16,
       "catchup": {
         "type": "",
         "days": "",
@@ -369,34 +369,6 @@
       "status": "OK"
     },
     {
-      "name": "Exitosa (720p)",
-      "tvg": {
-        "id": "ExitosaTV.pe",
-        "name": "",
-        "logo": "https://i.imgur.com/pu0BSB7.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "News"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://luna-1-video.mediaserver.digital/exitosatv_233b-4b49-a726-5a3cb0e3243c/video.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"ExitosaTV.pe\" tvg-logo=\"https://i.imgur.com/pu0BSB7.png\" group-title=\"News\",Exitosa (720p)\r\r\nhttps://luna-1-video.mediaserver.digital/exitosatv_233b-4b49-a726-5a3cb0e3243c/video.m3u8\r",
-      "line": 38,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Global TV",
       "tvg": {
         "id": "GlobalTV.pe@SD",
@@ -416,6 +388,34 @@
       "url": "http://181.188.216.5:18000/play/a0m5/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"GlobalTV.pe@SD\" tvg-logo=\"https://i.imgur.com/yuEou9C.png\" group-title=\"General\",Global TV\r\r\nhttp://181.188.216.5:18000/play/a0m5/index.m3u8\r",
       "line": 40,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Exitosa (720p)",
+      "tvg": {
+        "id": "ExitosaTV.pe",
+        "name": "",
+        "logo": "https://i.imgur.com/pu0BSB7.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "News"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://luna-1-video.mediaserver.digital/exitosatv_233b-4b49-a726-5a3cb0e3243c/video.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"ExitosaTV.pe\" tvg-logo=\"https://i.imgur.com/pu0BSB7.png\" group-title=\"News\",Exitosa (720p)\r\r\nhttps://luna-1-video.mediaserver.digital/exitosatv_233b-4b49-a726-5a3cb0e3243c/video.m3u8\r",
+      "line": 38,
       "catchup": {
         "type": "",
         "days": "",
@@ -453,34 +453,6 @@
       "status": "OK"
     },
     {
-      "name": "Hechicera TV (720p)",
-      "tvg": {
-        "id": "DiarioHechicera.pe",
-        "name": "",
-        "logo": "https://i.imgur.com/I6tRVkA.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://video.misistemareseller.com/corporationhc/corporationhc/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"DiarioHechicera.pe\" tvg-logo=\"https://i.imgur.com/I6tRVkA.png\" group-title=\"Undefined\",Hechicera TV (720p)\r\r\nhttps://video.misistemareseller.com/corporationhc/corporationhc/playlist.m3u8\r",
-      "line": 42,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Intuitiva TV (720p)",
       "tvg": {
         "id": "IntuitivaTV.pe",
@@ -500,6 +472,34 @@
       "url": "https://video2.lhdserver.es/cableperu/live.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"IntuitivaTV.pe\" tvg-logo=\"https://i.imgur.com/zcehR4M.png\" group-title=\"General\",Intuitiva TV (720p)\r\r\nhttps://video2.lhdserver.es/cableperu/live.m3u8\r",
       "line": 46,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Hechicera TV (720p)",
+      "tvg": {
+        "id": "DiarioHechicera.pe",
+        "name": "",
+        "logo": "https://i.imgur.com/I6tRVkA.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://video.misistemareseller.com/corporationhc/corporationhc/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"DiarioHechicera.pe\" tvg-logo=\"https://i.imgur.com/I6tRVkA.png\" group-title=\"Undefined\",Hechicera TV (720p)\r\r\nhttps://video.misistemareseller.com/corporationhc/corporationhc/playlist.m3u8\r",
+      "line": 42,
       "catchup": {
         "type": "",
         "days": "",
@@ -593,34 +593,6 @@
       "status": "OK"
     },
     {
-      "name": "Mega TV Jaen (720p) [Not 24/7]",
-      "tvg": {
-        "id": "MegaTVJaen.pe",
-        "name": "",
-        "logo": "https://i.imgur.com/zK1YcpJ.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://7.innovatestream.pe:19360/megatvjaen/megatvjaen.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"MegaTVJaen.pe\" tvg-logo=\"https://i.imgur.com/zK1YcpJ.png\" group-title=\"General\",Mega TV Jaen (720p) [Not 24/7]\r\r\nhttps://7.innovatestream.pe:19360/megatvjaen/megatvjaen.m3u8\r",
-      "line": 64,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Miel TV (720p) [Not 24/7]",
       "tvg": {
         "id": "MielTV.pe",
@@ -705,34 +677,6 @@
       "status": "OK"
     },
     {
-      "name": "Millenium 109 FM (720p) [Not 24/7]",
-      "tvg": {
-        "id": "Millenium109FM.pe",
-        "name": "",
-        "logo": "https://i.imgur.com/sfNL6Bv.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Music"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://videoserver.tmcreativos.com:19360/nqvnhujhrx/nqvnhujhrx.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Millenium109FM.pe\" tvg-logo=\"https://i.imgur.com/sfNL6Bv.png\" group-title=\"Music\",Millenium 109 FM (720p) [Not 24/7]\r\r\nhttps://videoserver.tmcreativos.com:19360/nqvnhujhrx/nqvnhujhrx.m3u8\r",
-      "line": 70,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Milenial TV",
       "tvg": {
         "id": "MilenialTV.pe",
@@ -780,6 +724,34 @@
       "url": "https://www.opencaster.com/resources/hls_stream/hipodromojcp2.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"MonterricoTV.pe\" tvg-logo=\"https://i.imgur.com/SuVO9T7.png\" group-title=\"Sports\",Monterrico TV (1080p) [Not 24/7]\r\r\nhttps://www.opencaster.com/resources/hls_stream/hipodromojcp2.m3u8\r",
       "line": 72,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Nazarenas TV (720p) [Not 24/7]",
+      "tvg": {
+        "id": "NazarenasTV.pe",
+        "name": "",
+        "logo": "https://i.imgur.com/Z01XOuI.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Religious"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://5c3fb01839654.streamlock.net:1963/iptvnazarenas/livenazarenastv/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"NazarenasTV.pe\" tvg-logo=\"https://i.imgur.com/Z01XOuI.png\" group-title=\"Religious\",Nazarenas TV (720p) [Not 24/7]\r\r\nhttps://5c3fb01839654.streamlock.net:1963/iptvnazarenas/livenazarenastv/playlist.m3u8\r",
+      "line": 78,
       "catchup": {
         "type": "",
         "days": "",
@@ -845,34 +817,6 @@
       "status": "OK"
     },
     {
-      "name": "Ovacion TV (720p) [Not 24/7]",
-      "tvg": {
-        "id": "OvacionTV.pe",
-        "name": "",
-        "logo": "https://i.imgur.com/7Xndgxk.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Sports"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://cdn2.ujjina.com:1935/iptvovacion1/liveovacion1tv/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"OvacionTV.pe\" tvg-logo=\"https://i.imgur.com/7Xndgxk.png\" group-title=\"Sports\",Ovacion TV (720p) [Not 24/7]\r\r\nhttp://cdn2.ujjina.com:1935/iptvovacion1/liveovacion1tv/playlist.m3u8\r",
-      "line": 86,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Nativa (720p) [Not 24/7]",
       "tvg": {
         "id": "Nativa.pe",
@@ -901,25 +845,53 @@
       "status": "OK"
     },
     {
-      "name": "Planeta TV (720p) [Not 24/7]",
+      "name": "ONDA DIGITAL (720p)",
       "tvg": {
-        "id": "PlanetaTV.pe",
+        "id": "ONDADIGITAL.pe",
         "name": "",
-        "logo": "https://i.imgur.com/mL3lLAF.png",
+        "logo": "https://i.imgur.com/3R2emx7.jpg",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Undefined"
+        "title": "General"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://live.obslivestream.com/planetatv/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"PlanetaTV.pe\" tvg-logo=\"https://i.imgur.com/mL3lLAF.png\" group-title=\"Undefined\",Planeta TV (720p) [Not 24/7]\r\r\nhttps://live.obslivestream.com/planetatv/index.m3u8\r",
-      "line": 92,
+      "url": "https://tv.ondadigital.pe/ondadigital/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"ONDADIGITAL.pe\" tvg-logo=\"https://i.imgur.com/3R2emx7.jpg\" group-title=\"General\",ONDA DIGITAL (720p)\r\r\nhttps://tv.ondadigital.pe/ondadigital/index.m3u8\r",
+      "line": 84,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Ovacion TV (720p) [Not 24/7]",
+      "tvg": {
+        "id": "OvacionTV.pe",
+        "name": "",
+        "logo": "https://i.imgur.com/7Xndgxk.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Sports"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://cdn2.ujjina.com:1935/iptvovacion1/liveovacion1tv/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"OvacionTV.pe\" tvg-logo=\"https://i.imgur.com/7Xndgxk.png\" group-title=\"Sports\",Ovacion TV (720p) [Not 24/7]\r\r\nhttp://cdn2.ujjina.com:1935/iptvovacion1/liveovacion1tv/playlist.m3u8\r",
+      "line": 86,
       "catchup": {
         "type": "",
         "days": "",
@@ -948,6 +920,34 @@
       "url": "https://panel.host-live.com:19360/20000/20000.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"PancTVPeru.pe\" tvg-logo=\"https://play-lh.googleusercontent.com/-FVhaeUjvONL49NYdVMchoLXU421387791mp8zZ15JFic_kPyb3vULf86ffIr-NeOg\" group-title=\"Entertainment\",Panc TV Peru (1080p)\r\r\nhttps://panel.host-live.com:19360/20000/20000.m3u8\r",
       "line": 88,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Planeta TV (720p) [Not 24/7]",
+      "tvg": {
+        "id": "PlanetaTV.pe",
+        "name": "",
+        "logo": "https://i.imgur.com/mL3lLAF.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://live.obslivestream.com/planetatv/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"PlanetaTV.pe\" tvg-logo=\"https://i.imgur.com/mL3lLAF.png\" group-title=\"Undefined\",Planeta TV (720p) [Not 24/7]\r\r\nhttps://live.obslivestream.com/planetatv/index.m3u8\r",
+      "line": 92,
       "catchup": {
         "type": "",
         "days": "",
@@ -1013,6 +1013,34 @@
       "status": "OK"
     },
     {
+      "name": "Red de Comunicación Regional (RCR) (720p) [Not 24/7]",
+      "tvg": {
+        "id": "RCR.pe",
+        "name": "",
+        "logo": "https://i.imgur.com/A8TRPrF.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "News"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://5c3fb01839654.streamlock.net:1963/iptvrcrperu/livercrperutv/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"RCR.pe\" tvg-logo=\"https://i.imgur.com/A8TRPrF.png\" group-title=\"News\",Red de Comunicación Regional (RCR) (720p) [Not 24/7]\r\r\nhttps://5c3fb01839654.streamlock.net:1963/iptvrcrperu/livercrperutv/playlist.m3u8\r",
+      "line": 106,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Radio Master (720p)",
       "tvg": {
         "id": "RadioMaster.pe",
@@ -1060,62 +1088,6 @@
       "url": "https://live.obslivestream.com/tvoriente/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"RadioTVOriente.pe@SD\" tvg-logo=\"https://i.imgur.com/iHaFLHX.png\" group-title=\"General\",RadioTV Oriente\r\r\nhttps://live.obslivestream.com/tvoriente/index.m3u8\r",
       "line": 104,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Red de Comunicación Regional (RCR) (720p) [Not 24/7]",
-      "tvg": {
-        "id": "RCR.pe",
-        "name": "",
-        "logo": "https://i.imgur.com/A8TRPrF.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "News"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://5c3fb01839654.streamlock.net:1963/iptvrcrperu/livercrperutv/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"RCR.pe\" tvg-logo=\"https://i.imgur.com/A8TRPrF.png\" group-title=\"News\",Red de Comunicación Regional (RCR) (720p) [Not 24/7]\r\r\nhttps://5c3fb01839654.streamlock.net:1963/iptvrcrperu/livercrperutv/playlist.m3u8\r",
-      "line": 106,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Radio Tropical Tarapoto (480p) [Not 24/7]",
-      "tvg": {
-        "id": "RadioTropical.pe",
-        "name": "",
-        "logo": "https://i.imgur.com/TBPVOBI.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Music"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://videoserver.tmcreativos.com:19360/raditropical/raditropical.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"RadioTropical.pe\" tvg-logo=\"https://i.imgur.com/TBPVOBI.png\" group-title=\"Music\",Radio Tropical Tarapoto (480p) [Not 24/7]\r\r\nhttps://videoserver.tmcreativos.com:19360/raditropical/raditropical.m3u8\r",
-      "line": 100,
       "catchup": {
         "type": "",
         "days": "",
@@ -1181,81 +1153,25 @@
       "status": "OK"
     },
     {
-      "name": "ONDA DIGITAL (720p)",
+      "name": "Radio Tropical Tarapoto (480p) [Not 24/7]",
       "tvg": {
-        "id": "ONDADIGITAL.pe",
+        "id": "RadioTropical.pe",
         "name": "",
-        "logo": "https://i.imgur.com/3R2emx7.jpg",
+        "logo": "https://i.imgur.com/TBPVOBI.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "General"
+        "title": "Music"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://tv.ondadigital.pe/ondadigital/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"ONDADIGITAL.pe\" tvg-logo=\"https://i.imgur.com/3R2emx7.jpg\" group-title=\"General\",ONDA DIGITAL (720p)\r\r\nhttps://tv.ondadigital.pe/ondadigital/index.m3u8\r",
-      "line": 84,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "RN Televisión (720p) [Not 24/7]",
-      "tvg": {
-        "id": "RNTelevision.pe",
-        "name": "",
-        "logo": "https://i.imgur.com/oFGiW7u.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://videoserver.tmcreativos.com:19360/rnyurimaguas/rnyurimaguas.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"RNTelevision.pe\" tvg-logo=\"https://i.imgur.com/oFGiW7u.png\" group-title=\"Undefined\",RN Televisión (720p) [Not 24/7]\r\r\nhttps://videoserver.tmcreativos.com:19360/rnyurimaguas/rnyurimaguas.m3u8\r",
-      "line": 110,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Super Canal Yurimaguas (720p) [Not 24/7]",
-      "tvg": {
-        "id": "SuperCanal.pe",
-        "name": "",
-        "logo": "https://i.imgur.com/eotfCMd.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://live.obslivestream.com/supercanal/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"SuperCanal.pe\" tvg-logo=\"https://i.imgur.com/eotfCMd.png\" group-title=\"Undefined\",Super Canal Yurimaguas (720p) [Not 24/7]\r\r\nhttps://live.obslivestream.com/supercanal/index.m3u8\r",
-      "line": 120,
+      "url": "https://videoserver.tmcreativos.com:19360/raditropical/raditropical.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"RadioTropical.pe\" tvg-logo=\"https://i.imgur.com/TBPVOBI.png\" group-title=\"Music\",Radio Tropical Tarapoto (480p) [Not 24/7]\r\r\nhttps://videoserver.tmcreativos.com:19360/raditropical/raditropical.m3u8\r",
+      "line": 100,
       "catchup": {
         "type": "",
         "days": "",
@@ -1293,6 +1209,34 @@
       "status": "OK"
     },
     {
+      "name": "Super Canal Yurimaguas (720p) [Not 24/7]",
+      "tvg": {
+        "id": "SuperCanal.pe",
+        "name": "",
+        "logo": "https://i.imgur.com/eotfCMd.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://live.obslivestream.com/supercanal/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"SuperCanal.pe\" tvg-logo=\"https://i.imgur.com/eotfCMd.png\" group-title=\"Undefined\",Super Canal Yurimaguas (720p) [Not 24/7]\r\r\nhttps://live.obslivestream.com/supercanal/index.m3u8\r",
+      "line": 120,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Telecolor Yurimaguas (720p) [Not 24/7]",
       "tvg": {
         "id": "TelecolorYurimaguas.pe",
@@ -1321,11 +1265,11 @@
       "status": "OK"
     },
     {
-      "name": "Teleselva",
+      "name": "RN Televisión (720p) [Not 24/7]",
       "tvg": {
-        "id": "Teleselva.pe",
+        "id": "RNTelevision.pe",
         "name": "",
-        "logo": "https://i.imgur.com/cu7hTn8.png",
+        "logo": "https://i.imgur.com/oFGiW7u.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -1337,9 +1281,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://7.innovatestream.pe:19360/tvnoticiassatipo/tvnoticiassatipo.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Teleselva.pe\" tvg-logo=\"https://i.imgur.com/cu7hTn8.png\" group-title=\"Undefined\",Teleselva\r\r\nhttps://7.innovatestream.pe:19360/tvnoticiassatipo/tvnoticiassatipo.m3u8\r",
-      "line": 126,
+      "url": "https://videoserver.tmcreativos.com:19360/rnyurimaguas/rnyurimaguas.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"RNTelevision.pe\" tvg-logo=\"https://i.imgur.com/oFGiW7u.png\" group-title=\"Undefined\",RN Televisión (720p) [Not 24/7]\r\r\nhttps://videoserver.tmcreativos.com:19360/rnyurimaguas/rnyurimaguas.m3u8\r",
+      "line": 110,
       "catchup": {
         "type": "",
         "days": "",
@@ -1368,6 +1312,34 @@
       "url": "https://video03.logicahost.com.br/soltv/soltv/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"SolTV.pe\" tvg-logo=\"https://i.imgur.com/GtNkuAc.png\" group-title=\"Undefined\",Sol Televisión (720p)\r\r\nhttps://video03.logicahost.com.br/soltv/soltv/playlist.m3u8\r",
       "line": 116,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Teleselva",
+      "tvg": {
+        "id": "Teleselva.pe",
+        "name": "",
+        "logo": "https://i.imgur.com/cu7hTn8.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://7.innovatestream.pe:19360/tvnoticiassatipo/tvnoticiassatipo.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Teleselva.pe\" tvg-logo=\"https://i.imgur.com/cu7hTn8.png\" group-title=\"Undefined\",Teleselva\r\r\nhttps://7.innovatestream.pe:19360/tvnoticiassatipo/tvnoticiassatipo.m3u8\r",
+      "line": 126,
       "catchup": {
         "type": "",
         "days": "",
