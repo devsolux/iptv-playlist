@@ -33,6 +33,34 @@
       "status": "OK"
     },
     {
+      "name": "31 Kanal",
+      "tvg": {
+        "id": "31Kanal.kz",
+        "name": "",
+        "logo": "https://i.imgur.com/5Bp9ljw.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://hls.live.31kz.adapto.kz/forward_live_31kz/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"31Kanal.kz\" tvg-logo=\"https://i.imgur.com/5Bp9ljw.png\" group-title=\"General\",31 Kanal\r\r\nhttps://hls.live.31kz.adapto.kz/forward_live_31kz/index.m3u8\r",
+      "line": 4,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "24KZ",
       "tvg": {
         "id": "24KZ.kz",
@@ -80,34 +108,6 @@
       "url": "https://otv.wotom.net/alau/stream.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"AlauTV.kz\" tvg-logo=\"https://i.imgur.com/gK6ZRzp.png\" group-title=\"Undefined\",Alau TV (576p)\r\r\nhttps://otv.wotom.net/alau/stream.m3u8\r",
       "line": 8,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "31 Kanal",
-      "tvg": {
-        "id": "31Kanal.kz",
-        "name": "",
-        "logo": "https://i.imgur.com/5Bp9ljw.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://hls.live.31kz.adapto.kz/forward_live_31kz/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"31Kanal.kz\" tvg-logo=\"https://i.imgur.com/5Bp9ljw.png\" group-title=\"General\",31 Kanal\r\r\nhttps://hls.live.31kz.adapto.kz/forward_live_31kz/index.m3u8\r",
-      "line": 4,
       "catchup": {
         "type": "",
         "days": "",
@@ -173,11 +173,11 @@
       "status": "OK"
     },
     {
-      "name": "Atyraý (720p)",
+      "name": "Kókshe (720p) [Not 24/7]",
       "tvg": {
-        "id": "Atyray.kz",
+        "id": "Kokshe.kz",
         "name": "",
-        "logo": "https://i.imgur.com/kva4O3T.png",
+        "logo": "https://i.imgur.com/pOR3FSR.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -189,9 +189,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://stream.kaztrk.kz/regional/atyrautv/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Atyray.kz\" tvg-logo=\"https://i.imgur.com/kva4O3T.png\" group-title=\"General\",Atyraý (720p)\r\r\nhttps://stream.kaztrk.kz/regional/atyrautv/index.m3u8\r",
-      "line": 14,
+      "url": "https://stream.kaztrk.kz/regional/kokshetautv/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Kokshe.kz\" tvg-logo=\"https://i.imgur.com/pOR3FSR.png\" group-title=\"General\",Kókshe (720p) [Not 24/7]\r\r\nhttps://stream.kaztrk.kz/regional/kokshetautv/index.m3u8\r",
+      "line": 22,
       "catchup": {
         "type": "",
         "days": "",
@@ -257,81 +257,25 @@
       "status": "OK"
     },
     {
-      "name": "Kókshe (720p) [Not 24/7]",
+      "name": "Ontústik (360p)",
       "tvg": {
-        "id": "Kokshe.kz",
+        "id": "Ontustik.kz",
         "name": "",
-        "logo": "https://i.imgur.com/pOR3FSR.png",
+        "logo": "https://i.imgur.com/xqr1hjN.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "General"
+        "title": "Undefined"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://stream.kaztrk.kz/regional/kokshetautv/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Kokshe.kz\" tvg-logo=\"https://i.imgur.com/pOR3FSR.png\" group-title=\"General\",Kókshe (720p) [Not 24/7]\r\r\nhttps://stream.kaztrk.kz/regional/kokshetautv/index.m3u8\r",
-      "line": 22,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Mańǵystaý (540p) [Not 24/7]",
-      "tvg": {
-        "id": "Mangystay.kz",
-        "name": "",
-        "logo": "https://i.imgur.com/9JfLseu.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://stream.kaztrk.kz/regional/mangystautv/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Mangystay.kz\" tvg-logo=\"https://i.imgur.com/9JfLseu.png\" group-title=\"General\",Mańǵystaý (540p) [Not 24/7]\r\r\nhttps://stream.kaztrk.kz/regional/mangystautv/index.m3u8\r",
-      "line": 24,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "MuzzOne (576p)",
-      "tvg": {
-        "id": "MuzzOne.kz",
-        "name": "",
-        "logo": "https://i.imgur.com/nHVABXh.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Music"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://hls.live.31kz.adapto.kz/muzzone/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"MuzzOne.kz\" tvg-logo=\"https://i.imgur.com/nHVABXh.png\" group-title=\"Music\",MuzzOne (576p)\r\r\nhttps://hls.live.31kz.adapto.kz/muzzone/index.m3u8\r",
-      "line": 26,
+      "url": "https://stream.kaztrk.kz/regional/shymkenttv/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Ontustik.kz\" tvg-logo=\"https://i.imgur.com/xqr1hjN.png\" group-title=\"Undefined\",Ontústik (360p)\r\r\nhttps://stream.kaztrk.kz/regional/shymkenttv/index.m3u8\r",
+      "line": 28,
       "catchup": {
         "type": "",
         "days": "",
@@ -369,11 +313,39 @@
       "status": "OK"
     },
     {
-      "name": "Ontústik (360p)",
+      "name": "MuzzOne (576p)",
       "tvg": {
-        "id": "Ontustik.kz",
+        "id": "MuzzOne.kz",
         "name": "",
-        "logo": "https://i.imgur.com/xqr1hjN.png",
+        "logo": "https://i.imgur.com/nHVABXh.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Music"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://hls.live.31kz.adapto.kz/muzzone/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"MuzzOne.kz\" tvg-logo=\"https://i.imgur.com/nHVABXh.png\" group-title=\"Music\",MuzzOne (576p)\r\r\nhttps://hls.live.31kz.adapto.kz/muzzone/index.m3u8\r",
+      "line": 26,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Qostanai (576p) [Not 24/7]",
+      "tvg": {
+        "id": "Qostanai.kz",
+        "name": "",
+        "logo": "https://i.imgur.com/eOz4xJ8.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -385,9 +357,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://stream.kaztrk.kz/regional/shymkenttv/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Ontustik.kz\" tvg-logo=\"https://i.imgur.com/xqr1hjN.png\" group-title=\"Undefined\",Ontústik (360p)\r\r\nhttps://stream.kaztrk.kz/regional/shymkenttv/index.m3u8\r",
-      "line": 28,
+      "url": "https://stream.kaztrk.kz/regional/kostanaytv/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Qostanai.kz\" tvg-logo=\"https://i.imgur.com/eOz4xJ8.png\" group-title=\"Undefined\",Qostanai (576p) [Not 24/7]\r\r\nhttps://stream.kaztrk.kz/regional/kostanaytv/index.m3u8\r",
+      "line": 36,
       "catchup": {
         "type": "",
         "days": "",
@@ -453,34 +425,6 @@
       "status": "OK"
     },
     {
-      "name": "Qostanai (576p) [Not 24/7]",
-      "tvg": {
-        "id": "Qostanai.kz",
-        "name": "",
-        "logo": "https://i.imgur.com/eOz4xJ8.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://stream.kaztrk.kz/regional/kostanaytv/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Qostanai.kz\" tvg-logo=\"https://i.imgur.com/eOz4xJ8.png\" group-title=\"Undefined\",Qostanai (576p) [Not 24/7]\r\r\nhttps://stream.kaztrk.kz/regional/kostanaytv/index.m3u8\r",
-      "line": 36,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Qazaqstan TV (720p) [Not 24/7]",
       "tvg": {
         "id": "Qazaqstan.kz",
@@ -500,34 +444,6 @@
       "url": "https://qazaqstantv-stream.qazcdn.com/qazaqstantv/qazaqstantv/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"Qazaqstan.kz\" tvg-logo=\"https://i.imgur.com/oI8g396.png\" group-title=\"Undefined\",Qazaqstan TV (720p) [Not 24/7]\r\r\nhttps://qazaqstantv-stream.qazcdn.com/qazaqstantv/qazaqstantv/playlist.m3u8\r",
       "line": 32,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Qyzylorda (720p)",
-      "tvg": {
-        "id": "Qyzylorda.kz",
-        "name": "",
-        "logo": "https://i.imgur.com/r4BFQpE.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://stream.kaztrk.kz/regional/kyzylordatv/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Qyzylorda.kz\" tvg-logo=\"https://i.imgur.com/r4BFQpE.png\" group-title=\"Undefined\",Qyzylorda (720p)\r\r\nhttps://stream.kaztrk.kz/regional/kyzylordatv/index.m3u8\r",
-      "line": 40,
       "catchup": {
         "type": "",
         "days": "",
@@ -565,6 +481,34 @@
       "status": "OK"
     },
     {
+      "name": "Qyzylorda (720p)",
+      "tvg": {
+        "id": "Qyzylorda.kz",
+        "name": "",
+        "logo": "https://i.imgur.com/r4BFQpE.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://stream.kaztrk.kz/regional/kyzylordatv/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Qyzylorda.kz\" tvg-logo=\"https://i.imgur.com/r4BFQpE.png\" group-title=\"Undefined\",Qyzylorda (720p)\r\r\nhttps://stream.kaztrk.kz/regional/kyzylordatv/index.m3u8\r",
+      "line": 40,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Semeı (1080p)",
       "tvg": {
         "id": "Semei.kz",
@@ -593,34 +537,6 @@
       "status": "OK"
     },
     {
-      "name": "Новое телевидение (576p) [Not 24/7]",
-      "tvg": {
-        "id": "Novoetelevidenie.kz",
-        "name": "",
-        "logo": "https://i.imgur.com/mmKWrWs.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://serv25.vintera.tv:8081/novoetv/nov_tv/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Novoetelevidenie.kz\" tvg-logo=\"https://i.imgur.com/mmKWrWs.png\" group-title=\"General\",Новое телевидение (576p) [Not 24/7]\r\r\nhttp://serv25.vintera.tv:8081/novoetv/nov_tv/playlist.m3u8\r",
-      "line": 50,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "КТК (1080p) [Not 24/7]",
       "tvg": {
         "id": "KTK.kz",
@@ -640,6 +556,34 @@
       "url": "https://wz-kt.ktk.kz/ktklive/smil:ktk-live.smil/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"KTK.kz\" tvg-logo=\"https://i.imgur.com/BurrNTo.png\" group-title=\"General\",КТК (1080p) [Not 24/7]\r\r\nhttps://wz-kt.ktk.kz/ktklive/smil:ktk-live.smil/playlist.m3u8\r",
       "line": 46,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Новое телевидение (576p) [Not 24/7]",
+      "tvg": {
+        "id": "Novoetelevidenie.kz",
+        "name": "",
+        "logo": "https://i.imgur.com/mmKWrWs.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://serv25.vintera.tv:8081/novoetv/nov_tv/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Novoetelevidenie.kz\" tvg-logo=\"https://i.imgur.com/mmKWrWs.png\" group-title=\"General\",Новое телевидение (576p) [Not 24/7]\r\r\nhttp://serv25.vintera.tv:8081/novoetv/nov_tv/playlist.m3u8\r",
+      "line": 50,
       "catchup": {
         "type": "",
         "days": "",
