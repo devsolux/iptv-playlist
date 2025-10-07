@@ -5,6 +5,34 @@
   },
   "items": [
     {
+      "name": ":24 (1080p)",
+      "tvg": {
+        "id": "24.sk",
+        "name": "",
+        "logo": "https://i.imgur.com/tTCuczU.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "News"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://88.212.15.27/live/test_trojka_25p/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"24.sk\" tvg-logo=\"https://i.imgur.com/tTCuczU.png\" group-title=\"News\",:24 (1080p)\r\r\nhttp://88.212.15.27/live/test_trojka_25p/playlist.m3u8\r",
+      "line": 4,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": ":Šport (1080p)",
       "tvg": {
         "id": "Sport.sk",
@@ -33,25 +61,25 @@
       "status": "OK"
     },
     {
-      "name": ":24 (1080p)",
+      "name": "BTV (480p)",
       "tvg": {
-        "id": "24.sk",
+        "id": "BTV.sk",
         "name": "",
-        "logo": "https://i.imgur.com/tTCuczU.png",
+        "logo": "https://i.imgur.com/5CZ6HHn.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "News"
+        "title": "Undefined"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "http://88.212.15.27/live/test_trojka_25p/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"24.sk\" tvg-logo=\"https://i.imgur.com/tTCuczU.png\" group-title=\"News\",:24 (1080p)\r\r\nhttp://88.212.15.27/live/test_trojka_25p/playlist.m3u8\r",
-      "line": 4,
+      "url": "https://fs3.kabelko.sk/9011/index.m3u8?token=btv",
+      "raw": "#EXTINF:-1 tvg-id=\"BTV.sk\" tvg-logo=\"https://i.imgur.com/5CZ6HHn.png\" group-title=\"Undefined\",BTV (480p)\r\r\nhttps://fs3.kabelko.sk/9011/index.m3u8?token=btv\r",
+      "line": 6,
       "catchup": {
         "type": "",
         "days": "",
@@ -313,53 +341,25 @@
       "status": "OK"
     },
     {
-      "name": "BTV (480p)",
+      "name": "Markíza Krimi (1080p)",
       "tvg": {
-        "id": "BTV.sk",
+        "id": "MarkizaKrimi.sk",
         "name": "",
-        "logo": "https://i.imgur.com/5CZ6HHn.png",
+        "logo": "https://i.postimg.cc/SsPNv3kd/markizakrimi.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Undefined"
+        "title": "Entertainment"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://fs3.kabelko.sk/9011/index.m3u8?token=btv",
-      "raw": "#EXTINF:-1 tvg-id=\"BTV.sk\" tvg-logo=\"https://i.imgur.com/5CZ6HHn.png\" group-title=\"Undefined\",BTV (480p)\r\r\nhttps://fs3.kabelko.sk/9011/index.m3u8?token=btv\r",
-      "line": 6,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "LifeTv (1080p)",
-      "tvg": {
-        "id": "LifeTv.sk",
-        "name": "",
-        "logo": "https://i.imgur.com/jO8kAY2.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Religious"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://lifetv.mpks.sk/s.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"LifeTv.sk\" tvg-logo=\"https://i.imgur.com/jO8kAY2.png\" group-title=\"Religious\",LifeTv (1080p)\r\r\nhttps://lifetv.mpks.sk/s.m3u8\r",
-      "line": 37,
+      "url": "https://cdnsk003.panaccess.com/local/Markiza_krimi/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"MarkizaKrimi.sk\" tvg-logo=\"https://i.postimg.cc/SsPNv3kd/markizakrimi.png\" group-title=\"Entertainment\",Markíza Krimi (1080p)\r\r\nhttps://cdnsk003.panaccess.com/local/Markiza_krimi/index.m3u8\r",
+      "line": 43,
       "catchup": {
         "type": "",
         "days": "",
@@ -397,34 +397,6 @@
       "status": "OK"
     },
     {
-      "name": "Markíza Krimi (1080p)",
-      "tvg": {
-        "id": "MarkizaKrimi.sk",
-        "name": "",
-        "logo": "https://i.postimg.cc/SsPNv3kd/markizakrimi.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Entertainment"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://cdnsk003.panaccess.com/local/Markiza_krimi/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"MarkizaKrimi.sk\" tvg-logo=\"https://i.postimg.cc/SsPNv3kd/markizakrimi.png\" group-title=\"Entertainment\",Markíza Krimi (1080p)\r\r\nhttps://cdnsk003.panaccess.com/local/Markiza_krimi/index.m3u8\r",
-      "line": 43,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "MTR (1080p)",
       "tvg": {
         "id": "MTR.sk",
@@ -444,6 +416,34 @@
       "url": "https://cdnsk003.panaccess.com/local/Ruzomberok/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"MTR.sk\" tvg-logo=\"https://www.mtr.sk/img/logo-mtr-0.png\" group-title=\"General\",MTR (1080p)\r\r\nhttps://cdnsk003.panaccess.com/local/Ruzomberok/index.m3u8\r",
       "line": 49,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "LifeTv (1080p)",
+      "tvg": {
+        "id": "LifeTv.sk",
+        "name": "",
+        "logo": "https://i.imgur.com/jO8kAY2.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Religious"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://lifetv.mpks.sk/s.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"LifeTv.sk\" tvg-logo=\"https://i.imgur.com/jO8kAY2.png\" group-title=\"Religious\",LifeTv (1080p)\r\r\nhttps://lifetv.mpks.sk/s.m3u8\r",
+      "line": 37,
       "catchup": {
         "type": "",
         "days": "",
