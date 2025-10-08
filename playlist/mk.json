@@ -89,6 +89,34 @@
       "status": "OK"
     },
     {
+      "name": "M-Net HD (720p)",
+      "tvg": {
+        "id": "MNetHD.mk",
+        "name": "",
+        "logo": "https://i.imgur.com/HDYqWuR.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://ares.mnet.mk/hls/mnet.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"MNetHD.mk\" tvg-logo=\"https://i.imgur.com/HDYqWuR.png\" group-title=\"General\",M-Net HD (720p)\r\r\nhttp://ares.mnet.mk/hls/mnet.m3u8\r",
+      "line": 24,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "M-Net Kids (720p)",
       "tvg": {
         "id": "MNetKids.mk",
@@ -145,25 +173,25 @@
       "status": "OK"
     },
     {
-      "name": "M-Net HD (720p)",
+      "name": "Rock TV (1080p) [Not 24/7]",
       "tvg": {
-        "id": "MNetHD.mk",
+        "id": "RockTV.mk",
         "name": "",
-        "logo": "https://i.imgur.com/HDYqWuR.png",
+        "logo": "https://i.imgur.com/Y9miDQo.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "General"
+        "title": "Music"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "http://ares.mnet.mk/hls/mnet.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"MNetHD.mk\" tvg-logo=\"https://i.imgur.com/HDYqWuR.png\" group-title=\"General\",M-Net HD (720p)\r\r\nhttp://ares.mnet.mk/hls/mnet.m3u8\r",
-      "line": 24,
+      "url": "https://stream.nasatv.com.mk/rocktv/hls/rocktv_live.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"RockTV.mk\" tvg-logo=\"https://i.imgur.com/Y9miDQo.png\" group-title=\"Music\",Rock TV (1080p) [Not 24/7]\r\r\nhttps://stream.nasatv.com.mk/rocktv/hls/rocktv_live.m3u8\r",
+      "line": 44,
       "catchup": {
         "type": "",
         "days": "",
@@ -192,34 +220,6 @@
       "url": "https://stream.nasatv.com.mk/hls/nasatv_live.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"NasaTV.mk\" tvg-logo=\"https://i.imgur.com/9rB4VZy.png\" group-title=\"General\",Naša TV (1080p) [Not 24/7]\r\r\nhttps://stream.nasatv.com.mk/hls/nasatv_live.m3u8\r",
       "line": 42,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Rock TV (1080p) [Not 24/7]",
-      "tvg": {
-        "id": "RockTV.mk",
-        "name": "",
-        "logo": "https://i.imgur.com/Y9miDQo.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Music"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://stream.nasatv.com.mk/rocktv/hls/rocktv_live.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"RockTV.mk\" tvg-logo=\"https://i.imgur.com/Y9miDQo.png\" group-title=\"Music\",Rock TV (1080p) [Not 24/7]\r\r\nhttps://stream.nasatv.com.mk/rocktv/hls/rocktv_live.m3u8\r",
-      "line": 44,
       "catchup": {
         "type": "",
         "days": "",
@@ -332,34 +332,6 @@
       "url": "http://151.236.247.171:8080/nova/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TVNOVA12.mk\" tvg-logo=\"https://i.imgur.com/Qo3Hj3t.png\" group-title=\"General\",TV NOVA 12 (576p) [Not 24/7]\r\r\nhttp://151.236.247.171:8080/nova/index.m3u8\r",
       "line": 66,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "TV Zdravkin (400p)",
-      "tvg": {
-        "id": "TVZdravkin.mk",
-        "name": "",
-        "logo": "https://i.imgur.com/w4rRUNQ.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://zdravkin.hugo.mk:1935/live/zdravkin/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TVZdravkin.mk\" tvg-logo=\"https://i.imgur.com/w4rRUNQ.png\" group-title=\"General\",TV Zdravkin (400p)\r\r\nhttp://zdravkin.hugo.mk:1935/live/zdravkin/playlist.m3u8\r",
-      "line": 74,
       "catchup": {
         "type": "",
         "days": "",
