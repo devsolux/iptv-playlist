@@ -33,11 +33,11 @@
       "status": "OK"
     },
     {
-      "name": "Fasso TV Kankan",
+      "name": "ATV (400p) [Not 24/7]",
       "tvg": {
-        "id": "FassoTVKankan.gn@SD",
+        "id": "ATV.gn",
         "name": "",
-        "logo": "https://i.imgur.com/xrV3Qrr.png",
+        "logo": "https://i.imgur.com/YkJPCfR.jpeg",
         "url": "",
         "rec": "",
         "shift": ""
@@ -49,9 +49,37 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://dvrfl06.bozztv.com/astv-fassotv/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"FassoTVKankan.gn@SD\" tvg-logo=\"https://i.imgur.com/xrV3Qrr.png\" group-title=\"General\",Fasso TV Kankan\r\r\nhttps://dvrfl06.bozztv.com/astv-fassotv/index.m3u8\r",
-      "line": 8,
+      "url": "https://guineetvdirect.online:3320/live/atvguineelive.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"ATV.gn\" tvg-logo=\"https://i.imgur.com/YkJPCfR.jpeg\" group-title=\"General\",ATV (400p) [Not 24/7]\r\r\nhttps://guineetvdirect.online:3320/live/atvguineelive.m3u8\r",
+      "line": 2,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Espace TV (1080p)",
+      "tvg": {
+        "id": "EspaceTV.gn",
+        "name": "",
+        "logo": "https://i.imgur.com/R5tbzFI.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "News"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://edge11.vedge.infomaniak.com/livecast/ik:espacetv/manifest.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"EspaceTV.gn\" tvg-logo=\"https://i.imgur.com/R5tbzFI.png\" group-title=\"News\",Espace TV (1080p)\r\r\nhttps://edge11.vedge.infomaniak.com/livecast/ik:espacetv/manifest.m3u8\r",
+      "line": 6,
       "catchup": {
         "type": "",
         "days": "",
@@ -80,34 +108,6 @@
       "url": "https://uvotv-aniview.global.ssl.fastly.net/hls/live/2120428/gtv1/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"GuineeTV1.gn@SD\" tvg-logo=\"https://i.imgur.com/X1AUjHr.png\" group-title=\"Entertainment\",Guinee TV1\r\r\nhttps://uvotv-aniview.global.ssl.fastly.net/hls/live/2120428/gtv1/playlist.m3u8\r",
       "line": 10,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "ATV (400p) [Not 24/7]",
-      "tvg": {
-        "id": "ATV.gn",
-        "name": "",
-        "logo": "https://i.imgur.com/YkJPCfR.jpeg",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://guineetvdirect.online:3320/live/atvguineelive.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"ATV.gn\" tvg-logo=\"https://i.imgur.com/YkJPCfR.jpeg\" group-title=\"General\",ATV (400p) [Not 24/7]\r\r\nhttps://guineetvdirect.online:3320/live/atvguineelive.m3u8\r",
-      "line": 2,
       "catchup": {
         "type": "",
         "days": "",
@@ -173,34 +173,6 @@
       "status": "OK"
     },
     {
-      "name": "Espace TV (1080p)",
-      "tvg": {
-        "id": "EspaceTV.gn",
-        "name": "",
-        "logo": "https://i.imgur.com/R5tbzFI.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "News"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://edge11.vedge.infomaniak.com/livecast/ik:espacetv/manifest.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"EspaceTV.gn\" tvg-logo=\"https://i.imgur.com/R5tbzFI.png\" group-title=\"News\",Espace TV (1080p)\r\r\nhttps://edge11.vedge.infomaniak.com/livecast/ik:espacetv/manifest.m3u8\r",
-      "line": 6,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "West Africa TV",
       "tvg": {
         "id": "WestAfricaTV.gn@SD",
@@ -220,6 +192,34 @@
       "url": "https://uvotv-aniview.global.ssl.fastly.net/hls/live/2120681/westafricatv/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"WestAfricaTV.gn@SD\" tvg-logo=\"https://i.imgur.com/slJHucp.png\" group-title=\"General\",West Africa TV\r\r\nhttps://uvotv-aniview.global.ssl.fastly.net/hls/live/2120681/westafricatv/playlist.m3u8\r",
       "line": 20,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "RTG 2",
+      "tvg": {
+        "id": "RTG2.gn@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/E1sMcXz.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://uvotv-aniview.global.ssl.fastly.net/hls/live/2120428/rtg2/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"RTG2.gn@SD\" tvg-logo=\"https://i.imgur.com/E1sMcXz.png\" group-title=\"General\",RTG 2\r\r\nhttps://uvotv-aniview.global.ssl.fastly.net/hls/live/2120428/rtg2/playlist.m3u8\r",
+      "line": 18,
       "catchup": {
         "type": "",
         "days": "",
