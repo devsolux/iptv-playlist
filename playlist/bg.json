@@ -33,25 +33,25 @@
       "status": "OK"
     },
     {
-      "name": "Agro TV (480p)",
+      "name": "City TV (576p) [Not 24/7]",
       "tvg": {
-        "id": "AgroTV.bg",
+        "id": "CityTV.bg",
         "name": "",
-        "logo": "https://i.imgur.com/tPMNDtD.png",
+        "logo": "https://i.imgur.com/mFL452f.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Outdoor"
+        "title": "Music"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://restr2.bgtv.bg/agro/hls/agro.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"AgroTV.bg\" tvg-logo=\"https://i.imgur.com/tPMNDtD.png\" group-title=\"Outdoor\",Agro TV (480p)\r\r\nhttps://restr2.bgtv.bg/agro/hls/agro.m3u8\r",
-      "line": 4,
+      "url": "https://tv.city.bg/play/tshls/citytv/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"CityTV.bg\" tvg-logo=\"https://i.imgur.com/mFL452f.png\" group-title=\"Music\",City TV (576p) [Not 24/7]\r\r\nhttps://tv.city.bg/play/tshls/citytv/index.m3u8\r",
+      "line": 8,
       "catchup": {
         "type": "",
         "days": "",
@@ -117,25 +117,25 @@
       "status": "OK"
     },
     {
-      "name": "Light Channel (480p) [Not 24/7]",
+      "name": "Agro TV (480p)",
       "tvg": {
-        "id": "LightChannel.bg",
+        "id": "AgroTV.bg",
         "name": "",
-        "logo": "https://i.imgur.com/S3Fbf8T.png",
+        "logo": "https://i.imgur.com/tPMNDtD.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Religious"
+        "title": "Outdoor"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://streamer1.streamhost.org/salive/GMIlcbgM/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"LightChannel.bg\" tvg-logo=\"https://i.imgur.com/S3Fbf8T.png\" group-title=\"Religious\",Light Channel (480p) [Not 24/7]\r\r\nhttps://streamer1.streamhost.org/salive/GMIlcbgM/playlist.m3u8\r",
-      "line": 21,
+      "url": "https://restr2.bgtv.bg/agro/hls/agro.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"AgroTV.bg\" tvg-logo=\"https://i.imgur.com/tPMNDtD.png\" group-title=\"Outdoor\",Agro TV (480p)\r\r\nhttps://restr2.bgtv.bg/agro/hls/agro.m3u8\r",
+      "line": 4,
       "catchup": {
         "type": "",
         "days": "",
@@ -173,11 +173,11 @@
       "status": "OK"
     },
     {
-      "name": "Hope Channel Bulgaria",
+      "name": "Light Channel (480p) [Not 24/7]",
       "tvg": {
-        "id": "HopeChannelBulgaria.bg",
+        "id": "LightChannel.bg",
         "name": "",
-        "logo": "https://i.imgur.com/bxzeEML.png",
+        "logo": "https://i.imgur.com/S3Fbf8T.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -189,9 +189,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://hc1.hopetv.bg/live/hopetv_all.smil/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"HopeChannelBulgaria.bg\" tvg-logo=\"https://i.imgur.com/bxzeEML.png\" group-title=\"Religious\",Hope Channel Bulgaria\r\r\nhttps://hc1.hopetv.bg/live/hopetv_all.smil/playlist.m3u8\r",
-      "line": 16,
+      "url": "https://streamer1.streamhost.org/salive/GMIlcbgM/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"LightChannel.bg\" tvg-logo=\"https://i.imgur.com/S3Fbf8T.png\" group-title=\"Religious\",Light Channel (480p) [Not 24/7]\r\r\nhttps://streamer1.streamhost.org/salive/GMIlcbgM/playlist.m3u8\r",
+      "line": 21,
       "catchup": {
         "type": "",
         "days": "",
@@ -220,6 +220,62 @@
       "url": "https://bss1.neterra.tv/magictv/magictv.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"MagicTV.bg\" tvg-logo=\"https://i.imgur.com/n7bcrrp.png\" group-title=\"Music\",Magic TV (720p)\r\r\nhttps://bss1.neterra.tv/magictv/magictv.m3u8\r",
       "line": 23,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Hope Channel Bulgaria",
+      "tvg": {
+        "id": "HopeChannelBulgaria.bg",
+        "name": "",
+        "logo": "https://i.imgur.com/bxzeEML.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Religious"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://hc1.hopetv.bg/live/hopetv_all.smil/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"HopeChannelBulgaria.bg\" tvg-logo=\"https://i.imgur.com/bxzeEML.png\" group-title=\"Religious\",Hope Channel Bulgaria\r\r\nhttps://hc1.hopetv.bg/live/hopetv_all.smil/playlist.m3u8\r",
+      "line": 16,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Nickelodeon (576p)",
+      "tvg": {
+        "id": "Nickelodeon.bg@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/E84jnP8.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Kids"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://87.246.60.6:11004/?token=fas-tv.com",
+      "raw": "#EXTINF:-1 tvg-id=\"Nickelodeon.bg@SD\" tvg-logo=\"https://i.imgur.com/E84jnP8.png\" group-title=\"Kids\",Nickelodeon (576p)\r\r\nhttp://87.246.60.6:11004/?token=fas-tv.com\r",
+      "line": 25,
       "catchup": {
         "type": "",
         "days": "",
@@ -332,34 +388,6 @@
       "url": "https://streamer103.neterra.tv/tiankov-folk/live.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TiankovFolk.bg\" tvg-logo=\"https://i.imgur.com/VKY4q64.png\" group-title=\"Music\",Tiankov Folk (576p)\r\r\nhttps://streamer103.neterra.tv/tiankov-folk/live.m3u8\r",
       "line": 35,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Nickelodeon (576p)",
-      "tvg": {
-        "id": "Nickelodeon.bg@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/E84jnP8.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Kids"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://87.246.60.6:11004/?token=fas-tv.com",
-      "raw": "#EXTINF:-1 tvg-id=\"Nickelodeon.bg@SD\" tvg-logo=\"https://i.imgur.com/E84jnP8.png\" group-title=\"Kids\",Nickelodeon (576p)\r\r\nhttp://87.246.60.6:11004/?token=fas-tv.com\r",
-      "line": 25,
       "catchup": {
         "type": "",
         "days": "",
