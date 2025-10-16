@@ -5,9 +5,37 @@
   },
   "items": [
     {
+      "name": "Anytime TV (1080p)",
+      "tvg": {
+        "id": "AnytimeTV.za@HD",
+        "name": "",
+        "logo": "https://i.imgur.com/LloHzi4.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Travel"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://tv.anytimemedia.co.za:3673/hybrid/play.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"AnytimeTV.za@HD\" tvg-logo=\"https://i.imgur.com/LloHzi4.png\" group-title=\"Travel\",Anytime TV (1080p)\r\r\nhttps://tv.anytimemedia.co.za:3673/hybrid/play.m3u8\r",
+      "line": 8,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "BOKTV (720p) [Not 24/7]",
       "tvg": {
-        "id": "BOKTV.za",
+        "id": "BOKTV.za@SD",
         "name": "",
         "logo": "https://i.imgur.com/mcNjuuO.png",
         "url": "",
@@ -22,7 +50,7 @@
         "user-agent": ""
       },
       "url": "https://livestream2.bokradio.co.za/hls/Bok5c.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"BOKTV.za\" tvg-logo=\"https://i.imgur.com/mcNjuuO.png\" group-title=\"Music\",BOKTV (720p) [Not 24/7]\r\r\nhttps://livestream2.bokradio.co.za/hls/Bok5c.m3u8\r",
+      "raw": "#EXTINF:-1 tvg-id=\"BOKTV.za@SD\" tvg-logo=\"https://i.imgur.com/mcNjuuO.png\" group-title=\"Music\",BOKTV (720p) [Not 24/7]\r\r\nhttps://livestream2.bokradio.co.za/hls/Bok5c.m3u8\r",
       "line": 10,
       "catchup": {
         "type": "",
@@ -35,7 +63,7 @@
     {
       "name": "Faith TV (576p)",
       "tvg": {
-        "id": "FaithTV.za",
+        "id": "FaithTV.za@SD",
         "name": "",
         "logo": "https://admango.cdn.mangomolo.com/analytics/uploads/188/6544bcf232.jpg",
         "url": "",
@@ -50,7 +78,7 @@
         "user-agent": ""
       },
       "url": "https://cdn.freevisiontv.co.za/sttv/smil:faith.stream.smil/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"FaithTV.za\" tvg-logo=\"https://admango.cdn.mangomolo.com/analytics/uploads/188/6544bcf232.jpg\" group-title=\"Religious\",Faith TV (576p)\r\r\nhttps://cdn.freevisiontv.co.za/sttv/smil:faith.stream.smil/playlist.m3u8\r",
+      "raw": "#EXTINF:-1 tvg-id=\"FaithTV.za@SD\" tvg-logo=\"https://admango.cdn.mangomolo.com/analytics/uploads/188/6544bcf232.jpg\" group-title=\"Religious\",Faith TV (576p)\r\r\nhttps://cdn.freevisiontv.co.za/sttv/smil:faith.stream.smil/playlist.m3u8\r",
       "line": 28,
       "catchup": {
         "type": "",
@@ -63,7 +91,7 @@
     {
       "name": "LN24SA (1080p)",
       "tvg": {
-        "id": "LN24SA.za",
+        "id": "LN24SA.za@SD",
         "name": "",
         "logo": "https://i.imgur.com/Hg5YTwu.png",
         "url": "",
@@ -78,7 +106,7 @@
         "user-agent": ""
       },
       "url": "https://cdnstack.internetmultimediaonline.org/ln24/ln24.stream/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"LN24SA.za\" tvg-logo=\"https://i.imgur.com/Hg5YTwu.png\" group-title=\"News\",LN24SA (1080p)\r\r\nhttps://cdnstack.internetmultimediaonline.org/ln24/ln24.stream/playlist.m3u8\r",
+      "raw": "#EXTINF:-1 tvg-id=\"LN24SA.za@SD\" tvg-logo=\"https://i.imgur.com/Hg5YTwu.png\" group-title=\"News\",LN24SA (1080p)\r\r\nhttps://cdnstack.internetmultimediaonline.org/ln24/ln24.stream/playlist.m3u8\r",
       "line": 46,
       "catchup": {
         "type": "",
@@ -119,7 +147,7 @@
     {
       "name": "Redemption TV Ministry (720p)",
       "tvg": {
-        "id": "RedemptionTelevisionMinistry.za",
+        "id": "RedemptionTelevisionMinistry.za@SD",
         "name": "",
         "logo": "https://i.imgur.com/63SmAby.png",
         "url": "",
@@ -134,7 +162,7 @@
         "user-agent": ""
       },
       "url": "https://live.nixsat.com/play/rtm/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"RedemptionTelevisionMinistry.za\" tvg-logo=\"https://i.imgur.com/63SmAby.png\" group-title=\"Religious\",Redemption TV Ministry (720p)\r\r\nhttps://live.nixsat.com/play/rtm/index.m3u8\r",
+      "raw": "#EXTINF:-1 tvg-id=\"RedemptionTelevisionMinistry.za@SD\" tvg-logo=\"https://i.imgur.com/63SmAby.png\" group-title=\"Religious\",Redemption TV Ministry (720p)\r\r\nhttps://live.nixsat.com/play/rtm/index.m3u8\r",
       "line": 56,
       "catchup": {
         "type": "",
@@ -173,6 +201,34 @@
       "status": "OK"
     },
     {
+      "name": "SABC News (720p) [Geo-blocked]",
+      "tvg": {
+        "id": "SABCNews.za@SD",
+        "name": "",
+        "logo": "https://i.postimg.cc/13JtFJf9/sabcnews.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "News"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://sabconetanw.cdn.mangomolo.com/news/smil:news.stream.smil/master.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"SABCNews.za@SD\" tvg-logo=\"https://i.postimg.cc/13JtFJf9/sabcnews.png\" group-title=\"News\",SABC News (720p) [Geo-blocked]\r\r\nhttps://sabconetanw.cdn.mangomolo.com/news/smil:news.stream.smil/master.m3u8\r",
+      "line": 72,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "SABC Lehae [Geo-blocked]",
       "tvg": {
         "id": "SABCLehae.za@SD",
@@ -201,37 +257,9 @@
       "status": "OK"
     },
     {
-      "name": "SABC News (720p) [Geo-blocked]",
-      "tvg": {
-        "id": "SABCNews.za",
-        "name": "",
-        "logo": "https://i.postimg.cc/13JtFJf9/sabcnews.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "News"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://sabconetanw.cdn.mangomolo.com/news/smil:news.stream.smil/master.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"SABCNews.za\" tvg-logo=\"https://i.postimg.cc/13JtFJf9/sabcnews.png\" group-title=\"News\",SABC News (720p) [Geo-blocked]\r\r\nhttps://sabconetanw.cdn.mangomolo.com/news/smil:news.stream.smil/master.m3u8\r",
-      "line": 72,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Tshwane TV (576p)",
       "tvg": {
-        "id": "TshwaneTV.za",
+        "id": "TshwaneTV.za@SD",
         "name": "",
         "logo": "https://admango.cdn.mangomolo.com/analytics/uploads/188/654a3ec660.png",
         "url": "",
@@ -246,7 +274,7 @@
         "user-agent": ""
       },
       "url": "https://cdn.freevisiontv.co.za/sttv/smil:tshwane.stream.smil/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TshwaneTV.za\" tvg-logo=\"https://admango.cdn.mangomolo.com/analytics/uploads/188/654a3ec660.png\" group-title=\"Entertainment;Family;General\",Tshwane TV (576p)\r\r\nhttps://cdn.freevisiontv.co.za/sttv/smil:tshwane.stream.smil/playlist.m3u8\r",
+      "raw": "#EXTINF:-1 tvg-id=\"TshwaneTV.za@SD\" tvg-logo=\"https://admango.cdn.mangomolo.com/analytics/uploads/188/654a3ec660.png\" group-title=\"Entertainment;Family;General\",Tshwane TV (576p)\r\r\nhttps://cdn.freevisiontv.co.za/sttv/smil:tshwane.stream.smil/playlist.m3u8\r",
       "line": 84,
       "catchup": {
         "type": "",
