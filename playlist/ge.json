@@ -5,37 +5,9 @@
   },
   "items": [
     {
-      "name": "2TV (720p)",
-      "tvg": {
-        "id": "2TV.ge",
-        "name": "",
-        "logo": "https://i.imgur.com/FJBL6zI.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://tv.cdn.xsg.ge/gpb-2tv/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"2TV.ge\" tvg-logo=\"https://i.imgur.com/FJBL6zI.png\" group-title=\"General\",2TV (720p)\r\r\nhttps://tv.cdn.xsg.ge/gpb-2tv/index.m3u8\r",
-      "line": 4,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "1TV (720p)",
       "tvg": {
-        "id": "1TV.ge",
+        "id": "1TV.ge@SD",
         "name": "",
         "logo": "https://i.imgur.com/FSkYLPK.png",
         "url": "",
@@ -50,8 +22,36 @@
         "user-agent": ""
       },
       "url": "https://tv.cdn.xsg.ge/gpb-1tv/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"1TV.ge\" tvg-logo=\"https://i.imgur.com/FSkYLPK.png\" group-title=\"General\",1TV (720p)\r\r\nhttps://tv.cdn.xsg.ge/gpb-1tv/index.m3u8\r",
+      "raw": "#EXTINF:-1 tvg-id=\"1TV.ge@SD\" tvg-logo=\"https://i.imgur.com/FSkYLPK.png\" group-title=\"General\",1TV (720p)\r\r\nhttps://tv.cdn.xsg.ge/gpb-1tv/index.m3u8\r",
       "line": 2,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "2TV (720p)",
+      "tvg": {
+        "id": "2TV.ge@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/FJBL6zI.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://tv.cdn.xsg.ge/gpb-2tv/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"2TV.ge@SD\" tvg-logo=\"https://i.imgur.com/FJBL6zI.png\" group-title=\"General\",2TV (720p)\r\r\nhttps://tv.cdn.xsg.ge/gpb-2tv/index.m3u8\r",
+      "line": 4,
       "catchup": {
         "type": "",
         "days": "",
@@ -91,7 +91,7 @@
     {
       "name": "Formula (1080p)",
       "tvg": {
-        "id": "Formula.ge",
+        "id": "Formula.ge@SD",
         "name": "",
         "logo": "https://i.postimg.cc/bwb9v94m/formula.png",
         "url": "",
@@ -106,7 +106,7 @@
         "user-agent": ""
       },
       "url": "https://c4635.cdn.xsg.ge/c4635/TVFormula/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Formula.ge\" tvg-logo=\"https://i.postimg.cc/bwb9v94m/formula.png\" group-title=\"News\",Formula (1080p)\r\r\nhttps://c4635.cdn.xsg.ge/c4635/TVFormula/index.m3u8\r",
+      "raw": "#EXTINF:-1 tvg-id=\"Formula.ge@SD\" tvg-logo=\"https://i.postimg.cc/bwb9v94m/formula.png\" group-title=\"News\",Formula (1080p)\r\r\nhttps://c4635.cdn.xsg.ge/c4635/TVFormula/index.m3u8\r",
       "line": 14,
       "catchup": {
         "type": "",
@@ -119,7 +119,7 @@
     {
       "name": "Imedi TV (1080p)",
       "tvg": {
-        "id": "ImediTV.ge",
+        "id": "ImediTV.ge@SD",
         "name": "",
         "logo": "https://i.imgur.com/94hNyxZ.png",
         "url": "",
@@ -134,7 +134,7 @@
         "user-agent": ""
       },
       "url": "https://tv.cdn.xsg.ge/imedihd/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"ImediTV.ge\" tvg-logo=\"https://i.imgur.com/94hNyxZ.png\" group-title=\"General\",Imedi TV (1080p)\r\r\nhttps://tv.cdn.xsg.ge/imedihd/index.m3u8\r",
+      "raw": "#EXTINF:-1 tvg-id=\"ImediTV.ge@SD\" tvg-logo=\"https://i.imgur.com/94hNyxZ.png\" group-title=\"General\",Imedi TV (1080p)\r\r\nhttps://tv.cdn.xsg.ge/imedihd/index.m3u8\r",
       "line": 18,
       "catchup": {
         "type": "",
@@ -147,7 +147,7 @@
     {
       "name": "Palitra News (480p) [Not 24/7]",
       "tvg": {
-        "id": "PalitraNews.ge",
+        "id": "PalitraNews.ge@SD",
         "name": "",
         "logo": "https://i.postimg.cc/wvvV9yJ2/palitranews.png",
         "url": "",
@@ -162,7 +162,7 @@
         "user-agent": ""
       },
       "url": "https://live.palitranews.ge/hls/palitratv/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"PalitraNews.ge\" tvg-logo=\"https://i.postimg.cc/wvvV9yJ2/palitranews.png\" group-title=\"News\",Palitra News (480p) [Not 24/7]\r\r\nhttps://live.palitranews.ge/hls/palitratv/index.m3u8\r",
+      "raw": "#EXTINF:-1 tvg-id=\"PalitraNews.ge@SD\" tvg-logo=\"https://i.postimg.cc/wvvV9yJ2/palitranews.png\" group-title=\"News\",Palitra News (480p) [Not 24/7]\r\r\nhttps://live.palitranews.ge/hls/palitratv/index.m3u8\r",
       "line": 30,
       "catchup": {
         "type": "",
@@ -175,7 +175,7 @@
     {
       "name": "АБАЗА-ТВ",
       "tvg": {
-        "id": "AbazaTV.ru",
+        "id": "AbazaTV.ru@SD",
         "name": "",
         "logo": "https://i.imgur.com/7Jo7UAf.png",
         "url": "",
@@ -190,7 +190,7 @@
         "user-agent": ""
       },
       "url": "https://public.apsny.camera/tv_abaza_tv_to_site/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"AbazaTV.ru\" tvg-logo=\"https://i.imgur.com/7Jo7UAf.png\" group-title=\"General\",АБАЗА-ТВ\r\r\nhttps://public.apsny.camera/tv_abaza_tv_to_site/index.m3u8\r",
+      "raw": "#EXTINF:-1 tvg-id=\"AbazaTV.ru@SD\" tvg-logo=\"https://i.imgur.com/7Jo7UAf.png\" group-title=\"General\",АБАЗА-ТВ\r\r\nhttps://public.apsny.camera/tv_abaza_tv_to_site/index.m3u8\r",
       "line": 46,
       "catchup": {
         "type": "",
