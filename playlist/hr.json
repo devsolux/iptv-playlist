@@ -5,25 +5,53 @@
   },
   "items": [
     {
-      "name": "Bravo! Kids TV (1080p)",
+      "name": "CMC TV (1080p)",
       "tvg": {
-        "id": "BravoKidsTV.hr@SD",
+        "id": "CMCTV.hr@SD",
         "name": "",
-        "logo": "https://i.imgur.com/JcJ6fQ9.png",
+        "logo": "https://i.imgur.com/FCb7Ag2.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Kids"
+        "title": "Music"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://streaming.social3.hr/play/r3CK_tdsFIFL3bN7w4NW1plrwsCToUBsRFjhxM68sZY/m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"BravoKidsTV.hr@SD\" tvg-logo=\"https://i.imgur.com/JcJ6fQ9.png\" group-title=\"Kids\",Bravo! Kids TV (1080p)\r\r\nhttps://streaming.social3.hr/play/r3CK_tdsFIFL3bN7w4NW1plrwsCToUBsRFjhxM68sZY/m3u8\r",
-      "line": 6,
+      "url": "https://stream.cmctv.hr:49998/cmc/live.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"CMCTV.hr@SD\" tvg-logo=\"https://i.imgur.com/FCb7Ag2.png\" group-title=\"Music\",CMC TV (1080p)\r\r\nhttps://stream.cmctv.hr:49998/cmc/live.m3u8\r",
+      "line": 10,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Diadora TV",
+      "tvg": {
+        "id": "DiadoraTV.hr@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/qZzsASl.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://diadoratv.stream/live/diadora/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"DiadoraTV.hr@SD\" tvg-logo=\"https://i.imgur.com/qZzsASl.png\" group-title=\"General\",Diadora TV\r\r\nhttps://diadoratv.stream/live/diadora/playlist.m3u8\r",
+      "line": 12,
       "catchup": {
         "type": "",
         "days": "",
@@ -61,81 +89,25 @@
       "status": "OK"
     },
     {
-      "name": "CMC TV (1080p)",
+      "name": "Bravo! Kids TV (1080p)",
       "tvg": {
-        "id": "CMCTV.hr@SD",
+        "id": "BravoKidsTV.hr@SD",
         "name": "",
-        "logo": "https://i.imgur.com/FCb7Ag2.png",
+        "logo": "https://i.imgur.com/JcJ6fQ9.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Music"
+        "title": "Kids"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://stream.cmctv.hr:49998/cmc/live.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"CMCTV.hr@SD\" tvg-logo=\"https://i.imgur.com/FCb7Ag2.png\" group-title=\"Music\",CMC TV (1080p)\r\r\nhttps://stream.cmctv.hr:49998/cmc/live.m3u8\r",
-      "line": 10,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Extra TV (1080p)",
-      "tvg": {
-        "id": "ExtraTV.hr@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/5edYPBO.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Music"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://streaming.social3.hr/ExtraTVudzdhr5/uUankWqpXD/1.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"ExtraTV.hr@SD\" tvg-logo=\"https://i.imgur.com/5edYPBO.png\" group-title=\"Music\",Extra TV (1080p)\r\r\nhttps://streaming.social3.hr/ExtraTVudzdhr5/uUankWqpXD/1.m3u8\r",
-      "line": 14,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "HRT 2 (720p)",
-      "tvg": {
-        "id": "HRT2.hr@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/yyePcl1.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36"
-      },
-      "url": "https://webtvstream.bhtelecom.ba/hrt2.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"HRT2.hr@SD\" tvg-logo=\"https://i.imgur.com/yyePcl1.png\" group-title=\"General\" http-user-agent=\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36\",HRT 2 (720p)\r\r\n#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36\r\r\nhttps://webtvstream.bhtelecom.ba/hrt2.m3u8\r",
-      "line": 21,
+      "url": "https://streaming.social3.hr/play/r3CK_tdsFIFL3bN7w4NW1plrwsCToUBsRFjhxM68sZY/m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"BravoKidsTV.hr@SD\" tvg-logo=\"https://i.imgur.com/JcJ6fQ9.png\" group-title=\"Kids\",Bravo! Kids TV (1080p)\r\r\nhttps://streaming.social3.hr/play/r3CK_tdsFIFL3bN7w4NW1plrwsCToUBsRFjhxM68sZY/m3u8\r",
+      "line": 6,
       "catchup": {
         "type": "",
         "days": "",
@@ -173,11 +145,39 @@
       "status": "OK"
     },
     {
-      "name": "Klape i Tambure TV (1080p)",
+      "name": "HRT 2 (720p)",
       "tvg": {
-        "id": "KlapeiTambureTV.hr@SD",
+        "id": "HRT2.hr@SD",
         "name": "",
-        "logo": "https://i.imgur.com/sKj3dgc.png",
+        "logo": "https://i.imgur.com/yyePcl1.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36"
+      },
+      "url": "https://webtvstream.bhtelecom.ba/hrt2.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"HRT2.hr@SD\" tvg-logo=\"https://i.imgur.com/yyePcl1.png\" group-title=\"General\" http-user-agent=\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36\",HRT 2 (720p)\r\r\n#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36\r\r\nhttps://webtvstream.bhtelecom.ba/hrt2.m3u8\r",
+      "line": 21,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Extra TV (1080p)",
+      "tvg": {
+        "id": "ExtraTV.hr@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/5edYPBO.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -189,9 +189,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://stream.cmctv.hr:49998/kit/live.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"KlapeiTambureTV.hr@SD\" tvg-logo=\"https://i.imgur.com/sKj3dgc.png\" group-title=\"Music\",Klape i Tambure TV (1080p)\r\r\nhttps://stream.cmctv.hr:49998/kit/live.m3u8\r",
-      "line": 33,
+      "url": "https://streaming.social3.hr/ExtraTVudzdhr5/uUankWqpXD/1.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"ExtraTV.hr@SD\" tvg-logo=\"https://i.imgur.com/5edYPBO.png\" group-title=\"Music\",Extra TV (1080p)\r\r\nhttps://streaming.social3.hr/ExtraTVudzdhr5/uUankWqpXD/1.m3u8\r",
+      "line": 14,
       "catchup": {
         "type": "",
         "days": "",
@@ -229,6 +229,34 @@
       "status": "OK"
     },
     {
+      "name": "Klape i Tambure TV (1080p)",
+      "tvg": {
+        "id": "KlapeiTambureTV.hr@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/sKj3dgc.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Music"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://stream.cmctv.hr:49998/kit/live.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"KlapeiTambureTV.hr@SD\" tvg-logo=\"https://i.imgur.com/sKj3dgc.png\" group-title=\"Music\",Klape i Tambure TV (1080p)\r\r\nhttps://stream.cmctv.hr:49998/kit/live.m3u8\r",
+      "line": 33,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Libertas TV (1080p)",
       "tvg": {
         "id": "LibertasTV.hr@SD",
@@ -248,34 +276,6 @@
       "url": "https://stream.luci.xyz/hls/LTV.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"LibertasTV.hr@SD\" tvg-logo=\"https://i.imgur.com/4R4fhbd.png\" group-title=\"General\",Libertas TV (1080p)\r\r\nhttps://stream.luci.xyz/hls/LTV.m3u8\r",
       "line": 37,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Radio Televizija Banovina (1080p) [Not 24/7]",
-      "tvg": {
-        "id": "RadioTelevizijaBanovina.hr@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/gCFgC5D.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://pool.alter-media.hr:1936/live/myStream/playlist.m3u8?DVR=",
-      "raw": "#EXTINF:-1 tvg-id=\"RadioTelevizijaBanovina.hr@SD\" tvg-logo=\"https://i.imgur.com/gCFgC5D.png\" group-title=\"Undefined\",Radio Televizija Banovina (1080p) [Not 24/7]\r\r\nhttps://pool.alter-media.hr:1936/live/myStream/playlist.m3u8?DVR=\r",
-      "line": 41,
       "catchup": {
         "type": "",
         "days": "",
@@ -313,6 +313,34 @@
       "status": "OK"
     },
     {
+      "name": "Radio Televizija Banovina (1080p) [Not 24/7]",
+      "tvg": {
+        "id": "RadioTelevizijaBanovina.hr@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/gCFgC5D.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://pool.alter-media.hr:1936/live/myStream/playlist.m3u8?DVR=",
+      "raw": "#EXTINF:-1 tvg-id=\"RadioTelevizijaBanovina.hr@SD\" tvg-logo=\"https://i.imgur.com/gCFgC5D.png\" group-title=\"Undefined\",Radio Televizija Banovina (1080p) [Not 24/7]\r\r\nhttps://pool.alter-media.hr:1936/live/myStream/playlist.m3u8?DVR=\r",
+      "line": 41,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "SBTV (1080p) [Not 24/7]",
       "tvg": {
         "id": "SBTV.hr@SD",
@@ -341,25 +369,25 @@
       "status": "OK"
     },
     {
-      "name": "TV Jadran (720p) [Not 24/7]",
+      "name": "TV Zapad (1080p) [Not 24/7]",
       "tvg": {
-        "id": "TVJadran.hr@SD",
+        "id": "TVZapad.hr@SD",
         "name": "",
-        "logo": "https://i.imgur.com/UWMHnOG.png",
+        "logo": "https://i.imgur.com/cgCeX12.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "News"
+        "title": "General"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://tvjadran.stream.agatin.hr:3412/live/tvjadranlive.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TVJadran.hr@SD\" tvg-logo=\"https://i.imgur.com/UWMHnOG.png\" group-title=\"News\",TV Jadran (720p) [Not 24/7]\r\r\nhttps://tvjadran.stream.agatin.hr:3412/live/tvjadranlive.m3u8\r",
-      "line": 57,
+      "url": "http://85.94.67.158/TVZAPAD/index.fmp4.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"TVZapad.hr@SD\" tvg-logo=\"https://i.imgur.com/cgCeX12.png\" group-title=\"General\",TV Zapad (1080p) [Not 24/7]\r\r\nhttp://85.94.67.158/TVZAPAD/index.fmp4.m3u8\r",
+      "line": 61,
       "catchup": {
         "type": "",
         "days": "",
@@ -397,25 +425,25 @@
       "status": "OK"
     },
     {
-      "name": "TV Zapad (1080p) [Not 24/7]",
+      "name": "TV Jadran (720p) [Not 24/7]",
       "tvg": {
-        "id": "TVZapad.hr@SD",
+        "id": "TVJadran.hr@SD",
         "name": "",
-        "logo": "https://i.imgur.com/cgCeX12.png",
+        "logo": "https://i.imgur.com/UWMHnOG.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "General"
+        "title": "News"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "http://85.94.67.158/TVZAPAD/index.fmp4.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TVZapad.hr@SD\" tvg-logo=\"https://i.imgur.com/cgCeX12.png\" group-title=\"General\",TV Zapad (1080p) [Not 24/7]\r\r\nhttp://85.94.67.158/TVZAPAD/index.fmp4.m3u8\r",
-      "line": 61,
+      "url": "https://tvjadran.stream.agatin.hr:3412/live/tvjadranlive.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"TVJadran.hr@SD\" tvg-logo=\"https://i.imgur.com/UWMHnOG.png\" group-title=\"News\",TV Jadran (720p) [Not 24/7]\r\r\nhttps://tvjadran.stream.agatin.hr:3412/live/tvjadranlive.m3u8\r",
+      "line": 57,
       "catchup": {
         "type": "",
         "days": "",
