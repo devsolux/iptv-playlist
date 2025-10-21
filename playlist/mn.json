@@ -117,6 +117,34 @@
       "status": "OK"
     },
     {
+      "name": "Cinema",
+      "tvg": {
+        "id": "Cinema.mn@SD",
+        "name": "",
+        "logo": "https://i.postimg.cc/9MFWM1gT/cinema.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Movies"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://cdn4.skygo.mn/live/disk1/CinemaTV/HLSv3-FTA/CinemaTV.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Cinema.mn@SD\" tvg-logo=\"https://i.postimg.cc/9MFWM1gT/cinema.png\" group-title=\"Movies\",Cinema\r\r\nhttps://cdn4.skygo.mn/live/disk1/CinemaTV/HLSv3-FTA/CinemaTV.m3u8\r",
+      "line": 12,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Channel 11 (720p)",
       "tvg": {
         "id": "Channel11.mn@SD",
@@ -173,25 +201,53 @@
       "status": "OK"
     },
     {
-      "name": "Cinema",
+      "name": "Eagle News HD (720p)",
       "tvg": {
-        "id": "Cinema.mn@SD",
+        "id": "EagleNews.mn@SD",
         "name": "",
-        "logo": "https://i.postimg.cc/9MFWM1gT/cinema.png",
+        "logo": "https://i.imgur.com/2oqXpve.jpg",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Movies"
+        "title": "News"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://cdn4.skygo.mn/live/disk1/CinemaTV/HLSv3-FTA/CinemaTV.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Cinema.mn@SD\" tvg-logo=\"https://i.postimg.cc/9MFWM1gT/cinema.png\" group-title=\"Movies\",Cinema\r\r\nhttps://cdn4.skygo.mn/live/disk1/CinemaTV/HLSv3-FTA/CinemaTV.m3u8\r",
-      "line": 12,
+      "url": "https://cdn4.skygo.mn/live/disk1/Eagle/HLSv3-FTA/Eagle.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"EagleNews.mn@SD\" tvg-logo=\"https://i.imgur.com/2oqXpve.jpg\" group-title=\"News\",Eagle News HD (720p)\r\r\nhttps://cdn4.skygo.mn/live/disk1/Eagle/HLSv3-FTA/Eagle.m3u8\r",
+      "line": 16,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Education (1080p)",
+      "tvg": {
+        "id": "EdutainmentTV.mn@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/0m8t3vh.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Education;Entertainment"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://cdn4.skygo.mn/live/disk1/Education/DASH-FTA/Education.mpd",
+      "raw": "#EXTINF:-1 tvg-id=\"EdutainmentTV.mn@SD\" tvg-logo=\"https://i.imgur.com/0m8t3vh.png\" group-title=\"Education;Entertainment\",Education (1080p)\r\r\nhttps://cdn4.skygo.mn/live/disk1/Education/DASH-FTA/Education.mpd\r",
+      "line": 18,
       "catchup": {
         "type": "",
         "days": "",
@@ -229,34 +285,6 @@
       "status": "OK"
     },
     {
-      "name": "Eagle News HD (720p)",
-      "tvg": {
-        "id": "EagleNews.mn@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/2oqXpve.jpg",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "News"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://cdn4.skygo.mn/live/disk1/Eagle/HLSv3-FTA/Eagle.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"EagleNews.mn@SD\" tvg-logo=\"https://i.imgur.com/2oqXpve.jpg\" group-title=\"News\",Eagle News HD (720p)\r\r\nhttps://cdn4.skygo.mn/live/disk1/Eagle/HLSv3-FTA/Eagle.m3u8\r",
-      "line": 16,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Gandan TV (720p)",
       "tvg": {
         "id": "GTV.mn@SD",
@@ -276,34 +304,6 @@
       "url": "https://cdn4.skygo.mn/live/disk1/GTV/HLSv3-FTA/GTV.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"GTV.mn@SD\" tvg-logo=\"https://i.imgur.com/z18PSIo.png\" group-title=\"Undefined\",Gandan TV (720p)\r\r\nhttps://cdn4.skygo.mn/live/disk1/GTV/HLSv3-FTA/GTV.m3u8\r",
       "line": 22,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Education (1080p)",
-      "tvg": {
-        "id": "EdutainmentTV.mn@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/0m8t3vh.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Education;Entertainment"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://cdn4.skygo.mn/live/disk1/Education/DASH-FTA/Education.mpd",
-      "raw": "#EXTINF:-1 tvg-id=\"EdutainmentTV.mn@SD\" tvg-logo=\"https://i.imgur.com/0m8t3vh.png\" group-title=\"Education;Entertainment\",Education (1080p)\r\r\nhttps://cdn4.skygo.mn/live/disk1/Education/DASH-FTA/Education.mpd\r",
-      "line": 18,
       "catchup": {
         "type": "",
         "days": "",
@@ -425,34 +425,6 @@
       "status": "OK"
     },
     {
-      "name": "MNB Монголын Мэдээ (1080p)",
-      "tvg": {
-        "id": "MNBMongoliinMedee.mn@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/KUvJzUD.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://cdn4.skygo.mn/live/disk1/MNB2/DASH-FTA/MNB2.mpd",
-      "raw": "#EXTINF:-1 tvg-id=\"MNBMongoliinMedee.mn@SD\" tvg-logo=\"https://i.imgur.com/KUvJzUD.png\" group-title=\"Undefined\",MNB Монголын Мэдээ (1080p)\r\r\nhttps://cdn4.skygo.mn/live/disk1/MNB2/DASH-FTA/MNB2.mpd\r",
-      "line": 36,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "MNB Sport (1080p)",
       "tvg": {
         "id": "MNBSport.mn@SD",
@@ -481,25 +453,25 @@
       "status": "OK"
     },
     {
-      "name": "MovieBox (720p)",
+      "name": "MNB Монголын Мэдээ (1080p)",
       "tvg": {
-        "id": "MovieBox.mn@SD",
+        "id": "MNBMongoliinMedee.mn@SD",
         "name": "",
-        "logo": "https://i.imgur.com/xeO1Zb4.png",
+        "logo": "https://i.imgur.com/KUvJzUD.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Movies"
+        "title": "Undefined"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://cdn4.skygo.mn/live/disk1/Moviebox/HLSv3-FTA/Moviebox.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"MovieBox.mn@SD\" tvg-logo=\"https://i.imgur.com/xeO1Zb4.png\" group-title=\"Movies\",MovieBox (720p)\r\r\nhttps://cdn4.skygo.mn/live/disk1/Moviebox/HLSv3-FTA/Moviebox.m3u8\r",
-      "line": 40,
+      "url": "https://cdn4.skygo.mn/live/disk1/MNB2/DASH-FTA/MNB2.mpd",
+      "raw": "#EXTINF:-1 tvg-id=\"MNBMongoliinMedee.mn@SD\" tvg-logo=\"https://i.imgur.com/KUvJzUD.png\" group-title=\"Undefined\",MNB Монголын Мэдээ (1080p)\r\r\nhttps://cdn4.skygo.mn/live/disk1/MNB2/DASH-FTA/MNB2.mpd\r",
+      "line": 36,
       "catchup": {
         "type": "",
         "days": "",
@@ -537,25 +509,25 @@
       "status": "OK"
     },
     {
-      "name": "NTV (1080p)",
+      "name": "Parliament TV (720p)",
       "tvg": {
-        "id": "NTV.mn@SD",
+        "id": "ParliamentTV.mn@SD",
         "name": "",
-        "logo": "https://i.imgur.com/2JbqbPY.png",
+        "logo": "https://i.imgur.com/OD7YKuz.jpeg",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "General"
+        "title": "Legislative"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://cdn4.skygo.mn/live/disk1/NTVHD/DASH-FTA/NTVHD.mpd",
-      "raw": "#EXTINF:-1 tvg-id=\"NTV.mn@SD\" tvg-logo=\"https://i.imgur.com/2JbqbPY.png\" group-title=\"General\",NTV (1080p)\r\r\nhttps://cdn4.skygo.mn/live/disk1/NTVHD/DASH-FTA/NTVHD.mpd\r",
-      "line": 42,
+      "url": "https://cdn4.skygo.mn/live/disk1/Parlament/HLSv3-FTA/Parlament.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"ParliamentTV.mn@SD\" tvg-logo=\"https://i.imgur.com/OD7YKuz.jpeg\" group-title=\"Legislative\",Parliament TV (720p)\r\r\nhttps://cdn4.skygo.mn/live/disk1/Parlament/HLSv3-FTA/Parlament.m3u8\r",
+      "line": 46,
       "catchup": {
         "type": "",
         "days": "",
@@ -593,6 +565,62 @@
       "status": "OK"
     },
     {
+      "name": "NTV (1080p)",
+      "tvg": {
+        "id": "NTV.mn@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/2JbqbPY.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://cdn4.skygo.mn/live/disk1/NTVHD/DASH-FTA/NTVHD.mpd",
+      "raw": "#EXTINF:-1 tvg-id=\"NTV.mn@SD\" tvg-logo=\"https://i.imgur.com/2JbqbPY.png\" group-title=\"General\",NTV (1080p)\r\r\nhttps://cdn4.skygo.mn/live/disk1/NTVHD/DASH-FTA/NTVHD.mpd\r",
+      "line": 42,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "MovieBox (720p)",
+      "tvg": {
+        "id": "MovieBox.mn@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/xeO1Zb4.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Movies"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://cdn4.skygo.mn/live/disk1/Moviebox/HLSv3-FTA/Moviebox.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"MovieBox.mn@SD\" tvg-logo=\"https://i.imgur.com/xeO1Zb4.png\" group-title=\"Movies\",MovieBox (720p)\r\r\nhttps://cdn4.skygo.mn/live/disk1/Moviebox/HLSv3-FTA/Moviebox.m3u8\r",
+      "line": 40,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Premier Sports 2",
       "tvg": {
         "id": "PremierSports2.mn@SD",
@@ -612,34 +640,6 @@
       "url": "https://cdn4.skygo.mn/live/disk1/SPSPlay/HLS-FTA/SPSPlay.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"PremierSports2.mn@SD\" tvg-logo=\"https://i.imgur.com/eMNWhDq.png\" group-title=\"Sports\",Premier Sports 2\r\r\nhttps://cdn4.skygo.mn/live/disk1/SPSPlay/HLS-FTA/SPSPlay.m3u8\r",
       "line": 48,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Parliament TV (720p)",
-      "tvg": {
-        "id": "ParliamentTV.mn@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/OD7YKuz.jpeg",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Legislative"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://cdn4.skygo.mn/live/disk1/Parlament/HLSv3-FTA/Parlament.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"ParliamentTV.mn@SD\" tvg-logo=\"https://i.imgur.com/OD7YKuz.jpeg\" group-title=\"Legislative\",Parliament TV (720p)\r\r\nhttps://cdn4.skygo.mn/live/disk1/Parlament/HLSv3-FTA/Parlament.m3u8\r",
-      "line": 46,
       "catchup": {
         "type": "",
         "days": "",
@@ -677,34 +677,6 @@
       "status": "OK"
     },
     {
-      "name": "Seven Channel (480p)",
-      "tvg": {
-        "id": "SevenChannel.mn@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/9Ld5ATz.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://cdn4.skygo.mn/live/disk1/TV7/HLS-FTA/TV7.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"SevenChannel.mn@SD\" tvg-logo=\"https://i.imgur.com/9Ld5ATz.png\" group-title=\"General\",Seven Channel (480p)\r\r\nhttps://cdn4.skygo.mn/live/disk1/TV7/HLS-FTA/TV7.m3u8\r",
-      "line": 52,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Star TV (1080p)",
       "tvg": {
         "id": "StarTV.mn@SD",
@@ -724,6 +696,34 @@
       "url": "https://cdn4.skygo.mn/live/disk1/Star/DASH-FTA/Star.mpd",
       "raw": "#EXTINF:-1 tvg-id=\"StarTV.mn@SD\" tvg-logo=\"https://i.imgur.com/R6hxJgl.png\" group-title=\"General\",Star TV (1080p)\r\r\nhttps://cdn4.skygo.mn/live/disk1/Star/DASH-FTA/Star.mpd\r",
       "line": 54,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Seven Channel (480p)",
+      "tvg": {
+        "id": "SevenChannel.mn@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/9Ld5ATz.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://cdn4.skygo.mn/live/disk1/TV7/HLS-FTA/TV7.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"SevenChannel.mn@SD\" tvg-logo=\"https://i.imgur.com/9Ld5ATz.png\" group-title=\"General\",Seven Channel (480p)\r\r\nhttps://cdn4.skygo.mn/live/disk1/TV7/HLS-FTA/TV7.m3u8\r",
+      "line": 52,
       "catchup": {
         "type": "",
         "days": "",
@@ -873,6 +873,34 @@
       "status": "OK"
     },
     {
+      "name": "UBS (1080p)",
+      "tvg": {
+        "id": "UBS.mn@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/dIRMYYd.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://cdn4.skygo.mn/live/disk1/UBSHD/DASH-FTA/UBSHD.mpd",
+      "raw": "#EXTINF:-1 tvg-id=\"UBS.mn@SD\" tvg-logo=\"https://i.imgur.com/dIRMYYd.png\" group-title=\"General\",UBS (1080p)\r\r\nhttps://cdn4.skygo.mn/live/disk1/UBSHD/DASH-FTA/UBSHD.mpd\r",
+      "line": 74,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "TV5 (1080p)",
       "tvg": {
         "id": "TV5.mn@SD",
@@ -920,34 +948,6 @@
       "url": "https://cdn4.skygo.mn/live/disk1/TV9HD/HLSv3-FTA/TV9HD.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TV9.mn@SD\" tvg-logo=\"https://i.imgur.com/QFteAgd.png\" group-title=\"General\",TV9 (720p)\r\r\nhttps://cdn4.skygo.mn/live/disk1/TV9HD/HLSv3-FTA/TV9HD.m3u8\r",
       "line": 72,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "UBS (1080p)",
-      "tvg": {
-        "id": "UBS.mn@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/dIRMYYd.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://cdn4.skygo.mn/live/disk1/UBSHD/DASH-FTA/UBSHD.mpd",
-      "raw": "#EXTINF:-1 tvg-id=\"UBS.mn@SD\" tvg-logo=\"https://i.imgur.com/dIRMYYd.png\" group-title=\"General\",UBS (1080p)\r\r\nhttps://cdn4.skygo.mn/live/disk1/UBSHD/DASH-FTA/UBSHD.mpd\r",
-      "line": 74,
       "catchup": {
         "type": "",
         "days": "",
