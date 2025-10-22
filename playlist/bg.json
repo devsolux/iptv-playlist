@@ -5,62 +5,6 @@
   },
   "items": [
     {
-      "name": "City TV (576p) [Not 24/7]",
-      "tvg": {
-        "id": "CityTV.bg@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/mFL452f.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Music"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://tv.city.bg/play/tshls/citytv/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"CityTV.bg@SD\" tvg-logo=\"https://i.imgur.com/mFL452f.png\" group-title=\"Music\",City TV (576p) [Not 24/7]\r\r\nhttps://tv.city.bg/play/tshls/citytv/index.m3u8\r",
-      "line": 8,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Agro TV (480p)",
-      "tvg": {
-        "id": "AgroTV.bg@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/tPMNDtD.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Outdoor"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://restr2.bgtv.bg/agro/hls/agro.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"AgroTV.bg@SD\" tvg-logo=\"https://i.imgur.com/tPMNDtD.png\" group-title=\"Outdoor\",Agro TV (480p)\r\r\nhttps://restr2.bgtv.bg/agro/hls/agro.m3u8\r",
-      "line": 4,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Disney Channel (576p)",
       "tvg": {
         "id": "DisneyChannel.bg@SD",
@@ -89,11 +33,11 @@
       "status": "OK"
     },
     {
-      "name": "DSTV (614p) [Not 24/7]",
+      "name": "City TV (576p) [Not 24/7]",
       "tvg": {
-        "id": "DSTV.bg@SD",
+        "id": "CityTV.bg@SD",
         "name": "",
-        "logo": "https://i.imgur.com/YMgzzkf.png",
+        "logo": "https://i.imgur.com/mFL452f.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -105,9 +49,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "http://46.249.95.140:8081/hls/data.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"DSTV.bg@SD\" tvg-logo=\"https://i.imgur.com/YMgzzkf.png\" group-title=\"Music\",DSTV (614p) [Not 24/7]\r\r\nhttp://46.249.95.140:8081/hls/data.m3u8\r",
-      "line": 12,
+      "url": "https://tv.city.bg/play/tshls/citytv/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"CityTV.bg@SD\" tvg-logo=\"https://i.imgur.com/mFL452f.png\" group-title=\"Music\",City TV (576p) [Not 24/7]\r\r\nhttps://tv.city.bg/play/tshls/citytv/index.m3u8\r",
+      "line": 8,
       "catchup": {
         "type": "",
         "days": "",
@@ -145,6 +89,62 @@
       "status": "OK"
     },
     {
+      "name": "Agro TV (480p)",
+      "tvg": {
+        "id": "AgroTV.bg@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/tPMNDtD.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Outdoor"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://restr2.bgtv.bg/agro/hls/agro.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"AgroTV.bg@SD\" tvg-logo=\"https://i.imgur.com/tPMNDtD.png\" group-title=\"Outdoor\",Agro TV (480p)\r\r\nhttps://restr2.bgtv.bg/agro/hls/agro.m3u8\r",
+      "line": 4,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "DSTV (614p) [Not 24/7]",
+      "tvg": {
+        "id": "DSTV.bg@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/YMgzzkf.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Music"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://46.249.95.140:8081/hls/data.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"DSTV.bg@SD\" tvg-logo=\"https://i.imgur.com/YMgzzkf.png\" group-title=\"Music\",DSTV (614p) [Not 24/7]\r\r\nhttp://46.249.95.140:8081/hls/data.m3u8\r",
+      "line": 12,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Evrokom (360p)",
       "tvg": {
         "id": "Eurocom.bg@SD",
@@ -164,34 +164,6 @@
       "url": "https://live.ecomservice.bg/hls/stream.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"Eurocom.bg@SD\" tvg-logo=\"\" group-title=\"General\",Evrokom (360p)\r\r\nhttps://live.ecomservice.bg/hls/stream.m3u8\r",
       "line": 14,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Hope Channel Bulgaria",
-      "tvg": {
-        "id": "HopeChannelBulgaria.bg@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/bxzeEML.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Religious"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://hc1.hopetv.bg/live/hopetv_all.smil/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"HopeChannelBulgaria.bg@SD\" tvg-logo=\"https://i.imgur.com/bxzeEML.png\" group-title=\"Religious\",Hope Channel Bulgaria\r\r\nhttps://hc1.hopetv.bg/live/hopetv_all.smil/playlist.m3u8\r",
-      "line": 16,
       "catchup": {
         "type": "",
         "days": "",
@@ -257,6 +229,34 @@
       "status": "OK"
     },
     {
+      "name": "Hope Channel Bulgaria",
+      "tvg": {
+        "id": "HopeChannelBulgaria.bg@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/bxzeEML.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Religious"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://hc1.hopetv.bg/live/hopetv_all.smil/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"HopeChannelBulgaria.bg@SD\" tvg-logo=\"https://i.imgur.com/bxzeEML.png\" group-title=\"Religious\",Hope Channel Bulgaria\r\r\nhttps://hc1.hopetv.bg/live/hopetv_all.smil/playlist.m3u8\r",
+      "line": 16,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Plovdivska Pravoslavna TV (1080p)",
       "tvg": {
         "id": "PlovdivOrthodoxTV.bg@SD",
@@ -313,34 +313,6 @@
       "status": "OK"
     },
     {
-      "name": "This is Bulgaria HD (1080p)",
-      "tvg": {
-        "id": "ThisisBulgariaHD.bg@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/062jkXw.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Entertainment"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://streamer103.neterra.tv/thisisbulgaria/live.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"ThisisBulgariaHD.bg@SD\" tvg-logo=\"https://i.imgur.com/062jkXw.png\" group-title=\"Entertainment\",This is Bulgaria HD (1080p)\r\r\nhttps://streamer103.neterra.tv/thisisbulgaria/live.m3u8\r",
-      "line": 33,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "RMTV (288p)",
       "tvg": {
         "id": "RMTV.bg@SD",
@@ -360,6 +332,34 @@
       "url": "https://transcoder1.bitcare.eu/streaming/rimextv/rmtv.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"RMTV.bg@SD\" tvg-logo=\"https://rmtv.bg/img/logo.png\" group-title=\"Undefined\",RMTV (288p)\r\r\nhttps://transcoder1.bitcare.eu/streaming/rimextv/rmtv.m3u8\r",
       "line": 29,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "This is Bulgaria HD (1080p)",
+      "tvg": {
+        "id": "ThisisBulgariaHD.bg@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/062jkXw.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Entertainment"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://streamer103.neterra.tv/thisisbulgaria/live.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"ThisisBulgariaHD.bg@SD\" tvg-logo=\"https://i.imgur.com/062jkXw.png\" group-title=\"Entertainment\",This is Bulgaria HD (1080p)\r\r\nhttps://streamer103.neterra.tv/thisisbulgaria/live.m3u8\r",
+      "line": 33,
       "catchup": {
         "type": "",
         "days": "",
@@ -397,34 +397,6 @@
       "status": "OK"
     },
     {
-      "name": "Travel TV (576p)",
-      "tvg": {
-        "id": "TravelTV.bg@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/5xllfed.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Travel"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://streamer103.neterra.tv/travel/live.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TravelTV.bg@SD\" tvg-logo=\"https://i.imgur.com/5xllfed.png\" group-title=\"Travel\",Travel TV (576p)\r\r\nhttps://streamer103.neterra.tv/travel/live.m3u8\r",
-      "line": 39,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Tiankov Orient Folk (576p)",
       "tvg": {
         "id": "TiankovOrientFolk.bg@SD",
@@ -444,6 +416,34 @@
       "url": "https://streamer103.neterra.tv/tiankov-orient/live.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TiankovOrientFolk.bg@SD\" tvg-logo=\"https://i.postimg.cc/KYNvL1ML/tiankovorientfolk.png\" group-title=\"Music\",Tiankov Orient Folk (576p)\r\r\nhttps://streamer103.neterra.tv/tiankov-orient/live.m3u8\r",
       "line": 37,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Travel TV (576p)",
+      "tvg": {
+        "id": "TravelTV.bg@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/5xllfed.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Travel"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://streamer103.neterra.tv/travel/live.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"TravelTV.bg@SD\" tvg-logo=\"https://i.imgur.com/5xllfed.png\" group-title=\"Travel\",Travel TV (576p)\r\r\nhttps://streamer103.neterra.tv/travel/live.m3u8\r",
+      "line": 39,
       "catchup": {
         "type": "",
         "days": "",
