@@ -61,6 +61,34 @@
       "status": "OK"
     },
     {
+      "name": "CS Film (720p)",
+      "tvg": {
+        "id": "CSFilm.cz@SD",
+        "name": "",
+        "logo": "https://i.postimg.cc/d1bZTzbp/csfilm.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Movies"
+      },
+      "http": {
+        "referrer": "https://media.joj.sk/",
+        "user-agent": ""
+      },
+      "url": "https://live.cdn.joj.sk/live/andromeda/cs_film-720.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"CSFilm.cz@SD\" tvg-logo=\"https://i.postimg.cc/d1bZTzbp/csfilm.png\" group-title=\"Movies\" http-referrer=\"https://media.joj.sk/\",CS Film (720p)\r\r\n#EXTVLCOPT:http-referrer=https://media.joj.sk/\r\r\nhttps://live.cdn.joj.sk/live/andromeda/cs_film-720.m3u8\r",
+      "line": 4,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "ČT24 (1080p)",
       "tvg": {
         "id": "CT24.cz@SD",
@@ -80,34 +108,6 @@
       "url": "http://88.212.15.19/live/test_ct24_hevc/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"CT24.cz@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/%C4%8CT24_logo.png/512px-%C4%8CT24_logo.png\" group-title=\"News\",ČT24 (1080p)\r\r\nhttp://88.212.15.19/live/test_ct24_hevc/playlist.m3u8\r",
       "line": 17,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "ČT Sport (720p)",
-      "tvg": {
-        "id": "CTSport.cz@SD",
-        "name": "",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/%C4%8CT_sport_logo.png/512px-%C4%8CT_sport_logo.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Sports"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://88.212.15.19/live/test_ctsport_25p/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"CTSport.cz@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/%C4%8CT_sport_logo.png/512px-%C4%8CT_sport_logo.png\" group-title=\"Sports\",ČT Sport (720p)\r\r\nhttp://88.212.15.19/live/test_ctsport_25p/playlist.m3u8\r",
-      "line": 19,
       "catchup": {
         "type": "",
         "days": "",
@@ -145,81 +145,25 @@
       "status": "OK"
     },
     {
-      "name": "CS History (720p)",
+      "name": "ČT Sport (720p)",
       "tvg": {
-        "id": "CSHistory.cz@SD",
+        "id": "CTSport.cz@SD",
         "name": "",
-        "logo": "https://i.imgur.com/rtYj21D.png",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/%C4%8CT_sport_logo.png/512px-%C4%8CT_sport_logo.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Documentary"
-      },
-      "http": {
-        "referrer": "https://media.joj.sk/",
-        "user-agent": ""
-      },
-      "url": "https://live.cdn.joj.sk/live/andromeda/cs_history-720.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"CSHistory.cz@SD\" tvg-logo=\"https://i.imgur.com/rtYj21D.png\" group-title=\"Documentary\" http-referrer=\"https://media.joj.sk/\",CS History (720p)\r\r\n#EXTVLCOPT:http-referrer=https://media.joj.sk/\r\r\nhttps://live.cdn.joj.sk/live/andromeda/cs_history-720.m3u8\r",
-      "line": 7,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "CS Film (720p)",
-      "tvg": {
-        "id": "CSFilm.cz@SD",
-        "name": "",
-        "logo": "https://i.postimg.cc/d1bZTzbp/csfilm.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Movies"
-      },
-      "http": {
-        "referrer": "https://media.joj.sk/",
-        "user-agent": ""
-      },
-      "url": "https://live.cdn.joj.sk/live/andromeda/cs_film-720.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"CSFilm.cz@SD\" tvg-logo=\"https://i.postimg.cc/d1bZTzbp/csfilm.png\" group-title=\"Movies\" http-referrer=\"https://media.joj.sk/\",CS Film (720p)\r\r\n#EXTVLCOPT:http-referrer=https://media.joj.sk/\r\r\nhttps://live.cdn.joj.sk/live/andromeda/cs_film-720.m3u8\r",
-      "line": 4,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Elektrika TV (1080p)",
-      "tvg": {
-        "id": "ElektrikaTV.cz@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/OLd5od5.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
+        "title": "Sports"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://rtmp.elektrika.cz/live/myStream.sdp/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"ElektrikaTV.cz@SD\" tvg-logo=\"https://i.imgur.com/OLd5od5.png\" group-title=\"Undefined\",Elektrika TV (1080p)\r\r\nhttps://rtmp.elektrika.cz/live/myStream.sdp/playlist.m3u8\r",
-      "line": 23,
+      "url": "http://88.212.15.19/live/test_ctsport_25p/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"CTSport.cz@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/%C4%8CT_sport_logo.png/512px-%C4%8CT_sport_logo.png\" group-title=\"Sports\",ČT Sport (720p)\r\r\nhttp://88.212.15.19/live/test_ctsport_25p/playlist.m3u8\r",
+      "line": 19,
       "catchup": {
         "type": "",
         "days": "",
@@ -248,6 +192,62 @@
       "url": "https://live.cdn.joj.sk/live/andromeda/cs_mystery-720.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"CSMystery.cz@SD\" tvg-logo=\"https://i.imgur.com/3cFbkUj.png\" group-title=\"Entertainment\" http-referrer=\"https://media.joj.sk/\",CS Mystery (720p)\r\r\n#EXTVLCOPT:http-referrer=https://media.joj.sk/\r\r\nhttps://live.cdn.joj.sk/live/andromeda/cs_mystery-720.m3u8\r",
       "line": 10,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "CS History (720p)",
+      "tvg": {
+        "id": "CSHistory.cz@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/rtYj21D.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Documentary"
+      },
+      "http": {
+        "referrer": "https://media.joj.sk/",
+        "user-agent": ""
+      },
+      "url": "https://live.cdn.joj.sk/live/andromeda/cs_history-720.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"CSHistory.cz@SD\" tvg-logo=\"https://i.imgur.com/rtYj21D.png\" group-title=\"Documentary\" http-referrer=\"https://media.joj.sk/\",CS History (720p)\r\r\n#EXTVLCOPT:http-referrer=https://media.joj.sk/\r\r\nhttps://live.cdn.joj.sk/live/andromeda/cs_history-720.m3u8\r",
+      "line": 7,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Elektrika TV (1080p)",
+      "tvg": {
+        "id": "ElektrikaTV.cz@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/OLd5od5.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://rtmp.elektrika.cz/live/myStream.sdp/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"ElektrikaTV.cz@SD\" tvg-logo=\"https://i.imgur.com/OLd5od5.png\" group-title=\"Undefined\",Elektrika TV (1080p)\r\r\nhttps://rtmp.elektrika.cz/live/myStream.sdp/playlist.m3u8\r",
+      "line": 23,
       "catchup": {
         "type": "",
         "days": "",
@@ -341,34 +341,6 @@
       "status": "OK"
     },
     {
-      "name": "Mňau TV (1080p)",
-      "tvg": {
-        "id": "MnauTV.cz@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/deVHJKS.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://5ca49f2417d90.streamlock.net/mnau/livestream/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"MnauTV.cz@SD\" tvg-logo=\"https://i.imgur.com/deVHJKS.png\" group-title=\"Undefined\",Mňau TV (1080p)\r\r\nhttps://5ca49f2417d90.streamlock.net/mnau/livestream/playlist.m3u8\r",
-      "line": 35,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Kino Barrandov (720p)",
       "tvg": {
         "id": "KinoBarrandov.cz@SD",
@@ -388,6 +360,34 @@
       "url": "http://83.167.253.107/hdmi1_ext",
       "raw": "#EXTINF:-1 tvg-id=\"KinoBarrandov.cz@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Kino_Barrandov_logo.png/512px-Kino_Barrandov_logo.png\" group-title=\"Movies\",Kino Barrandov (720p)\r\r\nhttp://83.167.253.107/hdmi1_ext\r",
       "line": 31,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Mňau TV (1080p)",
+      "tvg": {
+        "id": "MnauTV.cz@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/deVHJKS.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://5ca49f2417d90.streamlock.net/mnau/livestream/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"MnauTV.cz@SD\" tvg-logo=\"https://i.imgur.com/deVHJKS.png\" group-title=\"Undefined\",Mňau TV (1080p)\r\r\nhttps://5ca49f2417d90.streamlock.net/mnau/livestream/playlist.m3u8\r",
+      "line": 35,
       "catchup": {
         "type": "",
         "days": "",
@@ -453,34 +453,6 @@
       "status": "OK"
     },
     {
-      "name": "Plzeň TV (1080p)",
-      "tvg": {
-        "id": "PlzenTV.cz@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/TxLKSqL.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://vysilani.zaktv.cz/broadcast/hls/ptv/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"PlzenTV.cz@SD\" tvg-logo=\"https://i.imgur.com/TxLKSqL.png\" group-title=\"General\",Plzeň TV (1080p)\r\r\nhttps://vysilani.zaktv.cz/broadcast/hls/ptv/index.m3u8\r",
-      "line": 49,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "OIK TV (720p)",
       "tvg": {
         "id": "OIKTV.cz@SD",
@@ -509,11 +481,11 @@
       "status": "OK"
     },
     {
-      "name": "Polar2 TV (1080p)",
+      "name": "Plzeň TV (1080p)",
       "tvg": {
-        "id": "Polar2.cz@SD",
+        "id": "PlzenTV.cz@SD",
         "name": "",
-        "logo": "https://i.imgur.com/hCPiMYZ.png",
+        "logo": "https://i.imgur.com/TxLKSqL.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -525,9 +497,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://stream.polar.cz/polar2/polarlive2-1/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Polar2.cz@SD\" tvg-logo=\"https://i.imgur.com/hCPiMYZ.png\" group-title=\"General\",Polar2 TV (1080p)\r\r\nhttps://stream.polar.cz/polar2/polarlive2-1/playlist.m3u8\r",
-      "line": 51,
+      "url": "https://vysilani.zaktv.cz/broadcast/hls/ptv/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"PlzenTV.cz@SD\" tvg-logo=\"https://i.imgur.com/TxLKSqL.png\" group-title=\"General\",Plzeň TV (1080p)\r\r\nhttps://vysilani.zaktv.cz/broadcast/hls/ptv/index.m3u8\r",
+      "line": 49,
       "catchup": {
         "type": "",
         "days": "",
@@ -565,6 +537,34 @@
       "status": "OK"
     },
     {
+      "name": "Polar2 TV (1080p)",
+      "tvg": {
+        "id": "Polar2.cz@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/hCPiMYZ.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://stream.polar.cz/polar2/polarlive2-1/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Polar2.cz@SD\" tvg-logo=\"https://i.imgur.com/hCPiMYZ.png\" group-title=\"General\",Polar2 TV (1080p)\r\r\nhttps://stream.polar.cz/polar2/polarlive2-1/playlist.m3u8\r",
+      "line": 51,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Retro Music Television (360p)",
       "tvg": {
         "id": "RetroMusicTV.cz@SD",
@@ -593,34 +593,6 @@
       "status": "OK"
     },
     {
-      "name": "Slager Original",
-      "tvg": {
-        "id": "SlagerOriginal.cz@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/0YjeWcq.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Music"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://stream-13.mazana.tv/slagroriginal.m3u8s",
-      "raw": "#EXTINF:-1 tvg-id=\"SlagerOriginal.cz@SD\" tvg-logo=\"https://i.imgur.com/0YjeWcq.png\" group-title=\"Music\",Slager Original\r\r\nhttps://stream-13.mazana.tv/slagroriginal.m3u8s\r",
-      "line": 61,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Slager Muzika",
       "tvg": {
         "id": "SlagerMuzika.cz@SD",
@@ -640,6 +612,34 @@
       "url": "https://stream-23.mazana.tv/slagrmuzika.m3u8s",
       "raw": "#EXTINF:-1 tvg-id=\"SlagerMuzika.cz@SD\" tvg-logo=\"https://i.imgur.com/hKdXwrW.png\" group-title=\"Music\",Slager Muzika\r\r\nhttps://stream-23.mazana.tv/slagrmuzika.m3u8s\r",
       "line": 59,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Slager Original",
+      "tvg": {
+        "id": "SlagerOriginal.cz@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/0YjeWcq.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Music"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://stream-13.mazana.tv/slagroriginal.m3u8s",
+      "raw": "#EXTINF:-1 tvg-id=\"SlagerOriginal.cz@SD\" tvg-logo=\"https://i.imgur.com/0YjeWcq.png\" group-title=\"Music\",Slager Original\r\r\nhttps://stream-13.mazana.tv/slagroriginal.m3u8s\r",
+      "line": 61,
       "catchup": {
         "type": "",
         "days": "",
