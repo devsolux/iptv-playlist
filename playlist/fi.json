@@ -5,6 +5,34 @@
   },
   "items": [
     {
+      "name": "MTV Uutiset (720p)",
+      "tvg": {
+        "id": "MTVUutiset.fi@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/ZO8ShOK.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "News"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://live.streaming.a2d.tv/asset/20025962.isml/.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"MTVUutiset.fi@SD\" tvg-logo=\"https://i.imgur.com/ZO8ShOK.png\" group-title=\"News\",MTV Uutiset (720p)\r\r\nhttps://live.streaming.a2d.tv/asset/20025962.isml/.m3u8\r",
+      "line": 7,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "JRTV Järviradio (720p)",
       "tvg": {
         "id": "JRTVJarviradio.fi@SD",
@@ -24,34 +52,6 @@
       "url": "https://streamer.radiotaajuus.fi/memfs/47f113bf-04ea-493b-a9d4-52945fd9db31.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"JRTVJarviradio.fi@SD\" tvg-logo=\"https://jarviradio.fi/jrtv2/wp-content/uploads/2022/01/jrtv1.jpg\" group-title=\"Music\",JRTV Järviradio (720p)\r\r\nhttps://streamer.radiotaajuus.fi/memfs/47f113bf-04ea-493b-a9d4-52945fd9db31.m3u8\r",
       "line": 2,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "NärTV (360p)",
-      "tvg": {
-        "id": "NarTV.fi@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/Ht5yePq.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://streaming.nartv.fi/live/ngrp:NAR_TV.stream_all/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"NarTV.fi@SD\" tvg-logo=\"https://i.imgur.com/Ht5yePq.png\" group-title=\"General\",NärTV (360p)\r\r\nhttps://streaming.nartv.fi/live/ngrp:NAR_TV.stream_all/playlist.m3u8\r",
-      "line": 9,
       "catchup": {
         "type": "",
         "days": "",
@@ -89,53 +89,25 @@
       "status": "OK"
     },
     {
-      "name": "MTV Uutiset (720p)",
+      "name": "NärTV (360p)",
       "tvg": {
-        "id": "MTVUutiset.fi@SD",
+        "id": "NarTV.fi@SD",
         "name": "",
-        "logo": "https://i.imgur.com/ZO8ShOK.png",
+        "logo": "https://i.imgur.com/Ht5yePq.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "News"
+        "title": "General"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://live.streaming.a2d.tv/asset/20025962.isml/.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"MTVUutiset.fi@SD\" tvg-logo=\"https://i.imgur.com/ZO8ShOK.png\" group-title=\"News\",MTV Uutiset (720p)\r\r\nhttps://live.streaming.a2d.tv/asset/20025962.isml/.m3u8\r",
-      "line": 7,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Rakuten TV Action Movies Finland (1080p)",
-      "tvg": {
-        "id": "RakutenTVActionMovies.es@Finland",
-        "name": "",
-        "logo": "https://i.imgur.com/Meew6eX.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Movies"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://bca5a421a70c46ad911efd0a4767c4bf.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6075/master.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"RakutenTVActionMovies.es@Finland\" tvg-logo=\"https://i.imgur.com/Meew6eX.png\" group-title=\"Movies\",Rakuten TV Action Movies Finland (1080p)\r\r\nhttps://bca5a421a70c46ad911efd0a4767c4bf.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6075/master.m3u8\r",
-      "line": 17,
+      "url": "https://streaming.nartv.fi/live/ngrp:NAR_TV.stream_all/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"NarTV.fi@SD\" tvg-logo=\"https://i.imgur.com/Ht5yePq.png\" group-title=\"General\",NärTV (360p)\r\r\nhttps://streaming.nartv.fi/live/ngrp:NAR_TV.stream_all/playlist.m3u8\r",
+      "line": 9,
       "catchup": {
         "type": "",
         "days": "",
@@ -173,9 +145,9 @@
       "status": "OK"
     },
     {
-      "name": "Rakuten TV Drama Movies Finland (1080p)",
+      "name": "Rakuten TV Action Movies Finland (1080p)",
       "tvg": {
-        "id": "RakutenTVDramaMovies.es@Finland",
+        "id": "RakutenTVActionMovies.es@Finland",
         "name": "",
         "logo": "https://i.imgur.com/Meew6eX.png",
         "url": "",
@@ -189,9 +161,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://d7e8ee3c924d4305a0c1840fe94c5d36.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6102/master.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"RakutenTVDramaMovies.es@Finland\" tvg-logo=\"https://i.imgur.com/Meew6eX.png\" group-title=\"Movies\",Rakuten TV Drama Movies Finland (1080p)\r\r\nhttps://d7e8ee3c924d4305a0c1840fe94c5d36.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6102/master.m3u8\r",
-      "line": 21,
+      "url": "https://bca5a421a70c46ad911efd0a4767c4bf.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6075/master.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"RakutenTVActionMovies.es@Finland\" tvg-logo=\"https://i.imgur.com/Meew6eX.png\" group-title=\"Movies\",Rakuten TV Action Movies Finland (1080p)\r\r\nhttps://bca5a421a70c46ad911efd0a4767c4bf.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6075/master.m3u8\r",
+      "line": 17,
       "catchup": {
         "type": "",
         "days": "",
@@ -248,6 +220,34 @@
       "url": "https://virta2.nopolanews.fi:8443/live/smil:Stream1.smil/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"NopolaNews.fi@SD\" tvg-logo=\"https://i.imgur.com/vDoQaGl.png\" group-title=\"News\",Nopola News (1080p) [Not 24/7]\r\r\nhttps://virta2.nopolanews.fi:8443/live/smil:Stream1.smil/playlist.m3u8\r",
       "line": 13,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Rakuten TV Drama Movies Finland (1080p)",
+      "tvg": {
+        "id": "RakutenTVDramaMovies.es@Finland",
+        "name": "",
+        "logo": "https://i.imgur.com/Meew6eX.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Movies"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://d7e8ee3c924d4305a0c1840fe94c5d36.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6102/master.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"RakutenTVDramaMovies.es@Finland\" tvg-logo=\"https://i.imgur.com/Meew6eX.png\" group-title=\"Movies\",Rakuten TV Drama Movies Finland (1080p)\r\r\nhttps://d7e8ee3c924d4305a0c1840fe94c5d36.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6102/master.m3u8\r",
+      "line": 21,
       "catchup": {
         "type": "",
         "days": "",
@@ -341,34 +341,6 @@
       "status": "OK"
     },
     {
-      "name": "YleX Studio Live (720p)",
-      "tvg": {
-        "id": "YleX.fi@SD",
-        "name": "",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/YleX.svg/450px-YleX.svg.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Music"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://ylestudiolive.akamaized.net/hls/live/2007826/ylestudiolive-YleX/master.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"YleX.fi@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/YleX.svg/450px-YleX.svg.png\" group-title=\"Music\",YleX Studio Live (720p)\r\r\nhttps://ylestudiolive.akamaized.net/hls/live/2007826/ylestudiolive-YleX/master.m3u8\r",
-      "line": 37,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Taivas TV7 (720p)",
       "tvg": {
         "id": "TaivasTV7.fi@SD",
@@ -388,6 +360,34 @@
       "url": "https://vod.tv7.fi/tv7-fi/smil:tv7-fi.smil/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TaivasTV7.fi@SD\" tvg-logo=\"https://i.imgur.com/JyJNiXy.png\" group-title=\"Religious\",Taivas TV7 (720p)\r\r\nhttps://vod.tv7.fi/tv7-fi/smil:tv7-fi.smil/playlist.m3u8\r",
       "line": 29,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "YleX Studio Live (720p)",
+      "tvg": {
+        "id": "YleX.fi@SD",
+        "name": "",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/YleX.svg/450px-YleX.svg.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Music"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://ylestudiolive.akamaized.net/hls/live/2007826/ylestudiolive-YleX/master.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"YleX.fi@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/YleX.svg/450px-YleX.svg.png\" group-title=\"Music\",YleX Studio Live (720p)\r\r\nhttps://ylestudiolive.akamaized.net/hls/live/2007826/ylestudiolive-YleX/master.m3u8\r",
+      "line": 37,
       "catchup": {
         "type": "",
         "days": "",
