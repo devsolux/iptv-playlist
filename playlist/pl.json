@@ -5,11 +5,39 @@
   },
   "items": [
     {
-      "name": "4 Fun Dance (576i) [Not 24/7]",
+      "name": "4 Fun Kids (576i) [[Not 24/7]]",
       "tvg": {
-        "id": "4FunDance.pl@SD",
+        "id": "4FunKids.pl@SD",
         "name": "",
-        "logo": "https://i.imgur.com/ZEWHe1B.png",
+        "logo": "https://i.imgur.com/2JO5Y8c.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Kids"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://stream.4fun.tv:8889/hls/4fk_high/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"4FunKids.pl@SD\" tvg-logo=\"https://i.imgur.com/2JO5Y8c.png\" group-title=\"Kids\",4 Fun Kids (576i) [[Not 24/7]]\r\r\nhttps://stream.4fun.tv:8889/hls/4fk_high/index.m3u8\r",
+      "line": 4,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "4 Fun TV (576i) [Not 24/7]",
+      "tvg": {
+        "id": "4FunTV.pl@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/rI1wo2l.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -21,9 +49,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "http://185.236.229.62:9981/play/a020",
-      "raw": "#EXTINF:-1 tvg-id=\"4FunDance.pl@SD\" tvg-logo=\"https://i.imgur.com/ZEWHe1B.png\" group-title=\"Music\",4 Fun Dance (576i) [Not 24/7]\r\r\nhttp://185.236.229.62:9981/play/a020\r",
-      "line": 2,
+      "url": "https://stream.4fun.tv:8888/hls/4f_high/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"4FunTV.pl@SD\" tvg-logo=\"https://i.imgur.com/rI1wo2l.png\" group-title=\"Music\",4 Fun TV (576i) [Not 24/7]\r\r\nhttps://stream.4fun.tv:8888/hls/4f_high/index.m3u8\r",
+      "line": 6,
       "catchup": {
         "type": "",
         "days": "",
@@ -52,34 +80,6 @@
       "url": "https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883104",
       "raw": "#EXTINF:-1 tvg-id=\"AmericanCrimeChannel.pl@Poland\" tvg-logo=\"\" group-title=\"Entertainment\",American Crime Channel\r\r\nhttps://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883104\r",
       "line": 10,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "13 Ulica (1080p)",
-      "tvg": {
-        "id": "13Ulica.pl@SD",
-        "name": "",
-        "logo": "https://i.postimg.cc/Lsh3RV9Q/13ulica.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Entertainment"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://185.236.229.62:9981/play/a03o",
-      "raw": "#EXTINF:-1 tvg-id=\"13Ulica.pl@SD\" tvg-logo=\"https://i.postimg.cc/Lsh3RV9Q/13ulica.png\" group-title=\"Entertainment\",13 Ulica (1080p)\r\r\nhttp://185.236.229.62:9981/play/a03o\r",
-      "line": 8,
       "catchup": {
         "type": "",
         "days": "",
@@ -173,6 +173,62 @@
       "status": "OK"
     },
     {
+      "name": "4 Fun Dance (576i) [Not 24/7]",
+      "tvg": {
+        "id": "4FunDance.pl@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/ZEWHe1B.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Music"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://185.236.229.62:9981/play/a020",
+      "raw": "#EXTINF:-1 tvg-id=\"4FunDance.pl@SD\" tvg-logo=\"https://i.imgur.com/ZEWHe1B.png\" group-title=\"Music\",4 Fun Dance (576i) [Not 24/7]\r\r\nhttp://185.236.229.62:9981/play/a020\r",
+      "line": 2,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "13 Ulica (1080p)",
+      "tvg": {
+        "id": "13Ulica.pl@SD",
+        "name": "",
+        "logo": "https://i.postimg.cc/Lsh3RV9Q/13ulica.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Entertainment"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://185.236.229.62:9981/play/a03o",
+      "raw": "#EXTINF:-1 tvg-id=\"13Ulica.pl@SD\" tvg-logo=\"https://i.postimg.cc/Lsh3RV9Q/13ulica.png\" group-title=\"Entertainment\",13 Ulica (1080p)\r\r\nhttp://185.236.229.62:9981/play/a03o\r",
+      "line": 8,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Cartoon Classics",
       "tvg": {
         "id": "CartoonClassics.pl@FAST",
@@ -220,62 +276,6 @@
       "url": "https://dazn-combat-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-dazn-combat-rakuten/CDN/master.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"DAZNCombat.uk@Poland\" tvg-logo=\"https://i.postimg.cc/VsW3Jsrz/logo-DAZN-Combat.png\" group-title=\"Sports\",DAZN Combat\r\r\nhttps://dazn-combat-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-dazn-combat-rakuten/CDN/master.m3u8\r",
       "line": 20,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "4 Fun Kids (576i) [[Not 24/7]]",
-      "tvg": {
-        "id": "4FunKids.pl@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/2JO5Y8c.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Kids"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://stream.4fun.tv:8889/hls/4fk_high/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"4FunKids.pl@SD\" tvg-logo=\"https://i.imgur.com/2JO5Y8c.png\" group-title=\"Kids\",4 Fun Kids (576i) [[Not 24/7]]\r\r\nhttps://stream.4fun.tv:8889/hls/4fk_high/index.m3u8\r",
-      "line": 4,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Disney Channel (1080p)",
-      "tvg": {
-        "id": "DisneyChannel.pl@SD",
-        "name": "",
-        "logo": "https://i.postimg.cc/854KwmH1/disneychannel.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Kids"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://185.236.229.62:9981/play/a07d",
-      "raw": "#EXTINF:-1 tvg-id=\"DisneyChannel.pl@SD\" tvg-logo=\"https://i.postimg.cc/854KwmH1/disneychannel.png\" group-title=\"Kids\",Disney Channel (1080p)\r\r\nhttp://185.236.229.62:9981/play/a07d\r",
-      "line": 22,
       "catchup": {
         "type": "",
         "days": "",
@@ -341,6 +341,34 @@
       "status": "OK"
     },
     {
+      "name": "Disney XD (576p)",
+      "tvg": {
+        "id": "DisneyXD.pl@SD",
+        "name": "",
+        "logo": "https://i.postimg.cc/MKNssTyj/disneyxd.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Kids"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://185.236.229.62:9981/play/a07c",
+      "raw": "#EXTINF:-1 tvg-id=\"DisneyXD.pl@SD\" tvg-logo=\"https://i.postimg.cc/MKNssTyj/disneyxd.png\" group-title=\"Kids\",Disney XD (576p)\r\r\nhttp://185.236.229.62:9981/play/a07c\r",
+      "line": 26,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Disney Junior",
       "tvg": {
         "id": "DisneyJunior.pl@SD",
@@ -369,6 +397,34 @@
       "status": "OK"
     },
     {
+      "name": "Disney Channel (1080p)",
+      "tvg": {
+        "id": "DisneyChannel.pl@SD",
+        "name": "",
+        "logo": "https://i.postimg.cc/854KwmH1/disneychannel.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Kids"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://185.236.229.62:9981/play/a07d",
+      "raw": "#EXTINF:-1 tvg-id=\"DisneyChannel.pl@SD\" tvg-logo=\"https://i.postimg.cc/854KwmH1/disneychannel.png\" group-title=\"Kids\",Disney Channel (1080p)\r\r\nhttp://185.236.229.62:9981/play/a07d\r",
+      "line": 22,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Eleven Sports 1 (2160p)",
       "tvg": {
         "id": "ElevenSports1.pl@SD",
@@ -388,34 +444,6 @@
       "url": "http://9b129915.akadatel.com/iptv/83GA6FAV4DPTPQ/20068/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"ElevenSports1.pl@SD\" tvg-logo=\"https://i.imgur.com/AOu4FXH.png\" group-title=\"Sports\",Eleven Sports 1 (2160p)\r\r\nhttp://9b129915.akadatel.com/iptv/83GA6FAV4DPTPQ/20068/index.m3u8\r",
       "line": 34,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Disney XD (576p)",
-      "tvg": {
-        "id": "DisneyXD.pl@SD",
-        "name": "",
-        "logo": "https://i.postimg.cc/MKNssTyj/disneyxd.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Kids"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://185.236.229.62:9981/play/a07c",
-      "raw": "#EXTINF:-1 tvg-id=\"DisneyXD.pl@SD\" tvg-logo=\"https://i.postimg.cc/MKNssTyj/disneyxd.png\" group-title=\"Kids\",Disney XD (576p)\r\r\nhttp://185.236.229.62:9981/play/a07c\r",
-      "line": 26,
       "catchup": {
         "type": "",
         "days": "",
@@ -509,34 +537,6 @@
       "status": "OK"
     },
     {
-      "name": "Eska TV (1080p)",
-      "tvg": {
-        "id": "EskaTV.pl@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/N0eH0Cg.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Music"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://185.236.229.62:9981/play/a02f",
-      "raw": "#EXTINF:-1 tvg-id=\"EskaTV.pl@SD\" tvg-logo=\"https://i.imgur.com/N0eH0Cg.png\" group-title=\"Music\",Eska TV (1080p)\r\r\nhttp://185.236.229.62:9981/play/a02f\r",
-      "line": 46,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Euronews",
       "tvg": {
         "id": "Euronews.pl@FAST",
@@ -556,6 +556,34 @@
       "url": "https://7060743b4b224241b86325460b14d152.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6769/bitok/eyJzdGlkIjoiMTE3OTllNGEtYmU1OC00ZjQyLTkxOTYtY2VlYWQzZGU2MDJjIiwibWt0IjoicGwiLCJjaCI6Njc2OSwicHRmIjo1fQ==/26235/euronews-pl.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"Euronews.pl@FAST\" tvg-logo=\"https://i.postimg.cc/qRmRrWLW/euronews.png\" group-title=\"News\",Euronews\r\r\nhttps://7060743b4b224241b86325460b14d152.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6769/bitok/eyJzdGlkIjoiMTE3OTllNGEtYmU1OC00ZjQyLTkxOTYtY2VlYWQzZGU2MDJjIiwibWt0IjoicGwiLCJjaCI6Njc2OSwicHRmIjo1fQ==/26235/euronews-pl.m3u8\r",
       "line": 48,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Eska TV (1080p)",
+      "tvg": {
+        "id": "EskaTV.pl@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/N0eH0Cg.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Music"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://185.236.229.62:9981/play/a02f",
+      "raw": "#EXTINF:-1 tvg-id=\"EskaTV.pl@SD\" tvg-logo=\"https://i.imgur.com/N0eH0Cg.png\" group-title=\"Music\",Eska TV (1080p)\r\r\nhttp://185.236.229.62:9981/play/a02f\r",
+      "line": 46,
       "catchup": {
         "type": "",
         "days": "",
@@ -593,25 +621,25 @@
       "status": "OK"
     },
     {
-      "name": "Hard Knocks Fighting Championship",
+      "name": "GLORY Kickboxing",
       "tvg": {
-        "id": "HardKnocksFightingChampionship.pl@SD",
+        "id": "GloryKickboxing.us@Poland",
         "name": "",
-        "logo": "https://images-1.rakuten.tv/storage/global-live-channel/translation/artwork/13b0a6c7-4307-4c8d-9fc4-df2a4f8e8b38-hard-knocks-fighting-1602077398-width200-quality90.jpeg",
+        "logo": "https://i.imgur.com/tS7Ub7i.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Undefined"
+        "title": "Sports"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883037",
-      "raw": "#EXTINF:-1 tvg-id=\"HardKnocksFightingChampionship.pl@SD\" tvg-logo=\"https://images-1.rakuten.tv/storage/global-live-channel/translation/artwork/13b0a6c7-4307-4c8d-9fc4-df2a4f8e8b38-hard-knocks-fighting-1602077398-width200-quality90.jpeg\" group-title=\"Undefined\",Hard Knocks Fighting Championship\r\r\nhttps://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883037\r",
-      "line": 58,
+      "url": "https://6f972d29.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0dsb3J5S2lja2JveGluZ19ITFM/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"GloryKickboxing.us@Poland\" tvg-logo=\"https://i.imgur.com/tS7Ub7i.png\" group-title=\"Sports\",GLORY Kickboxing\r\r\nhttps://6f972d29.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0dsb3J5S2lja2JveGluZ19ITFM/playlist.m3u8\r",
+      "line": 54,
       "catchup": {
         "type": "",
         "days": "",
@@ -649,25 +677,25 @@
       "status": "OK"
     },
     {
-      "name": "GLORY Kickboxing",
+      "name": "Hard Knocks Fighting Championship",
       "tvg": {
-        "id": "GloryKickboxing.us@Poland",
+        "id": "HardKnocksFightingChampionship.pl@SD",
         "name": "",
-        "logo": "https://i.imgur.com/tS7Ub7i.png",
+        "logo": "https://images-1.rakuten.tv/storage/global-live-channel/translation/artwork/13b0a6c7-4307-4c8d-9fc4-df2a4f8e8b38-hard-knocks-fighting-1602077398-width200-quality90.jpeg",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Sports"
+        "title": "Undefined"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://6f972d29.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0dsb3J5S2lja2JveGluZ19ITFM/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"GloryKickboxing.us@Poland\" tvg-logo=\"https://i.imgur.com/tS7Ub7i.png\" group-title=\"Sports\",GLORY Kickboxing\r\r\nhttps://6f972d29.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0dsb3J5S2lja2JveGluZ19ITFM/playlist.m3u8\r",
-      "line": 54,
+      "url": "https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883037",
+      "raw": "#EXTINF:-1 tvg-id=\"HardKnocksFightingChampionship.pl@SD\" tvg-logo=\"https://images-1.rakuten.tv/storage/global-live-channel/translation/artwork/13b0a6c7-4307-4c8d-9fc4-df2a4f8e8b38-hard-knocks-fighting-1602077398-width200-quality90.jpeg\" group-title=\"Undefined\",Hard Knocks Fighting Championship\r\r\nhttps://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883037\r",
+      "line": 58,
       "catchup": {
         "type": "",
         "days": "",
@@ -761,34 +789,6 @@
       "status": "OK"
     },
     {
-      "name": "Lone Star",
-      "tvg": {
-        "id": "LoneStar.us@Poland",
-        "name": "",
-        "logo": "",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Entertainment"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://6b88cde9.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0xvbmVTdGFyX0hMUw/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"LoneStar.us@Poland\" tvg-logo=\"\" group-title=\"Entertainment\",Lone Star\r\r\nhttps://6b88cde9.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0xvbmVTdGFyX0hMUw/playlist.m3u8\r",
-      "line": 66,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Moconomy",
       "tvg": {
         "id": "Moconomy.pl@SD",
@@ -817,25 +817,53 @@
       "status": "OK"
     },
     {
-      "name": "Murator TV (1080i)",
+      "name": "Lone Star",
       "tvg": {
-        "id": "MuratorTV.pl@FAST",
+        "id": "LoneStar.us@Poland",
         "name": "",
-        "logo": "https://i.imgur.com/HCnS1VT.png",
+        "logo": "",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Lifestyle"
+        "title": "Entertainment"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://s-pl-01.mediatool.tv/playout/mupl-abr/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"MuratorTV.pl@FAST\" tvg-logo=\"https://i.imgur.com/HCnS1VT.png\" group-title=\"Lifestyle\",Murator TV (1080i)\r\r\nhttps://s-pl-01.mediatool.tv/playout/mupl-abr/index.m3u8\r",
-      "line": 72,
+      "url": "https://6b88cde9.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0xvbmVTdGFyX0hMUw/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"LoneStar.us@Poland\" tvg-logo=\"\" group-title=\"Entertainment\",Lone Star\r\r\nhttps://6b88cde9.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0xvbmVTdGFyX0hMUw/playlist.m3u8\r",
+      "line": 66,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Monster Jam",
+      "tvg": {
+        "id": "MonsterJam.pl@SD",
+        "name": "",
+        "logo": "https://images-1.rakuten.tv/storage/global-live-channel/translation/artwork/0734ee9d-7417-4f53-a092-e29d6e8146ee-width200-quality90.jpeg",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/65bcc9c8d77d450008b34c6b/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c7b17f4-35fc-11ef-a031-2b5d494037a2&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=4ef65ab7-424b-4423-93e5-e94da98d875f",
+      "raw": "#EXTINF:-1 tvg-id=\"MonsterJam.pl@SD\" tvg-logo=\"https://images-1.rakuten.tv/storage/global-live-channel/translation/artwork/0734ee9d-7417-4f53-a092-e29d6e8146ee-width200-quality90.jpeg\" group-title=\"Undefined\",Monster Jam\r\r\nhttp://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/65bcc9c8d77d450008b34c6b/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c7b17f4-35fc-11ef-a031-2b5d494037a2&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=4ef65ab7-424b-4423-93e5-e94da98d875f\r",
+      "line": 70,
       "catchup": {
         "type": "",
         "days": "",
@@ -873,25 +901,25 @@
       "status": "OK"
     },
     {
-      "name": "Monster Jam",
+      "name": "Murator TV (1080i)",
       "tvg": {
-        "id": "MonsterJam.pl@SD",
+        "id": "MuratorTV.pl@FAST",
         "name": "",
-        "logo": "https://images-1.rakuten.tv/storage/global-live-channel/translation/artwork/0734ee9d-7417-4f53-a092-e29d6e8146ee-width200-quality90.jpeg",
+        "logo": "https://i.imgur.com/HCnS1VT.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Undefined"
+        "title": "Lifestyle"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/65bcc9c8d77d450008b34c6b/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c7b17f4-35fc-11ef-a031-2b5d494037a2&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=4ef65ab7-424b-4423-93e5-e94da98d875f",
-      "raw": "#EXTINF:-1 tvg-id=\"MonsterJam.pl@SD\" tvg-logo=\"https://images-1.rakuten.tv/storage/global-live-channel/translation/artwork/0734ee9d-7417-4f53-a092-e29d6e8146ee-width200-quality90.jpeg\" group-title=\"Undefined\",Monster Jam\r\r\nhttp://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/65bcc9c8d77d450008b34c6b/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c7b17f4-35fc-11ef-a031-2b5d494037a2&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=4ef65ab7-424b-4423-93e5-e94da98d875f\r",
-      "line": 70,
+      "url": "https://s-pl-01.mediatool.tv/playout/mupl-abr/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"MuratorTV.pl@FAST\" tvg-logo=\"https://i.imgur.com/HCnS1VT.png\" group-title=\"Lifestyle\",Murator TV (1080i)\r\r\nhttps://s-pl-01.mediatool.tv/playout/mupl-abr/index.m3u8\r",
+      "line": 72,
       "catchup": {
         "type": "",
         "days": "",
@@ -1013,34 +1041,6 @@
       "status": "OK"
     },
     {
-      "name": "Polsat Viasat Nature (1080p)",
-      "tvg": {
-        "id": "PolsatViasatNature.pl@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/TUcM0oS.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Documentary"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://liveovh010.cda.pl/enc104/polsatviasatnaturehdraw/polsatviasatnaturehdraw.mpd",
-      "raw": "#EXTINF:-1 tvg-id=\"PolsatViasatNature.pl@SD\" tvg-logo=\"https://i.imgur.com/TUcM0oS.png\" group-title=\"Documentary\",Polsat Viasat Nature (1080p)\r\r\nhttps://liveovh010.cda.pl/enc104/polsatviasatnaturehdraw/polsatviasatnaturehdraw.mpd\r",
-      "line": 92,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Poradnik Zdrowie TV (1080i)",
       "tvg": {
         "id": "PoradnikZdrowieTV.pl@FAST",
@@ -1088,6 +1088,34 @@
       "url": "https://amg00378-mavtv-amg00378c2-rakuten-us-1048.playouts.now.amagi.tv/playlist/amg00378-mavtvfast-motorsportsnetwork-rakutenus/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"RACERInternational.pl@FAST\" tvg-logo=\"\" group-title=\"Sports\",RACER International\r\r\nhttps://amg00378-mavtv-amg00378c2-rakuten-us-1048.playouts.now.amagi.tv/playlist/amg00378-mavtvfast-motorsportsnetwork-rakutenus/playlist.m3u8\r",
       "line": 98,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Polsat Viasat Nature (1080p)",
+      "tvg": {
+        "id": "PolsatViasatNature.pl@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/TUcM0oS.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Documentary"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://liveovh010.cda.pl/enc104/polsatviasatnaturehdraw/polsatviasatnaturehdraw.mpd",
+      "raw": "#EXTINF:-1 tvg-id=\"PolsatViasatNature.pl@SD\" tvg-logo=\"https://i.imgur.com/TUcM0oS.png\" group-title=\"Documentary\",Polsat Viasat Nature (1080p)\r\r\nhttps://liveovh010.cda.pl/enc104/polsatviasatnaturehdraw/polsatviasatnaturehdraw.mpd\r",
+      "line": 92,
       "catchup": {
         "type": "",
         "days": "",
@@ -1405,34 +1433,6 @@
       "status": "OK"
     },
     {
-      "name": "Telewizja Jaslo (720p)",
-      "tvg": {
-        "id": "TelewizjaJaslo.pl@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/nV2jQQP.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://cdn01.aztv.pl/live_tvjaslo/live_tvjaslo.stream/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TelewizjaJaslo.pl@SD\" tvg-logo=\"https://i.imgur.com/nV2jQQP.png\" group-title=\"General\",Telewizja Jaslo (720p)\r\r\nhttps://cdn01.aztv.pl/live_tvjaslo/live_tvjaslo.stream/playlist.m3u8\r",
-      "line": 124,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Telewizja Lubań (720p) [Not 24/7]",
       "tvg": {
         "id": "TelewizjaLuban.pl@SD",
@@ -1452,6 +1452,34 @@
       "url": "http://stream.herissons.cloud/hls/tvluban.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TelewizjaLuban.pl@SD\" tvg-logo=\"https://i.imgur.com/t2BGp0G.jpeg\" group-title=\"General\",Telewizja Lubań (720p) [Not 24/7]\r\r\nhttp://stream.herissons.cloud/hls/tvluban.m3u8\r",
       "line": 126,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Telewizja Jaslo (720p)",
+      "tvg": {
+        "id": "TelewizjaJaslo.pl@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/nV2jQQP.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://cdn01.aztv.pl/live_tvjaslo/live_tvjaslo.stream/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"TelewizjaJaslo.pl@SD\" tvg-logo=\"https://i.imgur.com/nV2jQQP.png\" group-title=\"General\",Telewizja Jaslo (720p)\r\r\nhttps://cdn01.aztv.pl/live_tvjaslo/live_tvjaslo.stream/playlist.m3u8\r",
+      "line": 124,
       "catchup": {
         "type": "",
         "days": "",
@@ -1545,34 +1573,6 @@
       "status": "OK"
     },
     {
-      "name": "Top Million Dollar Agent",
-      "tvg": {
-        "id": "TopMillionDollarAgent.pl@FAST",
-        "name": "",
-        "logo": "",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Comedy"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883107",
-      "raw": "#EXTINF:-1 tvg-id=\"TopMillionDollarAgent.pl@FAST\" tvg-logo=\"\" group-title=\"Comedy\",Top Million Dollar Agent\r\r\nhttps://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883107\r",
-      "line": 136,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "TOP Barca",
       "tvg": {
         "id": "TOPBarca.pl@SD",
@@ -1592,6 +1592,34 @@
       "url": "https://amg17560-fcb-amg17560c1-rakuten-uk-4891.playouts.now.amagi.tv/playlist/amg17560-fcbarcelona-topbarcaenglish-rakutenuk/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TOPBarca.pl@SD\" tvg-logo=\"https://images-2.rakuten.tv/storage/global-live-channel/translation/artwork/7c59e962-086b-4d64-afb3-7f83ca8c3377-width200-quality90.jpeg\" group-title=\"Undefined\",TOP Barca\r\r\nhttps://amg17560-fcb-amg17560c1-rakuten-uk-4891.playouts.now.amagi.tv/playlist/amg17560-fcbarcelona-topbarcaenglish-rakutenuk/playlist.m3u8\r",
       "line": 134,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Top Million Dollar Agent",
+      "tvg": {
+        "id": "TopMillionDollarAgent.pl@FAST",
+        "name": "",
+        "logo": "",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Comedy"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883107",
+      "raw": "#EXTINF:-1 tvg-id=\"TopMillionDollarAgent.pl@FAST\" tvg-logo=\"\" group-title=\"Comedy\",Top Million Dollar Agent\r\r\nhttps://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883107\r",
+      "line": 136,
       "catchup": {
         "type": "",
         "days": "",
@@ -1657,34 +1685,6 @@
       "status": "OK"
     },
     {
-      "name": "TV6 (1080p)",
-      "tvg": {
-        "id": "TV6.pl@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/sW2PQ9z.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://185.236.229.62:9981/play/a03y",
-      "raw": "#EXTINF:-1 tvg-id=\"TV6.pl@SD\" tvg-logo=\"https://i.imgur.com/sW2PQ9z.png\" group-title=\"Undefined\",TV6 (1080p)\r\r\nhttp://185.236.229.62:9981/play/a03y\r",
-      "line": 144,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "TV ASTA (720p)",
       "tvg": {
         "id": "TVASTA.pl@SD",
@@ -1704,6 +1704,34 @@
       "url": "https://5cce8c6f0e84c.streamlock.net/LiveCast/smil:PlayStream9.smil/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TVASTA.pl@SD\" tvg-logo=\"https://i.postimg.cc/44KQ54H9/tvasta.png\" group-title=\"General\",TV ASTA (720p)\r\r\nhttps://5cce8c6f0e84c.streamlock.net/LiveCast/smil:PlayStream9.smil/playlist.m3u8\r",
       "line": 146,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "TV6 (1080p)",
+      "tvg": {
+        "id": "TV6.pl@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/sW2PQ9z.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://185.236.229.62:9981/play/a03y",
+      "raw": "#EXTINF:-1 tvg-id=\"TV6.pl@SD\" tvg-logo=\"https://i.imgur.com/sW2PQ9z.png\" group-title=\"Undefined\",TV6 (1080p)\r\r\nhttp://185.236.229.62:9981/play/a03y\r",
+      "line": 144,
       "catchup": {
         "type": "",
         "days": "",
@@ -1769,34 +1797,6 @@
       "status": "OK"
     },
     {
-      "name": "TV Puls (1080p)",
-      "tvg": {
-        "id": "TVPuls.pl@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/gXA7pai.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://185.236.229.62:9981/play/a034",
-      "raw": "#EXTINF:-1 tvg-id=\"TVPuls.pl@SD\" tvg-logo=\"https://i.imgur.com/gXA7pai.png\" group-title=\"Undefined\",TV Puls (1080p)\r\r\nhttp://185.236.229.62:9981/play/a034\r",
-      "line": 154,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "TV Trwam (1080p) [Geo-blocked]",
       "tvg": {
         "id": "TVTrwam.pl@SD",
@@ -1825,11 +1825,11 @@
       "status": "OK"
     },
     {
-      "name": "TVP Polonia",
+      "name": "TV Puls (1080p)",
       "tvg": {
-        "id": "TVPPolonia.pl@SD",
+        "id": "TVPuls.pl@SD",
         "name": "",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/TVP_Polonia_Logo_2020.svg/512px-TVP_Polonia_Logo_2020.svg.png",
+        "logo": "https://i.imgur.com/gXA7pai.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -1841,9 +1841,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://viamotionhsi.netplus.ch/live/eds/tvpolonia/browser-dash/tvpolonia.mpd",
-      "raw": "#EXTINF:-1 tvg-id=\"TVPPolonia.pl@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/TVP_Polonia_Logo_2020.svg/512px-TVP_Polonia_Logo_2020.svg.png\" group-title=\"Undefined\",TVP Polonia\r\r\nhttps://viamotionhsi.netplus.ch/live/eds/tvpolonia/browser-dash/tvpolonia.mpd\r",
-      "line": 198,
+      "url": "http://185.236.229.62:9981/play/a034",
+      "raw": "#EXTINF:-1 tvg-id=\"TVPuls.pl@SD\" tvg-logo=\"https://i.imgur.com/gXA7pai.png\" group-title=\"Undefined\",TV Puls (1080p)\r\r\nhttp://185.236.229.62:9981/play/a034\r",
+      "line": 154,
       "catchup": {
         "type": "",
         "days": "",
@@ -1909,25 +1909,25 @@
       "status": "OK"
     },
     {
-      "name": "W Polsce PL (720p)",
+      "name": "Vox w Rytmie Hitow (1080i)",
       "tvg": {
-        "id": "WPolscePL.pl@SD",
+        "id": "VoxwRytmieHitow.pl@FAST",
         "name": "",
-        "logo": "https://i.imgur.com/HQ8UyhL.png",
+        "logo": "https://i.imgur.com/uWLsiOq.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Undefined"
+        "title": "Music"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://str.onnetwork.tv/hls/onnet-358726_hi/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"WPolscePL.pl@SD\" tvg-logo=\"https://i.imgur.com/HQ8UyhL.png\" group-title=\"Undefined\",W Polsce PL (720p)\r\r\nhttps://str.onnetwork.tv/hls/onnet-358726_hi/index.m3u8\r",
-      "line": 208,
+      "url": "https://s-pl-01.mediatool.tv/playout/vxpl-abr/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"VoxwRytmieHitow.pl@FAST\" tvg-logo=\"https://i.imgur.com/uWLsiOq.png\" group-title=\"Music\",Vox w Rytmie Hitow (1080i)\r\r\nhttps://s-pl-01.mediatool.tv/playout/vxpl-abr/index.m3u8\r",
+      "line": 206,
       "catchup": {
         "type": "",
         "days": "",
@@ -1956,6 +1956,62 @@
       "url": "https://9a81dd4ee3884d0dbcacafaf0d81327a.mediatailor.us-east-1.amazonaws.com/v1/master/04fd913bb278d8775298c26fdca9d9841f37601f/RakutenTV-eu_BilliardsTV/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"WorldBilliards.pl@SD\" tvg-logo=\"https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/80af06f2-a12e-4406-bd13-b932fd69fffe-width200-quality90.png\" group-title=\"Undefined\",World Billiards TV\r\r\nhttps://9a81dd4ee3884d0dbcacafaf0d81327a.mediatailor.us-east-1.amazonaws.com/v1/master/04fd913bb278d8775298c26fdca9d9841f37601f/RakutenTV-eu_BilliardsTV/playlist.m3u8\r",
       "line": 210,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "TVP Polonia",
+      "tvg": {
+        "id": "TVPPolonia.pl@SD",
+        "name": "",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/TVP_Polonia_Logo_2020.svg/512px-TVP_Polonia_Logo_2020.svg.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://viamotionhsi.netplus.ch/live/eds/tvpolonia/browser-dash/tvpolonia.mpd",
+      "raw": "#EXTINF:-1 tvg-id=\"TVPPolonia.pl@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/TVP_Polonia_Logo_2020.svg/512px-TVP_Polonia_Logo_2020.svg.png\" group-title=\"Undefined\",TVP Polonia\r\r\nhttps://viamotionhsi.netplus.ch/live/eds/tvpolonia/browser-dash/tvpolonia.mpd\r",
+      "line": 198,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "W Polsce PL (720p)",
+      "tvg": {
+        "id": "WPolscePL.pl@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/HQ8UyhL.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://str.onnetwork.tv/hls/onnet-358726_hi/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"WPolscePL.pl@SD\" tvg-logo=\"https://i.imgur.com/HQ8UyhL.png\" group-title=\"Undefined\",W Polsce PL (720p)\r\r\nhttps://str.onnetwork.tv/hls/onnet-358726_hi/index.m3u8\r",
+      "line": 208,
       "catchup": {
         "type": "",
         "days": "",
@@ -2012,62 +2068,6 @@
       "url": "https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883098",
       "raw": "#EXTINF:-1 tvg-id=\"ZNation.pl@SD\" tvg-logo=\"https://images-1.rakuten.tv/storage/global-live-channel/translation/artwork/dff3a92e-c4aa-49c4-b1b6-4a847428b8d5-width200-quality90.png\" group-title=\"Undefined\",Z Nation\r\r\nhttps://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883098\r",
       "line": 214,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Vox w Rytmie Hitow (1080i)",
-      "tvg": {
-        "id": "VoxwRytmieHitow.pl@FAST",
-        "name": "",
-        "logo": "https://i.imgur.com/uWLsiOq.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Music"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://s-pl-01.mediatool.tv/playout/vxpl-abr/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"VoxwRytmieHitow.pl@FAST\" tvg-logo=\"https://i.imgur.com/uWLsiOq.png\" group-title=\"Music\",Vox w Rytmie Hitow (1080i)\r\r\nhttps://s-pl-01.mediatool.tv/playout/vxpl-abr/index.m3u8\r",
-      "line": 206,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "4 Fun TV (576i) [Not 24/7]",
-      "tvg": {
-        "id": "4FunTV.pl@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/rI1wo2l.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Music"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://stream.4fun.tv:8888/hls/4f_high/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"4FunTV.pl@SD\" tvg-logo=\"https://i.imgur.com/rI1wo2l.png\" group-title=\"Music\",4 Fun TV (576i) [Not 24/7]\r\r\nhttps://stream.4fun.tv:8888/hls/4f_high/index.m3u8\r",
-      "line": 6,
       "catchup": {
         "type": "",
         "days": "",
