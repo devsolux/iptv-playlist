@@ -61,34 +61,6 @@
       "status": "OK"
     },
     {
-      "name": "MOI TV",
-      "tvg": {
-        "id": "MOITV.kh@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/fbI2ybo.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Legislative"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://202.62.56.22:8080/hls/MOITV.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"MOITV.kh@SD\" tvg-logo=\"https://i.imgur.com/fbI2ybo.png\" group-title=\"Legislative\",MOI TV\r\r\nhttp://202.62.56.22:8080/hls/MOITV.m3u8\r",
-      "line": 28,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Komsan TV [Not 24/7]",
       "tvg": {
         "id": "KomsanTV.kh@SD",
@@ -117,11 +89,39 @@
       "status": "OK"
     },
     {
-      "name": "Rasmey Hang Meas HDTV (720p)",
+      "name": "MOI TV",
       "tvg": {
-        "id": "RasmeyHangMeasHDTV.kh@SD",
+        "id": "MOITV.kh@SD",
         "name": "",
-        "logo": "https://i.imgur.com/EcqEMMg.png",
+        "logo": "https://i.imgur.com/fbI2ybo.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Legislative"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://202.62.56.22:8080/hls/MOITV.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"MOITV.kh@SD\" tvg-logo=\"https://i.imgur.com/fbI2ybo.png\" group-title=\"Legislative\",MOI TV\r\r\nhttp://202.62.56.22:8080/hls/MOITV.m3u8\r",
+      "line": 28,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "NTV",
+      "tvg": {
+        "id": "NTV.kh@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/SoBhuIb.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -133,9 +133,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "http://clive.malisresidences.com:1935/rhm_hdtv/_definst_/smil:RHMHDTV.smil/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"RasmeyHangMeasHDTV.kh@SD\" tvg-logo=\"https://i.imgur.com/EcqEMMg.png\" group-title=\"Undefined\",Rasmey Hang Meas HDTV (720p)\r\r\nhttp://clive.malisresidences.com:1935/rhm_hdtv/_definst_/smil:RHMHDTV.smil/playlist.m3u8\r",
-      "line": 39,
+      "url": "http://43.252.18.195:5080/LiveApp/streams/ntvhd.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"NTV.kh@SD\" tvg-logo=\"https://i.imgur.com/SoBhuIb.png\" group-title=\"Undefined\",NTV\r\r\nhttp://43.252.18.195:5080/LiveApp/streams/ntvhd.m3u8\r",
+      "line": 35,
       "catchup": {
         "type": "",
         "days": "",
@@ -164,6 +164,62 @@
       "url": "https://cdn4.skygo.mn/live/disk1/MNB_World/HLSv3-FTA/MNB_World.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"MNBWorld.mn@SD\" tvg-logo=\"https://i.imgur.com/PHlj84Q.png\" group-title=\"General\",MNB World (1080p)\r\r\nhttps://cdn4.skygo.mn/live/disk1/MNB_World/HLSv3-FTA/MNB_World.m3u8\r",
       "line": 26,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "MSJ TV (1080p)",
+      "tvg": {
+        "id": "MSJTV.kh@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/TilslGU.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "https://www.iptvservice.site/",
+        "user-agent": ""
+      },
+      "url": "https://live-ali7.tv360.metfone.com.kh/live/myStream/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"MSJTV.kh@SD\" tvg-logo=\"https://i.imgur.com/TilslGU.png\" group-title=\"General\" http-referrer=\"https://www.iptvservice.site/\",MSJ TV (1080p)\r\r\n#EXTVLCOPT:http-referrer=https://www.iptvservice.site/\r\r\nhttps://live-ali7.tv360.metfone.com.kh/live/myStream/playlist.m3u8\r",
+      "line": 30,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Rasmey Hang Meas HDTV (720p)",
+      "tvg": {
+        "id": "RasmeyHangMeasHDTV.kh@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/EcqEMMg.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://clive.malisresidences.com:1935/rhm_hdtv/_definst_/smil:RHMHDTV.smil/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"RasmeyHangMeasHDTV.kh@SD\" tvg-logo=\"https://i.imgur.com/EcqEMMg.png\" group-title=\"Undefined\",Rasmey Hang Meas HDTV (720p)\r\r\nhttp://clive.malisresidences.com:1935/rhm_hdtv/_definst_/smil:RHMHDTV.smil/playlist.m3u8\r",
+      "line": 39,
       "catchup": {
         "type": "",
         "days": "",
@@ -248,34 +304,6 @@
       "url": "https://live.kh.malimarcdn.com/live/tvk2.stream/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TVK2.kh@SD\" tvg-logo=\"https://i.imgur.com/L36ptO2.png\" group-title=\"Education\",TVK 2 (720p)\r\r\nhttps://live.kh.malimarcdn.com/live/tvk2.stream/playlist.m3u8\r",
       "line": 55,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "MSJ TV (1080p)",
-      "tvg": {
-        "id": "MSJTV.kh@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/TilslGU.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "https://www.iptvservice.site/",
-        "user-agent": ""
-      },
-      "url": "https://live-ali7.tv360.metfone.com.kh/live/myStream/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"MSJTV.kh@SD\" tvg-logo=\"https://i.imgur.com/TilslGU.png\" group-title=\"General\" http-referrer=\"https://www.iptvservice.site/\",MSJ TV (1080p)\r\r\n#EXTVLCOPT:http-referrer=https://www.iptvservice.site/\r\r\nhttps://live-ali7.tv360.metfone.com.kh/live/myStream/playlist.m3u8\r",
-      "line": 30,
       "catchup": {
         "type": "",
         "days": "",
