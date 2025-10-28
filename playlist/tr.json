@@ -5,34 +5,6 @@
   },
   "items": [
     {
-      "name": "360 TV (720p) [Not 24/7]",
-      "tvg": {
-        "id": "360.tr@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/agn47sQ.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "News"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://turkmedya-live.ercdn.net/tv360/tv360.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"360.tr@SD\" tvg-logo=\"https://i.imgur.com/agn47sQ.png\" group-title=\"News\",360 TV (720p) [Not 24/7]\r\r\nhttps://turkmedya-live.ercdn.net/tv360/tv360.m3u8\r",
-      "line": 7,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "A Spor",
       "tvg": {
         "id": "ASpor.tr@SD",
@@ -80,6 +52,34 @@
       "url": "https://trkvz-live.daioncdn.net/a2tv/a2tv.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"A2TV.tr@SD\" tvg-logo=\"https://iatv.tmgrup.com.tr/site/v2/a2tv/i/a2tv-logo.png\" group-title=\"General\",A2TV\r\r\nhttps://trkvz-live.daioncdn.net/a2tv/a2tv.m3u8\r",
       "line": 9,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "360 TV (720p) [Not 24/7]",
+      "tvg": {
+        "id": "360.tr@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/agn47sQ.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "News"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://turkmedya-live.ercdn.net/tv360/tv360.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"360.tr@SD\" tvg-logo=\"https://i.imgur.com/agn47sQ.png\" group-title=\"News\",360 TV (720p) [Not 24/7]\r\r\nhttps://turkmedya-live.ercdn.net/tv360/tv360.m3u8\r",
+      "line": 7,
       "catchup": {
         "type": "",
         "days": "",
@@ -257,34 +257,6 @@
       "status": "OK"
     },
     {
-      "name": "ARAS TV (576p) [Not 24/7]",
-      "tvg": {
-        "id": "ArasTV.tr@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/JsDCyWG.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://1.rtmp.org/tv217/yayin.stream/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"ArasTV.tr@SD\" tvg-logo=\"https://i.imgur.com/JsDCyWG.png\" group-title=\"General\",ARAS TV (576p) [Not 24/7]\r\r\nhttp://1.rtmp.org/tv217/yayin.stream/playlist.m3u8\r",
-      "line": 33,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Anadolu Net TV (1080p)",
       "tvg": {
         "id": "AnadoluNetTV.tr@SD",
@@ -313,25 +285,53 @@
       "status": "OK"
     },
     {
-      "name": "ATV Avrupa (576p) [Not 24/7]",
+      "name": "ATV (360p)",
       "tvg": {
-        "id": "ATVAvrupa.tr@SD",
+        "id": "ATV.tr@SD",
         "name": "",
-        "logo": "https://i.postimg.cc/Ghdyjjy8/atvavrupa.png",
+        "logo": "https://i.imgur.com/HyVUwFC.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Undefined"
+        "title": "General"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://streamer2.nexgen.bz/ATV/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"ATVAvrupa.tr@SD\" tvg-logo=\"https://i.postimg.cc/Ghdyjjy8/atvavrupa.png\" group-title=\"Undefined\",ATV Avrupa (576p) [Not 24/7]\r\r\nhttps://streamer2.nexgen.bz/ATV/index.m3u8\r",
-      "line": 39,
+      "url": "http://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_360p.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"ATV.tr@SD\" tvg-logo=\"https://i.imgur.com/HyVUwFC.png\" group-title=\"General\",ATV (360p)\r\r\nhttp://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_360p.m3u8\r",
+      "line": 35,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "ARAS TV (576p) [Not 24/7]",
+      "tvg": {
+        "id": "ArasTV.tr@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/JsDCyWG.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://1.rtmp.org/tv217/yayin.stream/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"ArasTV.tr@SD\" tvg-logo=\"https://i.imgur.com/JsDCyWG.png\" group-title=\"General\",ARAS TV (576p) [Not 24/7]\r\r\nhttp://1.rtmp.org/tv217/yayin.stream/playlist.m3u8\r",
+      "line": 33,
       "catchup": {
         "type": "",
         "days": "",
@@ -360,34 +360,6 @@
       "url": "https://beyaztv.daioncdn.net/beyaztv/beyaztv.m3u8?app=fcd5c66b-da9d-44ba-a410-4f34805c397d&ce=3",
       "raw": "#EXTINF:-1 tvg-id=\"BeyazTV.tr@SD\" tvg-logo=\"https://i.imgur.com/uykIdML.png\" group-title=\"Undefined\",Beyaz TV (1080p)\r\r\nhttps://beyaztv.daioncdn.net/beyaztv/beyaztv.m3u8?app=fcd5c66b-da9d-44ba-a410-4f34805c397d&ce=3\r",
       "line": 49,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Bir TV (720p)",
-      "tvg": {
-        "id": "BirTV.tr@SD",
-        "name": "",
-        "logo": "https://birtv.tv/assets/upload/637f83951df60.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://live.artidijitalmedya.com/artidijital_birtv/birtv/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"BirTV.tr@SD\" tvg-logo=\"https://birtv.tv/assets/upload/637f83951df60.png\" group-title=\"Undefined\",Bir TV (720p)\r\r\nhttps://live.artidijitalmedya.com/artidijital_birtv/birtv/playlist.m3u8\r",
-      "line": 51,
       "catchup": {
         "type": "",
         "days": "",
@@ -537,34 +509,6 @@
       "status": "OK"
     },
     {
-      "name": "ATV (360p)",
-      "tvg": {
-        "id": "ATV.tr@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/HyVUwFC.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_360p.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"ATV.tr@SD\" tvg-logo=\"https://i.imgur.com/HyVUwFC.png\" group-title=\"General\",ATV (360p)\r\r\nhttp://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_360p.m3u8\r",
-      "line": 35,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "CGTN Documentary",
       "tvg": {
         "id": "CGTNDocumentary.tr@SD",
@@ -705,25 +649,25 @@
       "status": "OK"
     },
     {
-      "name": "DİM TV (720p) [Geo-blocked]",
+      "name": "Diyanet TV (1080p)",
       "tvg": {
-        "id": "DimTV.tr@SD",
+        "id": "DiyanetTV.tr@SD",
         "name": "",
-        "logo": "https://i.imgur.com/X4QFDhk.png",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Diyanet_TV_logo.svg/512px-Diyanet_TV_logo.svg.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "News"
+        "title": "Religious"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://live.artidijitalmedya.com/artidijital_dimtv/dimtv/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"DimTV.tr@SD\" tvg-logo=\"https://i.imgur.com/X4QFDhk.png\" group-title=\"News\",DİM TV (720p) [Geo-blocked]\r\r\nhttps://live.artidijitalmedya.com/artidijital_dimtv/dimtv/playlist.m3u8\r",
-      "line": 85,
+      "url": "https://eustr73.mediatriple.net/videoonlylive/mtikoimxnztxlive/broadcast_5e3bf95a47e07.smil/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"DiyanetTV.tr@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Diyanet_TV_logo.svg/512px-Diyanet_TV_logo.svg.png\" group-title=\"Religious\",Diyanet TV (1080p)\r\r\nhttps://eustr73.mediatriple.net/videoonlylive/mtikoimxnztxlive/broadcast_5e3bf95a47e07.smil/playlist.m3u8\r",
+      "line": 89,
       "catchup": {
         "type": "",
         "days": "",
@@ -761,25 +705,25 @@
       "status": "OK"
     },
     {
-      "name": "Diyanet TV (1080p)",
+      "name": "DİM TV (720p) [Geo-blocked]",
       "tvg": {
-        "id": "DiyanetTV.tr@SD",
+        "id": "DimTV.tr@SD",
         "name": "",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Diyanet_TV_logo.svg/512px-Diyanet_TV_logo.svg.png",
+        "logo": "https://i.imgur.com/X4QFDhk.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Religious"
+        "title": "News"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://eustr73.mediatriple.net/videoonlylive/mtikoimxnztxlive/broadcast_5e3bf95a47e07.smil/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"DiyanetTV.tr@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Diyanet_TV_logo.svg/512px-Diyanet_TV_logo.svg.png\" group-title=\"Religious\",Diyanet TV (1080p)\r\r\nhttps://eustr73.mediatriple.net/videoonlylive/mtikoimxnztxlive/broadcast_5e3bf95a47e07.smil/playlist.m3u8\r",
-      "line": 89,
+      "url": "https://live.artidijitalmedya.com/artidijital_dimtv/dimtv/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"DimTV.tr@SD\" tvg-logo=\"https://i.imgur.com/X4QFDhk.png\" group-title=\"News\",DİM TV (720p) [Geo-blocked]\r\r\nhttps://live.artidijitalmedya.com/artidijital_dimtv/dimtv/playlist.m3u8\r",
+      "line": 85,
       "catchup": {
         "type": "",
         "days": "",
@@ -873,34 +817,6 @@
       "status": "OK"
     },
     {
-      "name": "Erzurum Web TV (720p)",
-      "tvg": {
-        "id": "ErzurumWebTV.tr@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/HF7N4Li.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://win29.yayin.com.tr/erzurumwebtv/erzurumwebtv/iptvdelisi.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"ErzurumWebTV.tr@SD\" tvg-logo=\"https://i.imgur.com/HF7N4Li.png\" group-title=\"General\",Erzurum Web TV (720p)\r\r\nhttps://win29.yayin.com.tr/erzurumwebtv/erzurumwebtv/iptvdelisi.m3u8\r",
-      "line": 103,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "ES TV (720p)",
       "tvg": {
         "id": "ESTV.tr@SD",
@@ -929,11 +845,11 @@
       "status": "OK"
     },
     {
-      "name": "ETV Kayseri (720p)",
+      "name": "Erzurum Web TV (720p)",
       "tvg": {
-        "id": "ETVKayseri.tr@SD",
+        "id": "ErzurumWebTV.tr@SD",
         "name": "",
-        "logo": "https://i.postimg.cc/zBpLByJt/etvkayseri.png",
+        "logo": "https://i.imgur.com/HF7N4Li.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -945,9 +861,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://live.artidijitalmedya.com/artidijital_etv/etv/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"ETVKayseri.tr@SD\" tvg-logo=\"https://i.postimg.cc/zBpLByJt/etvkayseri.png\" group-title=\"General\",ETV Kayseri (720p)\r\r\nhttps://live.artidijitalmedya.com/artidijital_etv/etv/playlist.m3u8\r",
-      "line": 107,
+      "url": "https://win29.yayin.com.tr/erzurumwebtv/erzurumwebtv/iptvdelisi.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"ErzurumWebTV.tr@SD\" tvg-logo=\"https://i.imgur.com/HF7N4Li.png\" group-title=\"General\",Erzurum Web TV (720p)\r\r\nhttps://win29.yayin.com.tr/erzurumwebtv/erzurumwebtv/iptvdelisi.m3u8\r",
+      "line": 103,
       "catchup": {
         "type": "",
         "days": "",
@@ -985,11 +901,11 @@
       "status": "OK"
     },
     {
-      "name": "Euro D (1080p)",
+      "name": "ETV Kayseri (720p)",
       "tvg": {
-        "id": "EuroD.tr@SD",
+        "id": "ETVKayseri.tr@SD",
         "name": "",
-        "logo": "https://i.imgur.com/x9kHsXo.png",
+        "logo": "https://i.postimg.cc/zBpLByJt/etvkayseri.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -1001,9 +917,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://viamotionhsi.netplus.ch/live/eds/eurod/browser-HLS8/eurod.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"EuroD.tr@SD\" tvg-logo=\"https://i.imgur.com/x9kHsXo.png\" group-title=\"General\",Euro D (1080p)\r\r\nhttps://viamotionhsi.netplus.ch/live/eds/eurod/browser-HLS8/eurod.m3u8\r",
-      "line": 111,
+      "url": "https://live.artidijitalmedya.com/artidijital_etv/etv/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"ETVKayseri.tr@SD\" tvg-logo=\"https://i.postimg.cc/zBpLByJt/etvkayseri.png\" group-title=\"General\",ETV Kayseri (720p)\r\r\nhttps://live.artidijitalmedya.com/artidijital_etv/etv/playlist.m3u8\r",
+      "line": 107,
       "catchup": {
         "type": "",
         "days": "",
@@ -1041,6 +957,34 @@
       "status": "OK"
     },
     {
+      "name": "Euro D (1080p)",
+      "tvg": {
+        "id": "EuroD.tr@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/x9kHsXo.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://viamotionhsi.netplus.ch/live/eds/eurod/browser-HLS8/eurod.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"EuroD.tr@SD\" tvg-logo=\"https://i.imgur.com/x9kHsXo.png\" group-title=\"General\",Euro D (1080p)\r\r\nhttps://viamotionhsi.netplus.ch/live/eds/eurod/browser-HLS8/eurod.m3u8\r",
+      "line": 111,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Finans Turk TV (720p)",
       "tvg": {
         "id": "FinansTurkTV.tr@SD",
@@ -1069,34 +1013,6 @@
       "status": "OK"
     },
     {
-      "name": "Fortuna TV",
-      "tvg": {
-        "id": "FortunaTV.tr@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/ZbUSlOC.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Lifestyle"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://edge1.socialsmart.tv/ftvturk/bant1/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"FortunaTV.tr@SD\" tvg-logo=\"https://i.imgur.com/ZbUSlOC.png\" group-title=\"Lifestyle\",Fortuna TV\r\r\nhttps://edge1.socialsmart.tv/ftvturk/bant1/playlist.m3u8\r",
-      "line": 121,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "GRT (900p)",
       "tvg": {
         "id": "GRT.tr@SD",
@@ -1116,34 +1032,6 @@
       "url": "https://live.artidijitalmedya.com/artidijital_grt/grt1/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"GRT.tr@SD\" tvg-logo=\"https://i.imgur.com/eRR0gkC.png\" group-title=\"General\",GRT (900p)\r\r\nhttps://live.artidijitalmedya.com/artidijital_grt/grt1/playlist.m3u8\r",
       "line": 127,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "GZT (1080p)",
-      "tvg": {
-        "id": "GZT.tr@SD",
-        "name": "",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/GZT_logo.svg/320px-GZT_logo.svg.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Documentary;Series"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://mn-nl.mncdn.com/gzttv/gzttv/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"GZT.tr@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/GZT_logo.svg/320px-GZT_logo.svg.png\" group-title=\"Documentary;Series\",GZT (1080p)\r\r\nhttps://mn-nl.mncdn.com/gzttv/gzttv/playlist.m3u8\r",
-      "line": 133,
       "catchup": {
         "type": "",
         "days": "",
@@ -1209,25 +1097,25 @@
       "status": "OK"
     },
     {
-      "name": "Haber61 TV (720p) [Not 24/7]",
+      "name": "GZT (1080p)",
       "tvg": {
-        "id": "Haber61TV.tr@SD",
+        "id": "GZT.tr@SD",
         "name": "",
-        "logo": "https://i.imgur.com/2a2XUKl.png",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/GZT_logo.svg/320px-GZT_logo.svg.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "News"
+        "title": "Documentary;Series"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://cdn-haber61tv.yayin.com.tr/haber61tv/smil:haber61tv.smil/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Haber61TV.tr@SD\" tvg-logo=\"https://i.imgur.com/2a2XUKl.png\" group-title=\"News\",Haber61 TV (720p) [Not 24/7]\r\r\nhttps://cdn-haber61tv.yayin.com.tr/haber61tv/smil:haber61tv.smil/index.m3u8\r",
-      "line": 135,
+      "url": "https://mn-nl.mncdn.com/gzttv/gzttv/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"GZT.tr@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/GZT_logo.svg/320px-GZT_logo.svg.png\" group-title=\"Documentary;Series\",GZT (1080p)\r\r\nhttps://mn-nl.mncdn.com/gzttv/gzttv/playlist.m3u8\r",
+      "line": 133,
       "catchup": {
         "type": "",
         "days": "",
@@ -1256,6 +1144,34 @@
       "url": "https://raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/dzflix/helwa.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"HelwaTV.tr@SD\" tvg-logo=\"\" group-title=\"Undefined\",Helwa TV (1080p)\r\r\nhttps://raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/dzflix/helwa.m3u8\r",
       "line": 143,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Haber61 TV (720p) [Not 24/7]",
+      "tvg": {
+        "id": "Haber61TV.tr@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/2a2XUKl.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "News"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://cdn-haber61tv.yayin.com.tr/haber61tv/smil:haber61tv.smil/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Haber61TV.tr@SD\" tvg-logo=\"https://i.imgur.com/2a2XUKl.png\" group-title=\"News\",Haber61 TV (720p) [Not 24/7]\r\r\nhttps://cdn-haber61tv.yayin.com.tr/haber61tv/smil:haber61tv.smil/index.m3u8\r",
+      "line": 135,
       "catchup": {
         "type": "",
         "days": "",
@@ -2357,6 +2273,34 @@
       "status": "OK"
     },
     {
+      "name": "Öncü TV (1024p) [Not 24/7]",
+      "tvg": {
+        "id": "OncuTV.tr@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/TGPNYrD.jpg",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://edge1.socialsmart.tv/oncurtv/bant1/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"OncuTV.tr@SD\" tvg-logo=\"https://i.imgur.com/TGPNYrD.jpg\" group-title=\"General\",Öncü TV (1024p) [Not 24/7]\r\r\nhttps://edge1.socialsmart.tv/oncurtv/bant1/playlist.m3u8\r",
+      "line": 259,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Power Dance (1080p)",
       "tvg": {
         "id": "PowerDance.tr@SD",
@@ -3029,34 +2973,6 @@
       "status": "OK"
     },
     {
-      "name": "Trakya Türk TV (720p)",
-      "tvg": {
-        "id": "TrakyaTurk.tr@SD",
-        "name": "",
-        "logo": "https://i.postimg.cc/PqskSYD9/trakyaturk.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://live.artidijitalmedya.com/artidijital_trakyaturk/trakyaturk/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TrakyaTurk.tr@SD\" tvg-logo=\"https://i.postimg.cc/PqskSYD9/trakyaturk.png\" group-title=\"General\",Trakya Türk TV (720p)\r\r\nhttps://live.artidijitalmedya.com/artidijital_trakyaturk/trakyaturk/playlist.m3u8\r",
-      "line": 347,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "TRT 1 (1080p)",
       "tvg": {
         "id": "TRT1.tr@SD",
@@ -3225,62 +3141,6 @@
       "status": "OK"
     },
     {
-      "name": "TRT Haber (720p)",
-      "tvg": {
-        "id": "TRTHaber.tr@SD",
-        "name": "",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/TRT_Haber_Eyl%C3%BCl_2020_Logo.svg/512px-TRT_Haber_Eyl%C3%BCl_2020_Logo.svg.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "News"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://tv-trthaber.medya.trt.com.tr/master.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TRTHaber.tr@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/TRT_Haber_Eyl%C3%BCl_2020_Logo.svg/512px-TRT_Haber_Eyl%C3%BCl_2020_Logo.svg.png\" group-title=\"News\",TRT Haber (720p)\r\r\nhttps://tv-trthaber.medya.trt.com.tr/master.m3u8\r",
-      "line": 367,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "TRT Kurdî (720p)",
-      "tvg": {
-        "id": "TRTKurdi.tr@SD",
-        "name": "",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/TRT_Kurd%C3%AE_logo.svg/512px-TRT_Kurd%C3%AE_logo.svg.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://tv-trtkurdi.medya.trt.com.tr/master.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TRTKurdi.tr@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/TRT_Kurd%C3%AE_logo.svg/512px-TRT_Kurd%C3%AE_logo.svg.png\" group-title=\"Undefined\",TRT Kurdî (720p)\r\r\nhttps://tv-trtkurdi.medya.trt.com.tr/master.m3u8\r",
-      "line": 369,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "TRT EBA Ilkokul (720p)",
       "tvg": {
         "id": "TRTEBAIlkokul.tr@SD",
@@ -3300,6 +3160,34 @@
       "url": "https://tv-e-okul00.medya.trt.com.tr/master.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TRTEBAIlkokul.tr@SD\" tvg-logo=\"https://i.imgur.com/CRBfZi4.png\" group-title=\"Education\",TRT EBA Ilkokul (720p)\r\r\nhttps://tv-e-okul00.medya.trt.com.tr/master.m3u8\r",
       "line": 363,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "TRT Haber (720p)",
+      "tvg": {
+        "id": "TRTHaber.tr@SD",
+        "name": "",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/TRT_Haber_Eyl%C3%BCl_2020_Logo.svg/512px-TRT_Haber_Eyl%C3%BCl_2020_Logo.svg.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "News"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://tv-trthaber.medya.trt.com.tr/master.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"TRTHaber.tr@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/TRT_Haber_Eyl%C3%BCl_2020_Logo.svg/512px-TRT_Haber_Eyl%C3%BCl_2020_Logo.svg.png\" group-title=\"News\",TRT Haber (720p)\r\r\nhttps://tv-trthaber.medya.trt.com.tr/master.m3u8\r",
+      "line": 367,
       "catchup": {
         "type": "",
         "days": "",
@@ -3337,6 +3225,34 @@
       "status": "OK"
     },
     {
+      "name": "TRT Kurdî (720p)",
+      "tvg": {
+        "id": "TRTKurdi.tr@SD",
+        "name": "",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/TRT_Kurd%C3%AE_logo.svg/512px-TRT_Kurd%C3%AE_logo.svg.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://tv-trtkurdi.medya.trt.com.tr/master.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"TRTKurdi.tr@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/TRT_Kurd%C3%AE_logo.svg/512px-TRT_Kurd%C3%AE_logo.svg.png\" group-title=\"Undefined\",TRT Kurdî (720p)\r\r\nhttps://tv-trtkurdi.medya.trt.com.tr/master.m3u8\r",
+      "line": 369,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "TürkHaber (720p)",
       "tvg": {
         "id": "TurkHaberTV.tr@SD",
@@ -3365,34 +3281,6 @@
       "status": "OK"
     },
     {
-      "name": "TRT Turk",
-      "tvg": {
-        "id": "TRTTurk.tr@SD",
-        "name": "",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/TRT_T%C3%BCrk_logo.svg/512px-TRT_T%C3%BCrk_logo.svg.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://viamotionhsi.netplus.ch/live/eds/trtturk/browser-dash/trtturk.mpd",
-      "raw": "#EXTINF:-1 tvg-id=\"TRTTurk.tr@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/TRT_T%C3%BCrk_logo.svg/512px-TRT_T%C3%BCrk_logo.svg.png\" group-title=\"Undefined\",TRT Turk\r\r\nhttps://viamotionhsi.netplus.ch/live/eds/trtturk/browser-dash/trtturk.mpd\r",
-      "line": 377,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "TV 1 (720p)",
       "tvg": {
         "id": "TV1.tr@SD",
@@ -3412,6 +3300,34 @@
       "url": "https://edge1.socialsmart.tv/tv1/bant1/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TV1.tr@SD\" tvg-logo=\"https://i.imgur.com/8CtrYVb.png\" group-title=\"Undefined\",TV 1 (720p)\r\r\nhttps://edge1.socialsmart.tv/tv1/bant1/playlist.m3u8\r",
       "line": 381,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "TRT Turk",
+      "tvg": {
+        "id": "TRTTurk.tr@SD",
+        "name": "",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/TRT_T%C3%BCrk_logo.svg/512px-TRT_T%C3%BCrk_logo.svg.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://viamotionhsi.netplus.ch/live/eds/trtturk/browser-dash/trtturk.mpd",
+      "raw": "#EXTINF:-1 tvg-id=\"TRTTurk.tr@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/TRT_T%C3%BCrk_logo.svg/512px-TRT_T%C3%BCrk_logo.svg.png\" group-title=\"Undefined\",TRT Turk\r\r\nhttps://viamotionhsi.netplus.ch/live/eds/trtturk/browser-dash/trtturk.mpd\r",
+      "line": 377,
       "catchup": {
         "type": "",
         "days": "",
@@ -3496,34 +3412,6 @@
       "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtdxkkitgbrckilive/broadcast_5ee244263fd6d.smil/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TV264.tr@SD\" tvg-logo=\"https://i.postimg.cc/CxCZNX4D/tv264.png\" group-title=\"Undefined\",TV 264 (1080p)\r\r\nhttps://b01c02nl.mediatriple.net/videoonlylive/mtdxkkitgbrckilive/broadcast_5ee244263fd6d.smil/playlist.m3u8\r",
       "line": 397,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "TV A (720p)",
-      "tvg": {
-        "id": "TVA.tr@SD",
-        "name": "",
-        "logo": "https://www.lyngsat.com/logo/tv/tt/tva-tr.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://live.artidijitalmedya.com/artidijital_tva/tva/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TVA.tr@SD\" tvg-logo=\"https://www.lyngsat.com/logo/tv/tt/tva-tr.png\" group-title=\"General\",TV A (720p)\r\r\nhttps://live.artidijitalmedya.com/artidijital_tva/tva/playlist.m3u8\r",
-      "line": 399,
       "catchup": {
         "type": "",
         "days": "",
@@ -3645,34 +3533,6 @@
       "status": "OK"
     },
     {
-      "name": "ÜÜ TV Üsküdar Üniversitesi TV (1080p) [Not 24/7]",
-      "tvg": {
-        "id": "UUTV2.tr@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/FjFjdY5.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://uskudarunv.mediatriple.net/uskudarunv/uskudar2/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"UUTV2.tr@SD\" tvg-logo=\"https://i.imgur.com/FjFjdY5.png\" group-title=\"Undefined\",ÜÜ TV Üsküdar Üniversitesi TV (1080p) [Not 24/7]\r\r\nhttps://uskudarunv.mediatriple.net/uskudarunv/uskudar2/playlist.m3u8\r",
-      "line": 419,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "V TV (720p)",
       "tvg": {
         "id": "VTV.tr@SD",
@@ -3701,11 +3561,11 @@
       "status": "OK"
     },
     {
-      "name": "Vav TV",
+      "name": "ÜÜ TV Üsküdar Üniversitesi TV (1080p) [Not 24/7]",
       "tvg": {
-        "id": "VavTV.tr@SD",
+        "id": "UUTV2.tr@SD",
         "name": "",
-        "logo": "https://i.postimg.cc/qM8jHK62/vavtv.png",
+        "logo": "https://i.imgur.com/FjFjdY5.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -3717,9 +3577,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://playlist.fasttvcdn.com/pl/rfrk9821hdy9dayo8wfyha/kltr-sanat-tv/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"VavTV.tr@SD\" tvg-logo=\"https://i.postimg.cc/qM8jHK62/vavtv.png\" group-title=\"Undefined\",Vav TV\r\r\nhttps://playlist.fasttvcdn.com/pl/rfrk9821hdy9dayo8wfyha/kltr-sanat-tv/playlist.m3u8\r",
-      "line": 424,
+      "url": "https://uskudarunv.mediatriple.net/uskudarunv/uskudar2/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"UUTV2.tr@SD\" tvg-logo=\"https://i.imgur.com/FjFjdY5.png\" group-title=\"Undefined\",ÜÜ TV Üsküdar Üniversitesi TV (1080p) [Not 24/7]\r\r\nhttps://uskudarunv.mediatriple.net/uskudarunv/uskudar2/playlist.m3u8\r",
+      "line": 419,
       "catchup": {
         "type": "",
         "days": "",
@@ -3757,11 +3617,11 @@
       "status": "OK"
     },
     {
-      "name": "Vizyon 58 TV (720p) [Geo-blocked]",
+      "name": "Vav TV",
       "tvg": {
-        "id": "Vizyon58TV.tr@SD",
+        "id": "VavTV.tr@SD",
         "name": "",
-        "logo": "https://i.imgur.com/tITBc59.png",
+        "logo": "https://i.postimg.cc/qM8jHK62/vavtv.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -3773,9 +3633,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://live.artidijitalmedya.com/artidijital_vizyon58/vizyon58/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Vizyon58TV.tr@SD\" tvg-logo=\"https://i.imgur.com/tITBc59.png\" group-title=\"Undefined\",Vizyon 58 TV (720p) [Geo-blocked]\r\r\nhttps://live.artidijitalmedya.com/artidijital_vizyon58/vizyon58/playlist.m3u8\r",
-      "line": 428,
+      "url": "https://playlist.fasttvcdn.com/pl/rfrk9821hdy9dayo8wfyha/kltr-sanat-tv/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"VavTV.tr@SD\" tvg-logo=\"https://i.postimg.cc/qM8jHK62/vavtv.png\" group-title=\"Undefined\",Vav TV\r\r\nhttps://playlist.fasttvcdn.com/pl/rfrk9821hdy9dayo8wfyha/kltr-sanat-tv/playlist.m3u8\r",
+      "line": 424,
       "catchup": {
         "type": "",
         "days": "",
