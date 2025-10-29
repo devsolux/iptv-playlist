@@ -117,34 +117,6 @@
       "status": "OK"
     },
     {
-      "name": "Attica TV (1080p)",
-      "tvg": {
-        "id": "AtticaTV.gr@SD",
-        "name": "",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Attica_logo_155.jpg",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://atticatv.siliconweb.com/atticatv/atticaliveabr/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"AtticaTV.gr@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/c/c5/Attica_logo_155.jpg\" group-title=\"General\",Attica TV (1080p)\r\r\nhttp://atticatv.siliconweb.com/atticatv/atticaliveabr/playlist.m3u8\r",
-      "line": 26,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "ART TV",
       "tvg": {
         "id": "ARTTV.gr@SD",
@@ -164,6 +136,34 @@
       "url": "https://rtmp.win:3696/live/arttvgrlive.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"ARTTV.gr@SD\" tvg-logo=\"https://i.imgur.com/8uS0sib.png\" group-title=\"General\",ART TV\r\r\nhttps://rtmp.win:3696/live/arttvgrlive.m3u8\r",
       "line": 22,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Attica TV (1080p)",
+      "tvg": {
+        "id": "AtticaTV.gr@SD",
+        "name": "",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Attica_logo_155.jpg",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://atticatv.siliconweb.com/atticatv/atticaliveabr/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"AtticaTV.gr@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/c/c5/Attica_logo_155.jpg\" group-title=\"General\",Attica TV (1080p)\r\r\nhttp://atticatv.siliconweb.com/atticatv/atticaliveabr/playlist.m3u8\r",
+      "line": 26,
       "catchup": {
         "type": "",
         "days": "",
@@ -341,11 +341,11 @@
       "status": "OK"
     },
     {
-      "name": "Dipso TV (720p) [Not 24/7]",
+      "name": "DELTA TV (720p)",
       "tvg": {
-        "id": "DipsoTV.gr@SD",
+        "id": "DELTATV.gr@SD",
         "name": "",
-        "logo": "https://i.imgur.com/aD0AMrP.png",
+        "logo": "https://i.ibb.co/Nt79gnx/319386123-3050873715211949-6691293256713061450-n-1024x752.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -357,9 +357,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://live.cast-control.eu/ekpdipso/ekpdipso/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"DipsoTV.gr@SD\" tvg-logo=\"https://i.imgur.com/aD0AMrP.png\" group-title=\"General\",Dipso TV (720p) [Not 24/7]\r\r\nhttps://live.cast-control.eu/ekpdipso/ekpdipso/playlist.m3u8\r",
-      "line": 58,
+      "url": "http://81.171.10.42:554/liveD/DStream.sdp/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"DELTATV.gr@SD\" tvg-logo=\"https://i.ibb.co/Nt79gnx/319386123-3050873715211949-6691293256713061450-n-1024x752.png\" group-title=\"General\",DELTA TV (720p)\r\r\nhttp://81.171.10.42:554/liveD/DStream.sdp/playlist.m3u8\r",
+      "line": 52,
       "catchup": {
         "type": "",
         "days": "",
@@ -397,6 +397,34 @@
       "status": "OK"
     },
     {
+      "name": "Dipso TV (720p) [Not 24/7]",
+      "tvg": {
+        "id": "DipsoTV.gr@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/aD0AMrP.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://live.cast-control.eu/ekpdipso/ekpdipso/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"DipsoTV.gr@SD\" tvg-logo=\"https://i.imgur.com/aD0AMrP.png\" group-title=\"General\",Dipso TV (720p) [Not 24/7]\r\r\nhttps://live.cast-control.eu/ekpdipso/ekpdipso/playlist.m3u8\r",
+      "line": 58,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Egnatia TV (576p)",
       "tvg": {
         "id": "EgnatiaTV.gr@SD",
@@ -425,25 +453,53 @@
       "status": "OK"
     },
     {
-      "name": "DELTA TV (720p)",
+      "name": "Faros TV (540p) [Geo-blocked]",
       "tvg": {
-        "id": "DELTATV.gr@SD",
+        "id": "FarosTV.gr@SD",
         "name": "",
-        "logo": "https://i.ibb.co/Nt79gnx/319386123-3050873715211949-6691293256713061450-n-1024x752.png",
+        "logo": "https://i.imgur.com/X19638q.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "General"
+        "title": "Undefined"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "http://81.171.10.42:554/liveD/DStream.sdp/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"DELTATV.gr@SD\" tvg-logo=\"https://i.ibb.co/Nt79gnx/319386123-3050873715211949-6691293256713061450-n-1024x752.png\" group-title=\"General\",DELTA TV (720p)\r\r\nhttp://81.171.10.42:554/liveD/DStream.sdp/playlist.m3u8\r",
-      "line": 52,
+      "url": "https://s1.cystream.net/live/faros1/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"FarosTV.gr@SD\" tvg-logo=\"https://i.imgur.com/X19638q.png\" group-title=\"Undefined\",Faros TV (540p) [Geo-blocked]\r\r\nhttps://s1.cystream.net/live/faros1/playlist.m3u8\r",
+      "line": 94,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Faros TV2 (480p) [Geo-blocked]",
+      "tvg": {
+        "id": "FarosTV2.gr@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/7xtz1Jo.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://s1.cystream.net/live/faros2/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"FarosTV2.gr@SD\" tvg-logo=\"https://i.imgur.com/7xtz1Jo.png\" group-title=\"Undefined\",Faros TV2 (480p) [Geo-blocked]\r\r\nhttps://s1.cystream.net/live/faros2/playlist.m3u8\r",
+      "line": 96,
       "catchup": {
         "type": "",
         "days": "",
@@ -668,6 +724,34 @@
       "url": "https://thor.mental-media.gr:19360/imp/imp.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"LychnosTV.gr@SD\" tvg-logo=\"https://i.ibb.co/pJbKsVm/Lychnos-Tv-live-vipotv-greece.png\" group-title=\"Religious\",Lychnos TV (1080p)\r\r\nhttps://thor.mental-media.gr:19360/imp/imp.m3u8\r",
       "line": 125,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Naftemporiki TV (1080p)",
+      "tvg": {
+        "id": "NaftemporikiTV.gr@HD",
+        "name": "",
+        "logo": "https://i.imgur.com/9OFdMud.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "News"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://stream-188125.castr.net/631af9c016e5eace19ff9a5b/live_048998706a2311ee83b33fe7fbad252d/index.fmp4.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"NaftemporikiTV.gr@HD\" tvg-logo=\"https://i.imgur.com/9OFdMud.png\" group-title=\"News\",Naftemporiki TV (1080p)\r\r\nhttps://stream-188125.castr.net/631af9c016e5eace19ff9a5b/live_048998706a2311ee83b33fe7fbad252d/index.fmp4.m3u8\r",
+      "line": 135,
       "catchup": {
         "type": "",
         "days": "",
@@ -957,6 +1041,34 @@
       "status": "OK"
     },
     {
+      "name": "Samiaki TV (540p) [Not 24/7]",
+      "tvg": {
+        "id": "SamiakiTV.gr@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/9Pf1we6.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://live.cast-control.eu:1935/samiaki/samiaki/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"SamiakiTV.gr@SD\" tvg-logo=\"https://i.imgur.com/9Pf1we6.png\" group-title=\"Undefined\",Samiaki TV (540p) [Not 24/7]\r\r\nhttp://live.cast-control.eu:1935/samiaki/samiaki/playlist.m3u8\r",
+      "line": 179,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Skai TV (720p)",
       "tvg": {
         "id": "SkaiTV.gr@SD",
@@ -985,25 +1097,25 @@
       "status": "OK"
     },
     {
-      "name": "Samiaki TV (540p) [Not 24/7]",
+      "name": "Smile TV (360p) [Geo-blocked]",
       "tvg": {
-        "id": "SamiakiTV.gr@SD",
+        "id": "SmileTV.gr@SD",
         "name": "",
-        "logo": "https://i.imgur.com/9Pf1we6.png",
+        "logo": "https://i.imgur.com/IAb4Gbf.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Undefined"
+        "title": "Kids"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "http://live.cast-control.eu:1935/samiaki/samiaki/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"SamiakiTV.gr@SD\" tvg-logo=\"https://i.imgur.com/9Pf1we6.png\" group-title=\"Undefined\",Samiaki TV (540p) [Not 24/7]\r\r\nhttp://live.cast-control.eu:1935/samiaki/samiaki/playlist.m3u8\r",
-      "line": 179,
+      "url": "https://s1.cystream.net/live/smile/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"SmileTV.gr@SD\" tvg-logo=\"https://i.imgur.com/IAb4Gbf.png\" group-title=\"Kids\",Smile TV (360p) [Geo-blocked]\r\r\nhttps://s1.cystream.net/live/smile/playlist.m3u8\r",
+      "line": 183,
       "catchup": {
         "type": "",
         "days": "",
