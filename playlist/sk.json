@@ -61,6 +61,34 @@
       "status": "OK"
     },
     {
+      "name": "BTV (480p)",
+      "tvg": {
+        "id": "BTV.sk@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/5CZ6HHn.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://fs3.kabelko.sk/9011/index.m3u8?token=btv",
+      "raw": "#EXTINF:-1 tvg-id=\"BTV.sk@SD\" tvg-logo=\"https://i.imgur.com/5CZ6HHn.png\" group-title=\"Undefined\",BTV (480p)\r\r\nhttps://fs3.kabelko.sk/9011/index.m3u8?token=btv\r",
+      "line": 6,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "MTR (1080p)",
       "tvg": {
         "id": "MTR.sk@SD",
@@ -80,34 +108,6 @@
       "url": "https://cdnsk003.panaccess.com/local/Ruzomberok/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"MTR.sk@SD\" tvg-logo=\"https://www.mtr.sk/img/logo-mtr-0.png\" group-title=\"General\",MTR (1080p)\r\r\nhttps://cdnsk003.panaccess.com/local/Ruzomberok/index.m3u8\r",
       "line": 20,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "LifeTv (1080p)",
-      "tvg": {
-        "id": "LifeTv.sk@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/jO8kAY2.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Religious"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://lifetv.mpks.sk/s.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"LifeTv.sk@SD\" tvg-logo=\"https://i.imgur.com/jO8kAY2.png\" group-title=\"Religious\",LifeTv (1080p)\r\r\nhttps://lifetv.mpks.sk/s.m3u8\r",
-      "line": 16,
       "catchup": {
         "type": "",
         "days": "",
@@ -145,53 +145,25 @@
       "status": "OK"
     },
     {
-      "name": "BTV (480p)",
+      "name": "LifeTv (1080p)",
       "tvg": {
-        "id": "BTV.sk@SD",
+        "id": "LifeTv.sk@SD",
         "name": "",
-        "logo": "https://i.imgur.com/5CZ6HHn.png",
+        "logo": "https://i.imgur.com/jO8kAY2.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Undefined"
+        "title": "Religious"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://fs3.kabelko.sk/9011/index.m3u8?token=btv",
-      "raw": "#EXTINF:-1 tvg-id=\"BTV.sk@SD\" tvg-logo=\"https://i.imgur.com/5CZ6HHn.png\" group-title=\"Undefined\",BTV (480p)\r\r\nhttps://fs3.kabelko.sk/9011/index.m3u8?token=btv\r",
-      "line": 6,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Televízia Močenok (720p)",
-      "tvg": {
-        "id": "TeleviziaMocenok.sk@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/psb8GxZ.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://5ca49f2417d90.streamlock.net/mocenok/livestream/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TeleviziaMocenok.sk@SD\" tvg-logo=\"https://i.imgur.com/psb8GxZ.png\" group-title=\"General\",Televízia Močenok (720p)\r\r\nhttps://5ca49f2417d90.streamlock.net/mocenok/livestream/playlist.m3u8\r",
-      "line": 42,
+      "url": "https://lifetv.mpks.sk/s.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"LifeTv.sk@SD\" tvg-logo=\"https://i.imgur.com/jO8kAY2.png\" group-title=\"Religious\",LifeTv (1080p)\r\r\nhttps://lifetv.mpks.sk/s.m3u8\r",
+      "line": 16,
       "catchup": {
         "type": "",
         "days": "",
@@ -220,6 +192,34 @@
       "url": "http://109.74.145.11:1935/tv8/ngrp:tv8.stream_all/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TV8.sk@SD\" tvg-logo=\"https://i.imgur.com/Z7URrp1.png\" group-title=\"Undefined\",Televízia OSEM (576p)\r\r\nhttp://109.74.145.11:1935/tv8/ngrp:tv8.stream_all/playlist.m3u8\r",
       "line": 44,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Televízia Močenok (720p)",
+      "tvg": {
+        "id": "TeleviziaMocenok.sk@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/psb8GxZ.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://5ca49f2417d90.streamlock.net/mocenok/livestream/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"TeleviziaMocenok.sk@SD\" tvg-logo=\"https://i.imgur.com/psb8GxZ.png\" group-title=\"General\",Televízia Močenok (720p)\r\r\nhttps://5ca49f2417d90.streamlock.net/mocenok/livestream/playlist.m3u8\r",
+      "line": 42,
       "catchup": {
         "type": "",
         "days": "",
