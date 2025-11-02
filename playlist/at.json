@@ -61,6 +61,34 @@
       "status": "OK"
     },
     {
+      "name": "ATV (576p)",
+      "tvg": {
+        "id": "ATV.at@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/1pA0Tid.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://strm.hdtvizlecanli.com/live/atv.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"ATV.at@SD\" tvg-logo=\"https://i.imgur.com/1pA0Tid.png\" group-title=\"General\",ATV (576p)\r\r\nhttps://strm.hdtvizlecanli.com/live/atv.m3u8\r",
+      "line": 14,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "3sat HD (1080p)",
       "tvg": {
         "id": "3sat.de@HD",
@@ -89,11 +117,11 @@
       "status": "OK"
     },
     {
-      "name": "ATV (576p)",
+      "name": "ATV2 HD",
       "tvg": {
-        "id": "ATV.at@SD",
+        "id": "ATV2.at@HD",
         "name": "",
-        "logo": "https://i.imgur.com/1pA0Tid.png",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Logo_ATV2.svg/512px-Logo_ATV2.svg.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -105,9 +133,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://strm.hdtvizlecanli.com/live/atv.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"ATV.at@SD\" tvg-logo=\"https://i.imgur.com/1pA0Tid.png\" group-title=\"General\",ATV (576p)\r\r\nhttps://strm.hdtvizlecanli.com/live/atv.m3u8\r",
-      "line": 14,
+      "url": "https://viamotionhsi.netplus.ch/live/eds/atv/browser-dash/atv.mpd",
+      "raw": "#EXTINF:-1 tvg-id=\"ATV2.at@HD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Logo_ATV2.svg/512px-Logo_ATV2.svg.png\" group-title=\"General\",ATV2 HD\r\r\nhttps://viamotionhsi.netplus.ch/live/eds/atv/browser-dash/atv.mpd\r",
+      "line": 16,
       "catchup": {
         "type": "",
         "days": "",
@@ -145,34 +173,6 @@
       "status": "OK"
     },
     {
-      "name": "Disney Channel (576p)",
-      "tvg": {
-        "id": "DisneyChannel.de@SD",
-        "name": "",
-        "logo": "https://i.postimg.cc/854KwmH1/disneychannel.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Kids"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://viamotionhsi.netplus.ch/live/eds/disneychannelde/browser-HLS8/disneychannelde.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"DisneyChannel.de@SD\" tvg-logo=\"https://i.postimg.cc/854KwmH1/disneychannel.png\" group-title=\"Kids\",Disney Channel (576p)\r\r\nhttps://viamotionhsi.netplus.ch/live/eds/disneychannelde/browser-HLS8/disneychannelde.m3u8\r",
-      "line": 20,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "FS1 Salzburg (720p) [Not 24/7]",
       "tvg": {
         "id": "FS1Salzburg.at@SD",
@@ -201,6 +201,34 @@
       "status": "OK"
     },
     {
+      "name": "Disney Channel (576p)",
+      "tvg": {
+        "id": "DisneyChannel.de@SD",
+        "name": "",
+        "logo": "https://i.postimg.cc/854KwmH1/disneychannel.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Kids"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://viamotionhsi.netplus.ch/live/eds/disneychannelde/browser-HLS8/disneychannelde.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"DisneyChannel.de@SD\" tvg-logo=\"https://i.postimg.cc/854KwmH1/disneychannel.png\" group-title=\"Kids\",Disney Channel (576p)\r\r\nhttps://viamotionhsi.netplus.ch/live/eds/disneychannelde/browser-HLS8/disneychannelde.m3u8\r",
+      "line": 20,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "K-TV (720p)",
       "tvg": {
         "id": "KTV.at@SD",
@@ -220,34 +248,6 @@
       "url": "https://d1pz8zear993v8.cloudfront.net/hlsme/kathtv.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"KTV.at@SD\" tvg-logo=\"https://i.imgur.com/RYbR4Sf.png\" group-title=\"Religious\",K-TV (720p)\r\r\nhttps://d1pz8zear993v8.cloudfront.net/hlsme/kathtv.m3u8\r",
       "line": 28,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "ATV2 HD",
-      "tvg": {
-        "id": "ATV2.at@HD",
-        "name": "",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Logo_ATV2.svg/512px-Logo_ATV2.svg.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://viamotionhsi.netplus.ch/live/eds/atv/browser-dash/atv.mpd",
-      "raw": "#EXTINF:-1 tvg-id=\"ATV2.at@HD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Logo_ATV2.svg/512px-Logo_ATV2.svg.png\" group-title=\"General\",ATV2 HD\r\r\nhttps://viamotionhsi.netplus.ch/live/eds/atv/browser-dash/atv.mpd\r",
-      "line": 16,
       "catchup": {
         "type": "",
         "days": "",
@@ -304,34 +304,6 @@
       "url": "https://bitcdn-kronehit.bitmovin.com/v2/hls/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"Kronehit.at@SD\" tvg-logo=\"https://i.imgur.com/dQJQv1X.png\" group-title=\"Music\",Kronehit (1080p)\r\r\nhttps://bitcdn-kronehit.bitmovin.com/v2/hls/playlist.m3u8\r",
       "line": 32,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "N24 Doku",
-      "tvg": {
-        "id": "N24DokuAustria.at@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/qgoXJu4.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Documentary"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/60080e8a4bf36000076a81b1/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=1b1f1163-4b81-11ef-a8ac-e146e4e7be02&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=3c70bac9-b6d8-44d7-bde9-a992a6bfd7ab",
-      "raw": "#EXTINF:-1 tvg-id=\"N24DokuAustria.at@SD\" tvg-logo=\"https://i.imgur.com/qgoXJu4.png\" group-title=\"Documentary\",N24 Doku\r\r\nhttp://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/60080e8a4bf36000076a81b1/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=1b1f1163-4b81-11ef-a8ac-e146e4e7be02&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=3c70bac9-b6d8-44d7-bde9-a992a6bfd7ab\r",
-      "line": 36,
       "catchup": {
         "type": "",
         "days": "",
@@ -565,6 +537,34 @@
       "status": "OK"
     },
     {
+      "name": "N24 Doku",
+      "tvg": {
+        "id": "N24DokuAustria.at@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/qgoXJu4.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Documentary"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/60080e8a4bf36000076a81b1/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=1b1f1163-4b81-11ef-a8ac-e146e4e7be02&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=3c70bac9-b6d8-44d7-bde9-a992a6bfd7ab",
+      "raw": "#EXTINF:-1 tvg-id=\"N24DokuAustria.at@SD\" tvg-logo=\"https://i.imgur.com/qgoXJu4.png\" group-title=\"Documentary\",N24 Doku\r\r\nhttp://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/60080e8a4bf36000076a81b1/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=1b1f1163-4b81-11ef-a8ac-e146e4e7be02&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=3c70bac9-b6d8-44d7-bde9-a992a6bfd7ab\r",
+      "line": 36,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "ORF Kids (720p)",
       "tvg": {
         "id": "ORFKids.at@SD",
@@ -677,34 +677,6 @@
       "status": "OK"
     },
     {
-      "name": "RTV (1080p) [Not 24/7]",
-      "tvg": {
-        "id": "RTV.at@SD",
-        "name": "",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/e/ed/RTV_OOE_Logo.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://iptv.rtv-ooe.at/stream.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"RTV.at@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/e/ed/RTV_OOE_Logo.png\" group-title=\"Undefined\",RTV (1080p) [Not 24/7]\r\r\nhttp://iptv.rtv-ooe.at/stream.m3u8\r",
-      "line": 74,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "RTL Super",
       "tvg": {
         "id": "RTLSuper.de@SD",
@@ -761,11 +733,11 @@
       "status": "OK"
     },
     {
-      "name": "Stimmungsgarten TV",
+      "name": "Steiermark TV (1080p)",
       "tvg": {
-        "id": "StimmungsgartenTV.at@SD",
+        "id": "SteiermarkTV.at@SD",
         "name": "",
-        "logo": "https://i.postimg.cc/FHqh4Rz4/stimmungsgartentv.png",
+        "logo": "https://i.imgur.com/AJrUPze.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -777,9 +749,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://live20.bozztv.com/akamaissh101/ssh101/stimmungsgarten/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"StimmungsgartenTV.at@SD\" tvg-logo=\"https://i.postimg.cc/FHqh4Rz4/stimmungsgartentv.png\" group-title=\"General\",Stimmungsgarten TV\r\r\nhttps://live20.bozztv.com/akamaissh101/ssh101/stimmungsgarten/playlist.m3u8\r",
-      "line": 84,
+      "url": "https://h056.video-stream-hosting.de/easycast8-live/_definst_/mp4:livestreamhd4/playlist.m3u8?ref=",
+      "raw": "#EXTINF:-1 tvg-id=\"SteiermarkTV.at@SD\" tvg-logo=\"https://i.imgur.com/AJrUPze.png\" group-title=\"General\",Steiermark TV (1080p)\r\r\nhttps://h056.video-stream-hosting.de/easycast8-live/_definst_/mp4:livestreamhd4/playlist.m3u8?ref=\r",
+      "line": 82,
       "catchup": {
         "type": "",
         "days": "",
@@ -817,6 +789,34 @@
       "status": "OK"
     },
     {
+      "name": "Stimmungsgarten TV",
+      "tvg": {
+        "id": "StimmungsgartenTV.at@SD",
+        "name": "",
+        "logo": "https://i.postimg.cc/FHqh4Rz4/stimmungsgartentv.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://live20.bozztv.com/akamaissh101/ssh101/stimmungsgarten/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"StimmungsgartenTV.at@SD\" tvg-logo=\"https://i.postimg.cc/FHqh4Rz4/stimmungsgartentv.png\" group-title=\"General\",Stimmungsgarten TV\r\r\nhttps://live20.bozztv.com/akamaissh101/ssh101/stimmungsgarten/playlist.m3u8\r",
+      "line": 84,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Super RTL HD (720p)",
       "tvg": {
         "id": "RTLSuper.de@HD",
@@ -836,34 +836,6 @@
       "url": "https://forsizero.github.io/iptv/m3u/superrtlhd.m3u",
       "raw": "#EXTINF:-1 tvg-id=\"RTLSuper.de@HD\" tvg-logo=\"https://i.imgur.com/KbdK8t9.png\" group-title=\"Undefined\" http-referrer=\"https://www.2ix2.com/super-rtl-live/\",Super RTL HD (720p)\r\r\n#EXTVLCOPT:http-referrer=https://www.2ix2.com/super-rtl-live/\r\r\nhttps://forsizero.github.io/iptv/m3u/superrtlhd.m3u\r",
       "line": 86,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Steiermark TV (1080p)",
-      "tvg": {
-        "id": "SteiermarkTV.at@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/AJrUPze.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://h056.video-stream-hosting.de/easycast8-live/_definst_/mp4:livestreamhd4/playlist.m3u8?ref=",
-      "raw": "#EXTINF:-1 tvg-id=\"SteiermarkTV.at@SD\" tvg-logo=\"https://i.imgur.com/AJrUPze.png\" group-title=\"General\",Steiermark TV (1080p)\r\r\nhttps://h056.video-stream-hosting.de/easycast8-live/_definst_/mp4:livestreamhd4/playlist.m3u8?ref=\r",
-      "line": 82,
       "catchup": {
         "type": "",
         "days": "",
@@ -929,34 +901,6 @@
       "status": "OK"
     },
     {
-      "name": "TV 1 Oberösterreich (1080p)",
-      "tvg": {
-        "id": "TV1Oberosterreich.at@SD",
-        "name": "",
-        "logo": "https://i.postimg.cc/Qx34YmYp/tv1oberosterreich.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://streaming10.huberwebmedia.at/LiveApp/streams/238985177034727564068269_adaptive.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TV1Oberosterreich.at@SD\" tvg-logo=\"https://i.postimg.cc/Qx34YmYp/tv1oberosterreich.png\" group-title=\"Undefined\",TV 1 Oberösterreich (1080p)\r\r\nhttps://streaming10.huberwebmedia.at/LiveApp/streams/238985177034727564068269_adaptive.m3u8\r",
-      "line": 97,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Tirol TV (720p) [Not 24/7]",
       "tvg": {
         "id": "TirolTV.at@SD",
@@ -985,25 +929,25 @@
       "status": "OK"
     },
     {
-      "name": "Zee One (1080p)",
+      "name": "TV 1 Oberösterreich (1080p)",
       "tvg": {
-        "id": "ZeeOne.de@SD",
+        "id": "TV1Oberosterreich.at@SD",
         "name": "",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/2/24/Zee_One_Logo_2025.png",
+        "logo": "https://i.postimg.cc/Qx34YmYp/tv1oberosterreich.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Entertainment"
+        "title": "Undefined"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://amg17931-zee-amg17931c6-samsung-au-8872.playouts.now.amagi.tv/playlist/amg17931-asiatvusaltdfast-zeeworld-samsungau/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"ZeeOne.de@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/2/24/Zee_One_Logo_2025.png\" group-title=\"Entertainment\",Zee One (1080p)\r\r\nhttps://amg17931-zee-amg17931c6-samsung-au-8872.playouts.now.amagi.tv/playlist/amg17931-asiatvusaltdfast-zeeworld-samsungau/playlist.m3u8\r",
-      "line": 103,
+      "url": "https://streaming10.huberwebmedia.at/LiveApp/streams/238985177034727564068269_adaptive.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"TV1Oberosterreich.at@SD\" tvg-logo=\"https://i.postimg.cc/Qx34YmYp/tv1oberosterreich.png\" group-title=\"Undefined\",TV 1 Oberösterreich (1080p)\r\r\nhttps://streaming10.huberwebmedia.at/LiveApp/streams/238985177034727564068269_adaptive.m3u8\r",
+      "line": 97,
       "catchup": {
         "type": "",
         "days": "",
@@ -1032,6 +976,62 @@
       "url": "https://ms01.w24.at/W24/smil:liveevent.smil/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"W24.at@SD\" tvg-logo=\"https://i.imgur.com/FpVNrxk.png\" group-title=\"Undefined\",W24 (720p) [Not 24/7]\r\r\nhttps://ms01.w24.at/W24/smil:liveevent.smil/playlist.m3u8\r",
       "line": 101,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "RTV (1080p) [Not 24/7]",
+      "tvg": {
+        "id": "RTV.at@SD",
+        "name": "",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/e/ed/RTV_OOE_Logo.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://iptv.rtv-ooe.at/stream.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"RTV.at@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/e/ed/RTV_OOE_Logo.png\" group-title=\"Undefined\",RTV (1080p) [Not 24/7]\r\r\nhttp://iptv.rtv-ooe.at/stream.m3u8\r",
+      "line": 74,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Zee One (1080p)",
+      "tvg": {
+        "id": "ZeeOne.de@SD",
+        "name": "",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/2/24/Zee_One_Logo_2025.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Entertainment"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://amg17931-zee-amg17931c6-samsung-au-8872.playouts.now.amagi.tv/playlist/amg17931-asiatvusaltdfast-zeeworld-samsungau/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"ZeeOne.de@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/2/24/Zee_One_Logo_2025.png\" group-title=\"Entertainment\",Zee One (1080p)\r\r\nhttps://amg17931-zee-amg17931c6-samsung-au-8872.playouts.now.amagi.tv/playlist/amg17931-asiatvusaltdfast-zeeworld-samsungau/playlist.m3u8\r",
+      "line": 103,
       "catchup": {
         "type": "",
         "days": "",
