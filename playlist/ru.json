@@ -5,34 +5,6 @@
   },
   "items": [
     {
-      "name": "5 Канал",
-      "tvg": {
-        "id": "Channel5.ru@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/KPXMa3U.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://streaming.televizor-24-tochka.ru/live/8.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Channel5.ru@SD\" tvg-logo=\"https://i.imgur.com/KPXMa3U.png\" group-title=\"General\",5 Канал\r\r\nhttps://streaming.televizor-24-tochka.ru/live/8.m3u8\r",
-      "line": 5,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "12 канал (1080p)",
       "tvg": {
         "id": "Channel12.ru@SD",
@@ -52,62 +24,6 @@
       "url": "https://12channel.bonus-tv.ru/cdn/12channel/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"Channel12.ru@SD\" tvg-logo=\"https://i.imgur.com/OA9hm6e.png\" group-title=\"General\",12 канал (1080p)\r\r\nhttps://12channel.bonus-tv.ru/cdn/12channel/playlist.m3u8\r",
       "line": 7,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Amedia 1",
-      "tvg": {
-        "id": "A1.ru@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/2pAHdAi.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Music"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://31.148.48.15/A1/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"A1.ru@SD\" tvg-logo=\"https://i.imgur.com/2pAHdAi.png\" group-title=\"Music\",Amedia 1\r\r\nhttp://31.148.48.15/A1/index.m3u8\r",
-      "line": 13,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Amedia 2",
-      "tvg": {
-        "id": "A2.ru@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/NqHla2V.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Series"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://31.148.48.15/A2/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"A2.ru@SD\" tvg-logo=\"https://i.imgur.com/NqHla2V.png\" group-title=\"Series\",Amedia 2\r\r\nhttp://31.148.48.15/A2/index.m3u8\r",
-      "line": 15,
       "catchup": {
         "type": "",
         "days": "",
@@ -173,25 +89,53 @@
       "status": "OK"
     },
     {
-      "name": "Ani",
+      "name": "Amedia 1",
       "tvg": {
-        "id": "Ani.ru@SD",
+        "id": "A1.ru@SD",
         "name": "",
-        "logo": "https://i.imgur.com/i2AP0hp.png",
+        "logo": "https://i.imgur.com/2pAHdAi.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Kids"
+        "title": "Music"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "http://stv.mediacdn.ru/live/cdn/ani/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Ani.ru@SD\" tvg-logo=\"https://i.imgur.com/i2AP0hp.png\" group-title=\"Kids\",Ani\r\r\nhttp://stv.mediacdn.ru/live/cdn/ani/playlist.m3u8\r",
-      "line": 19,
+      "url": "http://31.148.48.15/A1/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"A1.ru@SD\" tvg-logo=\"https://i.imgur.com/2pAHdAi.png\" group-title=\"Music\",Amedia 1\r\r\nhttp://31.148.48.15/A1/index.m3u8\r",
+      "line": 13,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Amedia 2",
+      "tvg": {
+        "id": "A2.ru@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/NqHla2V.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Series"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://31.148.48.15/A2/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"A2.ru@SD\" tvg-logo=\"https://i.imgur.com/NqHla2V.png\" group-title=\"Series\",Amedia 2\r\r\nhttp://31.148.48.15/A2/index.m3u8\r",
+      "line": 15,
       "catchup": {
         "type": "",
         "days": "",
@@ -229,25 +173,25 @@
       "status": "OK"
     },
     {
-      "name": "Angel TV Russian (720p)",
+      "name": "BRIDGE Classic",
       "tvg": {
-        "id": "AngelTV.in@Russian",
+        "id": "BRIDGEClassic.ru@SD",
         "name": "",
-        "logo": "https://i.imgur.com/qKLEGU7.png",
+        "logo": "https://i.imgur.com/JJTQq81.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Religious"
+        "title": "Classic;Music"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://janya-digimix.akamaized.net/vglive-sk-955415/russia/ngrp:angelrussia_all/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"AngelTV.in@Russian\" tvg-logo=\"https://i.imgur.com/qKLEGU7.png\" group-title=\"Religious\",Angel TV Russian (720p)\r\r\nhttps://janya-digimix.akamaized.net/vglive-sk-955415/russia/ngrp:angelrussia_all/playlist.m3u8\r",
-      "line": 17,
+      "url": "http://31.148.48.15/Bridge_TV_Classic/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"BRIDGEClassic.ru@SD\" tvg-logo=\"https://i.imgur.com/JJTQq81.png\" group-title=\"Classic;Music\",BRIDGE Classic\r\r\nhttp://31.148.48.15/Bridge_TV_Classic/index.m3u8\r",
+      "line": 23,
       "catchup": {
         "type": "",
         "days": "",
@@ -285,25 +229,25 @@
       "status": "OK"
     },
     {
-      "name": "BRIDGE Classic",
+      "name": "Angel TV Russian (720p)",
       "tvg": {
-        "id": "BRIDGEClassic.ru@SD",
+        "id": "AngelTV.in@Russian",
         "name": "",
-        "logo": "https://i.imgur.com/JJTQq81.png",
+        "logo": "https://i.imgur.com/qKLEGU7.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Classic;Music"
+        "title": "Religious"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "http://31.148.48.15/Bridge_TV_Classic/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"BRIDGEClassic.ru@SD\" tvg-logo=\"https://i.imgur.com/JJTQq81.png\" group-title=\"Classic;Music\",BRIDGE Classic\r\r\nhttp://31.148.48.15/Bridge_TV_Classic/index.m3u8\r",
-      "line": 23,
+      "url": "https://janya-digimix.akamaized.net/vglive-sk-955415/russia/ngrp:angelrussia_all/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"AngelTV.in@Russian\" tvg-logo=\"https://i.imgur.com/qKLEGU7.png\" group-title=\"Religious\",Angel TV Russian (720p)\r\r\nhttps://janya-digimix.akamaized.net/vglive-sk-955415/russia/ngrp:angelrussia_all/playlist.m3u8\r",
+      "line": 17,
       "catchup": {
         "type": "",
         "days": "",
@@ -369,6 +313,34 @@
       "status": "OK"
     },
     {
+      "name": "Ani",
+      "tvg": {
+        "id": "Ani.ru@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/i2AP0hp.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Kids"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://stv.mediacdn.ru/live/cdn/ani/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Ani.ru@SD\" tvg-logo=\"https://i.imgur.com/i2AP0hp.png\" group-title=\"Kids\",Ani\r\r\nhttp://stv.mediacdn.ru/live/cdn/ani/playlist.m3u8\r",
+      "line": 19,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Europa Plus TV",
       "tvg": {
         "id": "EuropaPlusTV.ru@SD",
@@ -397,34 +369,6 @@
       "status": "OK"
     },
     {
-      "name": "Cinema",
-      "tvg": {
-        "id": "Cinema.ru@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/b5e9qUA.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Movies"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://catchup.videoline.ru/cinema/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Cinema.ru@SD\" tvg-logo=\"https://i.imgur.com/b5e9qUA.png\" group-title=\"Movies\",Cinema\r\r\nhttp://catchup.videoline.ru/cinema/playlist.m3u8\r",
-      "line": 29,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "FoodTime",
       "tvg": {
         "id": "FoodTime.ru@SD",
@@ -444,6 +388,34 @@
       "url": "http://31.148.48.15/Eda_Premium_HD/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"FoodTime.ru@SD\" tvg-logo=\"https://i.imgur.com/gxCYAwH.png\" group-title=\"Cooking\",FoodTime\r\r\nhttp://31.148.48.15/Eda_Premium_HD/index.m3u8\r",
       "line": 37,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Cinema",
+      "tvg": {
+        "id": "Cinema.ru@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/b5e9qUA.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Movies"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://catchup.videoline.ru/cinema/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Cinema.ru@SD\" tvg-logo=\"https://i.imgur.com/b5e9qUA.png\" group-title=\"Movies\",Cinema\r\r\nhttp://catchup.videoline.ru/cinema/playlist.m3u8\r",
+      "line": 29,
       "catchup": {
         "type": "",
         "days": "",
@@ -537,25 +509,25 @@
       "status": "OK"
     },
     {
-      "name": "MMA-TV.com",
+      "name": "MGM HD [Not 24/7]",
       "tvg": {
-        "id": "MMATVcom.ru@SD",
+        "id": "MGMHD.us@CatcastRU",
         "name": "",
-        "logo": "https://i.imgur.com/QhdxNsB.png",
+        "logo": "https://i.imgur.com/FRbtrxo.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Sports"
+        "title": "Movies"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://streams2.sofast.tv/vglive-sk-462904/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"MMATVcom.ru@SD\" tvg-logo=\"https://i.imgur.com/QhdxNsB.png\" group-title=\"Sports\",MMA-TV.com\r\r\nhttps://streams2.sofast.tv/vglive-sk-462904/playlist.m3u8\r",
-      "line": 51,
+      "url": "https://v2.catcast.tv/content/44051/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"MGMHD.us@CatcastRU\" tvg-logo=\"https://i.imgur.com/FRbtrxo.png\" group-title=\"Movies\",MGM HD [Not 24/7]\r\r\nhttps://v2.catcast.tv/content/44051/index.m3u8\r",
+      "line": 49,
       "catchup": {
         "type": "",
         "days": "",
@@ -593,25 +565,25 @@
       "status": "OK"
     },
     {
-      "name": "MGM HD [Not 24/7]",
+      "name": "Nicktoons (576p)",
       "tvg": {
-        "id": "MGMHD.us@CatcastRU",
+        "id": "Nicktoons.ru@SD",
         "name": "",
-        "logo": "https://i.imgur.com/FRbtrxo.png",
+        "logo": "https://i.postimg.cc/mZjCjNc5/nicktoons.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Movies"
+        "title": "Kids"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://v2.catcast.tv/content/44051/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"MGMHD.us@CatcastRU\" tvg-logo=\"https://i.imgur.com/FRbtrxo.png\" group-title=\"Movies\",MGM HD [Not 24/7]\r\r\nhttps://v2.catcast.tv/content/44051/index.m3u8\r",
-      "line": 49,
+      "url": "http://94.232.127.28:8080/nicktoons/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Nicktoons.ru@SD\" tvg-logo=\"https://i.postimg.cc/mZjCjNc5/nicktoons.png\" group-title=\"Kids\",Nicktoons (576p)\r\r\nhttp://94.232.127.28:8080/nicktoons/index.m3u8\r",
+      "line": 55,
       "catchup": {
         "type": "",
         "days": "",
@@ -640,34 +612,6 @@
       "url": "http://46.8.46.14/Nickelodeon/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"Nickelodeon.ru@SD\" tvg-logo=\"https://i.imgur.com/w8iE8dV.png\" group-title=\"Kids\",Nickelodeon (576p)\r\r\nhttp://46.8.46.14/Nickelodeon/index.m3u8\r",
       "line": 53,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Nicktoons (576p)",
-      "tvg": {
-        "id": "Nicktoons.ru@SD",
-        "name": "",
-        "logo": "https://i.postimg.cc/mZjCjNc5/nicktoons.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Kids"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://94.232.127.28:8080/nicktoons/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Nicktoons.ru@SD\" tvg-logo=\"https://i.postimg.cc/mZjCjNc5/nicktoons.png\" group-title=\"Kids\",Nicktoons (576p)\r\r\nhttp://94.232.127.28:8080/nicktoons/index.m3u8\r",
-      "line": 55,
       "catchup": {
         "type": "",
         "days": "",
@@ -761,6 +705,34 @@
       "status": "OK"
     },
     {
+      "name": "MMA-TV.com",
+      "tvg": {
+        "id": "MMATVcom.ru@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/QhdxNsB.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Sports"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://streams2.sofast.tv/vglive-sk-462904/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"MMATVcom.ru@SD\" tvg-logo=\"https://i.imgur.com/QhdxNsB.png\" group-title=\"Sports\",MMA-TV.com\r\r\nhttps://streams2.sofast.tv/vglive-sk-462904/playlist.m3u8\r",
+      "line": 51,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Shopping Live (576p) [Not 24/7]",
       "tvg": {
         "id": "ShoppingLive.ru@SD",
@@ -780,34 +752,6 @@
       "url": "http://serv30.vintera.tv:8081/shoppinglive/shoppinglive_stream/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"ShoppingLive.ru@SD\" tvg-logo=\"https://i.imgur.com/EMmGnjV.png\" group-title=\"Shop\",Shopping Live (576p) [Not 24/7]\r\r\nhttp://serv30.vintera.tv:8081/shoppinglive/shoppinglive_stream/playlist.m3u8\r",
       "line": 69,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "SGDF24.RU",
-      "tvg": {
-        "id": "SGDF24RU.ru@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/73XseJs.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://cdnfs.teonvi.com/sgdf/index.fmp4.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"SGDF24RU.ru@SD\" tvg-logo=\"https://i.imgur.com/73XseJs.png\" group-title=\"Undefined\",SGDF24.RU\r\r\nhttps://cdnfs.teonvi.com/sgdf/index.fmp4.m3u8\r",
-      "line": 67,
       "catchup": {
         "type": "",
         "days": "",
@@ -929,34 +873,6 @@
       "status": "OK"
     },
     {
-      "name": "STS Love",
-      "tvg": {
-        "id": "STSLove.ru@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/YBVZoDd.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Family"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://194.143.148.28:8080/CTC_LOVE/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"STSLove.ru@SD\" tvg-logo=\"https://i.imgur.com/YBVZoDd.png\" group-title=\"Family\",STS Love\r\r\nhttp://194.143.148.28:8080/CTC_LOVE/index.m3u8\r",
-      "line": 81,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "START World",
       "tvg": {
         "id": "STARTWorld.ru@SD",
@@ -985,53 +901,25 @@
       "status": "OK"
     },
     {
-      "name": "TV BRICS Russian (1080p)",
+      "name": "STS Love",
       "tvg": {
-        "id": "TVBRICSRussian.ru@SD",
+        "id": "STSLove.ru@SD",
         "name": "",
-        "logo": "https://i.imgur.com/vLpm8tN.png",
+        "logo": "https://i.imgur.com/YBVZoDd.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "General"
+        "title": "Family"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://rusbrics.mediacdn.ru/cdn/brics/russian/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TVBRICSRussian.ru@SD\" tvg-logo=\"https://i.imgur.com/vLpm8tN.png\" group-title=\"General\",TV BRICS Russian (1080p)\r\r\nhttps://rusbrics.mediacdn.ru/cdn/brics/russian/playlist.m3u8\r",
-      "line": 85,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "TERRA",
-      "tvg": {
-        "id": "TERRA.ru@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/ZxUjCpF.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Documentary"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://livetv.mylifeisgood.net.ru/channels/terra.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TERRA.ru@SD\" tvg-logo=\"https://i.imgur.com/ZxUjCpF.png\" group-title=\"Documentary\",TERRA\r\r\nhttps://livetv.mylifeisgood.net.ru/channels/terra.m3u8\r",
-      "line": 83,
+      "url": "http://194.143.148.28:8080/CTC_LOVE/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"STSLove.ru@SD\" tvg-logo=\"https://i.imgur.com/YBVZoDd.png\" group-title=\"Family\",STS Love\r\r\nhttp://194.143.148.28:8080/CTC_LOVE/index.m3u8\r",
+      "line": 81,
       "catchup": {
         "type": "",
         "days": "",
@@ -1069,25 +957,53 @@
       "status": "OK"
     },
     {
-      "name": "Univer TV (1080p) [Not 24/7]",
+      "name": "TERRA",
       "tvg": {
-        "id": "UniverTV.ru@SD",
+        "id": "TERRA.ru@SD",
         "name": "",
-        "logo": "https://i.imgur.com/r3u0mxr.png",
+        "logo": "https://i.imgur.com/ZxUjCpF.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Undefined"
+        "title": "Documentary"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://cdn.universmotri.ru/live/smil:mbr.smil/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"UniverTV.ru@SD\" tvg-logo=\"https://i.imgur.com/r3u0mxr.png\" group-title=\"Undefined\",Univer TV (1080p) [Not 24/7]\r\r\nhttps://cdn.universmotri.ru/live/smil:mbr.smil/playlist.m3u8\r",
-      "line": 89,
+      "url": "https://livetv.mylifeisgood.net.ru/channels/terra.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"TERRA.ru@SD\" tvg-logo=\"https://i.imgur.com/ZxUjCpF.png\" group-title=\"Documentary\",TERRA\r\r\nhttps://livetv.mylifeisgood.net.ru/channels/terra.m3u8\r",
+      "line": 83,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "TV BRICS Russian (1080p)",
+      "tvg": {
+        "id": "TVBRICSRussian.ru@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/vLpm8tN.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://rusbrics.mediacdn.ru/cdn/brics/russian/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"TVBRICSRussian.ru@SD\" tvg-logo=\"https://i.imgur.com/vLpm8tN.png\" group-title=\"General\",TV BRICS Russian (1080p)\r\r\nhttps://rusbrics.mediacdn.ru/cdn/brics/russian/playlist.m3u8\r",
+      "line": 85,
       "catchup": {
         "type": "",
         "days": "",
@@ -1125,6 +1041,34 @@
       "status": "OK"
     },
     {
+      "name": "Univer TV (1080p) [Not 24/7]",
+      "tvg": {
+        "id": "UniverTV.ru@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/r3u0mxr.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://cdn.universmotri.ru/live/smil:mbr.smil/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"UniverTV.ru@SD\" tvg-logo=\"https://i.imgur.com/r3u0mxr.png\" group-title=\"Undefined\",Univer TV (1080p) [Not 24/7]\r\r\nhttps://cdn.universmotri.ru/live/smil:mbr.smil/playlist.m3u8\r",
+      "line": 89,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "VITAL Football [Not 24/7]",
       "tvg": {
         "id": "VitalFootball.ru@HD",
@@ -1144,6 +1088,34 @@
       "url": "https://vslive.pw/stream/48682/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"VitalFootball.ru@HD\" tvg-logo=\"https://i.imgur.com/wXf8nNf.png\" group-title=\"Sports\",VITAL Football [Not 24/7]\r\r\nhttps://vslive.pw/stream/48682/index.m3u8\r",
       "line": 97,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "VITAL Drive [Not 24/7]",
+      "tvg": {
+        "id": "VitalDrive.ru@HD",
+        "name": "",
+        "logo": "https://i.imgur.com/XoR9zLh.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Sports"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://autopilot.catcast.tv/content/37909/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"VitalDrive.ru@HD\" tvg-logo=\"https://i.imgur.com/XoR9zLh.png\" group-title=\"Sports\",VITAL Drive [Not 24/7]\r\r\nhttps://autopilot.catcast.tv/content/37909/index.m3u8\r",
+      "line": 95,
       "catchup": {
         "type": "",
         "days": "",
@@ -1265,62 +1237,6 @@
       "status": "OK"
     },
     {
-      "name": "VITAL Drive [Not 24/7]",
-      "tvg": {
-        "id": "VitalDrive.ru@HD",
-        "name": "",
-        "logo": "https://i.imgur.com/XoR9zLh.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Sports"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://autopilot.catcast.tv/content/37909/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"VitalDrive.ru@HD\" tvg-logo=\"https://i.imgur.com/XoR9zLh.png\" group-title=\"Sports\",VITAL Drive [Not 24/7]\r\r\nhttps://autopilot.catcast.tv/content/37909/index.m3u8\r",
-      "line": 95,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Арис 24 (720p) [Not 24/7]",
-      "tvg": {
-        "id": "Aris24.ru@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/CTFVEAb.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://serv25.vintera.tv:8081/test/aris/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Aris24.ru@SD\" tvg-logo=\"https://i.imgur.com/CTFVEAb.png\" group-title=\"General\",Арис 24 (720p) [Not 24/7]\r\r\nhttp://serv25.vintera.tv:8081/test/aris/playlist.m3u8\r",
-      "line": 109,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Аист ТВ",
       "tvg": {
         "id": "AISTTV.ru@SD",
@@ -1340,6 +1256,62 @@
       "url": "http://live2-aisttv.cdnvideo.ru/aisttv2/aisttv.sdp/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"AISTTV.ru@SD\" tvg-logo=\"https://i.imgur.com/bcw0s4V.png\" group-title=\"General\",Аист ТВ\r\r\nhttp://live2-aisttv.cdnvideo.ru/aisttv2/aisttv.sdp/playlist.m3u8\r",
       "line": 107,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Арктика 24 (Архангельск)",
+      "tvg": {
+        "id": "Arktika24.ru@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/kmbdyr6.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://vgtrkregion-reg.cdnvideo.ru/vgtrk/arhangelsk/arktika24-hd/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Arktika24.ru@SD\" tvg-logo=\"https://i.imgur.com/kmbdyr6.png\" group-title=\"General\",Арктика 24 (Архангельск)\r\r\nhttps://vgtrkregion-reg.cdnvideo.ru/vgtrk/arhangelsk/arktika24-hd/index.m3u8\r",
+      "line": 111,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Астрахань 24 (720p)",
+      "tvg": {
+        "id": "Astrahan24.ru@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/9WcnjQN.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "News"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://streaming.astrakhan.ru/astrakhan24/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Astrahan24.ru@SD\" tvg-logo=\"https://i.imgur.com/9WcnjQN.png\" group-title=\"News\",Астрахань 24 (720p)\r\r\nhttps://streaming.astrakhan.ru/astrakhan24/playlist.m3u8\r",
+      "line": 115,
       "catchup": {
         "type": "",
         "days": "",
@@ -1377,25 +1349,53 @@
       "status": "OK"
     },
     {
-      "name": "Астрахань 24 (720p)",
+      "name": "Арис 24 (720p) [Not 24/7]",
       "tvg": {
-        "id": "Astrahan24.ru@SD",
+        "id": "Aris24.ru@SD",
         "name": "",
-        "logo": "https://i.imgur.com/9WcnjQN.png",
+        "logo": "https://i.imgur.com/CTFVEAb.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "News"
+        "title": "General"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://streaming.astrakhan.ru/astrakhan24/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Astrahan24.ru@SD\" tvg-logo=\"https://i.imgur.com/9WcnjQN.png\" group-title=\"News\",Астрахань 24 (720p)\r\r\nhttps://streaming.astrakhan.ru/astrakhan24/playlist.m3u8\r",
-      "line": 115,
+      "url": "http://serv25.vintera.tv:8081/test/aris/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Aris24.ru@SD\" tvg-logo=\"https://i.imgur.com/CTFVEAb.png\" group-title=\"General\",Арис 24 (720p) [Not 24/7]\r\r\nhttp://serv25.vintera.tv:8081/test/aris/playlist.m3u8\r",
+      "line": 109,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Башкортостан 24",
+      "tvg": {
+        "id": "Bashkortostan24.ru@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/s34Wtz6.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://vgtrkregion-reg.cdnvideo.ru/vgtrk/ufa/bashkortostan24-hd/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Bashkortostan24.ru@SD\" tvg-logo=\"https://i.imgur.com/s34Wtz6.png\" group-title=\"General\",Башкортостан 24\r\r\nhttps://vgtrkregion-reg.cdnvideo.ru/vgtrk/ufa/bashkortostan24-hd/index.m3u8\r",
+      "line": 121,
       "catchup": {
         "type": "",
         "days": "",
@@ -1461,11 +1461,11 @@
       "status": "OK"
     },
     {
-      "name": "Арктика 24 (Архангельск)",
+      "name": "Белгород 24 (1080p)",
       "tvg": {
-        "id": "Arktika24.ru@SD",
+        "id": "Belgorod24.ru@SD",
         "name": "",
-        "logo": "https://i.imgur.com/kmbdyr6.png",
+        "logo": "https://i.imgur.com/EEirvyx.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -1477,37 +1477,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://vgtrkregion-reg.cdnvideo.ru/vgtrk/arhangelsk/arktika24-hd/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Arktika24.ru@SD\" tvg-logo=\"https://i.imgur.com/kmbdyr6.png\" group-title=\"General\",Арктика 24 (Архангельск)\r\r\nhttps://vgtrkregion-reg.cdnvideo.ru/vgtrk/arhangelsk/arktika24-hd/index.m3u8\r",
-      "line": 111,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Башкортостан 24",
-      "tvg": {
-        "id": "Bashkortostan24.ru@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/s34Wtz6.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://vgtrkregion-reg.cdnvideo.ru/vgtrk/ufa/bashkortostan24-hd/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Bashkortostan24.ru@SD\" tvg-logo=\"https://i.imgur.com/s34Wtz6.png\" group-title=\"General\",Башкортостан 24\r\r\nhttps://vgtrkregion-reg.cdnvideo.ru/vgtrk/ufa/bashkortostan24-hd/index.m3u8\r",
-      "line": 121,
+      "url": "https://belnovosti.cdn.easyhoster.ru:8443/stream.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Belgorod24.ru@SD\" tvg-logo=\"https://i.imgur.com/EEirvyx.png\" group-title=\"General\",Белгород 24 (1080p)\r\r\nhttps://belnovosti.cdn.easyhoster.ru:8443/stream.m3u8\r",
+      "line": 123,
       "catchup": {
         "type": "",
         "days": "",
@@ -1545,34 +1517,6 @@
       "status": "OK"
     },
     {
-      "name": "Белгород 24 (1080p)",
-      "tvg": {
-        "id": "Belgorod24.ru@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/EEirvyx.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://belnovosti.cdn.easyhoster.ru:8443/stream.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Belgorod24.ru@SD\" tvg-logo=\"https://i.imgur.com/EEirvyx.png\" group-title=\"General\",Белгород 24 (1080p)\r\r\nhttps://belnovosti.cdn.easyhoster.ru:8443/stream.m3u8\r",
-      "line": 123,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Вера 24",
       "tvg": {
         "id": "Vera24.ru@SD",
@@ -1592,34 +1536,6 @@
       "url": "https://5f05e059699ae.streamlock.net/WEB_Vera24/ngrp:Vera24.stream-adaptive/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"Vera24.ru@SD\" tvg-logo=\"https://i.imgur.com/Qer5Lnh.png\" group-title=\"Religious\",Вера 24\r\r\nhttps://5f05e059699ae.streamlock.net/WEB_Vera24/ngrp:Vera24.stream-adaptive/playlist.m3u8\r",
       "line": 131,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Ветта 24 (Пермь) (576p) [Not 24/7]",
-      "tvg": {
-        "id": "Vetta24.ru@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/zKH1b5k.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://serv24.vintera.tv:8081/vetta/vetta_office/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Vetta24.ru@SD\" tvg-logo=\"https://i.imgur.com/zKH1b5k.png\" group-title=\"Undefined\",Ветта 24 (Пермь) (576p) [Not 24/7]\r\r\nhttp://serv24.vintera.tv:8081/vetta/vetta_office/playlist.m3u8\r",
-      "line": 135,
       "catchup": {
         "type": "",
         "days": "",
@@ -1657,6 +1573,62 @@
       "status": "OK"
     },
     {
+      "name": "БСТ 24 (Братск)",
+      "tvg": {
+        "id": "BST.ru@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/IDotHmQ.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://bst.bratsk.ru/hls/bst2/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"BST.ru@SD\" tvg-logo=\"https://i.imgur.com/IDotHmQ.png\" group-title=\"Undefined\",БСТ 24 (Братск)\r\r\nhttp://bst.bratsk.ru/hls/bst2/index.m3u8\r",
+      "line": 129,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Ветта 24 (Пермь) (576p) [Not 24/7]",
+      "tvg": {
+        "id": "Vetta24.ru@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/zKH1b5k.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://serv24.vintera.tv:8081/vetta/vetta_office/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Vetta24.ru@SD\" tvg-logo=\"https://i.imgur.com/zKH1b5k.png\" group-title=\"Undefined\",Ветта 24 (Пермь) (576p) [Not 24/7]\r\r\nhttp://serv24.vintera.tv:8081/vetta/vetta_office/playlist.m3u8\r",
+      "line": 135,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Волгоград 24",
       "tvg": {
         "id": "Volgograd24.ru@SD",
@@ -1676,34 +1648,6 @@
       "url": "https://vgtrkregion-reg.cdnvideo.ru/vgtrk/volgograd/russia1-hd/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"Volgograd24.ru@SD\" tvg-logo=\"https://i.imgur.com/gFMnaU5.png\" group-title=\"Undefined\",Волгоград 24\r\r\nhttps://vgtrkregion-reg.cdnvideo.ru/vgtrk/volgograd/russia1-hd/index.m3u8\r",
       "line": 141,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Восток 24 (Владивосток)",
-      "tvg": {
-        "id": "Vostok24.ru@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/YEXDsMn.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://vgtrkregion-reg.cdnvideo.ru/vgtrk/vladivostok/vostok24-hd/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Vostok24.ru@SD\" tvg-logo=\"https://i.imgur.com/YEXDsMn.png\" group-title=\"General\",Восток 24 (Владивосток)\r\r\nhttps://vgtrkregion-reg.cdnvideo.ru/vgtrk/vladivostok/vostok24-hd/index.m3u8\r",
-      "line": 143,
       "catchup": {
         "type": "",
         "days": "",
@@ -1741,53 +1685,25 @@
       "status": "OK"
     },
     {
-      "name": "БСТ 24 (Братск)",
+      "name": "Восток 24 (Владивосток)",
       "tvg": {
-        "id": "BST.ru@SD",
+        "id": "Vostok24.ru@SD",
         "name": "",
-        "logo": "https://i.imgur.com/IDotHmQ.png",
+        "logo": "https://i.imgur.com/YEXDsMn.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Undefined"
+        "title": "General"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "http://bst.bratsk.ru/hls/bst2/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"BST.ru@SD\" tvg-logo=\"https://i.imgur.com/IDotHmQ.png\" group-title=\"Undefined\",БСТ 24 (Братск)\r\r\nhttp://bst.bratsk.ru/hls/bst2/index.m3u8\r",
-      "line": 129,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Волга (HD)",
-      "tvg": {
-        "id": "Volga.ru@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/xHs1pr1.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://tele2dvrnat01-02.cdnvideo.ru/stream/NAT_Volga/hls/1920x1080@4504/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Volga.ru@SD\" tvg-logo=\"https://i.imgur.com/xHs1pr1.png\" group-title=\"Undefined\",Волга (HD)\r\r\nhttp://tele2dvrnat01-02.cdnvideo.ru/stream/NAT_Volga/hls/1920x1080@4504/playlist.m3u8\r",
-      "line": 139,
+      "url": "https://vgtrkregion-reg.cdnvideo.ru/vgtrk/vladivostok/vostok24-hd/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Vostok24.ru@SD\" tvg-logo=\"https://i.imgur.com/YEXDsMn.png\" group-title=\"General\",Восток 24 (Владивосток)\r\r\nhttps://vgtrkregion-reg.cdnvideo.ru/vgtrk/vladivostok/vostok24-hd/index.m3u8\r",
+      "line": 143,
       "catchup": {
         "type": "",
         "days": "",
@@ -1816,6 +1732,34 @@
       "url": "http://31.148.48.15/Vremya/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"Vremya.ru@SD\" tvg-logo=\"https://i.imgur.com/jZlj3ga.png\" group-title=\"Undefined\",Время\r\r\nhttp://31.148.48.15/Vremya/index.m3u8\r",
       "line": 145,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Волга (HD)",
+      "tvg": {
+        "id": "Volga.ru@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/xHs1pr1.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://tele2dvrnat01-02.cdnvideo.ru/stream/NAT_Volga/hls/1920x1080@4504/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Volga.ru@SD\" tvg-logo=\"https://i.imgur.com/xHs1pr1.png\" group-title=\"Undefined\",Волга (HD)\r\r\nhttp://tele2dvrnat01-02.cdnvideo.ru/stream/NAT_Volga/hls/1920x1080@4504/playlist.m3u8\r",
+      "line": 139,
       "catchup": {
         "type": "",
         "days": "",
@@ -1881,34 +1825,6 @@
       "status": "OK"
     },
     {
-      "name": "Дом Кино Премиум HD",
-      "tvg": {
-        "id": "DomkinoPremium.ru@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/rJpQtvK.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Movies"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://31.148.48.15/Dom_Kino_Premium_HD/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"DomkinoPremium.ru@SD\" tvg-logo=\"https://i.imgur.com/rJpQtvK.png\" group-title=\"Movies\",Дом Кино Премиум HD\r\r\nhttp://31.148.48.15/Dom_Kino_Premium_HD/index.m3u8\r",
-      "line": 157,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Детское кино International [Not 24/7]",
       "tvg": {
         "id": "Detskoekino.ru@International",
@@ -1928,6 +1844,34 @@
       "url": "https://autopilot.catcast.tv/content/38720/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"Detskoekino.ru@International\" tvg-logo=\"https://i.imgur.com/dJqFRhQ.png\" group-title=\"Movies\",Детское кино International [Not 24/7]\r\r\nhttps://autopilot.catcast.tv/content/38720/index.m3u8\r",
       "line": 151,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Дом Кино Премиум HD",
+      "tvg": {
+        "id": "DomkinoPremium.ru@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/rJpQtvK.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Movies"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://31.148.48.15/Dom_Kino_Premium_HD/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"DomkinoPremium.ru@SD\" tvg-logo=\"https://i.imgur.com/rJpQtvK.png\" group-title=\"Movies\",Дом Кино Премиум HD\r\r\nhttp://31.148.48.15/Dom_Kino_Premium_HD/index.m3u8\r",
+      "line": 157,
       "catchup": {
         "type": "",
         "days": "",
@@ -2049,34 +1993,6 @@
       "status": "OK"
     },
     {
-      "name": "Дума ТВ",
-      "tvg": {
-        "id": "DumaTV.ru@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/JvlO3PU.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Legislative"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://dumatv.iptv2022.com/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"DumaTV.ru@SD\" tvg-logo=\"https://i.imgur.com/JvlO3PU.png\" group-title=\"Legislative\",Дума ТВ\r\r\nhttps://dumatv.iptv2022.com/index.m3u8\r",
-      "line": 165,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Еврокино",
       "tvg": {
         "id": "Evrokino.ru@SD",
@@ -2096,6 +2012,34 @@
       "url": "http://31.148.48.15/Evrokino/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"Evrokino.ru@SD\" tvg-logo=\"https://i.imgur.com/8LPtPf6.png\" group-title=\"Movies\",Еврокино\r\r\nhttp://31.148.48.15/Evrokino/index.m3u8\r",
       "line": 169,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Дума ТВ",
+      "tvg": {
+        "id": "DumaTV.ru@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/JvlO3PU.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Legislative"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://dumatv.iptv2022.com/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"DumaTV.ru@SD\" tvg-logo=\"https://i.imgur.com/JvlO3PU.png\" group-title=\"Legislative\",Дума ТВ\r\r\nhttps://dumatv.iptv2022.com/index.m3u8\r",
+      "line": 165,
       "catchup": {
         "type": "",
         "days": "",
@@ -2161,34 +2105,6 @@
       "status": "OK"
     },
     {
-      "name": "Евразия (Орск) (720p)",
-      "tvg": {
-        "id": "Eurasia.ru@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/4JUHIVS.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://infochh.trkeurasia.ru/hlsinfoch/infochhd.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Eurasia.ru@SD\" tvg-logo=\"https://i.imgur.com/4JUHIVS.png\" group-title=\"General\",Евразия (Орск) (720p)\r\r\nhttps://infochh.trkeurasia.ru/hlsinfoch/infochhd.m3u8\r",
-      "line": 167,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Живая Планета",
       "tvg": {
         "id": "ZhivayaPlaneta.ru@SD",
@@ -2208,34 +2124,6 @@
       "url": "http://31.148.48.15/Zhivaya_Planeta/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"ZhivayaPlaneta.ru@SD\" tvg-logo=\"https://i.imgur.com/onNv1tM.png\" group-title=\"Undefined\",Живая Планета\r\r\nhttp://31.148.48.15/Zhivaya_Planeta/index.m3u8\r",
       "line": 177,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Запад 24 (Калининград)",
-      "tvg": {
-        "id": "Zapad24.ru@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/HerCP0u.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://vgtrkregion-reg.cdnvideo.ru/vgtrk/kaliningrad/zapad24-hd/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Zapad24.ru@SD\" tvg-logo=\"https://i.imgur.com/HerCP0u.png\" group-title=\"General\",Запад 24 (Калининград)\r\r\nhttps://vgtrkregion-reg.cdnvideo.ru/vgtrk/kaliningrad/zapad24-hd/index.m3u8\r",
-      "line": 181,
       "catchup": {
         "type": "",
         "days": "",
@@ -2273,25 +2161,53 @@
       "status": "OK"
     },
     {
-      "name": "Зоо ТВ",
+      "name": "Евразия (Орск) (720p)",
       "tvg": {
-        "id": "ZooTV.ru@SD",
+        "id": "Eurasia.ru@SD",
         "name": "",
-        "logo": "https://i.imgur.com/p7WzqGS.png",
+        "logo": "https://i.imgur.com/4JUHIVS.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Undefined"
+        "title": "General"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "http://31.148.48.15/Zoo_TV/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"ZooTV.ru@SD\" tvg-logo=\"https://i.imgur.com/p7WzqGS.png\" group-title=\"Undefined\",Зоо ТВ\r\r\nhttp://31.148.48.15/Zoo_TV/index.m3u8\r",
-      "line": 187,
+      "url": "https://infochh.trkeurasia.ru/hlsinfoch/infochhd.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Eurasia.ru@SD\" tvg-logo=\"https://i.imgur.com/4JUHIVS.png\" group-title=\"General\",Евразия (Орск) (720p)\r\r\nhttps://infochh.trkeurasia.ru/hlsinfoch/infochhd.m3u8\r",
+      "line": 167,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Запад 24 (Калининград)",
+      "tvg": {
+        "id": "Zapad24.ru@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/HerCP0u.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://vgtrkregion-reg.cdnvideo.ru/vgtrk/kaliningrad/zapad24-hd/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Zapad24.ru@SD\" tvg-logo=\"https://i.imgur.com/HerCP0u.png\" group-title=\"General\",Запад 24 (Калининград)\r\r\nhttps://vgtrkregion-reg.cdnvideo.ru/vgtrk/kaliningrad/zapad24-hd/index.m3u8\r",
+      "line": 181,
       "catchup": {
         "type": "",
         "days": "",
@@ -2329,25 +2245,53 @@
       "status": "OK"
     },
     {
-      "name": "Звезда (1080p) [Not 24/7]",
+      "name": "Зоо ТВ",
       "tvg": {
-        "id": "Zvezda.ru@SD",
+        "id": "ZooTV.ru@SD",
         "name": "",
-        "logo": "https://i.imgur.com/4PAcpfM.png",
+        "logo": "https://i.imgur.com/p7WzqGS.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "General"
+        "title": "Undefined"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://tvchannelstream1.tvzvezda.ru/cdn/tvzvezda/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Zvezda.ru@SD\" tvg-logo=\"https://i.imgur.com/4PAcpfM.png\" group-title=\"General\",Звезда (1080p) [Not 24/7]\r\r\nhttps://tvchannelstream1.tvzvezda.ru/cdn/tvzvezda/playlist.m3u8\r",
-      "line": 183,
+      "url": "http://31.148.48.15/Zoo_TV/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"ZooTV.ru@SD\" tvg-logo=\"https://i.imgur.com/p7WzqGS.png\" group-title=\"Undefined\",Зоо ТВ\r\r\nhttp://31.148.48.15/Zoo_TV/index.m3u8\r",
+      "line": 187,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Звезда Плюс",
+      "tvg": {
+        "id": "ZvezdaPlus.ru@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/NNmjD9Z.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://tvzvezda.bonus-tv.ru/cdn/zvezdaplus/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"ZvezdaPlus.ru@SD\" tvg-logo=\"https://i.imgur.com/NNmjD9Z.png\" group-title=\"Undefined\",Звезда Плюс\r\r\nhttp://tvzvezda.bonus-tv.ru/cdn/zvezdaplus/playlist.m3u8\r",
+      "line": 185,
       "catchup": {
         "type": "",
         "days": "",
@@ -2413,34 +2357,6 @@
       "status": "OK"
     },
     {
-      "name": "Звезда Плюс",
-      "tvg": {
-        "id": "ZvezdaPlus.ru@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/NNmjD9Z.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://tvzvezda.bonus-tv.ru/cdn/zvezdaplus/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"ZvezdaPlus.ru@SD\" tvg-logo=\"https://i.imgur.com/NNmjD9Z.png\" group-title=\"Undefined\",Звезда Плюс\r\r\nhttp://tvzvezda.bonus-tv.ru/cdn/zvezdaplus/playlist.m3u8\r",
-      "line": 185,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Индия",
       "tvg": {
         "id": "India.ru@SD",
@@ -2488,6 +2404,34 @@
       "url": "http://31.148.48.15/Istoriya/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"Istoriya.ru@SD\" tvg-logo=\"https://i.imgur.com/eEjPail.png\" group-title=\"Documentary\",История\r\r\nhttp://31.148.48.15/Istoriya/index.m3u8\r",
       "line": 197,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Ингушетия ТВ",
+      "tvg": {
+        "id": "Ingushetia.ru@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/Fw2Hkk4.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://ingushetia.mediacdn.ru/cdn/ingushetia/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Ingushetia.ru@SD\" tvg-logo=\"https://i.imgur.com/Fw2Hkk4.png\" group-title=\"General\",Ингушетия ТВ\r\r\nhttps://ingushetia.mediacdn.ru/cdn/ingushetia/playlist.m3u8\r",
+      "line": 193,
       "catchup": {
         "type": "",
         "days": "",
@@ -2581,34 +2525,6 @@
       "status": "OK"
     },
     {
-      "name": "Ингушетия ТВ",
-      "tvg": {
-        "id": "Ingushetia.ru@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/Fw2Hkk4.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://ingushetia.mediacdn.ru/cdn/ingushetia/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Ingushetia.ru@SD\" tvg-logo=\"https://i.imgur.com/Fw2Hkk4.png\" group-title=\"General\",Ингушетия ТВ\r\r\nhttps://ingushetia.mediacdn.ru/cdn/ingushetia/playlist.m3u8\r",
-      "line": 193,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "КВН ТВ",
       "tvg": {
         "id": "KVNTV.ru@SD",
@@ -2656,6 +2572,34 @@
       "url": "http://194.143.148.28:8080/KINEKO/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"Kineko.ru@SD\" tvg-logo=\"https://i.imgur.com/Otfvlmf.png\" group-title=\"Movies\",Кинеко\r\r\nhttp://194.143.148.28:8080/KINEKO/index.m3u8\r",
       "line": 209,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Карусель",
+      "tvg": {
+        "id": "Carousel.ru@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/4wmnx1W.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Kids"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://streaming.televizor-24-tochka.ru/live/11.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Carousel.ru@SD\" tvg-logo=\"https://i.imgur.com/4wmnx1W.png\" group-title=\"Kids\",Карусель\r\r\nhttps://streaming.televizor-24-tochka.ru/live/11.m3u8\r",
+      "line": 205,
       "catchup": {
         "type": "",
         "days": "",
@@ -2721,53 +2665,25 @@
       "status": "OK"
     },
     {
-      "name": "Карусель",
+      "name": "Звезда (1080p) [Not 24/7]",
       "tvg": {
-        "id": "Carousel.ru@SD",
+        "id": "Zvezda.ru@SD",
         "name": "",
-        "logo": "https://i.imgur.com/4wmnx1W.png",
+        "logo": "https://i.imgur.com/4PAcpfM.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Kids"
+        "title": "General"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://streaming.televizor-24-tochka.ru/live/11.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Carousel.ru@SD\" tvg-logo=\"https://i.imgur.com/4wmnx1W.png\" group-title=\"Kids\",Карусель\r\r\nhttps://streaming.televizor-24-tochka.ru/live/11.m3u8\r",
-      "line": 205,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Красная линия",
-      "tvg": {
-        "id": "RedLine.ru@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/TgZ8Uv1.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://s55766.cdn.ngenix.net/s55766-media-origin/rline_high/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"RedLine.ru@SD\" tvg-logo=\"https://i.imgur.com/TgZ8Uv1.png\" group-title=\"Undefined\",Красная линия\r\r\nhttp://s55766.cdn.ngenix.net/s55766-media-origin/rline_high/index.m3u8\r",
-      "line": 219,
+      "url": "https://tvchannelstream1.tvzvezda.ru/cdn/tvzvezda/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Zvezda.ru@SD\" tvg-logo=\"https://i.imgur.com/4PAcpfM.png\" group-title=\"General\",Звезда (1080p) [Not 24/7]\r\r\nhttps://tvchannelstream1.tvzvezda.ru/cdn/tvzvezda/playlist.m3u8\r",
+      "line": 183,
       "catchup": {
         "type": "",
         "days": "",
@@ -2824,6 +2740,34 @@
       "url": "https://vod.tuva.ru/kinotv/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"KinoTV.ru@SD\" tvg-logo=\"https://i.imgur.com/sMpamNO.png\" group-title=\"Movies\",КИНОТВ\r\r\nhttps://vod.tuva.ru/kinotv/index.m3u8\r",
       "line": 215,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Красная линия",
+      "tvg": {
+        "id": "RedLine.ru@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/TgZ8Uv1.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://s55766.cdn.ngenix.net/s55766-media-origin/rline_high/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"RedLine.ru@SD\" tvg-logo=\"https://i.imgur.com/TgZ8Uv1.png\" group-title=\"Undefined\",Красная линия\r\r\nhttp://s55766.cdn.ngenix.net/s55766-media-origin/rline_high/index.m3u8\r",
+      "line": 219,
       "catchup": {
         "type": "",
         "days": "",
@@ -2917,6 +2861,34 @@
       "status": "OK"
     },
     {
+      "name": "Кубань 24 [Geo-blocked]",
+      "tvg": {
+        "id": "Kuban24.ru@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/atzrXcz.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": "WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer"
+      },
+      "url": "https://rt-sth-krdar-htlive.cdn.ngenix.net/hls/CH_R04_KUBAN24/variant.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Kuban24.ru@SD\" tvg-logo=\"https://i.imgur.com/atzrXcz.png\" group-title=\"General\" http-user-agent=\"WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer\",Кубань 24 [Geo-blocked]\r\r\n#EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer\r\r\nhttps://rt-sth-krdar-htlive.cdn.ngenix.net/hls/CH_R04_KUBAN24/variant.m3u8\r",
+      "line": 223,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Курай (Уфа) (576p)",
       "tvg": {
         "id": "KurajTV.ru@SD",
@@ -2964,34 +2936,6 @@
       "url": "https://streaming.televizor-24-tochka.ru/live/29.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"Lugansk24.ua@SD\" tvg-logo=\"https://i.imgur.com/AihoVc0.png\" group-title=\"General\",Луганск 24\r\r\nhttps://streaming.televizor-24-tochka.ru/live/29.m3u8\r",
       "line": 235,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Кубань 24 [Geo-blocked]",
-      "tvg": {
-        "id": "Kuban24.ru@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/atzrXcz.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": "WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer"
-      },
-      "url": "https://rt-sth-krdar-htlive.cdn.ngenix.net/hls/CH_R04_KUBAN24/variant.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Kuban24.ru@SD\" tvg-logo=\"https://i.imgur.com/atzrXcz.png\" group-title=\"General\" http-user-agent=\"WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer\",Кубань 24 [Geo-blocked]\r\r\n#EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer\r\r\nhttps://rt-sth-krdar-htlive.cdn.ngenix.net/hls/CH_R04_KUBAN24/variant.m3u8\r",
-      "line": 223,
       "catchup": {
         "type": "",
         "days": "",
@@ -3057,34 +3001,6 @@
       "status": "OK"
     },
     {
-      "name": "Магнат ТВ",
-      "tvg": {
-        "id": "Magnat.ru@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/r485aZL.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Shop"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://s1.tv-nano.com/Magnat_HD_5119705/video.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Magnat.ru@SD\" tvg-logo=\"https://i.imgur.com/r485aZL.png\" group-title=\"Shop\",Магнат ТВ\r\r\nhttps://s1.tv-nano.com/Magnat_HD_5119705/video.m3u8\r",
-      "line": 241,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Мама",
       "tvg": {
         "id": "Mama.ru@SD",
@@ -3104,6 +3020,34 @@
       "url": "http://stv.mediacdn.ru/live/cdn/mama/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"Mama.ru@SD\" tvg-logo=\"https://i.imgur.com/kmMIjjf.png\" group-title=\"Kids\",Мама\r\r\nhttp://stv.mediacdn.ru/live/cdn/mama/playlist.m3u8\r",
       "line": 245,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Магнат ТВ",
+      "tvg": {
+        "id": "Magnat.ru@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/r485aZL.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Shop"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://s1.tv-nano.com/Magnat_HD_5119705/video.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Magnat.ru@SD\" tvg-logo=\"https://i.imgur.com/r485aZL.png\" group-title=\"Shop\",Магнат ТВ\r\r\nhttps://s1.tv-nano.com/Magnat_HD_5119705/video.m3u8\r",
+      "line": 241,
       "catchup": {
         "type": "",
         "days": "",
@@ -3141,34 +3085,6 @@
       "status": "OK"
     },
     {
-      "name": "Матур ТВ (1080p)",
-      "tvg": {
-        "id": "MaturTV.ru@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/Pg7K7eV.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Music"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://public.streaming.matur-tv.ru/hls/h264_aac/stream.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"MaturTV.ru@SD\" tvg-logo=\"https://i.imgur.com/Pg7K7eV.png\" group-title=\"Music\",Матур ТВ (1080p)\r\r\nhttps://public.streaming.matur-tv.ru/hls/h264_aac/stream.m3u8\r",
-      "line": 247,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Мир 24 (1080p)",
       "tvg": {
         "id": "Mir24.ru@SD",
@@ -3188,62 +3104,6 @@
       "url": "http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mir24_2500/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"Mir24.ru@SD\" tvg-logo=\"https://i.imgur.com/dj9c8Yd.png\" group-title=\"News\",Мир 24 (1080p)\r\r\nhttp://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mir24_2500/playlist.m3u8\r",
       "line": 253,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Мир Белагорья (720p) [Geo-blocked]",
-      "tvg": {
-        "id": "MirBelogorya.ru@SD",
-        "name": "",
-        "logo": "https://mirbelogorya.ru/images/logo/Logo_Mir_Belogorya_purple_gradient.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://mirbelogorya.ru:8080/mirbelogorya/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"MirBelogorya.ru@SD\" tvg-logo=\"https://mirbelogorya.ru/images/logo/Logo_Mir_Belogorya_purple_gradient.png\" group-title=\"Undefined\",Мир Белагорья (720p) [Geo-blocked]\r\r\nhttp://mirbelogorya.ru:8080/mirbelogorya/index.m3u8\r",
-      "line": 261,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Моя Планета",
-      "tvg": {
-        "id": "MoyaPlaneta.ru@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/uIiAdBv.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Outdoor"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://194.143.148.28:8080/MoyaPlanetaHD/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"MoyaPlaneta.ru@SD\" tvg-logo=\"https://i.imgur.com/uIiAdBv.png\" group-title=\"Outdoor\",Моя Планета\r\r\nhttp://194.143.148.28:8080/MoyaPlanetaHD/index.m3u8\r",
-      "line": 267,
       "catchup": {
         "type": "",
         "days": "",
@@ -3281,25 +3141,53 @@
       "status": "OK"
     },
     {
-      "name": "МТВ (Волгоград) (720p) [Not 24/7]",
+      "name": "Матур ТВ (1080p)",
       "tvg": {
-        "id": "MTVVolgograd.ru@SD",
+        "id": "MaturTV.ru@SD",
         "name": "",
-        "logo": "https://i.imgur.com/pdCAUrP.png",
+        "logo": "https://i.imgur.com/Pg7K7eV.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "General"
+        "title": "Music"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "http://hls.volgograd1vtv.cdnvideo.ru/volgograd1vtv/volgograd1vtv.sdp/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"MTVVolgograd.ru@SD\" tvg-logo=\"https://i.imgur.com/pdCAUrP.png\" group-title=\"General\",МТВ (Волгоград) (720p) [Not 24/7]\r\r\nhttp://hls.volgograd1vtv.cdnvideo.ru/volgograd1vtv/volgograd1vtv.sdp/playlist.m3u8\r",
-      "line": 269,
+      "url": "https://public.streaming.matur-tv.ru/hls/h264_aac/stream.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"MaturTV.ru@SD\" tvg-logo=\"https://i.imgur.com/Pg7K7eV.png\" group-title=\"Music\",Матур ТВ (1080p)\r\r\nhttps://public.streaming.matur-tv.ru/hls/h264_aac/stream.m3u8\r",
+      "line": 247,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Мир Белагорья (720p) [Geo-blocked]",
+      "tvg": {
+        "id": "MirBelogorya.ru@SD",
+        "name": "",
+        "logo": "https://mirbelogorya.ru/images/logo/Logo_Mir_Belogorya_purple_gradient.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://mirbelogorya.ru:8080/mirbelogorya/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"MirBelogorya.ru@SD\" tvg-logo=\"https://mirbelogorya.ru/images/logo/Logo_Mir_Belogorya_purple_gradient.png\" group-title=\"Undefined\",Мир Белагорья (720p) [Geo-blocked]\r\r\nhttp://mirbelogorya.ru:8080/mirbelogorya/index.m3u8\r",
+      "line": 261,
       "catchup": {
         "type": "",
         "days": "",
@@ -3328,6 +3216,62 @@
       "url": "https://player.smotrim.ru/iframe/stream/live_id/efab3cbe-a29c-45f0-9596-5cb4f1ce7fbe",
       "raw": "#EXTINF:-1 tvg-id=\"Moskva24.ru@SD\" tvg-logo=\"https://i.imgur.com/gXbUMVy.png\" group-title=\"General\",Москва 24\r\r\nhttps://player.smotrim.ru/iframe/stream/live_id/efab3cbe-a29c-45f0-9596-5cb4f1ce7fbe\r",
       "line": 263,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Моя Планета",
+      "tvg": {
+        "id": "MoyaPlaneta.ru@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/uIiAdBv.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Outdoor"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://194.143.148.28:8080/MoyaPlanetaHD/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"MoyaPlaneta.ru@SD\" tvg-logo=\"https://i.imgur.com/uIiAdBv.png\" group-title=\"Outdoor\",Моя Планета\r\r\nhttp://194.143.148.28:8080/MoyaPlanetaHD/index.m3u8\r",
+      "line": 267,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "МТВ (Волгоград) (720p) [Not 24/7]",
+      "tvg": {
+        "id": "MTVVolgograd.ru@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/pdCAUrP.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://hls.volgograd1vtv.cdnvideo.ru/volgograd1vtv/volgograd1vtv.sdp/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"MTVVolgograd.ru@SD\" tvg-logo=\"https://i.imgur.com/pdCAUrP.png\" group-title=\"General\",МТВ (Волгоград) (720p) [Not 24/7]\r\r\nhttp://hls.volgograd1vtv.cdnvideo.ru/volgograd1vtv/volgograd1vtv.sdp/playlist.m3u8\r",
+      "line": 269,
       "catchup": {
         "type": "",
         "days": "",
@@ -3393,34 +3337,6 @@
       "status": "OK"
     },
     {
-      "name": "Музыка Первого",
-      "tvg": {
-        "id": "MuzykaPervogo.ru@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/U0vKj3P.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Music"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://31.148.48.15/Muzika_Pervogo/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"MuzykaPervogo.ru@SD\" tvg-logo=\"https://i.imgur.com/U0vKj3P.png\" group-title=\"Music\",Музыка Первого\r\r\nhttp://31.148.48.15/Muzika_Pervogo/index.m3u8\r",
-      "line": 279,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "МузТВ",
       "tvg": {
         "id": "MuzTV.ru@SD",
@@ -3468,6 +3384,34 @@
       "url": "https://kino-1.catcast.tv/content/37739/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"MuzykaKino.ru@International\" tvg-logo=\"https://i.imgur.com/2SG0Swa.png\" group-title=\"Music\",Музыка Кино International [Not 24/7]\r\r\nhttps://kino-1.catcast.tv/content/37739/index.m3u8\r",
       "line": 277,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Музыка Первого",
+      "tvg": {
+        "id": "MuzykaPervogo.ru@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/U0vKj3P.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Music"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://31.148.48.15/Muzika_Pervogo/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"MuzykaPervogo.ru@SD\" tvg-logo=\"https://i.imgur.com/U0vKj3P.png\" group-title=\"Music\",Музыка Первого\r\r\nhttp://31.148.48.15/Muzika_Pervogo/index.m3u8\r",
+      "line": 279,
       "catchup": {
         "type": "",
         "days": "",
@@ -3533,6 +3477,34 @@
       "status": "OK"
     },
     {
+      "name": "Надежда (720p)",
+      "tvg": {
+        "id": "HopeChannelRussia.ru@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/ah6VnFJ.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Religious"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://live-tvhope.cdnvideo.ru/tvhope-pull/tvhope_1/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"HopeChannelRussia.ru@SD\" tvg-logo=\"https://i.imgur.com/ah6VnFJ.png\" group-title=\"Religious\",Надежда (720p)\r\r\nhttps://live-tvhope.cdnvideo.ru/tvhope-pull/tvhope_1/playlist.m3u8\r",
+      "line": 287,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Нано ТВ HD",
       "tvg": {
         "id": "Nano.ru@HD",
@@ -3580,34 +3552,6 @@
       "url": "https://rfe-ingest.akamaized.net/hls/live/2033043/tvmc05/master.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"CurrentTimeTV.cz@SD\" tvg-logo=\"https://i.imgur.com/hKo8ApU.png\" group-title=\"News\",Настоящее Время\r\r\nhttps://rfe-ingest.akamaized.net/hls/live/2033043/tvmc05/master.m3u8\r",
       "line": 291,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Надежда (720p)",
-      "tvg": {
-        "id": "HopeChannelRussia.ru@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/ah6VnFJ.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Religious"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://live-tvhope.cdnvideo.ru/tvhope-pull/tvhope_1/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"HopeChannelRussia.ru@SD\" tvg-logo=\"https://i.imgur.com/ah6VnFJ.png\" group-title=\"Religious\",Надежда (720p)\r\r\nhttps://live-tvhope.cdnvideo.ru/tvhope-pull/tvhope_1/playlist.m3u8\r",
-      "line": 287,
       "catchup": {
         "type": "",
         "days": "",
@@ -3673,34 +3617,6 @@
       "status": "OK"
     },
     {
-      "name": "Ника ТВ (576p) [Not 24/7]",
-      "tvg": {
-        "id": "NikaTV.ru@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/dccsFAu.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://live-nikatv.cdnvideo.ru/nikatv/nikatv.sdp/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"NikaTV.ru@SD\" tvg-logo=\"https://i.imgur.com/dccsFAu.png\" group-title=\"General\",Ника ТВ (576p) [Not 24/7]\r\r\nhttps://live-nikatv.cdnvideo.ru/nikatv/nikatv.sdp/playlist.m3u8\r",
-      "line": 301,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Нижний Новгород 24 (720p) [Not 24/7]",
       "tvg": {
         "id": "NizhniyNovgorod24.ru@SD",
@@ -3729,6 +3645,34 @@
       "status": "OK"
     },
     {
+      "name": "Ника ТВ (576p) [Not 24/7]",
+      "tvg": {
+        "id": "NikaTV.ru@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/dccsFAu.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://live-nikatv.cdnvideo.ru/nikatv/nikatv.sdp/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"NikaTV.ru@SD\" tvg-logo=\"https://i.imgur.com/dccsFAu.png\" group-title=\"General\",Ника ТВ (576p) [Not 24/7]\r\r\nhttps://live-nikatv.cdnvideo.ru/nikatv/nikatv.sdp/playlist.m3u8\r",
+      "line": 301,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Неизвестная Россия",
       "tvg": {
         "id": "UnknownRussia.ru@SD",
@@ -3748,6 +3692,34 @@
       "url": "https://cdn.ntv.ru/unknown_russia/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"UnknownRussia.ru@SD\" tvg-logo=\"https://i.imgur.com/W7ste2f.png\" group-title=\"Undefined\",Неизвестная Россия\r\r\nhttps://cdn.ntv.ru/unknown_russia/playlist.m3u8\r",
       "line": 297,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Новгородское областное телевидение [Geo-blocked]",
+      "tvg": {
+        "id": "NovgorOblTV.ru@HD",
+        "name": "",
+        "logo": "https://i.imgur.com/2JspHVY.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": "WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer"
+      },
+      "url": "https://rt-nw-novg-htlive.cdn.ngenix.net/hls/CH_R02_NOVGORODTV/variant.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"NovgorOblTV.ru@HD\" tvg-logo=\"https://i.imgur.com/2JspHVY.png\" group-title=\"General\" http-user-agent=\"WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer\",Новгородское областное телевидение [Geo-blocked]\r\r\n#EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer\r\r\nhttps://rt-nw-novg-htlive.cdn.ngenix.net/hls/CH_R02_NOVGORODTV/variant.m3u8\r",
+      "line": 303,
       "catchup": {
         "type": "",
         "days": "",
@@ -3813,34 +3785,6 @@
       "status": "OK"
     },
     {
-      "name": "НТВ Право",
-      "tvg": {
-        "id": "NTVLaw.ru@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/3ChnWGg.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://cdn.ntv.ru/th_pravo/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"NTVLaw.ru@SD\" tvg-logo=\"https://i.imgur.com/3ChnWGg.png\" group-title=\"Undefined\",НТВ Право\r\r\nhttps://cdn.ntv.ru/th_pravo/playlist.m3u8\r",
-      "line": 312,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "НТВ",
       "tvg": {
         "id": "NTV.ru@SD",
@@ -3869,25 +3813,25 @@
       "status": "OK"
     },
     {
-      "name": "Новгородское областное телевидение [Geo-blocked]",
+      "name": "НТВ Право",
       "tvg": {
-        "id": "NovgorOblTV.ru@HD",
+        "id": "NTVLaw.ru@SD",
         "name": "",
-        "logo": "https://i.imgur.com/2JspHVY.png",
+        "logo": "https://i.imgur.com/3ChnWGg.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "General"
+        "title": "Undefined"
       },
       "http": {
         "referrer": "",
-        "user-agent": "WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer"
+        "user-agent": ""
       },
-      "url": "https://rt-nw-novg-htlive.cdn.ngenix.net/hls/CH_R02_NOVGORODTV/variant.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"NovgorOblTV.ru@HD\" tvg-logo=\"https://i.imgur.com/2JspHVY.png\" group-title=\"General\" http-user-agent=\"WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer\",Новгородское областное телевидение [Geo-blocked]\r\r\n#EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer\r\r\nhttps://rt-nw-novg-htlive.cdn.ngenix.net/hls/CH_R02_NOVGORODTV/variant.m3u8\r",
-      "line": 303,
+      "url": "https://cdn.ntv.ru/th_pravo/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"NTVLaw.ru@SD\" tvg-logo=\"https://i.imgur.com/3ChnWGg.png\" group-title=\"Undefined\",НТВ Право\r\r\nhttps://cdn.ntv.ru/th_pravo/playlist.m3u8\r",
+      "line": 312,
       "catchup": {
         "type": "",
         "days": "",
@@ -3981,34 +3925,6 @@
       "status": "OK"
     },
     {
-      "name": "о2тв",
-      "tvg": {
-        "id": "o2tv.ru@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/CM6z7fA.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Music"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://31.148.48.15/O2_HD/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"o2tv.ru@SD\" tvg-logo=\"https://i.imgur.com/CM6z7fA.png\" group-title=\"Music\",о2тв\r\r\nhttp://31.148.48.15/O2_HD/index.m3u8\r",
-      "line": 325,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "НТМ (Народное телевидение Мордовии) (720p) [Not 24/7]",
       "tvg": {
         "id": "NTM.ru@SD",
@@ -4037,25 +3953,25 @@
       "status": "OK"
     },
     {
-      "name": "ОСН",
+      "name": "о2тв",
       "tvg": {
-        "id": "OSN.ru@SD",
+        "id": "o2tv.ru@SD",
         "name": "",
-        "logo": "https://www.osnmedia.ru/wp-content/uploads/2024/11/osn-logo-header.png",
+        "logo": "https://i.imgur.com/CM6z7fA.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "General"
+        "title": "Music"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "http://osnmedia.servicecdn.ru/streams/17603_88089/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"OSN.ru@SD\" tvg-logo=\"https://www.osnmedia.ru/wp-content/uploads/2024/11/osn-logo-header.png\" group-title=\"General\",ОСН\r\r\nhttp://osnmedia.servicecdn.ru/streams/17603_88089/playlist.m3u8\r",
-      "line": 329,
+      "url": "http://31.148.48.15/O2_HD/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"o2tv.ru@SD\" tvg-logo=\"https://i.imgur.com/CM6z7fA.png\" group-title=\"Music\",о2тв\r\r\nhttp://31.148.48.15/O2_HD/index.m3u8\r",
+      "line": 325,
       "catchup": {
         "type": "",
         "days": "",
@@ -4084,6 +4000,34 @@
       "url": "https://s97982.cdn.ngenix.net/hls/CH_R79_OTT_DV_HVSK_NTK/variant.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"NTK21.ru@HD\" tvg-logo=\"https://i.imgur.com/W9s1flH.png\" group-title=\"General\" http-user-agent=\"WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer\",НТК 21 (Биробиджан) [Geo-blocked]\r\r\n#EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer\r\r\nhttps://s97982.cdn.ngenix.net/hls/CH_R79_OTT_DV_HVSK_NTK/variant.m3u8\r",
       "line": 320,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "ОСН",
+      "tvg": {
+        "id": "OSN.ru@SD",
+        "name": "",
+        "logo": "https://www.osnmedia.ru/wp-content/uploads/2024/11/osn-logo-header.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://osnmedia.servicecdn.ru/streams/17603_88089/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"OSN.ru@SD\" tvg-logo=\"https://www.osnmedia.ru/wp-content/uploads/2024/11/osn-logo-header.png\" group-title=\"General\",ОСН\r\r\nhttp://osnmedia.servicecdn.ru/streams/17603_88089/playlist.m3u8\r",
+      "line": 329,
       "catchup": {
         "type": "",
         "days": "",
@@ -4233,6 +4177,34 @@
       "status": "OK"
     },
     {
+      "name": "Осетия Ирыстон",
+      "tvg": {
+        "id": "OsetiyaIryston.ru@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/N0Zn4zU.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://osir.mediacdn.ru/cdn/osetia/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"OsetiyaIryston.ru@SD\" tvg-logo=\"https://i.imgur.com/N0Zn4zU.png\" group-title=\"General\",Осетия Ирыстон\r\r\nhttps://osir.mediacdn.ru/cdn/osetia/playlist.m3u8\r",
+      "line": 327,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Поехали!",
       "tvg": {
         "id": "Poehali.ru@SD",
@@ -4252,6 +4224,34 @@
       "url": "http://31.148.48.15/Poehali/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"Poehali.ru@SD\" tvg-logo=\"https://i.imgur.com/ZNCpbII.png\" group-title=\"Entertainment\",Поехали!\r\r\nhttp://31.148.48.15/Poehali/index.m3u8\r",
       "line": 347,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Прима (1080p)",
+      "tvg": {
+        "id": "Prima.ru@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/33XGMch.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://tele2dvrnat01-02.cdnvideo.ru/stream/NAT_Prima/hls/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Prima.ru@SD\" tvg-logo=\"https://i.imgur.com/33XGMch.png\" group-title=\"Undefined\",Прима (1080p)\r\r\nhttps://tele2dvrnat01-02.cdnvideo.ru/stream/NAT_Prima/hls/index.m3u8\r",
+      "line": 349,
       "catchup": {
         "type": "",
         "days": "",
@@ -4317,34 +4317,6 @@
       "status": "OK"
     },
     {
-      "name": "Прима (1080p)",
-      "tvg": {
-        "id": "Prima.ru@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/33XGMch.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://tele2dvrnat01-02.cdnvideo.ru/stream/NAT_Prima/hls/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Prima.ru@SD\" tvg-logo=\"https://i.imgur.com/33XGMch.png\" group-title=\"Undefined\",Прима (1080p)\r\r\nhttps://tele2dvrnat01-02.cdnvideo.ru/stream/NAT_Prima/hls/index.m3u8\r",
-      "line": 349,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Пятница!",
       "tvg": {
         "id": "Friday.ru@SD",
@@ -4364,62 +4336,6 @@
       "url": "https://vod.tuva.ru/friday/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"Friday.ru@SD\" tvg-logo=\"https://i.imgur.com/UfmlXxe.png\" group-title=\"Entertainment\",Пятница!\r\r\nhttps://vod.tuva.ru/friday/index.m3u8\r",
       "line": 355,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Осетия Ирыстон",
-      "tvg": {
-        "id": "OsetiyaIryston.ru@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/N0Zn4zU.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://osir.mediacdn.ru/cdn/osetia/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"OsetiyaIryston.ru@SD\" tvg-logo=\"https://i.imgur.com/N0Zn4zU.png\" group-title=\"General\",Осетия Ирыстон\r\r\nhttps://osir.mediacdn.ru/cdn/osetia/playlist.m3u8\r",
-      "line": 327,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Пятница! International",
-      "tvg": {
-        "id": "FridayInternational.ru@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/N2z3EZC.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Entertainment"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://cdn4.skygo.mn/live/disk1/Friday/HLSv3-FTA/Friday.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"FridayInternational.ru@SD\" tvg-logo=\"https://i.imgur.com/N2z3EZC.png\" group-title=\"Entertainment\",Пятница! International\r\r\nhttps://cdn4.skygo.mn/live/disk1/Friday/HLSv3-FTA/Friday.m3u8\r",
-      "line": 357,
       "catchup": {
         "type": "",
         "days": "",
@@ -4457,25 +4373,25 @@
       "status": "OK"
     },
     {
-      "name": "Радио Шансон (720p) [Not 24/7]",
+      "name": "Пятница! International",
       "tvg": {
-        "id": "RadioShanson.ru@SD",
+        "id": "FridayInternational.ru@SD",
         "name": "",
-        "logo": "https://i.postimg.cc/5t1gR934/radioshanson.png",
+        "logo": "https://i.imgur.com/N2z3EZC.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Music"
+        "title": "Entertainment"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "http://chanson-video.hostingradio.ru:8080/hls/chansonabr/live.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"RadioShanson.ru@SD\" tvg-logo=\"https://i.postimg.cc/5t1gR934/radioshanson.png\" group-title=\"Music\",Радио Шансон (720p) [Not 24/7]\r\r\nhttp://chanson-video.hostingradio.ru:8080/hls/chansonabr/live.m3u8\r",
-      "line": 363,
+      "url": "https://cdn4.skygo.mn/live/disk1/Friday/HLSv3-FTA/Friday.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"FridayInternational.ru@SD\" tvg-logo=\"https://i.imgur.com/N2z3EZC.png\" group-title=\"Entertainment\",Пятница! International\r\r\nhttps://cdn4.skygo.mn/live/disk1/Friday/HLSv3-FTA/Friday.m3u8\r",
+      "line": 357,
       "catchup": {
         "type": "",
         "days": "",
@@ -4504,6 +4420,34 @@
       "url": "http://lova.me/hls/hithd.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"RadioHit.ru@SD\" tvg-logo=\"https://i.imgur.com/5xKqV1s.png\" group-title=\"Music\",Радио Хит (Орск) (720p)\r\r\nhttp://lova.me/hls/hithd.m3u8\r",
       "line": 361,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Радио Шансон (720p) [Not 24/7]",
+      "tvg": {
+        "id": "RadioShanson.ru@SD",
+        "name": "",
+        "logo": "https://i.postimg.cc/5t1gR934/radioshanson.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Music"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://chanson-video.hostingradio.ru:8080/hls/chansonabr/live.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"RadioShanson.ru@SD\" tvg-logo=\"https://i.postimg.cc/5t1gR934/radioshanson.png\" group-title=\"Music\",Радио Шансон (720p) [Not 24/7]\r\r\nhttp://chanson-video.hostingradio.ru:8080/hls/chansonabr/live.m3u8\r",
+      "line": 363,
       "catchup": {
         "type": "",
         "days": "",
@@ -4569,34 +4513,6 @@
       "status": "OK"
     },
     {
-      "name": "РБК (576p)",
-      "tvg": {
-        "id": "RBKTV.ru@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/CwhmJby.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Business"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://uiptv.do.am/1ufc/701293058/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"RBKTV.ru@SD\" tvg-logo=\"https://i.imgur.com/CwhmJby.png\" group-title=\"Business\",РБК (576p)\r\r\nhttps://uiptv.do.am/1ufc/701293058/playlist.m3u8\r",
-      "line": 367,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Россия 1",
       "tvg": {
         "id": "Russia1.ru@SD",
@@ -4616,6 +4532,34 @@
       "url": "https://vgtrkregion-reg.cdnvideo.ru/vgtrk/0/russia1-hd/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"Russia1.ru@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/11-%D0%B9_%D0%BB%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF_%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F-1.svg/512px-11-%D0%B9_%D0%BB%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF_%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F-1.svg.png\" group-title=\"General\",Россия 1\r\r\nhttps://vgtrkregion-reg.cdnvideo.ru/vgtrk/0/russia1-hd/index.m3u8\r",
       "line": 373,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "РБК (576p)",
+      "tvg": {
+        "id": "RBKTV.ru@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/CwhmJby.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Business"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://uiptv.do.am/1ufc/701293058/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"RBKTV.ru@SD\" tvg-logo=\"https://i.imgur.com/CwhmJby.png\" group-title=\"Business\",РБК (576p)\r\r\nhttps://uiptv.do.am/1ufc/701293058/playlist.m3u8\r",
+      "line": 367,
       "catchup": {
         "type": "",
         "days": "",
@@ -4653,34 +4597,6 @@
       "status": "OK"
     },
     {
-      "name": "Россия 24 (576p) [Not 24/7]",
-      "tvg": {
-        "id": "Russia24.ru@SD",
-        "name": "",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Rossiya-24_Logo.svg/512px-Rossiya-24_Logo.svg.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "News"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://uiptv.do.am/1ufc/000000006/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Russia24.ru@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Rossiya-24_Logo.svg/512px-Rossiya-24_Logo.svg.png\" group-title=\"News\",Россия 24 (576p) [Not 24/7]\r\r\nhttps://uiptv.do.am/1ufc/000000006/playlist.m3u8\r",
-      "line": 375,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Русский Бестселлер",
       "tvg": {
         "id": "RusskiyBestseller.ru@SD",
@@ -4700,6 +4616,34 @@
       "url": "http://31.148.48.15/Russkiy_Bestseller/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"RusskiyBestseller.ru@SD\" tvg-logo=\"https://i.imgur.com/w0ZE9QJ.png\" group-title=\"Movies\",Русский Бестселлер\r\r\nhttp://31.148.48.15/Russkiy_Bestseller/index.m3u8\r",
       "line": 379,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Россия 24 (576p) [Not 24/7]",
+      "tvg": {
+        "id": "Russia24.ru@SD",
+        "name": "",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Rossiya-24_Logo.svg/512px-Rossiya-24_Logo.svg.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "News"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://uiptv.do.am/1ufc/000000006/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Russia24.ru@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Rossiya-24_Logo.svg/512px-Rossiya-24_Logo.svg.png\" group-title=\"News\",Россия 24 (576p) [Not 24/7]\r\r\nhttps://uiptv.do.am/1ufc/000000006/playlist.m3u8\r",
+      "line": 375,
       "catchup": {
         "type": "",
         "days": "",
@@ -4765,34 +4709,6 @@
       "status": "OK"
     },
     {
-      "name": "Самара 24",
-      "tvg": {
-        "id": "Samara24.ru@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/YUe3Dwd.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://vgtrkregion-reg.cdnvideo.ru/vgtrk/samara/samara24-hd/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Samara24.ru@SD\" tvg-logo=\"https://i.imgur.com/YUe3Dwd.png\" group-title=\"General\",Самара 24\r\r\nhttps://vgtrkregion-reg.cdnvideo.ru/vgtrk/samara/samara24-hd/index.m3u8\r",
-      "line": 389,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Салям (Уфа) (576p)",
       "tvg": {
         "id": "Salyam.ru@SD",
@@ -4812,6 +4728,34 @@
       "url": "https://bsttv.bonus-tv.ru/cdn/salyam/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"Salyam.ru@SD\" tvg-logo=\"https://i.imgur.com/FfULLr1.png\" group-title=\"Undefined\",Салям (Уфа) (576p)\r\r\nhttps://bsttv.bonus-tv.ru/cdn/salyam/playlist.m3u8\r",
       "line": 387,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Самара 24",
+      "tvg": {
+        "id": "Samara24.ru@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/YUe3Dwd.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://vgtrkregion-reg.cdnvideo.ru/vgtrk/samara/samara24-hd/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Samara24.ru@SD\" tvg-logo=\"https://i.imgur.com/YUe3Dwd.png\" group-title=\"General\",Самара 24\r\r\nhttps://vgtrkregion-reg.cdnvideo.ru/vgtrk/samara/samara24-hd/index.m3u8\r",
+      "line": 389,
       "catchup": {
         "type": "",
         "days": "",
@@ -4877,34 +4821,6 @@
       "status": "OK"
     },
     {
-      "name": "Сибирь 24 (Красноярск)",
-      "tvg": {
-        "id": "Sibir24.ru@KYA",
-        "name": "",
-        "logo": "https://i.imgur.com/jgwQPl0.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://vgtrkregion-reg.cdnvideo.ru/vgtrk/krasnoyarsk/sibir24-hd/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Sibir24.ru@KYA\" tvg-logo=\"https://i.imgur.com/jgwQPl0.png\" group-title=\"General\",Сибирь 24 (Красноярск)\r\r\nhttps://vgtrkregion-reg.cdnvideo.ru/vgtrk/krasnoyarsk/sibir24-hd/index.m3u8\r",
-      "line": 400,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Санкт-Петербург HD",
       "tvg": {
         "id": "SanktPeterburg.ru@SD",
@@ -4924,34 +4840,6 @@
       "url": "https://rt-nw-spb-htlive.cdn.ngenix.net/hls/CH_R02_SPBREGIONALHD/variant.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"SanktPeterburg.ru@SD\" tvg-logo=\"https://i.imgur.com/9At4oG7.png\" group-title=\"Undefined\" http-user-agent=\"WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer\",Санкт-Петербург HD\r\r\n#EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer\r\r\nhttps://rt-nw-spb-htlive.cdn.ngenix.net/hls/CH_R02_SPBREGIONALHD/variant.m3u8\r",
       "line": 393,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Сибирь 24 (Новосибирск)",
-      "tvg": {
-        "id": "Sibir24.ru@NVS",
-        "name": "",
-        "logo": "https://i.imgur.com/jgwQPl0.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://vgtrkregion-reg.cdnvideo.ru/vgtrk/novosibirsk/sibir24-hd/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Sibir24.ru@NVS\" tvg-logo=\"https://i.imgur.com/jgwQPl0.png\" group-title=\"General\",Сибирь 24 (Новосибирск)\r\r\nhttps://vgtrkregion-reg.cdnvideo.ru/vgtrk/novosibirsk/sibir24-hd/index.m3u8\r",
-      "line": 402,
       "catchup": {
         "type": "",
         "days": "",
@@ -4989,6 +4877,62 @@
       "status": "OK"
     },
     {
+      "name": "Сибирь 24 (Красноярск)",
+      "tvg": {
+        "id": "Sibir24.ru@KYA",
+        "name": "",
+        "logo": "https://i.imgur.com/jgwQPl0.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://vgtrkregion-reg.cdnvideo.ru/vgtrk/krasnoyarsk/sibir24-hd/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Sibir24.ru@KYA\" tvg-logo=\"https://i.imgur.com/jgwQPl0.png\" group-title=\"General\",Сибирь 24 (Красноярск)\r\r\nhttps://vgtrkregion-reg.cdnvideo.ru/vgtrk/krasnoyarsk/sibir24-hd/index.m3u8\r",
+      "line": 400,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Сибирь 24 (Новосибирск)",
+      "tvg": {
+        "id": "Sibir24.ru@NVS",
+        "name": "",
+        "logo": "https://i.imgur.com/jgwQPl0.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://vgtrkregion-reg.cdnvideo.ru/vgtrk/novosibirsk/sibir24-hd/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Sibir24.ru@NVS\" tvg-logo=\"https://i.imgur.com/jgwQPl0.png\" group-title=\"General\",Сибирь 24 (Новосибирск)\r\r\nhttps://vgtrkregion-reg.cdnvideo.ru/vgtrk/novosibirsk/sibir24-hd/index.m3u8\r",
+      "line": 402,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Сити Эдем Play Христианский Музыкальный [Not 24/7]",
       "tvg": {
         "id": "CityEdenPlay.ru@HD",
@@ -5008,34 +4952,6 @@
       "url": "https://cityeden.catcast.tv/content/34100/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"CityEdenPlay.ru@HD\" tvg-logo=\"https://i.imgur.com/ozEqob9.png\" group-title=\"Music\",Сити Эдем Play Христианский Музыкальный [Not 24/7]\r\r\nhttps://cityeden.catcast.tv/content/34100/index.m3u8\r",
       "line": 406,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Сити Эдем АвтоГид [Not 24/7]",
-      "tvg": {
-        "id": "CityEdenAutoGid.ru@HD",
-        "name": "",
-        "logo": "https://i.imgur.com/qpe8L27.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Auto"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://cityeden.catcast.tv/content/47515/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"CityEdenAutoGid.ru@HD\" tvg-logo=\"https://i.imgur.com/qpe8L27.png\" group-title=\"Auto\",Сити Эдем АвтоГид [Not 24/7]\r\r\nhttps://cityeden.catcast.tv/content/47515/index.m3u8\r",
-      "line": 408,
       "catchup": {
         "type": "",
         "days": "",
@@ -5073,53 +4989,25 @@
       "status": "OK"
     },
     {
-      "name": "Сити Эдем КиноАзия [Not 24/7]",
+      "name": "Сити Эдем АвтоГид [Not 24/7]",
       "tvg": {
-        "id": "CityEdenKinoAsia.ru@HD",
+        "id": "CityEdenAutoGid.ru@HD",
         "name": "",
-        "logo": "https://i.imgur.com/gaket4B.png",
+        "logo": "https://i.imgur.com/qpe8L27.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Movies"
+        "title": "Auto"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://cityeden.catcast.tv/content/34393/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"CityEdenKinoAsia.ru@HD\" tvg-logo=\"https://i.imgur.com/gaket4B.png\" group-title=\"Movies\",Сити Эдем КиноАзия [Not 24/7]\r\r\nhttps://cityeden.catcast.tv/content/34393/index.m3u8\r",
-      "line": 412,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Сити Эдем КиноДетектив [Not 24/7]",
-      "tvg": {
-        "id": "CityEdenKinoDetektiv.ru@HD",
-        "name": "",
-        "logo": "https://i.imgur.com/9rKHwBV.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Movies"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://cityeden.catcast.tv/content/41327/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"CityEdenKinoDetektiv.ru@HD\" tvg-logo=\"https://i.imgur.com/9rKHwBV.png\" group-title=\"Movies\",Сити Эдем КиноДетектив [Not 24/7]\r\r\nhttps://cityeden.catcast.tv/content/41327/index.m3u8\r",
-      "line": 416,
+      "url": "https://cityeden.catcast.tv/content/47515/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"CityEdenAutoGid.ru@HD\" tvg-logo=\"https://i.imgur.com/qpe8L27.png\" group-title=\"Auto\",Сити Эдем АвтоГид [Not 24/7]\r\r\nhttps://cityeden.catcast.tv/content/47515/index.m3u8\r",
+      "line": 408,
       "catchup": {
         "type": "",
         "days": "",
@@ -5157,6 +5045,34 @@
       "status": "OK"
     },
     {
+      "name": "Сити Эдем КиноАзия [Not 24/7]",
+      "tvg": {
+        "id": "CityEdenKinoAsia.ru@HD",
+        "name": "",
+        "logo": "https://i.imgur.com/gaket4B.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Movies"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://cityeden.catcast.tv/content/34393/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"CityEdenKinoAsia.ru@HD\" tvg-logo=\"https://i.imgur.com/gaket4B.png\" group-title=\"Movies\",Сити Эдем КиноАзия [Not 24/7]\r\r\nhttps://cityeden.catcast.tv/content/34393/index.m3u8\r",
+      "line": 412,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Сити Эдем КиноДок [Not 24/7]",
       "tvg": {
         "id": "CityEdenKinoDok.ru@HD",
@@ -5176,6 +5092,34 @@
       "url": "https://cityeden.catcast.tv/content/38354/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"CityEdenKinoDok.ru@HD\" tvg-logo=\"https://i.imgur.com/itRbMX3.png\" group-title=\"Documentary;Series\",Сити Эдем КиноДок [Not 24/7]\r\r\nhttps://cityeden.catcast.tv/content/38354/index.m3u8\r",
       "line": 418,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Сити Эдем КиноДетектив [Not 24/7]",
+      "tvg": {
+        "id": "CityEdenKinoDetektiv.ru@HD",
+        "name": "",
+        "logo": "https://i.imgur.com/9rKHwBV.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Movies"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://cityeden.catcast.tv/content/41327/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"CityEdenKinoDetektiv.ru@HD\" tvg-logo=\"https://i.imgur.com/9rKHwBV.png\" group-title=\"Movies\",Сити Эдем КиноДетектив [Not 24/7]\r\r\nhttps://cityeden.catcast.tv/content/41327/index.m3u8\r",
+      "line": 416,
       "catchup": {
         "type": "",
         "days": "",
@@ -5325,34 +5269,6 @@
       "status": "OK"
     },
     {
-      "name": "Сити Эдем КиноЭкшен [Not 24/7]",
-      "tvg": {
-        "id": "CityEdenKinoAction.ru@HD",
-        "name": "",
-        "logo": "https://i.imgur.com/uuzuvD0.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Movies"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://cityeden.catcast.tv/content/41333/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"CityEdenKinoAction.ru@HD\" tvg-logo=\"https://i.imgur.com/uuzuvD0.png\" group-title=\"Movies\",Сити Эдем КиноЭкшен [Not 24/7]\r\r\nhttps://cityeden.catcast.tv/content/41333/index.m3u8\r",
-      "line": 432,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Сити Эдем Классическая Музыка [Not 24/7]",
       "tvg": {
         "id": "CityEdenClassicMusic.ru@HD",
@@ -5372,34 +5288,6 @@
       "url": "https://cityeden.catcast.tv/content/47400/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"CityEdenClassicMusic.ru@HD\" tvg-logo=\"https://i.imgur.com/l7BE8l6.png\" group-title=\"Music\",Сити Эдем Классическая Музыка [Not 24/7]\r\r\nhttps://cityeden.catcast.tv/content/47400/index.m3u8\r",
       "line": 434,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Сити Эдем Рецепты Гурмана [Not 24/7]",
-      "tvg": {
-        "id": "CityEdenReceptyGurmana.ru@HD",
-        "name": "",
-        "logo": "https://i.imgur.com/wR0pvRc.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Cooking"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://cityeden.catcast.tv/content/47516/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"CityEdenReceptyGurmana.ru@HD\" tvg-logo=\"https://i.imgur.com/wR0pvRc.png\" group-title=\"Cooking\",Сити Эдем Рецепты Гурмана [Not 24/7]\r\r\nhttps://cityeden.catcast.tv/content/47516/index.m3u8\r",
-      "line": 438,
       "catchup": {
         "type": "",
         "days": "",
@@ -5437,6 +5325,34 @@
       "status": "OK"
     },
     {
+      "name": "Сити Эдем Рецепты Гурмана [Not 24/7]",
+      "tvg": {
+        "id": "CityEdenReceptyGurmana.ru@HD",
+        "name": "",
+        "logo": "https://i.imgur.com/wR0pvRc.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Cooking"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://cityeden.catcast.tv/content/47516/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"CityEdenReceptyGurmana.ru@HD\" tvg-logo=\"https://i.imgur.com/wR0pvRc.png\" group-title=\"Cooking\",Сити Эдем Рецепты Гурмана [Not 24/7]\r\r\nhttps://cityeden.catcast.tv/content/47516/index.m3u8\r",
+      "line": 438,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Сити Эдем Сиртаки ТВ [Not 24/7]",
       "tvg": {
         "id": "CityEdenSirtakiTV.ru@HD",
@@ -5465,25 +5381,25 @@
       "status": "OK"
     },
     {
-      "name": "Сити Эдем ТВ Христианский [Not 24/7]",
+      "name": "Сити Эдем КиноЭкшен [Not 24/7]",
       "tvg": {
-        "id": "CityEdenTV.ru@HD",
+        "id": "CityEdenKinoAction.ru@HD",
         "name": "",
-        "logo": "https://i.imgur.com/X9kACKi.png",
+        "logo": "https://i.imgur.com/uuzuvD0.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "General;Religious"
+        "title": "Movies"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://cityeden.catcast.tv/content/34246/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"CityEdenTV.ru@HD\" tvg-logo=\"https://i.imgur.com/X9kACKi.png\" group-title=\"General;Religious\",Сити Эдем ТВ Христианский [Not 24/7]\r\r\nhttps://cityeden.catcast.tv/content/34246/index.m3u8\r",
-      "line": 442,
+      "url": "https://cityeden.catcast.tv/content/41333/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"CityEdenKinoAction.ru@HD\" tvg-logo=\"https://i.imgur.com/uuzuvD0.png\" group-title=\"Movies\",Сити Эдем КиноЭкшен [Not 24/7]\r\r\nhttps://cityeden.catcast.tv/content/41333/index.m3u8\r",
+      "line": 432,
       "catchup": {
         "type": "",
         "days": "",
@@ -5549,34 +5465,6 @@
       "status": "OK"
     },
     {
-      "name": "Солнце",
-      "tvg": {
-        "id": "Solnce.ru@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/HCefxaK.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Animation;Kids"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://tv.mediacdn.ru/live/solntse/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Solnce.ru@SD\" tvg-logo=\"https://i.imgur.com/HCefxaK.png\" group-title=\"Animation;Kids\",Солнце\r\r\nhttp://tv.mediacdn.ru/live/solntse/playlist.m3u8\r",
-      "line": 450,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Смайл ТВ",
       "tvg": {
         "id": "SmileTV.ru@SD",
@@ -5596,6 +5484,34 @@
       "url": "https://5f05e059699ae.streamlock.net/WEB_Smilik/ngrp:Smilik.stream-adaptive/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"SmileTV.ru@SD\" tvg-logo=\"https://static.tildacdn.com/tild3936-3138-4234-b536-326531343933/-_13x.png\" group-title=\"Kids\",Смайл ТВ\r\r\nhttps://5f05e059699ae.streamlock.net/WEB_Smilik/ngrp:Smilik.stream-adaptive/playlist.m3u8\r",
       "line": 446,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Солнце",
+      "tvg": {
+        "id": "Solnce.ru@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/HCefxaK.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Animation;Kids"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://tv.mediacdn.ru/live/solntse/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Solnce.ru@SD\" tvg-logo=\"https://i.imgur.com/HCefxaK.png\" group-title=\"Animation;Kids\",Солнце\r\r\nhttp://tv.mediacdn.ru/live/solntse/playlist.m3u8\r",
+      "line": 450,
       "catchup": {
         "type": "",
         "days": "",
@@ -5745,34 +5661,6 @@
       "status": "OK"
     },
     {
-      "name": "СТС",
-      "tvg": {
-        "id": "STS.ru@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/ilUzAeb.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Family"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://streaming.televizor-24-tochka.ru/live/16.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"STS.ru@SD\" tvg-logo=\"https://i.imgur.com/ilUzAeb.png\" group-title=\"Family\",СТС\r\r\nhttps://streaming.televizor-24-tochka.ru/live/16.m3u8\r",
-      "line": 464,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Студия Факт",
       "tvg": {
         "id": "StudiyaFakt.ru@SD",
@@ -5913,6 +5801,34 @@
       "status": "OK"
     },
     {
+      "name": "ТВК 24 (576p)",
+      "tvg": {
+        "id": "TVK.ru@SD",
+        "name": "",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/e/e7/%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF_%D0%BA%D1%80%D0%B0%D1%81%D0%BD%D0%BE%D1%8F%D1%80%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_%D1%82%D0%B5%D0%BB%D0%B5%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB%D0%B0_%D0%A2%D0%92%D0%9A_%282015%29.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://air.tvk6.ru/tvk24/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"TVK.ru@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/e/e7/%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF_%D0%BA%D1%80%D0%B0%D1%81%D0%BD%D0%BE%D1%8F%D1%80%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_%D1%82%D0%B5%D0%BB%D0%B5%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB%D0%B0_%D0%A2%D0%92%D0%9A_%282015%29.png\" group-title=\"Undefined\",ТВК 24 (576p)\r\r\nhttps://air.tvk6.ru/tvk24/playlist.m3u8\r",
+      "line": 480,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Твое TV HD",
       "tvg": {
         "id": "TvoeTV.ru@SD",
@@ -5960,34 +5876,6 @@
       "url": "http://tvoetv.space:8080/tvoetv_humor/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TvoyeTVYumor.ru@SD\" tvg-logo=\"https://smotret.tv/images/tvoe-tv-yumor.webp\" group-title=\"Comedy\",Твое ТВ Юмор\r\r\nhttp://tvoetv.space:8080/tvoetv_humor/index.m3u8\r",
       "line": 484,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "ТВК 24 (576p)",
-      "tvg": {
-        "id": "TVK.ru@SD",
-        "name": "",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/e/e7/%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF_%D0%BA%D1%80%D0%B0%D1%81%D0%BD%D0%BE%D1%8F%D1%80%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_%D1%82%D0%B5%D0%BB%D0%B5%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB%D0%B0_%D0%A2%D0%92%D0%9A_%282015%29.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://air.tvk6.ru/tvk24/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TVK.ru@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/e/e7/%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF_%D0%BA%D1%80%D0%B0%D1%81%D0%BD%D0%BE%D1%8F%D1%80%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_%D1%82%D0%B5%D0%BB%D0%B5%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB%D0%B0_%D0%A2%D0%92%D0%9A_%282015%29.png\" group-title=\"Undefined\",ТВК 24 (576p)\r\r\nhttps://air.tvk6.ru/tvk24/playlist.m3u8\r",
-      "line": 480,
       "catchup": {
         "type": "",
         "days": "",
@@ -6221,6 +6109,34 @@
       "status": "OK"
     },
     {
+      "name": "Тамыр (Уфа)",
+      "tvg": {
+        "id": "Tamyr.ru@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/Ia3acCB.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Kids"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://bstonline.mediacdn.ru/cdn/tamyr/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Tamyr.ru@SD\" tvg-logo=\"https://i.imgur.com/Ia3acCB.png\" group-title=\"Kids\",Тамыр (Уфа)\r\r\nhttps://bstonline.mediacdn.ru/cdn/tamyr/playlist.m3u8\r",
+      "line": 474,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "ТНВ-Планета (Казань)",
       "tvg": {
         "id": "TNVPlanet.ru@SD",
@@ -6277,25 +6193,25 @@
       "status": "OK"
     },
     {
-      "name": "Тамыр (Уфа)",
+      "name": "Уникум",
       "tvg": {
-        "id": "Tamyr.ru@SD",
+        "id": "Unikum.ru@SD",
         "name": "",
-        "logo": "https://i.imgur.com/Ia3acCB.png",
+        "logo": "https://i.imgur.com/kSJZjDL.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Kids"
+        "title": "Undefined"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://bstonline.mediacdn.ru/cdn/tamyr/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Tamyr.ru@SD\" tvg-logo=\"https://i.imgur.com/Ia3acCB.png\" group-title=\"Kids\",Тамыр (Уфа)\r\r\nhttps://bstonline.mediacdn.ru/cdn/tamyr/playlist.m3u8\r",
-      "line": 474,
+      "url": "http://31.148.48.15/Detskiy/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Unikum.ru@SD\" tvg-logo=\"https://i.imgur.com/kSJZjDL.png\" group-title=\"Undefined\",Уникум\r\r\nhttp://31.148.48.15/Detskiy/index.m3u8\r",
+      "line": 515,
       "catchup": {
         "type": "",
         "days": "",
@@ -6324,34 +6240,6 @@
       "url": "https://zabava-htlive.cdn.ngenix.net/hls/CH_TNT4/variant.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TNT4.ru@SD\" tvg-logo=\"https://i.imgur.com/gBokU5i.png\" group-title=\"Entertainment\" http-user-agent=\"WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer\",ТНТ4 [Geo-blocked]\r\r\n#EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer\r\r\nhttps://zabava-htlive.cdn.ngenix.net/hls/CH_TNT4/variant.m3u8\r",
       "line": 506,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Уникум",
-      "tvg": {
-        "id": "Unikum.ru@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/kSJZjDL.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://31.148.48.15/Detskiy/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Unikum.ru@SD\" tvg-logo=\"https://i.imgur.com/kSJZjDL.png\" group-title=\"Undefined\",Уникум\r\r\nhttp://31.148.48.15/Detskiy/index.m3u8\r",
-      "line": 515,
       "catchup": {
         "type": "",
         "days": "",
@@ -6417,34 +6305,6 @@
       "status": "OK"
     },
     {
-      "name": "Футбол",
-      "tvg": {
-        "id": "Football.ru@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/pEuaZVx.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Sports"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://31.148.48.15/Futbol_HD/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Football.ru@SD\" tvg-logo=\"https://i.imgur.com/pEuaZVx.png\" group-title=\"Sports\",Футбол\r\r\nhttp://31.148.48.15/Futbol_HD/index.m3u8\r",
-      "line": 521,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Че!",
       "tvg": {
         "id": "Che.ru@SD",
@@ -6464,6 +6324,34 @@
       "url": "http://31.148.48.15/Che/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"Che.ru@SD\" tvg-logo=\"https://i.imgur.com/ZOcDGpB.png\" group-title=\"Entertainment\",Че!\r\r\nhttp://31.148.48.15/Che/index.m3u8\r",
       "line": 523,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Футбол",
+      "tvg": {
+        "id": "Football.ru@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/pEuaZVx.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Sports"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://31.148.48.15/Futbol_HD/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Football.ru@SD\" tvg-logo=\"https://i.imgur.com/pEuaZVx.png\" group-title=\"Sports\",Футбол\r\r\nhttp://31.148.48.15/Futbol_HD/index.m3u8\r",
+      "line": 521,
       "catchup": {
         "type": "",
         "days": "",
@@ -6557,34 +6445,6 @@
       "status": "OK"
     },
     {
-      "name": "Югра",
-      "tvg": {
-        "id": "UgraTV.ru@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/561FRwI.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://live-ugratv.cdnvideo.ru/ugratv/ugratv/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"UgraTV.ru@SD\" tvg-logo=\"https://i.imgur.com/561FRwI.png\" group-title=\"Undefined\",Югра\r\r\nhttps://live-ugratv.cdnvideo.ru/ugratv/ugratv/playlist.m3u8\r",
-      "line": 535,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Щёлковское ТВ (576p) [Not 24/7]",
       "tvg": {
         "id": "ShchyolkovskoeTV.ru@SD",
@@ -6604,6 +6464,34 @@
       "url": "http://stream0.tv41.ru/live.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"ShchyolkovskoeTV.ru@SD\" tvg-logo=\"https://i.imgur.com/0us6l04.png\" group-title=\"Undefined\",Щёлковское ТВ (576p) [Not 24/7]\r\r\nhttp://stream0.tv41.ru/live.m3u8\r",
       "line": 529,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Югра",
+      "tvg": {
+        "id": "UgraTV.ru@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/561FRwI.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://live-ugratv.cdnvideo.ru/ugratv/ugratv/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"UgraTV.ru@SD\" tvg-logo=\"https://i.imgur.com/561FRwI.png\" group-title=\"Undefined\",Югра\r\r\nhttps://live-ugratv.cdnvideo.ru/ugratv/ugratv/playlist.m3u8\r",
+      "line": 535,
       "catchup": {
         "type": "",
         "days": "",
