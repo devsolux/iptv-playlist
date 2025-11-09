@@ -145,11 +145,11 @@
       "status": "OK"
     },
     {
-      "name": "Hope Channel Bulgaria",
+      "name": "Light Channel (480p) [Not 24/7]",
       "tvg": {
-        "id": "HopeChannelBulgaria.bg@SD",
+        "id": "LightChannel.bg@SD",
         "name": "",
-        "logo": "https://i.imgur.com/bxzeEML.png",
+        "logo": "https://i.imgur.com/S3Fbf8T.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -161,9 +161,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://hc1.hopetv.bg/live/hopetv_all.smil/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"HopeChannelBulgaria.bg@SD\" tvg-logo=\"https://i.imgur.com/bxzeEML.png\" group-title=\"Religious\",Hope Channel Bulgaria\r\r\nhttps://hc1.hopetv.bg/live/hopetv_all.smil/playlist.m3u8\r",
-      "line": 16,
+      "url": "https://streamer1.streamhost.org/salive/GMIlcbgM/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"LightChannel.bg@SD\" tvg-logo=\"https://i.imgur.com/S3Fbf8T.png\" group-title=\"Religious\",Light Channel (480p) [Not 24/7]\r\r\nhttps://streamer1.streamhost.org/salive/GMIlcbgM/playlist.m3u8\r",
+      "line": 21,
       "catchup": {
         "type": "",
         "days": "",
@@ -201,11 +201,11 @@
       "status": "OK"
     },
     {
-      "name": "Light Channel (480p) [Not 24/7]",
+      "name": "Hope Channel Bulgaria",
       "tvg": {
-        "id": "LightChannel.bg@SD",
+        "id": "HopeChannelBulgaria.bg@SD",
         "name": "",
-        "logo": "https://i.imgur.com/S3Fbf8T.png",
+        "logo": "https://i.imgur.com/bxzeEML.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -217,9 +217,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://streamer1.streamhost.org/salive/GMIlcbgM/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"LightChannel.bg@SD\" tvg-logo=\"https://i.imgur.com/S3Fbf8T.png\" group-title=\"Religious\",Light Channel (480p) [Not 24/7]\r\r\nhttps://streamer1.streamhost.org/salive/GMIlcbgM/playlist.m3u8\r",
-      "line": 21,
+      "url": "https://hc1.hopetv.bg/live/hopetv_all.smil/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"HopeChannelBulgaria.bg@SD\" tvg-logo=\"https://i.imgur.com/bxzeEML.png\" group-title=\"Religious\",Hope Channel Bulgaria\r\r\nhttps://hc1.hopetv.bg/live/hopetv_all.smil/playlist.m3u8\r",
+      "line": 16,
       "catchup": {
         "type": "",
         "days": "",
@@ -313,6 +313,34 @@
       "status": "OK"
     },
     {
+      "name": "RMTV (288p)",
+      "tvg": {
+        "id": "RMTV.bg@SD",
+        "name": "",
+        "logo": "https://rmtv.bg/img/logo.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://transcoder1.bitcare.eu/streaming/rimextv/rmtv.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"RMTV.bg@SD\" tvg-logo=\"https://rmtv.bg/img/logo.png\" group-title=\"Undefined\",RMTV (288p)\r\r\nhttps://transcoder1.bitcare.eu/streaming/rimextv/rmtv.m3u8\r",
+      "line": 29,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Tiankov Folk (576p)",
       "tvg": {
         "id": "TiankovFolk.bg@SD",
@@ -341,25 +369,25 @@
       "status": "OK"
     },
     {
-      "name": "RMTV (288p)",
+      "name": "Travel TV (576p)",
       "tvg": {
-        "id": "RMTV.bg@SD",
+        "id": "TravelTV.bg@SD",
         "name": "",
-        "logo": "https://rmtv.bg/img/logo.png",
+        "logo": "https://i.imgur.com/5xllfed.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Undefined"
+        "title": "Travel"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://transcoder1.bitcare.eu/streaming/rimextv/rmtv.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"RMTV.bg@SD\" tvg-logo=\"https://rmtv.bg/img/logo.png\" group-title=\"Undefined\",RMTV (288p)\r\r\nhttps://transcoder1.bitcare.eu/streaming/rimextv/rmtv.m3u8\r",
-      "line": 29,
+      "url": "https://streamer103.neterra.tv/travel/live.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"TravelTV.bg@SD\" tvg-logo=\"https://i.imgur.com/5xllfed.png\" group-title=\"Travel\",Travel TV (576p)\r\r\nhttps://streamer103.neterra.tv/travel/live.m3u8\r",
+      "line": 39,
       "catchup": {
         "type": "",
         "days": "",
@@ -416,34 +444,6 @@
       "url": "http://zagoratv.ddns.net:8080/tvzagora.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TVZagora.bg@SD\" tvg-logo=\"https://i.imgur.com/DvBboqe.png\" group-title=\"General\",TV Zagora (576p)\r\r\nhttp://zagoratv.ddns.net:8080/tvzagora.m3u8\r",
       "line": 41,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Travel TV (576p)",
-      "tvg": {
-        "id": "TravelTV.bg@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/5xllfed.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Travel"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://streamer103.neterra.tv/travel/live.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TravelTV.bg@SD\" tvg-logo=\"https://i.imgur.com/5xllfed.png\" group-title=\"Travel\",Travel TV (576p)\r\r\nhttps://streamer103.neterra.tv/travel/live.m3u8\r",
-      "line": 39,
       "catchup": {
         "type": "",
         "days": "",
