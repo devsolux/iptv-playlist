@@ -61,34 +61,6 @@
       "status": "OK"
     },
     {
-      "name": "3sat HD (1080p)",
-      "tvg": {
-        "id": "3sat.de@HD",
-        "name": "",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/3sat_2019.svg/512px-3sat_2019.svg.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://viamotionhsi.netplus.ch/live/eds/3sathd/browser-HLS8/3sathd.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"3sat.de@HD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/3sat_2019.svg/512px-3sat_2019.svg.png\" group-title=\"General\",3sat HD (1080p)\r\r\nhttps://viamotionhsi.netplus.ch/live/eds/3sathd/browser-HLS8/3sathd.m3u8\r",
-      "line": 4,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "ATV (576p)",
       "tvg": {
         "id": "ATV.at@SD",
@@ -108,6 +80,34 @@
       "url": "https://strm.hdtvizlecanli.com/live/atv.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"ATV.at@SD\" tvg-logo=\"https://i.imgur.com/1pA0Tid.png\" group-title=\"General\",ATV (576p)\r\r\nhttps://strm.hdtvizlecanli.com/live/atv.m3u8\r",
       "line": 14,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "3sat HD (1080p)",
+      "tvg": {
+        "id": "3sat.de@HD",
+        "name": "",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/3sat_2019.svg/512px-3sat_2019.svg.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://viamotionhsi.netplus.ch/live/eds/3sathd/browser-HLS8/3sathd.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"3sat.de@HD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/3sat_2019.svg/512px-3sat_2019.svg.png\" group-title=\"General\",3sat HD (1080p)\r\r\nhttps://viamotionhsi.netplus.ch/live/eds/3sathd/browser-HLS8/3sathd.m3u8\r",
+      "line": 4,
       "catchup": {
         "type": "",
         "days": "",
@@ -313,25 +313,25 @@
       "status": "OK"
     },
     {
-      "name": "Hitradio O3",
+      "name": "N24 Doku",
       "tvg": {
-        "id": "HitradioO3.at@SD",
+        "id": "N24DokuAustria.at@SD",
         "name": "",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Hitradio_%C3%963.svg/512px-Hitradio_%C3%963.svg.png",
+        "logo": "https://i.imgur.com/qgoXJu4.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Music"
+        "title": "Documentary"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://studiocam-oe3.mdn.ors.at/orf/studiocam_oe3/q6a/manifest.mpd",
-      "raw": "#EXTINF:-1 tvg-id=\"HitradioO3.at@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Hitradio_%C3%963.svg/512px-Hitradio_%C3%963.svg.png\" group-title=\"Music\",Hitradio O3\r\r\nhttps://studiocam-oe3.mdn.ors.at/orf/studiocam_oe3/q6a/manifest.mpd\r",
-      "line": 26,
+      "url": "http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/60080e8a4bf36000076a81b1/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=1b1f1163-4b81-11ef-a8ac-e146e4e7be02&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=3c70bac9-b6d8-44d7-bde9-a992a6bfd7ab",
+      "raw": "#EXTINF:-1 tvg-id=\"N24DokuAustria.at@SD\" tvg-logo=\"https://i.imgur.com/qgoXJu4.png\" group-title=\"Documentary\",N24 Doku\r\r\nhttp://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/60080e8a4bf36000076a81b1/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=1b1f1163-4b81-11ef-a8ac-e146e4e7be02&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=3c70bac9-b6d8-44d7-bde9-a992a6bfd7ab\r",
+      "line": 38,
       "catchup": {
         "type": "",
         "days": "",
@@ -369,25 +369,25 @@
       "status": "OK"
     },
     {
-      "name": "N24 Doku",
+      "name": "Hitradio O3",
       "tvg": {
-        "id": "N24DokuAustria.at@SD",
+        "id": "HitradioO3.at@SD",
         "name": "",
-        "logo": "https://i.imgur.com/qgoXJu4.png",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Hitradio_%C3%963.svg/512px-Hitradio_%C3%963.svg.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Documentary"
+        "title": "Music"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/60080e8a4bf36000076a81b1/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=1b1f1163-4b81-11ef-a8ac-e146e4e7be02&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=3c70bac9-b6d8-44d7-bde9-a992a6bfd7ab",
-      "raw": "#EXTINF:-1 tvg-id=\"N24DokuAustria.at@SD\" tvg-logo=\"https://i.imgur.com/qgoXJu4.png\" group-title=\"Documentary\",N24 Doku\r\r\nhttp://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/60080e8a4bf36000076a81b1/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=1b1f1163-4b81-11ef-a8ac-e146e4e7be02&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=3c70bac9-b6d8-44d7-bde9-a992a6bfd7ab\r",
-      "line": 38,
+      "url": "https://studiocam-oe3.mdn.ors.at/orf/studiocam_oe3/q6a/manifest.mpd",
+      "raw": "#EXTINF:-1 tvg-id=\"HitradioO3.at@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Hitradio_%C3%963.svg/512px-Hitradio_%C3%963.svg.png\" group-title=\"Music\",Hitradio O3\r\r\nhttps://studiocam-oe3.mdn.ors.at/orf/studiocam_oe3/q6a/manifest.mpd\r",
+      "line": 26,
       "catchup": {
         "type": "",
         "days": "",
@@ -677,34 +677,6 @@
       "status": "OK"
     },
     {
-      "name": "ORF III HD (720p)",
-      "tvg": {
-        "id": "ORFIII.at@HD",
-        "name": "",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/ORF_III_Logo_Monochrom.svg/512px-ORF_III_Logo_Monochrom.svg.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Culture"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://orf3.mdn.ors.at/orf/orf3/qxa/manifest.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"ORFIII.at@HD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/ORF_III_Logo_Monochrom.svg/512px-ORF_III_Logo_Monochrom.svg.png\" group-title=\"Culture\",ORF III HD (720p)\r\r\nhttps://orf3.mdn.ors.at/orf/orf3/qxa/manifest.m3u8\r",
-      "line": 58,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "R9 (720p) [Not 24/7]",
       "tvg": {
         "id": "R9.at@SD",
@@ -724,6 +696,34 @@
       "url": "https://ms01.w24.at/R9/smil:liveeventR9.smil/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"R9.at@SD\" tvg-logo=\"https://i.imgur.com/SVJiXxh.png\" group-title=\"Undefined\",R9 (720p) [Not 24/7]\r\r\nhttps://ms01.w24.at/R9/smil:liveeventR9.smil/playlist.m3u8\r",
       "line": 64,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "ORF III HD (720p)",
+      "tvg": {
+        "id": "ORFIII.at@HD",
+        "name": "",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/ORF_III_Logo_Monochrom.svg/512px-ORF_III_Logo_Monochrom.svg.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Culture"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://orf3.mdn.ors.at/orf/orf3/qxa/manifest.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"ORFIII.at@HD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/ORF_III_Logo_Monochrom.svg/512px-ORF_III_Logo_Monochrom.svg.png\" group-title=\"Culture\",ORF III HD (720p)\r\r\nhttps://orf3.mdn.ors.at/orf/orf3/qxa/manifest.m3u8\r",
+      "line": 58,
       "catchup": {
         "type": "",
         "days": "",
@@ -845,6 +845,34 @@
       "status": "OK"
     },
     {
+      "name": "ServusTV HD",
+      "tvg": {
+        "id": "ServusTV.at@HD",
+        "name": "",
+        "logo": "https://i.imgur.com/6W637Gn.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Movies"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://viamotionhsi.netplus.ch/live/eds/servustvhd/browser-HLS8/servustvhd.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"ServusTV.at@HD\" tvg-logo=\"https://i.imgur.com/6W637Gn.png\" group-title=\"Movies\",ServusTV HD\r\r\nhttps://viamotionhsi.netplus.ch/live/eds/servustvhd/browser-HLS8/servustvhd.m3u8\r",
+      "line": 82,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Super RTL HD (720p)",
       "tvg": {
         "id": "RTLSuper.de@HD",
@@ -901,25 +929,25 @@
       "status": "OK"
     },
     {
-      "name": "ServusTV HD",
+      "name": "Swamiji TV European (1080p) [Not 24/7]",
       "tvg": {
-        "id": "ServusTV.at@HD",
+        "id": "SwamijiTVEuropean.at@SD",
         "name": "",
-        "logo": "https://i.imgur.com/6W637Gn.png",
+        "logo": "https://i.imgur.com/nrLcuzs.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Movies"
+        "title": "Outdoor"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://viamotionhsi.netplus.ch/live/eds/servustvhd/browser-HLS8/servustvhd.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"ServusTV.at@HD\" tvg-logo=\"https://i.imgur.com/6W637Gn.png\" group-title=\"Movies\",ServusTV HD\r\r\nhttps://viamotionhsi.netplus.ch/live/eds/servustvhd/browser-HLS8/servustvhd.m3u8\r",
-      "line": 82,
+      "url": "https://stream.swamiji.tv/YogaIPTV/smil:YogaStream.smil/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"SwamijiTVEuropean.at@SD\" tvg-logo=\"https://i.imgur.com/nrLcuzs.png\" group-title=\"Outdoor\",Swamiji TV European (1080p) [Not 24/7]\r\r\nhttps://stream.swamiji.tv/YogaIPTV/smil:YogaStream.smil/playlist.m3u8\r",
+      "line": 95,
       "catchup": {
         "type": "",
         "days": "",
@@ -957,25 +985,25 @@
       "status": "OK"
     },
     {
-      "name": "Swamiji TV European (1080p) [Not 24/7]",
+      "name": "TV 1 Oberösterreich (1080p)",
       "tvg": {
-        "id": "SwamijiTVEuropean.at@SD",
+        "id": "TV1Oberosterreich.at@SD",
         "name": "",
-        "logo": "https://i.imgur.com/nrLcuzs.png",
+        "logo": "https://i.postimg.cc/Qx34YmYp/tv1oberosterreich.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Outdoor"
+        "title": "Undefined"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://stream.swamiji.tv/YogaIPTV/smil:YogaStream.smil/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"SwamijiTVEuropean.at@SD\" tvg-logo=\"https://i.imgur.com/nrLcuzs.png\" group-title=\"Outdoor\",Swamiji TV European (1080p) [Not 24/7]\r\r\nhttps://stream.swamiji.tv/YogaIPTV/smil:YogaStream.smil/playlist.m3u8\r",
-      "line": 95,
+      "url": "https://streaming10.huberwebmedia.at/LiveApp/streams/238985177034727564068269_adaptive.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"TV1Oberosterreich.at@SD\" tvg-logo=\"https://i.postimg.cc/Qx34YmYp/tv1oberosterreich.png\" group-title=\"Undefined\",TV 1 Oberösterreich (1080p)\r\r\nhttps://streaming10.huberwebmedia.at/LiveApp/streams/238985177034727564068269_adaptive.m3u8\r",
+      "line": 99,
       "catchup": {
         "type": "",
         "days": "",
@@ -1004,34 +1032,6 @@
       "url": "https://streaming14.huberwebmedia.at/LiveApp/streams/livestream.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TirolTV.at@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/TIROL_TV_Logo_2019.png/512px-TIROL_TV_Logo_2019.png\" group-title=\"Undefined\",Tirol TV (720p) [Not 24/7]\r\r\nhttps://streaming14.huberwebmedia.at/LiveApp/streams/livestream.m3u8\r",
       "line": 97,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "TV 1 Oberösterreich (1080p)",
-      "tvg": {
-        "id": "TV1Oberosterreich.at@SD",
-        "name": "",
-        "logo": "https://i.postimg.cc/Qx34YmYp/tv1oberosterreich.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://streaming10.huberwebmedia.at/LiveApp/streams/238985177034727564068269_adaptive.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TV1Oberosterreich.at@SD\" tvg-logo=\"https://i.postimg.cc/Qx34YmYp/tv1oberosterreich.png\" group-title=\"Undefined\",TV 1 Oberösterreich (1080p)\r\r\nhttps://streaming10.huberwebmedia.at/LiveApp/streams/238985177034727564068269_adaptive.m3u8\r",
-      "line": 99,
       "catchup": {
         "type": "",
         "days": "",
