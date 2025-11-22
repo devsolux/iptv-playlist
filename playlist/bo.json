@@ -61,25 +61,25 @@
       "status": "OK"
     },
     {
-      "name": "Cadena A (720p) [Not 24/7]",
+      "name": "CEACOM TV [Not 24/7]",
       "tvg": {
-        "id": "CadenaA.bo@SD",
+        "id": "CEACOMTV.bo@SD",
         "name": "",
-        "logo": "https://i.imgur.com/BxQPPAA.png",
+        "logo": "https://i.imgur.com/hutdRfk.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Undefined"
+        "title": "General;Lifestyle;Music;News"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://5fe2654d6127d.streamlock.net/cadenaa/videocadenaa/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"CadenaA.bo@SD\" tvg-logo=\"https://i.imgur.com/BxQPPAA.png\" group-title=\"Undefined\",Cadena A (720p) [Not 24/7]\r\r\nhttps://5fe2654d6127d.streamlock.net/cadenaa/videocadenaa/playlist.m3u8\r",
-      "line": 12,
+      "url": "https://eu1.servers10.com:8081/ceacom/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"CEACOMTV.bo@SD\" tvg-logo=\"https://i.imgur.com/hutdRfk.png\" group-title=\"General;Lifestyle;Music;News\",CEACOM TV [Not 24/7]\r\r\nhttps://eu1.servers10.com:8081/ceacom/index.m3u8\r",
+      "line": 16,
       "catchup": {
         "type": "",
         "days": "",
@@ -117,34 +117,6 @@
       "status": "OK"
     },
     {
-      "name": "Coral TV (480p)",
-      "tvg": {
-        "id": "CoralTV.bo@SD",
-        "name": "",
-        "logo": "https://i.ibb.co/xDrc5MD/CORALTv.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://tv.mediacp.eu:8081/coraltv/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"CoralTV.bo@SD\" tvg-logo=\"https://i.ibb.co/xDrc5MD/CORALTv.png\" group-title=\"General\",Coral TV (480p)\r\r\nhttps://tv.mediacp.eu:8081/coraltv/index.m3u8\r",
-      "line": 18,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "CTV",
       "tvg": {
         "id": "CTV.bo@SD",
@@ -173,11 +145,11 @@
       "status": "OK"
     },
     {
-      "name": "FAP TV (480p)",
+      "name": "Coral TV (480p)",
       "tvg": {
-        "id": "FAPTV.bo@SD",
+        "id": "CoralTV.bo@SD",
         "name": "",
-        "logo": "https://i.imgur.com/jZ7g58e.png",
+        "logo": "https://i.ibb.co/xDrc5MD/CORALTv.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -189,9 +161,37 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://nd106.republicaservers.com/hls/c7284/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"FAPTV.bo@SD\" tvg-logo=\"https://i.imgur.com/jZ7g58e.png\" group-title=\"General\",FAP TV (480p)\r\r\nhttps://nd106.republicaservers.com/hls/c7284/index.m3u8\r",
-      "line": 30,
+      "url": "https://tv.mediacp.eu:8081/coraltv/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"CoralTV.bo@SD\" tvg-logo=\"https://i.ibb.co/xDrc5MD/CORALTv.png\" group-title=\"General\",Coral TV (480p)\r\r\nhttps://tv.mediacp.eu:8081/coraltv/index.m3u8\r",
+      "line": 18,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "FTV",
+      "tvg": {
+        "id": "FTV.bo@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/YOr1Oac.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Sports"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://master.tucableip.com/ftvhd/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"FTV.bo@SD\" tvg-logo=\"https://i.imgur.com/YOr1Oac.png\" group-title=\"Sports\",FTV\r\r\nhttps://master.tucableip.com/ftvhd/index.m3u8\r",
+      "line": 32,
       "catchup": {
         "type": "",
         "days": "",
@@ -220,6 +220,34 @@
       "url": "http://179.51.136.19:8000/play/a0q4/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"NickelodeonLatinAmerica.us@Panregional\" tvg-logo=\"https://i.imgur.com/E84jnP8.png\" group-title=\"Kids\",Nickelodeon Latin America (720p)\r\r\nhttp://179.51.136.19:8000/play/a0q4/index.m3u8\r",
       "line": 42,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "FAP TV (480p)",
+      "tvg": {
+        "id": "FAPTV.bo@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/jZ7g58e.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://nd106.republicaservers.com/hls/c7284/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"FAPTV.bo@SD\" tvg-logo=\"https://i.imgur.com/jZ7g58e.png\" group-title=\"General\",FAP TV (480p)\r\r\nhttps://nd106.republicaservers.com/hls/c7284/index.m3u8\r",
+      "line": 30,
       "catchup": {
         "type": "",
         "days": "",
@@ -313,11 +341,11 @@
       "status": "OK"
     },
     {
-      "name": "TDT Multimedia (720p)",
+      "name": "RTP",
       "tvg": {
-        "id": "TDTMultimedia.bo@SD",
+        "id": "RTP.bo@SD",
         "name": "",
-        "logo": "https://i.imgur.com/JkCywl5.png",
+        "logo": "https://i.imgur.com/cECNvvr.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -329,9 +357,37 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://video01.kshost.com.br:4443/juan6318/juan6318/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TDTMultimedia.bo@SD\" tvg-logo=\"https://i.imgur.com/JkCywl5.png\" group-title=\"General\",TDT Multimedia (720p)\r\r\nhttps://video01.kshost.com.br:4443/juan6318/juan6318/playlist.m3u8\r",
-      "line": 60,
+      "url": "https://rtp.noxun.net/hls/stream.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"RTP.bo@SD\" tvg-logo=\"https://i.imgur.com/cECNvvr.png\" group-title=\"General\",RTP\r\r\nhttps://rtp.noxun.net/hls/stream.m3u8\r",
+      "line": 56,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Studio Universal Latin America",
+      "tvg": {
+        "id": "StudioUniversalLatinAmerica.us@Panregional",
+        "name": "",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/StudioUniversal2016.png/512px-StudioUniversal2016.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://cors-proxy.cooks.fyi/https://streamer1.nexgen.bz/STUDIO_UNIVERSAL/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"StudioUniversalLatinAmerica.us@Panregional\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/StudioUniversal2016.png/512px-StudioUniversal2016.png\" group-title=\"Undefined\",Studio Universal Latin America\r\r\nhttps://cors-proxy.cooks.fyi/https://streamer1.nexgen.bz/STUDIO_UNIVERSAL/index.m3u8\r",
+      "line": 58,
       "catchup": {
         "type": "",
         "days": "",
@@ -425,6 +481,34 @@
       "status": "OK"
     },
     {
+      "name": "TDT Multimedia (720p)",
+      "tvg": {
+        "id": "TDTMultimedia.bo@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/JkCywl5.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://video01.kshost.com.br:4443/juan6318/juan6318/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"TDTMultimedia.bo@SD\" tvg-logo=\"https://i.imgur.com/JkCywl5.png\" group-title=\"General\",TDT Multimedia (720p)\r\r\nhttps://video01.kshost.com.br:4443/juan6318/juan6318/playlist.m3u8\r",
+      "line": 60,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Unitel Santa Cruz",
       "tvg": {
         "id": "UnitelSantaCruz.bo@SD",
@@ -509,6 +593,34 @@
       "status": "OK"
     },
     {
+      "name": "UPEA TV (720p)",
+      "tvg": {
+        "id": "UPEATV.bo@SD",
+        "name": "",
+        "logo": "https://tvadmin.upea.bo/storage/imagenes_institucion/imagen_institucion_66cd025754fcb.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://tvstream.upea.bo/hls/oSs0jSWumTFIIVY97559.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"UPEATV.bo@SD\" tvg-logo=\"https://tvadmin.upea.bo/storage/imagenes_institucion/imagen_institucion_66cd025754fcb.png\" group-title=\"Undefined\" http-referrer=\"https://tv.upea.bo/live\",UPEA TV (720p)\r\r\nhttps://tvstream.upea.bo/hls/oSs0jSWumTFIIVY97559.m3u8\r",
+      "line": 78,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "XTOTV (1280p) [Not 24/7]",
       "tvg": {
         "id": "XTOTV.bo@SD",
@@ -556,34 +668,6 @@
       "url": "https://mio.zoymilton.com/ZoyEventos/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"ZoyTVSports1.bo@SD\" tvg-logo=\"https://i.imgur.com/0YHztGq.png\" group-title=\"Sports\",Zoy TV Sports 1 (1080p) [Not 24/7]\r\r\nhttps://mio.zoymilton.com/ZoyEventos/index.m3u8\r",
       "line": 87,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Studio Universal Latin America",
-      "tvg": {
-        "id": "StudioUniversalLatinAmerica.us@Panregional",
-        "name": "",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/StudioUniversal2016.png/512px-StudioUniversal2016.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://cors-proxy.cooks.fyi/https://streamer1.nexgen.bz/STUDIO_UNIVERSAL/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"StudioUniversalLatinAmerica.us@Panregional\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/StudioUniversal2016.png/512px-StudioUniversal2016.png\" group-title=\"Undefined\",Studio Universal Latin America\r\r\nhttps://cors-proxy.cooks.fyi/https://streamer1.nexgen.bz/STUDIO_UNIVERSAL/index.m3u8\r",
-      "line": 58,
       "catchup": {
         "type": "",
         "days": "",
