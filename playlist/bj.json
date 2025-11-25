@@ -5,34 +5,6 @@
   },
   "items": [
     {
-      "name": "Eden TV (540p) [Not 24/7]",
-      "tvg": {
-        "id": "EdenTV.bj@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/4ClnG0x.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://rtmp.edentv.bj/hls/stream.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"EdenTV.bj@SD\" tvg-logo=\"https://i.imgur.com/4ClnG0x.png\" group-title=\"General\",Eden TV (540p) [Not 24/7]\r\r\nhttps://rtmp.edentv.bj/hls/stream.m3u8\r",
-      "line": 6,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "ADO TV (720p)",
       "tvg": {
         "id": "ADOTV.bj@SD",
@@ -52,6 +24,34 @@
       "url": "https://strhls.streamakaci.tv/ortb/ortb2-multi/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"ADOTV.bj@SD\" tvg-logo=\"https://i.imgur.com/pxFamLr.png\" group-title=\"Kids;Sports\",ADO TV (720p)\r\r\nhttps://strhls.streamakaci.tv/ortb/ortb2-multi/playlist.m3u8\r",
       "line": 2,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "ORTB TV (720p) [Not 24/7]",
+      "tvg": {
+        "id": "ORTBTV.bj@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/o6zAR88.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://strhls.streamakaci.tv/ortb/ortb1-multi/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"ORTBTV.bj@SD\" tvg-logo=\"https://i.imgur.com/o6zAR88.png\" group-title=\"General\",ORTB TV (720p) [Not 24/7]\r\r\nhttps://strhls.streamakaci.tv/ortb/ortb1-multi/playlist.m3u8\r",
+      "line": 8,
       "catchup": {
         "type": "",
         "days": "",
@@ -89,11 +89,11 @@
       "status": "OK"
     },
     {
-      "name": "ORTB TV (720p) [Not 24/7]",
+      "name": "Eden TV (540p) [Not 24/7]",
       "tvg": {
-        "id": "ORTBTV.bj@SD",
+        "id": "EdenTV.bj@SD",
         "name": "",
-        "logo": "https://i.imgur.com/o6zAR88.png",
+        "logo": "https://i.imgur.com/4ClnG0x.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -105,9 +105,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://strhls.streamakaci.tv/ortb/ortb1-multi/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"ORTBTV.bj@SD\" tvg-logo=\"https://i.imgur.com/o6zAR88.png\" group-title=\"General\",ORTB TV (720p) [Not 24/7]\r\r\nhttps://strhls.streamakaci.tv/ortb/ortb1-multi/playlist.m3u8\r",
-      "line": 8,
+      "url": "https://rtmp.edentv.bj/hls/stream.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"EdenTV.bj@SD\" tvg-logo=\"https://i.imgur.com/4ClnG0x.png\" group-title=\"General\",Eden TV (540p) [Not 24/7]\r\r\nhttps://rtmp.edentv.bj/hls/stream.m3u8\r",
+      "line": 6,
       "catchup": {
         "type": "",
         "days": "",
