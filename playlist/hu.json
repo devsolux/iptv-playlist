@@ -5,34 +5,6 @@
   },
   "items": [
     {
-      "name": "16tv Budapest (360p)",
-      "tvg": {
-        "id": "16tvBudapest.hu@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/04fCzHl.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://cloudfront44.lexanetwork.com:1344/freerelay/16tv.sdp/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"16tvBudapest.hu@SD\" tvg-logo=\"https://i.imgur.com/04fCzHl.png\" group-title=\"General\",16tv Budapest (360p)\r\r\nhttps://cloudfront44.lexanetwork.com:1344/freerelay/16tv.sdp/playlist.m3u8\r",
-      "line": 4,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Alföld TV (1080p)",
       "tvg": {
         "id": "AlfoldTV.hu@SD",
@@ -89,11 +61,11 @@
       "status": "OK"
     },
     {
-      "name": "Bábolnai TV (360p)",
+      "name": "16tv Budapest (360p)",
       "tvg": {
-        "id": "BTV.hu@SD",
+        "id": "16tvBudapest.hu@SD",
         "name": "",
-        "logo": "https://i.imgur.com/0PKqn3V.png",
+        "logo": "https://i.imgur.com/04fCzHl.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -105,9 +77,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://cloudfront44.lexanetwork.com:1344/freerelay/babolnatv.sdp/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"BTV.hu@SD\" tvg-logo=\"https://i.imgur.com/0PKqn3V.png\" group-title=\"General\",Bábolnai TV (360p)\r\r\nhttps://cloudfront44.lexanetwork.com:1344/freerelay/babolnatv.sdp/playlist.m3u8\r",
-      "line": 14,
+      "url": "https://cloudfront44.lexanetwork.com:1344/freerelay/16tv.sdp/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"16tvBudapest.hu@SD\" tvg-logo=\"https://i.imgur.com/04fCzHl.png\" group-title=\"General\",16tv Budapest (360p)\r\r\nhttps://cloudfront44.lexanetwork.com:1344/freerelay/16tv.sdp/playlist.m3u8\r",
+      "line": 4,
       "catchup": {
         "type": "",
         "days": "",
@@ -173,25 +145,25 @@
       "status": "OK"
     },
     {
-      "name": "Balaton TV (432p)",
+      "name": "Bábolnai TV (360p)",
       "tvg": {
-        "id": "BalatonTV.hu@SD",
+        "id": "BTV.hu@SD",
         "name": "",
-        "logo": "https://balatontelevizio.hu/wp-content/uploads/2020/05/balaton_tv_logo.png",
+        "logo": "https://i.imgur.com/0PKqn3V.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Undefined"
+        "title": "General"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://stream.iptvservice.eu/hls/balatontv.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"BalatonTV.hu@SD\" tvg-logo=\"https://balatontelevizio.hu/wp-content/uploads/2020/05/balaton_tv_logo.png\" group-title=\"Undefined\",Balaton TV (432p)\r\r\nhttps://stream.iptvservice.eu/hls/balatontv.m3u8\r",
-      "line": 18,
+      "url": "https://cloudfront44.lexanetwork.com:1344/freerelay/babolnatv.sdp/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"BTV.hu@SD\" tvg-logo=\"https://i.imgur.com/0PKqn3V.png\" group-title=\"General\",Bábolnai TV (360p)\r\r\nhttps://cloudfront44.lexanetwork.com:1344/freerelay/babolnatv.sdp/playlist.m3u8\r",
+      "line": 14,
       "catchup": {
         "type": "",
         "days": "",
@@ -220,6 +192,34 @@
       "url": "https://stream.streaming4u.hu/BerenteTV/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"BerenteTV.hu@SD\" tvg-logo=\"https://i.imgur.com/3H3Ct9f.png\" group-title=\"General\",Berente TV (1080p)\r\r\nhttps://stream.streaming4u.hu/BerenteTV/index.m3u8\r",
       "line": 20,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Balaton TV (432p)",
+      "tvg": {
+        "id": "BalatonTV.hu@SD",
+        "name": "",
+        "logo": "https://balatontelevizio.hu/wp-content/uploads/2020/05/balaton_tv_logo.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://stream.iptvservice.eu/hls/balatontv.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"BalatonTV.hu@SD\" tvg-logo=\"https://balatontelevizio.hu/wp-content/uploads/2020/05/balaton_tv_logo.png\" group-title=\"Undefined\",Balaton TV (432p)\r\r\nhttps://stream.iptvservice.eu/hls/balatontv.m3u8\r",
+      "line": 18,
       "catchup": {
         "type": "",
         "days": "",
@@ -864,34 +864,6 @@
       "url": "http://rakosmentetv.hu:8080/hls/rmtv.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"RakosmenteTV.hu@SD\" tvg-logo=\"https://i.imgur.com/n39a2DT.png\" group-title=\"General\",Rákosmente TV (720p)\r\r\nhttp://rakosmentetv.hu:8080/hls/rmtv.m3u8\r",
       "line": 132,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Régió TV (406p)",
-      "tvg": {
-        "id": "RegioTV.sk@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/WlF6tlZ.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://tv.geniusnet.sk:8081/regiotv/pl.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"RegioTV.sk@SD\" tvg-logo=\"https://i.imgur.com/WlF6tlZ.png\" group-title=\"General\",Régió TV (406p)\r\r\nhttp://tv.geniusnet.sk:8081/regiotv/pl.m3u8\r",
-      "line": 134,
       "catchup": {
         "type": "",
         "days": "",
