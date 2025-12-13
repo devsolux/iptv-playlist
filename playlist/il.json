@@ -5,6 +5,34 @@
   },
   "items": [
     {
+      "name": "Hala TV (1080p) [Not 24/7]",
+      "tvg": {
+        "id": "HalaTV.il@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/028M4Ew.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://stream.panet.com/edge/halaTV/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"HalaTV.il@SD\" tvg-logo=\"https://i.imgur.com/028M4Ew.png\" group-title=\"General\",Hala TV (1080p) [Not 24/7]\r\r\nhttps://stream.panet.com/edge/halaTV/playlist.m3u8\r",
+      "line": 6,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Hidabroot (1080p)",
       "tvg": {
         "id": "Hidabroot.il@SD",
@@ -89,34 +117,6 @@
       "status": "OK"
     },
     {
-      "name": "i24NEWS Hebrew",
-      "tvg": {
-        "id": "i24NEWSHebrew.il@SD",
-        "name": "",
-        "logo": "https://www.i24news.tv/images/favicon.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "News"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://bcovlive-a.akamaihd.net/d89ede8094c741b7924120b27764153c/eu-central-1/5377161796001/profile_0/chunklist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"i24NEWSHebrew.il@SD\" tvg-logo=\"https://www.i24news.tv/images/favicon.png\" group-title=\"News\",i24NEWS Hebrew\r\r\nhttps://bcovlive-a.akamaihd.net/d89ede8094c741b7924120b27764153c/eu-central-1/5377161796001/profile_0/chunklist.m3u8\r",
-      "line": 14,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "I24 News French (720p)",
       "tvg": {
         "id": "i24NEWSFrench.il@SD",
@@ -145,25 +145,25 @@
       "status": "OK"
     },
     {
-      "name": "Kan Kids (720p)",
+      "name": "i24NEWS Hebrew",
       "tvg": {
-        "id": "KanEducational.il@SD",
+        "id": "i24NEWSHebrew.il@SD",
         "name": "",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/KanHinuchit.svg/512px-KanHinuchit.svg.png",
+        "logo": "https://www.i24news.tv/images/favicon.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Education"
+        "title": "News"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://kan23.media.kan.org.il/hls/live/2024691/2024691/master.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"KanEducational.il@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/KanHinuchit.svg/512px-KanHinuchit.svg.png\" group-title=\"Education\",Kan Kids (720p)\r\r\nhttps://kan23.media.kan.org.il/hls/live/2024691/2024691/master.m3u8\r",
-      "line": 22,
+      "url": "https://bcovlive-a.akamaihd.net/d89ede8094c741b7924120b27764153c/eu-central-1/5377161796001/profile_0/chunklist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"i24NEWSHebrew.il@SD\" tvg-logo=\"https://www.i24news.tv/images/favicon.png\" group-title=\"News\",i24NEWS Hebrew\r\r\nhttps://bcovlive-a.akamaihd.net/d89ede8094c741b7924120b27764153c/eu-central-1/5377161796001/profile_0/chunklist.m3u8\r",
+      "line": 14,
       "catchup": {
         "type": "",
         "days": "",
@@ -192,6 +192,34 @@
       "url": "https://kan11w.media.kan.org.il/hls/live/2105694/2105694/master.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"Kan11.il@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Kan11Logo.svg/512px-Kan11Logo.svg.png\" group-title=\"General\",KAN 11 Israel (1080p)\r\r\nhttps://kan11w.media.kan.org.il/hls/live/2105694/2105694/master.m3u8\r",
       "line": 20,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Kan Kids (720p)",
+      "tvg": {
+        "id": "KanEducational.il@SD",
+        "name": "",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/KanHinuchit.svg/512px-KanHinuchit.svg.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Education"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://kan23.media.kan.org.il/hls/live/2024691/2024691/master.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"KanEducational.il@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/KanHinuchit.svg/512px-KanHinuchit.svg.png\" group-title=\"Education\",Kan Kids (720p)\r\r\nhttps://kan23.media.kan.org.il/hls/live/2024691/2024691/master.m3u8\r",
+      "line": 22,
       "catchup": {
         "type": "",
         "days": "",
