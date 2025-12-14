@@ -33,6 +33,34 @@
       "status": "OK"
     },
     {
+      "name": "Action 24 (1080p)",
+      "tvg": {
+        "id": "Action24.gr@SD",
+        "name": "",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/8/88/Action24-logo-small.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Movies"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://actionlive.siliconweb.com/actionabr/actiontv/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Action24.gr@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/8/88/Action24-logo-small.png\" group-title=\"Movies\",Action 24 (1080p)\r\r\nhttp://actionlive.siliconweb.com/actionabr/actiontv/playlist.m3u8\r",
+      "line": 6,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Aeolos TV (1080p)",
       "tvg": {
         "id": "AeolosTV.gr@SD",
@@ -285,6 +313,34 @@
       "status": "OK"
     },
     {
+      "name": "DELTA TV (720p)",
+      "tvg": {
+        "id": "DELTATV.gr@SD",
+        "name": "",
+        "logo": "https://i.ibb.co/Nt79gnx/319386123-3050873715211949-6691293256713061450-n-1024x752.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://81.171.10.42:554/liveD/DStream.sdp/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"DELTATV.gr@SD\" tvg-logo=\"https://i.ibb.co/Nt79gnx/319386123-3050873715211949-6691293256713061450-n-1024x752.png\" group-title=\"General\",DELTA TV (720p)\r\r\nhttp://81.171.10.42:554/liveD/DStream.sdp/playlist.m3u8\r",
+      "line": 48,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Corfu Channel (720p)",
       "tvg": {
         "id": "CorfuChannel.gr@SD",
@@ -313,25 +369,25 @@
       "status": "OK"
     },
     {
-      "name": "DELTA TV (720p)",
+      "name": "Egnatia TV (576p)",
       "tvg": {
-        "id": "DELTATV.gr@SD",
+        "id": "EgnatiaTV.gr@SD",
         "name": "",
-        "logo": "https://i.ibb.co/Nt79gnx/319386123-3050873715211949-6691293256713061450-n-1024x752.png",
+        "logo": "https://i.imgur.com/zuyYIca.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "General"
+        "title": "News"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "http://81.171.10.42:554/liveD/DStream.sdp/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"DELTATV.gr@SD\" tvg-logo=\"https://i.ibb.co/Nt79gnx/319386123-3050873715211949-6691293256713061450-n-1024x752.png\" group-title=\"General\",DELTA TV (720p)\r\r\nhttp://81.171.10.42:554/liveD/DStream.sdp/playlist.m3u8\r",
-      "line": 48,
+      "url": "https://video.streams.ovh:1936/egnatiatv/egnatiatv/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"EgnatiaTV.gr@SD\" tvg-logo=\"https://i.imgur.com/zuyYIca.png\" group-title=\"News\",Egnatia TV (576p)\r\r\nhttps://video.streams.ovh:1936/egnatiatv/egnatiatv/index.m3u8\r",
+      "line": 56,
       "catchup": {
         "type": "",
         "days": "",
@@ -369,25 +425,25 @@
       "status": "OK"
     },
     {
-      "name": "Egnatia TV (576p)",
+      "name": "Faros TV2 (480p) [Geo-blocked]",
       "tvg": {
-        "id": "EgnatiaTV.gr@SD",
+        "id": "FarosTV2.gr@SD",
         "name": "",
-        "logo": "https://i.imgur.com/zuyYIca.png",
+        "logo": "https://i.imgur.com/7xtz1Jo.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "News"
+        "title": "Undefined"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://video.streams.ovh:1936/egnatiatv/egnatiatv/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"EgnatiaTV.gr@SD\" tvg-logo=\"https://i.imgur.com/zuyYIca.png\" group-title=\"News\",Egnatia TV (576p)\r\r\nhttps://video.streams.ovh:1936/egnatiatv/egnatiatv/index.m3u8\r",
-      "line": 56,
+      "url": "https://s1.cystream.net/live/faros2/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"FarosTV2.gr@SD\" tvg-logo=\"https://i.imgur.com/7xtz1Jo.png\" group-title=\"Undefined\",Faros TV2 (480p) [Geo-blocked]\r\r\nhttps://s1.cystream.net/live/faros2/playlist.m3u8\r",
+      "line": 84,
       "catchup": {
         "type": "",
         "days": "",
@@ -789,34 +845,6 @@
       "status": "OK"
     },
     {
-      "name": "Panik TV (1080p)",
-      "tvg": {
-        "id": "PanikTV.gr@SD",
-        "name": "",
-        "logo": "https://i.postimg.cc/DmVdQxNp/paniktv.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Music"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://livetv.streams.ovh:1936/paniktv/paniktv/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"PanikTV.gr@SD\" tvg-logo=\"https://i.postimg.cc/DmVdQxNp/paniktv.png\" group-title=\"Music\",Panik TV (1080p)\r\r\nhttps://livetv.streams.ovh:1936/paniktv/paniktv/playlist.m3u8\r",
-      "line": 138,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Pella TV (576p) [Not 24/7]",
       "tvg": {
         "id": "PellaTV.gr@SD",
@@ -836,6 +864,34 @@
       "url": "https://video.streams.ovh:1936/pellatv/pellatv/master.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"PellaTV.gr@SD\" tvg-logo=\"https://i.imgur.com/JnDXKZo.png\" group-title=\"General\",Pella TV (576p) [Not 24/7]\r\r\nhttps://video.streams.ovh:1936/pellatv/pellatv/master.m3u8\r",
       "line": 140,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Panik TV (1080p)",
+      "tvg": {
+        "id": "PanikTV.gr@SD",
+        "name": "",
+        "logo": "https://i.postimg.cc/DmVdQxNp/paniktv.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Music"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://livetv.streams.ovh:1936/paniktv/paniktv/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"PanikTV.gr@SD\" tvg-logo=\"https://i.postimg.cc/DmVdQxNp/paniktv.png\" group-title=\"Music\",Panik TV (1080p)\r\r\nhttps://livetv.streams.ovh:1936/paniktv/paniktv/playlist.m3u8\r",
+      "line": 138,
       "catchup": {
         "type": "",
         "days": "",
@@ -976,6 +1032,34 @@
       "url": "http://skai-live-back.siliconweb.com/media/cambria4/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"SkaiTV.gr@SD\" tvg-logo=\"https://i.imgur.com/mrKRFnf.png\" group-title=\"General\",Skai TV (720p)\r\r\nhttp://skai-live-back.siliconweb.com/media/cambria4/index.m3u8\r",
       "line": 160,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Smile TV (360p) [Geo-blocked]",
+      "tvg": {
+        "id": "SmileTV.gr@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/IAb4Gbf.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Kids"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://s1.cystream.net/live/smile/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"SmileTV.gr@SD\" tvg-logo=\"https://i.imgur.com/IAb4Gbf.png\" group-title=\"Kids\",Smile TV (360p) [Geo-blocked]\r\r\nhttps://s1.cystream.net/live/smile/playlist.m3u8\r",
+      "line": 162,
       "catchup": {
         "type": "",
         "days": "",
