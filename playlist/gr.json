@@ -33,34 +33,6 @@
       "status": "OK"
     },
     {
-      "name": "4E (1080p)",
-      "tvg": {
-        "id": "4E.gr@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/Na0UCV7.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Religious"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://eu2.tv4e.gr:554/live/smil:myStream.sdp.smil/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"4E.gr@SD\" tvg-logo=\"https://i.imgur.com/Na0UCV7.png\" group-title=\"Religious\",4E (1080p)\r\r\nhttp://eu2.tv4e.gr:554/live/smil:myStream.sdp.smil/playlist.m3u8\r",
-      "line": 2,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Action 24 (1080p)",
       "tvg": {
         "id": "Action24.gr@SD",
@@ -164,6 +136,34 @@
       "url": "https://rtmp.win:3696/live/arttvgrlive.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"ARTTV.gr@SD\" tvg-logo=\"https://i.imgur.com/8uS0sib.png\" group-title=\"General\",ART TV\r\r\nhttps://rtmp.win:3696/live/arttvgrlive.m3u8\r",
       "line": 20,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "4E (1080p)",
+      "tvg": {
+        "id": "4E.gr@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/Na0UCV7.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Religious"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://eu2.tv4e.gr:554/live/smil:myStream.sdp.smil/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"4E.gr@SD\" tvg-logo=\"https://i.imgur.com/Na0UCV7.png\" group-title=\"Religious\",4E (1080p)\r\r\nhttp://eu2.tv4e.gr:554/live/smil:myStream.sdp.smil/playlist.m3u8\r",
+      "line": 2,
       "catchup": {
         "type": "",
         "days": "",
@@ -313,6 +313,34 @@
       "status": "OK"
     },
     {
+      "name": "DELTA TV (720p)",
+      "tvg": {
+        "id": "DELTATV.gr@SD",
+        "name": "",
+        "logo": "https://i.ibb.co/Nt79gnx/319386123-3050873715211949-6691293256713061450-n-1024x752.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://81.171.10.42:554/liveD/DStream.sdp/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"DELTATV.gr@SD\" tvg-logo=\"https://i.ibb.co/Nt79gnx/319386123-3050873715211949-6691293256713061450-n-1024x752.png\" group-title=\"General\",DELTA TV (720p)\r\r\nhttp://81.171.10.42:554/liveD/DStream.sdp/playlist.m3u8\r",
+      "line": 48,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Corfu Channel (720p)",
       "tvg": {
         "id": "CorfuChannel.gr@SD",
@@ -341,25 +369,25 @@
       "status": "OK"
     },
     {
-      "name": "DELTA TV (720p)",
+      "name": "Egnatia TV (576p)",
       "tvg": {
-        "id": "DELTATV.gr@SD",
+        "id": "EgnatiaTV.gr@SD",
         "name": "",
-        "logo": "https://i.ibb.co/Nt79gnx/319386123-3050873715211949-6691293256713061450-n-1024x752.png",
+        "logo": "https://i.imgur.com/zuyYIca.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "General"
+        "title": "News"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "http://81.171.10.42:554/liveD/DStream.sdp/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"DELTATV.gr@SD\" tvg-logo=\"https://i.ibb.co/Nt79gnx/319386123-3050873715211949-6691293256713061450-n-1024x752.png\" group-title=\"General\",DELTA TV (720p)\r\r\nhttp://81.171.10.42:554/liveD/DStream.sdp/playlist.m3u8\r",
-      "line": 48,
+      "url": "https://video.streams.ovh:1936/egnatiatv/egnatiatv/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"EgnatiaTV.gr@SD\" tvg-logo=\"https://i.imgur.com/zuyYIca.png\" group-title=\"News\",Egnatia TV (576p)\r\r\nhttps://video.streams.ovh:1936/egnatiatv/egnatiatv/index.m3u8\r",
+      "line": 56,
       "catchup": {
         "type": "",
         "days": "",
@@ -397,25 +425,25 @@
       "status": "OK"
     },
     {
-      "name": "Egnatia TV (576p)",
+      "name": "Faros TV2 (480p) [Geo-blocked]",
       "tvg": {
-        "id": "EgnatiaTV.gr@SD",
+        "id": "FarosTV2.gr@SD",
         "name": "",
-        "logo": "https://i.imgur.com/zuyYIca.png",
+        "logo": "https://i.imgur.com/7xtz1Jo.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "News"
+        "title": "Undefined"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://video.streams.ovh:1936/egnatiatv/egnatiatv/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"EgnatiaTV.gr@SD\" tvg-logo=\"https://i.imgur.com/zuyYIca.png\" group-title=\"News\",Egnatia TV (576p)\r\r\nhttps://video.streams.ovh:1936/egnatiatv/egnatiatv/index.m3u8\r",
-      "line": 56,
+      "url": "https://s1.cystream.net/live/faros2/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"FarosTV2.gr@SD\" tvg-logo=\"https://i.imgur.com/7xtz1Jo.png\" group-title=\"Undefined\",Faros TV2 (480p) [Geo-blocked]\r\r\nhttps://s1.cystream.net/live/faros2/playlist.m3u8\r",
+      "line": 84,
       "catchup": {
         "type": "",
         "days": "",
@@ -612,34 +640,6 @@
       "url": "https://kontralive.siliconweb.com/live/kontratv/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"KontraChannel.gr@SD\" tvg-logo=\"https://kontrachannel.gr/images/kontrachannel24.png\" group-title=\"General\",Kontra Channel (1080p)\r\r\nhttps://kontralive.siliconweb.com/live/kontratv/playlist.m3u8\r",
       "line": 102,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Lychnos TV (1080p)",
-      "tvg": {
-        "id": "LychnosTV.gr@SD",
-        "name": "",
-        "logo": "https://i.ibb.co/pJbKsVm/Lychnos-Tv-live-vipotv-greece.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Religious"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://thor.mental-media.gr:19360/imp/imp.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"LychnosTV.gr@SD\" tvg-logo=\"https://i.ibb.co/pJbKsVm/Lychnos-Tv-live-vipotv-greece.png\" group-title=\"Religious\",Lychnos TV (1080p)\r\r\nhttps://thor.mental-media.gr:19360/imp/imp.m3u8\r",
-      "line": 104,
       "catchup": {
         "type": "",
         "days": "",
@@ -1004,6 +1004,34 @@
       "url": "http://skai-live-back.siliconweb.com/media/cambria4/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"SkaiTV.gr@SD\" tvg-logo=\"https://i.imgur.com/mrKRFnf.png\" group-title=\"General\",Skai TV (720p)\r\r\nhttp://skai-live-back.siliconweb.com/media/cambria4/index.m3u8\r",
       "line": 160,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Smile TV (360p) [Geo-blocked]",
+      "tvg": {
+        "id": "SmileTV.gr@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/IAb4Gbf.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Kids"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://s1.cystream.net/live/smile/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"SmileTV.gr@SD\" tvg-logo=\"https://i.imgur.com/IAb4Gbf.png\" group-title=\"Kids\",Smile TV (360p) [Geo-blocked]\r\r\nhttps://s1.cystream.net/live/smile/playlist.m3u8\r",
+      "line": 162,
       "catchup": {
         "type": "",
         "days": "",
