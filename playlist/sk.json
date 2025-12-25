@@ -5,6 +5,34 @@
   },
   "items": [
     {
+      "name": ":Šport (1080p)",
+      "tvg": {
+        "id": "Sport.sk@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/oAtcxNZ.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Sports"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://88.212.15.27/live/test_rtvs_sport_hevc/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Sport.sk@SD\" tvg-logo=\"https://i.imgur.com/oAtcxNZ.png\" group-title=\"Sports\",:Šport (1080p)\r\r\nhttp://88.212.15.27/live/test_rtvs_sport_hevc/playlist.m3u8\r",
+      "line": 2,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": ":24 (1080p)",
       "tvg": {
         "id": "24.sk@SD",
@@ -33,25 +61,25 @@
       "status": "OK"
     },
     {
-      "name": ":Šport (1080p)",
+      "name": "BTV (480p)",
       "tvg": {
-        "id": "Sport.sk@SD",
+        "id": "BTV.sk@SD",
         "name": "",
-        "logo": "https://i.imgur.com/oAtcxNZ.png",
+        "logo": "https://i.imgur.com/5CZ6HHn.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Sports"
+        "title": "Undefined"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "http://88.212.15.27/live/test_rtvs_sport_hevc/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Sport.sk@SD\" tvg-logo=\"https://i.imgur.com/oAtcxNZ.png\" group-title=\"Sports\",:Šport (1080p)\r\r\nhttp://88.212.15.27/live/test_rtvs_sport_hevc/playlist.m3u8\r",
-      "line": 2,
+      "url": "https://fs3.kabelko.sk/9011/index.m3u8?token=btv",
+      "raw": "#EXTINF:-1 tvg-id=\"BTV.sk@SD\" tvg-logo=\"https://i.imgur.com/5CZ6HHn.png\" group-title=\"Undefined\",BTV (480p)\r\r\nhttps://fs3.kabelko.sk/9011/index.m3u8?token=btv\r",
+      "line": 6,
       "catchup": {
         "type": "",
         "days": "",
@@ -164,34 +192,6 @@
       "url": "http://lb.streaming.sk/senzi/stream/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"Senzi.sk@SD\" tvg-logo=\"https://i.imgur.com/1qJMmBu.png\" group-title=\"Undefined\",Senzi (720p)\r\r\nhttp://lb.streaming.sk/senzi/stream/playlist.m3u8\r",
       "line": 36,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "BTV (480p)",
-      "tvg": {
-        "id": "BTV.sk@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/5CZ6HHn.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://fs3.kabelko.sk/9011/index.m3u8?token=btv",
-      "raw": "#EXTINF:-1 tvg-id=\"BTV.sk@SD\" tvg-logo=\"https://i.imgur.com/5CZ6HHn.png\" group-title=\"Undefined\",BTV (480p)\r\r\nhttps://fs3.kabelko.sk/9011/index.m3u8?token=btv\r",
-      "line": 6,
       "catchup": {
         "type": "",
         "days": "",
