@@ -61,25 +61,25 @@
       "status": "OK"
     },
     {
-      "name": "BTV (480p)",
+      "name": "MTR (1080p)",
       "tvg": {
-        "id": "BTV.sk@SD",
+        "id": "MTR.sk@SD",
         "name": "",
-        "logo": "https://i.imgur.com/5CZ6HHn.png",
+        "logo": "https://www.mtr.sk/img/logo-mtr-0.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Undefined"
+        "title": "General"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://fs3.kabelko.sk/9011/index.m3u8?token=btv",
-      "raw": "#EXTINF:-1 tvg-id=\"BTV.sk@SD\" tvg-logo=\"https://i.imgur.com/5CZ6HHn.png\" group-title=\"Undefined\",BTV (480p)\r\r\nhttps://fs3.kabelko.sk/9011/index.m3u8?token=btv\r",
-      "line": 6,
+      "url": "https://cdnsk003.panaccess.com/local/Ruzomberok/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"MTR.sk@SD\" tvg-logo=\"https://www.mtr.sk/img/logo-mtr-0.png\" group-title=\"General\",MTR (1080p)\r\r\nhttps://cdnsk003.panaccess.com/local/Ruzomberok/index.m3u8\r",
+      "line": 20,
       "catchup": {
         "type": "",
         "days": "",
@@ -117,11 +117,11 @@
       "status": "OK"
     },
     {
-      "name": "MTR (1080p)",
+      "name": "NZTV",
       "tvg": {
-        "id": "MTR.sk@SD",
+        "id": "NZTV.sk@SD",
         "name": "",
-        "logo": "https://www.mtr.sk/img/logo-mtr-0.png",
+        "logo": "https://i.imgur.com/jGZlnzT.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -133,9 +133,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://cdnsk003.panaccess.com/local/Ruzomberok/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"MTR.sk@SD\" tvg-logo=\"https://www.mtr.sk/img/logo-mtr-0.png\" group-title=\"General\",MTR (1080p)\r\r\nhttps://cdnsk003.panaccess.com/local/Ruzomberok/index.m3u8\r",
-      "line": 20,
+      "url": "https://dash2.antik.sk/live/test_nove_zamky/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"NZTV.sk@SD\" tvg-logo=\"https://i.imgur.com/jGZlnzT.png\" group-title=\"General\",NZTV\r\r\nhttps://dash2.antik.sk/live/test_nove_zamky/playlist.m3u8\r",
+      "line": 26,
       "catchup": {
         "type": "",
         "days": "",
@@ -163,7 +163,35 @@
       },
       "url": "http://lb.streaming.sk/senzi/stream/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"Senzi.sk@SD\" tvg-logo=\"https://i.imgur.com/1qJMmBu.png\" group-title=\"Undefined\",Senzi (720p)\r\r\nhttp://lb.streaming.sk/senzi/stream/playlist.m3u8\r",
-      "line": 34,
+      "line": 36,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "BTV (480p)",
+      "tvg": {
+        "id": "BTV.sk@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/5CZ6HHn.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://fs3.kabelko.sk/9011/index.m3u8?token=btv",
+      "raw": "#EXTINF:-1 tvg-id=\"BTV.sk@SD\" tvg-logo=\"https://i.imgur.com/5CZ6HHn.png\" group-title=\"Undefined\",BTV (480p)\r\r\nhttps://fs3.kabelko.sk/9011/index.m3u8?token=btv\r",
+      "line": 6,
       "catchup": {
         "type": "",
         "days": "",
@@ -191,7 +219,7 @@
       },
       "url": "http://109.74.145.11:1935/tv8/ngrp:tv8.stream_all/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TV8.sk@SD\" tvg-logo=\"https://i.imgur.com/Z7URrp1.png\" group-title=\"Undefined\",Televízia OSEM (576p)\r\r\nhttp://109.74.145.11:1935/tv8/ngrp:tv8.stream_all/playlist.m3u8\r",
-      "line": 44,
+      "line": 46,
       "catchup": {
         "type": "",
         "days": "",
@@ -219,35 +247,7 @@
       },
       "url": "https://5ca49f2417d90.streamlock.net/mocenok/livestream/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TeleviziaMocenok.sk@SD\" tvg-logo=\"https://i.imgur.com/psb8GxZ.png\" group-title=\"General\",Televízia Močenok (720p)\r\r\nhttps://5ca49f2417d90.streamlock.net/mocenok/livestream/playlist.m3u8\r",
-      "line": 42,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "TV Central (540p)",
-      "tvg": {
-        "id": "TVCentral.sk@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/LqGT8o9.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://arenasportslovakia.ddns.net/hls/cetv2.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TVCentral.sk@SD\" tvg-logo=\"https://i.imgur.com/LqGT8o9.png\" group-title=\"Undefined\",TV Central (540p)\r\r\nhttps://arenasportslovakia.ddns.net/hls/cetv2.m3u8\r",
-      "line": 50,
+      "line": 44,
       "catchup": {
         "type": "",
         "days": "",
@@ -275,7 +275,35 @@
       },
       "url": "https://dash4.antik.sk/live/test_tv9/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TV9.sk@SD\" tvg-logo=\"https://i.imgur.com/Sco4x8t.png\" group-title=\"Undefined\",TV9\r\r\nhttps://dash4.antik.sk/live/test_tv9/playlist.m3u8\r",
-      "line": 46,
+      "line": 48,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "TV Central (540p)",
+      "tvg": {
+        "id": "TVCentral.sk@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/LqGT8o9.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://arenasportslovakia.ddns.net/hls/cetv2.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"TVCentral.sk@SD\" tvg-logo=\"https://i.imgur.com/LqGT8o9.png\" group-title=\"Undefined\",TV Central (540p)\r\r\nhttps://arenasportslovakia.ddns.net/hls/cetv2.m3u8\r",
+      "line": 52,
       "catchup": {
         "type": "",
         "days": "",
@@ -303,7 +331,7 @@
       },
       "url": "http://95.105.255.137:1935/tvturiec/tvliptov.stream/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TVLiptov.sk@SD\" tvg-logo=\"https://i.imgur.com/CkvB3af.png\" group-title=\"General\",TV Liptov (1080p)\r\r\nhttp://95.105.255.137:1935/tvturiec/tvliptov.stream/playlist.m3u8\r",
-      "line": 54,
+      "line": 56,
       "catchup": {
         "type": "",
         "days": "",
@@ -331,7 +359,7 @@
       },
       "url": "http://tv.geniusnet.sk:8081/localltv/pl.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TVLocAll.sk@SD\" tvg-logo=\"https://i.imgur.com/xN1CJol.png\" group-title=\"Undefined\",TV LocAll (406p)\r\r\nhttp://tv.geniusnet.sk:8081/localltv/pl.m3u8\r",
-      "line": 56,
+      "line": 58,
       "catchup": {
         "type": "",
         "days": "",
@@ -359,7 +387,7 @@
       },
       "url": "https://dash3.antik.sk/live/test_mistral_atktv/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TVMistral.sk@SD\" tvg-logo=\"https://i.imgur.com/IOJ6rcb.jpeg\" group-title=\"General\",TV Mistral\r\r\nhttps://dash3.antik.sk/live/test_mistral_atktv/playlist.m3u8\r",
-      "line": 60,
+      "line": 62,
       "catchup": {
         "type": "",
         "days": "",
@@ -387,7 +415,7 @@
       },
       "url": "https://dash4.antik.sk/live/test_nitricka/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TVNitricka.sk@SD\" tvg-logo=\"https://i.imgur.com/iwWyG1A.png\" group-title=\"General\",TV Nitricka\r\r\nhttps://dash4.antik.sk/live/test_nitricka/playlist.m3u8\r",
-      "line": 64,
+      "line": 66,
       "catchup": {
         "type": "",
         "days": "",
@@ -528,6 +556,34 @@
       "url": "https://5ca49f2417d90.streamlock.net/live/turzovka/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TVT.sk@SD\" tvg-logo=\"https://i.imgur.com/QG0iZlG.png\" group-title=\"Undefined\",TVT (486p)\r\r\nhttps://5ca49f2417d90.streamlock.net/live/turzovka/playlist.m3u8\r",
       "line": 90,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Zapadoslovenska TV",
+      "tvg": {
+        "id": "ZapadoslovenskaTV.sk@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/D72Y1IB.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://dash2.antik.sk/live/test_zapadoslovenska/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"ZapadoslovenskaTV.sk@SD\" tvg-logo=\"https://i.imgur.com/D72Y1IB.png\" group-title=\"General\",Zapadoslovenska TV\r\r\nhttps://dash2.antik.sk/live/test_zapadoslovenska/playlist.m3u8\r",
+      "line": 94,
       "catchup": {
         "type": "",
         "days": "",
