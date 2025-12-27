@@ -5,6 +5,34 @@
   },
   "items": [
     {
+      "name": "Agro TV (480p)",
+      "tvg": {
+        "id": "AgroTV.bg@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/tPMNDtD.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Outdoor"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://restr2.bgtv.bg/agro/hls/agro.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"AgroTV.bg@SD\" tvg-logo=\"https://i.imgur.com/tPMNDtD.png\" group-title=\"Outdoor\",Agro TV (480p)\r\r\nhttps://restr2.bgtv.bg/agro/hls/agro.m3u8\r",
+      "line": 4,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Disney Channel (576p)",
       "tvg": {
         "id": "DisneyChannel.bg@SD",
@@ -24,62 +52,6 @@
       "url": "http://84.54.128.52:9090/play/3006/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"DisneyChannel.bg@SD\" tvg-logo=\"https://i.imgur.com/UxrAiAe.png\" group-title=\"Kids\",Disney Channel (576p)\r\r\nhttp://84.54.128.52:9090/play/3006/index.m3u8\r",
       "line": 10,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "City TV (576p) [Not 24/7]",
-      "tvg": {
-        "id": "CityTV.bg@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/mFL452f.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Music"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://tv.city.bg/play/tshls/citytv/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"CityTV.bg@SD\" tvg-logo=\"https://i.imgur.com/mFL452f.png\" group-title=\"Music\",City TV (576p) [Not 24/7]\r\r\nhttps://tv.city.bg/play/tshls/citytv/index.m3u8\r",
-      "line": 8,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "DSTV (614p) [Not 24/7]",
-      "tvg": {
-        "id": "DSTV.bg@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/YMgzzkf.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Music"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://46.249.95.140:8081/hls/data.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"DSTV.bg@SD\" tvg-logo=\"https://i.imgur.com/YMgzzkf.png\" group-title=\"Music\",DSTV (614p) [Not 24/7]\r\r\nhttp://46.249.95.140:8081/hls/data.m3u8\r",
-      "line": 12,
       "catchup": {
         "type": "",
         "days": "",
@@ -117,25 +89,53 @@
       "status": "OK"
     },
     {
-      "name": "Agro TV (480p)",
+      "name": "DSTV (614p) [Not 24/7]",
       "tvg": {
-        "id": "AgroTV.bg@SD",
+        "id": "DSTV.bg@SD",
         "name": "",
-        "logo": "https://i.imgur.com/tPMNDtD.png",
+        "logo": "https://i.imgur.com/YMgzzkf.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Outdoor"
+        "title": "Music"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://restr2.bgtv.bg/agro/hls/agro.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"AgroTV.bg@SD\" tvg-logo=\"https://i.imgur.com/tPMNDtD.png\" group-title=\"Outdoor\",Agro TV (480p)\r\r\nhttps://restr2.bgtv.bg/agro/hls/agro.m3u8\r",
-      "line": 4,
+      "url": "http://46.249.95.140:8081/hls/data.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"DSTV.bg@SD\" tvg-logo=\"https://i.imgur.com/YMgzzkf.png\" group-title=\"Music\",DSTV (614p) [Not 24/7]\r\r\nhttp://46.249.95.140:8081/hls/data.m3u8\r",
+      "line": 12,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "City TV (576p) [Not 24/7]",
+      "tvg": {
+        "id": "CityTV.bg@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/mFL452f.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Music"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://tv.city.bg/play/tshls/citytv/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"CityTV.bg@SD\" tvg-logo=\"https://i.imgur.com/mFL452f.png\" group-title=\"Music\",City TV (576p) [Not 24/7]\r\r\nhttps://tv.city.bg/play/tshls/citytv/index.m3u8\r",
+      "line": 8,
       "catchup": {
         "type": "",
         "days": "",
@@ -201,34 +201,6 @@
       "status": "OK"
     },
     {
-      "name": "Light Channel (480p) [Not 24/7]",
-      "tvg": {
-        "id": "LightChannel.bg@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/S3Fbf8T.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Religious"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://streamer1.streamhost.org/salive/GMIlcbgM/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"LightChannel.bg@SD\" tvg-logo=\"https://i.imgur.com/S3Fbf8T.png\" group-title=\"Religious\",Light Channel (480p) [Not 24/7]\r\r\nhttps://streamer1.streamhost.org/salive/GMIlcbgM/playlist.m3u8\r",
-      "line": 21,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Hope Channel Bulgaria",
       "tvg": {
         "id": "HopeChannelBulgaria.bg@SD",
@@ -248,6 +220,34 @@
       "url": "https://hc1.hopetv.bg/live/hopetv_all.smil/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"HopeChannelBulgaria.bg@SD\" tvg-logo=\"https://i.imgur.com/bxzeEML.png\" group-title=\"Religious\",Hope Channel Bulgaria\r\r\nhttps://hc1.hopetv.bg/live/hopetv_all.smil/playlist.m3u8\r",
       "line": 16,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Light Channel (480p) [Not 24/7]",
+      "tvg": {
+        "id": "LightChannel.bg@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/S3Fbf8T.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Religious"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://streamer1.streamhost.org/salive/GMIlcbgM/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"LightChannel.bg@SD\" tvg-logo=\"https://i.imgur.com/S3Fbf8T.png\" group-title=\"Religious\",Light Channel (480p) [Not 24/7]\r\r\nhttps://streamer1.streamhost.org/salive/GMIlcbgM/playlist.m3u8\r",
+      "line": 21,
       "catchup": {
         "type": "",
         "days": "",
