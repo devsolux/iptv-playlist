@@ -33,6 +33,34 @@
       "status": "OK"
     },
     {
+      "name": "24 Канал (1080p)",
+      "tvg": {
+        "id": "Channel24.ua@SD",
+        "name": "",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/24_Group_Ukraine_04.png/512px-24_Group_Ukraine_04.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "News"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://streamvideol1.luxnet.ua/news24/smil:news24.stream.smil/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Channel24.ua@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/24_Group_Ukraine_04.png/512px-24_Group_Ukraine_04.png\" group-title=\"News\",24 Канал (1080p)\r\r\nhttps://streamvideol1.luxnet.ua/news24/smil:news24.stream.smil/playlist.m3u8\r",
+      "line": 5,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Avers (480p)",
       "tvg": {
         "id": "Avers.ua@SD",
@@ -61,25 +89,25 @@
       "status": "OK"
     },
     {
-      "name": "24 Канал (1080p)",
+      "name": "DniproTV (1080p)",
       "tvg": {
-        "id": "Channel24.ua@SD",
+        "id": "DniproTV.ua@SD",
         "name": "",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/24_Group_Ukraine_04.png/512px-24_Group_Ukraine_04.png",
+        "logo": "https://i.imgur.com/mbPTVh1.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "News"
+        "title": "General"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://streamvideol1.luxnet.ua/news24/smil:news24.stream.smil/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Channel24.ua@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/24_Group_Ukraine_04.png/512px-24_Group_Ukraine_04.png\" group-title=\"News\",24 Канал (1080p)\r\r\nhttps://streamvideol1.luxnet.ua/news24/smil:news24.stream.smil/playlist.m3u8\r",
-      "line": 5,
+      "url": "http://vcdn1.produck.company:1935/out/dtv/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"DniproTV.ua@SD\" tvg-logo=\"https://i.imgur.com/mbPTVh1.png\" group-title=\"General\",DniproTV (1080p)\r\r\nhttp://vcdn1.produck.company:1935/out/dtv/playlist.m3u8\r",
+      "line": 24,
       "catchup": {
         "type": "",
         "days": "",
@@ -136,34 +164,6 @@
       "url": "https://cdn3.wowza.com/1/WjduMm1tYnlwNXQx/M01NV3Uz/hls/live/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"EWTNUkraine.ua@SD\" tvg-logo=\"\" group-title=\"Religious\",EWTN Ukraine (1080p)\r\r\nhttps://cdn3.wowza.com/1/WjduMm1tYnlwNXQx/M01NV3Uz/hls/live/playlist.m3u8\r",
       "line": 28,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "DniproTV (1080p)",
-      "tvg": {
-        "id": "DniproTV.ua@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/mbPTVh1.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://vcdn1.produck.company:1935/out/dtv/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"DniproTV.ua@SD\" tvg-logo=\"https://i.imgur.com/mbPTVh1.png\" group-title=\"General\",DniproTV (1080p)\r\r\nhttp://vcdn1.produck.company:1935/out/dtv/playlist.m3u8\r",
-      "line": 24,
       "catchup": {
         "type": "",
         "days": "",
@@ -248,6 +248,34 @@
       "url": "https://live.m2.tv/hls3/stream.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"M2.ua@SD\" tvg-logo=\"https://i.imgur.com/AfcBWCg.png\" group-title=\"Music\",M2 (540p)\r\r\nhttps://live.m2.tv/hls3/stream.m3u8\r",
       "line": 56,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "PTV (720p)",
+      "tvg": {
+        "id": "PTV.ua@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/WDHoSVz.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "News"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://cdn10.live-tv.cloud/hrpl/hrpl-abr/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"PTV.ua@SD\" tvg-logo=\"https://i.imgur.com/WDHoSVz.png\" group-title=\"News\",PTV (720p)\r\r\nhttps://cdn10.live-tv.cloud/hrpl/hrpl-abr/playlist.m3u8\r",
+      "line": 62,
       "catchup": {
         "type": "",
         "days": "",
@@ -369,6 +397,34 @@
       "status": "OK"
     },
     {
+      "name": "TIS TV (720p)",
+      "tvg": {
+        "id": "TISTV.ua@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/jDaoUt5.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://cdn10.live-tv.cloud/riood/tisod-abr/riood/tisod720/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"TISTV.ua@SD\" tvg-logo=\"https://i.imgur.com/jDaoUt5.png\" group-title=\"Undefined\",TIS TV (720p)\r\r\nhttps://cdn10.live-tv.cloud/riood/tisod-abr/riood/tisod720/playlist.m3u8\r",
+      "line": 72,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "TRK Krug (576p)",
       "tvg": {
         "id": "TRKKrug.ua@SD",
@@ -425,6 +481,34 @@
       "status": "OK"
     },
     {
+      "name": "Z (Запорожье) (1080p)",
+      "tvg": {
+        "id": "Z.ua@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/E5aV5aa.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://stream.ztv.zp.ua/hls/live.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Z.ua@SD\" tvg-logo=\"https://i.imgur.com/E5aV5aa.png\" group-title=\"Undefined\",Z (Запорожье) (1080p)\r\r\nhttps://stream.ztv.zp.ua/hls/live.m3u8\r",
+      "line": 87,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Балта ТВ (768p)",
       "tvg": {
         "id": "BaltaTV.ua@SD",
@@ -472,90 +556,6 @@
       "url": "http://85.238.112.69:8811/hls_sec/239.0.4.18-.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"Glas.ua@SD\" tvg-logo=\"https://i.imgur.com/l5FEP9w.png\" group-title=\"Religious\",Глас (576p)\r\r\nhttp://85.238.112.69:8811/hls_sec/239.0.4.18-.m3u8\r",
       "line": 91,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Z (Запорожье) (1080p)",
-      "tvg": {
-        "id": "Z.ua@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/E5aV5aa.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://stream.ztv.zp.ua/hls/live.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Z.ua@SD\" tvg-logo=\"https://i.imgur.com/E5aV5aa.png\" group-title=\"Undefined\",Z (Запорожье) (1080p)\r\r\nhttps://stream.ztv.zp.ua/hls/live.m3u8\r",
-      "line": 87,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "За!ТВ",
-      "tvg": {
-        "id": "ZaTV.ru@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/pVPTl8J.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://streaming.televizor-24-tochka.ru/live/25.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"ZaTV.ru@SD\" tvg-logo=\"https://i.imgur.com/pVPTl8J.png\" group-title=\"General\",За!ТВ\r\r\nhttps://streaming.televizor-24-tochka.ru/live/25.m3u8\r",
-      "line": 95,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Крым 24",
-      "tvg": {
-        "id": "Crimea24.ru@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/k4C0uvp.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "News"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://streaming.televizor-24-tochka.ru/live/28.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Crimea24.ru@SD\" tvg-logo=\"https://i.imgur.com/k4C0uvp.png\" group-title=\"News\",Крым 24\r\r\nhttps://streaming.televizor-24-tochka.ru/live/28.m3u8\r",
-      "line": 99,
       "catchup": {
         "type": "",
         "days": "",
@@ -649,34 +649,6 @@
       "status": "OK"
     },
     {
-      "name": "Надия/Новый канал (576p) [Not 24/7]",
-      "tvg": {
-        "id": "HopeChannelUkraine.ua@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/mUx2P29.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Religious"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://nadiya.home-net.com.ua/mob/mystream.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"HopeChannelUkraine.ua@SD\" tvg-logo=\"https://i.imgur.com/mUx2P29.png\" group-title=\"Religious\",Надия/Новый канал (576p) [Not 24/7]\r\r\nhttp://nadiya.home-net.com.ua/mob/mystream.m3u8\r",
-      "line": 109,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "НТК ТВ (1080p) [Not 24/7]",
       "tvg": {
         "id": "NTKTV.ua@SD",
@@ -696,6 +668,34 @@
       "url": "https://stream.ntktv.ua/s/ntk/ntk.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"NTKTV.ua@SD\" tvg-logo=\"https://www.ntktv.ua/bitrix/templates/ntk_copy/images/logo.png\" group-title=\"General\",НТК ТВ (1080p) [Not 24/7]\r\r\nhttps://stream.ntktv.ua/s/ntk/ntk.m3u8\r",
       "line": 111,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Надия/Новый канал (576p) [Not 24/7]",
+      "tvg": {
+        "id": "HopeChannelUkraine.ua@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/mUx2P29.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Religious"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://nadiya.home-net.com.ua/mob/mystream.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"HopeChannelUkraine.ua@SD\" tvg-logo=\"https://i.imgur.com/mUx2P29.png\" group-title=\"Religious\",Надия/Новый канал (576p) [Not 24/7]\r\r\nhttp://nadiya.home-net.com.ua/mob/mystream.m3u8\r",
+      "line": 109,
       "catchup": {
         "type": "",
         "days": "",
@@ -808,34 +808,6 @@
       "url": "http://91.194.79.46:8081/stream1/channel1/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"PervyygorodskoyOdessa.ua@SD\" tvg-logo=\"https://i.imgur.com/8qdc6aO.png\" group-title=\"General\",Первый городской (Одесса) (1080p) [Not 24/7]\r\r\nhttp://91.194.79.46:8081/stream1/channel1/playlist.m3u8\r",
       "line": 123,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Первый Республиканский",
-      "tvg": {
-        "id": "PervyyRespublikanskiy.ru@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/Hrdq55E.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "News"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://streaming.televizor-24-tochka.ru/live/27.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"PervyyRespublikanskiy.ru@SD\" tvg-logo=\"https://i.imgur.com/Hrdq55E.png\" group-title=\"News\",Первый Республиканский\r\r\nhttps://streaming.televizor-24-tochka.ru/live/27.m3u8\r",
-      "line": 125,
       "catchup": {
         "type": "",
         "days": "",
