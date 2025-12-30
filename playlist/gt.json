@@ -117,6 +117,34 @@
       "status": "OK"
     },
     {
+      "name": "Canal 6 Panadish (720p)",
+      "tvg": {
+        "id": "Canal6Panadish.gt@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/KJWNPiz.jpg",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://stream.meteorito.cloud:1947/canal6/smil:canal6.smil/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Canal6Panadish.gt@SD\" tvg-logo=\"https://i.imgur.com/KJWNPiz.jpg\" group-title=\"General\",Canal 6 Panadish (720p)\r\r\nhttps://stream.meteorito.cloud:1947/canal6/smil:canal6.smil/playlist.m3u8\r",
+      "line": 12,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Canal 30 TV Bethel (720p) [Not 24/7]",
       "tvg": {
         "id": "Canal30TVBethel.gt@SD",
@@ -248,34 +276,6 @@
       "url": "http://streamingcontrol.com:1935/ectv/ectv/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"IglesiaDelCamino.gt@SD\" tvg-logo=\"https://i.imgur.com/vHfb3Z4.png\" group-title=\"Religious\",Iglesia Del Camino (480p) [Not 24/7]\r\r\nhttp://streamingcontrol.com:1935/ectv/ectv/playlist.m3u8\r",
       "line": 72,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Multivisión Canal 3 (720p) [Not 24/7]",
-      "tvg": {
-        "id": "MultivisionCanal3.gt@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/6bdj2BV.jpg",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://stream.digitalgt.com:3136/live/multivisionlive.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"MultivisionCanal3.gt@SD\" tvg-logo=\"https://i.imgur.com/6bdj2BV.jpg\" group-title=\"General\",Multivisión Canal 3 (720p) [Not 24/7]\r\r\nhttps://stream.digitalgt.com:3136/live/multivisionlive.m3u8\r",
-      "line": 88,
       "catchup": {
         "type": "",
         "days": "",
@@ -453,25 +453,25 @@
       "status": "OK"
     },
     {
-      "name": "Rhema TV (720p)",
+      "name": "SIL TV (1080p)",
       "tvg": {
-        "id": "RhemaTV.gt@SD",
+        "id": "SILTV.gt@SD",
         "name": "",
-        "logo": "https://i.imgur.com/5o821rT.png",
+        "logo": "https://i.imgur.com/tWZXRVu.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Religious"
+        "title": "General"
       },
       "http": {
-        "referrer": "",
-        "user-agent": ""
+        "referrer": "https://www.facebook.com/Siltv32",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, como Gecko) Chrome"
       },
-      "url": "https://5e85d90130e77.streamlock.net/6006/6006/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"RhemaTV.gt@SD\" tvg-logo=\"https://i.imgur.com/5o821rT.png\" group-title=\"Religious\",Rhema TV (720p)\r\r\nhttps://5e85d90130e77.streamlock.net/6006/6006/playlist.m3u8\r",
-      "line": 108,
+      "url": "https://live20.bozztv.com/giatv/giatv-SilTvOnline/SilTvOnline/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"SILTV.gt@SD\" tvg-logo=\"https://i.imgur.com/tWZXRVu.png\" http-referrer=\"https://www.facebook.com/Siltv32\" http-user-agent=\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, como Gecko) Chrome\" group-title=\"General\",SIL TV (1080p)\r\r\n#EXTVLCOPT:http-referrer=https://www.facebook.com/Siltv32\r\r\n#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, como Gecko) Chrome\r\r\nhttps://live20.bozztv.com/giatv/giatv-SilTvOnline/SilTvOnline/playlist.m3u8\r",
+      "line": 112,
       "catchup": {
         "type": "",
         "days": "",
@@ -509,25 +509,25 @@
       "status": "OK"
     },
     {
-      "name": "SIL TV (1080p)",
+      "name": "Rhema TV (720p)",
       "tvg": {
-        "id": "SILTV.gt@SD",
+        "id": "RhemaTV.gt@SD",
         "name": "",
-        "logo": "https://i.imgur.com/tWZXRVu.png",
+        "logo": "https://i.imgur.com/5o821rT.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "General"
+        "title": "Religious"
       },
       "http": {
-        "referrer": "https://www.facebook.com/Siltv32",
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, como Gecko) Chrome"
+        "referrer": "",
+        "user-agent": ""
       },
-      "url": "https://live20.bozztv.com/giatv/giatv-SilTvOnline/SilTvOnline/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"SILTV.gt@SD\" tvg-logo=\"https://i.imgur.com/tWZXRVu.png\" http-referrer=\"https://www.facebook.com/Siltv32\" http-user-agent=\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, como Gecko) Chrome\" group-title=\"General\",SIL TV (1080p)\r\r\n#EXTVLCOPT:http-referrer=https://www.facebook.com/Siltv32\r\r\n#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, como Gecko) Chrome\r\r\nhttps://live20.bozztv.com/giatv/giatv-SilTvOnline/SilTvOnline/playlist.m3u8\r",
-      "line": 112,
+      "url": "https://5e85d90130e77.streamlock.net/6006/6006/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"RhemaTV.gt@SD\" tvg-logo=\"https://i.imgur.com/5o821rT.png\" group-title=\"Religious\",Rhema TV (720p)\r\r\nhttps://5e85d90130e77.streamlock.net/6006/6006/playlist.m3u8\r",
+      "line": 108,
       "catchup": {
         "type": "",
         "days": "",
@@ -565,34 +565,6 @@
       "status": "OK"
     },
     {
-      "name": "TV Florencia (720p)",
-      "tvg": {
-        "id": "TVFlorencia.gt@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/jsbwnRb.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://cdn.streamhispanatv.net:3819/live/tvflorecialive.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TVFlorencia.gt@SD\" tvg-logo=\"https://i.imgur.com/jsbwnRb.png\" group-title=\"General\",TV Florencia (720p)\r\r\nhttps://cdn.streamhispanatv.net:3819/live/tvflorecialive.m3u8\r",
-      "line": 124,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "TV Maya (480p)",
       "tvg": {
         "id": "TVMaya.gt@SD",
@@ -612,6 +584,34 @@
       "url": "https://5ca9af4645e15.streamlock.net/mayas/videomayas/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TVMaya.gt@SD\" tvg-logo=\"https://i.imgur.com/BGFa4OO.png\" group-title=\"Education\",TV Maya (480p)\r\r\nhttps://5ca9af4645e15.streamlock.net/mayas/videomayas/playlist.m3u8\r",
       "line": 128,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "TV Florencia (720p)",
+      "tvg": {
+        "id": "TVFlorencia.gt@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/jsbwnRb.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://cdn.streamhispanatv.net:3819/live/tvflorecialive.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"TVFlorencia.gt@SD\" tvg-logo=\"https://i.imgur.com/jsbwnRb.png\" group-title=\"General\",TV Florencia (720p)\r\r\nhttps://cdn.streamhispanatv.net:3819/live/tvflorecialive.m3u8\r",
+      "line": 124,
       "catchup": {
         "type": "",
         "days": "",
