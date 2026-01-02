@@ -5,34 +5,6 @@
   },
   "items": [
     {
-      "name": "Delfi TV",
-      "tvg": {
-        "id": "DelfiTV.lt@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/IFoHP5M.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://s1.dcdn.lt/live/televizija/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"DelfiTV.lt@SD\" tvg-logo=\"https://i.imgur.com/IFoHP5M.png\" group-title=\"General\",Delfi TV\r\r\nhttps://s1.dcdn.lt/live/televizija/playlist.m3u8\r",
-      "line": 2,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "LRT Klasika (1080p)",
       "tvg": {
         "id": "LRTKlasika.lt@SD",
@@ -61,11 +33,11 @@
       "status": "OK"
     },
     {
-      "name": "LRT Lituanica (1080p) [Geo-blocked]",
+      "name": "Delfi TV",
       "tvg": {
-        "id": "LRTLituanica.lt@SD",
+        "id": "DelfiTV.lt@SD",
         "name": "",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/LRT_Lituanica_Logo_2022.svg/512px-LRT_Lituanica_Logo_2022.svg.png",
+        "logo": "https://i.imgur.com/IFoHP5M.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -77,9 +49,37 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://stream-live.lrt.lt/lituanica/master.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"LRTLituanica.lt@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/LRT_Lituanica_Logo_2022.svg/512px-LRT_Lituanica_Logo_2022.svg.png\" group-title=\"General\",LRT Lituanica (1080p) [Geo-blocked]\r\r\nhttps://stream-live.lrt.lt/lituanica/master.m3u8\r",
-      "line": 10,
+      "url": "https://s1.dcdn.lt/live/televizija/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"DelfiTV.lt@SD\" tvg-logo=\"https://i.imgur.com/IFoHP5M.png\" group-title=\"General\",Delfi TV\r\r\nhttps://s1.dcdn.lt/live/televizija/playlist.m3u8\r",
+      "line": 2,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "LRT Opus (1080p)",
+      "tvg": {
+        "id": "LRTOpus.lt@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/oLuZTMH.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Music"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://stream-live.lrt.lt/opus/master.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"LRTOpus.lt@SD\" tvg-logo=\"https://i.imgur.com/oLuZTMH.png\" group-title=\"Music\",LRT Opus (1080p)\r\r\nhttps://stream-live.lrt.lt/opus/master.m3u8\r",
+      "line": 12,
       "catchup": {
         "type": "",
         "days": "",
@@ -117,25 +117,25 @@
       "status": "OK"
     },
     {
-      "name": "LRT Opus (1080p)",
+      "name": "LRT Lituanica (1080p) [Geo-blocked]",
       "tvg": {
-        "id": "LRTOpus.lt@SD",
+        "id": "LRTLituanica.lt@SD",
         "name": "",
-        "logo": "https://i.imgur.com/oLuZTMH.png",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/LRT_Lituanica_Logo_2022.svg/512px-LRT_Lituanica_Logo_2022.svg.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Music"
+        "title": "General"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://stream-live.lrt.lt/opus/master.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"LRTOpus.lt@SD\" tvg-logo=\"https://i.imgur.com/oLuZTMH.png\" group-title=\"Music\",LRT Opus (1080p)\r\r\nhttps://stream-live.lrt.lt/opus/master.m3u8\r",
-      "line": 12,
+      "url": "https://stream-live.lrt.lt/lituanica/master.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"LRTLituanica.lt@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/LRT_Lituanica_Logo_2022.svg/512px-LRT_Lituanica_Logo_2022.svg.png\" group-title=\"General\",LRT Lituanica (1080p) [Geo-blocked]\r\r\nhttps://stream-live.lrt.lt/lituanica/master.m3u8\r",
+      "line": 10,
       "catchup": {
         "type": "",
         "days": "",
@@ -248,34 +248,6 @@
       "url": "https://m-1.data.lt/m-1/smil:m-1.smil/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"M1.lt@SD\" tvg-logo=\"https://i.ibb.co/gb4NmNHT/M1-2025.png\" group-title=\"Music\",M-1 (480p)\r\r\nhttps://m-1.data.lt/m-1/smil:m-1.smil/playlist.m3u8\r",
       "line": 20,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Power Hit Radio (576p)",
-      "tvg": {
-        "id": "PowerHitRadio.lt@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/GOlQbfC.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Music"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://cdnlb.tvplayhome.lt/live/eds/PWR_LTU_Live/GO3_LIVE_HLS/PWR_LTU_Live.m3u8?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3NDczNDU2NjEsInBhdGgiOiIvbGl2ZS9lZHMvUFdSX0xUVV9MaXZlL0dPM19MSVZFX0hMUy8iLCJzaXAiOiI3Mi4xMS4xNTcuMTEyIiwiZGV2aWNlX2lkIjoiMCIsInNlc3Npb25faWQiOiIwIiwiY2xpZW50X2lkIjoiMCJ9.oHc5wUgwNPQ-4P7wJy_WvWQh0muFg9Lprhc4STS3cUHi0FI4tAKGdZOOeE-dOhVBHKFUYETmoXSMrrVHOeLC3g",
-      "raw": "#EXTINF:-1 tvg-id=\"PowerHitRadio.lt@SD\" tvg-logo=\"https://i.imgur.com/GOlQbfC.png\" group-title=\"Music\",Power Hit Radio (576p)\r\r\nhttps://cdnlb.tvplayhome.lt/live/eds/PWR_LTU_Live/GO3_LIVE_HLS/PWR_LTU_Live.m3u8?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3NDczNDU2NjEsInBhdGgiOiIvbGl2ZS9lZHMvUFdSX0xUVV9MaXZlL0dPM19MSVZFX0hMUy8iLCJzaXAiOiI3Mi4xMS4xNTcuMTEyIiwiZGV2aWNlX2lkIjoiMCIsInNlc3Npb25faWQiOiIwIiwiY2xpZW50X2lkIjoiMCJ9.oHc5wUgwNPQ-4P7wJy_WvWQh0muFg9Lprhc4STS3cUHi0FI4tAKGdZOOeE-dOhVBHKFUYETmoXSMrrVHOeLC3g\r",
-      "line": 22,
       "catchup": {
         "type": "",
         "days": "",
