@@ -5,34 +5,6 @@
   },
   "items": [
     {
-      "name": "Agro TV (480p)",
-      "tvg": {
-        "id": "AgroTV.bg@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/tPMNDtD.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Outdoor"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://restr2.bgtv.bg/agro/hls/agro.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"AgroTV.bg@SD\" tvg-logo=\"https://i.imgur.com/tPMNDtD.png\" group-title=\"Outdoor\",Agro TV (480p)\r\r\nhttps://restr2.bgtv.bg/agro/hls/agro.m3u8\r",
-      "line": 4,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "City TV (576p) [Not 24/7]",
       "tvg": {
         "id": "CityTV.bg@SD",
@@ -52,6 +24,62 @@
       "url": "https://tv.city.bg/play/tshls/citytv/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"CityTV.bg@SD\" tvg-logo=\"https://i.imgur.com/mFL452f.png\" group-title=\"Music\",City TV (576p) [Not 24/7]\r\r\nhttps://tv.city.bg/play/tshls/citytv/index.m3u8\r",
       "line": 8,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "BNT 4",
+      "tvg": {
+        "id": "BNT4.bg@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/Lw8b3yu.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://viamotionhsi.netplus.ch/live/eds/bntworld/browser-HLS8/bntworld.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"BNT4.bg@SD\" tvg-logo=\"https://i.imgur.com/Lw8b3yu.png\" group-title=\"General\",BNT 4\r\r\nhttps://viamotionhsi.netplus.ch/live/eds/bntworld/browser-HLS8/bntworld.m3u8\r",
+      "line": 6,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Agro TV (480p)",
+      "tvg": {
+        "id": "AgroTV.bg@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/tPMNDtD.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Outdoor"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://restr2.bgtv.bg/agro/hls/agro.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"AgroTV.bg@SD\" tvg-logo=\"https://i.imgur.com/tPMNDtD.png\" group-title=\"Outdoor\",Agro TV (480p)\r\r\nhttps://restr2.bgtv.bg/agro/hls/agro.m3u8\r",
+      "line": 4,
       "catchup": {
         "type": "",
         "days": "",
@@ -117,11 +145,11 @@
       "status": "OK"
     },
     {
-      "name": "BNT 4",
+      "name": "Evrokom (360p)",
       "tvg": {
-        "id": "BNT4.bg@SD",
+        "id": "Eurocom.bg@SD",
         "name": "",
-        "logo": "https://i.imgur.com/Lw8b3yu.png",
+        "logo": "",
         "url": "",
         "rec": "",
         "shift": ""
@@ -133,37 +161,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://viamotionhsi.netplus.ch/live/eds/bntworld/browser-HLS8/bntworld.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"BNT4.bg@SD\" tvg-logo=\"https://i.imgur.com/Lw8b3yu.png\" group-title=\"General\",BNT 4\r\r\nhttps://viamotionhsi.netplus.ch/live/eds/bntworld/browser-HLS8/bntworld.m3u8\r",
-      "line": 6,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Hope Channel Bulgaria",
-      "tvg": {
-        "id": "HopeChannelBulgaria.bg@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/bxzeEML.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Religious"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://hc1.hopetv.bg/live/hopetv_all.smil/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"HopeChannelBulgaria.bg@SD\" tvg-logo=\"https://i.imgur.com/bxzeEML.png\" group-title=\"Religious\",Hope Channel Bulgaria\r\r\nhttps://hc1.hopetv.bg/live/hopetv_all.smil/playlist.m3u8\r",
-      "line": 16,
+      "url": "https://live.ecomservice.bg/hls/stream.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Eurocom.bg@SD\" tvg-logo=\"\" group-title=\"General\",Evrokom (360p)\r\r\nhttps://live.ecomservice.bg/hls/stream.m3u8\r",
+      "line": 14,
       "catchup": {
         "type": "",
         "days": "",
@@ -192,6 +192,34 @@
       "url": "https://streamer1.streamhost.org/salive/GMIlcbgM/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"LightChannel.bg@SD\" tvg-logo=\"https://i.imgur.com/S3Fbf8T.png\" group-title=\"Religious\",Light Channel (480p) [Not 24/7]\r\r\nhttps://streamer1.streamhost.org/salive/GMIlcbgM/playlist.m3u8\r",
       "line": 21,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Hope Channel Bulgaria",
+      "tvg": {
+        "id": "HopeChannelBulgaria.bg@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/bxzeEML.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Religious"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://hc1.hopetv.bg/live/hopetv_all.smil/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"HopeChannelBulgaria.bg@SD\" tvg-logo=\"https://i.imgur.com/bxzeEML.png\" group-title=\"Religious\",Hope Channel Bulgaria\r\r\nhttps://hc1.hopetv.bg/live/hopetv_all.smil/playlist.m3u8\r",
+      "line": 16,
       "catchup": {
         "type": "",
         "days": "",
@@ -285,6 +313,34 @@
       "status": "OK"
     },
     {
+      "name": "RMTV (288p)",
+      "tvg": {
+        "id": "RMTV.bg@SD",
+        "name": "",
+        "logo": "https://rmtv.bg/img/logo.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://transcoder1.bitcare.eu/streaming/rimextv/rmtv.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"RMTV.bg@SD\" tvg-logo=\"https://rmtv.bg/img/logo.png\" group-title=\"Undefined\",RMTV (288p)\r\r\nhttps://transcoder1.bitcare.eu/streaming/rimextv/rmtv.m3u8\r",
+      "line": 29,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "This is Bulgaria HD (1080p)",
       "tvg": {
         "id": "ThisisBulgariaHD.bg@SD",
@@ -332,34 +388,6 @@
       "url": "https://streamer103.neterra.tv/tiankov-folk/live.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TiankovFolk.bg@SD\" tvg-logo=\"https://i.imgur.com/VKY4q64.png\" group-title=\"Music\",Tiankov Folk (576p)\r\r\nhttps://streamer103.neterra.tv/tiankov-folk/live.m3u8\r",
       "line": 35,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "RMTV (288p)",
-      "tvg": {
-        "id": "RMTV.bg@SD",
-        "name": "",
-        "logo": "https://rmtv.bg/img/logo.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://transcoder1.bitcare.eu/streaming/rimextv/rmtv.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"RMTV.bg@SD\" tvg-logo=\"https://rmtv.bg/img/logo.png\" group-title=\"Undefined\",RMTV (288p)\r\r\nhttps://transcoder1.bitcare.eu/streaming/rimextv/rmtv.m3u8\r",
-      "line": 29,
       "catchup": {
         "type": "",
         "days": "",
