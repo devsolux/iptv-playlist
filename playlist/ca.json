@@ -201,6 +201,34 @@
       "status": "OK"
     },
     {
+      "name": "A&E East (720p) [Not 24/7]",
+      "tvg": {
+        "id": "AE.us@East",
+        "name": "",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/A%26E_Network_logo.svg/512px-A%26E_Network_logo.svg.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Entertainment"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://tvpass.org/live/AEEast/hd",
+      "raw": "#EXTINF:-1 tvg-id=\"AE.us@East\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/A%26E_Network_logo.svg/512px-A%26E_Network_logo.svg.png\" group-title=\"Entertainment\",A&E East (720p) [Not 24/7]\r\r\nhttps://tvpass.org/live/AEEast/hd\r",
+      "line": 6,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Cable 14 Hamilton",
       "tvg": {
         "id": "Cable14Hamilton.ca@SD",
@@ -257,25 +285,25 @@
       "status": "OK"
     },
     {
-      "name": "A&E East (720p) [Not 24/7]",
+      "name": "Channel Y (720p) [Not 24/7]",
       "tvg": {
-        "id": "AE.us@East",
+        "id": "ChannelY.ca@SD",
         "name": "",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/A%26E_Network_logo.svg/512px-A%26E_Network_logo.svg.png",
+        "logo": "https://i.imgur.com/OqSl2Qf.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Entertainment"
+        "title": "News"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://tvpass.org/live/AEEast/hd",
-      "raw": "#EXTINF:-1 tvg-id=\"AE.us@East\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/A%26E_Network_logo.svg/512px-A%26E_Network_logo.svg.png\" group-title=\"Entertainment\",A&E East (720p) [Not 24/7]\r\r\nhttps://tvpass.org/live/AEEast/hd\r",
-      "line": 6,
+      "url": "http://cdn19.live247stream.com/channely/tv/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"ChannelY.ca@SD\" tvg-logo=\"https://i.imgur.com/OqSl2Qf.png\" group-title=\"News\",Channel Y (720p) [Not 24/7]\r\r\nhttp://cdn19.live247stream.com/channely/tv/playlist.m3u8\r",
+      "line": 66,
       "catchup": {
         "type": "",
         "days": "",
@@ -304,34 +332,6 @@
       "url": "https://citynewsregional.akamaized.net/hls/live/1024053/Regional_Live_8/master.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"CityNewsCalgary.ca@SD\" tvg-logo=\"https://m.media-amazon.com/images/I/51Icdznow+L.png\" group-title=\"News\",CityNews Calgary (720p)\r\r\nhttps://citynewsregional.akamaized.net/hls/live/1024053/Regional_Live_8/master.m3u8\r",
       "line": 72,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "CityNews Edmonton",
-      "tvg": {
-        "id": "CityNewsEdmonton.ca@SD",
-        "name": "",
-        "logo": "https://m.media-amazon.com/images/I/51Icdznow+L.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "News"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://citynewsregional.akamaized.net/hls/live/1024053/Regional_Live_8/Video-2Mbps.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"CityNewsEdmonton.ca@SD\" tvg-logo=\"https://m.media-amazon.com/images/I/51Icdznow+L.png\" group-title=\"News\",CityNews Edmonton\r\r\nhttps://citynewsregional.akamaized.net/hls/live/1024053/Regional_Live_8/Video-2Mbps.m3u8\r",
-      "line": 74,
       "catchup": {
         "type": "",
         "days": "",
@@ -397,11 +397,11 @@
       "status": "OK"
     },
     {
-      "name": "Channel Y (720p) [Not 24/7]",
+      "name": "CityNews Edmonton",
       "tvg": {
-        "id": "ChannelY.ca@SD",
+        "id": "CityNewsEdmonton.ca@SD",
         "name": "",
-        "logo": "https://i.imgur.com/OqSl2Qf.png",
+        "logo": "https://m.media-amazon.com/images/I/51Icdznow+L.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -413,9 +413,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "http://cdn19.live247stream.com/channely/tv/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"ChannelY.ca@SD\" tvg-logo=\"https://i.imgur.com/OqSl2Qf.png\" group-title=\"News\",Channel Y (720p) [Not 24/7]\r\r\nhttp://cdn19.live247stream.com/channely/tv/playlist.m3u8\r",
-      "line": 66,
+      "url": "https://citynewsregional.akamaized.net/hls/live/1024053/Regional_Live_8/Video-2Mbps.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"CityNewsEdmonton.ca@SD\" tvg-logo=\"https://m.media-amazon.com/images/I/51Icdznow+L.png\" group-title=\"News\",CityNews Edmonton\r\r\nhttps://citynewsregional.akamaized.net/hls/live/1024053/Regional_Live_8/Video-2Mbps.m3u8\r",
+      "line": 74,
       "catchup": {
         "type": "",
         "days": "",
@@ -565,25 +565,25 @@
       "status": "OK"
     },
     {
-      "name": "Erfan Halgheh TV (720p)",
+      "name": "EET TV (1080p) [Not 24/7]",
       "tvg": {
-        "id": "ErfanHalghehTV.ca@SD",
+        "id": "EETTV.ca@SD",
         "name": "",
-        "logo": "https://i.ibb.co/mGC5BMR/erfan-halgheh-tv-au.png",
+        "logo": "https://i.imgur.com/rntSEDZ.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Religious"
+        "title": "Culture"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://hls.erfanhalgheh.live/hls/stream.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"ErfanHalghehTV.ca@SD\" tvg-logo=\"https://i.ibb.co/mGC5BMR/erfan-halgheh-tv-au.png\" group-title=\"Religious\",Erfan Halgheh TV (720p)\r\r\nhttps://hls.erfanhalgheh.live/hls/stream.m3u8\r",
-      "line": 100,
+      "url": "https://eu.streamjo.com/eetlive/eettv.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"EETTV.ca@SD\" tvg-logo=\"https://i.imgur.com/rntSEDZ.png\" group-title=\"Culture\",EET TV (1080p) [Not 24/7]\r\r\nhttps://eu.streamjo.com/eetlive/eettv.m3u8\r",
+      "line": 98,
       "catchup": {
         "type": "",
         "days": "",
@@ -668,6 +668,34 @@
       "url": "http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/62f4f90e39183b000769f12b/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c7a54a1-35fc-11ef-a031-2b5d494037a2&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=385f93fc-8e79-4ac3-9478-5758ce4a3181",
       "raw": "#EXTINF:-1 tvg-id=\"Frasier.us@Canada\" tvg-logo=\"https://images.pluto.tv/channels/62f4f90e39183b000769f12b/colorLogoPNG.png\" group-title=\"Series\",Frasier\r\r\nhttp://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/62f4f90e39183b000769f12b/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c7a54a1-35fc-11ef-a031-2b5d494037a2&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=385f93fc-8e79-4ac3-9478-5758ce4a3181\r",
       "line": 110,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Erfan Halgheh TV (720p)",
+      "tvg": {
+        "id": "ErfanHalghehTV.ca@SD",
+        "name": "",
+        "logo": "https://i.ibb.co/mGC5BMR/erfan-halgheh-tv-au.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Religious"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://hls.erfanhalgheh.live/hls/stream.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"ErfanHalghehTV.ca@SD\" tvg-logo=\"https://i.ibb.co/mGC5BMR/erfan-halgheh-tv-au.png\" group-title=\"Religious\",Erfan Halgheh TV (720p)\r\r\nhttps://hls.erfanhalgheh.live/hls/stream.m3u8\r",
+      "line": 100,
       "catchup": {
         "type": "",
         "days": "",
@@ -780,6 +808,34 @@
       "url": "https://streamer12.vdn.dstreamone.net/carishowtime/showtime/chunks.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"GTNCanada.ca@SD\" tvg-logo=\"https://i.imgur.com/7bQPJOd.png\" group-title=\"General\",GTN Canada (1080i) [Geo-blocked]\r\r\nhttps://streamer12.vdn.dstreamone.net/carishowtime/showtime/chunks.m3u8\r",
       "line": 120,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "GurSikh Sabha TV (720p) [Not 24/7]",
+      "tvg": {
+        "id": "GurSikhSabhaTV.ca@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/2EKCtQm.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Religious"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://cdn12.henico.net:8080/live/gsctv/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"GurSikhSabhaTV.ca@SD\" tvg-logo=\"https://i.imgur.com/2EKCtQm.png\" group-title=\"Religious\",GurSikh Sabha TV (720p) [Not 24/7]\r\r\nhttp://cdn12.henico.net:8080/live/gsctv/index.m3u8\r",
+      "line": 122,
       "catchup": {
         "type": "",
         "days": "",
@@ -957,34 +1013,6 @@
       "status": "OK"
     },
     {
-      "name": "icnet 1",
-      "tvg": {
-        "id": "ICnet1.ca@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/aeS4Sjv.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Religious"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://icnet1hls.wns.live/hls/stream.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"ICnet1.ca@SD\" tvg-logo=\"https://i.imgur.com/aeS4Sjv.png\" group-title=\"Religious\",icnet 1\r\r\nhttps://icnet1hls.wns.live/hls/stream.m3u8\r",
-      "line": 160,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "iTV Afrobeats Music",
       "tvg": {
         "id": "iTVAfrobeatsMusic.ca@HD",
@@ -1004,6 +1032,34 @@
       "url": "https://ca1.buximedia.com/itv/afrobeats/tracks-v1a1/mono.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"iTVAfrobeatsMusic.ca@HD\" tvg-logo=\"https://i.ibb.co/pvLQmQK7/itv.png\" group-title=\"Music\",iTV Afrobeats Music\r\r\nhttps://ca1.buximedia.com/itv/afrobeats/tracks-v1a1/mono.m3u8\r",
       "line": 164,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "icnet 1",
+      "tvg": {
+        "id": "ICnet1.ca@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/aeS4Sjv.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Religious"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://icnet1hls.wns.live/hls/stream.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"ICnet1.ca@SD\" tvg-logo=\"https://i.imgur.com/aeS4Sjv.png\" group-title=\"Religious\",icnet 1\r\r\nhttps://icnet1hls.wns.live/hls/stream.m3u8\r",
+      "line": 160,
       "catchup": {
         "type": "",
         "days": "",
@@ -1041,34 +1097,6 @@
       "status": "OK"
     },
     {
-      "name": "iTV Latin Music",
-      "tvg": {
-        "id": "iTVLatinMusic.ca@HD",
-        "name": "",
-        "logo": "https://i.ibb.co/pvLQmQK7/itv.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Music"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://ca1.buximedia.com/itv/latin/tracks-v1a1/mono.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"iTVLatinMusic.ca@HD\" tvg-logo=\"https://i.ibb.co/pvLQmQK7/itv.png\" group-title=\"Music\",iTV Latin Music\r\r\nhttps://ca1.buximedia.com/itv/latin/tracks-v1a1/mono.m3u8\r",
-      "line": 170,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "iTV Indian Music",
       "tvg": {
         "id": "iTVIndianMusic.ca@HD",
@@ -1097,9 +1125,9 @@
       "status": "OK"
     },
     {
-      "name": "iTV Urban Music",
+      "name": "iTV Latin Music",
       "tvg": {
-        "id": "iTVUrbanMusic.ca@HD",
+        "id": "iTVLatinMusic.ca@HD",
         "name": "",
         "logo": "https://i.ibb.co/pvLQmQK7/itv.png",
         "url": "",
@@ -1113,9 +1141,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://ca1.buximedia.com/itv/love2/tracks-v1a1/mono.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"iTVUrbanMusic.ca@HD\" tvg-logo=\"https://i.ibb.co/pvLQmQK7/itv.png\" group-title=\"Music\",iTV Urban Music\r\r\nhttps://ca1.buximedia.com/itv/love2/tracks-v1a1/mono.m3u8\r",
-      "line": 174,
+      "url": "https://ca1.buximedia.com/itv/latin/tracks-v1a1/mono.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"iTVLatinMusic.ca@HD\" tvg-logo=\"https://i.ibb.co/pvLQmQK7/itv.png\" group-title=\"Music\",iTV Latin Music\r\r\nhttps://ca1.buximedia.com/itv/latin/tracks-v1a1/mono.m3u8\r",
+      "line": 170,
       "catchup": {
         "type": "",
         "days": "",
@@ -1153,25 +1181,25 @@
       "status": "OK"
     },
     {
-      "name": "Legislative Assembly of British Columbia",
+      "name": "iTV Urban Music",
       "tvg": {
-        "id": "LegislativeAssemblyofBritishColumbia.ca@SD",
+        "id": "iTVUrbanMusic.ca@HD",
         "name": "",
-        "logo": "https://i.imgur.com/5QGxHhh.png",
+        "logo": "https://i.ibb.co/pvLQmQK7/itv.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Legislative"
+        "title": "Music"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://cdn3.wowza.com/5/YldIU1hsTlljRWZF/hbs-prim-house-httpo/HouseP.smil/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"LegislativeAssemblyofBritishColumbia.ca@SD\" tvg-logo=\"https://i.imgur.com/5QGxHhh.png\" group-title=\"Legislative\",Legislative Assembly of British Columbia\r\r\nhttps://cdn3.wowza.com/5/YldIU1hsTlljRWZF/hbs-prim-house-httpo/HouseP.smil/playlist.m3u8\r",
-      "line": 180,
+      "url": "https://ca1.buximedia.com/itv/love2/tracks-v1a1/mono.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"iTVUrbanMusic.ca@HD\" tvg-logo=\"https://i.ibb.co/pvLQmQK7/itv.png\" group-title=\"Music\",iTV Urban Music\r\r\nhttps://ca1.buximedia.com/itv/love2/tracks-v1a1/mono.m3u8\r",
+      "line": 174,
       "catchup": {
         "type": "",
         "days": "",
@@ -1209,11 +1237,11 @@
       "status": "OK"
     },
     {
-      "name": "Legislative Assembly of British Columbia Committee A",
+      "name": "Legislative Assembly of British Columbia",
       "tvg": {
-        "id": "LegislativeAssemblyofBritishColumbiaCommitteeA.ca@SD",
+        "id": "LegislativeAssemblyofBritishColumbia.ca@SD",
         "name": "",
-        "logo": "https://www.lyngsat.com/logo/tv/ll/legislative-assembly-of-british-columbia-ca.png",
+        "logo": "https://i.imgur.com/5QGxHhh.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -1225,9 +1253,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://cdn3.wowza.com/5/YldIU1hsTlljRWZF/hbs-prim-dougfir-httpo/DougFirP.smil/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"LegislativeAssemblyofBritishColumbiaCommitteeA.ca@SD\" tvg-logo=\"https://www.lyngsat.com/logo/tv/ll/legislative-assembly-of-british-columbia-ca.png\" group-title=\"Legislative\",Legislative Assembly of British Columbia Committee A\r\r\nhttps://cdn3.wowza.com/5/YldIU1hsTlljRWZF/hbs-prim-dougfir-httpo/DougFirP.smil/playlist.m3u8\r",
-      "line": 182,
+      "url": "https://cdn3.wowza.com/5/YldIU1hsTlljRWZF/hbs-prim-house-httpo/HouseP.smil/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"LegislativeAssemblyofBritishColumbia.ca@SD\" tvg-logo=\"https://i.imgur.com/5QGxHhh.png\" group-title=\"Legislative\",Legislative Assembly of British Columbia\r\r\nhttps://cdn3.wowza.com/5/YldIU1hsTlljRWZF/hbs-prim-house-httpo/HouseP.smil/playlist.m3u8\r",
+      "line": 180,
       "catchup": {
         "type": "",
         "days": "",
@@ -1349,6 +1377,34 @@
       "status": "OK"
     },
     {
+      "name": "Legislative Assembly of British Columbia Committee A",
+      "tvg": {
+        "id": "LegislativeAssemblyofBritishColumbiaCommitteeA.ca@SD",
+        "name": "",
+        "logo": "https://www.lyngsat.com/logo/tv/ll/legislative-assembly-of-british-columbia-ca.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Legislative"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://cdn3.wowza.com/5/YldIU1hsTlljRWZF/hbs-prim-dougfir-httpo/DougFirP.smil/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"LegislativeAssemblyofBritishColumbiaCommitteeA.ca@SD\" tvg-logo=\"https://www.lyngsat.com/logo/tv/ll/legislative-assembly-of-british-columbia-ca.png\" group-title=\"Legislative\",Legislative Assembly of British Columbia Committee A\r\r\nhttps://cdn3.wowza.com/5/YldIU1hsTlljRWZF/hbs-prim-dougfir-httpo/DougFirP.smil/playlist.m3u8\r",
+      "line": 182,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Montreal Greek TV (480p)",
       "tvg": {
         "id": "MontrealGreekTV.ca@SD",
@@ -1461,6 +1517,34 @@
       "status": "OK"
     },
     {
+      "name": "Now TV 102.3FM Edmonton (CKNO-FM)",
+      "tvg": {
+        "id": "CKNOFM.ca@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/sF2g7KE.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Music"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://videostream.jpbgdigital.com/NOWTV.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"CKNOFM.ca@SD\" tvg-logo=\"https://i.imgur.com/sF2g7KE.png\" group-title=\"Music\",Now TV 102.3FM Edmonton (CKNO-FM)\r\r\nhttps://videostream.jpbgdigital.com/NOWTV.m3u8\r",
+      "line": 228,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "NTD TV Canada",
       "tvg": {
         "id": "NTDTVCanada.us@East",
@@ -1545,34 +1629,6 @@
       "status": "OK"
     },
     {
-      "name": "Now TV 102.3FM Edmonton (CKNO-FM)",
-      "tvg": {
-        "id": "CKNOFM.ca@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/sF2g7KE.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Music"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://videostream.jpbgdigital.com/NOWTV.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"CKNOFM.ca@SD\" tvg-logo=\"https://i.imgur.com/sF2g7KE.png\" group-title=\"Music\",Now TV 102.3FM Edmonton (CKNO-FM)\r\r\nhttps://videostream.jpbgdigital.com/NOWTV.m3u8\r",
-      "line": 228,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Ontario Parliamentary Network (720p)",
       "tvg": {
         "id": "OntarioParliamentaryNetwork.ca@SD",
@@ -1648,6 +1704,34 @@
       "url": "http://live.stream.cdn.pamirtv.com/ptv/d0dbe915091d400bd8ee7f27f0791303.sdp/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"PamirTV.ca@SD\" tvg-logo=\"https://i.imgur.com/sCBbBOj.png\" group-title=\"Culture;Music\",Pamir TV (1080p) [Not 24/7]\r\r\nhttp://live.stream.cdn.pamirtv.com/ptv/d0dbe915091d400bd8ee7f27f0791303.sdp/index.m3u8\r",
       "line": 240,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Paramount Network East",
+      "tvg": {
+        "id": "ParamountNetwork.us@East",
+        "name": "",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Paramount_Network.svg/512px-Paramount_Network.svg.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Movies;Series"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://fl1.moveonjoy.com/PARAMOUNT_NETWORK/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"ParamountNetwork.us@East\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Paramount_Network.svg/512px-Paramount_Network.svg.png\" group-title=\"Movies;Series\",Paramount Network East\r\r\nhttps://fl1.moveonjoy.com/PARAMOUNT_NETWORK/index.m3u8\r",
+      "line": 242,
       "catchup": {
         "type": "",
         "days": "",
@@ -1844,34 +1928,6 @@
       "url": "http://158.69.124.9:1935/sardaritv/sardaritv/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"SardariTV.ca@SD\" tvg-logo=\"\" group-title=\"Undefined\",Sardari TV (1080p) [Not 24/7]\r\r\nhttp://158.69.124.9:1935/sardaritv/sardaritv/playlist.m3u8\r",
       "line": 266,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Sikh Spiritual Centre Rexdale (720p)",
-      "tvg": {
-        "id": "SikhSpiritualCentreRexdale.ca@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/YKXoIsr.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://cdn12.henico.net:8443/live/ssct/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"SikhSpiritualCentreRexdale.ca@SD\" tvg-logo=\"https://i.imgur.com/YKXoIsr.png\" group-title=\"Undefined\",Sikh Spiritual Centre Rexdale (720p)\r\r\nhttps://cdn12.henico.net:8443/live/ssct/index.m3u8\r",
-      "line": 268,
       "catchup": {
         "type": "",
         "days": "",
@@ -2301,34 +2357,6 @@
       "status": "OK"
     },
     {
-      "name": "Stingray Remember the 80s",
-      "tvg": {
-        "id": "StingrayRememberthe80s.ca@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/duwc8E8.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Music"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://d39g1vxj2ef6in.cloudfront.net/v1/manifest/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/68cc5f97-cf6c-4ff7-9125-f56f272dbcb6/1.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"StingrayRememberthe80s.ca@SD\" tvg-logo=\"https://i.imgur.com/duwc8E8.png\" group-title=\"Music\",Stingray Remember the 80s\r\r\nhttps://d39g1vxj2ef6in.cloudfront.net/v1/manifest/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/68cc5f97-cf6c-4ff7-9125-f56f272dbcb6/1.m3u8\r",
-      "line": 304,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Stingray Rock Alternative (1080p)",
       "tvg": {
         "id": "StingrayRockAlternative.ca@SD",
@@ -2376,6 +2404,34 @@
       "url": "https://lotus.stingray.com/manifest/ose-202ads-montreal/samsungtvplus/master.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"StingrayRomanceLatino.ca@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Stingray_Music_logo.svg/512px-Stingray_Music_logo.svg.png\" group-title=\"Music\",Stingray Romance Latino (1080p)\r\r\nhttps://lotus.stingray.com/manifest/ose-202ads-montreal/samsungtvplus/master.m3u8\r",
       "line": 308,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Stingray Remember the 80s",
+      "tvg": {
+        "id": "StingrayRememberthe80s.ca@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/duwc8E8.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Music"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://d39g1vxj2ef6in.cloudfront.net/v1/manifest/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/68cc5f97-cf6c-4ff7-9125-f56f272dbcb6/1.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"StingrayRememberthe80s.ca@SD\" tvg-logo=\"https://i.imgur.com/duwc8E8.png\" group-title=\"Music\",Stingray Remember the 80s\r\r\nhttps://d39g1vxj2ef6in.cloudfront.net/v1/manifest/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/68cc5f97-cf6c-4ff7-9125-f56f272dbcb6/1.m3u8\r",
+      "line": 304,
       "catchup": {
         "type": "",
         "days": "",
@@ -2553,34 +2609,6 @@
       "status": "OK"
     },
     {
-      "name": "SVBC 3 (720p)",
-      "tvg": {
-        "id": "SVBC3.in@SD",
-        "name": "",
-        "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/SVBC3.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Religious"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://player.mslivestream.net/svbc/2e628d7e1b65d31254fd7705ff7ee64d.sdp/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"SVBC3.in@SD\" tvg-logo=\"https://jiotvimages.cdn.jio.com/dare_images/images/SVBC3.png\" group-title=\"Religious\",SVBC 3 (720p)\r\r\nhttps://player.mslivestream.net/svbc/2e628d7e1b65d31254fd7705ff7ee64d.sdp/playlist.m3u8\r",
-      "line": 322,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "SVBC 4 (1080p)",
       "tvg": {
         "id": "SVBC4.in@SD",
@@ -2609,11 +2637,11 @@
       "status": "OK"
     },
     {
-      "name": "SVBC Sri Venkateswara Bhakti Channel (1080p)",
+      "name": "SVBC 3 (720p)",
       "tvg": {
-        "id": "SVBC.in@SD",
+        "id": "SVBC3.in@SD",
         "name": "",
-        "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Sri_Venkateshwar_Bhakti.png",
+        "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/SVBC3.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -2625,9 +2653,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://player.mslivestream.net/telugu/5d076e5c3d34cb8bb08e54a4bb7e223e.sdp/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"SVBC.in@SD\" tvg-logo=\"https://jiotvimages.cdn.jio.com/dare_images/images/Sri_Venkateshwar_Bhakti.png\" group-title=\"Religious\",SVBC Sri Venkateswara Bhakti Channel (1080p)\r\r\nhttps://player.mslivestream.net/telugu/5d076e5c3d34cb8bb08e54a4bb7e223e.sdp/playlist.m3u8\r",
-      "line": 326,
+      "url": "https://player.mslivestream.net/svbc/2e628d7e1b65d31254fd7705ff7ee64d.sdp/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"SVBC3.in@SD\" tvg-logo=\"https://jiotvimages.cdn.jio.com/dare_images/images/SVBC3.png\" group-title=\"Religious\",SVBC 3 (720p)\r\r\nhttps://player.mslivestream.net/svbc/2e628d7e1b65d31254fd7705ff7ee64d.sdp/playlist.m3u8\r",
+      "line": 322,
       "catchup": {
         "type": "",
         "days": "",
@@ -2656,6 +2684,34 @@
       "url": "http://cdn11.live247stream.com/tag/tv/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TAGTV.ca@SD\" tvg-logo=\"https://i.imgur.com/4PA2adF.png\" group-title=\"Undefined\",TAG TV (1080p) [Not 24/7]\r\r\nhttp://cdn11.live247stream.com/tag/tv/playlist.m3u8\r",
       "line": 328,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "SVBC Sri Venkateswara Bhakti Channel (1080p)",
+      "tvg": {
+        "id": "SVBC.in@SD",
+        "name": "",
+        "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Sri_Venkateshwar_Bhakti.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Religious"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://player.mslivestream.net/telugu/5d076e5c3d34cb8bb08e54a4bb7e223e.sdp/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"SVBC.in@SD\" tvg-logo=\"https://jiotvimages.cdn.jio.com/dare_images/images/Sri_Venkateshwar_Bhakti.png\" group-title=\"Religious\",SVBC Sri Venkateswara Bhakti Channel (1080p)\r\r\nhttps://player.mslivestream.net/telugu/5d076e5c3d34cb8bb08e54a4bb7e223e.sdp/playlist.m3u8\r",
+      "line": 326,
       "catchup": {
         "type": "",
         "days": "",
@@ -2852,6 +2908,34 @@
       "url": "https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/tvei_ame_main_1080.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TVEInternacionalAmerica.es@SD\" tvg-logo=\"https://i.imgur.com/iODADvi.png\" group-title=\"Undefined\",TVE Internacional America (1080p) [Geo-blocked]\r\r\nhttps://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/tvei_ame_main_1080.m3u8\r",
       "line": 362,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "W Network (720p)",
+      "tvg": {
+        "id": "WNetwork.ca@East",
+        "name": "",
+        "logo": "https://i.imgur.com/t7XdBh8.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://fl1.moveonjoy.com/W_NETWORK/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"WNetwork.ca@East\" tvg-logo=\"https://i.imgur.com/t7XdBh8.png\" group-title=\"Undefined\",W Network (720p)\r\r\nhttps://fl1.moveonjoy.com/W_NETWORK/index.m3u8\r",
+      "line": 368,
       "catchup": {
         "type": "",
         "days": "",
