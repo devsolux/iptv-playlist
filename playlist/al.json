@@ -33,25 +33,25 @@
       "status": "OK"
     },
     {
-      "name": "CNA (1080p)",
+      "name": "MCN TV (720p)",
       "tvg": {
-        "id": "CNA.al@SD",
+        "id": "MCNTV.al@SD",
         "name": "",
-        "logo": "https://codeit.al/wp-content/uploads/2020/08/cna.png",
+        "logo": "https://i.postimg.cc/dVSs1gTY/mcntv.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "News"
+        "title": "General"
       },
       "http": {
-        "referrer": "",
-        "user-agent": ""
+        "referrer": "https://mcn24.tv/hls/",
+        "user-agent": "Mozilla/5.0"
       },
-      "url": "https://live1.mediadesk.al/cnatvlive.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"CNA.al@SD\" tvg-logo=\"https://codeit.al/wp-content/uploads/2020/08/cna.png\" group-title=\"News\",CNA (1080p)\r\r\nhttps://live1.mediadesk.al/cnatvlive.m3u8\r",
-      "line": 6,
+      "url": "https://mcn24.tv/hidden_stream/mcntv.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"MCNTV.al@SD\" tvg-logo=\"https://i.postimg.cc/dVSs1gTY/mcntv.png\" http-referrer=\"https://mcn24.tv/hls/\" http-user-agent=\"Mozilla/5.0\" group-title=\"General\",MCN TV (720p)\r\r\n#EXTVLCOPT:http-referrer=https://mcn24.tv/hls/\r\r\n#EXTVLCOPT:http-user-agent=Mozilla/5.0\r\r\nhttps://mcn24.tv/hidden_stream/mcntv.m3u8\r",
+      "line": 12,
       "catchup": {
         "type": "",
         "days": "",
@@ -80,6 +80,34 @@
       "url": "https://gjirafa-video-live.gjirafa.net/gjvideo-live/2dw-zuf-1c9-pxu/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"EuronewsAlbania.al@SD\" tvg-logo=\"https://i.postimg.cc/RhN0ZGph/euronewsalbania.png\" group-title=\"News\",Euronews Albania\r\r\nhttps://gjirafa-video-live.gjirafa.net/gjvideo-live/2dw-zuf-1c9-pxu/index.m3u8\r",
       "line": 10,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "CNA (1080p)",
+      "tvg": {
+        "id": "CNA.al@SD",
+        "name": "",
+        "logo": "https://codeit.al/wp-content/uploads/2020/08/cna.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "News"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://live1.mediadesk.al/cnatvlive.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"CNA.al@SD\" tvg-logo=\"https://codeit.al/wp-content/uploads/2020/08/cna.png\" group-title=\"News\",CNA (1080p)\r\r\nhttps://live1.mediadesk.al/cnatvlive.m3u8\r",
+      "line": 6,
       "catchup": {
         "type": "",
         "days": "",
@@ -136,6 +164,34 @@
       "url": "https://live1.mediadesk.al/oranews.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"OraNews.al@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Ora_News_%28Albania%29.svg/512px-Ora_News_%28Albania%29.svg.png\" group-title=\"News\",Ora News (720p)\r\r\nhttps://live1.mediadesk.al/oranews.m3u8\r",
       "line": 18,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Panorama TV (720p)",
+      "tvg": {
+        "id": "PanoramaTV.al@SD",
+        "name": "",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Panorama_logo.svg/512px-Panorama_logo.svg.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "News"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://tv.panorama.com.al/panorama/livestream/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"PanoramaTV.al@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Panorama_logo.svg/512px-Panorama_logo.svg.png\" group-title=\"News\",Panorama TV (720p)\r\r\nhttps://tv.panorama.com.al/panorama/livestream/playlist.m3u8\r",
+      "line": 20,
       "catchup": {
         "type": "",
         "days": "",
@@ -229,34 +285,6 @@
       "status": "OK"
     },
     {
-      "name": "RTSH Sport (1080p)",
-      "tvg": {
-        "id": "RTSHSport.al@SD",
-        "name": "",
-        "logo": "https://i.postimg.cc/wMrtS1qZ/rtshsport.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Sports"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://178.33.11.6:8696/live/rtshsport/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"RTSHSport.al@SD\" tvg-logo=\"https://i.postimg.cc/wMrtS1qZ/rtshsport.png\" group-title=\"Sports\",RTSH Sport (1080p)\r\r\nhttp://178.33.11.6:8696/live/rtshsport/playlist.m3u8\r",
-      "line": 32,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "RTSH Shqip (1080p)",
       "tvg": {
         "id": "RTSHShqip.al@SD",
@@ -285,25 +313,25 @@
       "status": "OK"
     },
     {
-      "name": "Zjarr TV (360p)",
+      "name": "RTSH Sport (1080p)",
       "tvg": {
-        "id": "ZjarrTV.al@SD",
+        "id": "RTSHSport.al@SD",
         "name": "",
-        "logo": "https://i.imgur.com/hNuWZWe.png",
+        "logo": "https://i.postimg.cc/wMrtS1qZ/rtshsport.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "General"
+        "title": "Sports"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://zjarr.future.al/hls/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"ZjarrTV.al@SD\" tvg-logo=\"https://i.imgur.com/hNuWZWe.png\" group-title=\"General\",Zjarr TV (360p)\r\r\nhttps://zjarr.future.al/hls/playlist.m3u8\r",
-      "line": 38,
+      "url": "http://178.33.11.6:8696/live/rtshsport/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"RTSHSport.al@SD\" tvg-logo=\"https://i.postimg.cc/wMrtS1qZ/rtshsport.png\" group-title=\"Sports\",RTSH Sport (1080p)\r\r\nhttp://178.33.11.6:8696/live/rtshsport/playlist.m3u8\r",
+      "line": 32,
       "catchup": {
         "type": "",
         "days": "",
@@ -332,6 +360,34 @@
       "url": "https://stream.syritv.al/live/syritv/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"Syri.al@SD\" tvg-logo=\"https://i.postimg.cc/5tYL46mq/syri.png\" group-title=\"News\",Syri (720p)\r\r\nhttps://stream.syritv.al/live/syritv/playlist.m3u8\r",
       "line": 34,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Zjarr TV (360p)",
+      "tvg": {
+        "id": "ZjarrTV.al@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/hNuWZWe.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://zjarr.future.al/hls/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"ZjarrTV.al@SD\" tvg-logo=\"https://i.imgur.com/hNuWZWe.png\" group-title=\"General\",Zjarr TV (360p)\r\r\nhttps://zjarr.future.al/hls/playlist.m3u8\r",
+      "line": 38,
       "catchup": {
         "type": "",
         "days": "",
