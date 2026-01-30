@@ -5,6 +5,34 @@
   },
   "items": [
     {
+      "name": ":Šport (1080p)",
+      "tvg": {
+        "id": "Sport.sk@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/oAtcxNZ.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Sports"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://88.212.15.27/live/test_rtvs_sport_hevc/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Sport.sk@SD\" tvg-logo=\"https://i.imgur.com/oAtcxNZ.png\" group-title=\"Sports\",:Šport (1080p)\r\r\nhttp://88.212.15.27/live/test_rtvs_sport_hevc/playlist.m3u8\r",
+      "line": 2,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": ":24 (1080p)",
       "tvg": {
         "id": "24.sk@SD",
@@ -33,25 +61,25 @@
       "status": "OK"
     },
     {
-      "name": ":Šport (1080p)",
+      "name": "BTV (480p)",
       "tvg": {
-        "id": "Sport.sk@SD",
+        "id": "BTV.sk@SD",
         "name": "",
-        "logo": "https://i.imgur.com/oAtcxNZ.png",
+        "logo": "https://i.imgur.com/5CZ6HHn.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Sports"
+        "title": "Undefined"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "http://88.212.15.27/live/test_rtvs_sport_hevc/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Sport.sk@SD\" tvg-logo=\"https://i.imgur.com/oAtcxNZ.png\" group-title=\"Sports\",:Šport (1080p)\r\r\nhttp://88.212.15.27/live/test_rtvs_sport_hevc/playlist.m3u8\r",
-      "line": 2,
+      "url": "https://fs3.kabelko.sk/9011/index.m3u8?token=btv",
+      "raw": "#EXTINF:-1 tvg-id=\"BTV.sk@SD\" tvg-logo=\"https://i.imgur.com/5CZ6HHn.png\" group-title=\"Undefined\",BTV (480p)\r\r\nhttps://fs3.kabelko.sk/9011/index.m3u8?token=btv\r",
+      "line": 6,
       "catchup": {
         "type": "",
         "days": "",
@@ -173,34 +201,6 @@
       "status": "OK"
     },
     {
-      "name": "BTV (480p)",
-      "tvg": {
-        "id": "BTV.sk@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/5CZ6HHn.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://fs3.kabelko.sk/9011/index.m3u8?token=btv",
-      "raw": "#EXTINF:-1 tvg-id=\"BTV.sk@SD\" tvg-logo=\"https://i.imgur.com/5CZ6HHn.png\" group-title=\"Undefined\",BTV (480p)\r\r\nhttps://fs3.kabelko.sk/9011/index.m3u8?token=btv\r",
-      "line": 6,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Televízia OSEM (576p)",
       "tvg": {
         "id": "TV8.sk@SD",
@@ -220,6 +220,34 @@
       "url": "http://109.74.145.11:1935/tv8/ngrp:tv8.stream_all/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TV8.sk@SD\" tvg-logo=\"https://i.imgur.com/Z7URrp1.png\" group-title=\"Undefined\",Televízia OSEM (576p)\r\r\nhttp://109.74.145.11:1935/tv8/ngrp:tv8.stream_all/playlist.m3u8\r",
       "line": 46,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "TV9",
+      "tvg": {
+        "id": "TV9.sk@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/Sco4x8t.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://dash4.antik.sk/live/test_tv9/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"TV9.sk@SD\" tvg-logo=\"https://i.imgur.com/Sco4x8t.png\" group-title=\"Undefined\",TV9\r\r\nhttps://dash4.antik.sk/live/test_tv9/playlist.m3u8\r",
+      "line": 48,
       "catchup": {
         "type": "",
         "days": "",
@@ -257,11 +285,11 @@
       "status": "OK"
     },
     {
-      "name": "TV9",
+      "name": "TV Central (540p)",
       "tvg": {
-        "id": "TV9.sk@SD",
+        "id": "TVCentral.sk@SD",
         "name": "",
-        "logo": "https://i.imgur.com/Sco4x8t.png",
+        "logo": "https://i.imgur.com/LqGT8o9.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -273,9 +301,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://dash4.antik.sk/live/test_tv9/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TV9.sk@SD\" tvg-logo=\"https://i.imgur.com/Sco4x8t.png\" group-title=\"Undefined\",TV9\r\r\nhttps://dash4.antik.sk/live/test_tv9/playlist.m3u8\r",
-      "line": 48,
+      "url": "https://arenasportslovakia.ddns.net/hls/cetv2.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"TVCentral.sk@SD\" tvg-logo=\"https://i.imgur.com/LqGT8o9.png\" group-title=\"Undefined\",TV Central (540p)\r\r\nhttps://arenasportslovakia.ddns.net/hls/cetv2.m3u8\r",
+      "line": 52,
       "catchup": {
         "type": "",
         "days": "",
