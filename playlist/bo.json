@@ -33,11 +33,11 @@
       "status": "OK"
     },
     {
-      "name": "Coral TV (480p)",
+      "name": "CTV",
       "tvg": {
-        "id": "CoralTV.bo@SD",
+        "id": "CTV.bo@SD",
         "name": "",
-        "logo": "https://i.ibb.co/xDrc5MD/CORALTv.png",
+        "logo": "https://i.imgur.com/ljKb0UX.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -49,9 +49,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://tv.mediacp.eu:8081/coraltv/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"CoralTV.bo@SD\" tvg-logo=\"https://i.ibb.co/xDrc5MD/CORALTv.png\" group-title=\"General\",Coral TV (480p)\r\r\nhttps://tv.mediacp.eu:8081/coraltv/index.m3u8\r",
-      "line": 18,
+      "url": "https://live.ctvbolivia.com/hls/ctv.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"CTV.bo@SD\" tvg-logo=\"https://i.imgur.com/ljKb0UX.png\" group-title=\"General\",CTV\r\r\nhttps://live.ctvbolivia.com/hls/ctv.m3u8\r",
+      "line": 20,
       "catchup": {
         "type": "",
         "days": "",
@@ -89,11 +89,11 @@
       "status": "OK"
     },
     {
-      "name": "CTV",
+      "name": "Coral TV (480p)",
       "tvg": {
-        "id": "CTV.bo@SD",
+        "id": "CoralTV.bo@SD",
         "name": "",
-        "logo": "https://i.imgur.com/ljKb0UX.png",
+        "logo": "https://i.ibb.co/xDrc5MD/CORALTv.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -105,9 +105,65 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://live.ctvbolivia.com/hls/ctv.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"CTV.bo@SD\" tvg-logo=\"https://i.imgur.com/ljKb0UX.png\" group-title=\"General\",CTV\r\r\nhttps://live.ctvbolivia.com/hls/ctv.m3u8\r",
-      "line": 20,
+      "url": "https://tv.mediacp.eu:8081/coraltv/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"CoralTV.bo@SD\" tvg-logo=\"https://i.ibb.co/xDrc5MD/CORALTv.png\" group-title=\"General\",Coral TV (480p)\r\r\nhttps://tv.mediacp.eu:8081/coraltv/index.m3u8\r",
+      "line": 18,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "F10 HD [Geo-blocked]",
+      "tvg": {
+        "id": "F10HD.bo@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/OEsT0KN.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://tv2.bitstreaming.net:3235/multi_live/play.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"F10HD.bo@SD\" tvg-logo=\"https://i.imgur.com/OEsT0KN.png\" group-title=\"General\",F10 HD [Geo-blocked]\r\r\nhttps://tv2.bitstreaming.net:3235/multi_live/play.m3u8\r",
+      "line": 26,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "FX Latin America (1080p)",
+      "tvg": {
+        "id": "FXLatinAmerica.us@Panregional",
+        "name": "",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/FX_International_logo.svg/512px-FX_International_logo.svg.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Entertainment"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://38.199.6.1:17001/play/a04u/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"FXLatinAmerica.us@Panregional\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/FX_International_logo.svg/512px-FX_International_logo.svg.png\" group-title=\"Entertainment\",FX Latin America (1080p)\r\r\nhttp://38.199.6.1:17001/play/a04u/index.m3u8\r",
+      "line": 32,
       "catchup": {
         "type": "",
         "days": "",
@@ -173,34 +229,6 @@
       "status": "OK"
     },
     {
-      "name": "FX Latin America (1080p)",
-      "tvg": {
-        "id": "FXLatinAmerica.us@Panregional",
-        "name": "",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/FX_International_logo.svg/512px-FX_International_logo.svg.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Entertainment"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://38.199.6.1:17001/play/a04u/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"FXLatinAmerica.us@Panregional\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/FX_International_logo.svg/512px-FX_International_logo.svg.png\" group-title=\"Entertainment\",FX Latin America (1080p)\r\r\nhttp://38.199.6.1:17001/play/a04u/index.m3u8\r",
-      "line": 32,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Nick Jr. Latin America (480p)",
       "tvg": {
         "id": "NickJrLatinAmerica.us@Panregional",
@@ -229,11 +257,11 @@
       "status": "OK"
     },
     {
-      "name": "F10 HD [Geo-blocked]",
+      "name": "Palenque TV",
       "tvg": {
-        "id": "F10HD.bo@SD",
+        "id": "PalenqueTV.bo@SD",
         "name": "",
-        "logo": "https://i.imgur.com/OEsT0KN.png",
+        "logo": "https://i.imgur.com/wAIBvaO.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -245,9 +273,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://tv2.bitstreaming.net:3235/multi_live/play.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"F10HD.bo@SD\" tvg-logo=\"https://i.imgur.com/OEsT0KN.png\" group-title=\"General\",F10 HD [Geo-blocked]\r\r\nhttps://tv2.bitstreaming.net:3235/multi_live/play.m3u8\r",
-      "line": 26,
+      "url": "https://tv.bitstreaming.net:3234/live/palenquetvlive.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"PalenqueTV.bo@SD\" tvg-logo=\"https://i.imgur.com/wAIBvaO.png\" group-title=\"General\",Palenque TV\r\r\nhttps://tv.bitstreaming.net:3234/live/palenquetvlive.m3u8\r",
+      "line": 44,
       "catchup": {
         "type": "",
         "days": "",
@@ -369,6 +397,34 @@
       "status": "OK"
     },
     {
+      "name": "TDT Multimedia (720p)",
+      "tvg": {
+        "id": "TDTMultimedia.bo@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/JkCywl5.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://video01.kshost.com.br:4443/juan6318/juan6318/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"TDTMultimedia.bo@SD\" tvg-logo=\"https://i.imgur.com/JkCywl5.png\" group-title=\"General\",TDT Multimedia (720p)\r\r\nhttps://video01.kshost.com.br:4443/juan6318/juan6318/playlist.m3u8\r",
+      "line": 60,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "UMSA TVU Internacional (720p)",
       "tvg": {
         "id": "UMSATVUInternacional.bo@HD",
@@ -481,34 +537,6 @@
       "status": "OK"
     },
     {
-      "name": "TDT Multimedia (720p)",
-      "tvg": {
-        "id": "TDTMultimedia.bo@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/JkCywl5.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://video01.kshost.com.br:4443/juan6318/juan6318/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TDTMultimedia.bo@SD\" tvg-logo=\"https://i.imgur.com/JkCywl5.png\" group-title=\"General\",TDT Multimedia (720p)\r\r\nhttps://video01.kshost.com.br:4443/juan6318/juan6318/playlist.m3u8\r",
-      "line": 60,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "UPEA TV (720p)",
       "tvg": {
         "id": "UPEATV.bo@SD",
@@ -593,6 +621,34 @@
       "status": "OK"
     },
     {
+      "name": "Zoy TV Turcas (720p)",
+      "tvg": {
+        "id": "ZoyTVTurcas.bo@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/0YHztGq.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Entertainment"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://mio.zoymilton.com/ZoyTurcas/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"ZoyTVTurcas.bo@SD\" tvg-logo=\"https://i.imgur.com/0YHztGq.png\" group-title=\"Entertainment\",Zoy TV Turcas (720p)\r\r\nhttps://mio.zoymilton.com/ZoyTurcas/index.m3u8\r",
+      "line": 88,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "ZoyTV Plus (720p)",
       "tvg": {
         "id": "ZoyTVPlus.bo@HD",
@@ -612,34 +668,6 @@
       "url": "https://mio.zoymilton.com/ZoyPlus/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"ZoyTVPlus.bo@HD\" tvg-logo=\"https://i.imgur.com/JPNPH3x.png\" group-title=\"Entertainment\",ZoyTV Plus (720p)\r\r\nhttps://mio.zoymilton.com/ZoyPlus/index.m3u8\r",
       "line": 90,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "UPP TV/Bolivisión SCZ (720p) [Not 24/7]",
-      "tvg": {
-        "id": "UPPTV.bo@SD",
-        "name": "",
-        "logo": "https://i.ibb.co/Kwvbyr0/unnamed.jpg",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://alba-bo-bolivision-upptv.stream.mediatiquestream.com/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"UPPTV.bo@SD\" tvg-logo=\"https://i.ibb.co/Kwvbyr0/unnamed.jpg\" group-title=\"General\",UPP TV/Bolivisión SCZ (720p) [Not 24/7]\r\r\nhttps://alba-bo-bolivision-upptv.stream.mediatiquestream.com/index.m3u8\r",
-      "line": 79,
       "catchup": {
         "type": "",
         "days": "",
