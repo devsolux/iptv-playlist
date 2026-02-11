@@ -89,34 +89,6 @@
       "status": "OK"
     },
     {
-      "name": "EWTN Ukraine (1080p)",
-      "tvg": {
-        "id": "EWTNUkraine.ua@SD",
-        "name": "",
-        "logo": "",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Religious"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://cdn3.wowza.com/1/WjduMm1tYnlwNXQx/M01NV3Uz/hls/live/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"EWTNUkraine.ua@SD\" tvg-logo=\"\" group-title=\"Religious\",EWTN Ukraine (1080p)\r\r\nhttps://cdn3.wowza.com/1/WjduMm1tYnlwNXQx/M01NV3Uz/hls/live/playlist.m3u8\r",
-      "line": 22,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "DniproTV (1080p)",
       "tvg": {
         "id": "DniproTV.ua@SD",
@@ -145,25 +117,25 @@
       "status": "OK"
     },
     {
-      "name": "FREEDOM",
+      "name": "EWTN Ukraine (1080p)",
       "tvg": {
-        "id": "FREEDOM.ua@SD",
+        "id": "EWTNUkraine.ua@SD",
         "name": "",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/FreeDOMUAlogo.svg/512px-FreeDOMUAlogo.svg.png",
+        "logo": "",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "News"
+        "title": "Religious"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://dash2.antik.sk/live/test_uatv/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"FREEDOM.ua@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/FreeDOMUAlogo.svg/512px-FreeDOMUAlogo.svg.png\" group-title=\"News\",FREEDOM\r\r\nhttps://dash2.antik.sk/live/test_uatv/playlist.m3u8\r",
-      "line": 27,
+      "url": "https://cdn3.wowza.com/1/WjduMm1tYnlwNXQx/M01NV3Uz/hls/live/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"EWTNUkraine.ua@SD\" tvg-logo=\"\" group-title=\"Religious\",EWTN Ukraine (1080p)\r\r\nhttps://cdn3.wowza.com/1/WjduMm1tYnlwNXQx/M01NV3Uz/hls/live/playlist.m3u8\r",
+      "line": 22,
       "catchup": {
         "type": "",
         "days": "",
@@ -201,11 +173,11 @@
       "status": "OK"
     },
     {
-      "name": "IT-3 (720p)",
+      "name": "FREEDOM",
       "tvg": {
-        "id": "IT3.ua@SD",
+        "id": "FREEDOM.ua@SD",
         "name": "",
-        "logo": "https://i.imgur.com/8rNbbY7.png",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/FreeDOMUAlogo.svg/512px-FreeDOMUAlogo.svg.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -217,9 +189,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "http://cdn10.live-tv.od.ua:8081/it3od/720p/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"IT3.ua@SD\" tvg-logo=\"https://i.imgur.com/8rNbbY7.png\" group-title=\"News\",IT-3 (720p)\r\r\nhttp://cdn10.live-tv.od.ua:8081/it3od/720p/playlist.m3u8\r",
-      "line": 35,
+      "url": "https://dash2.antik.sk/live/test_uatv/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"FREEDOM.ua@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/FreeDOMUAlogo.svg/512px-FreeDOMUAlogo.svg.png\" group-title=\"News\",FREEDOM\r\r\nhttps://dash2.antik.sk/live/test_uatv/playlist.m3u8\r",
+      "line": 27,
       "catchup": {
         "type": "",
         "days": "",
@@ -248,6 +220,34 @@
       "url": "https://cdn10.live-tv.cloud/itvrv/abr-lq/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"ITV.ua@SD\" tvg-logo=\"https://i.imgur.com/NZdT9yJ.png\" group-title=\"General\",ITV (480p)\r\r\nhttps://cdn10.live-tv.cloud/itvrv/abr-lq/playlist.m3u8\r",
       "line": 37,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "IT-3 (720p)",
+      "tvg": {
+        "id": "IT3.ua@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/8rNbbY7.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "News"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://cdn10.live-tv.od.ua:8081/it3od/720p/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"IT3.ua@SD\" tvg-logo=\"https://i.imgur.com/8rNbbY7.png\" group-title=\"News\",IT-3 (720p)\r\r\nhttp://cdn10.live-tv.od.ua:8081/it3od/720p/playlist.m3u8\r",
+      "line": 35,
       "catchup": {
         "type": "",
         "days": "",
@@ -397,34 +397,6 @@
       "status": "OK"
     },
     {
-      "name": "TIS TV (720p)",
-      "tvg": {
-        "id": "TISTV.ua@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/jDaoUt5.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://cdn10.live-tv.cloud/riood/tisod-abr/riood/tisod720/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TISTV.ua@SD\" tvg-logo=\"https://i.imgur.com/jDaoUt5.png\" group-title=\"Undefined\",TIS TV (720p)\r\r\nhttps://cdn10.live-tv.cloud/riood/tisod-abr/riood/tisod720/playlist.m3u8\r",
-      "line": 64,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Skrypin.ua (1080p) [Not 24/7]",
       "tvg": {
         "id": "Skrypinua.ua@SD",
@@ -444,6 +416,34 @@
       "url": "https://open-cdn.lanet.tv/play/skrypin.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"Skrypinua.ua@SD\" tvg-logo=\"https://i.imgur.com/XtG3rfj.png\" group-title=\"Undefined\",Skrypin.ua (1080p) [Not 24/7]\r\r\nhttps://open-cdn.lanet.tv/play/skrypin.m3u8\r",
       "line": 60,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "TIS TV (720p)",
+      "tvg": {
+        "id": "TISTV.ua@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/jDaoUt5.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://cdn10.live-tv.cloud/riood/tisod-abr/riood/tisod720/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"TISTV.ua@SD\" tvg-logo=\"https://i.imgur.com/jDaoUt5.png\" group-title=\"Undefined\",TIS TV (720p)\r\r\nhttps://cdn10.live-tv.cloud/riood/tisod-abr/riood/tisod720/playlist.m3u8\r",
+      "line": 64,
       "catchup": {
         "type": "",
         "days": "",
@@ -584,6 +584,34 @@
       "url": "https://kiev1-cdn.lanet.tv/live/1008.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"LanetTV.ua@SD\" tvg-logo=\"https://i.imgur.com/Jdy4SoG.png\" group-title=\"Entertainment\",Ланет.TV (486p)\r\r\nhttps://kiev1-cdn.lanet.tv/live/1008.m3u8\r",
       "line": 91,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Надия/Новый канал (576p) [Not 24/7]",
+      "tvg": {
+        "id": "HopeChannelUkraine.ua@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/mUx2P29.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Religious"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://nadiya.home-net.com.ua/mob/mystream.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"HopeChannelUkraine.ua@SD\" tvg-logo=\"https://i.imgur.com/mUx2P29.png\" group-title=\"Religious\",Надия/Новый канал (576p) [Not 24/7]\r\r\nhttp://nadiya.home-net.com.ua/mob/mystream.m3u8\r",
+      "line": 97,
       "catchup": {
         "type": "",
         "days": "",
