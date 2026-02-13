@@ -117,6 +117,34 @@
       "status": "OK"
     },
     {
+      "name": "MuzzOne",
+      "tvg": {
+        "id": "MuzzOne.kz@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/nHVABXh.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Music"
+      },
+      "http": {
+        "referrer": "https://muzzone.tv/",
+        "user-agent": ""
+      },
+      "url": "https://streams.adapto.kz/hls/live/muzzone/main_stream.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"MuzzOne.kz@SD\" tvg-logo=\"https://i.imgur.com/nHVABXh.png\" http-referrer=\"https://muzzone.tv/\" group-title=\"Music\",MuzzOne\r\r\n#EXTVLCOPT:http-referrer=https://muzzone.tv/\r\r\nhttps://streams.adapto.kz/hls/live/muzzone/main_stream.m3u8\r",
+      "line": 27,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Qazaqstan International (1080p)",
       "tvg": {
         "id": "QazaqstanInternational.kz@SD",
@@ -173,25 +201,25 @@
       "status": "OK"
     },
     {
-      "name": "MuzzOne",
+      "name": "QazSport (480p) [Geo-blocked]",
       "tvg": {
-        "id": "MuzzOne.kz@SD",
+        "id": "QazSport.kz@SD",
         "name": "",
-        "logo": "https://i.imgur.com/nHVABXh.png",
+        "logo": "https://i.imgur.com/UDJ0P5Q.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Music"
+        "title": "Sports"
       },
       "http": {
-        "referrer": "https://muzzone.tv/",
+        "referrer": "",
         "user-agent": ""
       },
-      "url": "https://streams.adapto.kz/hls/live/muzzone/main_stream.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"MuzzOne.kz@SD\" tvg-logo=\"https://i.imgur.com/nHVABXh.png\" http-referrer=\"https://muzzone.tv/\" group-title=\"Music\",MuzzOne\r\r\n#EXTVLCOPT:http-referrer=https://muzzone.tv/\r\r\nhttps://streams.adapto.kz/hls/live/muzzone/main_stream.m3u8\r",
-      "line": 27,
+      "url": "https://qazsporttv-stream.qazcdn.com/qazsporttv/qazsporttv/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"QazSport.kz@SD\" tvg-logo=\"https://i.imgur.com/UDJ0P5Q.png\" group-title=\"Sports\",QazSport (480p) [Geo-blocked]\r\r\nhttps://qazsporttv-stream.qazcdn.com/qazsporttv/qazsporttv/playlist.m3u8\r",
+      "line": 36,
       "catchup": {
         "type": "",
         "days": "",
@@ -229,25 +257,25 @@
       "status": "OK"
     },
     {
-      "name": "QazSport (480p) [Geo-blocked]",
+      "name": "МТРК (576p) [Not 24/7]",
       "tvg": {
-        "id": "QazSport.kz@SD",
+        "id": "MTRK.kz@SD",
         "name": "",
-        "logo": "https://i.imgur.com/UDJ0P5Q.png",
+        "logo": "https://i.imgur.com/XMyRwDk.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Sports"
+        "title": "General"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://qazsporttv-stream.qazcdn.com/qazsporttv/qazsporttv/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"QazSport.kz@SD\" tvg-logo=\"https://i.imgur.com/UDJ0P5Q.png\" group-title=\"Sports\",QazSport (480p) [Geo-blocked]\r\r\nhttps://qazsporttv-stream.qazcdn.com/qazsporttv/qazsporttv/playlist.m3u8\r",
-      "line": 36,
+      "url": "https://tvcdn01.oktv.kz/tv/mtrk/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"MTRK.kz@SD\" tvg-logo=\"https://i.imgur.com/XMyRwDk.png\" group-title=\"General\",МТРК (576p) [Not 24/7]\r\r\nhttps://tvcdn01.oktv.kz/tv/mtrk/playlist.m3u8\r",
+      "line": 52,
       "catchup": {
         "type": "",
         "days": "",
@@ -276,34 +304,6 @@
       "url": "http://serv25.vintera.tv:8081/novoetv/nov_tv/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"Novoetelevidenie.kz@SD\" tvg-logo=\"https://i.imgur.com/mmKWrWs.png\" group-title=\"General\",Новое телевидение (576p) [Not 24/7]\r\r\nhttp://serv25.vintera.tv:8081/novoetv/nov_tv/playlist.m3u8\r",
       "line": 54,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "МТРК (576p) [Not 24/7]",
-      "tvg": {
-        "id": "MTRK.kz@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/XMyRwDk.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://tvcdn01.oktv.kz/tv/mtrk/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"MTRK.kz@SD\" tvg-logo=\"https://i.imgur.com/XMyRwDk.png\" group-title=\"General\",МТРК (576p) [Not 24/7]\r\r\nhttps://tvcdn01.oktv.kz/tv/mtrk/playlist.m3u8\r",
-      "line": 52,
       "catchup": {
         "type": "",
         "days": "",
