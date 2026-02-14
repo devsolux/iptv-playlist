@@ -61,6 +61,34 @@
       "status": "OK"
     },
     {
+      "name": "AB1",
+      "tvg": {
+        "id": "AB1.fr@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/9C7UsOe.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Entertainment"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://viamotionhsi.netplus.ch/live/eds/ab1/browser-dash/ab1.mpd",
+      "raw": "#EXTINF:-1 tvg-id=\"AB1.fr@SD\" tvg-logo=\"https://i.imgur.com/9C7UsOe.png\" group-title=\"Entertainment\",AB1\r\r\nhttps://viamotionhsi.netplus.ch/live/eds/ab1/browser-dash/ab1.mpd\r",
+      "line": 6,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "6ter (1080p) [Geo-blocked]",
       "tvg": {
         "id": "6ter.fr@SD",
@@ -117,25 +145,25 @@
       "status": "OK"
     },
     {
-      "name": "AB1",
+      "name": "Africa 24 (1080p)",
       "tvg": {
-        "id": "AB1.fr@SD",
+        "id": "Africa24.fr@SD",
         "name": "",
-        "logo": "https://i.imgur.com/9C7UsOe.png",
+        "logo": "https://africa24tv.com/wp-content/uploads/2021/09/logo.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Entertainment"
+        "title": "News"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://viamotionhsi.netplus.ch/live/eds/ab1/browser-dash/ab1.mpd",
-      "raw": "#EXTINF:-1 tvg-id=\"AB1.fr@SD\" tvg-logo=\"https://i.imgur.com/9C7UsOe.png\" group-title=\"Entertainment\",AB1\r\r\nhttps://viamotionhsi.netplus.ch/live/eds/ab1/browser-dash/ab1.mpd\r",
-      "line": 6,
+      "url": "https://africa24.vedge.infomaniak.com/livecast/ik:africa24/manifest.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Africa24.fr@SD\" tvg-logo=\"https://africa24tv.com/wp-content/uploads/2021/09/logo.png\" group-title=\"News\",Africa 24 (1080p)\r\r\nhttps://africa24.vedge.infomaniak.com/livecast/ik:africa24/manifest.m3u8\r",
+      "line": 10,
       "catchup": {
         "type": "",
         "days": "",
@@ -192,34 +220,6 @@
       "url": "https://edge13.vedge.infomaniak.com/livecast/ik:adhtv/manifest.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"AlpedHuezTV.fr@SD\" tvg-logo=\"https://i.imgur.com/090tCQ5.png\" group-title=\"General\",Alpe d’Huez TV (720p) [Not 24/7]\r\r\nhttps://edge13.vedge.infomaniak.com/livecast/ik:adhtv/manifest.m3u8\r",
       "line": 16,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Africa 24 (1080p)",
-      "tvg": {
-        "id": "Africa24.fr@SD",
-        "name": "",
-        "logo": "https://africa24tv.com/wp-content/uploads/2021/09/logo.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "News"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://africa24.vedge.infomaniak.com/livecast/ik:africa24/manifest.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Africa24.fr@SD\" tvg-logo=\"https://africa24tv.com/wp-content/uploads/2021/09/logo.png\" group-title=\"News\",Africa 24 (1080p)\r\r\nhttps://africa24.vedge.infomaniak.com/livecast/ik:africa24/manifest.m3u8\r",
-      "line": 10,
       "catchup": {
         "type": "",
         "days": "",
@@ -537,34 +537,6 @@
       "status": "OK"
     },
     {
-      "name": "C Star (720p)",
-      "tvg": {
-        "id": "CStar.fr@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/w4kAX1V.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Entertainment"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://viamotionhsi.netplus.ch/live/eds/d17/browser-HLS8/d17.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"CStar.fr@SD\" tvg-logo=\"https://i.imgur.com/w4kAX1V.png\" group-title=\"Entertainment\",C Star (720p)\r\r\nhttps://viamotionhsi.netplus.ch/live/eds/d17/browser-HLS8/d17.m3u8\r",
-      "line": 74,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Brionnais TV (720p)",
       "tvg": {
         "id": "BrionnaisTV.fr@SD",
@@ -593,25 +565,53 @@
       "status": "OK"
     },
     {
-      "name": "Cannes Lérins TV (1080p)",
+      "name": "C Star (720p)",
       "tvg": {
-        "id": "CannesLerinsTV.fr@SD",
+        "id": "CStar.fr@SD",
         "name": "",
-        "logo": "https://i.imgur.com/atlgnum.png",
+        "logo": "https://i.imgur.com/w4kAX1V.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "General"
+        "title": "Entertainment"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://vdo2.pro-fhi.net:3628/live/uppodsfqlive.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"CannesLerinsTV.fr@SD\" tvg-logo=\"https://i.imgur.com/atlgnum.png\" group-title=\"General\",Cannes Lérins TV (1080p)\r\r\nhttps://vdo2.pro-fhi.net:3628/live/uppodsfqlive.m3u8\r",
-      "line": 82,
+      "url": "https://viamotionhsi.netplus.ch/live/eds/d17/browser-HLS8/d17.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"CStar.fr@SD\" tvg-logo=\"https://i.imgur.com/w4kAX1V.png\" group-title=\"Entertainment\",C Star (720p)\r\r\nhttps://viamotionhsi.netplus.ch/live/eds/d17/browser-HLS8/d17.m3u8\r",
+      "line": 74,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Clubbing TV France",
+      "tvg": {
+        "id": "ClubbingTV.us@France",
+        "name": "",
+        "logo": "https://i.imgur.com/MyiA92q.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Music"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://d1j2csarxnwazk.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-uze1m6xh4fiyr-ssai-prd/master.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"ClubbingTV.us@France\" tvg-logo=\"https://i.imgur.com/MyiA92q.png\" group-title=\"Music\",Clubbing TV France\r\r\nhttps://d1j2csarxnwazk.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-uze1m6xh4fiyr-ssai-prd/master.m3u8\r",
+      "line": 88,
       "catchup": {
         "type": "",
         "days": "",
@@ -761,25 +761,25 @@
       "status": "OK"
     },
     {
-      "name": "Clubbing TV France",
+      "name": "Cannes Lérins TV (1080p)",
       "tvg": {
-        "id": "ClubbingTV.us@France",
+        "id": "CannesLerinsTV.fr@SD",
         "name": "",
-        "logo": "https://i.imgur.com/MyiA92q.png",
+        "logo": "https://i.imgur.com/atlgnum.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Music"
+        "title": "General"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://d1j2csarxnwazk.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-uze1m6xh4fiyr-ssai-prd/master.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"ClubbingTV.us@France\" tvg-logo=\"https://i.imgur.com/MyiA92q.png\" group-title=\"Music\",Clubbing TV France\r\r\nhttps://d1j2csarxnwazk.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-uze1m6xh4fiyr-ssai-prd/master.m3u8\r",
-      "line": 88,
+      "url": "https://vdo2.pro-fhi.net:3628/live/uppodsfqlive.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"CannesLerinsTV.fr@SD\" tvg-logo=\"https://i.imgur.com/atlgnum.png\" group-title=\"General\",Cannes Lérins TV (1080p)\r\r\nhttps://vdo2.pro-fhi.net:3628/live/uppodsfqlive.m3u8\r",
+      "line": 82,
       "catchup": {
         "type": "",
         "days": "",
@@ -845,34 +845,6 @@
       "status": "OK"
     },
     {
-      "name": "Canal 32 (1080p)",
-      "tvg": {
-        "id": "Canal32.fr@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/lAsE6kN.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://event.vedge.infomaniak.com/livecast/ik:canal32_4/manifest.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Canal32.fr@SD\" tvg-logo=\"https://i.imgur.com/lAsE6kN.png\" group-title=\"General\",Canal 32 (1080p)\r\r\nhttps://event.vedge.infomaniak.com/livecast/ik:canal32_4/manifest.m3u8\r",
-      "line": 78,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "FashionTV Secrets (1080p)",
       "tvg": {
         "id": "FashionTVSecrets.fr@HD",
@@ -892,6 +864,34 @@
       "url": "https://ssai.aniview.com/api/v1/hls/stream.m3u8?AVS_SSAIID=67c0c39764ad6f7dab07aa0b&AV_APPNAME=[ADS.APP_NAME]&AV_APPPKGNAME=[ADS.APP_BUNDLE]&AV_APPSTOREURL=[ADS.APP_STORE_URL]&AV_CCPA=[ADS.US_PRIVACY]&AV_CLIENT_SECTION=ftv_secrets&AV_CONSENT=[ADS.GDPR_CONSENT]&AV_CONTENT_CAT=IAB7&AV_CONTENT_CHANNEL=&AV_CONTENT_CONTEXT=&AV_CONTENT_EPISODE=&AV_CONTENT_GENRE=fashion+and+lifestyle&AV_CONTENT_ID=[ADS.VIDAA_ADS_CONTENTID]&AV_CONTENT_KEYWORDS=&AV_CONTENT_LANGUAGE=en&AV_CONTENT_LENGTH=&AV_CONTENT_NETWORK=&AV_CONTENT_PROVIDER=FTV&AV_CONTENT_RATING=R&AV_CONTENT_SEASON=&AV_CONTENT_SERIES=&AV_CONTENT_TITLE=&AV_CONTENT_URL=&AV_DNT=[ADS.DNT]&AV_GDPR=[ADS.GDPR]&AV_HEIGHT=[ADS.H]&AV_IDFA=[ADS.IFA]&AV_IFA_TYPE=[ADS.IFA_TYPE]&AV_LANGUAGE=[ADS.DEVICE_LANGUAGE]&AV_OSVERS=[ADS.DEVICE_OSV]&AV_RTB_DEVICE_TYPE=[ADS.DEVICE_TYPE]&AV_VAUTH=[ADS.VAUTH]&AV_WIDTH=[ADS.W]&Content_Id=[ADS.ADS_CONTENTID]&ads.vidaa_ads_param=1191723366&cb=[CACHEBUSTER]&content_channel_name=ftv+-fashiontv+Secrets&content_livestream=1",
       "raw": "#EXTINF:-1 tvg-id=\"FashionTVSecrets.fr@HD\" tvg-logo=\"https://i.ibb.co/fVGJyCC8/w512.png\" group-title=\"Lifestyle\",FashionTV Secrets (1080p)\r\r\nhttps://ssai.aniview.com/api/v1/hls/stream.m3u8?AVS_SSAIID=67c0c39764ad6f7dab07aa0b&AV_APPNAME=[ADS.APP_NAME]&AV_APPPKGNAME=[ADS.APP_BUNDLE]&AV_APPSTOREURL=[ADS.APP_STORE_URL]&AV_CCPA=[ADS.US_PRIVACY]&AV_CLIENT_SECTION=ftv_secrets&AV_CONSENT=[ADS.GDPR_CONSENT]&AV_CONTENT_CAT=IAB7&AV_CONTENT_CHANNEL=&AV_CONTENT_CONTEXT=&AV_CONTENT_EPISODE=&AV_CONTENT_GENRE=fashion+and+lifestyle&AV_CONTENT_ID=[ADS.VIDAA_ADS_CONTENTID]&AV_CONTENT_KEYWORDS=&AV_CONTENT_LANGUAGE=en&AV_CONTENT_LENGTH=&AV_CONTENT_NETWORK=&AV_CONTENT_PROVIDER=FTV&AV_CONTENT_RATING=R&AV_CONTENT_SEASON=&AV_CONTENT_SERIES=&AV_CONTENT_TITLE=&AV_CONTENT_URL=&AV_DNT=[ADS.DNT]&AV_GDPR=[ADS.GDPR]&AV_HEIGHT=[ADS.H]&AV_IDFA=[ADS.IFA]&AV_IFA_TYPE=[ADS.IFA_TYPE]&AV_LANGUAGE=[ADS.DEVICE_LANGUAGE]&AV_OSVERS=[ADS.DEVICE_OSV]&AV_RTB_DEVICE_TYPE=[ADS.DEVICE_TYPE]&AV_VAUTH=[ADS.VAUTH]&AV_WIDTH=[ADS.W]&Content_Id=[ADS.ADS_CONTENTID]&ads.vidaa_ads_param=1191723366&cb=[CACHEBUSTER]&content_channel_name=ftv+-fashiontv+Secrets&content_livestream=1\r",
       "line": 108,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Canal 32 (1080p)",
+      "tvg": {
+        "id": "Canal32.fr@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/lAsE6kN.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://event.vedge.infomaniak.com/livecast/ik:canal32_4/manifest.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Canal32.fr@SD\" tvg-logo=\"https://i.imgur.com/lAsE6kN.png\" group-title=\"General\",Canal 32 (1080p)\r\r\nhttps://event.vedge.infomaniak.com/livecast/ik:canal32_4/manifest.m3u8\r",
+      "line": 78,
       "catchup": {
         "type": "",
         "days": "",
@@ -957,34 +957,6 @@
       "status": "OK"
     },
     {
-      "name": "France 3 HD (720p)",
-      "tvg": {
-        "id": "France3.fr@HD",
-        "name": "",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/France_3_2018.svg/512px-France_3_2018.svg.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://viamotionhsi.netplus.ch/live/eds/france3hd/browser-dash/france3hd.mpd",
-      "raw": "#EXTINF:-1 tvg-id=\"France3.fr@HD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/France_3_2018.svg/512px-France_3_2018.svg.png\" group-title=\"General\",France 3 HD (720p)\r\r\nhttps://viamotionhsi.netplus.ch/live/eds/france3hd/browser-dash/france3hd.mpd\r",
-      "line": 116,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "DBM TV (1080p)",
       "tvg": {
         "id": "DBMTV.fr@SD",
@@ -1004,6 +976,34 @@
       "url": "https://dbmtv.vedge.infomaniak.com/livecast/dbmtv/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"DBMTV.fr@SD\" tvg-logo=\"https://i.imgur.com/ab6p2SW.png\" group-title=\"Music\",DBM TV (1080p)\r\r\nhttps://dbmtv.vedge.infomaniak.com/livecast/dbmtv/playlist.m3u8\r",
       "line": 92,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "France 3 HD (720p)",
+      "tvg": {
+        "id": "France3.fr@HD",
+        "name": "",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/France_3_2018.svg/512px-France_3_2018.svg.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://viamotionhsi.netplus.ch/live/eds/france3hd/browser-dash/france3hd.mpd",
+      "raw": "#EXTINF:-1 tvg-id=\"France3.fr@HD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/France_3_2018.svg/512px-France_3_2018.svg.png\" group-title=\"General\",France 3 HD (720p)\r\r\nhttps://viamotionhsi.netplus.ch/live/eds/france3hd/browser-dash/france3hd.mpd\r",
+      "line": 116,
       "catchup": {
         "type": "",
         "days": "",
@@ -1041,34 +1041,6 @@
       "status": "OK"
     },
     {
-      "name": "Franceinfo",
-      "tvg": {
-        "id": "Franceinfo.fr@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/eITXz6A.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "News"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/franceinfotv.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Franceinfo.fr@SD\" tvg-logo=\"https://i.imgur.com/eITXz6A.png\" group-title=\"News\",Franceinfo\r\r\nhttps://raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/franceinfotv.m3u8\r",
-      "line": 128,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "France 4 HD (720p)",
       "tvg": {
         "id": "France4.fr@HD",
@@ -1088,6 +1060,34 @@
       "url": "https://viamotionhsi.netplus.ch/live/eds/france4hd/browser-dash/france4hd.mpd",
       "raw": "#EXTINF:-1 tvg-id=\"France4.fr@HD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/France_4_2018.svg/512px-France_4_2018.svg.png\" group-title=\"Kids\",France 4 HD (720p)\r\r\nhttps://viamotionhsi.netplus.ch/live/eds/france4hd/browser-dash/france4hd.mpd\r",
       "line": 118,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Franceinfo",
+      "tvg": {
+        "id": "Franceinfo.fr@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/eITXz6A.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "News"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/franceinfotv.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Franceinfo.fr@SD\" tvg-logo=\"https://i.imgur.com/eITXz6A.png\" group-title=\"News\",Franceinfo\r\r\nhttps://raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/franceinfotv.m3u8\r",
+      "line": 128,
       "catchup": {
         "type": "",
         "days": "",
@@ -1125,25 +1125,25 @@
       "status": "OK"
     },
     {
-      "name": "France 5 HD (720p)",
+      "name": "Francophonie (360p)",
       "tvg": {
-        "id": "France5.fr@HD",
+        "id": "Francophonie24.fr@SD",
         "name": "",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/France_5_2018.svg/512px-France_5_2018.svg.png",
+        "logo": "https://i.imgur.com/uM1v1sd.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "General"
+        "title": "Documentary"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://viamotionhsi.netplus.ch/live/eds/france5hd/browser-dash/france5hd.mpd",
-      "raw": "#EXTINF:-1 tvg-id=\"France5.fr@HD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/France_5_2018.svg/512px-France_5_2018.svg.png\" group-title=\"General\",France 5 HD (720p)\r\r\nhttps://viamotionhsi.netplus.ch/live/eds/france5hd/browser-dash/france5hd.mpd\r",
-      "line": 122,
+      "url": "http://mv2.tvfrancophonie.org/live/Stream1/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Francophonie24.fr@SD\" tvg-logo=\"https://i.imgur.com/uM1v1sd.png\" group-title=\"Documentary\",Francophonie (360p)\r\r\nhttp://mv2.tvfrancophonie.org/live/Stream1/playlist.m3u8\r",
+      "line": 130,
       "catchup": {
         "type": "",
         "days": "",
@@ -1181,25 +1181,25 @@
       "status": "OK"
     },
     {
-      "name": "Francophonie (360p)",
+      "name": "France 5 HD (720p)",
       "tvg": {
-        "id": "Francophonie24.fr@SD",
+        "id": "France5.fr@HD",
         "name": "",
-        "logo": "https://i.imgur.com/uM1v1sd.png",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/France_5_2018.svg/512px-France_5_2018.svg.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Documentary"
+        "title": "General"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "http://mv2.tvfrancophonie.org/live/Stream1/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Francophonie24.fr@SD\" tvg-logo=\"https://i.imgur.com/uM1v1sd.png\" group-title=\"Documentary\",Francophonie (360p)\r\r\nhttp://mv2.tvfrancophonie.org/live/Stream1/playlist.m3u8\r",
-      "line": 130,
+      "url": "https://viamotionhsi.netplus.ch/live/eds/france5hd/browser-dash/france5hd.mpd",
+      "raw": "#EXTINF:-1 tvg-id=\"France5.fr@HD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/France_5_2018.svg/512px-France_5_2018.svg.png\" group-title=\"General\",France 5 HD (720p)\r\r\nhttps://viamotionhsi.netplus.ch/live/eds/france5hd/browser-dash/france5hd.mpd\r",
+      "line": 122,
       "catchup": {
         "type": "",
         "days": "",
@@ -1265,6 +1265,34 @@
       "status": "OK"
     },
     {
+      "name": "ILTV (720p)",
+      "tvg": {
+        "id": "ILTV.fr@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/fVhrJHK.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://live.creacast.com/iltv/smil:iltv.smil/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"ILTV.fr@SD\" tvg-logo=\"https://i.imgur.com/fVhrJHK.png\" group-title=\"Undefined\",ILTV (720p)\r\r\nhttps://live.creacast.com/iltv/smil:iltv.smil/playlist.m3u8\r",
+      "line": 144,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "HANDICAP TV France",
       "tvg": {
         "id": "HANDICAPTV.fr@SD",
@@ -1321,34 +1349,6 @@
       "status": "OK"
     },
     {
-      "name": "ILTV (720p)",
-      "tvg": {
-        "id": "ILTV.fr@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/fVhrJHK.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://live.creacast.com/iltv/smil:iltv.smil/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"ILTV.fr@SD\" tvg-logo=\"https://i.imgur.com/fVhrJHK.png\" group-title=\"Undefined\",ILTV (720p)\r\r\nhttps://live.creacast.com/iltv/smil:iltv.smil/playlist.m3u8\r",
-      "line": 144,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "KOZOOM TV",
       "tvg": {
         "id": "KozoomTV.fr@SD",
@@ -1368,6 +1368,34 @@
       "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/kozoom-tv/manifest.m3u8?ads.vf=gPEEXzG-WvO",
       "raw": "#EXTINF:-1 tvg-id=\"KozoomTV.fr@SD\" tvg-logo=\"https://i.imgur.com/M1Ee79b.png\" group-title=\"Sports\",KOZOOM TV\r\r\nhttps://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/kozoom-tv/manifest.m3u8?ads.vf=gPEEXzG-WvO\r",
       "line": 146,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Generations TV (576p)",
+      "tvg": {
+        "id": "GenerationsTV.fr@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/NgBrDMe.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://event.vedge.infomaniak.com/livecast/ik:generation-tv/manifest.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"GenerationsTV.fr@SD\" tvg-logo=\"https://i.imgur.com/NgBrDMe.png\" group-title=\"Undefined\",Generations TV (576p)\r\r\nhttps://event.vedge.infomaniak.com/livecast/ik:generation-tv/manifest.m3u8\r",
+      "line": 134,
       "catchup": {
         "type": "",
         "days": "",
@@ -1433,34 +1461,6 @@
       "status": "OK"
     },
     {
-      "name": "Le Figaro IDF (1080p)",
-      "tvg": {
-        "id": "LeFigaroTVIledeFrance.fr@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/a8RuRUQ.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://figarotv-live.freecaster.com/live/freecaster/figarotv.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"LeFigaroTVIledeFrance.fr@SD\" tvg-logo=\"https://i.imgur.com/a8RuRUQ.png\" group-title=\"General\",Le Figaro IDF (1080p)\r\r\nhttps://figarotv-live.freecaster.com/live/freecaster/figarotv.m3u8\r",
-      "line": 158,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Lyon Capitale TV",
       "tvg": {
         "id": "LyonCapitaleTV.fr@SD",
@@ -1489,25 +1489,25 @@
       "status": "OK"
     },
     {
-      "name": "Generations TV (576p)",
+      "name": "Le Figaro IDF (1080p)",
       "tvg": {
-        "id": "GenerationsTV.fr@SD",
+        "id": "LeFigaroTVIledeFrance.fr@SD",
         "name": "",
-        "logo": "https://i.imgur.com/NgBrDMe.png",
+        "logo": "https://i.imgur.com/a8RuRUQ.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Undefined"
+        "title": "General"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://event.vedge.infomaniak.com/livecast/ik:generation-tv/manifest.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"GenerationsTV.fr@SD\" tvg-logo=\"https://i.imgur.com/NgBrDMe.png\" group-title=\"Undefined\",Generations TV (576p)\r\r\nhttps://event.vedge.infomaniak.com/livecast/ik:generation-tv/manifest.m3u8\r",
-      "line": 134,
+      "url": "https://figarotv-live.freecaster.com/live/freecaster/figarotv.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"LeFigaroTVIledeFrance.fr@SD\" tvg-logo=\"https://i.imgur.com/a8RuRUQ.png\" group-title=\"General\",Le Figaro IDF (1080p)\r\r\nhttps://figarotv-live.freecaster.com/live/freecaster/figarotv.m3u8\r",
+      "line": 158,
       "catchup": {
         "type": "",
         "days": "",
@@ -1601,34 +1601,6 @@
       "status": "OK"
     },
     {
-      "name": "LCP",
-      "tvg": {
-        "id": "LCP.fr@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/k7UImOJ.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Legislative"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://viamotionhsi.netplus.ch/live/eds/lcp/browser-HLS8/lcp.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"LCP.fr@SD\" tvg-logo=\"https://i.imgur.com/k7UImOJ.png\" group-title=\"Legislative\",LCP\r\r\nhttps://viamotionhsi.netplus.ch/live/eds/lcp/browser-HLS8/lcp.m3u8\r",
-      "line": 156,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Men's UP TV",
       "tvg": {
         "id": "MensUPTV.fr@SD",
@@ -1648,6 +1620,34 @@
       "url": "https://raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/mensuptv.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"MensUPTV.fr@SD\" tvg-logo=\"https://i.imgur.com/5BZwRFs.png\" group-title=\"General\",Men's UP TV\r\r\nhttps://raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/mensuptv.m3u8\r",
       "line": 174,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "LCP",
+      "tvg": {
+        "id": "LCP.fr@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/k7UImOJ.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Legislative"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://viamotionhsi.netplus.ch/live/eds/lcp/browser-HLS8/lcp.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"LCP.fr@SD\" tvg-logo=\"https://i.imgur.com/k7UImOJ.png\" group-title=\"Legislative\",LCP\r\r\nhttps://viamotionhsi.netplus.ch/live/eds/lcp/browser-HLS8/lcp.m3u8\r",
+      "line": 156,
       "catchup": {
         "type": "",
         "days": "",
@@ -1741,6 +1741,34 @@
       "status": "OK"
     },
     {
+      "name": "Monte Carlo Digital Television (1080p)",
+      "tvg": {
+        "id": "MonteCarloDigitalTelevision.fr@HD",
+        "name": "",
+        "logo": "https://i.imgur.com/99h8F1y.jpeg",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Lifestyle"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://fl718492-exthls-p1.flovp.com/fl718492/live/live.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"MonteCarloDigitalTelevision.fr@HD\" tvg-logo=\"https://i.imgur.com/99h8F1y.jpeg\" group-title=\"Lifestyle\",Monte Carlo Digital Television (1080p)\r\r\nhttps://fl718492-exthls-p1.flovp.com/fl718492/live/live.m3u8\r",
+      "line": 178,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Nickelodeon",
       "tvg": {
         "id": "Nickelodeon.fr@SD",
@@ -1760,6 +1788,34 @@
       "url": "http://151.80.18.177:86/Nickelodeon_FR/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"Nickelodeon.fr@SD\" tvg-logo=\"https://i.imgur.com/E84jnP8.png\" group-title=\"Kids\",Nickelodeon\r\r\nhttp://151.80.18.177:86/Nickelodeon_FR/index.m3u8\r",
       "line": 190,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Mezzo (1080p)",
+      "tvg": {
+        "id": "Mezzo.fr@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/auNdGeW.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Music"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://viamotionhsi.netplus.ch/live/eds/mezzo/browser-HLS8/mezzo.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Mezzo.fr@SD\" tvg-logo=\"https://i.imgur.com/auNdGeW.png\" group-title=\"Music\",Mezzo (1080p)\r\r\nhttps://viamotionhsi.netplus.ch/live/eds/mezzo/browser-HLS8/mezzo.m3u8\r",
+      "line": 176,
       "catchup": {
         "type": "",
         "days": "",
@@ -1797,34 +1853,6 @@
       "status": "OK"
     },
     {
-      "name": "Monte Carlo Digital Television (1080p)",
-      "tvg": {
-        "id": "MonteCarloDigitalTelevision.fr@HD",
-        "name": "",
-        "logo": "https://i.imgur.com/99h8F1y.jpeg",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Lifestyle"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://fl718492-exthls-p1.flovp.com/fl718492/live/live.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"MonteCarloDigitalTelevision.fr@HD\" tvg-logo=\"https://i.imgur.com/99h8F1y.jpeg\" group-title=\"Lifestyle\",Monte Carlo Digital Television (1080p)\r\r\nhttps://fl718492-exthls-p1.flovp.com/fl718492/live/live.m3u8\r",
-      "line": 178,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Nickelodeon Teen",
       "tvg": {
         "id": "NickelodeonTeen.fr@SD",
@@ -1853,11 +1881,11 @@
       "status": "OK"
     },
     {
-      "name": "Mezzo (1080p)",
+      "name": "P2M TV (720p)",
       "tvg": {
-        "id": "Mezzo.fr@SD",
+        "id": "P2MTV.fr@SD",
         "name": "",
-        "logo": "https://i.imgur.com/auNdGeW.png",
+        "logo": "https://i.imgur.com/TrecSeG.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -1869,9 +1897,65 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://viamotionhsi.netplus.ch/live/eds/mezzo/browser-HLS8/mezzo.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Mezzo.fr@SD\" tvg-logo=\"https://i.imgur.com/auNdGeW.png\" group-title=\"Music\",Mezzo (1080p)\r\r\nhttps://viamotionhsi.netplus.ch/live/eds/mezzo/browser-HLS8/mezzo.m3u8\r",
-      "line": 176,
+      "url": "https://vdo2.pro-fhi.net:3207/stream/play.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"P2MTV.fr@SD\" tvg-logo=\"https://i.imgur.com/TrecSeG.png\" group-title=\"Music\",P2M TV (720p)\r\r\nhttps://vdo2.pro-fhi.net:3207/stream/play.m3u8\r",
+      "line": 200,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Pluto TV Investigation",
+      "tvg": {
+        "id": "PlutoTVInvestigation.us@France",
+        "name": "",
+        "logo": "https://i.imgur.com/8LdACfR.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Documentary"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/63808dc806aa4700075f319a/master.m3u8?appName=web&appVersion=9.19.0&deviceDNT=0&deviceId=07998d5d-dd4a-4bcc-84be-58dcbcec76b7&deviceMake=firefox&deviceModel=web&deviceType=web&deviceVersion=147.0.0&serverSideAds=false&sid=d7faa686-cd10-4bf3-a419-2ab5c4fe29a1",
+      "raw": "#EXTINF:-1 tvg-id=\"PlutoTVInvestigation.us@France\" tvg-logo=\"https://i.imgur.com/8LdACfR.png\" group-title=\"Documentary\",Pluto TV Investigation\r\r\nhttps://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/63808dc806aa4700075f319a/master.m3u8?appName=web&appVersion=9.19.0&deviceDNT=0&deviceId=07998d5d-dd4a-4bcc-84be-58dcbcec76b7&deviceMake=firefox&deviceModel=web&deviceType=web&deviceVersion=147.0.0&serverSideAds=false&sid=d7faa686-cd10-4bf3-a419-2ab5c4fe29a1\r",
+      "line": 204,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Public Senat 24/24",
+      "tvg": {
+        "id": "PublicSenat2424.fr@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/nHWWLBP.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Legislative"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/publicsenat.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"PublicSenat2424.fr@SD\" tvg-logo=\"https://i.imgur.com/nHWWLBP.png\" group-title=\"Legislative\",Public Senat 24/24\r\r\nhttps://raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/publicsenat.m3u8\r",
+      "line": 206,
       "catchup": {
         "type": "",
         "days": "",
@@ -1937,90 +2021,6 @@
       "status": "OK"
     },
     {
-      "name": "Public Senat 24/24",
-      "tvg": {
-        "id": "PublicSenat2424.fr@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/nHWWLBP.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Legislative"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/publicsenat.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"PublicSenat2424.fr@SD\" tvg-logo=\"https://i.imgur.com/nHWWLBP.png\" group-title=\"Legislative\",Public Senat 24/24\r\r\nhttps://raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/publicsenat.m3u8\r",
-      "line": 206,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Pluto TV Investigation",
-      "tvg": {
-        "id": "PlutoTVInvestigation.us@France",
-        "name": "",
-        "logo": "https://i.imgur.com/8LdACfR.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Documentary"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/63808dc806aa4700075f319a/master.m3u8?appName=web&appVersion=9.19.0&deviceDNT=0&deviceId=07998d5d-dd4a-4bcc-84be-58dcbcec76b7&deviceMake=firefox&deviceModel=web&deviceType=web&deviceVersion=147.0.0&serverSideAds=false&sid=d7faa686-cd10-4bf3-a419-2ab5c4fe29a1",
-      "raw": "#EXTINF:-1 tvg-id=\"PlutoTVInvestigation.us@France\" tvg-logo=\"https://i.imgur.com/8LdACfR.png\" group-title=\"Documentary\",Pluto TV Investigation\r\r\nhttps://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/63808dc806aa4700075f319a/master.m3u8?appName=web&appVersion=9.19.0&deviceDNT=0&deviceId=07998d5d-dd4a-4bcc-84be-58dcbcec76b7&deviceMake=firefox&deviceModel=web&deviceType=web&deviceVersion=147.0.0&serverSideAds=false&sid=d7faa686-cd10-4bf3-a419-2ab5c4fe29a1\r",
-      "line": 204,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "P2M TV (720p)",
-      "tvg": {
-        "id": "P2MTV.fr@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/TrecSeG.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Music"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://vdo2.pro-fhi.net:3207/stream/play.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"P2MTV.fr@SD\" tvg-logo=\"https://i.imgur.com/TrecSeG.png\" group-title=\"Music\",P2M TV (720p)\r\r\nhttps://vdo2.pro-fhi.net:3207/stream/play.m3u8\r",
-      "line": 200,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Radio Frontieres",
       "tvg": {
         "id": "RadioFrontieres.fr@SD",
@@ -2049,34 +2049,6 @@
       "status": "OK"
     },
     {
-      "name": "Qwest TV Jazz & Beyond (1080p)",
-      "tvg": {
-        "id": "QwestTVJazzBeyond.fr@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/89yWH5L.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Music"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://samsungau-qwestjazz-samsungtv-zw2jc.amagi.tv/playlist/samsungau-qwestjazz-samsungtv/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"QwestTVJazzBeyond.fr@SD\" tvg-logo=\"https://i.imgur.com/89yWH5L.png\" group-title=\"Music\",Qwest TV Jazz & Beyond (1080p)\r\r\nhttps://samsungau-qwestjazz-samsungtv-zw2jc.amagi.tv/playlist/samsungau-qwestjazz-samsungtv/playlist.m3u8\r",
-      "line": 210,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Radio Karaoke",
       "tvg": {
         "id": "RadioKaraoke.fr@SD",
@@ -2096,6 +2068,34 @@
       "url": "https://raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/radiokaraoke-2.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"RadioKaraoke.fr@SD\" tvg-logo=\"https://i.imgur.com/9uRggjD.png\" group-title=\"Music\",Radio Karaoke\r\r\nhttps://raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/radiokaraoke-2.m3u8\r",
       "line": 214,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Qwest TV Jazz & Beyond (1080p)",
+      "tvg": {
+        "id": "QwestTVJazzBeyond.fr@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/89yWH5L.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Music"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://samsungau-qwestjazz-samsungtv-zw2jc.amagi.tv/playlist/samsungau-qwestjazz-samsungtv/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"QwestTVJazzBeyond.fr@SD\" tvg-logo=\"https://i.imgur.com/89yWH5L.png\" group-title=\"Music\",Qwest TV Jazz & Beyond (1080p)\r\r\nhttps://samsungau-qwestjazz-samsungtv-zw2jc.amagi.tv/playlist/samsungau-qwestjazz-samsungtv/playlist.m3u8\r",
+      "line": 210,
       "catchup": {
         "type": "",
         "days": "",
@@ -2161,34 +2161,6 @@
       "status": "OK"
     },
     {
-      "name": "RMC Life",
-      "tvg": {
-        "id": "RMCLife.fr@SD",
-        "name": "",
-        "logo": "https://img1.dc2.oqee.net/channel_pictures/3606/w512",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Entertainment;Interactive"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://viamotionhsi.netplus.ch/live/eds/cherie25/browser-HLS8/cherie25.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"RMCLife.fr@SD\" tvg-logo=\"https://img1.dc2.oqee.net/channel_pictures/3606/w512\" group-title=\"Entertainment;Interactive\",RMC Life\r\r\nhttps://viamotionhsi.netplus.ch/live/eds/cherie25/browser-HLS8/cherie25.m3u8\r",
-      "line": 218,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "RTL2",
       "tvg": {
         "id": "RTL2.fr@SD",
@@ -2208,6 +2180,34 @@
       "url": "https://raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/rtl2.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"RTL2.fr@SD\" tvg-logo=\"https://i.imgur.com/deC4z34.png\" group-title=\"Music\",RTL2\r\r\nhttps://raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/rtl2.m3u8\r",
       "line": 224,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "RMC Life",
+      "tvg": {
+        "id": "RMCLife.fr@SD",
+        "name": "",
+        "logo": "https://img1.dc2.oqee.net/channel_pictures/3606/w512",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Entertainment;Interactive"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://viamotionhsi.netplus.ch/live/eds/cherie25/browser-HLS8/cherie25.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"RMCLife.fr@SD\" tvg-logo=\"https://img1.dc2.oqee.net/channel_pictures/3606/w512\" group-title=\"Entertainment;Interactive\",RMC Life\r\r\nhttps://viamotionhsi.netplus.ch/live/eds/cherie25/browser-HLS8/cherie25.m3u8\r",
+      "line": 218,
       "catchup": {
         "type": "",
         "days": "",
@@ -2273,34 +2273,6 @@
       "status": "OK"
     },
     {
-      "name": "Puissance TV",
-      "tvg": {
-        "id": "PuissanceTV.fr@SD",
-        "name": "",
-        "logo": "https://pbs.twimg.com/profile_images/1274572654016675842/A6v8Qo_X_400x400.jpg",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://event.vedge.infomaniak.com/livecast/ik:puissancetelevision/manifest.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"PuissanceTV.fr@SD\" tvg-logo=\"https://pbs.twimg.com/profile_images/1274572654016675842/A6v8Qo_X_400x400.jpg\" group-title=\"General\",Puissance TV\r\r\nhttps://event.vedge.infomaniak.com/livecast/ik:puissancetelevision/manifest.m3u8\r",
-      "line": 208,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Sony One Favoris (1080p)",
       "tvg": {
         "id": "SonyOneFavoris.fr@HD",
@@ -2320,6 +2292,34 @@
       "url": "https://49d735318d6b4c30a24a7997ea594e1b.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-820-FR-SONYONEFAVORIS-LG_FR/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"SonyOneFavoris.fr@HD\" tvg-logo=\"https://i.imgur.com/RO4AM4b.png\" group-title=\"Movies\",Sony One Favoris (1080p)\r\r\nhttps://49d735318d6b4c30a24a7997ea594e1b.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-820-FR-SONYONEFAVORIS-LG_FR/playlist.m3u8\r",
       "line": 230,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Puissance TV",
+      "tvg": {
+        "id": "PuissanceTV.fr@SD",
+        "name": "",
+        "logo": "https://pbs.twimg.com/profile_images/1274572654016675842/A6v8Qo_X_400x400.jpg",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://event.vedge.infomaniak.com/livecast/ik:puissancetelevision/manifest.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"PuissanceTV.fr@SD\" tvg-logo=\"https://pbs.twimg.com/profile_images/1274572654016675842/A6v8Qo_X_400x400.jpg\" group-title=\"General\",Puissance TV\r\r\nhttps://event.vedge.infomaniak.com/livecast/ik:puissancetelevision/manifest.m3u8\r",
+      "line": 208,
       "catchup": {
         "type": "",
         "days": "",
@@ -2385,34 +2385,6 @@
       "status": "OK"
     },
     {
-      "name": "RTL9",
-      "tvg": {
-        "id": "RTL9.lu@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/nFqjVNW.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Entertainment"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://viamotionhsi.netplus.ch/live/eds/rtl9/browser-dash/rtl9.mpd",
-      "raw": "#EXTINF:-1 tvg-id=\"RTL9.lu@SD\" tvg-logo=\"https://i.imgur.com/nFqjVNW.png\" group-title=\"Entertainment\",RTL9\r\r\nhttps://viamotionhsi.netplus.ch/live/eds/rtl9/browser-dash/rtl9.mpd\r",
-      "line": 226,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Sony One Series Comedie (1080p)",
       "tvg": {
         "id": "SonyOneSeriesComedie.fr@HD",
@@ -2441,53 +2413,25 @@
       "status": "OK"
     },
     {
-      "name": "South Park",
+      "name": "RTL9",
       "tvg": {
-        "id": "SouthPark.us@France",
+        "id": "RTL9.lu@SD",
         "name": "",
-        "logo": "https://i.imgur.com/qA3KsTh.png",
+        "logo": "https://i.imgur.com/nFqjVNW.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Animation"
+        "title": "Entertainment"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/64edf6eaa7ec0d000812f58c/master.m3u8?appName=web&appVersion=9.19.0&deviceDNT=0&deviceId=07998d5d-dd4a-4bcc-84be-58dcbcec76b7&deviceMake=firefox&deviceModel=web&deviceType=web&deviceVersion=147.0.0&serverSideAds=false&sid=061ae646-64e1-42ef-a88e-f6b1a0e57291",
-      "raw": "#EXTINF:-1 tvg-id=\"SouthPark.us@France\" tvg-logo=\"https://i.imgur.com/qA3KsTh.png\" group-title=\"Animation\",South Park\r\r\nhttps://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/64edf6eaa7ec0d000812f58c/master.m3u8?appName=web&appVersion=9.19.0&deviceDNT=0&deviceId=07998d5d-dd4a-4bcc-84be-58dcbcec76b7&deviceMake=firefox&deviceModel=web&deviceType=web&deviceVersion=147.0.0&serverSideAds=false&sid=061ae646-64e1-42ef-a88e-f6b1a0e57291\r",
-      "line": 240,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Sud Radio",
-      "tvg": {
-        "id": "SudRadio.fr@SD",
-        "name": "",
-        "logo": "https://www.sudradio.fr/wp-content/themes/sud-2023/assets/img/logo-fondblanc-parlons.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/sudradio.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"SudRadio.fr@SD\" tvg-logo=\"https://www.sudradio.fr/wp-content/themes/sud-2023/assets/img/logo-fondblanc-parlons.png\" group-title=\"Undefined\",Sud Radio\r\r\nhttps://raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/sudradio.m3u8\r",
-      "line": 242,
+      "url": "https://viamotionhsi.netplus.ch/live/eds/rtl9/browser-dash/rtl9.mpd",
+      "raw": "#EXTINF:-1 tvg-id=\"RTL9.lu@SD\" tvg-logo=\"https://i.imgur.com/nFqjVNW.png\" group-title=\"Entertainment\",RTL9\r\r\nhttps://viamotionhsi.netplus.ch/live/eds/rtl9/browser-dash/rtl9.mpd\r",
+      "line": 226,
       "catchup": {
         "type": "",
         "days": "",
@@ -2525,25 +2469,25 @@
       "status": "OK"
     },
     {
-      "name": "Telenantes",
+      "name": "South Park",
       "tvg": {
-        "id": "Telenantes.fr@SD",
+        "id": "SouthPark.us@France",
         "name": "",
-        "logo": "https://i.imgur.com/G1SCqNI.png",
+        "logo": "https://i.imgur.com/qA3KsTh.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Undefined"
+        "title": "Animation"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/telenantes.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Telenantes.fr@SD\" tvg-logo=\"https://i.imgur.com/G1SCqNI.png\" group-title=\"Undefined\",Telenantes\r\r\nhttps://raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/telenantes.m3u8\r",
-      "line": 248,
+      "url": "https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/64edf6eaa7ec0d000812f58c/master.m3u8?appName=web&appVersion=9.19.0&deviceDNT=0&deviceId=07998d5d-dd4a-4bcc-84be-58dcbcec76b7&deviceMake=firefox&deviceModel=web&deviceType=web&deviceVersion=147.0.0&serverSideAds=false&sid=061ae646-64e1-42ef-a88e-f6b1a0e57291",
+      "raw": "#EXTINF:-1 tvg-id=\"SouthPark.us@France\" tvg-logo=\"https://i.imgur.com/qA3KsTh.png\" group-title=\"Animation\",South Park\r\r\nhttps://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/64edf6eaa7ec0d000812f58c/master.m3u8?appName=web&appVersion=9.19.0&deviceDNT=0&deviceId=07998d5d-dd4a-4bcc-84be-58dcbcec76b7&deviceMake=firefox&deviceModel=web&deviceType=web&deviceVersion=147.0.0&serverSideAds=false&sid=061ae646-64e1-42ef-a88e-f6b1a0e57291\r",
+      "line": 240,
       "catchup": {
         "type": "",
         "days": "",
@@ -2581,6 +2525,34 @@
       "status": "OK"
     },
     {
+      "name": "Telenantes",
+      "tvg": {
+        "id": "Telenantes.fr@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/G1SCqNI.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/telenantes.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Telenantes.fr@SD\" tvg-logo=\"https://i.imgur.com/G1SCqNI.png\" group-title=\"Undefined\",Telenantes\r\r\nhttps://raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/telenantes.m3u8\r",
+      "line": 248,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Telesud",
       "tvg": {
         "id": "Telesud.fr@SD",
@@ -2600,6 +2572,34 @@
       "url": "https://raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/telesud.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"Telesud.fr@SD\" tvg-logo=\"https://i.postimg.cc/yY23dfg2/telesud.png\" group-title=\"Undefined\",Telesud\r\r\nhttps://raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/telesud.m3u8\r",
       "line": 250,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Sud Radio",
+      "tvg": {
+        "id": "SudRadio.fr@SD",
+        "name": "",
+        "logo": "https://www.sudradio.fr/wp-content/themes/sud-2023/assets/img/logo-fondblanc-parlons.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/sudradio.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"SudRadio.fr@SD\" tvg-logo=\"https://www.sudradio.fr/wp-content/themes/sud-2023/assets/img/logo-fondblanc-parlons.png\" group-title=\"Undefined\",Sud Radio\r\r\nhttps://raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/sudradio.m3u8\r",
+      "line": 242,
       "catchup": {
         "type": "",
         "days": "",
@@ -2637,34 +2637,6 @@
       "status": "OK"
     },
     {
-      "name": "TF1 Series Films (1080p)",
-      "tvg": {
-        "id": "TF1SeriesFilms.fr@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/4CJIDKQ.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Movies"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://viamotionhsi.netplus.ch/live/eds/hd1/browser-HLS8/hd1.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TF1SeriesFilms.fr@SD\" tvg-logo=\"https://i.imgur.com/4CJIDKQ.png\" group-title=\"Movies\",TF1 Series Films (1080p)\r\r\nhttps://viamotionhsi.netplus.ch/live/eds/hd1/browser-HLS8/hd1.m3u8\r",
-      "line": 254,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "TFX (1080p)",
       "tvg": {
         "id": "TFX.fr@SD",
@@ -2684,6 +2656,34 @@
       "url": "https://viamotionhsi.netplus.ch/live/eds/nt1/browser-HLS8/nt1.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TFX.fr@SD\" tvg-logo=\"https://i.imgur.com/d91GcVf.png\" group-title=\"Undefined\",TFX (1080p)\r\r\nhttps://viamotionhsi.netplus.ch/live/eds/nt1/browser-HLS8/nt1.m3u8\r",
       "line": 256,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "TF1 Series Films (1080p)",
+      "tvg": {
+        "id": "TF1SeriesFilms.fr@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/4CJIDKQ.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Movies"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://viamotionhsi.netplus.ch/live/eds/hd1/browser-HLS8/hd1.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"TF1SeriesFilms.fr@SD\" tvg-logo=\"https://i.imgur.com/4CJIDKQ.png\" group-title=\"Movies\",TF1 Series Films (1080p)\r\r\nhttps://viamotionhsi.netplus.ch/live/eds/hd1/browser-HLS8/hd1.m3u8\r",
+      "line": 254,
       "catchup": {
         "type": "",
         "days": "",
@@ -2749,6 +2749,34 @@
       "status": "OK"
     },
     {
+      "name": "TMC HD (1080p)",
+      "tvg": {
+        "id": "TMC.fr@HD",
+        "name": "",
+        "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/54/TMC_logo.svg/512px-TMC_logo.svg.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://viamotionhsi.netplus.ch/live/eds/tmc/browser-HLS8/tmc.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"TMC.fr@HD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/en/thumb/5/54/TMC_logo.svg/512px-TMC_logo.svg.png\" group-title=\"General\",TMC HD (1080p)\r\r\nhttps://viamotionhsi.netplus.ch/live/eds/tmc/browser-HLS8/tmc.m3u8\r",
+      "line": 260,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Trace Latina [Geo-blocked]",
       "tvg": {
         "id": "TraceLatina.fr@SD",
@@ -2796,34 +2824,6 @@
       "url": "https://lightning-traceurban-samsungau.amagi.tv/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TraceUrban.fr@SD\" tvg-logo=\"https://i.imgur.com/DLIbUMx.png\" group-title=\"Music\",Trace Urban (Australia) (1080p)\r\r\nhttps://lightning-traceurban-samsungau.amagi.tv/playlist.m3u8\r",
       "line": 268,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "TMC HD (1080p)",
-      "tvg": {
-        "id": "TMC.fr@HD",
-        "name": "",
-        "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/54/TMC_logo.svg/512px-TMC_logo.svg.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://viamotionhsi.netplus.ch/live/eds/tmc/browser-HLS8/tmc.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TMC.fr@HD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/en/thumb/5/54/TMC_logo.svg/512px-TMC_logo.svg.png\" group-title=\"General\",TMC HD (1080p)\r\r\nhttps://viamotionhsi.netplus.ch/live/eds/tmc/browser-HLS8/tmc.m3u8\r",
-      "line": 260,
       "catchup": {
         "type": "",
         "days": "",
@@ -2889,34 +2889,6 @@
       "status": "OK"
     },
     {
-      "name": "TV7 Colmar (576p)",
-      "tvg": {
-        "id": "TV7Colmar.fr@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/kSdGi43.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://tv7.live-kd.com/live/tv7/livestream/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TV7Colmar.fr@SD\" tvg-logo=\"https://i.imgur.com/kSdGi43.png\" group-title=\"General\",TV7 Colmar (576p)\r\r\nhttps://tv7.live-kd.com/live/tv7/livestream/playlist.m3u8\r",
-      "line": 282,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Trek HD (1080p)",
       "tvg": {
         "id": "Trek.fr@HD",
@@ -2936,6 +2908,34 @@
       "url": "https://viamotionhsi.netplus.ch/live/eds/escales/browser-HLS8/escales.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"Trek.fr@HD\" tvg-logo=\"https://i.imgur.com/TcF53W4.png\" group-title=\"Undefined\",Trek HD (1080p)\r\r\nhttps://viamotionhsi.netplus.ch/live/eds/escales/browser-HLS8/escales.m3u8\r",
       "line": 270,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "TV7 Colmar (576p)",
+      "tvg": {
+        "id": "TV7Colmar.fr@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/kSdGi43.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://tv7.live-kd.com/live/tv7/livestream/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"TV7Colmar.fr@SD\" tvg-logo=\"https://i.imgur.com/kSdGi43.png\" group-title=\"General\",TV7 Colmar (576p)\r\r\nhttps://tv7.live-kd.com/live/tv7/livestream/playlist.m3u8\r",
+      "line": 282,
       "catchup": {
         "type": "",
         "days": "",
@@ -3001,34 +3001,6 @@
       "status": "OK"
     },
     {
-      "name": "Vosges Télévision (576p) [Not 24/7]",
-      "tvg": {
-        "id": "VosgesTV.fr@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/7y7ancc.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://vosgestv.live-kd.com/live/vosgestv/vosgestv/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"VosgesTV.fr@SD\" tvg-logo=\"https://i.imgur.com/7y7ancc.png\" group-title=\"Undefined\",Vosges Télévision (576p) [Not 24/7]\r\r\nhttps://vosgestv.live-kd.com/live/vosgestv/vosgestv/playlist.m3u8\r",
-      "line": 300,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "viàTéléPaese (720p)",
       "tvg": {
         "id": "viaTelePaese.fr@SD",
@@ -3085,25 +3057,25 @@
       "status": "OK"
     },
     {
-      "name": "zenith (1080p)",
+      "name": "Vosges Télévision (576p) [Not 24/7]",
       "tvg": {
-        "id": "zenith.fr@HD",
+        "id": "VosgesTV.fr@SD",
         "name": "",
-        "logo": "https://znth.tv/static/site_app/thy%20logo.svg",
+        "logo": "https://i.imgur.com/7y7ancc.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Culture;General"
+        "title": "Undefined"
       },
       "http": {
-        "referrer": "https://znth.tv",
+        "referrer": "",
         "user-agent": ""
       },
-      "url": "https://srv.zenith-tv.fr:8888/zenithwchl/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"zenith.fr@HD\" tvg-logo=\"https://znth.tv/static/site_app/thy%20logo.svg\" http-referrer=\"https://znth.tv\" group-title=\"Culture;General\",zenith (1080p)\r\r\n#EXTVLCOPT:http-referrer=https://znth.tv\r\r\nhttps://srv.zenith-tv.fr:8888/zenithwchl/index.m3u8\r",
-      "line": 308,
+      "url": "https://vosgestv.live-kd.com/live/vosgestv/vosgestv/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"VosgesTV.fr@SD\" tvg-logo=\"https://i.imgur.com/7y7ancc.png\" group-title=\"Undefined\",Vosges Télévision (576p) [Not 24/7]\r\r\nhttps://vosgestv.live-kd.com/live/vosgestv/vosgestv/playlist.m3u8\r",
+      "line": 300,
       "catchup": {
         "type": "",
         "days": "",
@@ -3141,25 +3113,25 @@
       "status": "OK"
     },
     {
-      "name": "Zylo Ciné Western",
+      "name": "zenith (1080p)",
       "tvg": {
-        "id": "CineWestern.fr@SD",
+        "id": "zenith.fr@HD",
         "name": "",
-        "logo": "https://i.imgur.com/tteOFkL.png",
+        "logo": "https://znth.tv/static/site_app/thy%20logo.svg",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Movies"
+        "title": "Culture;General"
       },
       "http": {
-        "referrer": "",
+        "referrer": "https://znth.tv",
         "user-agent": ""
       },
-      "url": "https://amg00711-zylo-amg00711c8-rakuten-uk-2686.playouts.now.amagi.tv/playlist/amg00711-zylofast-cinewestern-rakutenuk/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"CineWestern.fr@SD\" tvg-logo=\"https://i.imgur.com/tteOFkL.png\" group-title=\"Movies\",Zylo Ciné Western\r\r\nhttps://amg00711-zylo-amg00711c8-rakuten-uk-2686.playouts.now.amagi.tv/playlist/amg00711-zylofast-cinewestern-rakutenuk/playlist.m3u8\r",
-      "line": 313,
+      "url": "https://srv.zenith-tv.fr:8888/zenithwchl/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"zenith.fr@HD\" tvg-logo=\"https://znth.tv/static/site_app/thy%20logo.svg\" http-referrer=\"https://znth.tv\" group-title=\"Culture;General\",zenith (1080p)\r\r\n#EXTVLCOPT:http-referrer=https://znth.tv\r\r\nhttps://srv.zenith-tv.fr:8888/zenithwchl/index.m3u8\r",
+      "line": 308,
       "catchup": {
         "type": "",
         "days": "",
@@ -3188,6 +3160,34 @@
       "url": "https://viamotionhsi.netplus.ch/live/eds/w9/browser-HLS8/w9.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"W9.fr@SD\" tvg-logo=\"https://i.imgur.com/reYeMuE.png\" group-title=\"Entertainment\",W9 [Geo-blocked]\r\r\nhttps://viamotionhsi.netplus.ch/live/eds/w9/browser-HLS8/w9.m3u8\r",
       "line": 302,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Zylo Ciné Western",
+      "tvg": {
+        "id": "CineWestern.fr@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/tteOFkL.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Movies"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://amg00711-zylo-amg00711c8-rakuten-uk-2686.playouts.now.amagi.tv/playlist/amg00711-zylofast-cinewestern-rakutenuk/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"CineWestern.fr@SD\" tvg-logo=\"https://i.imgur.com/tteOFkL.png\" group-title=\"Movies\",Zylo Ciné Western\r\r\nhttps://amg00711-zylo-amg00711c8-rakuten-uk-2686.playouts.now.amagi.tv/playlist/amg00711-zylofast-cinewestern-rakutenuk/playlist.m3u8\r",
+      "line": 313,
       "catchup": {
         "type": "",
         "days": "",
@@ -3253,34 +3253,6 @@
       "status": "OK"
     },
     {
-      "name": "Zylo Into Crime (1080p)",
-      "tvg": {
-        "id": "IntoCrime.fr@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/43at4M2.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Documentary"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://amg00711-zylo-amg00711c10-rakuten-fr-6731.playouts.now.amagi.tv/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"IntoCrime.fr@SD\" tvg-logo=\"https://i.imgur.com/43at4M2.png\" group-title=\"Documentary\",Zylo Into Crime (1080p)\r\r\nhttps://amg00711-zylo-amg00711c10-rakuten-fr-6731.playouts.now.amagi.tv/playlist.m3u8\r",
-      "line": 319,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Zylo ScreamIN",
       "tvg": {
         "id": "ScreamIN.fr@SD",
@@ -3300,6 +3272,34 @@
       "url": "https://rakutenaa-zylo-screamin-rakuten-p11ej.amagi.tv/playlist/rakutenAA-zylo-screamin-rakuten/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"ScreamIN.fr@SD\" tvg-logo=\"https://i.imgur.com/tGmKbil.png\" group-title=\"Movies\",Zylo ScreamIN\r\r\nhttps://rakutenaa-zylo-screamin-rakuten-p11ej.amagi.tv/playlist/rakutenAA-zylo-screamin-rakuten/playlist.m3u8\r",
       "line": 321,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Zylo Into Crime (1080p)",
+      "tvg": {
+        "id": "IntoCrime.fr@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/43at4M2.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Documentary"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://amg00711-zylo-amg00711c10-rakuten-fr-6731.playouts.now.amagi.tv/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"IntoCrime.fr@SD\" tvg-logo=\"https://i.imgur.com/43at4M2.png\" group-title=\"Documentary\",Zylo Into Crime (1080p)\r\r\nhttps://amg00711-zylo-amg00711c10-rakuten-fr-6731.playouts.now.amagi.tv/playlist.m3u8\r",
+      "line": 319,
       "catchup": {
         "type": "",
         "days": "",
