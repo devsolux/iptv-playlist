@@ -5,34 +5,6 @@
   },
   "items": [
     {
-      "name": "31 Kanal",
-      "tvg": {
-        "id": "31Kanal.kz@SD",
-        "name": "",
-        "logo": "https://www.ikegami.co.jp/files/co/news/20250903_kazakhstanChannel31/Channel31_Logo.jpg",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "https://31.kz/",
-        "user-agent": ""
-      },
-      "url": "https://streams.adapto.kz/hls/live/31kz/main_stream.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"31Kanal.kz@SD\" tvg-logo=\"https://www.ikegami.co.jp/files/co/news/20250903_kazakhstanChannel31/Channel31_Logo.jpg\" http-referrer=\"https://31.kz/\" group-title=\"General\",31 Kanal\r\r\n#EXTVLCOPT:http-referrer=https://31.kz/\r\r\nhttps://streams.adapto.kz/hls/live/31kz/main_stream.m3u8\r",
-      "line": 4,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Abai TV (720p)",
       "tvg": {
         "id": "AbaiTV.kz@SD",
@@ -52,6 +24,34 @@
       "url": "https://abaitv-stream.qazcdn.com/abaitv/abaitv/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"AbaiTV.kz@SD\" tvg-logo=\"https://i.imgur.com/Nw2R7Dq.png\" group-title=\"Culture\",Abai TV (720p)\r\r\nhttps://abaitv-stream.qazcdn.com/abaitv/abaitv/playlist.m3u8\r",
       "line": 7,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "31 Kanal",
+      "tvg": {
+        "id": "31Kanal.kz@SD",
+        "name": "",
+        "logo": "https://www.ikegami.co.jp/files/co/news/20250903_kazakhstanChannel31/Channel31_Logo.jpg",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "https://31.kz/",
+        "user-agent": ""
+      },
+      "url": "https://streams.adapto.kz/hls/live/31kz/main_stream.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"31Kanal.kz@SD\" tvg-logo=\"https://www.ikegami.co.jp/files/co/news/20250903_kazakhstanChannel31/Channel31_Logo.jpg\" http-referrer=\"https://31.kz/\" group-title=\"General\",31 Kanal\r\r\n#EXTVLCOPT:http-referrer=https://31.kz/\r\r\nhttps://streams.adapto.kz/hls/live/31kz/main_stream.m3u8\r",
+      "line": 4,
       "catchup": {
         "type": "",
         "days": "",
@@ -117,25 +117,25 @@
       "status": "OK"
     },
     {
-      "name": "Qazaqstan TV (720p) [Not 24/7]",
+      "name": "MuzzOne",
       "tvg": {
-        "id": "Qazaqstan.kz@SD",
+        "id": "MuzzOne.kz@SD",
         "name": "",
-        "logo": "https://i.imgur.com/oI8g396.png",
+        "logo": "https://i.imgur.com/nHVABXh.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "General"
+        "title": "Music"
       },
       "http": {
-        "referrer": "",
+        "referrer": "https://muzzone.tv/",
         "user-agent": ""
       },
-      "url": "https://qazaqstantv-stream.qazcdn.com/qazaqstantv/qazaqstantv/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Qazaqstan.kz@SD\" tvg-logo=\"https://i.imgur.com/oI8g396.png\" group-title=\"General\",Qazaqstan TV (720p) [Not 24/7]\r\r\nhttps://qazaqstantv-stream.qazcdn.com/qazaqstantv/qazaqstantv/playlist.m3u8\r",
-      "line": 34,
+      "url": "https://streams.adapto.kz/hls/live/muzzone/main_stream.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"MuzzOne.kz@SD\" tvg-logo=\"https://i.imgur.com/nHVABXh.png\" http-referrer=\"https://muzzone.tv/\" group-title=\"Music\",MuzzOne\r\r\n#EXTVLCOPT:http-referrer=https://muzzone.tv/\r\r\nhttps://streams.adapto.kz/hls/live/muzzone/main_stream.m3u8\r",
+      "line": 27,
       "catchup": {
         "type": "",
         "days": "",
@@ -173,39 +173,11 @@
       "status": "OK"
     },
     {
-      "name": "MuzzOne",
+      "name": "Qazaqstan TV (720p) [Not 24/7]",
       "tvg": {
-        "id": "MuzzOne.kz@SD",
+        "id": "Qazaqstan.kz@SD",
         "name": "",
-        "logo": "https://i.imgur.com/nHVABXh.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Music"
-      },
-      "http": {
-        "referrer": "https://muzzone.tv/",
-        "user-agent": ""
-      },
-      "url": "https://streams.adapto.kz/hls/live/muzzone/main_stream.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"MuzzOne.kz@SD\" tvg-logo=\"https://i.imgur.com/nHVABXh.png\" http-referrer=\"https://muzzone.tv/\" group-title=\"Music\",MuzzOne\r\r\n#EXTVLCOPT:http-referrer=https://muzzone.tv/\r\r\nhttps://streams.adapto.kz/hls/live/muzzone/main_stream.m3u8\r",
-      "line": 27,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Silk Way",
-      "tvg": {
-        "id": "SilkWay.kz@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/SJNDksF.png",
+        "logo": "https://i.imgur.com/oI8g396.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -217,9 +189,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://dash2.antik.sk/live/test_qazaq_tv_tizen/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"SilkWay.kz@SD\" tvg-logo=\"https://i.imgur.com/SJNDksF.png\" group-title=\"General\",Silk Way\r\r\nhttps://dash2.antik.sk/live/test_qazaq_tv_tizen/playlist.m3u8\r",
-      "line": 48,
+      "url": "https://qazaqstantv-stream.qazcdn.com/qazaqstantv/qazaqstantv/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Qazaqstan.kz@SD\" tvg-logo=\"https://i.imgur.com/oI8g396.png\" group-title=\"General\",Qazaqstan TV (720p) [Not 24/7]\r\r\nhttps://qazaqstantv-stream.qazcdn.com/qazaqstantv/qazaqstantv/playlist.m3u8\r",
+      "line": 34,
       "catchup": {
         "type": "",
         "days": "",
@@ -257,6 +229,34 @@
       "status": "OK"
     },
     {
+      "name": "Silk Way",
+      "tvg": {
+        "id": "SilkWay.kz@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/SJNDksF.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://dash2.antik.sk/live/test_qazaq_tv_tizen/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"SilkWay.kz@SD\" tvg-logo=\"https://i.imgur.com/SJNDksF.png\" group-title=\"General\",Silk Way\r\r\nhttps://dash2.antik.sk/live/test_qazaq_tv_tizen/playlist.m3u8\r",
+      "line": 48,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "МТРК (576p) [Not 24/7]",
       "tvg": {
         "id": "MTRK.kz@SD",
@@ -285,34 +285,6 @@
       "status": "OK"
     },
     {
-      "name": "Новое телевидение (576p) [Not 24/7]",
-      "tvg": {
-        "id": "Novoetelevidenie.kz@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/mmKWrWs.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://serv25.vintera.tv:8081/novoetv/nov_tv/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Novoetelevidenie.kz@SD\" tvg-logo=\"https://i.imgur.com/mmKWrWs.png\" group-title=\"General\",Новое телевидение (576p) [Not 24/7]\r\r\nhttp://serv25.vintera.tv:8081/novoetv/nov_tv/playlist.m3u8\r",
-      "line": 54,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "КТК (1080p) [Not 24/7]",
       "tvg": {
         "id": "KTK.kz@SD",
@@ -332,6 +304,34 @@
       "url": "https://wz-kt.ktk.kz/ktklive/smil:ktk-live.smil/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"KTK.kz@SD\" tvg-logo=\"https://i.imgur.com/BurrNTo.png\" group-title=\"General\",КТК (1080p) [Not 24/7]\r\r\nhttps://wz-kt.ktk.kz/ktklive/smil:ktk-live.smil/playlist.m3u8\r",
       "line": 50,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Новое телевидение (576p) [Not 24/7]",
+      "tvg": {
+        "id": "Novoetelevidenie.kz@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/mmKWrWs.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://serv25.vintera.tv:8081/novoetv/nov_tv/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Novoetelevidenie.kz@SD\" tvg-logo=\"https://i.imgur.com/mmKWrWs.png\" group-title=\"General\",Новое телевидение (576p) [Not 24/7]\r\r\nhttp://serv25.vintera.tv:8081/novoetv/nov_tv/playlist.m3u8\r",
+      "line": 54,
       "catchup": {
         "type": "",
         "days": "",
