@@ -5,34 +5,6 @@
   },
   "items": [
     {
-      "name": "Delfi TV",
-      "tvg": {
-        "id": "DelfiTV.lt@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/IFoHP5M.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://s1.dcdn.lt/live/televizija/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"DelfiTV.lt@SD\" tvg-logo=\"https://i.imgur.com/IFoHP5M.png\" group-title=\"General\",Delfi TV\r\r\nhttps://s1.dcdn.lt/live/televizija/playlist.m3u8\r",
-      "line": 2,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "LRT Klasika (1080p)",
       "tvg": {
         "id": "LRTKlasika.lt@SD",
@@ -52,62 +24,6 @@
       "url": "https://stream-live.lrt.lt/klasika/master.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"LRTKlasika.lt@SD\" tvg-logo=\"https://i.imgur.com/Fa8Vhu0.png\" group-title=\"Music\",LRT Klasika (1080p)\r\r\nhttps://stream-live.lrt.lt/klasika/master.m3u8\r",
       "line": 6,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "LRT Lituanica (1080p) [Geo-blocked]",
-      "tvg": {
-        "id": "LRTLituanica.lt@SD",
-        "name": "",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/LRT_Lituanica_Logo_2022.svg/512px-LRT_Lituanica_Logo_2022.svg.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://stream-live.lrt.lt/lituanica/master.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"LRTLituanica.lt@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/LRT_Lituanica_Logo_2022.svg/512px-LRT_Lituanica_Logo_2022.svg.png\" group-title=\"General\",LRT Lituanica (1080p) [Geo-blocked]\r\r\nhttps://stream-live.lrt.lt/lituanica/master.m3u8\r",
-      "line": 8,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "LRT Radijas (1080p)",
-      "tvg": {
-        "id": "LRTRadijas.lt@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/gYoaqju.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "News"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://stream-live.lrt.lt/radijas/master.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"LRTRadijas.lt@SD\" tvg-logo=\"https://i.imgur.com/gYoaqju.png\" group-title=\"News\",LRT Radijas (1080p)\r\r\nhttps://stream-live.lrt.lt/radijas/master.m3u8\r",
-      "line": 14,
       "catchup": {
         "type": "",
         "days": "",
@@ -173,25 +89,81 @@
       "status": "OK"
     },
     {
-      "name": "LRT Plius (1080p) [Geo-blocked]",
+      "name": "LRT Lituanica (1080p) [Geo-blocked]",
       "tvg": {
-        "id": "LRTPlius.lt@SD",
+        "id": "LRTLituanica.lt@SD",
         "name": "",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/LRT_Plius_Logo_2022.svg/512px-LRT_Plius_Logo_2022.svg.png",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/LRT_Lituanica_Logo_2022.svg/512px-LRT_Lituanica_Logo_2022.svg.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Culture;Sports"
+        "title": "General"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://stream-live.lrt.lt/plius/master.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"LRTPlius.lt@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/LRT_Plius_Logo_2022.svg/512px-LRT_Plius_Logo_2022.svg.png\" group-title=\"Culture;Sports\",LRT Plius (1080p) [Geo-blocked]\r\r\nhttps://stream-live.lrt.lt/plius/master.m3u8\r",
-      "line": 12,
+      "url": "https://stream-live.lrt.lt/lituanica/master.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"LRTLituanica.lt@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/LRT_Lituanica_Logo_2022.svg/512px-LRT_Lituanica_Logo_2022.svg.png\" group-title=\"General\",LRT Lituanica (1080p) [Geo-blocked]\r\r\nhttps://stream-live.lrt.lt/lituanica/master.m3u8\r",
+      "line": 8,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Delfi TV",
+      "tvg": {
+        "id": "DelfiTV.lt@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/IFoHP5M.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://s1.dcdn.lt/live/televizija/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"DelfiTV.lt@SD\" tvg-logo=\"https://i.imgur.com/IFoHP5M.png\" group-title=\"General\",Delfi TV\r\r\nhttps://s1.dcdn.lt/live/televizija/playlist.m3u8\r",
+      "line": 2,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "LRT Radijas (1080p)",
+      "tvg": {
+        "id": "LRTRadijas.lt@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/gYoaqju.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "News"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://stream-live.lrt.lt/radijas/master.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"LRTRadijas.lt@SD\" tvg-logo=\"https://i.imgur.com/gYoaqju.png\" group-title=\"News\",LRT Radijas (1080p)\r\r\nhttps://stream-live.lrt.lt/radijas/master.m3u8\r",
+      "line": 14,
       "catchup": {
         "type": "",
         "days": "",
