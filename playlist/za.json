@@ -5,6 +5,34 @@
   },
   "items": [
     {
+      "name": "Cape Town TV (576p)",
+      "tvg": {
+        "id": "CapeTownTV.za@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/Y8FK1Kk.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://cdn.freevisiontv.co.za/sttv/smil:ctv.stream.smil/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"CapeTownTV.za@SD\" tvg-logo=\"https://i.imgur.com/Y8FK1Kk.png\" group-title=\"General\",Cape Town TV (576p)\r\r\nhttps://cdn.freevisiontv.co.za/sttv/smil:ctv.stream.smil/playlist.m3u8\r",
+      "line": 8,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "1KZN TV (576p)",
       "tvg": {
         "id": "1KZNTV.za@SD",
@@ -52,34 +80,6 @@
       "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/afriwood-blockbuster/video.m3u8?ads.vf=W6V4C1LsfJK",
       "raw": "#EXTINF:-1 tvg-id=\"AfriwoodBlockbuster.za@SD\" tvg-logo=\"https://i.imgur.com/aESdqiB.png\" group-title=\"Movies\",Afriwood Blockbuster\r\r\nhttps://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/afriwood-blockbuster/video.m3u8?ads.vf=W6V4C1LsfJK\r",
       "line": 4,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Cape Town TV (576p)",
-      "tvg": {
-        "id": "CapeTownTV.za@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/Y8FK1Kk.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://cdn.freevisiontv.co.za/sttv/smil:ctv.stream.smil/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"CapeTownTV.za@SD\" tvg-logo=\"https://i.imgur.com/Y8FK1Kk.png\" group-title=\"General\",Cape Town TV (576p)\r\r\nhttps://cdn.freevisiontv.co.za/sttv/smil:ctv.stream.smil/playlist.m3u8\r",
-      "line": 8,
       "catchup": {
         "type": "",
         "days": "",
@@ -173,34 +173,6 @@
       "status": "OK"
     },
     {
-      "name": "NuView TV",
-      "tvg": {
-        "id": "NuViewTV.za@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/dYRJ7F0.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Entertainment"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://viewmedia7219.bozztv.com/wmedia/viewmedia100/web_002/Stream/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"NuViewTV.za@SD\" tvg-logo=\"https://i.imgur.com/dYRJ7F0.png\" group-title=\"Entertainment\",NuView TV\r\r\nhttps://viewmedia7219.bozztv.com/wmedia/viewmedia100/web_002/Stream/playlist.m3u8\r",
-      "line": 26,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "LN24SA (1080p)",
       "tvg": {
         "id": "LN24SA.za@SD",
@@ -220,6 +192,34 @@
       "url": "https://cdnstack.internetmultimediaonline.org/ln24/ln24.stream/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"LN24SA.za@SD\" tvg-logo=\"https://i.imgur.com/Hg5YTwu.png\" group-title=\"News\",LN24SA (1080p)\r\r\nhttps://cdnstack.internetmultimediaonline.org/ln24/ln24.stream/playlist.m3u8\r",
       "line": 22,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "NuView TV",
+      "tvg": {
+        "id": "NuViewTV.za@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/dYRJ7F0.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Entertainment"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://viewmedia7219.bozztv.com/wmedia/viewmedia100/web_002/Stream/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"NuViewTV.za@SD\" tvg-logo=\"https://i.imgur.com/dYRJ7F0.png\" group-title=\"Entertainment\",NuView TV\r\r\nhttps://viewmedia7219.bozztv.com/wmedia/viewmedia100/web_002/Stream/playlist.m3u8\r",
+      "line": 26,
       "catchup": {
         "type": "",
         "days": "",
@@ -397,34 +397,6 @@
       "status": "OK"
     },
     {
-      "name": "True African",
-      "tvg": {
-        "id": "TrueAfrican.za@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/nDi2br7.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/true-african/video.m3u8?ads.vf=XoE3oY9edza",
-      "raw": "#EXTINF:-1 tvg-id=\"TrueAfrican.za@SD\" tvg-logo=\"https://i.imgur.com/nDi2br7.png\" group-title=\"Undefined\",True African\r\r\nhttps://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/true-african/video.m3u8?ads.vf=XoE3oY9edza\r",
-      "line": 52,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Tshwane TV (576p)",
       "tvg": {
         "id": "TshwaneTV.za@SD",
@@ -444,6 +416,34 @@
       "url": "https://cdn.freevisiontv.co.za/sttv/smil:tshwane.stream.smil/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TshwaneTV.za@SD\" tvg-logo=\"https://admango.cdn.mangomolo.com/analytics/uploads/188/654a3ec660.png\" group-title=\"Entertainment;Family;General\",Tshwane TV (576p)\r\r\nhttps://cdn.freevisiontv.co.za/sttv/smil:tshwane.stream.smil/playlist.m3u8\r",
       "line": 54,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "True African",
+      "tvg": {
+        "id": "TrueAfrican.za@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/nDi2br7.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/true-african/video.m3u8?ads.vf=XoE3oY9edza",
+      "raw": "#EXTINF:-1 tvg-id=\"TrueAfrican.za@SD\" tvg-logo=\"https://i.imgur.com/nDi2br7.png\" group-title=\"Undefined\",True African\r\r\nhttps://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/true-african/video.m3u8?ads.vf=XoE3oY9edza\r",
+      "line": 52,
       "catchup": {
         "type": "",
         "days": "",
