@@ -33,34 +33,6 @@
       "status": "OK"
     },
     {
-      "name": "DSTV (614p) [Not 24/7]",
-      "tvg": {
-        "id": "DSTV.bg@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/YMgzzkf.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Music"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://46.249.95.140:8081/hls/data.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"DSTV.bg@SD\" tvg-logo=\"https://i.imgur.com/YMgzzkf.png\" group-title=\"Music\",DSTV (614p) [Not 24/7]\r\r\nhttp://46.249.95.140:8081/hls/data.m3u8\r",
-      "line": 12,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Agro TV (480p)",
       "tvg": {
         "id": "AgroTV.bg@SD",
@@ -80,6 +52,34 @@
       "url": "https://restr2.bgtv.bg/agro/hls/agro.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"AgroTV.bg@SD\" tvg-logo=\"https://i.imgur.com/tPMNDtD.png\" group-title=\"Outdoor\",Agro TV (480p)\r\r\nhttps://restr2.bgtv.bg/agro/hls/agro.m3u8\r",
       "line": 4,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "DSTV (614p) [Not 24/7]",
+      "tvg": {
+        "id": "DSTV.bg@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/YMgzzkf.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Music"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://46.249.95.140:8081/hls/data.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"DSTV.bg@SD\" tvg-logo=\"https://i.imgur.com/YMgzzkf.png\" group-title=\"Music\",DSTV (614p) [Not 24/7]\r\r\nhttp://46.249.95.140:8081/hls/data.m3u8\r",
+      "line": 12,
       "catchup": {
         "type": "",
         "days": "",
@@ -173,6 +173,34 @@
       "status": "OK"
     },
     {
+      "name": "Magic TV (720p)",
+      "tvg": {
+        "id": "MagicTV.bg@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/n7bcrrp.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Music"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://bss1.neterra.tv/magictv/magictv.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"MagicTV.bg@SD\" tvg-logo=\"https://i.imgur.com/n7bcrrp.png\" group-title=\"Music\",Magic TV (720p)\r\r\nhttps://bss1.neterra.tv/magictv/magictv.m3u8\r",
+      "line": 20,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Plovdivska Pravoslavna TV (1080p)",
       "tvg": {
         "id": "PlovdivOrthodoxTV.bg@SD",
@@ -220,34 +248,6 @@
       "url": "https://transcoder1.bitcare.eu/streaming/rimextv/rmtv.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"RMTV.bg@SD\" tvg-logo=\"https://rmtv.bg/img/logo.png\" group-title=\"Undefined\",RMTV (288p)\r\r\nhttps://transcoder1.bitcare.eu/streaming/rimextv/rmtv.m3u8\r",
       "line": 24,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Magic TV (720p)",
-      "tvg": {
-        "id": "MagicTV.bg@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/n7bcrrp.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Music"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://bss1.neterra.tv/magictv/magictv.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"MagicTV.bg@SD\" tvg-logo=\"https://i.imgur.com/n7bcrrp.png\" group-title=\"Music\",Magic TV (720p)\r\r\nhttps://bss1.neterra.tv/magictv/magictv.m3u8\r",
-      "line": 20,
       "catchup": {
         "type": "",
         "days": "",
@@ -345,7 +345,7 @@
       "tvg": {
         "id": "TiankovOrientFolk.bg@SD",
         "name": "",
-        "logo": "https://i.postimg.cc/KYNvL1ML/tiankovorientfolk.png",
+        "logo": "https://i.imgur.com/33LexyP.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -358,7 +358,7 @@
         "user-agent": ""
       },
       "url": "https://streamer103.neterra.tv/tiankov-orient/live.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TiankovOrientFolk.bg@SD\" tvg-logo=\"https://i.postimg.cc/KYNvL1ML/tiankovorientfolk.png\" group-title=\"Music\",Tiankov Orient Folk (576p)\r\r\nhttps://streamer103.neterra.tv/tiankov-orient/live.m3u8\r",
+      "raw": "#EXTINF:-1 tvg-id=\"TiankovOrientFolk.bg@SD\" tvg-logo=\"https://i.imgur.com/33LexyP.png\" group-title=\"Music\",Tiankov Orient Folk (576p)\r\r\nhttps://streamer103.neterra.tv/tiankov-orient/live.m3u8\r",
       "line": 32,
       "catchup": {
         "type": "",
