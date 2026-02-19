@@ -229,34 +229,6 @@
       "status": "OK"
     },
     {
-      "name": "Komsan TV [Not 24/7]",
-      "tvg": {
-        "id": "KomsanTV.kh@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/SNTf2r3.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Movies"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://tv.cootel.com.kh:8077/streams/d/Komsan/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"KomsanTV.kh@SD\" tvg-logo=\"https://i.imgur.com/SNTf2r3.png\" group-title=\"Movies\",Komsan TV [Not 24/7]\r\r\nhttp://tv.cootel.com.kh:8077/streams/d/Komsan/playlist.m3u8\r",
-      "line": 22,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "My TV",
       "tvg": {
         "id": "MyTV.kh@SD",
@@ -285,25 +257,25 @@
       "status": "OK"
     },
     {
-      "name": "NTV",
+      "name": "Komsan TV [Not 24/7]",
       "tvg": {
-        "id": "NTV.kh@SD",
+        "id": "KomsanTV.kh@SD",
         "name": "",
-        "logo": "https://i.imgur.com/SoBhuIb.png",
+        "logo": "https://i.imgur.com/SNTf2r3.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Undefined"
+        "title": "Movies"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "http://43.252.18.195:5080/LiveApp/streams/ntvhd.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"NTV.kh@SD\" tvg-logo=\"https://i.imgur.com/SoBhuIb.png\" group-title=\"Undefined\",NTV\r\r\nhttp://43.252.18.195:5080/LiveApp/streams/ntvhd.m3u8\r",
-      "line": 33,
+      "url": "http://tv.cootel.com.kh:8077/streams/d/Komsan/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"KomsanTV.kh@SD\" tvg-logo=\"https://i.imgur.com/SNTf2r3.png\" group-title=\"Movies\",Komsan TV [Not 24/7]\r\r\nhttp://tv.cootel.com.kh:8077/streams/d/Komsan/playlist.m3u8\r",
+      "line": 22,
       "catchup": {
         "type": "",
         "days": "",
@@ -313,11 +285,11 @@
       "status": "OK"
     },
     {
-      "name": "Rasmey Hang Meas HDTV (720p) [Not 24/7]",
+      "name": "SEATV (1080p)",
       "tvg": {
-        "id": "RasmeyHangMeasHDTV.kh@SD",
+        "id": "SEATV.kh@SD",
         "name": "",
-        "logo": "https://i.imgur.com/EcqEMMg.png",
+        "logo": "https://i.imgur.com/oZPorvg.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -329,9 +301,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "http://clive.malisresidences.com:1935/rhm_hdtv/_definst_/smil:RHMHDTV.smil/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"RasmeyHangMeasHDTV.kh@SD\" tvg-logo=\"https://i.imgur.com/EcqEMMg.png\" group-title=\"Undefined\",Rasmey Hang Meas HDTV (720p) [Not 24/7]\r\r\nhttp://clive.malisresidences.com:1935/rhm_hdtv/_definst_/smil:RHMHDTV.smil/playlist.m3u8\r",
-      "line": 35,
+      "url": "https://seatv.netlinkbroadcaster.com/hls/test.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"SEATV.kh@SD\" tvg-logo=\"https://i.imgur.com/oZPorvg.png\" group-title=\"Undefined\",SEATV (1080p)\r\r\nhttps://seatv.netlinkbroadcaster.com/hls/test.m3u8\r",
+      "line": 39,
       "catchup": {
         "type": "",
         "days": "",
@@ -369,6 +341,34 @@
       "status": "OK"
     },
     {
+      "name": "Rasmey Hang Meas HDTV (720p) [Not 24/7]",
+      "tvg": {
+        "id": "RasmeyHangMeasHDTV.kh@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/EcqEMMg.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://clive.malisresidences.com:1935/rhm_hdtv/_definst_/smil:RHMHDTV.smil/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"RasmeyHangMeasHDTV.kh@SD\" tvg-logo=\"https://i.imgur.com/EcqEMMg.png\" group-title=\"Undefined\",Rasmey Hang Meas HDTV (720p) [Not 24/7]\r\r\nhttp://clive.malisresidences.com:1935/rhm_hdtv/_definst_/smil:RHMHDTV.smil/playlist.m3u8\r",
+      "line": 35,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "TVK (720p)",
       "tvg": {
         "id": "TVK.kh@SD",
@@ -388,34 +388,6 @@
       "url": "https://live.kh.malimarcdn.com/live/tvk.stream/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TVK.kh@SD\" tvg-logo=\"https://i.imgur.com/5hPxjcl.png\" group-title=\"General\",TVK (720p)\r\r\nhttps://live.kh.malimarcdn.com/live/tvk.stream/playlist.m3u8\r",
       "line": 45,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "SEATV (1080p)",
-      "tvg": {
-        "id": "SEATV.kh@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/oZPorvg.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://seatv.netlinkbroadcaster.com/hls/test.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"SEATV.kh@SD\" tvg-logo=\"https://i.imgur.com/oZPorvg.png\" group-title=\"Undefined\",SEATV (1080p)\r\r\nhttps://seatv.netlinkbroadcaster.com/hls/test.m3u8\r",
-      "line": 39,
       "catchup": {
         "type": "",
         "days": "",
