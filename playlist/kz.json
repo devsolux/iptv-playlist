@@ -5,6 +5,34 @@
   },
   "items": [
     {
+      "name": "31 Kanal",
+      "tvg": {
+        "id": "31Kanal.kz@SD",
+        "name": "",
+        "logo": "https://www.ikegami.co.jp/files/co/news/20250903_kazakhstanChannel31/Channel31_Logo.jpg",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "https://31.kz/",
+        "user-agent": ""
+      },
+      "url": "https://streams.adapto.kz/hls/live/31kz/main_stream.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"31Kanal.kz@SD\" tvg-logo=\"https://www.ikegami.co.jp/files/co/news/20250903_kazakhstanChannel31/Channel31_Logo.jpg\" http-referrer=\"https://31.kz/\" group-title=\"General\",31 Kanal\r\r\n#EXTVLCOPT:http-referrer=https://31.kz/\r\r\nhttps://streams.adapto.kz/hls/live/31kz/main_stream.m3u8\r",
+      "line": 4,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Abai TV (720p)",
       "tvg": {
         "id": "AbaiTV.kz@SD",
@@ -52,34 +80,6 @@
       "url": "https://otv.wotom.net/alau/stream.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"AlauTV.kz@SD\" tvg-logo=\"https://i.imgur.com/gK6ZRzp.png\" group-title=\"Undefined\",Alau TV (576p)\r\r\nhttps://otv.wotom.net/alau/stream.m3u8\r",
       "line": 9,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "31 Kanal",
-      "tvg": {
-        "id": "31Kanal.kz@SD",
-        "name": "",
-        "logo": "https://www.ikegami.co.jp/files/co/news/20250903_kazakhstanChannel31/Channel31_Logo.jpg",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "https://31.kz/",
-        "user-agent": ""
-      },
-      "url": "https://streams.adapto.kz/hls/live/31kz/main_stream.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"31Kanal.kz@SD\" tvg-logo=\"https://www.ikegami.co.jp/files/co/news/20250903_kazakhstanChannel31/Channel31_Logo.jpg\" http-referrer=\"https://31.kz/\" group-title=\"General\",31 Kanal\r\r\n#EXTVLCOPT:http-referrer=https://31.kz/\r\r\nhttps://streams.adapto.kz/hls/live/31kz/main_stream.m3u8\r",
-      "line": 4,
       "catchup": {
         "type": "",
         "days": "",
@@ -257,34 +257,6 @@
       "status": "OK"
     },
     {
-      "name": "Новое телевидение (576p) [Not 24/7]",
-      "tvg": {
-        "id": "Novoetelevidenie.kz@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/mmKWrWs.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://serv25.vintera.tv:8081/novoetv/nov_tv/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Novoetelevidenie.kz@SD\" tvg-logo=\"https://i.imgur.com/mmKWrWs.png\" group-title=\"General\",Новое телевидение (576p) [Not 24/7]\r\r\nhttp://serv25.vintera.tv:8081/novoetv/nov_tv/playlist.m3u8\r",
-      "line": 54,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "МТРК (576p) [Not 24/7]",
       "tvg": {
         "id": "MTRK.kz@SD",
@@ -304,6 +276,34 @@
       "url": "https://tvcdn01.oktv.kz/tv/mtrk/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"MTRK.kz@SD\" tvg-logo=\"https://i.imgur.com/XMyRwDk.png\" group-title=\"General\",МТРК (576p) [Not 24/7]\r\r\nhttps://tvcdn01.oktv.kz/tv/mtrk/playlist.m3u8\r",
       "line": 52,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Новое телевидение (576p) [Not 24/7]",
+      "tvg": {
+        "id": "Novoetelevidenie.kz@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/mmKWrWs.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://serv25.vintera.tv:8081/novoetv/nov_tv/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Novoetelevidenie.kz@SD\" tvg-logo=\"https://i.imgur.com/mmKWrWs.png\" group-title=\"General\",Новое телевидение (576p) [Not 24/7]\r\r\nhttp://serv25.vintera.tv:8081/novoetv/nov_tv/playlist.m3u8\r",
+      "line": 54,
       "catchup": {
         "type": "",
         "days": "",
