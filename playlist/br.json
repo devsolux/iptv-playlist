@@ -33,34 +33,6 @@
       "status": "OK"
     },
     {
-      "name": "Adesso TV (720p)",
-      "tvg": {
-        "id": "AdessoTV.br@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/KgetM8j.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://cdn.jmvstream.com/w/LVW-9715/LVW9715_12B26T62tm/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"AdessoTV.br@SD\" tvg-logo=\"https://i.imgur.com/KgetM8j.png\" group-title=\"General\",Adesso TV (720p)\r\r\nhttps://cdn.jmvstream.com/w/LVW-9715/LVW9715_12B26T62tm/playlist.m3u8\r",
-      "line": 4,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Amazon Sat (1080p)",
       "tvg": {
         "id": "AmazonSat.br@SD",
@@ -80,6 +52,34 @@
       "url": "https://amazonsat.brasilstream.com.br/hls/amazonsat/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"AmazonSat.br@SD\" tvg-logo=\"https://i.imgur.com/7rjCS5i.png\" group-title=\"Undefined\",Amazon Sat (1080p)\r\r\nhttps://amazonsat.brasilstream.com.br/hls/amazonsat/index.m3u8\r",
       "line": 12,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "AWTV (1080p) [Geo-blocked]",
+      "tvg": {
+        "id": "AWTV.br@HD",
+        "name": "",
+        "logo": "https://i.imgur.com/2tdMyef.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Classic;Series"
+      },
+      "http": {
+        "referrer": "https://awtv.com.br",
+        "user-agent": ""
+      },
+      "url": "https://awtv.nuvemplay.live/hls/stream.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"AWTV.br@HD\" tvg-logo=\"https://i.imgur.com/2tdMyef.png\" http-referrer=\"https://awtv.com.br\" group-title=\"Classic;Series\",AWTV (1080p) [Geo-blocked]\r\r\n#EXTVLCOPT:http-referrer=https://awtv.com.br\r\r\nhttps://awtv.nuvemplay.live/hls/stream.m3u8\r",
+      "line": 16,
       "catchup": {
         "type": "",
         "days": "",
@@ -136,34 +136,6 @@
       "url": "https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5f4fb4cf605ddf000748e16f/master.m3u8?appName=web&appVersion=9.19.0&deviceDNT=0&deviceId=8ee99fa9-8924-42ef-bf8b-617216b5b280&deviceMake=firefox&deviceModel=web&deviceType=web&deviceVersion=147.0.0&serverSideAds=false&sid=57af660e-52d2-4a0d-8f16-4a6ebcd413ce",
       "raw": "#EXTINF:-1 tvg-id=\"BabyFirst.us@Brazil\" tvg-logo=\"https://i.imgur.com/WxLHBwu.png\" group-title=\"Kids\",Babyfirst\r\r\nhttps://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5f4fb4cf605ddf000748e16f/master.m3u8?appName=web&appVersion=9.19.0&deviceDNT=0&deviceId=8ee99fa9-8924-42ef-bf8b-617216b5b280&deviceMake=firefox&deviceModel=web&deviceType=web&deviceVersion=147.0.0&serverSideAds=false&sid=57af660e-52d2-4a0d-8f16-4a6ebcd413ce\r",
       "line": 19,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "AWTV (1080p) [Geo-blocked]",
-      "tvg": {
-        "id": "AWTV.br@HD",
-        "name": "",
-        "logo": "https://i.imgur.com/2tdMyef.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Classic;Series"
-      },
-      "http": {
-        "referrer": "https://awtv.com.br",
-        "user-agent": ""
-      },
-      "url": "https://awtv.nuvemplay.live/hls/stream.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"AWTV.br@HD\" tvg-logo=\"https://i.imgur.com/2tdMyef.png\" http-referrer=\"https://awtv.com.br\" group-title=\"Classic;Series\",AWTV (1080p) [Geo-blocked]\r\r\n#EXTVLCOPT:http-referrer=https://awtv.com.br\r\r\nhttps://awtv.nuvemplay.live/hls/stream.m3u8\r",
-      "line": 16,
       "catchup": {
         "type": "",
         "days": "",
@@ -248,34 +220,6 @@
       "url": "https://stream01.msolutionbrasil.com.br/hls/canal25/live.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"Canal25Jundiai.br@SD\" tvg-logo=\"https://i.imgur.com/7igGMwH.png\" group-title=\"Undefined\",Canal 25 Jundiaí (404p) [Not 24/7]\r\r\nhttps://stream01.msolutionbrasil.com.br/hls/canal25/live.m3u8\r",
       "line": 31,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Canal 38 (720p)",
-      "tvg": {
-        "id": "Canal38.br@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/co7TCWC.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "News"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://cdn.jmvstream.com/w/LVW-8503/LVW8503_d0V5oduFlK/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Canal38.br@SD\" tvg-logo=\"https://i.imgur.com/co7TCWC.png\" group-title=\"News\",Canal 38 (720p)\r\r\nhttps://cdn.jmvstream.com/w/LVW-8503/LVW8503_d0V5oduFlK/playlist.m3u8\r",
-      "line": 33,
       "catchup": {
         "type": "",
         "days": "",
@@ -453,6 +397,34 @@
       "status": "OK"
     },
     {
+      "name": "Chroma TV (480p)",
+      "tvg": {
+        "id": "ChromaTV.br@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/SnaIMgj.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Entertainment"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://5c483b9d1019c.streamlock.net/8054/8054/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"ChromaTV.br@SD\" tvg-logo=\"https://i.imgur.com/SnaIMgj.png\" group-title=\"Entertainment\",Chroma TV (480p)\r\r\nhttps://5c483b9d1019c.streamlock.net/8054/8054/playlist.m3u8\r",
+      "line": 57,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Catve FM (720p) [Not 24/7]",
       "tvg": {
         "id": "CatveFM.br@SD",
@@ -472,34 +444,6 @@
       "url": "https://5b33b873179a2.streamlock.net:1443/radiocamera/livestream/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"CatveFM.br@SD\" tvg-logo=\"https://i.imgur.com/w89yw36.png\" group-title=\"General\",Catve FM (720p) [Not 24/7]\r\r\nhttps://5b33b873179a2.streamlock.net:1443/radiocamera/livestream/playlist.m3u8\r",
       "line": 53,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Catve Master TV (720p) [Not 24/7]",
-      "tvg": {
-        "id": "CatveMasterTV.br@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/4m7Iazm.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://5b33b873179a2.streamlock.net:1443/mastertv/livestream/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"CatveMasterTV.br@SD\" tvg-logo=\"https://i.imgur.com/4m7Iazm.png\" group-title=\"General\",Catve Master TV (720p) [Not 24/7]\r\r\nhttps://5b33b873179a2.streamlock.net:1443/mastertv/livestream/playlist.m3u8\r",
-      "line": 55,
       "catchup": {
         "type": "",
         "days": "",
@@ -537,25 +481,25 @@
       "status": "OK"
     },
     {
-      "name": "Chroma TV (480p)",
+      "name": "Catve Master TV (720p) [Not 24/7]",
       "tvg": {
-        "id": "ChromaTV.br@SD",
+        "id": "CatveMasterTV.br@SD",
         "name": "",
-        "logo": "https://i.imgur.com/SnaIMgj.png",
+        "logo": "https://i.imgur.com/4m7Iazm.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Entertainment"
+        "title": "General"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://5c483b9d1019c.streamlock.net/8054/8054/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"ChromaTV.br@SD\" tvg-logo=\"https://i.imgur.com/SnaIMgj.png\" group-title=\"Entertainment\",Chroma TV (480p)\r\r\nhttps://5c483b9d1019c.streamlock.net/8054/8054/playlist.m3u8\r",
-      "line": 57,
+      "url": "https://5b33b873179a2.streamlock.net:1443/mastertv/livestream/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"CatveMasterTV.br@SD\" tvg-logo=\"https://i.imgur.com/4m7Iazm.png\" group-title=\"General\",Catve Master TV (720p) [Not 24/7]\r\r\nhttps://5b33b873179a2.streamlock.net:1443/mastertv/livestream/playlist.m3u8\r",
+      "line": 55,
       "catchup": {
         "type": "",
         "days": "",
@@ -761,34 +705,6 @@
       "status": "OK"
     },
     {
-      "name": "Despertar TV (720p)",
-      "tvg": {
-        "id": "DespertarTV.br@HD",
-        "name": "",
-        "logo": "https://res.cloudinary.com/dpkehkbpv/image/upload/v1721839192/logo/mixtv/despertar_tv_ieb2l3.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Religious"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://cdn.live.br1.jmvstream.com/webtv/pejexypz/playlist/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"DespertarTV.br@HD\" tvg-logo=\"https://res.cloudinary.com/dpkehkbpv/image/upload/v1721839192/logo/mixtv/despertar_tv_ieb2l3.png\" group-title=\"Religious\",Despertar TV (720p)\r\r\nhttps://cdn.live.br1.jmvstream.com/webtv/pejexypz/playlist/playlist.m3u8\r",
-      "line": 81,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "ElyTV (360p)",
       "tvg": {
         "id": "ElyTV.br@SD",
@@ -808,34 +724,6 @@
       "url": "https://stmv1.srvsite.com/ely/ely/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"ElyTV.br@SD\" tvg-logo=\"https://i.imgur.com/1eHNe91.png\" group-title=\"Entertainment\",ElyTV (360p)\r\r\nhttps://stmv1.srvsite.com/ely/ely/playlist.m3u8\r",
       "line": 85,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "EUTV (720p)",
-      "tvg": {
-        "id": "EUTV.br@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/8PxpamC.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://cdn.jmvstream.com/w/LVW-8719/LVW8719_AcLVAxWy5J/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"EUTV.br@SD\" tvg-logo=\"https://i.imgur.com/8PxpamC.png\" group-title=\"General\",EUTV (720p)\r\r\nhttps://cdn.jmvstream.com/w/LVW-8719/LVW8719_AcLVAxWy5J/playlist.m3u8\r",
-      "line": 87,
       "catchup": {
         "type": "",
         "days": "",
@@ -1153,6 +1041,34 @@
       "status": "OK"
     },
     {
+      "name": "KpopTV Play (576p)",
+      "tvg": {
+        "id": "KpopTVPlay.br@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/Tf0vweF.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Music"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://giatv.bozztv.com/giatv/giatv-kpoptvplay/kpoptvplay/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"KpopTVPlay.br@SD\" tvg-logo=\"https://i.imgur.com/Tf0vweF.png\" group-title=\"Music\",KpopTV Play (576p)\r\r\nhttps://giatv.bozztv.com/giatv/giatv-kpoptvplay/kpoptvplay/playlist.m3u8\r",
+      "line": 115,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Kuriakos Kids (1080p)",
       "tvg": {
         "id": "KuriakosKids.pt@SD",
@@ -1228,34 +1144,6 @@
       "url": "https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/6077045b6031bd00078de127/master.m3u8?appName=web&appVersion=9.19.0&deviceDNT=0&deviceId=8ee99fa9-8924-42ef-bf8b-617216b5b280&deviceMake=firefox&deviceModel=web&deviceType=web&deviceVersion=147.0.0&serverSideAds=false&sid=ee7da833-d54a-472e-b645-c1ccb3c59965",
       "raw": "#EXTINF:-1 tvg-id=\"MasterChef.us@Brazil\" tvg-logo=\"https://i.imgur.com/lOuySbz.png\" group-title=\"Series\",MasterChef\r\r\nhttps://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/6077045b6031bd00078de127/master.m3u8?appName=web&appVersion=9.19.0&deviceDNT=0&deviceId=8ee99fa9-8924-42ef-bf8b-617216b5b280&deviceMake=firefox&deviceModel=web&deviceType=web&deviceVersion=147.0.0&serverSideAds=false&sid=ee7da833-d54a-472e-b645-c1ccb3c59965\r",
       "line": 121,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "MKK Web TV (720p) [Not 24/7]",
-      "tvg": {
-        "id": "MKKWebTV.br@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/A8Yhtid.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://video01.logicahost.com.br/mkkwebtv/mkkwebtv/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"MKKWebTV.br@SD\" tvg-logo=\"https://i.imgur.com/A8Yhtid.png\" group-title=\"General\",MKK Web TV (720p) [Not 24/7]\r\r\nhttps://video01.logicahost.com.br/mkkwebtv/mkkwebtv/playlist.m3u8\r",
-      "line": 123,
       "catchup": {
         "type": "",
         "days": "",
@@ -1405,34 +1293,6 @@
       "status": "OK"
     },
     {
-      "name": "Nova Era TV (1080p) [Not 24/7]",
-      "tvg": {
-        "id": "NovaEraTV.br@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/IK3F9Uq.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://wz3.dnip.com.br:1935/novaeratv/novaeratv.sdp/live.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"NovaEraTV.br@SD\" tvg-logo=\"https://i.imgur.com/IK3F9Uq.png\" group-title=\"Undefined\",Nova Era TV (1080p) [Not 24/7]\r\r\nhttp://wz3.dnip.com.br:1935/novaeratv/novaeratv.sdp/live.m3u8\r",
-      "line": 135,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Novo Tempo (720p)",
       "tvg": {
         "id": "NovoTempo.br@SD",
@@ -1461,25 +1321,25 @@
       "status": "OK"
     },
     {
-      "name": "O Encantador de Cães",
+      "name": "Nova Era TV (1080p) [Not 24/7]",
       "tvg": {
-        "id": "OEncantadordeCaes.us@Brazil",
+        "id": "NovaEraTV.br@SD",
         "name": "",
-        "logo": "https://i.imgur.com/sQn6vvh.png",
+        "logo": "https://i.imgur.com/IK3F9Uq.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Education"
+        "title": "Undefined"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/61099df8cee03b00074b2ecf/master.m3u8?appName=web&appVersion=9.19.0&deviceDNT=0&deviceId=8ee99fa9-8924-42ef-bf8b-617216b5b280&deviceMake=firefox&deviceModel=web&deviceType=web&deviceVersion=147.0.0&serverSideAds=false&sid=3573fc43-dff8-4612-a471-92faa0de0d23",
-      "raw": "#EXTINF:-1 tvg-id=\"OEncantadordeCaes.us@Brazil\" tvg-logo=\"https://i.imgur.com/sQn6vvh.png\" group-title=\"Education\",O Encantador de Cães\r\r\nhttps://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/61099df8cee03b00074b2ecf/master.m3u8?appName=web&appVersion=9.19.0&deviceDNT=0&deviceId=8ee99fa9-8924-42ef-bf8b-617216b5b280&deviceMake=firefox&deviceModel=web&deviceType=web&deviceVersion=147.0.0&serverSideAds=false&sid=3573fc43-dff8-4612-a471-92faa0de0d23\r",
-      "line": 139,
+      "url": "http://wz3.dnip.com.br:1935/novaeratv/novaeratv.sdp/live.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"NovaEraTV.br@SD\" tvg-logo=\"https://i.imgur.com/IK3F9Uq.png\" group-title=\"Undefined\",Nova Era TV (1080p) [Not 24/7]\r\r\nhttp://wz3.dnip.com.br:1935/novaeratv/novaeratv.sdp/live.m3u8\r",
+      "line": 135,
       "catchup": {
         "type": "",
         "days": "",
@@ -1517,25 +1377,25 @@
       "status": "OK"
     },
     {
-      "name": "Plena TV (720p)",
+      "name": "O Encantador de Cães",
       "tvg": {
-        "id": "PlenaTV.br@SD",
+        "id": "OEncantadordeCaes.us@Brazil",
         "name": "",
-        "logo": "https://i.imgur.com/lH4RT7b.png",
+        "logo": "https://i.imgur.com/sQn6vvh.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "News"
+        "title": "Education"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://cdn.jmvstream.com/w/LVW-9591/LVW9591_PmXtgATnaS/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"PlenaTV.br@SD\" tvg-logo=\"https://i.imgur.com/lH4RT7b.png\" group-title=\"News\",Plena TV (720p)\r\r\nhttps://cdn.jmvstream.com/w/LVW-9591/LVW9591_PmXtgATnaS/playlist.m3u8\r",
-      "line": 145,
+      "url": "https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/61099df8cee03b00074b2ecf/master.m3u8?appName=web&appVersion=9.19.0&deviceDNT=0&deviceId=8ee99fa9-8924-42ef-bf8b-617216b5b280&deviceMake=firefox&deviceModel=web&deviceType=web&deviceVersion=147.0.0&serverSideAds=false&sid=3573fc43-dff8-4612-a471-92faa0de0d23",
+      "raw": "#EXTINF:-1 tvg-id=\"OEncantadordeCaes.us@Brazil\" tvg-logo=\"https://i.imgur.com/sQn6vvh.png\" group-title=\"Education\",O Encantador de Cães\r\r\nhttps://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/61099df8cee03b00074b2ecf/master.m3u8?appName=web&appVersion=9.19.0&deviceDNT=0&deviceId=8ee99fa9-8924-42ef-bf8b-617216b5b280&deviceMake=firefox&deviceModel=web&deviceType=web&deviceVersion=147.0.0&serverSideAds=false&sid=3573fc43-dff8-4612-a471-92faa0de0d23\r",
+      "line": 139,
       "catchup": {
         "type": "",
         "days": "",
@@ -1909,34 +1769,6 @@
       "status": "OK"
     },
     {
-      "name": "Pluto TV Karaokê por Stingray",
-      "tvg": {
-        "id": "PlutoTVKaraokeporStingray.us@Brazil",
-        "name": "",
-        "logo": "https://i.imgur.com/rWpLepJ.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Music"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/604b99d633a72b00078e05ad/master.m3u8?appName=web&appVersion=9.19.0&deviceDNT=0&deviceId=8ee99fa9-8924-42ef-bf8b-617216b5b280&deviceMake=firefox&deviceModel=web&deviceType=web&deviceVersion=147.0.0&serverSideAds=false&sid=0714ce50-3b9e-48e7-a974-1cfe07db5a83",
-      "raw": "#EXTINF:-1 tvg-id=\"PlutoTVKaraokeporStingray.us@Brazil\" tvg-logo=\"https://i.imgur.com/rWpLepJ.png\" group-title=\"Music\",Pluto TV Karaokê por Stingray\r\r\nhttps://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/604b99d633a72b00078e05ad/master.m3u8?appName=web&appVersion=9.19.0&deviceDNT=0&deviceId=8ee99fa9-8924-42ef-bf8b-617216b5b280&deviceMake=firefox&deviceModel=web&deviceType=web&deviceVersion=147.0.0&serverSideAds=false&sid=0714ce50-3b9e-48e7-a974-1cfe07db5a83\r",
-      "line": 173,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Pluto TV Minha Obsessão Favorita",
       "tvg": {
         "id": "PlutoTVMinhaObsessaoFavorita.us@Brazil",
@@ -1993,6 +1825,34 @@
       "status": "OK"
     },
     {
+      "name": "Pluto TV Karaokê por Stingray",
+      "tvg": {
+        "id": "PlutoTVKaraokeporStingray.us@Brazil",
+        "name": "",
+        "logo": "https://i.imgur.com/rWpLepJ.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Music"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/604b99d633a72b00078e05ad/master.m3u8?appName=web&appVersion=9.19.0&deviceDNT=0&deviceId=8ee99fa9-8924-42ef-bf8b-617216b5b280&deviceMake=firefox&deviceModel=web&deviceType=web&deviceVersion=147.0.0&serverSideAds=false&sid=0714ce50-3b9e-48e7-a974-1cfe07db5a83",
+      "raw": "#EXTINF:-1 tvg-id=\"PlutoTVKaraokeporStingray.us@Brazil\" tvg-logo=\"https://i.imgur.com/rWpLepJ.png\" group-title=\"Music\",Pluto TV Karaokê por Stingray\r\r\nhttps://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/604b99d633a72b00078e05ad/master.m3u8?appName=web&appVersion=9.19.0&deviceDNT=0&deviceId=8ee99fa9-8924-42ef-bf8b-617216b5b280&deviceMake=firefox&deviceModel=web&deviceType=web&deviceVersion=147.0.0&serverSideAds=false&sid=0714ce50-3b9e-48e7-a974-1cfe07db5a83\r",
+      "line": 173,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Pluto TV Natureza",
       "tvg": {
         "id": "PlutoTVNatureza.us@Brazil",
@@ -2012,34 +1872,6 @@
       "url": "https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5f1213ba0ecebc00070e170f/master.m3u8?appName=web&appVersion=9.19.0&deviceDNT=0&deviceId=8ee99fa9-8924-42ef-bf8b-617216b5b280&deviceMake=firefox&deviceModel=web&deviceType=web&deviceVersion=147.0.0&serverSideAds=false&sid=bdff2c89-0837-49e2-8bb3-ef19e01110cc",
       "raw": "#EXTINF:-1 tvg-id=\"PlutoTVNatureza.us@Brazil\" tvg-logo=\"https://i.imgur.com/RuyQQ6M.png\" group-title=\"Education\",Pluto TV Natureza\r\r\nhttps://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5f1213ba0ecebc00070e170f/master.m3u8?appName=web&appVersion=9.19.0&deviceDNT=0&deviceId=8ee99fa9-8924-42ef-bf8b-617216b5b280&deviceMake=firefox&deviceModel=web&deviceType=web&deviceVersion=147.0.0&serverSideAds=false&sid=bdff2c89-0837-49e2-8bb3-ef19e01110cc\r",
       "line": 179,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Pluto TV Paisagens por Stingray",
-      "tvg": {
-        "id": "PlutoTVPaisagensporStingray.us@Brazil",
-        "name": "",
-        "logo": "https://i.imgur.com/6kElzw7.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Education"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/604a8dedbca75b0007b1c753/master.m3u8?appName=web&appVersion=9.19.0&deviceDNT=0&deviceId=8ee99fa9-8924-42ef-bf8b-617216b5b280&deviceMake=firefox&deviceModel=web&deviceType=web&deviceVersion=147.0.0&serverSideAds=false&sid=1fd57144-2728-4044-bdec-d53c73e36b01",
-      "raw": "#EXTINF:-1 tvg-id=\"PlutoTVPaisagensporStingray.us@Brazil\" tvg-logo=\"https://i.imgur.com/6kElzw7.png\" group-title=\"Education\",Pluto TV Paisagens por Stingray\r\r\nhttps://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/604a8dedbca75b0007b1c753/master.m3u8?appName=web&appVersion=9.19.0&deviceDNT=0&deviceId=8ee99fa9-8924-42ef-bf8b-617216b5b280&deviceMake=firefox&deviceModel=web&deviceType=web&deviceVersion=147.0.0&serverSideAds=false&sid=1fd57144-2728-4044-bdec-d53c73e36b01\r",
-      "line": 181,
       "catchup": {
         "type": "",
         "days": "",
@@ -2077,25 +1909,25 @@
       "status": "OK"
     },
     {
-      "name": "Pluto TV Shows por Stingray",
+      "name": "Pluto TV Paisagens por Stingray",
       "tvg": {
-        "id": "PlutoTVShowsporStingray.us@Brazil",
+        "id": "PlutoTVPaisagensporStingray.us@Brazil",
         "name": "",
-        "logo": "https://i.imgur.com/TrG7Y84.png",
+        "logo": "https://i.imgur.com/6kElzw7.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Music"
+        "title": "Education"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/604b91e0692f770007d9f33f/master.m3u8?appName=web&appVersion=9.19.0&deviceDNT=0&deviceId=8ee99fa9-8924-42ef-bf8b-617216b5b280&deviceMake=firefox&deviceModel=web&deviceType=web&deviceVersion=147.0.0&serverSideAds=false&sid=69a8ee66-6f3e-4593-b30e-6cb6cedf03f3",
-      "raw": "#EXTINF:-1 tvg-id=\"PlutoTVShowsporStingray.us@Brazil\" tvg-logo=\"https://i.imgur.com/TrG7Y84.png\" group-title=\"Music\",Pluto TV Shows por Stingray\r\r\nhttps://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/604b91e0692f770007d9f33f/master.m3u8?appName=web&appVersion=9.19.0&deviceDNT=0&deviceId=8ee99fa9-8924-42ef-bf8b-617216b5b280&deviceMake=firefox&deviceModel=web&deviceType=web&deviceVersion=147.0.0&serverSideAds=false&sid=69a8ee66-6f3e-4593-b30e-6cb6cedf03f3\r",
-      "line": 185,
+      "url": "https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/604a8dedbca75b0007b1c753/master.m3u8?appName=web&appVersion=9.19.0&deviceDNT=0&deviceId=8ee99fa9-8924-42ef-bf8b-617216b5b280&deviceMake=firefox&deviceModel=web&deviceType=web&deviceVersion=147.0.0&serverSideAds=false&sid=1fd57144-2728-4044-bdec-d53c73e36b01",
+      "raw": "#EXTINF:-1 tvg-id=\"PlutoTVPaisagensporStingray.us@Brazil\" tvg-logo=\"https://i.imgur.com/6kElzw7.png\" group-title=\"Education\",Pluto TV Paisagens por Stingray\r\r\nhttps://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/604a8dedbca75b0007b1c753/master.m3u8?appName=web&appVersion=9.19.0&deviceDNT=0&deviceId=8ee99fa9-8924-42ef-bf8b-617216b5b280&deviceMake=firefox&deviceModel=web&deviceType=web&deviceVersion=147.0.0&serverSideAds=false&sid=1fd57144-2728-4044-bdec-d53c73e36b01\r",
+      "line": 181,
       "catchup": {
         "type": "",
         "days": "",
@@ -2133,6 +1965,34 @@
       "status": "OK"
     },
     {
+      "name": "Pluto TV Shows por Stingray",
+      "tvg": {
+        "id": "PlutoTVShowsporStingray.us@Brazil",
+        "name": "",
+        "logo": "https://i.imgur.com/TrG7Y84.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Music"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/604b91e0692f770007d9f33f/master.m3u8?appName=web&appVersion=9.19.0&deviceDNT=0&deviceId=8ee99fa9-8924-42ef-bf8b-617216b5b280&deviceMake=firefox&deviceModel=web&deviceType=web&deviceVersion=147.0.0&serverSideAds=false&sid=69a8ee66-6f3e-4593-b30e-6cb6cedf03f3",
+      "raw": "#EXTINF:-1 tvg-id=\"PlutoTVShowsporStingray.us@Brazil\" tvg-logo=\"https://i.imgur.com/TrG7Y84.png\" group-title=\"Music\",Pluto TV Shows por Stingray\r\r\nhttps://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/604b91e0692f770007d9f33f/master.m3u8?appName=web&appVersion=9.19.0&deviceDNT=0&deviceId=8ee99fa9-8924-42ef-bf8b-617216b5b280&deviceMake=firefox&deviceModel=web&deviceType=web&deviceVersion=147.0.0&serverSideAds=false&sid=69a8ee66-6f3e-4593-b30e-6cb6cedf03f3\r",
+      "line": 185,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Primer TV (1080p)",
       "tvg": {
         "id": "PrimerTV.br@SD",
@@ -2152,62 +2012,6 @@
       "url": "http://200.194.238.229:8383/live/primer/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"PrimerTV.br@SD\" tvg-logo=\"https://i.imgur.com/PMptSP3.png\" group-title=\"General\",Primer TV (1080p)\r\r\nhttp://200.194.238.229:8383/live/primer/playlist.m3u8\r",
       "line": 189,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "RBATV (720p)",
-      "tvg": {
-        "id": "RBATV.br@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/ZWFxlU1.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://cdn.live.br1.jmvstream.com/w/LVW-15748/LVW15748_Yed7yzLuRC/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"RBATV.br@SD\" tvg-logo=\"https://i.imgur.com/ZWFxlU1.png\" group-title=\"General\",RBATV (720p)\r\r\nhttps://cdn.live.br1.jmvstream.com/w/LVW-15748/LVW15748_Yed7yzLuRC/playlist.m3u8\r",
-      "line": 191,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "RecordTV",
-      "tvg": {
-        "id": "Record.br@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/sz9gTTr.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://cdn.jmvstream.com/w/LVW-10842/LVW10842_513N26MDBL/chunklist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Record.br@SD\" tvg-logo=\"https://i.imgur.com/sz9gTTr.png\" group-title=\"General\",RecordTV\r\r\nhttps://cdn.jmvstream.com/w/LVW-10842/LVW10842_513N26MDBL/chunklist.m3u8\r",
-      "line": 209,
       "catchup": {
         "type": "",
         "days": "",
@@ -2385,62 +2189,6 @@
       "status": "OK"
     },
     {
-      "name": "SBT Interior (720p)",
-      "tvg": {
-        "id": "SBTInterior.br@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/IkZfa4j.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://cdn.jmvstream.com/w/LVW-10801/LVW10801_Xvg4R0u57n/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"SBTInterior.br@SD\" tvg-logo=\"https://i.imgur.com/IkZfa4j.png\" group-title=\"General\",SBT Interior (720p)\r\r\nhttps://cdn.jmvstream.com/w/LVW-10801/LVW10801_Xvg4R0u57n/playlist.m3u8\r",
-      "line": 234,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Sertão TV (720p)",
-      "tvg": {
-        "id": "SertaoTV.br@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/b5xOCsC.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://wz4.dnip.com.br/sertaotv/sertaotv.sdp/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"SertaoTV.br@SD\" tvg-logo=\"https://i.imgur.com/b5xOCsC.png\" group-title=\"General\",Sertão TV (720p)\r\r\nhttp://wz4.dnip.com.br/sertaotv/sertaotv.sdp/playlist.m3u8\r",
-      "line": 236,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "SIC TV (720p)",
       "tvg": {
         "id": "SICTV.br@SD",
@@ -2469,34 +2217,6 @@
       "status": "OK"
     },
     {
-      "name": "STZ TV (1080p)",
-      "tvg": {
-        "id": "STZTV.br@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/SeF2I7q.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Culture;News"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://cdn.live.br1.jmvstream.com/webtv/AVJ-12952/playlist/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"STZTV.br@SD\" tvg-logo=\"https://i.imgur.com/SeF2I7q.png\" group-title=\"Culture;News\",STZ TV (1080p)\r\r\nhttps://cdn.live.br1.jmvstream.com/webtv/AVJ-12952/playlist/playlist.m3u8\r",
-      "line": 242,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Tastemade",
       "tvg": {
         "id": "TastemadeBrasil.us@Brazil",
@@ -2516,34 +2236,6 @@
       "url": "https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5fd1419a3b4f4b000773ba85/master.m3u8?appName=web&appVersion=9.19.0&deviceDNT=0&deviceId=8ee99fa9-8924-42ef-bf8b-617216b5b280&deviceMake=firefox&deviceModel=web&deviceType=web&deviceVersion=147.0.0&serverSideAds=false&sid=c3436a14-95dd-4f4e-9123-34cd08c8b57c",
       "raw": "#EXTINF:-1 tvg-id=\"TastemadeBrasil.us@Brazil\" tvg-logo=\"https://i.imgur.com/FPy4zF4.png\" group-title=\"Cooking\",Tastemade\r\r\nhttps://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5fd1419a3b4f4b000773ba85/master.m3u8?appName=web&appVersion=9.19.0&deviceDNT=0&deviceId=8ee99fa9-8924-42ef-bf8b-617216b5b280&deviceMake=firefox&deviceModel=web&deviceType=web&deviceVersion=147.0.0&serverSideAds=false&sid=c3436a14-95dd-4f4e-9123-34cd08c8b57c\r",
       "line": 244,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "TCM 10 HD (1080p)",
-      "tvg": {
-        "id": "TCM10HD.br@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/aMuMVvB.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "News"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://live.tcm10.com.br/tcm10hd/stream.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TCM10HD.br@SD\" tvg-logo=\"https://i.imgur.com/aMuMVvB.png\" group-title=\"News\",TCM 10 HD (1080p)\r\r\nhttps://live.tcm10.com.br/tcm10hd/stream.m3u8\r",
-      "line": 246,
       "catchup": {
         "type": "",
         "days": "",
@@ -2777,34 +2469,6 @@
       "status": "OK"
     },
     {
-      "name": "TV Aparecida (1080p) [Not 24/7]",
-      "tvg": {
-        "id": "TVAparecida.br@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/kxrja0X.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Religious"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://cdn.jmvstream.com/w/LVW-9716/LVW9716_HbtQtezcaw/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TVAparecida.br@SD\" tvg-logo=\"https://i.imgur.com/kxrja0X.png\" group-title=\"Religious\",TV Aparecida (1080p) [Not 24/7]\r\r\nhttps://cdn.jmvstream.com/w/LVW-9716/LVW9716_HbtQtezcaw/playlist.m3u8\r",
-      "line": 264,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "TV Arapuan (720p)",
       "tvg": {
         "id": "TVArapuan.br@SD",
@@ -2889,34 +2553,6 @@
       "status": "OK"
     },
     {
-      "name": "TV Brasil Oeste (720p)",
-      "tvg": {
-        "id": "TVBrasilOeste.br@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/noqGfuy.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://5ad482a77183d.streamlock.net/operacaotbomt.com/operacaotbomt.com/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TVBrasilOeste.br@SD\" tvg-logo=\"https://i.imgur.com/noqGfuy.png\" group-title=\"General\",TV Brasil Oeste (720p)\r\r\nhttps://5ad482a77183d.streamlock.net/operacaotbomt.com/operacaotbomt.com/playlist.m3u8\r",
-      "line": 279,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "TV BRICS Portuguese (1080p)",
       "tvg": {
         "id": "TVBRICSPortuguese.br@SD",
@@ -2936,6 +2572,34 @@
       "url": "https://porbrics.mediacdn.ru/cdn/brics/portuguese/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TVBRICSPortuguese.br@SD\" tvg-logo=\"https://i.imgur.com/vLpm8tN.png\" group-title=\"General\",TV BRICS Portuguese (1080p)\r\r\nhttps://porbrics.mediacdn.ru/cdn/brics/portuguese/playlist.m3u8\r",
       "line": 281,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "TV Brasil Oeste (720p)",
+      "tvg": {
+        "id": "TVBrasilOeste.br@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/noqGfuy.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://5ad482a77183d.streamlock.net/operacaotbomt.com/operacaotbomt.com/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"TVBrasilOeste.br@SD\" tvg-logo=\"https://i.imgur.com/noqGfuy.png\" group-title=\"General\",TV Brasil Oeste (720p)\r\r\nhttps://5ad482a77183d.streamlock.net/operacaotbomt.com/operacaotbomt.com/playlist.m3u8\r",
+      "line": 279,
       "catchup": {
         "type": "",
         "days": "",
@@ -3729,6 +3393,34 @@
       "status": "OK"
     },
     {
+      "name": "TV Sim Cachoeiro (720p)",
+      "tvg": {
+        "id": "TVSimCachoeiro.br@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/t5oUK3C.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "News"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://5cf4a2c2512a2.streamlock.net/8104/8104/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"TVSimCachoeiro.br@SD\" tvg-logo=\"https://i.imgur.com/t5oUK3C.png\" group-title=\"News\",TV Sim Cachoeiro (720p)\r\r\nhttps://5cf4a2c2512a2.streamlock.net/8104/8104/playlist.m3u8\r",
+      "line": 372,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "TV Sim Colatina (720p)",
       "tvg": {
         "id": "TVSimColatina.br@SD",
@@ -3953,90 +3645,6 @@
       "status": "OK"
     },
     {
-      "name": "TV Vila Real (720p)",
-      "tvg": {
-        "id": "TVVilaReal.br@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/Z1uWe7g.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://cdn.jmvstream.com/w/LVW-10841/LVW10841_mT77z9o2cP/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TVVilaReal.br@SD\" tvg-logo=\"https://i.imgur.com/Z1uWe7g.png\" group-title=\"Undefined\",TV Vila Real (720p)\r\r\nhttps://cdn.jmvstream.com/w/LVW-10841/LVW10841_mT77z9o2cP/playlist.m3u8\r",
-      "line": 394,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "TV Zoom (720p)",
-      "tvg": {
-        "id": "TVZoom.br@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/jCGrjf5.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Entertainment;News"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://cdn.jmvstream.com/w/LVW-9730/LVW9730_LmUwslM8jt/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TVZoom.br@SD\" tvg-logo=\"https://i.imgur.com/jCGrjf5.png\" group-title=\"Entertainment;News\",TV Zoom (720p)\r\r\nhttps://cdn.jmvstream.com/w/LVW-9730/LVW9730_LmUwslM8jt/playlist.m3u8\r",
-      "line": 396,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "TVC-Rio",
-      "tvg": {
-        "id": "TVCRio.br@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/WDiikWv.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://video05.logicahost.com.br/comunitariario/comunitariario/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TVCRio.br@SD\" tvg-logo=\"https://i.imgur.com/WDiikWv.png\" group-title=\"General\",TVC-Rio\r\r\nhttps://video05.logicahost.com.br/comunitariario/comunitariario/playlist.m3u8\r",
-      "line": 398,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "TVCOM DF (360p)",
       "tvg": {
         "id": "TVComunitaria.br@SD",
@@ -4084,6 +3692,34 @@
       "url": "https://srv5.zcast.com.br/tvcommaceio/tvcommaceio/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TVCOMMaceio.br@SD\" tvg-logo=\"https://i.imgur.com/IE7IZzi.png\" group-title=\"General\",TVCOM Maceió (480p)\r\r\nhttps://srv5.zcast.com.br/tvcommaceio/tvcommaceio/playlist.m3u8\r",
       "line": 402,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "TVC-Rio",
+      "tvg": {
+        "id": "TVCRio.br@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/WDiikWv.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://video05.logicahost.com.br/comunitariario/comunitariario/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"TVCRio.br@SD\" tvg-logo=\"https://i.imgur.com/WDiikWv.png\" group-title=\"General\",TVC-Rio\r\r\nhttps://video05.logicahost.com.br/comunitariario/comunitariario/playlist.m3u8\r",
+      "line": 398,
       "catchup": {
         "type": "",
         "days": "",
@@ -4149,25 +3785,25 @@
       "status": "OK"
     },
     {
-      "name": "TVNBN (720p)",
+      "name": "TVE RS (1080p)",
       "tvg": {
-        "id": "TVNBN.br@SD",
+        "id": "TVERS.br@SD",
         "name": "",
-        "logo": "https://i.imgur.com/zoHBxn1.png",
+        "logo": "https://i.imgur.com/MQ6lJpS.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "General"
+        "title": "Culture;Education"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://cdn.jmvstream.com/w/LVW-8410/LVW8410_uiZOVm6vz1/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TVNBN.br@SD\" tvg-logo=\"https://i.imgur.com/zoHBxn1.png\" group-title=\"General\",TVNBN (720p)\r\r\nhttps://cdn.jmvstream.com/w/LVW-8410/LVW8410_uiZOVm6vz1/playlist.m3u8\r",
-      "line": 424,
+      "url": "https://streaming.procergs.com.br:8443/tve/stve/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"TVERS.br@SD\" tvg-logo=\"https://i.imgur.com/MQ6lJpS.png\" group-title=\"Culture;Education\",TVE RS (1080p)\r\r\nhttps://streaming.procergs.com.br:8443/tve/stve/playlist.m3u8\r",
+      "line": 406,
       "catchup": {
         "type": "",
         "days": "",
