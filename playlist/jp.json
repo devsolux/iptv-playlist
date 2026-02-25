@@ -5,37 +5,9 @@
   },
   "items": [
     {
-      "name": "ABC (544p)",
-      "tvg": {
-        "id": "JOAYDTV.jp",
-        "name": "",
-        "logo": "https://i.imgur.com/I11J99B.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx02",
-      "raw": "#EXTINF:-1 tvg-id=\"JOAYDTV.jp\" tvg-logo=\"https://i.imgur.com/I11J99B.png\" group-title=\"General\",ABC (544p)\r\r\nhttp://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx02\r",
-      "line": 2,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "BS Asahi (544p)",
       "tvg": {
-        "id": "BSAsahi.jp",
+        "id": "BSAsahi.jp@SD",
         "name": "",
         "logo": "https://static.wikia.nocookie.net/logopedia/images/d/dd/Bs_Asahi_Logo.jpg/revision/latest/scale-to-width-down/512",
         "url": "",
@@ -50,7 +22,7 @@
         "user-agent": ""
       },
       "url": "http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs03",
-      "raw": "#EXTINF:-1 tvg-id=\"BSAsahi.jp\" tvg-logo=\"https://static.wikia.nocookie.net/logopedia/images/d/dd/Bs_Asahi_Logo.jpg/revision/latest/scale-to-width-down/512\" group-title=\"General\",BS Asahi (544p)\r\r\nhttp://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs03\r",
+      "raw": "#EXTINF:-1 tvg-id=\"BSAsahi.jp@SD\" tvg-logo=\"https://static.wikia.nocookie.net/logopedia/images/d/dd/Bs_Asahi_Logo.jpg/revision/latest/scale-to-width-down/512\" group-title=\"General\",BS Asahi (544p)\r\r\nhttp://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs03\r",
       "line": 4,
       "catchup": {
         "type": "",
@@ -61,11 +33,11 @@
       "status": "OK"
     },
     {
-      "name": "BS Fuji TV (544p)",
+      "name": "ABC (544p)",
       "tvg": {
-        "id": "BSFuji.jp",
+        "id": "JOAYDTV.jp@SD",
         "name": "",
-        "logo": "https://i.imgur.com/GzdCXAJ.png",
+        "logo": "https://i.imgur.com/I11J99B.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -77,9 +49,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs06",
-      "raw": "#EXTINF:-1 tvg-id=\"BSFuji.jp\" tvg-logo=\"https://i.imgur.com/GzdCXAJ.png\" group-title=\"General\",BS Fuji TV (544p)\r\r\nhttp://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs06\r",
-      "line": 6,
+      "url": "http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx02",
+      "raw": "#EXTINF:-1 tvg-id=\"JOAYDTV.jp@SD\" tvg-logo=\"https://i.imgur.com/I11J99B.png\" group-title=\"General\",ABC (544p)\r\r\nhttp://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx02\r",
+      "line": 2,
       "catchup": {
         "type": "",
         "days": "",
@@ -91,7 +63,7 @@
     {
       "name": "BS Nippon TV (544p)",
       "tvg": {
-        "id": "BSNipponTV.jp",
+        "id": "BSNipponTV.jp@SD",
         "name": "",
         "logo": "https://i.imgur.com/D8lhZCI.png",
         "url": "",
@@ -106,8 +78,36 @@
         "user-agent": ""
       },
       "url": "http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs02",
-      "raw": "#EXTINF:-1 tvg-id=\"BSNipponTV.jp\" tvg-logo=\"https://i.imgur.com/D8lhZCI.png\" group-title=\"General\",BS Nippon TV (544p)\r\r\nhttp://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs02\r",
+      "raw": "#EXTINF:-1 tvg-id=\"BSNipponTV.jp@SD\" tvg-logo=\"https://i.imgur.com/D8lhZCI.png\" group-title=\"General\",BS Nippon TV (544p)\r\r\nhttp://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs02\r",
       "line": 8,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "BS Fuji TV (544p)",
+      "tvg": {
+        "id": "BSFuji.jp@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/GzdCXAJ.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs06",
+      "raw": "#EXTINF:-1 tvg-id=\"BSFuji.jp@SD\" tvg-logo=\"https://i.imgur.com/GzdCXAJ.png\" group-title=\"General\",BS Fuji TV (544p)\r\r\nhttp://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs06\r",
+      "line": 6,
       "catchup": {
         "type": "",
         "days": "",
@@ -119,7 +119,7 @@
     {
       "name": "BS Shochiku Tokyu (1080p)",
       "tvg": {
-        "id": "BSShochikuTokyu.jp",
+        "id": "BSShochikuTokyu.jp@SD",
         "name": "",
         "logo": "https://i.imgur.com/pSKCgvv.png",
         "url": "",
@@ -134,7 +134,7 @@
         "user-agent": ""
       },
       "url": "http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs31",
-      "raw": "#EXTINF:-1 tvg-id=\"BSShochikuTokyu.jp\" tvg-logo=\"https://i.imgur.com/pSKCgvv.png\" group-title=\"Undefined\",BS Shochiku Tokyu (1080p)\r\r\nhttp://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs31\r",
+      "raw": "#EXTINF:-1 tvg-id=\"BSShochikuTokyu.jp@SD\" tvg-logo=\"https://i.imgur.com/pSKCgvv.png\" group-title=\"Undefined\",BS Shochiku Tokyu (1080p)\r\r\nhttp://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs31\r",
       "line": 10,
       "catchup": {
         "type": "",
@@ -147,7 +147,7 @@
     {
       "name": "BS TBS (544p)",
       "tvg": {
-        "id": "BSTBS.jp",
+        "id": "BSTBS.jp@SD",
         "name": "",
         "logo": "https://i.imgur.com/h20eGKq.png",
         "url": "",
@@ -162,7 +162,7 @@
         "user-agent": ""
       },
       "url": "http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs04",
-      "raw": "#EXTINF:-1 tvg-id=\"BSTBS.jp\" tvg-logo=\"https://i.imgur.com/h20eGKq.png\" group-title=\"General\",BS TBS (544p)\r\r\nhttp://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs04\r",
+      "raw": "#EXTINF:-1 tvg-id=\"BSTBS.jp@SD\" tvg-logo=\"https://i.imgur.com/h20eGKq.png\" group-title=\"General\",BS TBS (544p)\r\r\nhttp://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs04\r",
       "line": 12,
       "catchup": {
         "type": "",
@@ -175,7 +175,7 @@
     {
       "name": "BS TV Tokyo (544p)",
       "tvg": {
-        "id": "BSTVTokyo.jp",
+        "id": "BSTVTokyo.jp@SD",
         "name": "",
         "logo": "https://static.wikia.nocookie.net/logopedia/images/3/39/BSTVTokyo_2024logo-TeletoVer.svg/revision/latest/scale-to-width-down/512",
         "url": "",
@@ -190,120 +190,8 @@
         "user-agent": ""
       },
       "url": "http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs05",
-      "raw": "#EXTINF:-1 tvg-id=\"BSTVTokyo.jp\" tvg-logo=\"https://static.wikia.nocookie.net/logopedia/images/3/39/BSTVTokyo_2024logo-TeletoVer.svg/revision/latest/scale-to-width-down/512\" group-title=\"General\",BS TV Tokyo (544p)\r\r\nhttp://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs05\r",
+      "raw": "#EXTINF:-1 tvg-id=\"BSTVTokyo.jp@SD\" tvg-logo=\"https://static.wikia.nocookie.net/logopedia/images/3/39/BSTVTokyo_2024logo-TeletoVer.svg/revision/latest/scale-to-width-down/512\" group-title=\"General\",BS TV Tokyo (544p)\r\r\nhttp://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs05\r",
       "line": 14,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Channel Ginga (1080p)",
-      "tvg": {
-        "id": "ChannelGinga.jp",
-        "name": "",
-        "logo": "https://www.ch-ginga.jp/assets/images/common/header_logo.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs29",
-      "raw": "#EXTINF:-1 tvg-id=\"ChannelGinga.jp\" tvg-logo=\"https://www.ch-ginga.jp/assets/images/common/header_logo.png\" group-title=\"General\",Channel Ginga (1080p)\r\r\nhttp://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs29\r",
-      "line": 19,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Disney Channel Japan (544p)",
-      "tvg": {
-        "id": "DisneyChannel.jp",
-        "name": "",
-        "logo": "https://i.imgur.com/VSq7b5E.jpg",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Kids"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs24",
-      "raw": "#EXTINF:-1 tvg-id=\"DisneyChannel.jp\" tvg-logo=\"https://i.imgur.com/VSq7b5E.jpg\" group-title=\"Kids\",Disney Channel Japan (544p)\r\r\nhttp://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs24\r",
-      "line": 21,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Eisei Gekijo (544p)",
-      "tvg": {
-        "id": "EiseiGekijo.jp",
-        "name": "",
-        "logo": "https://yt3.googleusercontent.com/d5yMuTHpdKEjTqXDEnS-iYo_AaKwuwYtHRs3gbLB9Hg8j_XtXyUXOeKxetptLhz85SciuA5i=s512-c-k-c0x00ffffff-no-rj",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Movies"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs22",
-      "raw": "#EXTINF:-1 tvg-id=\"EiseiGekijo.jp\" tvg-logo=\"https://yt3.googleusercontent.com/d5yMuTHpdKEjTqXDEnS-iYo_AaKwuwYtHRs3gbLB9Hg8j_XtXyUXOeKxetptLhz85SciuA5i=s512-c-k-c0x00ffffff-no-rj\" group-title=\"Movies\",Eisei Gekijo (544p)\r\r\nhttp://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs22\r",
-      "line": 25,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Family Gekijo (544p)",
-      "tvg": {
-        "id": "FamilyGekijyo.jp",
-        "name": "",
-        "logo": "https://i.imgur.com/PCx6Qz3.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Family"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs20",
-      "raw": "#EXTINF:-1 tvg-id=\"FamilyGekijyo.jp\" tvg-logo=\"https://i.imgur.com/PCx6Qz3.png\" group-title=\"Family\",Family Gekijo (544p)\r\r\nhttp://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs20\r",
-      "line": 27,
       "catchup": {
         "type": "",
         "days": "",
@@ -341,9 +229,121 @@
       "status": "OK"
     },
     {
+      "name": "Channel Ginga (1080p)",
+      "tvg": {
+        "id": "ChannelGinga.jp@SD",
+        "name": "",
+        "logo": "https://www.ch-ginga.jp/assets/images/common/header_logo.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs29",
+      "raw": "#EXTINF:-1 tvg-id=\"ChannelGinga.jp@SD\" tvg-logo=\"https://www.ch-ginga.jp/assets/images/common/header_logo.png\" group-title=\"General\",Channel Ginga (1080p)\r\r\nhttp://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs29\r",
+      "line": 19,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Disney Channel Japan (544p)",
+      "tvg": {
+        "id": "DisneyChannel.jp@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/VSq7b5E.jpg",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Kids"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs24",
+      "raw": "#EXTINF:-1 tvg-id=\"DisneyChannel.jp@SD\" tvg-logo=\"https://i.imgur.com/VSq7b5E.jpg\" group-title=\"Kids\",Disney Channel Japan (544p)\r\r\nhttp://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs24\r",
+      "line": 21,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Eisei Gekijo (544p)",
+      "tvg": {
+        "id": "EiseiGekijo.jp@SD",
+        "name": "",
+        "logo": "https://yt3.googleusercontent.com/d5yMuTHpdKEjTqXDEnS-iYo_AaKwuwYtHRs3gbLB9Hg8j_XtXyUXOeKxetptLhz85SciuA5i=s512-c-k-c0x00ffffff-no-rj",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Movies"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs22",
+      "raw": "#EXTINF:-1 tvg-id=\"EiseiGekijo.jp@SD\" tvg-logo=\"https://yt3.googleusercontent.com/d5yMuTHpdKEjTqXDEnS-iYo_AaKwuwYtHRs3gbLB9Hg8j_XtXyUXOeKxetptLhz85SciuA5i=s512-c-k-c0x00ffffff-no-rj\" group-title=\"Movies\",Eisei Gekijo (544p)\r\r\nhttp://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs22\r",
+      "line": 25,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Family Gekijo (544p)",
+      "tvg": {
+        "id": "FamilyGekijyo.jp@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/PCx6Qz3.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Family"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs20",
+      "raw": "#EXTINF:-1 tvg-id=\"FamilyGekijyo.jp@SD\" tvg-logo=\"https://i.imgur.com/PCx6Qz3.png\" group-title=\"Family\",Family Gekijo (544p)\r\r\nhttp://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs20\r",
+      "line": 27,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Fishing Vision (544p)",
       "tvg": {
-        "id": "FishingVision.jp",
+        "id": "FishingVision.jp@SD",
         "name": "",
         "logo": "https://i.imgur.com/qX6nNOF.png",
         "url": "",
@@ -358,7 +358,7 @@
         "user-agent": ""
       },
       "url": "http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs25",
-      "raw": "#EXTINF:-1 tvg-id=\"FishingVision.jp\" tvg-logo=\"https://i.imgur.com/qX6nNOF.png\" group-title=\"Outdoor\",Fishing Vision (544p)\r\r\nhttp://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs25\r",
+      "raw": "#EXTINF:-1 tvg-id=\"FishingVision.jp@SD\" tvg-logo=\"https://i.imgur.com/qX6nNOF.png\" group-title=\"Outdoor\",Fishing Vision (544p)\r\r\nhttp://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs25\r",
       "line": 29,
       "catchup": {
         "type": "",
@@ -371,7 +371,7 @@
     {
       "name": "Fuji TV (544p)",
       "tvg": {
-        "id": "JOCXDTV.jp",
+        "id": "JOCXDTV.jp@SD",
         "name": "",
         "logo": "https://i.imgur.com/sEWDmMD.png",
         "url": "",
@@ -386,7 +386,7 @@
         "user-agent": ""
       },
       "url": "http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd05",
-      "raw": "#EXTINF:-1 tvg-id=\"JOCXDTV.jp\" tvg-logo=\"https://i.imgur.com/sEWDmMD.png\" group-title=\"General\",Fuji TV (544p)\r\r\nhttp://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd05\r",
+      "raw": "#EXTINF:-1 tvg-id=\"JOCXDTV.jp@SD\" tvg-logo=\"https://i.imgur.com/sEWDmMD.png\" group-title=\"General\",Fuji TV (544p)\r\r\nhttp://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd05\r",
       "line": 31,
       "catchup": {
         "type": "",
@@ -399,7 +399,7 @@
     {
       "name": "Fuji TV NEXT (544p)",
       "tvg": {
-        "id": "FujiTVNEXT.jp",
+        "id": "FujiTVNEXT.jp@SD",
         "name": "",
         "logo": "https://static.wikia.nocookie.net/logopedia/images/3/3b/Next-fujitv_logo.jpg/revision/latest",
         "url": "",
@@ -414,7 +414,7 @@
         "user-agent": ""
       },
       "url": "http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs26",
-      "raw": "#EXTINF:-1 tvg-id=\"FujiTVNEXT.jp\" tvg-logo=\"https://static.wikia.nocookie.net/logopedia/images/3/3b/Next-fujitv_logo.jpg/revision/latest\" group-title=\"Entertainment\",Fuji TV NEXT (544p)\r\r\nhttp://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs26\r",
+      "raw": "#EXTINF:-1 tvg-id=\"FujiTVNEXT.jp@SD\" tvg-logo=\"https://static.wikia.nocookie.net/logopedia/images/3/3b/Next-fujitv_logo.jpg/revision/latest\" group-title=\"Entertainment\",Fuji TV NEXT (544p)\r\r\nhttp://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs26\r",
       "line": 33,
       "catchup": {
         "type": "",
@@ -427,7 +427,7 @@
     {
       "name": "Gaora Sports (544p)",
       "tvg": {
-        "id": "GAORASPORTS.jp",
+        "id": "GAORASPORTS.jp@SD",
         "name": "",
         "logo": "https://i.imgur.com/UgKRfuw.png",
         "url": "",
@@ -442,7 +442,7 @@
         "user-agent": ""
       },
       "url": "http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs17",
-      "raw": "#EXTINF:-1 tvg-id=\"GAORASPORTS.jp\" tvg-logo=\"https://i.imgur.com/UgKRfuw.png\" group-title=\"Sports\",Gaora Sports (544p)\r\r\nhttp://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs17\r",
+      "raw": "#EXTINF:-1 tvg-id=\"GAORASPORTS.jp@SD\" tvg-logo=\"https://i.imgur.com/UgKRfuw.png\" group-title=\"Sports\",Gaora Sports (544p)\r\r\nhttp://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs17\r",
       "line": 35,
       "catchup": {
         "type": "",
@@ -455,7 +455,7 @@
     {
       "name": "Green Channel (544p)",
       "tvg": {
-        "id": "GreenChannel.jp",
+        "id": "GreenChannel.jp@SD",
         "name": "",
         "logo": "https://i.imgur.com/sD3z8j7.png",
         "url": "",
@@ -470,7 +470,7 @@
         "user-agent": ""
       },
       "url": "http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs14",
-      "raw": "#EXTINF:-1 tvg-id=\"GreenChannel.jp\" tvg-logo=\"https://i.imgur.com/sD3z8j7.png\" group-title=\"Outdoor\",Green Channel (544p)\r\r\nhttp://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs14\r",
+      "raw": "#EXTINF:-1 tvg-id=\"GreenChannel.jp@SD\" tvg-logo=\"https://i.imgur.com/sD3z8j7.png\" group-title=\"Outdoor\",Green Channel (544p)\r\r\nhttp://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs14\r",
       "line": 39,
       "catchup": {
         "type": "",
@@ -483,7 +483,7 @@
     {
       "name": "History Channel Japan (544p)",
       "tvg": {
-        "id": "History.jp",
+        "id": "History.jp@SD",
         "name": "",
         "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/512px-History_%282021%29.svg.png",
         "url": "",
@@ -498,7 +498,7 @@
         "user-agent": ""
       },
       "url": "http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs09",
-      "raw": "#EXTINF:-1 tvg-id=\"History.jp\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/512px-History_%282021%29.svg.png\" group-title=\"Documentary\",History Channel Japan (544p)\r\r\nhttp://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs09\r",
+      "raw": "#EXTINF:-1 tvg-id=\"History.jp@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/512px-History_%282021%29.svg.png\" group-title=\"Documentary\",History Channel Japan (544p)\r\r\nhttp://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs09\r",
       "line": 43,
       "catchup": {
         "type": "",
@@ -511,7 +511,7 @@
     {
       "name": "Home Drama Channel (544p)",
       "tvg": {
-        "id": "HomeDramaChannel.jp",
+        "id": "HomeDramaChannel.jp@SD",
         "name": "",
         "logo": "https://i.imgur.com/iNkKh7w.png",
         "url": "",
@@ -526,7 +526,7 @@
         "user-agent": ""
       },
       "url": "http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs05",
-      "raw": "#EXTINF:-1 tvg-id=\"HomeDramaChannel.jp\" tvg-logo=\"https://i.imgur.com/iNkKh7w.png\" group-title=\"Entertainment\",Home Drama Channel (544p)\r\r\nhttp://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs05\r",
+      "raw": "#EXTINF:-1 tvg-id=\"HomeDramaChannel.jp@SD\" tvg-logo=\"https://i.imgur.com/iNkKh7w.png\" group-title=\"Entertainment\",Home Drama Channel (544p)\r\r\nhttp://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs05\r",
       "line": 45,
       "catchup": {
         "type": "",
@@ -539,7 +539,7 @@
     {
       "name": "J Sports 1 (544p)",
       "tvg": {
-        "id": "JSPORTS1.jp",
+        "id": "JSPORTS1.jp@SD",
         "name": "",
         "logo": "https://i.imgur.com/vEpjLnj.png",
         "url": "",
@@ -554,7 +554,7 @@
         "user-agent": ""
       },
       "url": "http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs18",
-      "raw": "#EXTINF:-1 tvg-id=\"JSPORTS1.jp\" tvg-logo=\"https://i.imgur.com/vEpjLnj.png\" group-title=\"Sports\",J Sports 1 (544p)\r\r\nhttp://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs18\r",
+      "raw": "#EXTINF:-1 tvg-id=\"JSPORTS1.jp@SD\" tvg-logo=\"https://i.imgur.com/vEpjLnj.png\" group-title=\"Sports\",J Sports 1 (544p)\r\r\nhttp://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs18\r",
       "line": 47,
       "catchup": {
         "type": "",
@@ -567,7 +567,7 @@
     {
       "name": "J Sports 2 (544p)",
       "tvg": {
-        "id": "JSPORTS2.jp",
+        "id": "JSPORTS2.jp@SD",
         "name": "",
         "logo": "https://i.imgur.com/g1GLVH2.png",
         "url": "",
@@ -582,7 +582,7 @@
         "user-agent": ""
       },
       "url": "http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs19",
-      "raw": "#EXTINF:-1 tvg-id=\"JSPORTS2.jp\" tvg-logo=\"https://i.imgur.com/g1GLVH2.png\" group-title=\"Sports\",J Sports 2 (544p)\r\r\nhttp://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs19\r",
+      "raw": "#EXTINF:-1 tvg-id=\"JSPORTS2.jp@SD\" tvg-logo=\"https://i.imgur.com/g1GLVH2.png\" group-title=\"Sports\",J Sports 2 (544p)\r\r\nhttp://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs19\r",
       "line": 49,
       "catchup": {
         "type": "",
@@ -595,7 +595,7 @@
     {
       "name": "J Sports 3 (544p)",
       "tvg": {
-        "id": "JSPORTS3.jp",
+        "id": "JSPORTS3.jp@SD",
         "name": "",
         "logo": "https://i.imgur.com/xdI361E.png",
         "url": "",
@@ -610,7 +610,7 @@
         "user-agent": ""
       },
       "url": "http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs21",
-      "raw": "#EXTINF:-1 tvg-id=\"JSPORTS3.jp\" tvg-logo=\"https://i.imgur.com/xdI361E.png\" group-title=\"Sports\",J Sports 3 (544p)\r\r\nhttp://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs21\r",
+      "raw": "#EXTINF:-1 tvg-id=\"JSPORTS3.jp@SD\" tvg-logo=\"https://i.imgur.com/xdI361E.png\" group-title=\"Sports\",J Sports 3 (544p)\r\r\nhttp://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs21\r",
       "line": 51,
       "catchup": {
         "type": "",
@@ -623,7 +623,7 @@
     {
       "name": "J Sports 4 (544p)",
       "tvg": {
-        "id": "JSPORTS4.jp",
+        "id": "JSPORTS4.jp@SD",
         "name": "",
         "logo": "https://i.imgur.com/fBcyZNL.png",
         "url": "",
@@ -638,7 +638,7 @@
         "user-agent": ""
       },
       "url": "http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs22",
-      "raw": "#EXTINF:-1 tvg-id=\"JSPORTS4.jp\" tvg-logo=\"https://i.imgur.com/fBcyZNL.png\" group-title=\"Sports\",J Sports 4 (544p)\r\r\nhttp://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs22\r",
+      "raw": "#EXTINF:-1 tvg-id=\"JSPORTS4.jp@SD\" tvg-logo=\"https://i.imgur.com/fBcyZNL.png\" group-title=\"Sports\",J Sports 4 (544p)\r\r\nhttp://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs22\r",
       "line": 53,
       "catchup": {
         "type": "",
@@ -651,7 +651,7 @@
     {
       "name": "Jidaigeki Senmon (544p)",
       "tvg": {
-        "id": "JidaigekiSenmonChannel.jp",
+        "id": "JidaigekiSenmonChannel.jp@SD",
         "name": "",
         "logo": "https://i.imgur.com/8T72RIH.png",
         "url": "",
@@ -666,7 +666,7 @@
         "user-agent": ""
       },
       "url": "http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs04",
-      "raw": "#EXTINF:-1 tvg-id=\"JidaigekiSenmonChannel.jp\" tvg-logo=\"https://i.imgur.com/8T72RIH.png\" group-title=\"Entertainment\",Jidaigeki Senmon (544p)\r\r\nhttp://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs04\r",
+      "raw": "#EXTINF:-1 tvg-id=\"JidaigekiSenmonChannel.jp@SD\" tvg-logo=\"https://i.imgur.com/8T72RIH.png\" group-title=\"Entertainment\",Jidaigeki Senmon (544p)\r\r\nhttp://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs04\r",
       "line": 55,
       "catchup": {
         "type": "",
@@ -707,7 +707,7 @@
     {
       "name": "Kansai TV (544p)",
       "tvg": {
-        "id": "JODXDTV.jp",
+        "id": "JODXDTV.jp@SD",
         "name": "",
         "logo": "https://i.imgur.com/WMNg5De.png",
         "url": "",
@@ -722,7 +722,7 @@
         "user-agent": ""
       },
       "url": "http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx03",
-      "raw": "#EXTINF:-1 tvg-id=\"JODXDTV.jp\" tvg-logo=\"https://i.imgur.com/WMNg5De.png\" group-title=\"General\",Kansai TV (544p)\r\r\nhttp://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx03\r",
+      "raw": "#EXTINF:-1 tvg-id=\"JODXDTV.jp@SD\" tvg-logo=\"https://i.imgur.com/WMNg5De.png\" group-title=\"General\",Kansai TV (544p)\r\r\nhttp://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx03\r",
       "line": 61,
       "catchup": {
         "type": "",
@@ -735,7 +735,7 @@
     {
       "name": "Kayo Pops (544p)",
       "tvg": {
-        "id": "KayoPops.jp",
+        "id": "KayoPops.jp@SD",
         "name": "",
         "logo": "https://yt3.googleusercontent.com/ytc/AIdro_m1AFOxZHFBvf-eLgADxBaFKa54T5oDOvxEaQfz9VMCU_c=s512-c-k-c0x00ffffff-no-rj",
         "url": "",
@@ -750,7 +750,7 @@
         "user-agent": ""
       },
       "url": "http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs13",
-      "raw": "#EXTINF:-1 tvg-id=\"KayoPops.jp\" tvg-logo=\"https://yt3.googleusercontent.com/ytc/AIdro_m1AFOxZHFBvf-eLgADxBaFKa54T5oDOvxEaQfz9VMCU_c=s512-c-k-c0x00ffffff-no-rj\" group-title=\"Music\",Kayo Pops (544p)\r\r\nhttp://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs13\r",
+      "raw": "#EXTINF:-1 tvg-id=\"KayoPops.jp@SD\" tvg-logo=\"https://yt3.googleusercontent.com/ytc/AIdro_m1AFOxZHFBvf-eLgADxBaFKa54T5oDOvxEaQfz9VMCU_c=s512-c-k-c0x00ffffff-no-rj\" group-title=\"Music\",Kayo Pops (544p)\r\r\nhttp://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs13\r",
       "line": 63,
       "catchup": {
         "type": "",
@@ -791,7 +791,7 @@
     {
       "name": "Kids Station (544p)",
       "tvg": {
-        "id": "KidsStation.jp",
+        "id": "KidsStation.jp@SD",
         "name": "",
         "logo": "https://i.imgur.com/Z2HEh0A.jpeg",
         "url": "",
@@ -806,7 +806,7 @@
         "user-agent": ""
       },
       "url": "http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs07",
-      "raw": "#EXTINF:-1 tvg-id=\"KidsStation.jp\" tvg-logo=\"https://i.imgur.com/Z2HEh0A.jpeg\" group-title=\"Kids\",Kids Station (544p)\r\r\nhttp://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs07\r",
+      "raw": "#EXTINF:-1 tvg-id=\"KidsStation.jp@SD\" tvg-logo=\"https://i.imgur.com/Z2HEh0A.jpeg\" group-title=\"Kids\",Kids Station (544p)\r\r\nhttp://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs07\r",
       "line": 65,
       "catchup": {
         "type": "",
@@ -819,7 +819,7 @@
     {
       "name": "MBS (544p)",
       "tvg": {
-        "id": "JOOYDTV.jp",
+        "id": "JOOYDTV.jp@SD",
         "name": "",
         "logo": "https://i.imgur.com/RfrkGrd.png",
         "url": "",
@@ -834,7 +834,7 @@
         "user-agent": ""
       },
       "url": "http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx01",
-      "raw": "#EXTINF:-1 tvg-id=\"JOOYDTV.jp\" tvg-logo=\"https://i.imgur.com/RfrkGrd.png\" group-title=\"General\",MBS (544p)\r\r\nhttp://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx01\r",
+      "raw": "#EXTINF:-1 tvg-id=\"JOOYDTV.jp@SD\" tvg-logo=\"https://i.imgur.com/RfrkGrd.png\" group-title=\"General\",MBS (544p)\r\r\nhttp://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx01\r",
       "line": 67,
       "catchup": {
         "type": "",
@@ -847,7 +847,7 @@
     {
       "name": "MTV Japan (544p)",
       "tvg": {
-        "id": "MTV.jp",
+        "id": "MTV.jp@SD",
         "name": "",
         "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/MTV_2021_%28brand_version%29.svg/512px-MTV_2021_%28brand_version%29.svg.png",
         "url": "",
@@ -862,7 +862,7 @@
         "user-agent": ""
       },
       "url": "http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs18",
-      "raw": "#EXTINF:-1 tvg-id=\"MTV.jp\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/MTV_2021_%28brand_version%29.svg/512px-MTV_2021_%28brand_version%29.svg.png\" group-title=\"Entertainment\",MTV Japan (544p)\r\r\nhttp://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs18\r",
+      "raw": "#EXTINF:-1 tvg-id=\"MTV.jp@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/MTV_2021_%28brand_version%29.svg/512px-MTV_2021_%28brand_version%29.svg.png\" group-title=\"Entertainment\",MTV Japan (544p)\r\r\nhttp://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs18\r",
       "line": 71,
       "catchup": {
         "type": "",
@@ -875,7 +875,7 @@
     {
       "name": "Music Japan TV (544p)",
       "tvg": {
-        "id": "MusicJapanTV.jp",
+        "id": "MusicJapanTV.jp@SD",
         "name": "",
         "logo": "https://i.imgur.com/DkF8YZq.jpeg",
         "url": "",
@@ -890,7 +890,7 @@
         "user-agent": ""
       },
       "url": "http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs06",
-      "raw": "#EXTINF:-1 tvg-id=\"MusicJapanTV.jp\" tvg-logo=\"https://i.imgur.com/DkF8YZq.jpeg\" group-title=\"Music\",Music Japan TV (544p)\r\r\nhttp://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs06\r",
+      "raw": "#EXTINF:-1 tvg-id=\"MusicJapanTV.jp@SD\" tvg-logo=\"https://i.imgur.com/DkF8YZq.jpeg\" group-title=\"Music\",Music Japan TV (544p)\r\r\nhttp://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs06\r",
       "line": 73,
       "catchup": {
         "type": "",
@@ -903,7 +903,7 @@
     {
       "name": "National Geographic Japan (1080p)",
       "tvg": {
-        "id": "NationalGeographic.jp",
+        "id": "NationalGeographic.jp@SD",
         "name": "",
         "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/512px-Natgeologo.svg.png",
         "url": "",
@@ -918,7 +918,7 @@
         "user-agent": ""
       },
       "url": "http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs10",
-      "raw": "#EXTINF:-1 tvg-id=\"NationalGeographic.jp\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/512px-Natgeologo.svg.png\" group-title=\"Documentary\",National Geographic Japan (1080p)\r\r\nhttp://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs10\r",
+      "raw": "#EXTINF:-1 tvg-id=\"NationalGeographic.jp@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/512px-Natgeologo.svg.png\" group-title=\"Documentary\",National Geographic Japan (1080p)\r\r\nhttp://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs10\r",
       "line": 75,
       "catchup": {
         "type": "",
@@ -959,7 +959,7 @@
     {
       "name": "NHK BSP4K (1080p)",
       "tvg": {
-        "id": "NHKBSP4K.jp",
+        "id": "NHKBSP4K.jp@SD",
         "name": "",
         "logo": "https://i.imgur.com/uvPpFo5.png",
         "url": "",
@@ -974,7 +974,7 @@
         "user-agent": ""
       },
       "url": "http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs01",
-      "raw": "#EXTINF:-1 tvg-id=\"NHKBSP4K.jp\" tvg-logo=\"https://i.imgur.com/uvPpFo5.png\" group-title=\"Entertainment\",NHK BSP4K (1080p)\r\r\nhttp://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs01\r",
+      "raw": "#EXTINF:-1 tvg-id=\"NHKBSP4K.jp@SD\" tvg-logo=\"https://i.imgur.com/uvPpFo5.png\" group-title=\"Entertainment\",NHK BSP4K (1080p)\r\r\nhttp://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs01\r",
       "line": 79,
       "catchup": {
         "type": "",
@@ -987,7 +987,7 @@
     {
       "name": "NHK G (Osaka) (544p)",
       "tvg": {
-        "id": "JOBKDTV.jp",
+        "id": "JOBKDTV.jp@SD",
         "name": "",
         "logo": "https://i.imgur.com/fAZ2BEZ.png",
         "url": "",
@@ -1002,7 +1002,7 @@
         "user-agent": ""
       },
       "url": "http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx06",
-      "raw": "#EXTINF:-1 tvg-id=\"JOBKDTV.jp\" tvg-logo=\"https://i.imgur.com/fAZ2BEZ.png\" group-title=\"General\",NHK G (Osaka) (544p)\r\r\nhttp://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx06\r",
+      "raw": "#EXTINF:-1 tvg-id=\"JOBKDTV.jp@SD\" tvg-logo=\"https://i.imgur.com/fAZ2BEZ.png\" group-title=\"General\",NHK G (Osaka) (544p)\r\r\nhttp://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx06\r",
       "line": 81,
       "catchup": {
         "type": "",
@@ -1015,7 +1015,7 @@
     {
       "name": "NHK G (Tokyo) (544p)",
       "tvg": {
-        "id": "JOAKDTV.jp",
+        "id": "JOAKDTV.jp@SD",
         "name": "",
         "logo": "https://i.imgur.com/fAZ2BEZ.png",
         "url": "",
@@ -1030,7 +1030,7 @@
         "user-agent": ""
       },
       "url": "http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd01",
-      "raw": "#EXTINF:-1 tvg-id=\"JOAKDTV.jp\" tvg-logo=\"https://i.imgur.com/fAZ2BEZ.png\" group-title=\"General\",NHK G (Tokyo) (544p)\r\r\nhttp://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd01\r",
+      "raw": "#EXTINF:-1 tvg-id=\"JOAKDTV.jp@SD\" tvg-logo=\"https://i.imgur.com/fAZ2BEZ.png\" group-title=\"General\",NHK G (Tokyo) (544p)\r\r\nhttp://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd01\r",
       "line": 83,
       "catchup": {
         "type": "",
@@ -1043,7 +1043,7 @@
     {
       "name": "Nihon Eiga Senmon (544p)",
       "tvg": {
-        "id": "NihonEigaSenmonChannel.jp",
+        "id": "NihonEigaSenmonChannel.jp@SD",
         "name": "",
         "logo": "https://i.imgur.com/B2wzA67.png",
         "url": "",
@@ -1058,36 +1058,8 @@
         "user-agent": ""
       },
       "url": "http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs23",
-      "raw": "#EXTINF:-1 tvg-id=\"NihonEigaSenmonChannel.jp\" tvg-logo=\"https://i.imgur.com/B2wzA67.png\" group-title=\"Movies\",Nihon Eiga Senmon (544p)\r\r\nhttp://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs23\r",
+      "raw": "#EXTINF:-1 tvg-id=\"NihonEigaSenmonChannel.jp@SD\" tvg-logo=\"https://i.imgur.com/B2wzA67.png\" group-title=\"Movies\",Nihon Eiga Senmon (544p)\r\r\nhttp://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs23\r",
       "line": 87,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Nittele G Plus (544p)",
-      "tvg": {
-        "id": "NitteleGPlus.jp",
-        "name": "",
-        "logo": "https://i.imgur.com/7237pCC.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Sports"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs02",
-      "raw": "#EXTINF:-1 tvg-id=\"NitteleGPlus.jp\" tvg-logo=\"https://i.imgur.com/7237pCC.png\" group-title=\"Sports\",Nittele G Plus (544p)\r\r\nhttp://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs02\r",
-      "line": 91,
       "catchup": {
         "type": "",
         "days": "",
@@ -1125,25 +1097,25 @@
       "status": "OK"
     },
     {
-      "name": "QVC Japan (720p)",
+      "name": "Nittele G Plus (544p)",
       "tvg": {
-        "id": "QVC.jp@SD",
+        "id": "NitteleGPlus.jp@SD",
         "name": "",
-        "logo": "https://i.imgur.com/6TWUVrh.png",
+        "logo": "https://i.imgur.com/7237pCC.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Shop"
+        "title": "Sports"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://cdn-live1.qvc.jp/iPhone/1501/1501.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"QVC.jp@SD\" tvg-logo=\"https://i.imgur.com/6TWUVrh.png\" group-title=\"Shop\",QVC Japan (720p)\r\r\nhttps://cdn-live1.qvc.jp/iPhone/1501/1501.m3u8\r",
-      "line": 93,
+      "url": "http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs02",
+      "raw": "#EXTINF:-1 tvg-id=\"NitteleGPlus.jp@SD\" tvg-logo=\"https://i.imgur.com/7237pCC.png\" group-title=\"Sports\",Nittele G Plus (544p)\r\r\nhttp://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs02\r",
+      "line": 91,
       "catchup": {
         "type": "",
         "days": "",
@@ -1181,9 +1153,37 @@
       "status": "OK"
     },
     {
+      "name": "QVC Japan (720p)",
+      "tvg": {
+        "id": "QVC.jp@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/6TWUVrh.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Shop"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://cdn-live1.qvc.jp/iPhone/1501/1501.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"QVC.jp@SD\" tvg-logo=\"https://i.imgur.com/6TWUVrh.png\" group-title=\"Shop\",QVC Japan (720p)\r\r\nhttps://cdn-live1.qvc.jp/iPhone/1501/1501.m3u8\r",
+      "line": 93,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Sky A (544p)",
       "tvg": {
-        "id": "SkyA.jp",
+        "id": "SkyA.jp@SD",
         "name": "",
         "logo": "https://i.imgur.com/JU3wZ0k.png",
         "url": "",
@@ -1198,7 +1198,7 @@
         "user-agent": ""
       },
       "url": "http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs01",
-      "raw": "#EXTINF:-1 tvg-id=\"SkyA.jp\" tvg-logo=\"https://i.imgur.com/JU3wZ0k.png\" group-title=\"Undefined\",Sky A (544p)\r\r\nhttp://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs01\r",
+      "raw": "#EXTINF:-1 tvg-id=\"SkyA.jp@SD\" tvg-logo=\"https://i.imgur.com/JU3wZ0k.png\" group-title=\"Undefined\",Sky A (544p)\r\r\nhttp://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs01\r",
       "line": 97,
       "catchup": {
         "type": "",
@@ -1211,7 +1211,7 @@
     {
       "name": "Space Shower TV (544p)",
       "tvg": {
-        "id": "SpaceShowerTV.jp",
+        "id": "SpaceShowerTV.jp@SD",
         "name": "",
         "logo": "https://static.wikia.nocookie.net/logopedia/images/2/24/Space_Shower_-_1999.svg/revision/latest/scale-to-width-down/512",
         "url": "",
@@ -1226,7 +1226,7 @@
         "user-agent": ""
       },
       "url": "http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs26",
-      "raw": "#EXTINF:-1 tvg-id=\"SpaceShowerTV.jp\" tvg-logo=\"https://static.wikia.nocookie.net/logopedia/images/2/24/Space_Shower_-_1999.svg/revision/latest/scale-to-width-down/512\" group-title=\"Music\",Space Shower TV (544p)\r\r\nhttp://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs26\r",
+      "raw": "#EXTINF:-1 tvg-id=\"SpaceShowerTV.jp@SD\" tvg-logo=\"https://static.wikia.nocookie.net/logopedia/images/2/24/Space_Shower_-_1999.svg/revision/latest/scale-to-width-down/512\" group-title=\"Music\",Space Shower TV (544p)\r\r\nhttp://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs26\r",
       "line": 99,
       "catchup": {
         "type": "",
@@ -1239,7 +1239,7 @@
     {
       "name": "Sun TV (544p)",
       "tvg": {
-        "id": "JOUHDTV.jp",
+        "id": "JOUHDTV.jp@SD",
         "name": "",
         "logo": "https://i.imgur.com/0qtXIRM.png",
         "url": "",
@@ -1254,7 +1254,7 @@
         "user-agent": ""
       },
       "url": "http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx07",
-      "raw": "#EXTINF:-1 tvg-id=\"JOUHDTV.jp\" tvg-logo=\"https://i.imgur.com/0qtXIRM.png\" group-title=\"Entertainment\",Sun TV (544p)\r\r\nhttp://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx07\r",
+      "raw": "#EXTINF:-1 tvg-id=\"JOUHDTV.jp@SD\" tvg-logo=\"https://i.imgur.com/0qtXIRM.png\" group-title=\"Entertainment\",Sun TV (544p)\r\r\nhttp://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx07\r",
       "line": 105,
       "catchup": {
         "type": "",
@@ -1267,7 +1267,7 @@
     {
       "name": "TAKARAZUKA SKY STAGE (1080p)",
       "tvg": {
-        "id": "TAKARAZUKASKYSTAGE.jp",
+        "id": "TAKARAZUKASKYSTAGE.jp@SD",
         "name": "",
         "logo": "https://www.starcat.co.jp/ch/upload/channel/38/takarazuka-skystage_logo.jpg",
         "url": "",
@@ -1282,7 +1282,7 @@
         "user-agent": ""
       },
       "url": "http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs28",
-      "raw": "#EXTINF:-1 tvg-id=\"TAKARAZUKASKYSTAGE.jp\" tvg-logo=\"https://www.starcat.co.jp/ch/upload/channel/38/takarazuka-skystage_logo.jpg\" group-title=\"Undefined\",TAKARAZUKA SKY STAGE (1080p)\r\r\nhttp://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs28\r",
+      "raw": "#EXTINF:-1 tvg-id=\"TAKARAZUKASKYSTAGE.jp@SD\" tvg-logo=\"https://www.starcat.co.jp/ch/upload/channel/38/takarazuka-skystage_logo.jpg\" group-title=\"Undefined\",TAKARAZUKA SKY STAGE (1080p)\r\r\nhttp://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs28\r",
       "line": 107,
       "catchup": {
         "type": "",
@@ -1295,7 +1295,7 @@
     {
       "name": "TBS News (544p)",
       "tvg": {
-        "id": "TBSNewsCS.jp",
+        "id": "TBSNewsCS.jp@SD",
         "name": "",
         "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/TBS_News_2020_logo.png/512px-TBS_News_2020_logo.png",
         "url": "",
@@ -1310,7 +1310,7 @@
         "user-agent": ""
       },
       "url": "http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs11",
-      "raw": "#EXTINF:-1 tvg-id=\"TBSNewsCS.jp\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/TBS_News_2020_logo.png/512px-TBS_News_2020_logo.png\" group-title=\"News\",TBS News (544p)\r\r\nhttp://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs11\r",
+      "raw": "#EXTINF:-1 tvg-id=\"TBSNewsCS.jp@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/TBS_News_2020_logo.png/512px-TBS_News_2020_logo.png\" group-title=\"News\",TBS News (544p)\r\r\nhttp://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs11\r",
       "line": 109,
       "catchup": {
         "type": "",
@@ -1323,7 +1323,7 @@
     {
       "name": "Toei Channel (1080p)",
       "tvg": {
-        "id": "ToeiChannel.jp",
+        "id": "ToeiChannel.jp@SD",
         "name": "",
         "logo": "https://i.imgur.com/QsTjHDU.jpeg",
         "url": "",
@@ -1338,7 +1338,7 @@
         "user-agent": ""
       },
       "url": "http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs27",
-      "raw": "#EXTINF:-1 tvg-id=\"ToeiChannel.jp\" tvg-logo=\"https://i.imgur.com/QsTjHDU.jpeg\" group-title=\"Undefined\",Toei Channel (1080p)\r\r\nhttp://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs27\r",
+      "raw": "#EXTINF:-1 tvg-id=\"ToeiChannel.jp@SD\" tvg-logo=\"https://i.imgur.com/QsTjHDU.jpeg\" group-title=\"Undefined\",Toei Channel (1080p)\r\r\nhttp://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs27\r",
       "line": 111,
       "catchup": {
         "type": "",
@@ -1351,7 +1351,7 @@
     {
       "name": "Tokyo MX1 (544p)",
       "tvg": {
-        "id": "JOMXDTV.jp",
+        "id": "JOMXDTV.jp@SD",
         "name": "",
         "logo": "https://i.imgur.com/0i5rDRN.png",
         "url": "",
@@ -1366,7 +1366,7 @@
         "user-agent": ""
       },
       "url": "http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd08",
-      "raw": "#EXTINF:-1 tvg-id=\"JOMXDTV.jp\" tvg-logo=\"https://i.imgur.com/0i5rDRN.png\" group-title=\"General\",Tokyo MX1 (544p)\r\r\nhttp://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd08\r",
+      "raw": "#EXTINF:-1 tvg-id=\"JOMXDTV.jp@SD\" tvg-logo=\"https://i.imgur.com/0i5rDRN.png\" group-title=\"General\",Tokyo MX1 (544p)\r\r\nhttp://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd08\r",
       "line": 113,
       "catchup": {
         "type": "",
@@ -1379,7 +1379,7 @@
     {
       "name": "TV Asahi (544p)",
       "tvg": {
-        "id": "JOEXDTV.jp",
+        "id": "JOEXDTV.jp@SD",
         "name": "",
         "logo": "https://i.imgur.com/YCqB5Kj.png",
         "url": "",
@@ -1394,7 +1394,7 @@
         "user-agent": ""
       },
       "url": "http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd06",
-      "raw": "#EXTINF:-1 tvg-id=\"JOEXDTV.jp\" tvg-logo=\"https://i.imgur.com/YCqB5Kj.png\" group-title=\"General\",TV Asahi (544p)\r\r\nhttp://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd06\r",
+      "raw": "#EXTINF:-1 tvg-id=\"JOEXDTV.jp@SD\" tvg-logo=\"https://i.imgur.com/YCqB5Kj.png\" group-title=\"General\",TV Asahi (544p)\r\r\nhttp://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd06\r",
       "line": 115,
       "catchup": {
         "type": "",
@@ -1407,7 +1407,7 @@
     {
       "name": "TV Osaka (544p)",
       "tvg": {
-        "id": "JOBHDTV.jp",
+        "id": "JOBHDTV.jp@SD",
         "name": "",
         "logo": "https://i.imgur.com/rUmrruq.png",
         "url": "",
@@ -1422,7 +1422,7 @@
         "user-agent": ""
       },
       "url": "http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx05",
-      "raw": "#EXTINF:-1 tvg-id=\"JOBHDTV.jp\" tvg-logo=\"https://i.imgur.com/rUmrruq.png\" group-title=\"General\",TV Osaka (544p)\r\r\nhttp://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx05\r",
+      "raw": "#EXTINF:-1 tvg-id=\"JOBHDTV.jp@SD\" tvg-logo=\"https://i.imgur.com/rUmrruq.png\" group-title=\"General\",TV Osaka (544p)\r\r\nhttp://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx05\r",
       "line": 117,
       "catchup": {
         "type": "",
@@ -1435,7 +1435,7 @@
     {
       "name": "TV Tokyo (544p)",
       "tvg": {
-        "id": "JOTXDTV.jp",
+        "id": "JOTXDTV.jp@SD",
         "name": "",
         "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/TV_Tokyo_%28Japanese%29_2023.svg/512px-TV_Tokyo_%28Japanese%29_2023.svg.png",
         "url": "",
@@ -1450,7 +1450,7 @@
         "user-agent": ""
       },
       "url": "http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd07",
-      "raw": "#EXTINF:-1 tvg-id=\"JOTXDTV.jp\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/TV_Tokyo_%28Japanese%29_2023.svg/512px-TV_Tokyo_%28Japanese%29_2023.svg.png\" group-title=\"General\",TV Tokyo (544p)\r\r\nhttp://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd07\r",
+      "raw": "#EXTINF:-1 tvg-id=\"JOTXDTV.jp@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/TV_Tokyo_%28Japanese%29_2023.svg/512px-TV_Tokyo_%28Japanese%29_2023.svg.png\" group-title=\"General\",TV Tokyo (544p)\r\r\nhttp://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd07\r",
       "line": 119,
       "catchup": {
         "type": "",
@@ -1463,7 +1463,7 @@
     {
       "name": "WOWOW Cinema (544p)",
       "tvg": {
-        "id": "WOWOWCinema.jp",
+        "id": "WOWOWCinema.jp@SD",
         "name": "",
         "logo": "https://i.imgur.com/Wx9fkCW.png",
         "url": "",
@@ -1478,7 +1478,7 @@
         "user-agent": ""
       },
       "url": "http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs07",
-      "raw": "#EXTINF:-1 tvg-id=\"WOWOWCinema.jp\" tvg-logo=\"https://i.imgur.com/Wx9fkCW.png\" group-title=\"Movies\",WOWOW Cinema (544p)\r\r\nhttp://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs07\r",
+      "raw": "#EXTINF:-1 tvg-id=\"WOWOWCinema.jp@SD\" tvg-logo=\"https://i.imgur.com/Wx9fkCW.png\" group-title=\"Movies\",WOWOW Cinema (544p)\r\r\nhttp://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs07\r",
       "line": 123,
       "catchup": {
         "type": "",
@@ -1519,7 +1519,7 @@
     {
       "name": "WOWOW Prime (544p)",
       "tvg": {
-        "id": "WOWOWPrime.jp",
+        "id": "WOWOWPrime.jp@SD",
         "name": "",
         "logo": "https://i.imgur.com/vACq7w8.png",
         "url": "",
@@ -1534,7 +1534,7 @@
         "user-agent": ""
       },
       "url": "http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs12",
-      "raw": "#EXTINF:-1 tvg-id=\"WOWOWPrime.jp\" tvg-logo=\"https://i.imgur.com/vACq7w8.png\" group-title=\"Undefined\",WOWOW Prime (544p)\r\r\nhttp://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs12\r",
+      "raw": "#EXTINF:-1 tvg-id=\"WOWOWPrime.jp@SD\" tvg-logo=\"https://i.imgur.com/vACq7w8.png\" group-title=\"Undefined\",WOWOW Prime (544p)\r\r\nhttp://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs12\r",
       "line": 127,
       "catchup": {
         "type": "",
@@ -1547,7 +1547,7 @@
     {
       "name": "YTV (544p)",
       "tvg": {
-        "id": "JOIXDTV.jp",
+        "id": "JOIXDTV.jp@SD",
         "name": "",
         "logo": "https://i.imgur.com/ONbuWvo.png",
         "url": "",
@@ -1562,7 +1562,7 @@
         "user-agent": ""
       },
       "url": "http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx04",
-      "raw": "#EXTINF:-1 tvg-id=\"JOIXDTV.jp\" tvg-logo=\"https://i.imgur.com/ONbuWvo.png\" group-title=\"General\",YTV (544p)\r\r\nhttp://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx04\r",
+      "raw": "#EXTINF:-1 tvg-id=\"JOIXDTV.jp@SD\" tvg-logo=\"https://i.imgur.com/ONbuWvo.png\" group-title=\"General\",YTV (544p)\r\r\nhttp://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx04\r",
       "line": 129,
       "catchup": {
         "type": "",
