@@ -5,11 +5,11 @@
   },
   "items": [
     {
-      "name": "ABC (544p)",
+      "name": "BS Nippon TV (544p)",
       "tvg": {
-        "id": "JOAYDTV.jp@SD",
+        "id": "BSNipponTV.jp@SD",
         "name": "",
-        "logo": "https://i.imgur.com/I11J99B.png",
+        "logo": "https://i.imgur.com/D8lhZCI.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -21,9 +21,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx02",
-      "raw": "#EXTINF:-1 tvg-id=\"JOAYDTV.jp@SD\" tvg-logo=\"https://i.imgur.com/I11J99B.png\" group-title=\"General\",ABC (544p)\r\r\nhttp://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx02\r",
-      "line": 2,
+      "url": "http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs02",
+      "raw": "#EXTINF:-1 tvg-id=\"BSNipponTV.jp@SD\" tvg-logo=\"https://i.imgur.com/D8lhZCI.png\" group-title=\"General\",BS Nippon TV (544p)\r\r\nhttp://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs02\r",
+      "line": 8,
       "catchup": {
         "type": "",
         "days": "",
@@ -89,11 +89,11 @@
       "status": "OK"
     },
     {
-      "name": "BS Nippon TV (544p)",
+      "name": "ABC (544p)",
       "tvg": {
-        "id": "BSNipponTV.jp@SD",
+        "id": "JOAYDTV.jp@SD",
         "name": "",
-        "logo": "https://i.imgur.com/D8lhZCI.png",
+        "logo": "https://i.imgur.com/I11J99B.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -105,9 +105,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs02",
-      "raw": "#EXTINF:-1 tvg-id=\"BSNipponTV.jp@SD\" tvg-logo=\"https://i.imgur.com/D8lhZCI.png\" group-title=\"General\",BS Nippon TV (544p)\r\r\nhttp://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs02\r",
-      "line": 8,
+      "url": "http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx02",
+      "raw": "#EXTINF:-1 tvg-id=\"JOAYDTV.jp@SD\" tvg-logo=\"https://i.imgur.com/I11J99B.png\" group-title=\"General\",ABC (544p)\r\r\nhttp://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx02\r",
+      "line": 2,
       "catchup": {
         "type": "",
         "days": "",
@@ -192,6 +192,34 @@
       "url": "http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs05",
       "raw": "#EXTINF:-1 tvg-id=\"BSTVTokyo.jp@SD\" tvg-logo=\"https://static.wikia.nocookie.net/logopedia/images/3/39/BSTVTokyo_2024logo-TeletoVer.svg/revision/latest/scale-to-width-down/512\" group-title=\"General\",BS TV Tokyo (544p)\r\r\nhttp://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs05\r",
       "line": 14,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "CGNTV Japan (1080p)",
+      "tvg": {
+        "id": "CGNTVJapan.jp@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/5LNZeVq.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Religious"
+      },
+      "http": {
+        "referrer": "http://japan.cgntv.net/HD_player_jp.html",
+        "user-agent": ""
+      },
+      "url": "https://d2p4mrcwl6ly4.cloudfront.net/out/v1/8d50f69fdbbf411a8d302743e4263716/CGNWebLiveJP.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"CGNTVJapan.jp@SD\" tvg-logo=\"https://i.imgur.com/5LNZeVq.png\" http-referrer=\"http://japan.cgntv.net/HD_player_jp.html\" group-title=\"Religious\",CGNTV Japan (1080p)\r\r\n#EXTVLCOPT:http-referrer=http://japan.cgntv.net/HD_player_jp.html\r\r\nhttps://d2p4mrcwl6ly4.cloudfront.net/out/v1/8d50f69fdbbf411a8d302743e4263716/CGNWebLiveJP.m3u8\r",
+      "line": 16,
       "catchup": {
         "type": "",
         "days": "",
@@ -304,34 +332,6 @@
       "url": "http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs20",
       "raw": "#EXTINF:-1 tvg-id=\"FamilyGekijyo.jp@SD\" tvg-logo=\"https://i.imgur.com/PCx6Qz3.png\" group-title=\"Family\",Family Gekijo (544p)\r\r\nhttp://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs20\r",
       "line": 27,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "CGNTV Japan (1080p)",
-      "tvg": {
-        "id": "CGNTVJapan.jp@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/5LNZeVq.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Religious"
-      },
-      "http": {
-        "referrer": "http://japan.cgntv.net/HD_player_jp.html",
-        "user-agent": ""
-      },
-      "url": "https://d2p4mrcwl6ly4.cloudfront.net/out/v1/8d50f69fdbbf411a8d302743e4263716/CGNWebLiveJP.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"CGNTVJapan.jp@SD\" tvg-logo=\"https://i.imgur.com/5LNZeVq.png\" http-referrer=\"http://japan.cgntv.net/HD_player_jp.html\" group-title=\"Religious\",CGNTV Japan (1080p)\r\r\n#EXTVLCOPT:http-referrer=http://japan.cgntv.net/HD_player_jp.html\r\r\nhttps://d2p4mrcwl6ly4.cloudfront.net/out/v1/8d50f69fdbbf411a8d302743e4263716/CGNWebLiveJP.m3u8\r",
-      "line": 16,
       "catchup": {
         "type": "",
         "days": "",
@@ -789,34 +789,6 @@
       "status": "OK"
     },
     {
-      "name": "MBS (544p)",
-      "tvg": {
-        "id": "JOOYDTV.jp@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/RfrkGrd.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx01",
-      "raw": "#EXTINF:-1 tvg-id=\"JOOYDTV.jp@SD\" tvg-logo=\"https://i.imgur.com/RfrkGrd.png\" group-title=\"General\",MBS (544p)\r\r\nhttp://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx01\r",
-      "line": 67,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "JORX-DTV",
       "tvg": {
         "id": "JORXDTV.jp@SD",
@@ -836,6 +808,34 @@
       "url": "https://tbs5.mov3.co/hls/tbs.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"JORXDTV.jp@SD\" tvg-logo=\"https://i.imgur.com/dUn2GRn.png\" group-title=\"General\",JORX-DTV\r\r\nhttps://tbs5.mov3.co/hls/tbs.m3u8\r",
       "line": 59,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "MBS (544p)",
+      "tvg": {
+        "id": "JOOYDTV.jp@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/RfrkGrd.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx01",
+      "raw": "#EXTINF:-1 tvg-id=\"JOOYDTV.jp@SD\" tvg-logo=\"https://i.imgur.com/RfrkGrd.png\" group-title=\"General\",MBS (544p)\r\r\nhttp://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx01\r",
+      "line": 67,
       "catchup": {
         "type": "",
         "days": "",
@@ -1097,34 +1097,6 @@
       "status": "OK"
     },
     {
-      "name": "QVC Japan (720p)",
-      "tvg": {
-        "id": "QVC.jp@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/6TWUVrh.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Shop"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://cdn-live1.qvc.jp/iPhone/1501/1501.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"QVC.jp@SD\" tvg-logo=\"https://i.imgur.com/6TWUVrh.png\" group-title=\"Shop\",QVC Japan (720p)\r\r\nhttps://cdn-live1.qvc.jp/iPhone/1501/1501.m3u8\r",
-      "line": 93,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "NHK Kishou Saigai (360p) [Not 24/7]",
       "tvg": {
         "id": "NHKKishouSaigai.jp@SD",
@@ -1153,11 +1125,11 @@
       "status": "OK"
     },
     {
-      "name": "Shop Channel (1080p) [Not 24/7]",
+      "name": "QVC Japan (720p)",
       "tvg": {
-        "id": "ShopChannel.jp@SD",
+        "id": "QVC.jp@SD",
         "name": "",
-        "logo": "https://www.shopch.jp/com/images/common/logo_2021.png",
+        "logo": "https://i.imgur.com/6TWUVrh.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -1169,9 +1141,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://stream3.shopch.jp/HLS/master.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"ShopChannel.jp@SD\" tvg-logo=\"https://www.shopch.jp/com/images/common/logo_2021.png\" group-title=\"Shop\",Shop Channel (1080p) [Not 24/7]\r\r\nhttps://stream3.shopch.jp/HLS/master.m3u8\r",
-      "line": 95,
+      "url": "https://cdn-live1.qvc.jp/iPhone/1501/1501.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"QVC.jp@SD\" tvg-logo=\"https://i.imgur.com/6TWUVrh.png\" group-title=\"Shop\",QVC Japan (720p)\r\r\nhttps://cdn-live1.qvc.jp/iPhone/1501/1501.m3u8\r",
+      "line": 93,
       "catchup": {
         "type": "",
         "days": "",
@@ -1200,6 +1172,34 @@
       "url": "http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs01",
       "raw": "#EXTINF:-1 tvg-id=\"SkyA.jp@SD\" tvg-logo=\"https://i.imgur.com/JU3wZ0k.png\" group-title=\"Undefined\",Sky A (544p)\r\r\nhttp://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs01\r",
       "line": 97,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Shop Channel (1080p) [Not 24/7]",
+      "tvg": {
+        "id": "ShopChannel.jp@SD",
+        "name": "",
+        "logo": "https://www.shopch.jp/com/images/common/logo_2021.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Shop"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://stream3.shopch.jp/HLS/master.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"ShopChannel.jp@SD\" tvg-logo=\"https://www.shopch.jp/com/images/common/logo_2021.png\" group-title=\"Shop\",Shop Channel (1080p) [Not 24/7]\r\r\nhttps://stream3.shopch.jp/HLS/master.m3u8\r",
+      "line": 95,
       "catchup": {
         "type": "",
         "days": "",
