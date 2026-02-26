@@ -5,6 +5,34 @@
   },
   "items": [
     {
+      "name": "CITV Channel",
+      "tvg": {
+        "id": "CITVChannel.kh@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/BxVXPag.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Religious"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://43.252.18.195:5080/live/streams/CITVChannel.playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"CITVChannel.kh@SD\" tvg-logo=\"https://i.imgur.com/BxVXPag.png\" group-title=\"Religious\",CITV Channel\r\r\nhttp://43.252.18.195:5080/live/streams/CITVChannel.playlist.m3u8\r",
+      "line": 8,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Apsara TV11 (720p)",
       "tvg": {
         "id": "ApsaraTV11.kh@SD",
@@ -24,62 +52,6 @@
       "url": "https://live.ams.com.kh/app/stream/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"ApsaraTV11.kh@SD\" tvg-logo=\"https://i.imgur.com/9wJe71I.png\" group-title=\"General\",Apsara TV11 (720p)\r\r\nhttps://live.ams.com.kh/app/stream/playlist.m3u8\r",
       "line": 2,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "CTN",
-      "tvg": {
-        "id": "CTN.kh@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/r523kOq.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://live.happywatch99.com/livehd10/02587745dbd71d978954203d7ec78497.sdp/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"CTN.kh@SD\" tvg-logo=\"https://i.imgur.com/r523kOq.png\" group-title=\"Undefined\",CTN\r\r\nhttp://live.happywatch99.com/livehd10/02587745dbd71d978954203d7ec78497.sdp/playlist.m3u8\r",
-      "line": 12,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "CNC",
-      "tvg": {
-        "id": "CNC.kh@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/J8YLi0C.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "News"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://live.happywatch99.com/livehd12/ade9370aadadedbee81fa5e0f228bd37.sdp/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"CNC.kh@SD\" tvg-logo=\"https://i.imgur.com/J8YLi0C.png\" group-title=\"News\",CNC\r\r\nhttp://live.happywatch99.com/livehd12/ade9370aadadedbee81fa5e0f228bd37.sdp/playlist.m3u8\r",
-      "line": 10,
       "catchup": {
         "type": "",
         "days": "",
@@ -117,11 +89,11 @@
       "status": "OK"
     },
     {
-      "name": "EAC News TV (720p)",
+      "name": "CNC",
       "tvg": {
-        "id": "EACNewsTV.kh@SD",
+        "id": "CNC.kh@SD",
         "name": "",
-        "logo": "https://i.imgur.com/EuYhS9Z.png",
+        "logo": "https://i.imgur.com/J8YLi0C.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -133,9 +105,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://live-evg17.tv360.metfone.com.kh/LiveApp/streams/eacnews.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"EACNewsTV.kh@SD\" tvg-logo=\"https://i.imgur.com/EuYhS9Z.png\" group-title=\"News\",EAC News TV (720p)\r\r\nhttps://live-evg17.tv360.metfone.com.kh/LiveApp/streams/eacnews.m3u8\r",
-      "line": 20,
+      "url": "http://live.happywatch99.com/livehd12/ade9370aadadedbee81fa5e0f228bd37.sdp/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"CNC.kh@SD\" tvg-logo=\"https://i.imgur.com/J8YLi0C.png\" group-title=\"News\",CNC\r\r\nhttp://live.happywatch99.com/livehd12/ade9370aadadedbee81fa5e0f228bd37.sdp/playlist.m3u8\r",
+      "line": 10,
       "catchup": {
         "type": "",
         "days": "",
@@ -145,53 +117,25 @@
       "status": "OK"
     },
     {
-      "name": "Fresh News",
+      "name": "CTN",
       "tvg": {
-        "id": "FreshNews.kh@SD",
+        "id": "CTN.kh@SD",
         "name": "",
-        "logo": "https://i.imgur.com/bV6sawt.png",
+        "logo": "https://i.imgur.com/r523kOq.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "News"
+        "title": "Undefined"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "http://streaming-android.freshnewsasia.tv:1935/live/ngrp:myStream_all/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"FreshNews.kh@SD\" tvg-logo=\"https://i.imgur.com/bV6sawt.png\" group-title=\"News\",Fresh News\r\r\nhttp://streaming-android.freshnewsasia.tv:1935/live/ngrp:myStream_all/playlist.m3u8\r",
-      "line": 24,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "CITV Channel",
-      "tvg": {
-        "id": "CITVChannel.kh@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/BxVXPag.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Religious"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://43.252.18.195:5080/live/streams/CITVChannel.playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"CITVChannel.kh@SD\" tvg-logo=\"https://i.imgur.com/BxVXPag.png\" group-title=\"Religious\",CITV Channel\r\r\nhttp://43.252.18.195:5080/live/streams/CITVChannel.playlist.m3u8\r",
-      "line": 8,
+      "url": "http://live.happywatch99.com/livehd10/02587745dbd71d978954203d7ec78497.sdp/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"CTN.kh@SD\" tvg-logo=\"https://i.imgur.com/r523kOq.png\" group-title=\"Undefined\",CTN\r\r\nhttp://live.happywatch99.com/livehd10/02587745dbd71d978954203d7ec78497.sdp/playlist.m3u8\r",
+      "line": 12,
       "catchup": {
         "type": "",
         "days": "",
@@ -220,6 +164,34 @@
       "url": "http://43.252.18.195:5080/live/streams/WCVNews.playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"DMusic.kh@SD\" tvg-logo=\"https://www.lyngsat.com/logo/tv/dd/d-music-kh.png\" group-title=\"Music\",D Music (1280p) [Not 24/7]\r\r\nhttp://43.252.18.195:5080/live/streams/WCVNews.playlist.m3u8\r",
       "line": 18,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Fresh News",
+      "tvg": {
+        "id": "FreshNews.kh@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/bV6sawt.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "News"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://streaming-android.freshnewsasia.tv:1935/live/ngrp:myStream_all/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"FreshNews.kh@SD\" tvg-logo=\"https://i.imgur.com/bV6sawt.png\" group-title=\"News\",Fresh News\r\r\nhttp://streaming-android.freshnewsasia.tv:1935/live/ngrp:myStream_all/playlist.m3u8\r",
+      "line": 24,
       "catchup": {
         "type": "",
         "days": "",
@@ -313,53 +285,25 @@
       "status": "OK"
     },
     {
-      "name": "My TV",
+      "name": "MNB World (576p)",
       "tvg": {
-        "id": "MyTV.kh@SD",
+        "id": "MNBWorld.mn@SD",
         "name": "",
-        "logo": "https://i.imgur.com/lhxRefQ.png",
+        "logo": "https://i.imgur.com/PHlj84Q.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Entertainment"
+        "title": "General"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "http://live.happywatch99.com/livehd11/90ecf35382a7597e553200692c3fc384.sdp/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"MyTV.kh@SD\" tvg-logo=\"https://i.imgur.com/lhxRefQ.png\" group-title=\"Entertainment\",My TV\r\r\nhttp://live.happywatch99.com/livehd11/90ecf35382a7597e553200692c3fc384.sdp/playlist.m3u8\r",
-      "line": 37,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "NTV",
-      "tvg": {
-        "id": "NTV.kh@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/SoBhuIb.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://43.252.18.195:5080/LiveApp/streams/ntvhd.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"NTV.kh@SD\" tvg-logo=\"https://i.imgur.com/SoBhuIb.png\" group-title=\"Undefined\",NTV\r\r\nhttp://43.252.18.195:5080/LiveApp/streams/ntvhd.m3u8\r",
-      "line": 39,
+      "url": "https://live.mnb.mn/hls/mnb_world.stream.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"MNBWorld.mn@SD\" tvg-logo=\"https://i.imgur.com/PHlj84Q.png\" group-title=\"General\",MNB World (576p)\r\r\nhttps://live.mnb.mn/hls/mnb_world.stream.m3u8\r",
+      "line": 30,
       "catchup": {
         "type": "",
         "days": "",
@@ -397,6 +341,34 @@
       "status": "OK"
     },
     {
+      "name": "My TV",
+      "tvg": {
+        "id": "MyTV.kh@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/lhxRefQ.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Entertainment"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://live.happywatch99.com/livehd11/90ecf35382a7597e553200692c3fc384.sdp/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"MyTV.kh@SD\" tvg-logo=\"https://i.imgur.com/lhxRefQ.png\" group-title=\"Entertainment\",My TV\r\r\nhttp://live.happywatch99.com/livehd11/90ecf35382a7597e553200692c3fc384.sdp/playlist.m3u8\r",
+      "line": 37,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Rasmey Hang Meas HDTV (720p) [Not 24/7]",
       "tvg": {
         "id": "RasmeyHangMeasHDTV.kh@SD",
@@ -416,6 +388,34 @@
       "url": "http://clive.malisresidences.com:1935/rhm_hdtv/_definst_/smil:RHMHDTV.smil/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"RasmeyHangMeasHDTV.kh@SD\" tvg-logo=\"https://i.imgur.com/EcqEMMg.png\" group-title=\"Undefined\",Rasmey Hang Meas HDTV (720p) [Not 24/7]\r\r\nhttp://clive.malisresidences.com:1935/rhm_hdtv/_definst_/smil:RHMHDTV.smil/playlist.m3u8\r",
       "line": 41,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "SEATV (1080p)",
+      "tvg": {
+        "id": "SEATV.kh@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/oZPorvg.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://seatv.netlinkbroadcaster.com/hls/test.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"SEATV.kh@SD\" tvg-logo=\"https://i.imgur.com/oZPorvg.png\" group-title=\"Undefined\",SEATV (1080p)\r\r\nhttps://seatv.netlinkbroadcaster.com/hls/test.m3u8\r",
+      "line": 45,
       "catchup": {
         "type": "",
         "days": "",
@@ -453,34 +453,6 @@
       "status": "OK"
     },
     {
-      "name": "MNB World (576p)",
-      "tvg": {
-        "id": "MNBWorld.mn@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/PHlj84Q.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://live.mnb.mn/hls/mnb_world.stream.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"MNBWorld.mn@SD\" tvg-logo=\"https://i.imgur.com/PHlj84Q.png\" group-title=\"General\",MNB World (576p)\r\r\nhttps://live.mnb.mn/hls/mnb_world.stream.m3u8\r",
-      "line": 30,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "TVK (720p)",
       "tvg": {
         "id": "TVK.kh@SD",
@@ -500,34 +472,6 @@
       "url": "https://live.kh.malimarcdn.com/live/tvk.stream/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TVK.kh@SD\" tvg-logo=\"https://i.imgur.com/5hPxjcl.png\" group-title=\"General\",TVK (720p)\r\r\nhttps://live.kh.malimarcdn.com/live/tvk.stream/playlist.m3u8\r",
       "line": 51,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "SEATV (1080p)",
-      "tvg": {
-        "id": "SEATV.kh@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/oZPorvg.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://seatv.netlinkbroadcaster.com/hls/test.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"SEATV.kh@SD\" tvg-logo=\"https://i.imgur.com/oZPorvg.png\" group-title=\"Undefined\",SEATV (1080p)\r\r\nhttps://seatv.netlinkbroadcaster.com/hls/test.m3u8\r",
-      "line": 45,
       "catchup": {
         "type": "",
         "days": "",
