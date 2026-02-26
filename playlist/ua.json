@@ -61,25 +61,25 @@
       "status": "OK"
     },
     {
-      "name": "EWTN Ukraine (1080p)",
+      "name": "DniproTV (1080p)",
       "tvg": {
-        "id": "EWTNUkraine.ua@SD",
+        "id": "DniproTV.ua@SD",
         "name": "",
-        "logo": "",
+        "logo": "https://i.imgur.com/mbPTVh1.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Religious"
+        "title": "General"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://cdn3.wowza.com/1/WjduMm1tYnlwNXQx/M01NV3Uz/hls/live/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"EWTNUkraine.ua@SD\" tvg-logo=\"\" group-title=\"Religious\",EWTN Ukraine (1080p)\r\r\nhttps://cdn3.wowza.com/1/WjduMm1tYnlwNXQx/M01NV3Uz/hls/live/playlist.m3u8\r",
-      "line": 22,
+      "url": "http://vcdn1.produck.company:1935/out/dtv/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"DniproTV.ua@SD\" tvg-logo=\"https://i.imgur.com/mbPTVh1.png\" group-title=\"General\",DniproTV (1080p)\r\r\nhttp://vcdn1.produck.company:1935/out/dtv/playlist.m3u8\r",
+      "line": 18,
       "catchup": {
         "type": "",
         "days": "",
@@ -117,25 +117,25 @@
       "status": "OK"
     },
     {
-      "name": "DniproTV (1080p)",
+      "name": "EWTN Ukraine (1080p)",
       "tvg": {
-        "id": "DniproTV.ua@SD",
+        "id": "EWTNUkraine.ua@SD",
         "name": "",
-        "logo": "https://i.imgur.com/mbPTVh1.png",
+        "logo": "",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "General"
+        "title": "Religious"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "http://vcdn1.produck.company:1935/out/dtv/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"DniproTV.ua@SD\" tvg-logo=\"https://i.imgur.com/mbPTVh1.png\" group-title=\"General\",DniproTV (1080p)\r\r\nhttp://vcdn1.produck.company:1935/out/dtv/playlist.m3u8\r",
-      "line": 18,
+      "url": "https://cdn3.wowza.com/1/WjduMm1tYnlwNXQx/M01NV3Uz/hls/live/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"EWTNUkraine.ua@SD\" tvg-logo=\"\" group-title=\"Religious\",EWTN Ukraine (1080p)\r\r\nhttps://cdn3.wowza.com/1/WjduMm1tYnlwNXQx/M01NV3Uz/hls/live/playlist.m3u8\r",
+      "line": 22,
       "catchup": {
         "type": "",
         "days": "",
@@ -369,34 +369,6 @@
       "status": "OK"
     },
     {
-      "name": "Skrypin.ua (1080p) [Not 24/7]",
-      "tvg": {
-        "id": "Skrypinua.ua@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/XtG3rfj.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://open-cdn.lanet.tv/play/skrypin.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Skrypinua.ua@SD\" tvg-logo=\"https://i.imgur.com/XtG3rfj.png\" group-title=\"Undefined\",Skrypin.ua (1080p) [Not 24/7]\r\r\nhttps://open-cdn.lanet.tv/play/skrypin.m3u8\r",
-      "line": 60,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Suspilne. Krym (1080p) [Geo-blocked]",
       "tvg": {
         "id": "SuspilneKrym.ua@SD",
@@ -416,6 +388,34 @@
       "url": "https://ext.cdn.nashnet.tv/228.0.0.71/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"SuspilneKrym.ua@SD\" tvg-logo=\"https://i.imgur.com/m7znCes.png\" group-title=\"General\",Suspilne. Krym (1080p) [Geo-blocked]\r\r\nhttps://ext.cdn.nashnet.tv/228.0.0.71/index.m3u8\r",
       "line": 62,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Skrypin.ua (1080p) [Not 24/7]",
+      "tvg": {
+        "id": "Skrypinua.ua@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/XtG3rfj.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://open-cdn.lanet.tv/play/skrypin.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Skrypinua.ua@SD\" tvg-logo=\"https://i.imgur.com/XtG3rfj.png\" group-title=\"Undefined\",Skrypin.ua (1080p) [Not 24/7]\r\r\nhttps://open-cdn.lanet.tv/play/skrypin.m3u8\r",
+      "line": 60,
       "catchup": {
         "type": "",
         "days": "",
@@ -453,34 +453,6 @@
       "status": "OK"
     },
     {
-      "name": "Suspilne. Sport (1080p) [Geo-blocked]",
-      "tvg": {
-        "id": "SuspilneSport.ua@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/16IhU0M.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Sports"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://cdnua05.hls.tv/934/hls/8743361621b245838bee193c9ec28322/4856/stream.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"SuspilneSport.ua@SD\" tvg-logo=\"https://i.imgur.com/16IhU0M.png\" group-title=\"Sports\",Suspilne. Sport (1080p) [Geo-blocked]\r\r\nhttps://cdnua05.hls.tv/934/hls/8743361621b245838bee193c9ec28322/4856/stream.m3u8\r",
-      "line": 66,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Telekanal RAI (480p)",
       "tvg": {
         "id": "TelekanalRAI.ua@SD",
@@ -500,6 +472,34 @@
       "url": "https://stream.rai.ua/rai/stream.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TelekanalRAI.ua@SD\" tvg-logo=\"https://i.imgur.com/Ouv51WB.png\" group-title=\"General\",Telekanal RAI (480p)\r\r\nhttps://stream.rai.ua/rai/stream.m3u8\r",
       "line": 68,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Suspilne. Sport (1080p) [Geo-blocked]",
+      "tvg": {
+        "id": "SuspilneSport.ua@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/16IhU0M.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Sports"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://cdnua05.hls.tv/934/hls/8743361621b245838bee193c9ec28322/4856/stream.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"SuspilneSport.ua@SD\" tvg-logo=\"https://i.imgur.com/16IhU0M.png\" group-title=\"Sports\",Suspilne. Sport (1080p) [Geo-blocked]\r\r\nhttps://cdnua05.hls.tv/934/hls/8743361621b245838bee193c9ec28322/4856/stream.m3u8\r",
+      "line": 66,
       "catchup": {
         "type": "",
         "days": "",
