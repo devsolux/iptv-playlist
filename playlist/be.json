@@ -89,34 +89,6 @@
       "status": "OK"
     },
     {
-      "name": "FomixTV (1080p)",
-      "tvg": {
-        "id": "FomixTV.nl@HD",
-        "name": "",
-        "logo": "https://i.imgur.com/7SLYEMG.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General;Music;Public"
-      },
-      "http": {
-        "referrer": "https://www.fomix.nl",
-        "user-agent": ""
-      },
-      "url": "https://stream.fomixmedia.nl/FomixTV/video.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"FomixTV.nl@HD\" tvg-logo=\"https://i.imgur.com/7SLYEMG.png\" http-referrer=\"https://www.fomix.nl\" group-title=\"General;Music;Public\",FomixTV (1080p)\r\r\n#EXTVLCOPT:http-referrer=https://www.fomix.nl\r\r\nhttps://stream.fomixmedia.nl/FomixTV/video.m3u8\r",
-      "line": 20,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "BX1 (720p) [Not 24/7]",
       "tvg": {
         "id": "BX1.be@SD",
@@ -164,6 +136,34 @@
       "url": "https://viamotionhsi.netplus.ch/live/eds/ab3/browser-HLS8/ab3.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"AB3.be@HD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/AB3_2025.svg/512px-AB3_2025.svg.png\" group-title=\"Entertainment\",AB3 HD [Geo-Blocked]\r\r\nhttps://viamotionhsi.netplus.ch/live/eds/ab3/browser-HLS8/ab3.m3u8\r",
       "line": 2,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "FomixTV (1080p)",
+      "tvg": {
+        "id": "FomixTV.nl@HD",
+        "name": "",
+        "logo": "https://i.imgur.com/7SLYEMG.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General;Music;Public"
+      },
+      "http": {
+        "referrer": "https://www.fomix.nl",
+        "user-agent": ""
+      },
+      "url": "https://stream.fomixmedia.nl/FomixTV/video.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"FomixTV.nl@HD\" tvg-logo=\"https://i.imgur.com/7SLYEMG.png\" http-referrer=\"https://www.fomix.nl\" group-title=\"General;Music;Public\",FomixTV (1080p)\r\r\n#EXTVLCOPT:http-referrer=https://www.fomix.nl\r\r\nhttps://stream.fomixmedia.nl/FomixTV/video.m3u8\r",
+      "line": 20,
       "catchup": {
         "type": "",
         "days": "",
@@ -229,34 +229,6 @@
       "status": "OK"
     },
     {
-      "name": "LN24",
-      "tvg": {
-        "id": "LN24.be@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/1EkZRwn.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "News"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://live-ln24.digiteka.com/1911668011/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"LN24.be@SD\" tvg-logo=\"https://i.imgur.com/1EkZRwn.png\" group-title=\"News\",LN24\r\r\nhttps://live-ln24.digiteka.com/1911668011/index.m3u8\r",
-      "line": 37,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "KTO [Geo-Blocked]",
       "tvg": {
         "id": "KTO.fr@SD",
@@ -285,11 +257,11 @@
       "status": "OK"
     },
     {
-      "name": "LCI HD [Geo-Blocked]",
+      "name": "LN24",
       "tvg": {
-        "id": "LCI.fr@HD",
+        "id": "LN24.be@SD",
         "name": "",
-        "logo": "https://i.imgur.com/DED8EXs.png",
+        "logo": "https://i.imgur.com/1EkZRwn.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -301,9 +273,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://viamotionhsi.netplus.ch/live/eds/lci/browser-dash/lci.mpd",
-      "raw": "#EXTINF:-1 tvg-id=\"LCI.fr@HD\" tvg-logo=\"https://i.imgur.com/DED8EXs.png\" group-title=\"News\",LCI HD [Geo-Blocked]\r\r\nhttps://viamotionhsi.netplus.ch/live/eds/lci/browser-dash/lci.mpd\r",
-      "line": 35,
+      "url": "https://live-ln24.digiteka.com/1911668011/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"LN24.be@SD\" tvg-logo=\"https://i.imgur.com/1EkZRwn.png\" group-title=\"News\",LN24\r\r\nhttps://live-ln24.digiteka.com/1911668011/index.m3u8\r",
+      "line": 37,
       "catchup": {
         "type": "",
         "days": "",
@@ -332,6 +304,34 @@
       "url": "https://live.matele.be/hls/live.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"Matele.be@SD\" tvg-logo=\"https://i.imgur.com/rw72POr.png\" group-title=\"General\",MaTele (1080p) [Not 24/7]\r\r\nhttps://live.matele.be/hls/live.m3u8\r",
       "line": 39,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "LCI HD [Geo-Blocked]",
+      "tvg": {
+        "id": "LCI.fr@HD",
+        "name": "",
+        "logo": "https://i.imgur.com/DED8EXs.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "News"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://viamotionhsi.netplus.ch/live/eds/lci/browser-dash/lci.mpd",
+      "raw": "#EXTINF:-1 tvg-id=\"LCI.fr@HD\" tvg-logo=\"https://i.imgur.com/DED8EXs.png\" group-title=\"News\",LCI HD [Geo-Blocked]\r\r\nhttps://viamotionhsi.netplus.ch/live/eds/lci/browser-dash/lci.mpd\r",
+      "line": 35,
       "catchup": {
         "type": "",
         "days": "",
