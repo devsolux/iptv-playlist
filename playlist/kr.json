@@ -5,9 +5,9 @@
   },
   "items": [
     {
-      "name": "Arirang TV (1080p)",
+      "name": "Arirang TV HD",
       "tvg": {
-        "id": "ArirangTV.kr@SD",
+        "id": "ArirangTV.kr@HD",
         "name": "",
         "logo": "https://i.imgur.com/Asu5pE9.png",
         "url": "",
@@ -21,9 +21,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "http://amdlive-ch01.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"ArirangTV.kr@SD\" tvg-logo=\"https://i.imgur.com/Asu5pE9.png\" group-title=\"General;News\",Arirang TV (1080p)\r\r\nhttp://amdlive-ch01.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8\r",
-      "line": 6,
+      "url": "https://dash3.antik.sk/live/test_arirang/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"ArirangTV.kr@HD\" tvg-logo=\"https://i.imgur.com/Asu5pE9.png\" group-title=\"General;News\",Arirang TV HD\r\r\nhttps://dash3.antik.sk/live/test_arirang/playlist.m3u8\r",
+      "line": 8,
       "catchup": {
         "type": "",
         "days": "",
@@ -61,9 +61,9 @@
       "status": "OK"
     },
     {
-      "name": "Arirang TV HD",
+      "name": "Arirang TV (1080p)",
       "tvg": {
-        "id": "ArirangTV.kr@HD",
+        "id": "ArirangTV.kr@SD",
         "name": "",
         "logo": "https://i.imgur.com/Asu5pE9.png",
         "url": "",
@@ -77,37 +77,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://dash3.antik.sk/live/test_arirang/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"ArirangTV.kr@HD\" tvg-logo=\"https://i.imgur.com/Asu5pE9.png\" group-title=\"General;News\",Arirang TV HD\r\r\nhttps://dash3.antik.sk/live/test_arirang/playlist.m3u8\r",
-      "line": 8,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "BBS Buddhist Broadcasting (1080p)",
-      "tvg": {
-        "id": "BBSTV.kr@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/01UmXRe.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Religious"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://bbstv.clouducs.com:1935/bbstv-live/livestream/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"BBSTV.kr@SD\" tvg-logo=\"https://i.imgur.com/01UmXRe.png\" group-title=\"Religious\",BBS Buddhist Broadcasting (1080p)\r\r\nhttp://bbstv.clouducs.com:1935/bbstv-live/livestream/playlist.m3u8\r",
-      "line": 10,
+      "url": "http://amdlive-ch01.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"ArirangTV.kr@SD\" tvg-logo=\"https://i.imgur.com/Asu5pE9.png\" group-title=\"General;News\",Arirang TV (1080p)\r\r\nhttp://amdlive-ch01.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8\r",
+      "line": 6,
       "catchup": {
         "type": "",
         "days": "",
@@ -136,6 +108,34 @@
       "url": "https://vod2.abn.co.kr/IPHONE/abn.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"ABN.kr@SD\" tvg-logo=\"https://www.abn.co.kr/resources/images/logo.png\" group-title=\"General\",ABN TV (720p)\r\r\nhttps://vod2.abn.co.kr/IPHONE/abn.m3u8\r",
       "line": 2,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "BBS Buddhist Broadcasting (1080p)",
+      "tvg": {
+        "id": "BBSTV.kr@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/01UmXRe.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Religious"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://bbstv.clouducs.com:1935/bbstv-live/livestream/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"BBSTV.kr@SD\" tvg-logo=\"https://i.imgur.com/01UmXRe.png\" group-title=\"Religious\",BBS Buddhist Broadcasting (1080p)\r\r\nhttp://bbstv.clouducs.com:1935/bbstv-live/livestream/playlist.m3u8\r",
+      "line": 10,
       "catchup": {
         "type": "",
         "days": "",
@@ -481,34 +481,6 @@
       "status": "OK"
     },
     {
-      "name": "Gongyoung Shopping (720p)",
-      "tvg": {
-        "id": "GongyoungHomeShopping.kr@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/YL3rpd7.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Shop"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://etv.publichs.com/live5.stream/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"GongyoungHomeShopping.kr@SD\" tvg-logo=\"https://i.imgur.com/YL3rpd7.png\" group-title=\"Shop\",Gongyoung Shopping (720p)\r\r\nhttps://etv.publichs.com/live5.stream/playlist.m3u8\r",
-      "line": 38,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "GS My Shop (1080p)",
       "tvg": {
         "id": "GSMyShop.kr@SD",
@@ -565,25 +537,25 @@
       "status": "OK"
     },
     {
-      "name": "Gugbang TV (1080p) [Not 24/7]",
+      "name": "Gongyoung Shopping (720p)",
       "tvg": {
-        "id": "GugbangTV.kr@SD",
+        "id": "GongyoungHomeShopping.kr@SD",
         "name": "",
-        "logo": "https://i.imgur.com/f1tz5fg.png",
+        "logo": "https://i.imgur.com/YL3rpd7.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "News"
+        "title": "Shop"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "http://mediaworks.dema.mil.kr:1935/live_edge/cudo.sdp/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"GugbangTV.kr@SD\" tvg-logo=\"https://i.imgur.com/f1tz5fg.png\" group-title=\"News\",Gugbang TV (1080p) [Not 24/7]\r\r\nhttp://mediaworks.dema.mil.kr:1935/live_edge/cudo.sdp/playlist.m3u8\r",
-      "line": 48,
+      "url": "https://etv.publichs.com/live5.stream/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"GongyoungHomeShopping.kr@SD\" tvg-logo=\"https://i.imgur.com/YL3rpd7.png\" group-title=\"Shop\",Gongyoung Shopping (720p)\r\r\nhttps://etv.publichs.com/live5.stream/playlist.m3u8\r",
+      "line": 38,
       "catchup": {
         "type": "",
         "days": "",
@@ -621,34 +593,6 @@
       "status": "OK"
     },
     {
-      "name": "GugakTV 국악방송 (1080p)",
-      "tvg": {
-        "id": "GugakTV.kr@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/Ey7Htm8.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Music"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://mgugaklive.nowcdn.co.kr/gugakvideo/gugakvideo.stream/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"GugakTV.kr@SD\" tvg-logo=\"https://i.imgur.com/Ey7Htm8.png\" group-title=\"Music\",GugakTV 국악방송 (1080p)\r\r\nhttps://mgugaklive.nowcdn.co.kr/gugakvideo/gugakvideo.stream/playlist.m3u8\r",
-      "line": 46,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Hyundai Home Shopping (720p)",
       "tvg": {
         "id": "HyundaiHomeShopping.kr@SD",
@@ -677,25 +621,25 @@
       "status": "OK"
     },
     {
-      "name": "Hyundai Home Shopping Plus (720p)",
+      "name": "GugakTV 국악방송 (1080p)",
       "tvg": {
-        "id": "HyundaiHomeShoppingPlusShop.kr@SD",
+        "id": "GugakTV.kr@SD",
         "name": "",
-        "logo": "https://i.imgur.com/DoNOuZE.png",
+        "logo": "https://i.imgur.com/Ey7Htm8.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Shop"
+        "title": "Music"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://dtvstreaming.hyundaihmall.com/newcjp3/_definst_/newcjpstream.smil/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"HyundaiHomeShoppingPlusShop.kr@SD\" tvg-logo=\"https://i.imgur.com/DoNOuZE.png\" group-title=\"Shop\",Hyundai Home Shopping Plus (720p)\r\r\nhttps://dtvstreaming.hyundaihmall.com/newcjp3/_definst_/newcjpstream.smil/playlist.m3u8\r",
-      "line": 54,
+      "url": "https://mgugaklive.nowcdn.co.kr/gugakvideo/gugakvideo.stream/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"GugakTV.kr@SD\" tvg-logo=\"https://i.imgur.com/Ey7Htm8.png\" group-title=\"Music\",GugakTV 국악방송 (1080p)\r\r\nhttps://mgugaklive.nowcdn.co.kr/gugakvideo/gugakvideo.stream/playlist.m3u8\r",
+      "line": 46,
       "catchup": {
         "type": "",
         "days": "",
@@ -733,6 +677,62 @@
       "status": "OK"
     },
     {
+      "name": "Hyundai Home Shopping Plus (720p)",
+      "tvg": {
+        "id": "HyundaiHomeShoppingPlusShop.kr@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/DoNOuZE.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Shop"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://dtvstreaming.hyundaihmall.com/newcjp3/_definst_/newcjpstream.smil/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"HyundaiHomeShoppingPlusShop.kr@SD\" tvg-logo=\"https://i.imgur.com/DoNOuZE.png\" group-title=\"Shop\",Hyundai Home Shopping Plus (720p)\r\r\nhttps://dtvstreaming.hyundaihmall.com/newcjp3/_definst_/newcjpstream.smil/playlist.m3u8\r",
+      "line": 54,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Job Plus TV (한국직업방송) (480p)",
+      "tvg": {
+        "id": "JobplusTV.kr@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/Y5Zg5SR.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Business"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://live.jobplustv.or.kr/live/wowtvlive1.sdp/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"JobplusTV.kr@SD\" tvg-logo=\"https://i.imgur.com/Y5Zg5SR.png\" group-title=\"Business\",Job Plus TV (한국직업방송) (480p)\r\r\nhttps://live.jobplustv.or.kr/live/wowtvlive1.sdp/playlist.m3u8\r",
+      "line": 56,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Lotte Home Shopping (720p)",
       "tvg": {
         "id": "LotteHomeShopping.kr@SD",
@@ -752,34 +752,6 @@
       "url": "https://pchlslivesw.lotteimall.com/live/livestream/lotteimalllive_mp4.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"LotteHomeShopping.kr@SD\" tvg-logo=\"https://i.imgur.com/dJeNehc.png\" group-title=\"Shop\",Lotte Home Shopping (720p)\r\r\nhttps://pchlslivesw.lotteimall.com/live/livestream/lotteimalllive_mp4.m3u8\r",
       "line": 64,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Lotte OneTV (720p)",
-      "tvg": {
-        "id": "LotteOneTV.kr@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/bXe7tYE.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Shop"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://onetvhlslive.lotteimall.com/lotteonetvlive/lotteonetvlive.mp4.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"LotteOneTV.kr@SD\" tvg-logo=\"https://i.imgur.com/bXe7tYE.png\" group-title=\"Shop\",Lotte OneTV (720p)\r\r\nhttps://onetvhlslive.lotteimall.com/lotteonetvlive/lotteonetvlive.mp4.m3u8\r",
-      "line": 66,
       "catchup": {
         "type": "",
         "days": "",
@@ -817,6 +789,34 @@
       "status": "OK"
     },
     {
+      "name": "Lotte OneTV (720p)",
+      "tvg": {
+        "id": "LotteOneTV.kr@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/bXe7tYE.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Shop"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://onetvhlslive.lotteimall.com/lotteonetvlive/lotteonetvlive.mp4.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"LotteOneTV.kr@SD\" tvg-logo=\"https://i.imgur.com/bXe7tYE.png\" group-title=\"Shop\",Lotte OneTV (720p)\r\r\nhttps://onetvhlslive.lotteimall.com/lotteonetvlive/lotteonetvlive.mp4.m3u8\r",
+      "line": 66,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "MBC Andong (안동 MBC) (360p) [Not 24/7]",
       "tvg": {
         "id": "HLAWDTV.kr@SD",
@@ -845,34 +845,6 @@
       "status": "OK"
     },
     {
-      "name": "MBC Chungbuk (MBC 충북) (720p) [Not 24/7]",
-      "tvg": {
-        "id": "HLAODTV.kr@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/uR0gScb.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://211.33.246.4:32954/cj_live/myStream.sdp/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"HLAODTV.kr@SD\" tvg-logo=\"https://i.imgur.com/uR0gScb.png\" group-title=\"General\",MBC Chungbuk (MBC 충북) (720p) [Not 24/7]\r\r\nhttp://211.33.246.4:32954/cj_live/myStream.sdp/playlist.m3u8\r",
-      "line": 74,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "MBC Chuncheon (춘천 MBC) (480p) [Not 24/7]",
       "tvg": {
         "id": "HLANDTV.kr@SD",
@@ -892,6 +864,34 @@
       "url": "https://stream.chmbc.co.kr/TV/myStream/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"HLANDTV.kr@SD\" tvg-logo=\"https://i.imgur.com/lthyx2P.png\" group-title=\"General\",MBC Chuncheon (춘천 MBC) (480p) [Not 24/7]\r\r\nhttps://stream.chmbc.co.kr/TV/myStream/playlist.m3u8\r",
       "line": 72,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "MBC Chungbuk (MBC 충북) (720p) [Not 24/7]",
+      "tvg": {
+        "id": "HLAODTV.kr@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/uR0gScb.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://211.33.246.4:32954/cj_live/myStream.sdp/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"HLAODTV.kr@SD\" tvg-logo=\"https://i.imgur.com/uR0gScb.png\" group-title=\"General\",MBC Chungbuk (MBC 충북) (720p) [Not 24/7]\r\r\nhttp://211.33.246.4:32954/cj_live/myStream.sdp/playlist.m3u8\r",
+      "line": 74,
       "catchup": {
         "type": "",
         "days": "",
@@ -985,34 +985,6 @@
       "status": "OK"
     },
     {
-      "name": "MBC Jeju (제주 MBC) (352p) [Not 24/7]",
-      "tvg": {
-        "id": "HLAJDTV.kr@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/JM4rxGU.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://wowza.jejumbc.com/live/tv_jejumbc/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"HLAJDTV.kr@SD\" tvg-logo=\"https://i.imgur.com/JM4rxGU.png\" group-title=\"General\",MBC Jeju (제주 MBC) (352p) [Not 24/7]\r\r\nhttps://wowza.jejumbc.com/live/tv_jejumbc/playlist.m3u8\r",
-      "line": 88,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "MBC Mokpo (목포 MBC) (720p) [Not 24/7]",
       "tvg": {
         "id": "HLAMDTV.kr@SD",
@@ -1060,6 +1032,34 @@
       "url": "http://mytv.dothome.co.kr/ch/catv/28.php",
       "raw": "#EXTINF:-1 tvg-id=\"MBCNet.kr@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/MBCNET_%EB%A1%9C%EA%B3%A0.svg/512px-MBCNET_%EB%A1%9C%EA%B3%A0.svg.png\" group-title=\"Undefined\",MBC Net (480p) [Geo-blocked]\r\r\nhttp://mytv.dothome.co.kr/ch/catv/28.php\r",
       "line": 94,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "MBC Yeosu (여수 MBC) (1080p) [Not 24/7]",
+      "tvg": {
+        "id": "HLATDTV.kr@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/3VSuYsn.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://5c3639aa99149.streamlock.net/live_TV/tv/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"HLATDTV.kr@SD\" tvg-logo=\"https://i.imgur.com/3VSuYsn.png\" group-title=\"General\",MBC Yeosu (여수 MBC) (1080p) [Not 24/7]\r\r\nhttps://5c3639aa99149.streamlock.net/live_TV/tv/playlist.m3u8\r",
+      "line": 96,
       "catchup": {
         "type": "",
         "days": "",
@@ -1321,6 +1321,34 @@
       "status": "OK"
     },
     {
+      "name": "SBS G1 (360p) [Not 24/7]",
+      "tvg": {
+        "id": "HLCGDTV.kr@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/ABdmZMc.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://61.82.49.4:1935/live/_definst_/tv.stream/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"HLCGDTV.kr@SD\" tvg-logo=\"https://i.imgur.com/ABdmZMc.png\" group-title=\"General\",SBS G1 (360p) [Not 24/7]\r\r\nhttp://61.82.49.4:1935/live/_definst_/tv.stream/playlist.m3u8\r",
+      "line": 125,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "SBS JIBS (720p) [Not 24/7]",
       "tvg": {
         "id": "HLKJDTV.kr@SD",
@@ -1340,6 +1368,90 @@
       "url": "http://123.140.197.22/stream/1/play.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"HLKJDTV.kr@SD\" tvg-logo=\"https://i.imgur.com/iAz0Psw.png\" group-title=\"General\",SBS JIBS (720p) [Not 24/7]\r\r\nhttp://123.140.197.22/stream/1/play.m3u8\r",
       "line": 127,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "SBS JTV (406p) [Not 24/7]",
+      "tvg": {
+        "id": "HLDQDTV.kr@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/byss0Ld.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://61.85.197.53:1935/jtv_live/myStream/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"HLDQDTV.kr@SD\" tvg-logo=\"https://i.imgur.com/byss0Ld.png\" group-title=\"General\",SBS JTV (406p) [Not 24/7]\r\r\nhttp://61.85.197.53:1935/jtv_live/myStream/playlist.m3u8\r",
+      "line": 129,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "SBS KBC (1080p) [Not 24/7]",
+      "tvg": {
+        "id": "HLDHDTV.kr@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/Srsw4Mi.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://vod.ikbc.co.kr/KBCTV/tv/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"HLDHDTV.kr@SD\" tvg-logo=\"https://i.imgur.com/Srsw4Mi.png\" group-title=\"General\",SBS KBC (1080p) [Not 24/7]\r\r\nhttps://vod.ikbc.co.kr/KBCTV/tv/playlist.m3u8\r",
+      "line": 131,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "SBS UBC (540p) [Not 24/7]",
+      "tvg": {
+        "id": "HLDPDTV.kr@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/BBCoqIf.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://stream.ubc.co.kr/hls/ubctvstream/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"HLDPDTV.kr@SD\" tvg-logo=\"https://i.imgur.com/BBCoqIf.png\" group-title=\"General\",SBS UBC (540p) [Not 24/7]\r\r\nhttps://stream.ubc.co.kr/hls/ubctvstream/index.m3u8\r",
+      "line": 137,
       "catchup": {
         "type": "",
         "days": "",
@@ -1424,6 +1536,34 @@
       "url": "https://cdntv.tbs.seoul.kr/tbs/tbs_tv_web.smil/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TBSTV.kr@SD\" tvg-logo=\"https://i.imgur.com/iOnWS6V.png\" group-title=\"Undefined\",TBS Seoul (720p)\r\r\nhttps://cdntv.tbs.seoul.kr/tbs/tbs_tv_web.smil/playlist.m3u8\r",
       "line": 143,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "TV Chosun (720p)",
+      "tvg": {
+        "id": "TVChosun.kr@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/62EwaCG.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "http://broadcast.tvchosun.com/onair/on.cstv",
+        "user-agent": ""
+      },
+      "url": "http://onair.cdn.tvchosun.com/origin1/_definst_/tvchosun_s1/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"TVChosun.kr@SD\" tvg-logo=\"https://i.imgur.com/62EwaCG.png\" http-referrer=\"http://broadcast.tvchosun.com/onair/on.cstv\" group-title=\"General\",TV Chosun (720p)\r\r\n#EXTVLCOPT:http-referrer=http://broadcast.tvchosun.com/onair/on.cstv\r\r\nhttp://onair.cdn.tvchosun.com/origin1/_definst_/tvchosun_s1/playlist.m3u8\r",
+      "line": 145,
       "catchup": {
         "type": "",
         "days": "",
