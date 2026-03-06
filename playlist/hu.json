@@ -5,6 +5,34 @@
   },
   "items": [
     {
+      "name": "16tv Budapest (360p)",
+      "tvg": {
+        "id": "16tvBudapest.hu@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/04fCzHl.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://cloudfront44.lexanetwork.com:1344/freerelay/16tv.sdp/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"16tvBudapest.hu@SD\" tvg-logo=\"https://i.imgur.com/04fCzHl.png\" group-title=\"General\",16tv Budapest (360p)\r\r\nhttps://cloudfront44.lexanetwork.com:1344/freerelay/16tv.sdp/playlist.m3u8\r",
+      "line": 2,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Alföld TV (1080p)",
       "tvg": {
         "id": "AlfoldTV.hu@SD",
@@ -52,34 +80,6 @@
       "url": "https://live.apostoltv.hu/live/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"ApostolTV.hu@SD\" tvg-logo=\"https://i.imgur.com/C43Cc9N.png\" group-title=\"Religious\",Apostol TV (576p)\r\r\nhttps://live.apostoltv.hu/live/playlist.m3u8\r",
       "line": 6,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "16tv Budapest (360p)",
-      "tvg": {
-        "id": "16tvBudapest.hu@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/04fCzHl.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://cloudfront44.lexanetwork.com:1344/freerelay/16tv.sdp/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"16tvBudapest.hu@SD\" tvg-logo=\"https://i.imgur.com/04fCzHl.png\" group-title=\"General\",16tv Budapest (360p)\r\r\nhttps://cloudfront44.lexanetwork.com:1344/freerelay/16tv.sdp/playlist.m3u8\r",
-      "line": 2,
       "catchup": {
         "type": "",
         "days": "",
@@ -145,25 +145,25 @@
       "status": "OK"
     },
     {
-      "name": "Balaton TV (432p)",
+      "name": "Berente TV (1080p)",
       "tvg": {
-        "id": "BalatonTV.hu@SD",
+        "id": "BerenteTV.hu@SD",
         "name": "",
-        "logo": "https://balatontelevizio.hu/wp-content/uploads/2020/05/balaton_tv_logo.png",
+        "logo": "https://i.imgur.com/3H3Ct9f.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Undefined"
+        "title": "General"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://stream.iptvservice.eu/hls/balatontv.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"BalatonTV.hu@SD\" tvg-logo=\"https://balatontelevizio.hu/wp-content/uploads/2020/05/balaton_tv_logo.png\" group-title=\"Undefined\",Balaton TV (432p)\r\r\nhttps://stream.iptvservice.eu/hls/balatontv.m3u8\r",
-      "line": 16,
+      "url": "https://stream.streaming4u.hu/BerenteTV/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"BerenteTV.hu@SD\" tvg-logo=\"https://i.imgur.com/3H3Ct9f.png\" group-title=\"General\",Berente TV (1080p)\r\r\nhttps://stream.streaming4u.hu/BerenteTV/index.m3u8\r",
+      "line": 18,
       "catchup": {
         "type": "",
         "days": "",
@@ -201,25 +201,25 @@
       "status": "OK"
     },
     {
-      "name": "Berente TV (1080p)",
+      "name": "Balaton TV (432p)",
       "tvg": {
-        "id": "BerenteTV.hu@SD",
+        "id": "BalatonTV.hu@SD",
         "name": "",
-        "logo": "https://i.imgur.com/3H3Ct9f.png",
+        "logo": "https://balatontelevizio.hu/wp-content/uploads/2020/05/balaton_tv_logo.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "General"
+        "title": "Undefined"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://stream.streaming4u.hu/BerenteTV/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"BerenteTV.hu@SD\" tvg-logo=\"https://i.imgur.com/3H3Ct9f.png\" group-title=\"General\",Berente TV (1080p)\r\r\nhttps://stream.streaming4u.hu/BerenteTV/index.m3u8\r",
-      "line": 18,
+      "url": "https://stream.iptvservice.eu/hls/balatontv.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"BalatonTV.hu@SD\" tvg-logo=\"https://balatontelevizio.hu/wp-content/uploads/2020/05/balaton_tv_logo.png\" group-title=\"Undefined\",Balaton TV (432p)\r\r\nhttps://stream.iptvservice.eu/hls/balatontv.m3u8\r",
+      "line": 16,
       "catchup": {
         "type": "",
         "days": "",
@@ -584,34 +584,6 @@
       "url": "http://88.212.15.19/live/m2_hun/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"M2.hu@SD\" tvg-logo=\"https://i.imgur.com/B0nYT0l.png\" group-title=\"Entertainment\",M2 (1080p)\r\r\nhttp://88.212.15.19/live/m2_hun/index.m3u8\r",
       "line": 88,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "M4 Sport",
-      "tvg": {
-        "id": "M4Sport.hu@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/TQ4uJZk.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Sports"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://88.212.15.19/live/m4_hun/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"M4Sport.hu@SD\" tvg-logo=\"https://i.imgur.com/TQ4uJZk.png\" group-title=\"Sports\",M4 Sport\r\r\nhttp://88.212.15.19/live/m4_hun/index.m3u8\r",
-      "line": 90,
       "catchup": {
         "type": "",
         "days": "",
@@ -1069,34 +1041,6 @@
       "status": "OK"
     },
     {
-      "name": "TV Eger (1080p)",
-      "tvg": {
-        "id": "TVEger.hu@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/GUVW073.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://stream.tveger.hu:8010/live.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TVEger.hu@SD\" tvg-logo=\"https://i.imgur.com/GUVW073.png\" group-title=\"Undefined\",TV Eger (1080p)\r\r\nhttp://stream.tveger.hu:8010/live.m3u8\r",
-      "line": 154,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "TV Keszthely (360p)",
       "tvg": {
         "id": "TVKeszthely.hu@SD",
@@ -1116,6 +1060,34 @@
       "url": "https://cloudfront44.lexanetwork.com:1344/freerelay/keszthelyivtv.sdp/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TVKeszthely.hu@SD\" tvg-logo=\"https://i.imgur.com/2LE8xSW.png\" group-title=\"General\",TV Keszthely (360p)\r\r\nhttps://cloudfront44.lexanetwork.com:1344/freerelay/keszthelyivtv.sdp/playlist.m3u8\r",
       "line": 156,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "TV Eger (1080p)",
+      "tvg": {
+        "id": "TVEger.hu@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/GUVW073.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://stream.tveger.hu:8010/live.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"TVEger.hu@SD\" tvg-logo=\"https://i.imgur.com/GUVW073.png\" group-title=\"Undefined\",TV Eger (1080p)\r\r\nhttp://stream.tveger.hu:8010/live.m3u8\r",
+      "line": 154,
       "catchup": {
         "type": "",
         "days": "",
