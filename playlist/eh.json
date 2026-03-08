@@ -5,7 +5,35 @@
   },
   "items": [
     {
-      "name": "RASD TV (720p)",
+      "name": "Laayoune TV (576p)",
+      "tvg": {
+        "id": "LaayouneTV.ma@SD",
+        "name": "",
+        "logo": "https://www.snrt.ma/sites/default/files/2023-04/laayoune.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://5.253.46.190:8000/play/a0eg/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"LaayouneTV.ma@SD\" tvg-logo=\"https://www.snrt.ma/sites/default/files/2023-04/laayoune.png\" group-title=\"General\",Laayoune TV (576p)\r\r\nhttp://5.253.46.190:8000/play/a0eg/index.m3u8\r",
+      "line": 2,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "RASD TV (1080i)",
       "tvg": {
         "id": "RASDTV.eh@SD",
         "name": "",
@@ -21,9 +49,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=12830",
-      "raw": "#EXTINF:-1 tvg-id=\"RASDTV.eh@SD\" tvg-logo=\"https://i.imgur.com/9Pb8806.png\" group-title=\"General\",RASD TV (720p)\r\r\nhttps://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=12830\r",
-      "line": 2,
+      "url": "https://cloud.streamingconnect.tv/hls/rasdtv2/rasdtv.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"RASDTV.eh@SD\" tvg-logo=\"https://i.imgur.com/9Pb8806.png\" group-title=\"General\",RASD TV (1080i)\r\r\nhttps://cloud.streamingconnect.tv/hls/rasdtv2/rasdtv.m3u8\r",
+      "line": 4,
       "catchup": {
         "type": "",
         "days": "",
