@@ -89,6 +89,34 @@
       "status": "OK"
     },
     {
+      "name": "12TV Alicante (720p)",
+      "tvg": {
+        "id": "12tv.es@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/VSTgXsh.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "https://player.streamingconnect.com/",
+        "user-agent": ""
+      },
+      "url": "https://cloud.fastchannel.es/mic/manifiest/hls/12tv/12tv.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"12tv.es@SD\" tvg-logo=\"https://i.imgur.com/VSTgXsh.png\" http-referrer=\"https://player.streamingconnect.com/\" group-title=\"General\",12TV Alicante (720p)\r\r\n#EXTVLCOPT:http-referrer=https://player.streamingconnect.com/\r\r\nhttps://cloud.fastchannel.es/mic/manifiest/hls/12tv/12tv.m3u8\r",
+      "line": 22,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "7 TeleValencia (576p)",
       "tvg": {
         "id": "Canal7TeleValencia.es@SD",
@@ -285,34 +313,6 @@
       "status": "OK"
     },
     {
-      "name": "12TV Alicante (720p)",
-      "tvg": {
-        "id": "12tv.es@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/VSTgXsh.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "https://player.streamingconnect.com/",
-        "user-agent": ""
-      },
-      "url": "https://cloud.fastchannel.es/mic/manifiest/hls/12tv/12tv.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"12tv.es@SD\" tvg-logo=\"https://i.imgur.com/VSTgXsh.png\" http-referrer=\"https://player.streamingconnect.com/\" group-title=\"General\",12TV Alicante (720p)\r\r\n#EXTVLCOPT:http-referrer=https://player.streamingconnect.com/\r\r\nhttps://cloud.fastchannel.es/mic/manifiest/hls/12tv/12tv.m3u8\r",
-      "line": 22,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Activa TV (720p)",
       "tvg": {
         "id": "ActivaTV.es@SD",
@@ -425,34 +425,6 @@
       "status": "OK"
     },
     {
-      "name": "Alacantí TV (576p) [Not 24/7]",
-      "tvg": {
-        "id": "AlacantiTV.es@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/pcWU6e1.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://streaming01.gestec-video.com/hls/artequatreAlacanti.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"AlacantiTV.es@SD\" tvg-logo=\"https://i.imgur.com/pcWU6e1.png\" group-title=\"General\",Alacantí TV (576p) [Not 24/7]\r\r\nhttps://streaming01.gestec-video.com/hls/artequatreAlacanti.m3u8\r",
-      "line": 49,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "À Punt (1080p)",
       "tvg": {
         "id": "APunt.es@SD",
@@ -481,11 +453,39 @@
       "status": "OK"
     },
     {
-      "name": "Anime Zone TV (480p)",
+      "name": "Alacantí TV (576p) [Not 24/7]",
       "tvg": {
-        "id": "AnimeZoneTV.do@SD",
+        "id": "AlacantiTV.es@SD",
         "name": "",
-        "logo": "https://i.imgur.com/AHaXlCh.png",
+        "logo": "https://i.imgur.com/pcWU6e1.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://streaming01.gestec-video.com/hls/artequatreAlacanti.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"AlacantiTV.es@SD\" tvg-logo=\"https://i.imgur.com/pcWU6e1.png\" group-title=\"General\",Alacantí TV (576p) [Not 24/7]\r\r\nhttps://streaming01.gestec-video.com/hls/artequatreAlacanti.m3u8\r",
+      "line": 49,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Anime Vision Classics (1080p)",
+      "tvg": {
+        "id": "AnimeVisionClassics.es@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/mTaiEE1.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -497,9 +497,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "http://animezonetv.net/hls/stream.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"AnimeZoneTV.do@SD\" tvg-logo=\"https://i.imgur.com/AHaXlCh.png\" group-title=\"Animation\",Anime Zone TV (480p)\r\r\nhttp://animezonetv.net/hls/stream.m3u8\r",
-      "line": 59,
+      "url": "https://d82pyvmcw2kdc.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-swfivzrzwamaq/live/fast-channel-animevisionclassics-efc8dc6d/fast-channel-animevisionclassics-efc8dc6d.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"AnimeVisionClassics.es@SD\" tvg-logo=\"https://i.imgur.com/mTaiEE1.png\" group-title=\"Animation\",Anime Vision Classics (1080p)\r\r\nhttps://d82pyvmcw2kdc.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-swfivzrzwamaq/live/fast-channel-animevisionclassics-efc8dc6d/fast-channel-animevisionclassics-efc8dc6d.m3u8\r",
+      "line": 57,
       "catchup": {
         "type": "",
         "days": "",
@@ -537,11 +537,11 @@
       "status": "OK"
     },
     {
-      "name": "Anime Vision Classics (1080p)",
+      "name": "Anime Zone TV (480p)",
       "tvg": {
-        "id": "AnimeVisionClassics.es@SD",
+        "id": "AnimeZoneTV.do@SD",
         "name": "",
-        "logo": "https://i.imgur.com/mTaiEE1.png",
+        "logo": "https://i.imgur.com/AHaXlCh.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -553,9 +553,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://d82pyvmcw2kdc.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-swfivzrzwamaq/live/fast-channel-animevisionclassics-efc8dc6d/fast-channel-animevisionclassics-efc8dc6d.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"AnimeVisionClassics.es@SD\" tvg-logo=\"https://i.imgur.com/mTaiEE1.png\" group-title=\"Animation\",Anime Vision Classics (1080p)\r\r\nhttps://d82pyvmcw2kdc.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-swfivzrzwamaq/live/fast-channel-animevisionclassics-efc8dc6d/fast-channel-animevisionclassics-efc8dc6d.m3u8\r",
-      "line": 57,
+      "url": "http://animezonetv.net/hls/stream.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"AnimeZoneTV.do@SD\" tvg-logo=\"https://i.imgur.com/AHaXlCh.png\" group-title=\"Animation\",Anime Zone TV (480p)\r\r\nhttp://animezonetv.net/hls/stream.m3u8\r",
+      "line": 59,
       "catchup": {
         "type": "",
         "days": "",
@@ -677,34 +677,6 @@
       "status": "OK"
     },
     {
-      "name": "Aragon TV (720p) [Geo-Blocked]",
-      "tvg": {
-        "id": "AragonTV.es@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/6YSi1zW.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General;Public"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://viamotionhsi.netplus.ch/live/eds/aragontv/browser-HLS8/aragontv.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"AragonTV.es@SD\" tvg-logo=\"https://i.imgur.com/6YSi1zW.png\" group-title=\"General;Public\",Aragon TV (720p) [Geo-Blocked]\r\r\nhttps://viamotionhsi.netplus.ch/live/eds/aragontv/browser-HLS8/aragontv.m3u8\r",
-      "line": 67,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Antena 3 (1080p)",
       "tvg": {
         "id": "Antena3.es@National",
@@ -733,6 +705,34 @@
       "status": "OK"
     },
     {
+      "name": "Aragon TV (720p) [Geo-Blocked]",
+      "tvg": {
+        "id": "AragonTV.es@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/6YSi1zW.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General;Public"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://viamotionhsi.netplus.ch/live/eds/aragontv/browser-HLS8/aragontv.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"AragonTV.es@SD\" tvg-logo=\"https://i.imgur.com/6YSi1zW.png\" group-title=\"General;Public\",Aragon TV (720p) [Geo-Blocked]\r\r\nhttps://viamotionhsi.netplus.ch/live/eds/aragontv/browser-HLS8/aragontv.m3u8\r",
+      "line": 67,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "BBC Drama (1080p)",
       "tvg": {
         "id": "BBCDrama.uk@Spain",
@@ -752,6 +752,34 @@
       "url": "https://amg00793-amg00793c40-rakuten-es-5444.playouts.now.amagi.tv/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"BBCDrama.uk@Spain\" tvg-logo=\"https://i.imgur.com/HctHhLL.png\" group-title=\"Series\",BBC Drama (1080p)\r\r\nhttps://amg00793-amg00793c40-rakuten-es-5444.playouts.now.amagi.tv/playlist.m3u8\r",
       "line": 79,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Baby TV Spain (1080p)",
+      "tvg": {
+        "id": "BabyTV.uk@Spain",
+        "name": "",
+        "logo": "https://i.imgur.com/4BDJ5FT.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Kids"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://45.95.78.232:8001/udp/239.106.86.1:5000",
+      "raw": "#EXTINF:-1 tvg-id=\"BabyTV.uk@Spain\" tvg-logo=\"https://i.imgur.com/4BDJ5FT.png\" group-title=\"Kids\",Baby TV Spain (1080p)\r\r\nhttp://45.95.78.232:8001/udp/239.106.86.1:5000\r",
+      "line": 73,
       "catchup": {
         "type": "",
         "days": "",
@@ -873,34 +901,6 @@
       "status": "OK"
     },
     {
-      "name": "BeMad (1080p)",
-      "tvg": {
-        "id": "BeMad.es@SD",
-        "name": "",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/BeMad_2022_Logo.svg/960px-BeMad_2022_Logo.svg.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://45.95.78.232:8001/udp/239.106.85.1:5000",
-      "raw": "#EXTINF:-1 tvg-id=\"BeMad.es@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/BeMad_2022_Logo.svg/960px-BeMad_2022_Logo.svg.png\" group-title=\"Undefined\",BeMad (1080p)\r\r\nhttp://45.95.78.232:8001/udp/239.106.85.1:5000\r",
-      "line": 86,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Cadena Elite (720p) [Not 24/7]",
       "tvg": {
         "id": "CadenaElite.es@SD",
@@ -920,6 +920,34 @@
       "url": "https://cloudvideo.servers10.com:8081/8004/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"CadenaElite.es@SD\" tvg-logo=\"https://i.imgur.com/3yeGDTP.png\" group-title=\"Music\",Cadena Elite (720p) [Not 24/7]\r\r\nhttps://cloudvideo.servers10.com:8081/8004/index.m3u8\r",
       "line": 94,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "BeMad (1080p)",
+      "tvg": {
+        "id": "BeMad.es@SD",
+        "name": "",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/BeMad_2022_Logo.svg/960px-BeMad_2022_Logo.svg.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://45.95.78.232:8001/udp/239.106.85.1:5000",
+      "raw": "#EXTINF:-1 tvg-id=\"BeMad.es@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/BeMad_2022_Logo.svg/960px-BeMad_2022_Logo.svg.png\" group-title=\"Undefined\",BeMad (1080p)\r\r\nhttp://45.95.78.232:8001/udp/239.106.85.1:5000\r",
+      "line": 86,
       "catchup": {
         "type": "",
         "days": "",
@@ -1069,34 +1097,6 @@
       "status": "OK"
     },
     {
-      "name": "Canal 10 Empordà (360p) [Not 24/7]",
-      "tvg": {
-        "id": "Canal10Emporda.es@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/ojQ6wzX.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://ventdelnord.tv:8080/escala/directe.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Canal10Emporda.es@SD\" tvg-logo=\"https://i.imgur.com/ojQ6wzX.png\" group-title=\"Undefined\",Canal 10 Empordà (360p) [Not 24/7]\r\r\nhttps://ventdelnord.tv:8080/escala/directe.m3u8\r",
-      "line": 106,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Canal 24 Horas Canarias (720p)",
       "tvg": {
         "id": "24HorasCanarias.es@SD",
@@ -1181,11 +1181,11 @@
       "status": "OK"
     },
     {
-      "name": "Canal 33 Madrid",
+      "name": "Canal 10 Empordà (360p) [Not 24/7]",
       "tvg": {
-        "id": "Canal33Madrid.es@SD",
+        "id": "Canal10Emporda.es@SD",
         "name": "",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Logo_Canal_33_Madrid_2025.jpg/960px-Logo_Canal_33_Madrid_2025.jpg",
+        "logo": "https://i.imgur.com/ojQ6wzX.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -1197,9 +1197,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://media2.streambrothers.com:1936/8140/8140/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Canal33Madrid.es@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Logo_Canal_33_Madrid_2025.jpg/960px-Logo_Canal_33_Madrid_2025.jpg\" group-title=\"Undefined\",Canal 33 Madrid\r\r\nhttps://media2.streambrothers.com:1936/8140/8140/playlist.m3u8\r",
-      "line": 114,
+      "url": "https://ventdelnord.tv:8080/escala/directe.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Canal10Emporda.es@SD\" tvg-logo=\"https://i.imgur.com/ojQ6wzX.png\" group-title=\"Undefined\",Canal 10 Empordà (360p) [Not 24/7]\r\r\nhttps://ventdelnord.tv:8080/escala/directe.m3u8\r",
+      "line": 106,
       "catchup": {
         "type": "",
         "days": "",
@@ -1265,6 +1265,62 @@
       "status": "OK"
     },
     {
+      "name": "Canal 33 Madrid",
+      "tvg": {
+        "id": "Canal33Madrid.es@SD",
+        "name": "",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Logo_Canal_33_Madrid_2025.jpg/960px-Logo_Canal_33_Madrid_2025.jpg",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://media2.streambrothers.com:1936/8140/8140/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Canal33Madrid.es@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Logo_Canal_33_Madrid_2025.jpg/960px-Logo_Canal_33_Madrid_2025.jpg\" group-title=\"Undefined\",Canal 33 Madrid\r\r\nhttps://media2.streambrothers.com:1936/8140/8140/playlist.m3u8\r",
+      "line": 114,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Canal 2000 La Solana (720p) [Not 24/7]",
+      "tvg": {
+        "id": "Canal2000.es@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/9RoBASf.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://canal2000.berkano-systems.net/streaming/streams/canal2000.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Canal2000.es@SD\" tvg-logo=\"https://i.imgur.com/9RoBASf.png\" group-title=\"Undefined\",Canal 2000 La Solana (720p) [Not 24/7]\r\r\nhttp://canal2000.berkano-systems.net/streaming/streams/canal2000.m3u8\r",
+      "line": 120,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Canal Coín (1080p)",
       "tvg": {
         "id": "CanalCoinTV.es@SD",
@@ -1321,6 +1377,34 @@
       "status": "OK"
     },
     {
+      "name": "Canal Doñana (720p) [Not 24/7]",
+      "tvg": {
+        "id": "CanalDonana.es@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/0WrKIxm.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://secure5.todostreaming.es/live/division-alm.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"CanalDonana.es@SD\" tvg-logo=\"https://i.imgur.com/0WrKIxm.png\" group-title=\"Undefined\",Canal Doñana (720p) [Not 24/7]\r\r\nhttps://secure5.todostreaming.es/live/division-alm.m3u8\r",
+      "line": 126,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Canal Extremadura (1080p)",
       "tvg": {
         "id": "CanalExtremadura.es@SD",
@@ -1340,62 +1424,6 @@
       "url": "http://45.95.78.232:8001/udp/239.106.90.6:5000",
       "raw": "#EXTINF:-1 tvg-id=\"CanalExtremadura.es@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/CEXMA_new.png/500px-CEXMA_new.png\" group-title=\"General;Public\",Canal Extremadura (1080p)\r\r\nhttp://45.95.78.232:8001/udp/239.106.90.6:5000\r",
       "line": 128,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Canal 2000 La Solana (720p) [Not 24/7]",
-      "tvg": {
-        "id": "Canal2000.es@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/9RoBASf.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://canal2000.berkano-systems.net/streaming/streams/canal2000.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Canal2000.es@SD\" tvg-logo=\"https://i.imgur.com/9RoBASf.png\" group-title=\"Undefined\",Canal 2000 La Solana (720p) [Not 24/7]\r\r\nhttp://canal2000.berkano-systems.net/streaming/streams/canal2000.m3u8\r",
-      "line": 120,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Canal Málaga RTV (720p) [Not 24/7]",
-      "tvg": {
-        "id": "CanalMalagaRTV.es@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/QSUOxtM.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://canalmalaga-tv-live.flumotion.com/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"CanalMalagaRTV.es@SD\" tvg-logo=\"https://i.imgur.com/QSUOxtM.png\" group-title=\"General\",Canal Málaga RTV (720p) [Not 24/7]\r\r\nhttps://canalmalaga-tv-live.flumotion.com/playlist.m3u8\r",
-      "line": 132,
       "catchup": {
         "type": "",
         "days": "",
@@ -1433,34 +1461,6 @@
       "status": "OK"
     },
     {
-      "name": "Canal Sierra de Cádiz (1080p) [Not 24/7]",
-      "tvg": {
-        "id": "CanalSierradeCadiz.es@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/94rn7pb.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://s.emisoras.tv:8081/sierradecadiz/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"CanalSierradeCadiz.es@SD\" tvg-logo=\"https://i.imgur.com/94rn7pb.png\" group-title=\"General\",Canal Sierra de Cádiz (1080p) [Not 24/7]\r\r\nhttps://s.emisoras.tv:8081/sierradecadiz/index.m3u8\r",
-      "line": 141,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Canal San Roque (1080p) [Not 24/7]",
       "tvg": {
         "id": "CanalSanRoque.es@SD",
@@ -1489,25 +1489,25 @@
       "status": "OK"
     },
     {
-      "name": "Canal Sur Andalucia (1080p)",
+      "name": "Canal Sierra de Cádiz (1080p) [Not 24/7]",
       "tvg": {
-        "id": "CanalSurAndalucia.es@SD",
+        "id": "CanalSierradeCadiz.es@SD",
         "name": "",
-        "logo": "https://i.imgur.com/lznnA4v.png",
+        "logo": "https://i.imgur.com/94rn7pb.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "General;Public"
+        "title": "General"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://dfk2a268yviz9.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-ddiii1m6jt6of/CanalSurAndaluciaES.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"CanalSurAndalucia.es@SD\" tvg-logo=\"https://i.imgur.com/lznnA4v.png\" group-title=\"General;Public\",Canal Sur Andalucia (1080p)\r\r\nhttps://dfk2a268yviz9.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-ddiii1m6jt6of/CanalSurAndaluciaES.m3u8\r",
-      "line": 145,
+      "url": "https://s.emisoras.tv:8081/sierradecadiz/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"CanalSierradeCadiz.es@SD\" tvg-logo=\"https://i.imgur.com/94rn7pb.png\" group-title=\"General\",Canal Sierra de Cádiz (1080p) [Not 24/7]\r\r\nhttps://s.emisoras.tv:8081/sierradecadiz/index.m3u8\r",
+      "line": 141,
       "catchup": {
         "type": "",
         "days": "",
@@ -1536,6 +1536,34 @@
       "url": "http://45.95.78.232:8001/udp/239.106.90.2:5000",
       "raw": "#EXTINF:-1 tvg-id=\"CanalSur.es@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Canal_Sur_Televisi%C3%B3n_2011-2017_logo.svg/960px-Canal_Sur_Televisi%C3%B3n_2011-2017_logo.svg.png\" group-title=\"General;Public\",Canal Sur (1080p)\r\r\nhttp://45.95.78.232:8001/udp/239.106.90.2:5000\r",
       "line": 143,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Canal Sur Andalucia (1080p)",
+      "tvg": {
+        "id": "CanalSurAndalucia.es@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/lznnA4v.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General;Public"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://dfk2a268yviz9.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-ddiii1m6jt6of/CanalSurAndaluciaES.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"CanalSurAndalucia.es@SD\" tvg-logo=\"https://i.imgur.com/lznnA4v.png\" group-title=\"General;Public\",Canal Sur Andalucia (1080p)\r\r\nhttps://dfk2a268yviz9.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-ddiii1m6jt6of/CanalSurAndaluciaES.m3u8\r",
+      "line": 145,
       "catchup": {
         "type": "",
         "days": "",
@@ -1601,6 +1629,34 @@
       "status": "OK"
     },
     {
+      "name": "Canal Málaga RTV (720p) [Not 24/7]",
+      "tvg": {
+        "id": "CanalMalagaRTV.es@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/QSUOxtM.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://canalmalaga-tv-live.flumotion.com/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"CanalMalagaRTV.es@SD\" tvg-logo=\"https://i.imgur.com/QSUOxtM.png\" group-title=\"General\",Canal Málaga RTV (720p) [Not 24/7]\r\r\nhttps://canalmalaga-tv-live.flumotion.com/playlist.m3u8\r",
+      "line": 132,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Canal Taronja Comarques Centrals (1080p) [Not 24/7]",
       "tvg": {
         "id": "CanalTaronjaComarquesCentrals.es@SD",
@@ -1657,34 +1713,6 @@
       "status": "OK"
     },
     {
-      "name": "Canal Terres de L'Ebre (1080p)",
-      "tvg": {
-        "id": "CanalTerresdelEbre.es@SD",
-        "name": "",
-        "logo": "https://i.ibb.co/3ynghbW/logox2.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160"
-      },
-      "url": "https://ingest1-video.streaming-pro.com/canalteABR/ctestream/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"CanalTerresdelEbre.es@SD\" tvg-logo=\"https://i.ibb.co/3ynghbW/logox2.png\" http-user-agent=\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160\" group-title=\"General\",Canal Terres de L'Ebre (1080p)\r\r\n#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160\r\r\nhttps://ingest1-video.streaming-pro.com/canalteABR/ctestream/playlist.m3u8\r",
-      "line": 160,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Canal Terrassa (1080p)",
       "tvg": {
         "id": "CanalTerrassa.es@SD",
@@ -1704,6 +1732,34 @@
       "url": "https://ingest2-video.streaming-pro.com/canalterrassa/stream/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"CanalTerrassa.es@SD\" tvg-logo=\"https://i.imgur.com/5fc5ZyI.png\" http-user-agent=\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160\" group-title=\"Undefined\",Canal Terrassa (1080p)\r\r\n#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160\r\r\nhttps://ingest2-video.streaming-pro.com/canalterrassa/stream/playlist.m3u8\r",
       "line": 157,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Canal Terres de L'Ebre (1080p)",
+      "tvg": {
+        "id": "CanalTerresdelEbre.es@SD",
+        "name": "",
+        "logo": "https://i.ibb.co/3ynghbW/logox2.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160"
+      },
+      "url": "https://ingest1-video.streaming-pro.com/canalteABR/ctestream/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"CanalTerresdelEbre.es@SD\" tvg-logo=\"https://i.ibb.co/3ynghbW/logox2.png\" http-user-agent=\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160\" group-title=\"General\",Canal Terres de L'Ebre (1080p)\r\r\n#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160\r\r\nhttps://ingest1-video.streaming-pro.com/canalteABR/ctestream/playlist.m3u8\r",
+      "line": 160,
       "catchup": {
         "type": "",
         "days": "",
@@ -2217,11 +2273,11 @@
       "status": "OK"
     },
     {
-      "name": "Empordà TV (1080p)",
+      "name": "El Toro TV (720p)",
       "tvg": {
-        "id": "EmpordaTV.es@SD",
+        "id": "ElToroTV.es@SD",
         "name": "",
-        "logo": "https://i.imgur.com/jc0lUbX.png",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/9/93/Eltorotv.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -2233,37 +2289,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://video3.lhdserver.es/empordatv2/live.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"EmpordaTV.es@SD\" tvg-logo=\"https://i.imgur.com/jc0lUbX.png\" group-title=\"General\",Empordà TV (1080p)\r\r\nhttps://video3.lhdserver.es/empordatv2/live.m3u8\r",
-      "line": 223,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Esport3 (1080p) [Not 24/7]",
-      "tvg": {
-        "id": "Esport3.es@Originals",
-        "name": "",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Esport3.svg/960px-Esport3.svg.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Public;Sports"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://directes-tv-int.3catdirectes.cat/live-content/esport3-hls/master.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Esport3.es@Originals\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Esport3.svg/960px-Esport3.svg.png\" group-title=\"Public;Sports\",Esport3 (1080p) [Not 24/7]\r\r\nhttps://directes-tv-int.3catdirectes.cat/live-content/esport3-hls/master.m3u8\r",
-      "line": 227,
+      "url": "https://streaming-1.eltorotv.com/lb0/eltorotv-streaming-web/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"ElToroTV.es@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/9/93/Eltorotv.png\" group-title=\"General\",El Toro TV (720p)\r\r\nhttps://streaming-1.eltorotv.com/lb0/eltorotv-streaming-web/index.m3u8\r",
+      "line": 219,
       "catchup": {
         "type": "",
         "days": "",
@@ -2292,6 +2320,34 @@
       "url": "http://45.95.78.232:8001/udp/239.106.84.4:5000",
       "raw": "#EXTINF:-1 tvg-id=\"Energy.es@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Energy.svg/960px-Energy.svg.png\" group-title=\"Entertainment\",Energy (1080p)\r\r\nhttp://45.95.78.232:8001/udp/239.106.84.4:5000\r",
       "line": 225,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Esport3 (1080p) [Not 24/7]",
+      "tvg": {
+        "id": "Esport3.es@Originals",
+        "name": "",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Esport3.svg/960px-Esport3.svg.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Public;Sports"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://directes-tv-int.3catdirectes.cat/live-content/esport3-hls/master.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Esport3.es@Originals\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Esport3.svg/960px-Esport3.svg.png\" group-title=\"Public;Sports\",Esport3 (1080p) [Not 24/7]\r\r\nhttps://directes-tv-int.3catdirectes.cat/live-content/esport3-hls/master.m3u8\r",
+      "line": 227,
       "catchup": {
         "type": "",
         "days": "",
@@ -2357,6 +2413,34 @@
       "status": "OK"
     },
     {
+      "name": "Empordà TV (1080p)",
+      "tvg": {
+        "id": "EmpordaTV.es@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/jc0lUbX.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://video3.lhdserver.es/empordatv2/live.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"EmpordaTV.es@SD\" tvg-logo=\"https://i.imgur.com/jc0lUbX.png\" group-title=\"General\",Empordà TV (1080p)\r\r\nhttps://video3.lhdserver.es/empordatv2/live.m3u8\r",
+      "line": 223,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "ETB Basque (720p)",
       "tvg": {
         "id": "ETBBasque.es@SD",
@@ -2385,62 +2469,6 @@
       "status": "OK"
     },
     {
-      "name": "ETB Events 1 (1080p)",
-      "tvg": {
-        "id": "ETBEvents1.es@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/bVUEmx9.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General;Public"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://cdn1.etbon.eus/oc1/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"ETBEvents1.es@SD\" tvg-logo=\"https://i.imgur.com/bVUEmx9.png\" group-title=\"General;Public\",ETB Events 1 (1080p)\r\r\nhttps://cdn1.etbon.eus/oc1/index.m3u8\r",
-      "line": 243,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "ETV Terramar (1080p)",
-      "tvg": {
-        "id": "etv.es@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/Waf1SOq.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160"
-      },
-      "url": "https://liveingesta318.cdnmedia.tv/tvetvlive/smil:rtmp01.smil/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"etv.es@SD\" tvg-logo=\"https://i.imgur.com/Waf1SOq.png\" http-user-agent=\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160\" group-title=\"General\",ETV Terramar (1080p)\r\r\n#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160\r\r\nhttps://liveingesta318.cdnmedia.tv/tvetvlive/smil:rtmp01.smil/playlist.m3u8\r",
-      "line": 245,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "ETB 1 (1080p)",
       "tvg": {
         "id": "ETB1.es@SD",
@@ -2460,6 +2488,34 @@
       "url": "http://45.95.78.232:8001/udp/239.106.90.8:5000",
       "raw": "#EXTINF:-1 tvg-id=\"ETB1.es@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/ETB1_2022_logo.svg/960px-ETB1_2022_logo.svg.png\" group-title=\"General;Public\",ETB 1 (1080p)\r\r\nhttp://45.95.78.232:8001/udp/239.106.90.8:5000\r",
       "line": 238,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "ETB Events 1 (1080p)",
+      "tvg": {
+        "id": "ETBEvents1.es@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/bVUEmx9.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General;Public"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://cdn1.etbon.eus/oc1/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"ETBEvents1.es@SD\" tvg-logo=\"https://i.imgur.com/bVUEmx9.png\" group-title=\"General;Public\",ETB Events 1 (1080p)\r\r\nhttps://cdn1.etbon.eus/oc1/index.m3u8\r",
+      "line": 243,
       "catchup": {
         "type": "",
         "days": "",
@@ -2516,6 +2572,34 @@
       "url": "https://cdn3.wowza.com/1/SmVrQmZCUXZhVDgz/b3J3MFJv/hls/live/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"EWTN.us@SpainLatinAmerica\" tvg-logo=\"https://i.imgur.com/sua70RO.png\" group-title=\"Religious\",EWTN Spain & Latin America (720p)\r\r\nhttps://cdn3.wowza.com/1/SmVrQmZCUXZhVDgz/b3J3MFJv/hls/live/playlist.m3u8\r",
       "line": 250,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "ETV Terramar (1080p)",
+      "tvg": {
+        "id": "etv.es@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/Waf1SOq.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160"
+      },
+      "url": "https://liveingesta318.cdnmedia.tv/tvetvlive/smil:rtmp01.smil/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"etv.es@SD\" tvg-logo=\"https://i.imgur.com/Waf1SOq.png\" http-user-agent=\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160\" group-title=\"General\",ETV Terramar (1080p)\r\r\n#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160\r\r\nhttps://liveingesta318.cdnmedia.tv/tvetvlive/smil:rtmp01.smil/playlist.m3u8\r",
+      "line": 245,
       "catchup": {
         "type": "",
         "days": "",
@@ -2833,34 +2917,6 @@
       "status": "OK"
     },
     {
-      "name": "Imás TV (1080p) [Not 24/7]",
-      "tvg": {
-        "id": "ImasTV.es@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/a9hgTmM.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://secure3.todostreaming.es/live/imastv-livestream.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"ImasTV.es@SD\" tvg-logo=\"https://i.imgur.com/a9hgTmM.png\" group-title=\"General\",Imás TV (1080p) [Not 24/7]\r\r\nhttps://secure3.todostreaming.es/live/imastv-livestream.m3u8\r",
-      "line": 282,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Interalmeria TV (1080p)",
       "tvg": {
         "id": "InteralmeriaTV.es@SD",
@@ -3104,6 +3160,34 @@
       "url": "http://45.95.78.232:8001/udp/239.106.83.4:5000",
       "raw": "#EXTINF:-1 tvg-id=\"LaSexta.es@SD\" tvg-logo=\"https://i.imgur.com/aKV5voq.png\" group-title=\"Entertainment\",La Sexta (1080p)\r\r\nhttp://45.95.78.232:8001/udp/239.106.83.4:5000\r",
       "line": 306,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Lancelot TV (404p)",
+      "tvg": {
+        "id": "LancelotTV.es@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/RlzVIJP.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://5c0956165db0b.streamlock.net:8090/directo/_definst_/lancelot.television/master.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"LancelotTV.es@SD\" tvg-logo=\"https://i.imgur.com/RlzVIJP.png\" group-title=\"General\",Lancelot TV (404p)\r\r\nhttps://5c0956165db0b.streamlock.net:8090/directo/_definst_/lancelot.television/master.m3u8\r",
+      "line": 310,
       "catchup": {
         "type": "",
         "days": "",
@@ -3421,34 +3505,6 @@
       "status": "OK"
     },
     {
-      "name": "NatureTime (1080p)",
-      "tvg": {
-        "id": "NatureTime.es@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/72JmyjM.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Documentary"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://amg00090-blueantllc-lovenature-au-samsungau-wggcn.amagi.tv/playlist/amg00090-blueantllc-lovenature-au-samsungau/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"NatureTime.es@SD\" tvg-logo=\"https://i.imgur.com/72JmyjM.png\" group-title=\"Documentary\",NatureTime (1080p)\r\r\nhttps://amg00090-blueantllc-lovenature-au-samsungau-wggcn.amagi.tv/playlist/amg00090-blueantllc-lovenature-au-samsungau/playlist.m3u8\r",
-      "line": 354,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "MyTime movie network Spain (1080p)",
       "tvg": {
         "id": "MyTimeMovieNetwork.es@SD",
@@ -3468,6 +3524,34 @@
       "url": "https://appletree-mytimespain-rakuten.amagi.tv/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"MyTimeMovieNetwork.es@SD\" tvg-logo=\"https://i.imgur.com/pw4NZK1.png\" group-title=\"Movies\",MyTime movie network Spain (1080p)\r\r\nhttps://appletree-mytimespain-rakuten.amagi.tv/playlist.m3u8\r",
       "line": 352,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "NatureTime (1080p)",
+      "tvg": {
+        "id": "NatureTime.es@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/72JmyjM.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Documentary"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://amg00090-blueantllc-lovenature-au-samsungau-wggcn.amagi.tv/playlist/amg00090-blueantllc-lovenature-au-samsungau/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"NatureTime.es@SD\" tvg-logo=\"https://i.imgur.com/72JmyjM.png\" group-title=\"Documentary\",NatureTime (1080p)\r\r\nhttps://amg00090-blueantllc-lovenature-au-samsungau-wggcn.amagi.tv/playlist/amg00090-blueantllc-lovenature-au-samsungau/playlist.m3u8\r",
+      "line": 354,
       "catchup": {
         "type": "",
         "days": "",
@@ -3645,34 +3729,6 @@
       "status": "OK"
     },
     {
-      "name": "Onda Cádiz 24h (720p)",
-      "tvg": {
-        "id": "OndaCadiz.es@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/sOBMnby.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://ondacadiztv.es:30443/octv/24h/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"OndaCadiz.es@SD\" tvg-logo=\"https://i.imgur.com/sOBMnby.png\" group-title=\"General\",Onda Cádiz 24h (720p)\r\r\nhttps://ondacadiztv.es:30443/octv/24h/playlist.m3u8\r",
-      "line": 373,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Onda Valencia (720p)",
       "tvg": {
         "id": "OndaValenciaTV.es@SD",
@@ -3701,6 +3757,34 @@
       "status": "OK"
     },
     {
+      "name": "Onda Cádiz 24h (720p)",
+      "tvg": {
+        "id": "OndaCadiz.es@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/sOBMnby.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://ondacadiztv.es:30443/octv/24h/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"OndaCadiz.es@SD\" tvg-logo=\"https://i.imgur.com/sOBMnby.png\" group-title=\"General\",Onda Cádiz 24h (720p)\r\r\nhttps://ondacadiztv.es:30443/octv/24h/playlist.m3u8\r",
+      "line": 373,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Lleida Televisió (1080p)",
       "tvg": {
         "id": "LleidaTelevisio.es@SD",
@@ -3720,6 +3804,34 @@
       "url": "https://liveingesta318.cdnmedia.tv/lleidatvlive/smil:live.smil/playlist.m3u8?DVR=",
       "raw": "#EXTINF:-1 tvg-id=\"LleidaTelevisio.es@SD\" tvg-logo=\"https://i.imgur.com/xWY2568.png\" http-user-agent=\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160\" group-title=\"General\",Lleida Televisió (1080p)\r\r\n#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160\r\r\nhttps://liveingesta318.cdnmedia.tv/lleidatvlive/smil:live.smil/playlist.m3u8?DVR=\r",
       "line": 318,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Penedès Televisió (1080p)",
+      "tvg": {
+        "id": "PenedesTelevisio.es@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/mNuv3OL.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160"
+      },
+      "url": "https://liveingesta318.cdnmedia.tv/rtvvilafrancalive/smil:live.smil/playlist.m3u8?DVR=",
+      "raw": "#EXTINF:-1 tvg-id=\"PenedesTelevisio.es@SD\" tvg-logo=\"https://i.imgur.com/mNuv3OL.png\" http-user-agent=\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160\" group-title=\"General\",Penedès Televisió (1080p)\r\r\n#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160\r\r\nhttps://liveingesta318.cdnmedia.tv/rtvvilafrancalive/smil:live.smil/playlist.m3u8?DVR=\r",
+      "line": 383,
       "catchup": {
         "type": "",
         "days": "",
@@ -4205,6 +4317,34 @@
       "status": "OK"
     },
     {
+      "name": "Rioja Televisión (360p) [Not 24/7]",
+      "tvg": {
+        "id": "TVR.es@SD",
+        "name": "",
+        "logo": "https://i.ibb.co/nRq3YfT/Logo-Rioja-Televisi-n-S-A.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://5924d3ad0efcf.streamlock.net/riojatv/riojatvlive/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"TVR.es@SD\" tvg-logo=\"https://i.ibb.co/nRq3YfT/Logo-Rioja-Televisi-n-S-A.png\" group-title=\"General\",Rioja Televisión (360p) [Not 24/7]\r\r\nhttps://5924d3ad0efcf.streamlock.net/riojatv/riojatvlive/playlist.m3u8\r",
+      "line": 437,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "RNE para todos (720p)",
       "tvg": {
         "id": "RNEparatodos.es@SD",
@@ -4653,6 +4793,34 @@
       "status": "OK"
     },
     {
+      "name": "Telecinco (1080p)",
+      "tvg": {
+        "id": "Telecinco.es@SD",
+        "name": "",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Telecinco.svg/500px-Telecinco.svg.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://45.95.78.232:8001/udp/239.106.83.3:5000",
+      "raw": "#EXTINF:-1 tvg-id=\"Telecinco.es@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Telecinco.svg/500px-Telecinco.svg.png\" group-title=\"General\",Telecinco (1080p)\r\r\nhttp://45.95.78.232:8001/udp/239.106.83.3:5000\r",
+      "line": 489,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Teleganés (720p)",
       "tvg": {
         "id": "Teleganes.es@SD",
@@ -4672,6 +4840,34 @@
       "url": "https://nlb2-live.emitstream.com/hls/5z6oj7ziwxzfnj78vg2m/master.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"Teleganes.es@SD\" tvg-logo=\"https://i.imgur.com/BXyplMX.png\" group-title=\"Undefined\",Teleganés (720p)\r\r\nhttps://nlb2-live.emitstream.com/hls/5z6oj7ziwxzfnj78vg2m/master.m3u8\r",
       "line": 493,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Telemadrid (1080p)",
+      "tvg": {
+        "id": "Telemadrid.es@SD",
+        "name": "",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/TeleMadrid.svg/960px-TeleMadrid.svg.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://45.95.78.232:8001/udp/239.106.90.3:5000",
+      "raw": "#EXTINF:-1 tvg-id=\"Telemadrid.es@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/TeleMadrid.svg/960px-TeleMadrid.svg.png\" group-title=\"Undefined\",Telemadrid (1080p)\r\r\nhttp://45.95.78.232:8001/udp/239.106.90.3:5000\r",
+      "line": 495,
       "catchup": {
         "type": "",
         "days": "",
@@ -4821,6 +5017,34 @@
       "status": "OK"
     },
     {
+      "name": "Trece (1080p)",
+      "tvg": {
+        "id": "Trece.es@SD",
+        "name": "",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Trece.svg/960px-Trece.svg.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Religious"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://45.95.78.232:8001/udp/239.106.84.7:5000",
+      "raw": "#EXTINF:-1 tvg-id=\"Trece.es@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Trece.svg/960px-Trece.svg.png\" group-title=\"Religious\",Trece (1080p)\r\r\nhttp://45.95.78.232:8001/udp/239.106.84.7:5000\r",
+      "line": 516,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "TV3CAT Originals (1080p)",
       "tvg": {
         "id": "TV3CAT.es@Originals",
@@ -4877,34 +5101,6 @@
       "status": "OK"
     },
     {
-      "name": "TV Costa Brava (1080p)",
-      "tvg": {
-        "id": "TVCostaBrava.es@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/i6EnVZa.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160"
-      },
-      "url": "https://liveingesta318.cdnmedia.tv/costabravatvlive/smil:live.smil/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TVCostaBrava.es@SD\" tvg-logo=\"https://i.imgur.com/i6EnVZa.png\" http-user-agent=\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160\" group-title=\"Undefined\",TV Costa Brava (1080p)\r\r\n#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160\r\r\nhttps://liveingesta318.cdnmedia.tv/costabravatvlive/smil:live.smil/playlist.m3u8\r",
-      "line": 533,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "TV BRICS Spanish (1080p)",
       "tvg": {
         "id": "TVBRICSSpanish.es@HD",
@@ -4924,6 +5120,34 @@
       "url": "https://espbrics.mediacdn.ru/cdn/brics/spanish/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TVBRICSSpanish.es@HD\" tvg-logo=\"https://i.imgur.com/vLpm8tN.png\" group-title=\"General\",TV BRICS Spanish (1080p)\r\r\nhttps://espbrics.mediacdn.ru/cdn/brics/spanish/playlist.m3u8\r",
       "line": 531,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "TV Costa Brava (1080p)",
+      "tvg": {
+        "id": "TVCostaBrava.es@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/i6EnVZa.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160"
+      },
+      "url": "https://liveingesta318.cdnmedia.tv/costabravatvlive/smil:live.smil/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"TVCostaBrava.es@SD\" tvg-logo=\"https://i.imgur.com/i6EnVZa.png\" http-user-agent=\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160\" group-title=\"Undefined\",TV Costa Brava (1080p)\r\r\n#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160\r\r\nhttps://liveingesta318.cdnmedia.tv/costabravatvlive/smil:live.smil/playlist.m3u8\r",
+      "line": 533,
       "catchup": {
         "type": "",
         "days": "",
