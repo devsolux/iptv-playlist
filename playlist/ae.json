@@ -173,34 +173,6 @@
       "status": "OK"
     },
     {
-      "name": "Ajman TV (1080p)",
-      "tvg": {
-        "id": "AjmanTV.ae@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/hVNIwgE.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://cdn1.logichost.in/ajmantv/live/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"AjmanTV.ae@SD\" tvg-logo=\"https://i.imgur.com/hVNIwgE.png\" group-title=\"General\",Ajman TV (1080p)\r\r\nhttps://cdn1.logichost.in/ajmantv/live/playlist.m3u8\r",
-      "line": 2,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "CNBC Arabiya (1080p)",
       "tvg": {
         "id": "CNBCArabiya.ae@SD",
@@ -229,25 +201,25 @@
       "status": "OK"
     },
     {
-      "name": "OSN Movies Action (1080p)",
+      "name": "Ajman TV (1080p)",
       "tvg": {
-        "id": "OSNMoviesAction.ae@SD",
+        "id": "AjmanTV.ae@SD",
         "name": "",
-        "logo": "https://i.imgur.com/uOzyKup.png",
+        "logo": "https://i.imgur.com/hVNIwgE.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Movies"
+        "title": "General"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "http://116.90.120.151:8000/play/a0ax/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"OSNMoviesAction.ae@SD\" tvg-logo=\"https://i.imgur.com/uOzyKup.png\" group-title=\"Movies\",OSN Movies Action (1080p)\r\r\nhttp://116.90.120.151:8000/play/a0ax/index.m3u8\r",
-      "line": 20,
+      "url": "https://cdn1.logichost.in/ajmantv/live/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"AjmanTV.ae@SD\" tvg-logo=\"https://i.imgur.com/hVNIwgE.png\" group-title=\"General\",Ajman TV (1080p)\r\r\nhttps://cdn1.logichost.in/ajmantv/live/playlist.m3u8\r",
+      "line": 2,
       "catchup": {
         "type": "",
         "days": "",
@@ -276,6 +248,34 @@
       "url": "https://cdn.bestream.io:19360/elfaro4/elfaro4.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"NourTV.ae@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/en/8/8c/Nourtv_logo.jpg\" group-title=\"Religious\",Nour TV\r\r\nhttps://cdn.bestream.io:19360/elfaro4/elfaro4.m3u8\r",
       "line": 18,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "OSN Movies Action (1080p)",
+      "tvg": {
+        "id": "OSNMoviesAction.ae@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/uOzyKup.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Movies"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://116.90.120.151:8000/play/a0ax/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"OSNMoviesAction.ae@SD\" tvg-logo=\"https://i.imgur.com/uOzyKup.png\" group-title=\"Movies\",OSN Movies Action (1080p)\r\r\nhttp://116.90.120.151:8000/play/a0ax/index.m3u8\r",
+      "line": 20,
       "catchup": {
         "type": "",
         "days": "",
@@ -369,6 +369,62 @@
       "status": "OK"
     },
     {
+      "name": "Sharjah Radio Quran (1080p)",
+      "tvg": {
+        "id": "SharjahRadioQuran.ae@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/MxZlOvc.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Religious"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://live.kwikmotion.com/smcquranlive/quranradiolive/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"SharjahRadioQuran.ae@SD\" tvg-logo=\"https://i.imgur.com/MxZlOvc.png\" group-title=\"Religious\",Sharjah Radio Quran (1080p)\r\r\nhttps://live.kwikmotion.com/smcquranlive/quranradiolive/playlist.m3u8\r",
+      "line": 30,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Peace TV Chinese (1080p)",
+      "tvg": {
+        "id": "PeaceTVChinese.ae@SD",
+        "name": "",
+        "logo": "https://github.com/fawazahmed0/tiger/raw/master/peace/chinese.jpg",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Religious"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://dzkyvlfyge.erbvr.com/PeaceTvChinese/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"PeaceTVChinese.ae@SD\" tvg-logo=\"https://github.com/fawazahmed0/tiger/raw/master/peace/chinese.jpg\" group-title=\"Religious\",Peace TV Chinese (1080p)\r\r\nhttps://dzkyvlfyge.erbvr.com/PeaceTvChinese/index.m3u8\r",
+      "line": 22,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Sharjah Sports (1080p) [Geo-blocked]",
       "tvg": {
         "id": "SharjahSports.ae@SD",
@@ -444,34 +500,6 @@
       "url": "https://svs.itworkscdn.net/smcwatarlive/smcwatar/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"WatarRadio.ae@SD\" tvg-logo=\"https://sbauae.faulio.com/storage/mediagallery/d2/ad/fullhd_48adf2291d08266c05ed1b0c24f326c86b1095b7.png\" group-title=\"Undefined\",Watar Radio (1080p)\r\r\nhttps://svs.itworkscdn.net/smcwatarlive/smcwatar/playlist.m3u8\r",
       "line": 36,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Sharjah Radio Quran (1080p)",
-      "tvg": {
-        "id": "SharjahRadioQuran.ae@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/MxZlOvc.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Religious"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://live.kwikmotion.com/smcquranlive/quranradiolive/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"SharjahRadioQuran.ae@SD\" tvg-logo=\"https://i.imgur.com/MxZlOvc.png\" group-title=\"Religious\",Sharjah Radio Quran (1080p)\r\r\nhttps://live.kwikmotion.com/smcquranlive/quranradiolive/playlist.m3u8\r",
-      "line": 30,
       "catchup": {
         "type": "",
         "days": "",
