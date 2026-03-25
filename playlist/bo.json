@@ -61,25 +61,25 @@
       "status": "OK"
     },
     {
-      "name": "Cadena A (720p) [Not 24/7]",
+      "name": "CTV",
       "tvg": {
-        "id": "CadenaA.bo@SD",
+        "id": "CTV.bo@SD",
         "name": "",
-        "logo": "https://i.imgur.com/BxQPPAA.png",
+        "logo": "https://i.imgur.com/ljKb0UX.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Undefined"
+        "title": "General"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://5fe2654d6127d.streamlock.net/cadenaa/videocadenaa/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"CadenaA.bo@SD\" tvg-logo=\"https://i.imgur.com/BxQPPAA.png\" group-title=\"Undefined\",Cadena A (720p) [Not 24/7]\r\r\nhttps://5fe2654d6127d.streamlock.net/cadenaa/videocadenaa/playlist.m3u8\r",
-      "line": 12,
+      "url": "https://live.ctvbolivia.com/hls/ctv.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"CTV.bo@SD\" tvg-logo=\"https://i.imgur.com/ljKb0UX.png\" group-title=\"General\",CTV\r\r\nhttps://live.ctvbolivia.com/hls/ctv.m3u8\r",
+      "line": 16,
       "catchup": {
         "type": "",
         "days": "",
@@ -145,53 +145,25 @@
       "status": "OK"
     },
     {
-      "name": "CTV",
+      "name": "FTV",
       "tvg": {
-        "id": "CTV.bo@SD",
+        "id": "FTV.bo@SD",
         "name": "",
-        "logo": "https://i.imgur.com/ljKb0UX.png",
+        "logo": "https://i.imgur.com/YOr1Oac.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "General"
+        "title": "Sports"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://live.ctvbolivia.com/hls/ctv.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"CTV.bo@SD\" tvg-logo=\"https://i.imgur.com/ljKb0UX.png\" group-title=\"General\",CTV\r\r\nhttps://live.ctvbolivia.com/hls/ctv.m3u8\r",
-      "line": 16,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Palenque TV",
-      "tvg": {
-        "id": "PalenqueTV.bo@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/wAIBvaO.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://tv.bitstreaming.net:3234/live/palenquetvlive.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"PalenqueTV.bo@SD\" tvg-logo=\"https://i.imgur.com/wAIBvaO.png\" group-title=\"General\",Palenque TV\r\r\nhttps://tv.bitstreaming.net:3234/live/palenquetvlive.m3u8\r",
-      "line": 30,
+      "url": "https://master.tucableip.com/ftvhd/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"FTV.bo@SD\" tvg-logo=\"https://i.imgur.com/YOr1Oac.png\" group-title=\"Sports\",FTV\r\r\nhttps://master.tucableip.com/ftvhd/index.m3u8\r",
+      "line": 24,
       "catchup": {
         "type": "",
         "days": "",
@@ -220,34 +192,6 @@
       "url": "https://nd106.republicaservers.com/hls/c7284/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"FAPTV.bo@SD\" tvg-logo=\"https://i.imgur.com/jZ7g58e.png\" group-title=\"General\",FAP TV (480p)\r\r\nhttps://nd106.republicaservers.com/hls/c7284/index.m3u8\r",
       "line": 22,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "FTV",
-      "tvg": {
-        "id": "FTV.bo@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/YOr1Oac.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Sports"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://master.tucableip.com/ftvhd/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"FTV.bo@SD\" tvg-logo=\"https://i.imgur.com/YOr1Oac.png\" group-title=\"Sports\",FTV\r\r\nhttps://master.tucableip.com/ftvhd/index.m3u8\r",
-      "line": 24,
       "catchup": {
         "type": "",
         "days": "",
@@ -528,6 +472,62 @@
       "url": "https://tvstream.upea.bo/hls/oSs0jSWumTFIIVY97559.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"UPEATV.bo@SD\" tvg-logo=\"https://tvadmin.upea.bo/storage/imagenes_institucion/imagen_institucion_66cd025754fcb.png\" http-referrer=\"https://tv.upea.bo/live\" group-title=\"Undefined\",UPEA TV (720p)\r\r\n#EXTVLCOPT:http-referrer=https://tv.upea.bo/live\r\r\nhttps://tvstream.upea.bo/hls/oSs0jSWumTFIIVY97559.m3u8\r",
       "line": 60,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Palenque TV",
+      "tvg": {
+        "id": "PalenqueTV.bo@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/wAIBvaO.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://tv.bitstreaming.net:3234/live/palenquetvlive.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"PalenqueTV.bo@SD\" tvg-logo=\"https://i.imgur.com/wAIBvaO.png\" group-title=\"General\",Palenque TV\r\r\nhttps://tv.bitstreaming.net:3234/live/palenquetvlive.m3u8\r",
+      "line": 30,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "VTV Canal 17 (720p) [Not 24/7]",
+      "tvg": {
+        "id": "VTVCanal17.bo@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/TUhFzql.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Religious"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://solo.disfrutaenlared.com:1936/vtvcanal/vtvcanal/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"VTVCanal17.bo@SD\" tvg-logo=\"https://i.imgur.com/TUhFzql.png\" group-title=\"Religious\",VTV Canal 17 (720p) [Not 24/7]\r\r\nhttps://solo.disfrutaenlared.com:1936/vtvcanal/vtvcanal/playlist.m3u8\r",
+      "line": 65,
       "catchup": {
         "type": "",
         "days": "",
