@@ -5,34 +5,6 @@
   },
   "items": [
     {
-      "name": "8TV",
-      "tvg": {
-        "id": "8TV.my@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/Jkx9W88.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Entertainment"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://cdn6.163189.xyz/163189/8tv",
-      "raw": "#EXTINF:-1 tvg-id=\"8TV.my@SD\" tvg-logo=\"https://i.imgur.com/Jkx9W88.png\" group-title=\"Entertainment\",8TV\r\r\nhttp://cdn6.163189.xyz/163189/8tv\r",
-      "line": 2,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Berita RTM [Geo-blocked]",
       "tvg": {
         "id": "BeritaRTM.my@SD",
@@ -61,9 +33,37 @@
       "status": "OK"
     },
     {
-      "name": "RTM Parlimen (Dewan Rakyat) [Geo-blocked]",
+      "name": "8TV",
       "tvg": {
-        "id": "RTMParlimenDewanRakyat.my@SD",
+        "id": "8TV.my@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/Jkx9W88.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Entertainment"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://cdn6.163189.xyz/163189/8tv",
+      "raw": "#EXTINF:-1 tvg-id=\"8TV.my@SD\" tvg-logo=\"https://i.imgur.com/Jkx9W88.png\" group-title=\"Entertainment\",8TV\r\r\nhttp://cdn6.163189.xyz/163189/8tv\r",
+      "line": 2,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "RTM Parlimen (Dewan Negara) [Geo-blocked]",
+      "tvg": {
+        "id": "RTMParlimenDewanNegara.my@SD",
         "name": "",
         "logo": "https://i.postimg.cc/mgrVsTMY/header.png",
         "url": "",
@@ -77,9 +77,9 @@
         "referrer": "https://rtm-player.glueapi.io/",
         "user-agent": ""
       },
-      "url": "https://d25tgymtnqzu8s.cloudfront.net/smil:rakyat/playlist.m3u8?id=7",
-      "raw": "#EXTINF:-1 tvg-id=\"RTMParlimenDewanRakyat.my@SD\" tvg-logo=\"https://i.postimg.cc/mgrVsTMY/header.png\" http-referrer=\"https://rtm-player.glueapi.io/\" group-title=\"Legislative\",RTM Parlimen (Dewan Rakyat) [Geo-blocked]\r\r\n#EXTVLCOPT:http-referrer=https://rtm-player.glueapi.io/\r\r\nhttps://d25tgymtnqzu8s.cloudfront.net/smil:rakyat/playlist.m3u8?id=7\r",
-      "line": 23,
+      "url": "https://d25tgymtnqzu8s.cloudfront.net/smil:negara/playlist.m3u8?id=8",
+      "raw": "#EXTINF:-1 tvg-id=\"RTMParlimenDewanNegara.my@SD\" tvg-logo=\"https://i.postimg.cc/mgrVsTMY/header.png\" http-referrer=\"https://rtm-player.glueapi.io/\" group-title=\"Legislative\",RTM Parlimen (Dewan Negara) [Geo-blocked]\r\r\n#EXTVLCOPT:http-referrer=https://rtm-player.glueapi.io/\r\r\nhttps://d25tgymtnqzu8s.cloudfront.net/smil:negara/playlist.m3u8?id=8\r",
+      "line": 20,
       "catchup": {
         "type": "",
         "days": "",
@@ -117,9 +117,9 @@
       "status": "OK"
     },
     {
-      "name": "RTM Parlimen (Dewan Negara) [Geo-blocked]",
+      "name": "RTM Parlimen (Dewan Rakyat) [Geo-blocked]",
       "tvg": {
-        "id": "RTMParlimenDewanNegara.my@SD",
+        "id": "RTMParlimenDewanRakyat.my@SD",
         "name": "",
         "logo": "https://i.postimg.cc/mgrVsTMY/header.png",
         "url": "",
@@ -133,9 +133,9 @@
         "referrer": "https://rtm-player.glueapi.io/",
         "user-agent": ""
       },
-      "url": "https://d25tgymtnqzu8s.cloudfront.net/smil:negara/playlist.m3u8?id=8",
-      "raw": "#EXTINF:-1 tvg-id=\"RTMParlimenDewanNegara.my@SD\" tvg-logo=\"https://i.postimg.cc/mgrVsTMY/header.png\" http-referrer=\"https://rtm-player.glueapi.io/\" group-title=\"Legislative\",RTM Parlimen (Dewan Negara) [Geo-blocked]\r\r\n#EXTVLCOPT:http-referrer=https://rtm-player.glueapi.io/\r\r\nhttps://d25tgymtnqzu8s.cloudfront.net/smil:negara/playlist.m3u8?id=8\r",
-      "line": 20,
+      "url": "https://d25tgymtnqzu8s.cloudfront.net/smil:rakyat/playlist.m3u8?id=7",
+      "raw": "#EXTINF:-1 tvg-id=\"RTMParlimenDewanRakyat.my@SD\" tvg-logo=\"https://i.postimg.cc/mgrVsTMY/header.png\" http-referrer=\"https://rtm-player.glueapi.io/\" group-title=\"Legislative\",RTM Parlimen (Dewan Rakyat) [Geo-blocked]\r\r\n#EXTVLCOPT:http-referrer=https://rtm-player.glueapi.io/\r\r\nhttps://d25tgymtnqzu8s.cloudfront.net/smil:rakyat/playlist.m3u8?id=7\r",
+      "line": 23,
       "catchup": {
         "type": "",
         "days": "",
