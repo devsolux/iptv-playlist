@@ -173,6 +173,34 @@
       "status": "OK"
     },
     {
+      "name": "Komsan TV [Not 24/7]",
+      "tvg": {
+        "id": "KomsanTV.kh@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/SNTf2r3.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Movies"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://tv.cootel.com.kh:8077/streams/d/Komsan/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"KomsanTV.kh@SD\" tvg-logo=\"https://i.imgur.com/SNTf2r3.png\" group-title=\"Movies\",Komsan TV [Not 24/7]\r\r\nhttp://tv.cootel.com.kh:8077/streams/d/Komsan/playlist.m3u8\r",
+      "line": 30,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "MOI TV",
       "tvg": {
         "id": "MOITV.kh@SD",
@@ -229,25 +257,25 @@
       "status": "OK"
     },
     {
-      "name": "Komsan TV [Not 24/7]",
+      "name": "MNB World (1080p)",
       "tvg": {
-        "id": "KomsanTV.kh@SD",
+        "id": "MNBWorld.mn@SD",
         "name": "",
-        "logo": "https://i.imgur.com/SNTf2r3.png",
+        "logo": "https://i.imgur.com/PHlj84Q.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Movies"
+        "title": "General"
       },
       "http": {
         "referrer": "",
-        "user-agent": ""
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"
       },
-      "url": "http://tv.cootel.com.kh:8077/streams/d/Komsan/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"KomsanTV.kh@SD\" tvg-logo=\"https://i.imgur.com/SNTf2r3.png\" group-title=\"Movies\",Komsan TV [Not 24/7]\r\r\nhttp://tv.cootel.com.kh:8077/streams/d/Komsan/playlist.m3u8\r",
-      "line": 30,
+      "url": "https://cdn4.skygo.mn/live/disk1/MNB_World/DASH-FTA/MNB_World.mpd",
+      "raw": "#EXTINF:-1 tvg-id=\"MNBWorld.mn@SD\" tvg-logo=\"https://i.imgur.com/PHlj84Q.png\" http-user-agent=\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\" group-title=\"General\",MNB World (1080p)\r\r\n#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\r\r\nhttps://cdn4.skygo.mn/live/disk1/MNB_World/DASH-FTA/MNB_World.mpd\r",
+      "line": 32,
       "catchup": {
         "type": "",
         "days": "",
@@ -285,25 +313,25 @@
       "status": "OK"
     },
     {
-      "name": "MNB World (1080p)",
+      "name": "EBC General Education (720p) [Not 24/7]",
       "tvg": {
-        "id": "MNBWorld.mn@SD",
+        "id": "EBCGeneralEducation.kh@SD",
         "name": "",
-        "logo": "https://i.imgur.com/PHlj84Q.png",
+        "logo": "https://elearning.ebc.edu.kh/pluginfile.php/1/theme_remui/logo/1770608989/ebc-logo.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "General"
+        "title": "Education"
       },
       "http": {
         "referrer": "",
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"
+        "user-agent": ""
       },
-      "url": "https://cdn4.skygo.mn/live/disk1/MNB_World/DASH-FTA/MNB_World.mpd",
-      "raw": "#EXTINF:-1 tvg-id=\"MNBWorld.mn@SD\" tvg-logo=\"https://i.imgur.com/PHlj84Q.png\" http-user-agent=\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\" group-title=\"General\",MNB World (1080p)\r\r\n#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\r\r\nhttps://cdn4.skygo.mn/live/disk1/MNB_World/DASH-FTA/MNB_World.mpd\r",
-      "line": 32,
+      "url": "https://iptv.ebc.edu.kh/iptv/channel/1.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"EBCGeneralEducation.kh@SD\" tvg-logo=\"https://elearning.ebc.edu.kh/pluginfile.php/1/theme_remui/logo/1770608989/ebc-logo.png\" group-title=\"Education\",EBC General Education (720p) [Not 24/7]\r\r\nhttps://iptv.ebc.edu.kh/iptv/channel/1.m3u8\r",
+      "line": 24,
       "catchup": {
         "type": "",
         "days": "",
@@ -500,34 +528,6 @@
       "url": "https://seatv.netlinkbroadcaster.com/hls/test.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"SEATV.kh@SD\" tvg-logo=\"https://i.imgur.com/oZPorvg.png\" group-title=\"Undefined\",SEATV (1080p)\r\r\nhttps://seatv.netlinkbroadcaster.com/hls/test.m3u8\r",
       "line": 58,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "EBC General Education (720p) [Not 24/7]",
-      "tvg": {
-        "id": "EBCGeneralEducation.kh@SD",
-        "name": "",
-        "logo": "https://elearning.ebc.edu.kh/pluginfile.php/1/theme_remui/logo/1770608989/ebc-logo.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Education"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://iptv.ebc.edu.kh/iptv/channel/1.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"EBCGeneralEducation.kh@SD\" tvg-logo=\"https://elearning.ebc.edu.kh/pluginfile.php/1/theme_remui/logo/1770608989/ebc-logo.png\" group-title=\"Education\",EBC General Education (720p) [Not 24/7]\r\r\nhttps://iptv.ebc.edu.kh/iptv/channel/1.m3u8\r",
-      "line": 24,
       "catchup": {
         "type": "",
         "days": "",
