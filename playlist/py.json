@@ -61,25 +61,25 @@
       "status": "OK"
     },
     {
-      "name": "Almaya TV (720p)",
+      "name": "Canal Pro",
       "tvg": {
-        "id": "AlmayaTV.py@SD",
+        "id": "CanalPro.py@SD",
         "name": "",
-        "logo": "https://i.imgur.com/dDAf1nJ.png",
+        "logo": "https://i.imgur.com/ah8n7jL.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "General"
+        "title": "Business"
       },
       "http": {
-        "referrer": "",
+        "referrer": "https://www.canalpro.com.py/en-vivo",
         "user-agent": ""
       },
-      "url": "https://video.hostingcaaguazu.com:19360/almayatv/almayatv.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"AlmayaTV.py@SD\" tvg-logo=\"https://i.imgur.com/dDAf1nJ.png\" group-title=\"General\",Almaya TV (720p)\r\r\nhttps://video.hostingcaaguazu.com:19360/almayatv/almayatv.m3u8\r",
-      "line": 7,
+      "url": "https://www.desde-paraguay.com/pro.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"CanalPro.py@SD\" tvg-logo=\"https://i.imgur.com/ah8n7jL.png\" http-referrer=\"https://www.canalpro.com.py/en-vivo\" group-title=\"Business\",Canal Pro\r\r\n#EXTVLCOPT:http-referrer=https://www.canalpro.com.py/en-vivo\r\r\nhttps://www.desde-paraguay.com/pro.m3u8\r",
+      "line": 15,
       "catchup": {
         "type": "",
         "days": "",
@@ -117,25 +117,25 @@
       "status": "OK"
     },
     {
-      "name": "Canal Pro",
+      "name": "Almaya TV (720p)",
       "tvg": {
-        "id": "CanalPro.py@SD",
+        "id": "AlmayaTV.py@SD",
         "name": "",
-        "logo": "https://i.imgur.com/ah8n7jL.png",
+        "logo": "https://i.imgur.com/dDAf1nJ.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Business"
+        "title": "General"
       },
       "http": {
-        "referrer": "https://www.canalpro.com.py/en-vivo",
+        "referrer": "",
         "user-agent": ""
       },
-      "url": "https://www.desde-paraguay.com/pro.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"CanalPro.py@SD\" tvg-logo=\"https://i.imgur.com/ah8n7jL.png\" http-referrer=\"https://www.canalpro.com.py/en-vivo\" group-title=\"Business\",Canal Pro\r\r\n#EXTVLCOPT:http-referrer=https://www.canalpro.com.py/en-vivo\r\r\nhttps://www.desde-paraguay.com/pro.m3u8\r",
-      "line": 15,
+      "url": "https://video.hostingcaaguazu.com:19360/almayatv/almayatv.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"AlmayaTV.py@SD\" tvg-logo=\"https://i.imgur.com/dDAf1nJ.png\" group-title=\"General\",Almaya TV (720p)\r\r\nhttps://video.hostingcaaguazu.com:19360/almayatv/almayatv.m3u8\r",
+      "line": 7,
       "catchup": {
         "type": "",
         "days": "",
@@ -164,6 +164,34 @@
       "url": "https://video.wilohosting.com:19360/tvmax/tvmax.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"Canal5TVMax.py@SD\" tvg-logo=\"https://i.imgur.com/6oihaDM.png\" group-title=\"General\",Canal 5 TV Max (720p)\r\r\nhttps://video.wilohosting.com:19360/tvmax/tvmax.m3u8\r",
       "line": 13,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "E40 (1080p)",
+      "tvg": {
+        "id": "E40.py@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/0RypDUY.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Music"
+      },
+      "http": {
+        "referrer": "https://www.estacion40.com.py/",
+        "user-agent": ""
+      },
+      "url": "https://copacotf.desdeparaguay.net/e40tv/e40tv_py_alta/playlist.m3u8?admin=tvaccion",
+      "raw": "#EXTINF:-1 tvg-id=\"E40.py@SD\" tvg-logo=\"https://i.imgur.com/0RypDUY.png\" http-referrer=\"https://www.estacion40.com.py/\" group-title=\"Music\",E40 (1080p)\r\r\n#EXTVLCOPT:http-referrer=https://www.estacion40.com.py/\r\r\nhttps://copacotf.desdeparaguay.net/e40tv/e40tv_py_alta/playlist.m3u8?admin=tvaccion\r",
+      "line": 24,
       "catchup": {
         "type": "",
         "days": "",
@@ -229,34 +257,6 @@
       "status": "OK"
     },
     {
-      "name": "E40 (1080p)",
-      "tvg": {
-        "id": "E40.py@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/0RypDUY.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Music"
-      },
-      "http": {
-        "referrer": "https://www.estacion40.com.py/",
-        "user-agent": ""
-      },
-      "url": "https://copacotf.desdeparaguay.net/e40tv/e40tv_py_alta/playlist.m3u8?admin=tvaccion",
-      "raw": "#EXTINF:-1 tvg-id=\"E40.py@SD\" tvg-logo=\"https://i.imgur.com/0RypDUY.png\" http-referrer=\"https://www.estacion40.com.py/\" group-title=\"Music\",E40 (1080p)\r\r\n#EXTVLCOPT:http-referrer=https://www.estacion40.com.py/\r\r\nhttps://copacotf.desdeparaguay.net/e40tv/e40tv_py_alta/playlist.m3u8?admin=tvaccion\r",
-      "line": 24,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "GO TV (720p)",
       "tvg": {
         "id": "GOTV.py@SD",
@@ -276,34 +276,6 @@
       "url": "https://rds3.desdeparaguay.net/gotv/gotv/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"GOTV.py@SD\" tvg-logo=\"https://i.ibb.co/jkvYVyz/Captura.png\" group-title=\"Entertainment;Music\",GO TV (720p)\r\r\nhttps://rds3.desdeparaguay.net/gotv/gotv/playlist.m3u8\r",
       "line": 32,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Gen",
-      "tvg": {
-        "id": "Gen.py@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/vEMnZF4.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "https://www.gen.com.py/",
-        "user-agent": ""
-      },
-      "url": "https://copacogen.desdeparaguay.net/gentv/gentv_py_alta/playlist.m3u8?admin=nacion",
-      "raw": "#EXTINF:-1 tvg-id=\"Gen.py@SD\" tvg-logo=\"https://i.imgur.com/vEMnZF4.png\" http-referrer=\"https://www.gen.com.py/\" group-title=\"General\",Gen\r\r\n#EXTVLCOPT:http-referrer=https://www.gen.com.py/\r\r\nhttps://copacogen.desdeparaguay.net/gentv/gentv_py_alta/playlist.m3u8?admin=nacion\r",
-      "line": 29,
       "catchup": {
         "type": "",
         "days": "",
@@ -341,11 +313,11 @@
       "status": "OK"
     },
     {
-      "name": "Latele (1080p)",
+      "name": "Gen",
       "tvg": {
-        "id": "Latele.py@SD",
+        "id": "Gen.py@SD",
         "name": "",
-        "logo": "https://i.imgur.com/Qcf6Qev.png",
+        "logo": "https://i.imgur.com/vEMnZF4.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -354,12 +326,12 @@
         "title": "General"
       },
       "http": {
-        "referrer": "https://www.latele.com.py/en-vivo",
+        "referrer": "https://www.gen.com.py/",
         "user-agent": ""
       },
-      "url": "https://copacotf.desdeparaguay.net/latele/latele_py_alta/playlist.m3u8?admin=tvaccion",
-      "raw": "#EXTINF:-1 tvg-id=\"Latele.py@SD\" tvg-logo=\"https://i.imgur.com/Qcf6Qev.png\" http-referrer=\"https://www.latele.com.py/en-vivo\" group-title=\"General\",Latele (1080p)\r\r\n#EXTVLCOPT:http-referrer=https://www.latele.com.py/en-vivo\r\r\nhttps://copacotf.desdeparaguay.net/latele/latele_py_alta/playlist.m3u8?admin=tvaccion\r",
-      "line": 37,
+      "url": "https://copacogen.desdeparaguay.net/gentv/gentv_py_alta/playlist.m3u8?admin=nacion",
+      "raw": "#EXTINF:-1 tvg-id=\"Gen.py@SD\" tvg-logo=\"https://i.imgur.com/vEMnZF4.png\" http-referrer=\"https://www.gen.com.py/\" group-title=\"General\",Gen\r\r\n#EXTVLCOPT:http-referrer=https://www.gen.com.py/\r\r\nhttps://copacogen.desdeparaguay.net/gentv/gentv_py_alta/playlist.m3u8?admin=nacion\r",
+      "line": 29,
       "catchup": {
         "type": "",
         "days": "",
@@ -388,6 +360,34 @@
       "url": "https://tv.invasivamedia.com/hls/limtv.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"LIMTV.py@SD\" tvg-logo=\"https://i.imgur.com/CALoCyo.png\" group-title=\"General\",LIM TV (720p)\r\r\nhttps://tv.invasivamedia.com/hls/limtv.m3u8\r",
       "line": 40,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Latele (1080p)",
+      "tvg": {
+        "id": "Latele.py@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/Qcf6Qev.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "https://www.latele.com.py/en-vivo",
+        "user-agent": ""
+      },
+      "url": "https://copacotf.desdeparaguay.net/latele/latele_py_alta/playlist.m3u8?admin=tvaccion",
+      "raw": "#EXTINF:-1 tvg-id=\"Latele.py@SD\" tvg-logo=\"https://i.imgur.com/Qcf6Qev.png\" http-referrer=\"https://www.latele.com.py/en-vivo\" group-title=\"General\",Latele (1080p)\r\r\n#EXTVLCOPT:http-referrer=https://www.latele.com.py/en-vivo\r\r\nhttps://copacotf.desdeparaguay.net/latele/latele_py_alta/playlist.m3u8?admin=tvaccion\r",
+      "line": 37,
       "catchup": {
         "type": "",
         "days": "",
@@ -472,6 +472,34 @@
       "url": "https://copacogen.desdeparaguay.net/monumentaltv/monumentaltv_med/playlist.m3u8?admin=tvaccion",
       "raw": "#EXTINF:-1 tvg-id=\"MonumentalTV.py@SD\" tvg-logo=\"https://i.imgur.com/kEcOYML.png\" http-referrer=\"https://www.monumental.com.py/\" group-title=\"General\",Monumental TV\r\r\n#EXTVLCOPT:http-referrer=https://www.monumental.com.py/\r\r\nhttps://copacogen.desdeparaguay.net/monumentaltv/monumentaltv_med/playlist.m3u8?admin=tvaccion\r",
       "line": 46,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Next HD (480p)",
+      "tvg": {
+        "id": "NextHD.py@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/c2rF3SS.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Movies;Music"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://live.enhdtv.com:19360/nexthd/nexthd.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"NextHD.py@SD\" tvg-logo=\"https://i.imgur.com/c2rF3SS.png\" group-title=\"Movies;Music\",Next HD (480p)\r\r\nhttps://live.enhdtv.com:19360/nexthd/nexthd.m3u8\r",
+      "line": 51,
       "catchup": {
         "type": "",
         "days": "",
