@@ -61,34 +61,6 @@
       "status": "OK"
     },
     {
-      "name": "Pannon RTV (648p)",
-      "tvg": {
-        "id": "PannonTV.rs@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/xQa2idL.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://stream.nmih.hu:4102/live.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"PannonTV.rs@SD\" tvg-logo=\"https://i.imgur.com/xQa2idL.png\" group-title=\"General\",Pannon RTV (648p)\r\r\nhttps://stream.nmih.hu:4102/live.m3u8\r",
-      "line": 16,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Nova (1080p)",
       "tvg": {
         "id": "Nova.rs@SD",
@@ -108,6 +80,34 @@
       "url": "https://best-str.umn.cdn.united.cloud/stream?channel=novashd&p=n0v43!23t001&player=m3u8&sp=novas&stream=hp7000&u=novas",
       "raw": "#EXTINF:-1 tvg-id=\"Nova.rs@SD\" tvg-logo=\"https://i.imgur.com/sU8UPPY.png\" group-title=\"General\",Nova (1080p)\r\r\nhttps://best-str.umn.cdn.united.cloud/stream?channel=novashd&p=n0v43!23t001&player=m3u8&sp=novas&stream=hp7000&u=novas\r",
       "line": 14,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Pannon RTV (648p)",
+      "tvg": {
+        "id": "PannonTV.rs@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/xQa2idL.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://stream.nmih.hu:4102/live.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"PannonTV.rs@SD\" tvg-logo=\"https://i.imgur.com/xQa2idL.png\" group-title=\"General\",Pannon RTV (648p)\r\r\nhttps://stream.nmih.hu:4102/live.m3u8\r",
+      "line": 16,
       "catchup": {
         "type": "",
         "days": "",
@@ -313,11 +313,11 @@
       "status": "OK"
     },
     {
-      "name": "RTS Svet HD (720p) [Geo-Blocked]",
+      "name": "RTS 3 (720p)",
       "tvg": {
-        "id": "RTSSvet.rs@HD",
+        "id": "RTS3.rs@SD",
         "name": "",
-        "logo": "https://i.imgur.com/LjunOdy.png",
+        "logo": "https://i.imgur.com/gxuGB4J.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -329,9 +329,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://viamotionhsi.netplus.ch/live/eds/rtssat/browser-dash/rtssat.mpd",
-      "raw": "#EXTINF:-1 tvg-id=\"RTSSvet.rs@HD\" tvg-logo=\"https://i.imgur.com/LjunOdy.png\" group-title=\"Undefined\",RTS Svet HD (720p) [Geo-Blocked]\r\r\nhttps://viamotionhsi.netplus.ch/live/eds/rtssat/browser-dash/rtssat.mpd\r",
-      "line": 34,
+      "url": "http://185.81.240.65:15000/udp/233.233.233.36:12000",
+      "raw": "#EXTINF:-1 tvg-id=\"RTS3.rs@SD\" tvg-logo=\"https://i.imgur.com/gxuGB4J.png\" group-title=\"Undefined\",RTS 3 (720p)\r\r\nhttp://185.81.240.65:15000/udp/233.233.233.36:12000\r",
+      "line": 32,
       "catchup": {
         "type": "",
         "days": "",
@@ -397,11 +397,11 @@
       "status": "OK"
     },
     {
-      "name": "RTS 3 (720p)",
+      "name": "RTS Svet HD (720p) [Geo-Blocked]",
       "tvg": {
-        "id": "RTS3.rs@SD",
+        "id": "RTSSvet.rs@HD",
         "name": "",
-        "logo": "https://i.imgur.com/gxuGB4J.png",
+        "logo": "https://i.imgur.com/LjunOdy.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -413,9 +413,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "http://185.81.240.65:15000/udp/233.233.233.36:12000",
-      "raw": "#EXTINF:-1 tvg-id=\"RTS3.rs@SD\" tvg-logo=\"https://i.imgur.com/gxuGB4J.png\" group-title=\"Undefined\",RTS 3 (720p)\r\r\nhttp://185.81.240.65:15000/udp/233.233.233.36:12000\r",
-      "line": 32,
+      "url": "https://viamotionhsi.netplus.ch/live/eds/rtssat/browser-dash/rtssat.mpd",
+      "raw": "#EXTINF:-1 tvg-id=\"RTSSvet.rs@HD\" tvg-logo=\"https://i.imgur.com/LjunOdy.png\" group-title=\"Undefined\",RTS Svet HD (720p) [Geo-Blocked]\r\r\nhttps://viamotionhsi.netplus.ch/live/eds/rtssat/browser-dash/rtssat.mpd\r",
+      "line": 34,
       "catchup": {
         "type": "",
         "days": "",
@@ -509,34 +509,6 @@
       "status": "OK"
     },
     {
-      "name": "SOS Kanal Plus (720p)",
-      "tvg": {
-        "id": "SOSKanalPlus.rs@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/9SD40uH.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Sports"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://53be5ef2d13aa.streamlock.net/soskanalplus/soskanalplus.stream/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"SOSKanalPlus.rs@SD\" tvg-logo=\"https://i.imgur.com/9SD40uH.png\" group-title=\"Sports\",SOS Kanal Plus (720p)\r\r\nhttps://53be5ef2d13aa.streamlock.net/soskanalplus/soskanalplus.stream/playlist.m3u8\r",
-      "line": 46,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "TDI Radio TV",
       "tvg": {
         "id": "TDIRadioTV.rs@SD",
@@ -556,6 +528,34 @@
       "url": "https://peer2.tdiradio.com/static/streaming-playlists/hls/8f5d84ce-e8ac-4109-9975-9665f5605557/master.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TDIRadioTV.rs@SD\" tvg-logo=\"https://i.imgur.com/POdTmaD.png\" group-title=\"Music\",TDI Radio TV\r\r\nhttps://peer2.tdiradio.com/static/streaming-playlists/hls/8f5d84ce-e8ac-4109-9975-9665f5605557/master.m3u8\r",
       "line": 48,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "SOS Kanal Plus (720p)",
+      "tvg": {
+        "id": "SOSKanalPlus.rs@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/9SD40uH.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Sports"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://53be5ef2d13aa.streamlock.net/soskanalplus/soskanalplus.stream/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"SOSKanalPlus.rs@SD\" tvg-logo=\"https://i.imgur.com/9SD40uH.png\" group-title=\"Sports\",SOS Kanal Plus (720p)\r\r\nhttps://53be5ef2d13aa.streamlock.net/soskanalplus/soskanalplus.stream/playlist.m3u8\r",
+      "line": 46,
       "catchup": {
         "type": "",
         "days": "",
