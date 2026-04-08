@@ -145,25 +145,25 @@
       "status": "OK"
     },
     {
-      "name": "ATV HD (1080p)",
+      "name": "Balkan Radio Salzburg (480p)",
       "tvg": {
-        "id": "ATV.at@HD",
+        "id": "BalkanRadioSalzburg.at@SD",
         "name": "",
-        "logo": "https://i.imgur.com/1pA0Tid.png",
+        "logo": "https://i.imgur.com/UDyxgXf.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "General"
+        "title": "Entertainment"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "http://212.186.45.34:9981/stream/channelid/692531719?profile=pass",
-      "raw": "#EXTINF:-1 tvg-id=\"ATV.at@HD\" tvg-logo=\"https://i.imgur.com/1pA0Tid.png\" group-title=\"General\",ATV HD (1080p)\r\r\nhttp://212.186.45.34:9981/stream/channelid/692531719?profile=pass\r",
-      "line": 18,
+      "url": "https://channel.streams.ovh:1936/balkanradiosalzburgtv/balkanradiosalzburgtv/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"BalkanRadioSalzburg.at@SD\" tvg-logo=\"https://i.imgur.com/UDyxgXf.png\" group-title=\"Entertainment\",Balkan Radio Salzburg (480p)\r\r\nhttps://channel.streams.ovh:1936/balkanradiosalzburgtv/balkanradiosalzburgtv/playlist.m3u8\r",
+      "line": 20,
       "catchup": {
         "type": "",
         "days": "",
@@ -201,34 +201,6 @@
       "status": "OK"
     },
     {
-      "name": "Balkan Radio Salzburg (480p)",
-      "tvg": {
-        "id": "BalkanRadioSalzburg.at@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/UDyxgXf.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Entertainment"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://channel.streams.ovh:1936/balkanradiosalzburgtv/balkanradiosalzburgtv/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"BalkanRadioSalzburg.at@SD\" tvg-logo=\"https://i.imgur.com/UDyxgXf.png\" group-title=\"Entertainment\",Balkan Radio Salzburg (480p)\r\r\nhttps://channel.streams.ovh:1936/balkanradiosalzburgtv/balkanradiosalzburgtv/playlist.m3u8\r",
-      "line": 20,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "FIFA+ German (720p)",
       "tvg": {
         "id": "FIFAPlus.uk@German",
@@ -257,34 +229,6 @@
       "status": "OK"
     },
     {
-      "name": "FS1 Salzburg (720p) [Not 24/7]",
-      "tvg": {
-        "id": "FS1Salzburg.at@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/74gMaPK.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://stream.fs1.tv:8080/hls/webstream.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"FS1Salzburg.at@SD\" tvg-logo=\"https://i.imgur.com/74gMaPK.png\" group-title=\"General\",FS1 Salzburg (720p) [Not 24/7]\r\r\nhttp://stream.fs1.tv:8080/hls/webstream.m3u8\r",
-      "line": 28,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Comedy Central HD (1080p) [Geo-Blocked]",
       "tvg": {
         "id": "ComedyCentral.de@HD",
@@ -304,6 +248,34 @@
       "url": "https://viamotionhsi.netplus.ch/live/eds/comedycentral/browser-HLS8/comedycentral.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"ComedyCentral.de@HD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Comedy_Central_2018.svg/960px-Comedy_Central_2018.svg.png\" group-title=\"Comedy\",Comedy Central HD (1080p) [Geo-Blocked]\r\r\nhttps://viamotionhsi.netplus.ch/live/eds/comedycentral/browser-HLS8/comedycentral.m3u8\r",
       "line": 22,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "FS1 Salzburg (720p) [Not 24/7]",
+      "tvg": {
+        "id": "FS1Salzburg.at@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/74gMaPK.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://stream.fs1.tv:8080/hls/webstream.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"FS1Salzburg.at@SD\" tvg-logo=\"https://i.imgur.com/74gMaPK.png\" group-title=\"General\",FS1 Salzburg (720p) [Not 24/7]\r\r\nhttp://stream.fs1.tv:8080/hls/webstream.m3u8\r",
+      "line": 28,
       "catchup": {
         "type": "",
         "days": "",
@@ -425,6 +397,34 @@
       "status": "OK"
     },
     {
+      "name": "ATV HD (1080p)",
+      "tvg": {
+        "id": "ATV.at@HD",
+        "name": "",
+        "logo": "https://i.imgur.com/1pA0Tid.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://212.186.45.34:9981/stream/channelid/692531719?profile=pass",
+      "raw": "#EXTINF:-1 tvg-id=\"ATV.at@HD\" tvg-logo=\"https://i.imgur.com/1pA0Tid.png\" group-title=\"General\",ATV HD (1080p)\r\r\nhttp://212.186.45.34:9981/stream/channelid/692531719?profile=pass\r",
+      "line": 18,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Ländle TV (1080p) [Not 24/7]",
       "tvg": {
         "id": "LandleTV.at@SD",
@@ -481,34 +481,6 @@
       "status": "OK"
     },
     {
-      "name": "Nachrichten 360 (1080p) [Geo-blocked]",
-      "tvg": {
-        "id": "Nachrichten360.de@HD",
-        "name": "",
-        "logo": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/DE4300003MR_20251209T125847SQUARE.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "News"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01821-lovetvfast-nachrichten360-samsungde/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Nachrichten360.de@HD\" tvg-logo=\"https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/DE4300003MR_20251209T125847SQUARE.png\" group-title=\"News\",Nachrichten 360 (1080p) [Geo-blocked]\r\r\nhttps://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01821-lovetvfast-nachrichten360-samsungde/playlist.m3u8\r",
-      "line": 46,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "n-tv (1080p) [Geo-Blocked]",
       "tvg": {
         "id": "ntv.de@SD",
@@ -528,6 +500,34 @@
       "url": "https://viamotionhsi.netplus.ch/live/eds/ntv/browser-HLS8/ntv.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"ntv.de@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/N-tv_logo-september2017.svg/960px-N-tv_logo-september2017.svg.png\" group-title=\"General\",n-tv (1080p) [Geo-Blocked]\r\r\nhttps://viamotionhsi.netplus.ch/live/eds/ntv/browser-HLS8/ntv.m3u8\r",
       "line": 44,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Nachrichten 360 (1080p) [Geo-blocked]",
+      "tvg": {
+        "id": "Nachrichten360.de@HD",
+        "name": "",
+        "logo": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/DE4300003MR_20251209T125847SQUARE.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "News"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01821-lovetvfast-nachrichten360-samsungde/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Nachrichten360.de@HD\" tvg-logo=\"https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/DE4300003MR_20251209T125847SQUARE.png\" group-title=\"News\",Nachrichten 360 (1080p) [Geo-blocked]\r\r\nhttps://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01821-lovetvfast-nachrichten360-samsungde/playlist.m3u8\r",
+      "line": 46,
       "catchup": {
         "type": "",
         "days": "",
@@ -677,34 +677,6 @@
       "status": "OK"
     },
     {
-      "name": "Pluto TV Horror",
-      "tvg": {
-        "id": "PlutoTVHorror.us@DACH",
-        "name": "",
-        "logo": "https://images.pluto.tv/channels/569546031a619b8f07ce6e25/colorLogoPNG.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Movies"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://jmp2.uk/plu-62f4f4b88157cf00075c22db.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"PlutoTVHorror.us@DACH\" tvg-logo=\"https://images.pluto.tv/channels/569546031a619b8f07ce6e25/colorLogoPNG.png\" group-title=\"Movies\",Pluto TV Horror\r\r\nhttps://jmp2.uk/plu-62f4f4b88157cf00075c22db.m3u8\r",
-      "line": 74,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "ORF III HD (720p)",
       "tvg": {
         "id": "ORFIII.at@HD",
@@ -761,25 +733,25 @@
       "status": "OK"
     },
     {
-      "name": "Red Bull TV DE (1080p)",
+      "name": "Pluto TV Horror",
       "tvg": {
-        "id": "RedBullTV.at@DE",
+        "id": "PlutoTVHorror.us@DACH",
         "name": "",
-        "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Red_Bull_TV.png",
+        "logo": "https://images.pluto.tv/channels/569546031a619b8f07ce6e25/colorLogoPNG.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Outdoor;Sports"
+        "title": "Movies"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://46cfeb23c7f74853bba7a256655a3119.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-582-WORBDACHDEFAST-WHALETVPLUS/582/whaletvplus/hls/master/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"RedBullTV.at@DE\" tvg-logo=\"https://jiotvimages.cdn.jio.com/dare_images/images/Red_Bull_TV.png\" group-title=\"Outdoor;Sports\",Red Bull TV DE (1080p)\r\r\nhttps://46cfeb23c7f74853bba7a256655a3119.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-582-WORBDACHDEFAST-WHALETVPLUS/582/whaletvplus/hls/master/playlist.m3u8\r",
-      "line": 86,
+      "url": "https://jmp2.uk/plu-62f4f4b88157cf00075c22db.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"PlutoTVHorror.us@DACH\" tvg-logo=\"https://images.pluto.tv/channels/569546031a619b8f07ce6e25/colorLogoPNG.png\" group-title=\"Movies\",Pluto TV Horror\r\r\nhttps://jmp2.uk/plu-62f4f4b88157cf00075c22db.m3u8\r",
+      "line": 74,
       "catchup": {
         "type": "",
         "days": "",
@@ -808,6 +780,34 @@
       "url": "http://c3921155.edmonst.net/iptv/65C7UBRRW8GHQVYPH2MQT3SA/15178/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"RTLCrime.de@HD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/5/5c/RTL_Crime_%28Netherlands%29_%282023%2C_stacked%29.svg\" group-title=\"Series\",RTL Crime HD (1080p)\r\r\nhttp://c3921155.edmonst.net/iptv/65C7UBRRW8GHQVYPH2MQT3SA/15178/index.m3u8\r",
       "line": 88,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Red Bull TV DE (1080p)",
+      "tvg": {
+        "id": "RedBullTV.at@DE",
+        "name": "",
+        "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Red_Bull_TV.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Outdoor;Sports"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://46cfeb23c7f74853bba7a256655a3119.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-582-WORBDACHDEFAST-WHALETVPLUS/582/whaletvplus/hls/master/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"RedBullTV.at@DE\" tvg-logo=\"https://jiotvimages.cdn.jio.com/dare_images/images/Red_Bull_TV.png\" group-title=\"Outdoor;Sports\",Red Bull TV DE (1080p)\r\r\nhttps://46cfeb23c7f74853bba7a256655a3119.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-582-WORBDACHDEFAST-WHALETVPLUS/582/whaletvplus/hls/master/playlist.m3u8\r",
+      "line": 86,
       "catchup": {
         "type": "",
         "days": "",
@@ -1041,34 +1041,6 @@
       "status": "OK"
     },
     {
-      "name": "Swamiji TV European (1080p) [Not 24/7]",
-      "tvg": {
-        "id": "SwamijiTVEuropean.at@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/nrLcuzs.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Outdoor"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://stream.swamiji.tv/YogaIPTV/smil:YogaStream.smil/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"SwamijiTVEuropean.at@SD\" tvg-logo=\"https://i.imgur.com/nrLcuzs.png\" group-title=\"Outdoor\",Swamiji TV European (1080p) [Not 24/7]\r\r\nhttps://stream.swamiji.tv/YogaIPTV/smil:YogaStream.smil/playlist.m3u8\r",
-      "line": 113,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Terra Mater WILD (1080p)",
       "tvg": {
         "id": "TerraMaterWILD.de@German",
@@ -1088,6 +1060,34 @@
       "url": "https://53ff3982.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmxheHhUVi1ldV9UZXJyYU1hdGVyV2lsZF9ITFM/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TerraMaterWILD.de@German\" tvg-logo=\"https://i.imgur.com/EbMK3Ph.png\" group-title=\"Documentary\",Terra Mater WILD (1080p)\r\r\nhttps://53ff3982.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmxheHhUVi1ldV9UZXJyYU1hdGVyV2lsZF9ITFM/playlist.m3u8\r",
       "line": 115,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Swamiji TV European (1080p) [Not 24/7]",
+      "tvg": {
+        "id": "SwamijiTVEuropean.at@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/nrLcuzs.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Outdoor"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://stream.swamiji.tv/YogaIPTV/smil:YogaStream.smil/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"SwamijiTVEuropean.at@SD\" tvg-logo=\"https://i.imgur.com/nrLcuzs.png\" group-title=\"Outdoor\",Swamiji TV European (1080p) [Not 24/7]\r\r\nhttps://stream.swamiji.tv/YogaIPTV/smil:YogaStream.smil/playlist.m3u8\r",
+      "line": 113,
       "catchup": {
         "type": "",
         "days": "",
