@@ -5,34 +5,6 @@
   },
   "items": [
     {
-      "name": "Bel RTL (1080p)",
-      "tvg": {
-        "id": "BelRTL.be@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/0DUprIW.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Music"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://bel-live-hls.akamaized.net/hls/live/2038650/BEL-Live-HLS/master.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"BelRTL.be@SD\" tvg-logo=\"https://i.imgur.com/0DUprIW.png\" group-title=\"Music\",Bel RTL (1080p)\r\r\nhttps://bel-live-hls.akamaized.net/hls/live/2038650/BEL-Live-HLS/master.m3u8\r",
-      "line": 8,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "ATV (1080p)",
       "tvg": {
         "id": "ATV.be@SD",
@@ -52,6 +24,34 @@
       "url": "https://live.zendzend.com/mpegts/29375_107244/media_mpegts_0.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"ATV.be@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/ATV_Belgium_logo.svg/960px-ATV_Belgium_logo.svg.png\" group-title=\"General\",ATV (1080p)\r\r\nhttps://live.zendzend.com/mpegts/29375_107244/media_mpegts_0.m3u8\r",
       "line": 6,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Bel RTL (1080p)",
+      "tvg": {
+        "id": "BelRTL.be@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/0DUprIW.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Music"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://bel-live-hls.akamaized.net/hls/live/2038650/BEL-Live-HLS/master.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"BelRTL.be@SD\" tvg-logo=\"https://i.imgur.com/0DUprIW.png\" group-title=\"Music\",Bel RTL (1080p)\r\r\nhttps://bel-live-hls.akamaized.net/hls/live/2038650/BEL-Live-HLS/master.m3u8\r",
+      "line": 8,
       "catchup": {
         "type": "",
         "days": "",
@@ -201,53 +201,25 @@
       "status": "OK"
     },
     {
-      "name": "KTO (720p) [Geo-Blocked]",
+      "name": "Japanim TV (1080p)",
       "tvg": {
-        "id": "KTO.fr@SD",
+        "id": "JapanimTV.be@SD",
         "name": "",
-        "logo": "https://i.imgur.com/EY6TsdV.png",
+        "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/6b97e19f-4243-4d48-b794-ff8cf54d795f-profile_image-300x300.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Religious"
+        "title": "Animation;Kids"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://viamotionhsi.netplus.ch/live/eds/kto/browser-dash/kto.mpd",
-      "raw": "#EXTINF:-1 tvg-id=\"KTO.fr@SD\" tvg-logo=\"https://i.imgur.com/EY6TsdV.png\" group-title=\"Religious\",KTO (720p) [Geo-Blocked]\r\r\nhttps://viamotionhsi.netplus.ch/live/eds/kto/browser-dash/kto.mpd\r",
-      "line": 29,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "LCI HD (720p) [Geo-Blocked]",
-      "tvg": {
-        "id": "LCI.fr@HD",
-        "name": "",
-        "logo": "https://i.imgur.com/DED8EXs.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "News"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://viamotionhsi.netplus.ch/live/eds/lci/browser-dash/lci.mpd",
-      "raw": "#EXTINF:-1 tvg-id=\"LCI.fr@HD\" tvg-logo=\"https://i.imgur.com/DED8EXs.png\" group-title=\"News\",LCI HD (720p) [Geo-Blocked]\r\r\nhttps://viamotionhsi.netplus.ch/live/eds/lci/browser-dash/lci.mpd\r",
-      "line": 35,
+      "url": "https://foxkidstv.be:3369/stream/play.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"JapanimTV.be@SD\" tvg-logo=\"https://static-cdn.jtvnw.net/jtv_user_pictures/6b97e19f-4243-4d48-b794-ff8cf54d795f-profile_image-300x300.png\" group-title=\"Animation;Kids\",Japanim TV (1080p)\r\r\nhttps://foxkidstv.be:3369/stream/play.m3u8\r",
+      "line": 25,
       "catchup": {
         "type": "",
         "days": "",
@@ -285,6 +257,62 @@
       "status": "OK"
     },
     {
+      "name": "LCI HD (720p) [Geo-Blocked]",
+      "tvg": {
+        "id": "LCI.fr@HD",
+        "name": "",
+        "logo": "https://i.imgur.com/DED8EXs.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "News"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://viamotionhsi.netplus.ch/live/eds/lci/browser-dash/lci.mpd",
+      "raw": "#EXTINF:-1 tvg-id=\"LCI.fr@HD\" tvg-logo=\"https://i.imgur.com/DED8EXs.png\" group-title=\"News\",LCI HD (720p) [Geo-Blocked]\r\r\nhttps://viamotionhsi.netplus.ch/live/eds/lci/browser-dash/lci.mpd\r",
+      "line": 35,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "KTO (720p) [Geo-Blocked]",
+      "tvg": {
+        "id": "KTO.fr@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/EY6TsdV.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Religious"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://viamotionhsi.netplus.ch/live/eds/kto/browser-dash/kto.mpd",
+      "raw": "#EXTINF:-1 tvg-id=\"KTO.fr@SD\" tvg-logo=\"https://i.imgur.com/EY6TsdV.png\" group-title=\"Religious\",KTO (720p) [Geo-Blocked]\r\r\nhttps://viamotionhsi.netplus.ch/live/eds/kto/browser-dash/kto.mpd\r",
+      "line": 29,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "MaTele (1080p) [Not 24/7]",
       "tvg": {
         "id": "Matele.be@SD",
@@ -304,62 +332,6 @@
       "url": "https://live.matele.be/hls/live.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"Matele.be@SD\" tvg-logo=\"https://i.imgur.com/rw72POr.png\" group-title=\"General\",MaTele (1080p) [Not 24/7]\r\r\nhttps://live.matele.be/hls/live.m3u8\r",
       "line": 39,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "MTV (1080p) [Geo-Blocked]",
-      "tvg": {
-        "id": "MTV.fr@SD",
-        "name": "",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/MTV_2021_%28brand_version%29.svg/960px-MTV_2021_%28brand_version%29.svg.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Entertainment"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://viamotionhsi.netplus.ch/live/eds/mtvfrance/browser-HLS8/mtvfrance.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"MTV.fr@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/MTV_2021_%28brand_version%29.svg/960px-MTV_2021_%28brand_version%29.svg.png\" group-title=\"Entertainment\",MTV (1080p) [Geo-Blocked]\r\r\nhttps://viamotionhsi.netplus.ch/live/eds/mtvfrance/browser-HLS8/mtvfrance.m3u8\r",
-      "line": 43,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Notele (576p) [Not 24/7]",
-      "tvg": {
-        "id": "Notele.be@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/fGS55nR.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://streaming01.divercom.be/notele_live/direct.stream/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Notele.be@SD\" tvg-logo=\"https://i.imgur.com/fGS55nR.png\" group-title=\"General\",Notele (576p) [Not 24/7]\r\r\nhttps://streaming01.divercom.be/notele_live/direct.stream/playlist.m3u8\r",
-      "line": 45,
       "catchup": {
         "type": "",
         "days": "",
@@ -397,25 +369,53 @@
       "status": "OK"
     },
     {
-      "name": "Radio Contact (1080p)",
+      "name": "Notele (576p) [Not 24/7]",
       "tvg": {
-        "id": "RadioContact.be@SD",
+        "id": "Notele.be@SD",
         "name": "",
-        "logo": "https://i.imgur.com/32mmGvB.png",
+        "logo": "https://i.imgur.com/fGS55nR.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Music"
+        "title": "General"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://contact-live-hls.akamaized.net/hls/live/2038650/CONTACT-Live-HLS/master.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"RadioContact.be@SD\" tvg-logo=\"https://i.imgur.com/32mmGvB.png\" group-title=\"Music\",Radio Contact (1080p)\r\r\nhttps://contact-live-hls.akamaized.net/hls/live/2038650/CONTACT-Live-HLS/master.m3u8\r",
-      "line": 53,
+      "url": "https://streaming01.divercom.be/notele_live/direct.stream/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Notele.be@SD\" tvg-logo=\"https://i.imgur.com/fGS55nR.png\" group-title=\"General\",Notele (576p) [Not 24/7]\r\r\nhttps://streaming01.divercom.be/notele_live/direct.stream/playlist.m3u8\r",
+      "line": 45,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "MTV (1080p) [Geo-Blocked]",
+      "tvg": {
+        "id": "MTV.fr@SD",
+        "name": "",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/MTV_2021_%28brand_version%29.svg/960px-MTV_2021_%28brand_version%29.svg.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Entertainment"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://viamotionhsi.netplus.ch/live/eds/mtvfrance/browser-HLS8/mtvfrance.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"MTV.fr@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/MTV_2021_%28brand_version%29.svg/960px-MTV_2021_%28brand_version%29.svg.png\" group-title=\"Entertainment\",MTV (1080p) [Geo-Blocked]\r\r\nhttps://viamotionhsi.netplus.ch/live/eds/mtvfrance/browser-HLS8/mtvfrance.m3u8\r",
+      "line": 43,
       "catchup": {
         "type": "",
         "days": "",
@@ -444,6 +444,34 @@
       "url": "https://tvi-live-hls.akamaized.net/hls/live/2038650/TVI-Live-HLS/master.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"RTLTVI.be@SD\" tvg-logo=\"https://i.imgur.com/2CimAAN.png\" group-title=\"Undefined\",RTL-TVI (1080p) [Not 24/7]\r\r\nhttps://tvi-live-hls.akamaized.net/hls/live/2038650/TVI-Live-HLS/master.m3u8\r",
       "line": 57,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Radio Contact (1080p)",
+      "tvg": {
+        "id": "RadioContact.be@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/32mmGvB.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Music"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://contact-live-hls.akamaized.net/hls/live/2038650/CONTACT-Live-HLS/master.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"RadioContact.be@SD\" tvg-logo=\"https://i.imgur.com/32mmGvB.png\" group-title=\"Music\",Radio Contact (1080p)\r\r\nhttps://contact-live-hls.akamaized.net/hls/live/2038650/CONTACT-Live-HLS/master.m3u8\r",
+      "line": 53,
       "catchup": {
         "type": "",
         "days": "",
