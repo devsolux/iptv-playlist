@@ -145,34 +145,6 @@
       "status": "OK"
     },
     {
-      "name": "AT5",
-      "tvg": {
-        "id": "AT5.nl@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/iAiSlEL.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://takeoff.jetstre.am/?account=atvijf&file=live&output=playlist.m3u8&protocol=https&service=wowza&type=live",
-      "raw": "#EXTINF:-1 tvg-id=\"AT5.nl@SD\" tvg-logo=\"https://i.imgur.com/iAiSlEL.png\" group-title=\"General\",AT5\r\r\nhttps://takeoff.jetstre.am/?account=atvijf&file=live&output=playlist.m3u8&protocol=https&service=wowza&type=live\r",
-      "line": 12,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "BNR Nieuwsradio (720p) [Geo-blocked]",
       "tvg": {
         "id": "BNRNieuwsradio.nl@SD",
@@ -192,6 +164,34 @@
       "url": "https://bnr-cache-cdp.triple-it.nl/studio/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"BNRNieuwsradio.nl@SD\" tvg-logo=\"https://i.imgur.com/d0KLwkj.png\" group-title=\"Undefined\",BNR Nieuwsradio (720p) [Geo-blocked]\r\r\nhttps://bnr-cache-cdp.triple-it.nl/studio/index.m3u8\r",
       "line": 16,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Assen TV (720p)",
+      "tvg": {
+        "id": "AssenTV.nl@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/upik15D.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://takeoff.jetstre.am/?account=OmroepAssen&file=OmroepAssenTV/playlist.m3u8&output=playlist.m3u8&protocol=https&service=webdav&type=live",
+      "raw": "#EXTINF:-1 tvg-id=\"AssenTV.nl@SD\" tvg-logo=\"https://i.imgur.com/upik15D.png\" group-title=\"General\",Assen TV (720p)\r\r\nhttps://takeoff.jetstre.am/?account=OmroepAssen&file=OmroepAssenTV/playlist.m3u8&output=playlist.m3u8&protocol=https&service=webdav&type=live\r",
+      "line": 10,
       "catchup": {
         "type": "",
         "days": "",
@@ -257,11 +257,11 @@
       "status": "OK"
     },
     {
-      "name": "Assen TV (720p)",
+      "name": "Dit is Helmond (480p)",
       "tvg": {
-        "id": "AssenTV.nl@SD",
+        "id": "DitisHelmond.nl@SD",
         "name": "",
-        "logo": "https://i.imgur.com/upik15D.png",
+        "logo": "https://i.imgur.com/fGAaBAs.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -273,9 +273,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://takeoff.jetstre.am/?account=OmroepAssen&file=OmroepAssenTV/playlist.m3u8&output=playlist.m3u8&protocol=https&service=webdav&type=live",
-      "raw": "#EXTINF:-1 tvg-id=\"AssenTV.nl@SD\" tvg-logo=\"https://i.imgur.com/upik15D.png\" group-title=\"General\",Assen TV (720p)\r\r\nhttps://takeoff.jetstre.am/?account=OmroepAssen&file=OmroepAssenTV/playlist.m3u8&output=playlist.m3u8&protocol=https&service=webdav&type=live\r",
-      "line": 10,
+      "url": "http://ms2.mx-cd.net/tv/Omroep_Helmond.smil/chunklist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"DitisHelmond.nl@SD\" tvg-logo=\"https://i.imgur.com/fGAaBAs.png\" group-title=\"General\",Dit is Helmond (480p)\r\r\nhttp://ms2.mx-cd.net/tv/Omroep_Helmond.smil/chunklist.m3u8\r",
+      "line": 26,
       "catchup": {
         "type": "",
         "days": "",
@@ -313,11 +313,11 @@
       "status": "OK"
     },
     {
-      "name": "Dit is Helmond (480p)",
+      "name": "DTV Maashorst (1080p)",
       "tvg": {
-        "id": "DitisHelmond.nl@SD",
+        "id": "DTVMaashorst.nl@SD",
         "name": "",
-        "logo": "https://i.imgur.com/fGAaBAs.png",
+        "logo": "https://i.imgur.com/5WaCCAC.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -329,9 +329,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "http://ms2.mx-cd.net/tv/Omroep_Helmond.smil/chunklist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"DitisHelmond.nl@SD\" tvg-logo=\"https://i.imgur.com/fGAaBAs.png\" group-title=\"General\",Dit is Helmond (480p)\r\r\nhttp://ms2.mx-cd.net/tv/Omroep_Helmond.smil/chunklist.m3u8\r",
-      "line": 26,
+      "url": "https://rrr.sz.xlcdn.com/?account=dtvmaasland&file=dtv3&output=playlist.m3u8&protocol=https&service=wowza&type=live",
+      "raw": "#EXTINF:-1 tvg-id=\"DTVMaashorst.nl@SD\" tvg-logo=\"https://i.imgur.com/5WaCCAC.png\" group-title=\"General\",DTV Maashorst (1080p)\r\r\nhttps://rrr.sz.xlcdn.com/?account=dtvmaasland&file=dtv3&output=playlist.m3u8&protocol=https&service=wowza&type=live\r",
+      "line": 30,
       "catchup": {
         "type": "",
         "days": "",
@@ -360,34 +360,6 @@
       "url": "https://rrr.sz.xlcdn.com/?account=dtvmaasland&file=dtv2&output=playlist.m3u8&protocol=https&service=wowza&type=live",
       "raw": "#EXTINF:-1 tvg-id=\"DTVDenBosch.nl@SD\" tvg-logo=\"https://i.imgur.com/aFBNbsy.png\" group-title=\"General\",DTV Den Bosch (1080p)\r\r\nhttps://rrr.sz.xlcdn.com/?account=dtvmaasland&file=dtv2&output=playlist.m3u8&protocol=https&service=wowza&type=live\r",
       "line": 28,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "DTV Maashorst (1080p)",
-      "tvg": {
-        "id": "DTVMaashorst.nl@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/5WaCCAC.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://rrr.sz.xlcdn.com/?account=dtvmaasland&file=dtv3&output=playlist.m3u8&protocol=https&service=wowza&type=live",
-      "raw": "#EXTINF:-1 tvg-id=\"DTVMaashorst.nl@SD\" tvg-logo=\"https://i.imgur.com/5WaCCAC.png\" group-title=\"General\",DTV Maashorst (1080p)\r\r\nhttps://rrr.sz.xlcdn.com/?account=dtvmaasland&file=dtv3&output=playlist.m3u8&protocol=https&service=wowza&type=live\r",
-      "line": 30,
       "catchup": {
         "type": "",
         "days": "",
@@ -509,34 +481,6 @@
       "status": "OK"
     },
     {
-      "name": "Hype Visual Radio (1080p)",
-      "tvg": {
-        "id": "HypeVisualRadio.nl@SD",
-        "name": "",
-        "logo": "https://cdn.onlineradiobox.com/img/fblogo/1/97371.v21.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Music"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://streammix.alsolnet.com/hyperadio/live/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"HypeVisualRadio.nl@SD\" tvg-logo=\"https://cdn.onlineradiobox.com/img/fblogo/1/97371.v21.png\" group-title=\"Music\",Hype Visual Radio (1080p)\r\r\nhttps://streammix.alsolnet.com/hyperadio/live/playlist.m3u8\r",
-      "line": 47,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "HTR TV (720p)",
       "tvg": {
         "id": "HTRTV.nl@SD",
@@ -556,6 +500,34 @@
       "url": "https://ms7.mx-cd.net/tv/286-3043214/HTR_Media_TV.smil/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"HTRTV.nl@SD\" tvg-logo=\"https://i.imgur.com/IlwVHX0.png\" group-title=\"General\",HTR TV (720p)\r\r\nhttps://ms7.mx-cd.net/tv/286-3043214/HTR_Media_TV.smil/playlist.m3u8\r",
       "line": 45,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Hype Visual Radio (1080p)",
+      "tvg": {
+        "id": "HypeVisualRadio.nl@SD",
+        "name": "",
+        "logo": "https://cdn.onlineradiobox.com/img/fblogo/1/97371.v21.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Music"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://streammix.alsolnet.com/hyperadio/live/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"HypeVisualRadio.nl@SD\" tvg-logo=\"https://cdn.onlineradiobox.com/img/fblogo/1/97371.v21.png\" group-title=\"Music\",Hype Visual Radio (1080p)\r\r\nhttps://streammix.alsolnet.com/hyperadio/live/playlist.m3u8\r",
+      "line": 47,
       "catchup": {
         "type": "",
         "days": "",
@@ -705,34 +677,6 @@
       "status": "OK"
     },
     {
-      "name": "Langstraat TV (720p)",
-      "tvg": {
-        "id": "LangstraatTV.nl@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/xchUfks.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://d1qpgfi3ivud4k.cloudfront.net/nlpo/clr-nlpo/langstraat/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"LangstraatTV.nl@SD\" tvg-logo=\"https://i.imgur.com/xchUfks.png\" group-title=\"General\",Langstraat TV (720p)\r\r\nhttps://d1qpgfi3ivud4k.cloudfront.net/nlpo/clr-nlpo/langstraat/index.m3u8\r",
-      "line": 63,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Jin TV",
       "tvg": {
         "id": "JinTV.nl@SD",
@@ -761,11 +705,11 @@
       "status": "OK"
     },
     {
-      "name": "Lansingerland TV (720p)",
+      "name": "Langstraat TV (720p)",
       "tvg": {
-        "id": "LansingerlandTV.nl@SD",
+        "id": "LangstraatTV.nl@SD",
         "name": "",
-        "logo": "https://i.imgur.com/1r7IZ7Q.png",
+        "logo": "https://i.imgur.com/xchUfks.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -777,9 +721,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://ms7.mx-cd.net/tv/278-3414514/RTV_Lansingerland.smil/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"LansingerlandTV.nl@SD\" tvg-logo=\"https://i.imgur.com/1r7IZ7Q.png\" group-title=\"General\",Lansingerland TV (720p)\r\r\nhttps://ms7.mx-cd.net/tv/278-3414514/RTV_Lansingerland.smil/playlist.m3u8\r",
-      "line": 65,
+      "url": "https://d1qpgfi3ivud4k.cloudfront.net/nlpo/clr-nlpo/langstraat/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"LangstraatTV.nl@SD\" tvg-logo=\"https://i.imgur.com/xchUfks.png\" group-title=\"General\",Langstraat TV (720p)\r\r\nhttps://d1qpgfi3ivud4k.cloudfront.net/nlpo/clr-nlpo/langstraat/index.m3u8\r",
+      "line": 63,
       "catchup": {
         "type": "",
         "days": "",
@@ -808,6 +752,34 @@
       "url": "https://ms7.mx-cd.net/tv/238-2061506/Omroep_LEO_TV.smil/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"LEOMiddelseTV.nl@SD\" tvg-logo=\"https://i.imgur.com/wF3FFZv.png\" group-title=\"General\",LEO Middelsé TV (480p)\r\r\nhttps://ms7.mx-cd.net/tv/238-2061506/Omroep_LEO_TV.smil/playlist.m3u8\r",
       "line": 67,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Lansingerland TV (720p)",
+      "tvg": {
+        "id": "LansingerlandTV.nl@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/1r7IZ7Q.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://ms7.mx-cd.net/tv/278-3414514/RTV_Lansingerland.smil/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"LansingerlandTV.nl@SD\" tvg-logo=\"https://i.imgur.com/1r7IZ7Q.png\" group-title=\"General\",Lansingerland TV (720p)\r\r\nhttps://ms7.mx-cd.net/tv/278-3414514/RTV_Lansingerland.smil/playlist.m3u8\r",
+      "line": 65,
       "catchup": {
         "type": "",
         "days": "",
@@ -1181,34 +1153,6 @@
       "status": "OK"
     },
     {
-      "name": "Omroep Gelderland HD (1080p)",
-      "tvg": {
-        "id": "OmroepGelderland.nl@HD",
-        "name": "",
-        "logo": "https://i.imgur.com/G08hKit.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://d2od87akyl46nm.cloudfront.net/live/omroepgelderland/tvgelderland-hls/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"OmroepGelderland.nl@HD\" tvg-logo=\"https://i.imgur.com/G08hKit.png\" group-title=\"General\",Omroep Gelderland HD (1080p)\r\r\nhttps://d2od87akyl46nm.cloudfront.net/live/omroepgelderland/tvgelderland-hls/index.m3u8\r",
-      "line": 99,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Omroep Centraal TV (480p) [Not 24/7]",
       "tvg": {
         "id": "OmroepCentraalTV.nl@SD",
@@ -1228,6 +1172,34 @@
       "url": "https://ms2.mx-cd.net/tv/208-1258878/Omroep_Centraal_GB.smil/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"OmroepCentraalTV.nl@SD\" tvg-logo=\"https://i.imgur.com/YNUPWbL.png\" group-title=\"General\",Omroep Centraal TV (480p) [Not 24/7]\r\r\nhttps://ms2.mx-cd.net/tv/208-1258878/Omroep_Centraal_GB.smil/playlist.m3u8\r",
       "line": 93,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Omroep Gelderland HD (1080p)",
+      "tvg": {
+        "id": "OmroepGelderland.nl@HD",
+        "name": "",
+        "logo": "https://i.imgur.com/G08hKit.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://d2od87akyl46nm.cloudfront.net/live/omroepgelderland/tvgelderland-hls/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"OmroepGelderland.nl@HD\" tvg-logo=\"https://i.imgur.com/G08hKit.png\" group-title=\"General\",Omroep Gelderland HD (1080p)\r\r\nhttps://d2od87akyl46nm.cloudfront.net/live/omroepgelderland/tvgelderland-hls/index.m3u8\r",
+      "line": 99,
       "catchup": {
         "type": "",
         "days": "",
@@ -1461,6 +1433,34 @@
       "status": "OK"
     },
     {
+      "name": "Omroep Tilburg TV (480p)",
+      "tvg": {
+        "id": "OmroepTilburg.nl@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/rhazkU7.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://ms7.mx-cd.net/tv/184-782326/Omroep_Tilburg_TV.smil/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"OmroepTilburg.nl@SD\" tvg-logo=\"https://i.imgur.com/rhazkU7.png\" group-title=\"General\",Omroep Tilburg TV (480p)\r\r\nhttps://ms7.mx-cd.net/tv/184-782326/Omroep_Tilburg_TV.smil/playlist.m3u8\r",
+      "line": 117,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Omroep Venlo (720p)",
       "tvg": {
         "id": "OmroepVenlo.nl@SD",
@@ -1489,25 +1489,25 @@
       "status": "OK"
     },
     {
-      "name": "Omroep Tilburg TV (480p)",
+      "name": "Omroep West (1080p) [Not 24/7]",
       "tvg": {
-        "id": "OmroepTilburg.nl@SD",
+        "id": "OmroepWest.nl@HD",
         "name": "",
-        "logo": "https://i.imgur.com/rhazkU7.png",
+        "logo": "https://i.imgur.com/5IDb9fk.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "General"
+        "title": "Undefined"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://ms7.mx-cd.net/tv/184-782326/Omroep_Tilburg_TV.smil/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"OmroepTilburg.nl@SD\" tvg-logo=\"https://i.imgur.com/rhazkU7.png\" group-title=\"General\",Omroep Tilburg TV (480p)\r\r\nhttps://ms7.mx-cd.net/tv/184-782326/Omroep_Tilburg_TV.smil/playlist.m3u8\r",
-      "line": 117,
+      "url": "https://d1axml5ozykh3g.cloudfront.net/live/omroepwest/tv/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"OmroepWest.nl@HD\" tvg-logo=\"https://i.imgur.com/5IDb9fk.png\" group-title=\"Undefined\",Omroep West (1080p) [Not 24/7]\r\r\nhttps://d1axml5ozykh3g.cloudfront.net/live/omroepwest/tv/index.m3u8\r",
+      "line": 123,
       "catchup": {
         "type": "",
         "days": "",
@@ -1573,25 +1573,25 @@
       "status": "OK"
     },
     {
-      "name": "Omroep West (1080p) [Not 24/7]",
+      "name": "Omrop Fryslân (1080p) [Not 24/7]",
       "tvg": {
-        "id": "OmroepWest.nl@HD",
+        "id": "OmropFryslan.nl@SD",
         "name": "",
-        "logo": "https://i.imgur.com/5IDb9fk.png",
+        "logo": "https://i.imgur.com/khacDTU.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Undefined"
+        "title": "General"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://d1axml5ozykh3g.cloudfront.net/live/omroepwest/tv/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"OmroepWest.nl@HD\" tvg-logo=\"https://i.imgur.com/5IDb9fk.png\" group-title=\"Undefined\",Omroep West (1080p) [Not 24/7]\r\r\nhttps://d1axml5ozykh3g.cloudfront.net/live/omroepwest/tv/index.m3u8\r",
-      "line": 123,
+      "url": "https://s-d15f8b0b.b.cdn.bluebillywig.com/live/omropfryslan/f8f68bd5/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"OmropFryslan.nl@SD\" tvg-logo=\"https://i.imgur.com/khacDTU.png\" group-title=\"General\",Omrop Fryslân (1080p) [Not 24/7]\r\r\nhttps://s-d15f8b0b.b.cdn.bluebillywig.com/live/omropfryslan/f8f68bd5/index.m3u8\r",
+      "line": 127,
       "catchup": {
         "type": "",
         "days": "",
@@ -1629,34 +1629,6 @@
       "status": "OK"
     },
     {
-      "name": "Omrop Fryslân (1080p) [Not 24/7]",
-      "tvg": {
-        "id": "OmropFryslan.nl@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/khacDTU.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://s-d15f8b0b.b.cdn.bluebillywig.com/live/omropfryslan/f8f68bd5/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"OmropFryslan.nl@SD\" tvg-logo=\"https://i.imgur.com/khacDTU.png\" group-title=\"General\",Omrop Fryslân (1080p) [Not 24/7]\r\r\nhttps://s-d15f8b0b.b.cdn.bluebillywig.com/live/omropfryslan/f8f68bd5/index.m3u8\r",
-      "line": 127,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Open Rotterdam (480p) [Not 24/7]",
       "tvg": {
         "id": "OPENRotterdamTV.nl@SD",
@@ -1676,34 +1648,6 @@
       "url": "https://ms2.mx-cd.net/tv/141-573555/OPEN_Rotterdam.smil/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"OPENRotterdamTV.nl@SD\" tvg-logo=\"https://i.imgur.com/nWahRAb.png\" group-title=\"General\",Open Rotterdam (480p) [Not 24/7]\r\r\nhttps://ms2.mx-cd.net/tv/141-573555/OPEN_Rotterdam.smil/playlist.m3u8\r",
       "line": 131,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "ORTS (480p) [Not 24/7]",
-      "tvg": {
-        "id": "ORTSTV.nl@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/RZM4Myo.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://ms7.mx-cd.net/tv/200-1006554/ORTS_TV.smil/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"ORTSTV.nl@SD\" tvg-logo=\"https://i.imgur.com/RZM4Myo.png\" group-title=\"General\",ORTS (480p) [Not 24/7]\r\r\nhttps://ms7.mx-cd.net/tv/200-1006554/ORTS_TV.smil/playlist.m3u8\r",
-      "line": 133,
       "catchup": {
         "type": "",
         "days": "",
@@ -1741,6 +1685,34 @@
       "status": "OK"
     },
     {
+      "name": "ORTS (480p) [Not 24/7]",
+      "tvg": {
+        "id": "ORTSTV.nl@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/RZM4Myo.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://ms7.mx-cd.net/tv/200-1006554/ORTS_TV.smil/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"ORTSTV.nl@SD\" tvg-logo=\"https://i.imgur.com/RZM4Myo.png\" group-title=\"General\",ORTS (480p) [Not 24/7]\r\r\nhttps://ms7.mx-cd.net/tv/200-1006554/ORTS_TV.smil/playlist.m3u8\r",
+      "line": 133,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Podium.TV 3 (1080p) [Not 24/7]",
       "tvg": {
         "id": "PodiumTV3.nl@SD",
@@ -1760,34 +1732,6 @@
       "url": "https://rrr.sz.xlcdn.com/?account=ndc_mediagroep&file=NDC3&output=playlist.m3u8&service=wowza&type=live",
       "raw": "#EXTINF:-1 tvg-id=\"PodiumTV3.nl@SD\" tvg-logo=\"https://i.imgur.com/bAhMhuz.jpg\" group-title=\"Undefined\",Podium.TV 3 (1080p) [Not 24/7]\r\r\nhttps://rrr.sz.xlcdn.com/?account=ndc_mediagroep&file=NDC3&output=playlist.m3u8&service=wowza&type=live\r",
       "line": 139,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Podium.TV 2 (1080p) [Not 24/7]",
-      "tvg": {
-        "id": "PodiumTV2.nl@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/bAhMhuz.jpg",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://rrr.sz.xlcdn.com/?account=ndc_mediagroep&file=NDC2&output=playlist.m3u8&service=wowza&type=live",
-      "raw": "#EXTINF:-1 tvg-id=\"PodiumTV2.nl@SD\" tvg-logo=\"https://i.imgur.com/bAhMhuz.jpg\" group-title=\"Undefined\",Podium.TV 2 (1080p) [Not 24/7]\r\r\nhttps://rrr.sz.xlcdn.com/?account=ndc_mediagroep&file=NDC2&output=playlist.m3u8&service=wowza&type=live\r",
-      "line": 137,
       "catchup": {
         "type": "",
         "days": "",
@@ -1872,6 +1816,34 @@
       "url": "https://radio538.prd1.talpatvcdn.nl/22e9bbf9616547d7bc162c993009c533/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"Radio538.nl@SD\" tvg-logo=\"https://i.imgur.com/sd7BX9H.png\" group-title=\"Undefined\",Radio 538 (270p)\r\r\nhttps://radio538.prd1.talpatvcdn.nl/22e9bbf9616547d7bc162c993009c533/index.m3u8\r",
       "line": 147,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Podium.TV 2 (1080p) [Not 24/7]",
+      "tvg": {
+        "id": "PodiumTV2.nl@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/bAhMhuz.jpg",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://rrr.sz.xlcdn.com/?account=ndc_mediagroep&file=NDC2&output=playlist.m3u8&service=wowza&type=live",
+      "raw": "#EXTINF:-1 tvg-id=\"PodiumTV2.nl@SD\" tvg-logo=\"https://i.imgur.com/bAhMhuz.jpg\" group-title=\"Undefined\",Podium.TV 2 (1080p) [Not 24/7]\r\r\nhttps://rrr.sz.xlcdn.com/?account=ndc_mediagroep&file=NDC2&output=playlist.m3u8&service=wowza&type=live\r",
+      "line": 137,
       "catchup": {
         "type": "",
         "days": "",
@@ -2161,34 +2133,6 @@
       "status": "OK"
     },
     {
-      "name": "RTV Drenthe (1080p)",
-      "tvg": {
-        "id": "RTVDrenthe.nl@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/UBQCjnG.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://cdn.rtvdrenthe.nl/live/rtvdrenthe/tv/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"RTVDrenthe.nl@SD\" tvg-logo=\"https://i.imgur.com/UBQCjnG.png\" group-title=\"Undefined\",RTV Drenthe (1080p)\r\r\nhttps://cdn.rtvdrenthe.nl/live/rtvdrenthe/tv/index.m3u8\r",
-      "line": 176,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "RTV Arnhem (480p) [Not 24/7]",
       "tvg": {
         "id": "RTVArnhemTV.nl@SD",
@@ -2208,6 +2152,34 @@
       "url": "https://ms2.mx-cd.net/tv/163-669433/RTV_Arnhem.smil/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"RTVArnhemTV.nl@SD\" tvg-logo=\"\" group-title=\"Undefined\",RTV Arnhem (480p) [Not 24/7]\r\r\nhttps://ms2.mx-cd.net/tv/163-669433/RTV_Arnhem.smil/playlist.m3u8\r",
       "line": 174,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "RTV Horizon (720p)",
+      "tvg": {
+        "id": "RTVHorizon.nl@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/wnRsI8B.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://tv.rtvhorizon.nl/hls/horizon/1_2/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"RTVHorizon.nl@SD\" tvg-logo=\"https://i.imgur.com/wnRsI8B.png\" group-title=\"Undefined\",RTV Horizon (720p)\r\r\nhttps://tv.rtvhorizon.nl/hls/horizon/1_2/index.m3u8\r",
+      "line": 180,
       "catchup": {
         "type": "",
         "days": "",
@@ -2273,34 +2245,6 @@
       "status": "OK"
     },
     {
-      "name": "RTV Horizon (720p)",
-      "tvg": {
-        "id": "RTVHorizon.nl@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/wnRsI8B.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://tv.rtvhorizon.nl/hls/horizon/1_2/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"RTVHorizon.nl@SD\" tvg-logo=\"https://i.imgur.com/wnRsI8B.png\" group-title=\"Undefined\",RTV Horizon (720p)\r\r\nhttps://tv.rtvhorizon.nl/hls/horizon/1_2/index.m3u8\r",
-      "line": 180,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "RTV Meppel (720p)",
       "tvg": {
         "id": "RTVMeppel.nl@SD",
@@ -2320,6 +2264,34 @@
       "url": "https://d2eanln3bsfb0d.cloudfront.net/nlpo/clr-nlpo/rtvmeppel/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"RTVMeppel.nl@SD\" tvg-logo=\"https://i.imgur.com/RosyQkb.png\" group-title=\"General\",RTV Meppel (720p)\r\r\nhttps://d2eanln3bsfb0d.cloudfront.net/nlpo/clr-nlpo/rtvmeppel/index.m3u8\r",
       "line": 186,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "RTV Drenthe (1080p)",
+      "tvg": {
+        "id": "RTVDrenthe.nl@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/UBQCjnG.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://cdn.rtvdrenthe.nl/live/rtvdrenthe/tv/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"RTVDrenthe.nl@SD\" tvg-logo=\"https://i.imgur.com/UBQCjnG.png\" group-title=\"Undefined\",RTV Drenthe (1080p)\r\r\nhttps://cdn.rtvdrenthe.nl/live/rtvdrenthe/tv/index.m3u8\r",
+      "line": 176,
       "catchup": {
         "type": "",
         "days": "",
@@ -2684,6 +2656,34 @@
       "url": "https://dt4pogjgi3q8s.cloudfront.net/nlpo/clr-nlpo/rtvveluwezoom/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"RTVVeluwezoomTV.nl@SD\" tvg-logo=\"https://i.imgur.com/KeHbJTM.png\" group-title=\"Undefined\",RTV Veluwezoom (720p)\r\r\nhttps://dt4pogjgi3q8s.cloudfront.net/nlpo/clr-nlpo/rtvveluwezoom/index.m3u8\r",
       "line": 214,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "RTV Westerwolde (432p)",
+      "tvg": {
+        "id": "RTVWesterwolde.nl@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/002YXP6.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://media.rtvwesterwolde.nl/hls/live/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"RTVWesterwolde.nl@SD\" tvg-logo=\"https://i.imgur.com/002YXP6.png\" group-title=\"Undefined\",RTV Westerwolde (432p)\r\r\nhttps://media.rtvwesterwolde.nl/hls/live/index.m3u8\r",
+      "line": 216,
       "catchup": {
         "type": "",
         "days": "",
@@ -3561,34 +3561,6 @@
       "status": "OK"
     },
     {
-      "name": "WEEFF TV (1080p)",
-      "tvg": {
-        "id": "WEEFFTV.nl@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/4XCwuob.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://takeoff.jetstre.am/?account=weeff&file=weeffradio&output=playlist.m3u8&protocol=https&service=wowza&type=live",
-      "raw": "#EXTINF:-1 tvg-id=\"WEEFFTV.nl@SD\" tvg-logo=\"https://i.imgur.com/4XCwuob.png\" group-title=\"General\",WEEFF TV (1080p)\r\r\nhttps://takeoff.jetstre.am/?account=weeff&file=weeffradio&output=playlist.m3u8&protocol=https&service=wowza&type=live\r",
-      "line": 290,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "WeertFM TV (720p)",
       "tvg": {
         "id": "WeertFMTV.nl@SD",
@@ -3608,34 +3580,6 @@
       "url": "https://ms2.mx-cd.net/tv/151-573495/WeertFM_TV.smil/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"WeertFMTV.nl@SD\" tvg-logo=\"https://i.imgur.com/8bt6xt2.png\" group-title=\"General\",WeertFM TV (720p)\r\r\nhttps://ms2.mx-cd.net/tv/151-573495/WeertFM_TV.smil/playlist.m3u8\r",
       "line": 292,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "WOS TV (1080p)",
-      "tvg": {
-        "id": "WOS.nl@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/L7MUBIo.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://ms2.mx-cd.net/dtv-11/99-660295/WOS.smil/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"WOS.nl@SD\" tvg-logo=\"https://i.imgur.com/L7MUBIo.png\" group-title=\"Undefined\",WOS TV (1080p)\r\r\nhttps://ms2.mx-cd.net/dtv-11/99-660295/WOS.smil/playlist.m3u8\r",
-      "line": 294,
       "catchup": {
         "type": "",
         "days": "",
@@ -3673,25 +3617,25 @@
       "status": "OK"
     },
     {
-      "name": "XITE Hits (1080p)",
+      "name": "WOS TV (1080p)",
       "tvg": {
-        "id": "XITEHits.nl@NL",
+        "id": "WOS.nl@SD",
         "name": "",
-        "logo": "https://i.imgur.com/N51Rp7E.png",
+        "logo": "https://i.imgur.com/L7MUBIo.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Music"
+        "title": "Undefined"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://d726x48n2pd5h.cloudfront.net/XITE_Hits.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"XITEHits.nl@NL\" tvg-logo=\"https://i.imgur.com/N51Rp7E.png\" group-title=\"Music\",XITE Hits (1080p)\r\r\nhttps://d726x48n2pd5h.cloudfront.net/XITE_Hits.m3u8\r",
-      "line": 298,
+      "url": "https://ms2.mx-cd.net/dtv-11/99-660295/WOS.smil/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"WOS.nl@SD\" tvg-logo=\"https://i.imgur.com/L7MUBIo.png\" group-title=\"Undefined\",WOS TV (1080p)\r\r\nhttps://ms2.mx-cd.net/dtv-11/99-660295/WOS.smil/playlist.m3u8\r",
+      "line": 294,
       "catchup": {
         "type": "",
         "days": "",
@@ -3729,6 +3673,34 @@
       "status": "OK"
     },
     {
+      "name": "XITE Hits (1080p)",
+      "tvg": {
+        "id": "XITEHits.nl@NL",
+        "name": "",
+        "logo": "https://i.imgur.com/N51Rp7E.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Music"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://d726x48n2pd5h.cloudfront.net/XITE_Hits.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"XITEHits.nl@NL\" tvg-logo=\"https://i.imgur.com/N51Rp7E.png\" group-title=\"Music\",XITE Hits (1080p)\r\r\nhttps://d726x48n2pd5h.cloudfront.net/XITE_Hits.m3u8\r",
+      "line": 298,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "XON (480p) [Not 24/7]",
       "tvg": {
         "id": "XON.nl@SD",
@@ -3757,34 +3729,6 @@
       "status": "OK"
     },
     {
-      "name": "ZO!34 (720p)",
-      "tvg": {
-        "id": "ZO34.nl@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/yiihDg6.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://video.uitzending.tv:19360/zo34/zo34.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"ZO34.nl@SD\" tvg-logo=\"https://i.imgur.com/yiihDg6.png\" group-title=\"Undefined\",ZO!34 (720p)\r\r\nhttps://video.uitzending.tv:19360/zo34/zo34.m3u8\r",
-      "line": 306,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "ZFM Zoetermeer (720p)",
       "tvg": {
         "id": "ZFMZoetermeerTV.nl@SD",
@@ -3804,6 +3748,34 @@
       "url": "https://zfmzoetermeer.nl/live/master.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"ZFMZoetermeerTV.nl@SD\" tvg-logo=\"https://i.imgur.com/vrjACvy.png\" group-title=\"Music\",ZFM Zoetermeer (720p)\r\r\nhttps://zfmzoetermeer.nl/live/master.m3u8\r",
       "line": 304,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "ZO!34 (720p)",
+      "tvg": {
+        "id": "ZO34.nl@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/yiihDg6.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://video.uitzending.tv:19360/zo34/zo34.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"ZO34.nl@SD\" tvg-logo=\"https://i.imgur.com/yiihDg6.png\" group-title=\"Undefined\",ZO!34 (720p)\r\r\nhttps://video.uitzending.tv:19360/zo34/zo34.m3u8\r",
+      "line": 306,
       "catchup": {
         "type": "",
         "days": "",
