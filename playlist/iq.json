@@ -89,6 +89,34 @@
       "status": "OK"
     },
     {
+      "name": "Al-Jawadain TV (1080p) [Not 24/7]",
+      "tvg": {
+        "id": "AlJawadainTV.iq@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/Eo3UYCK.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Religious"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://live.aljawadain.org/live/aljawadaintv/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"AlJawadainTV.iq@SD\" tvg-logo=\"https://i.imgur.com/Eo3UYCK.png\" group-title=\"Religious\",Al-Jawadain TV (1080p) [Not 24/7]\r\r\nhttps://live.aljawadain.org/live/aljawadaintv/playlist.m3u8\r",
+      "line": 18,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Afarin TV (720p) [Not 24/7]",
       "tvg": {
         "id": "AfarinTV.iq@SD",
@@ -117,11 +145,11 @@
       "status": "OK"
     },
     {
-      "name": "Al-Sharqiya (1080p)",
+      "name": "Al Rasheed TV (1080p) [Not 24/7]",
       "tvg": {
-        "id": "AlSharqiya.iq@SD",
+        "id": "AlRasheedTV.iq@SD",
         "name": "",
-        "logo": "https://i.imgur.com/mJIG5IV.png",
+        "logo": "https://i.imgur.com/ltyRjPK.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -133,9 +161,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://5d94523502c2d.streamlock.net/home/mystream/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"AlSharqiya.iq@SD\" tvg-logo=\"https://i.imgur.com/mJIG5IV.png\" group-title=\"General\",Al-Sharqiya (1080p)\r\r\nhttps://5d94523502c2d.streamlock.net/home/mystream/playlist.m3u8\r",
-      "line": 20,
+      "url": "https://media1.livaat.com/static/AL-RASHEED-HD/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"AlRasheedTV.iq@SD\" tvg-logo=\"https://i.imgur.com/ltyRjPK.png\" group-title=\"General\",Al Rasheed TV (1080p) [Not 24/7]\r\r\nhttps://media1.livaat.com/static/AL-RASHEED-HD/playlist.m3u8\r",
+      "line": 14,
       "catchup": {
         "type": "",
         "days": "",
@@ -201,11 +229,11 @@
       "status": "OK"
     },
     {
-      "name": "Al-Sharqiya News (1080p)",
+      "name": "Anwar TV2 (720p)",
       "tvg": {
-        "id": "AlSharqiyaNews.iq@SD",
+        "id": "AnwarTV2.iq@SD",
         "name": "",
-        "logo": "https://i.imgur.com/PeAcXB9.png",
+        "logo": "https://i.imgur.com/yHZXPcn.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -214,12 +242,40 @@
         "title": "News"
       },
       "http": {
+        "referrer": "https://odysee.com/",
+        "user-agent": ""
+      },
+      "url": "https://cloud.odysee.live/content/f92670235a1ce2bce4cf77671cc4dcc2188baa1d/master.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"AnwarTV2.iq@SD\" tvg-logo=\"https://i.imgur.com/yHZXPcn.png\" http-referrer=\"https://odysee.com/\" group-title=\"News\",Anwar TV2 (720p)\r\r\n#EXTVLCOPT:http-referrer=https://odysee.com/\r\r\nhttps://cloud.odysee.live/content/f92670235a1ce2bce4cf77671cc4dcc2188baa1d/master.m3u8\r",
+      "line": 30,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Al-Sharqiya (1080p)",
+      "tvg": {
+        "id": "AlSharqiya.iq@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/mJIG5IV.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://5d94523502c2d.streamlock.net/alsharqiyalive/mystream/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"AlSharqiyaNews.iq@SD\" tvg-logo=\"https://i.imgur.com/PeAcXB9.png\" group-title=\"News\",Al-Sharqiya News (1080p)\r\r\nhttps://5d94523502c2d.streamlock.net/alsharqiyalive/mystream/playlist.m3u8\r",
-      "line": 22,
+      "url": "https://5d94523502c2d.streamlock.net/home/mystream/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"AlSharqiya.iq@SD\" tvg-logo=\"https://i.imgur.com/mJIG5IV.png\" group-title=\"General\",Al-Sharqiya (1080p)\r\r\nhttps://5d94523502c2d.streamlock.net/home/mystream/playlist.m3u8\r",
+      "line": 20,
       "catchup": {
         "type": "",
         "days": "",
@@ -257,34 +313,6 @@
       "status": "OK"
     },
     {
-      "name": "AVA Family",
-      "tvg": {
-        "id": "AVAFamily.ir@SD",
-        "name": "",
-        "logo": "https://www.lyngsat.com/logo/tv/aa/ava-family-iq.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Family"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://familyhls.avatv.live/hls/stream.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"AVAFamily.ir@SD\" tvg-logo=\"https://www.lyngsat.com/logo/tv/aa/ava-family-iq.png\" group-title=\"Family\",AVA Family\r\r\nhttps://familyhls.avatv.live/hls/stream.m3u8\r",
-      "line": 33,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Avar TV (1080p)",
       "tvg": {
         "id": "AvarTV.iq@HD",
@@ -313,11 +341,11 @@
       "status": "OK"
     },
     {
-      "name": "Anwar TV2 (720p)",
+      "name": "Al-Sharqiya News (1080p)",
       "tvg": {
-        "id": "AnwarTV2.iq@SD",
+        "id": "AlSharqiyaNews.iq@SD",
         "name": "",
-        "logo": "https://i.imgur.com/yHZXPcn.png",
+        "logo": "https://i.imgur.com/PeAcXB9.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -326,12 +354,40 @@
         "title": "News"
       },
       "http": {
-        "referrer": "https://odysee.com/",
+        "referrer": "",
         "user-agent": ""
       },
-      "url": "https://cloud.odysee.live/content/f92670235a1ce2bce4cf77671cc4dcc2188baa1d/master.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"AnwarTV2.iq@SD\" tvg-logo=\"https://i.imgur.com/yHZXPcn.png\" http-referrer=\"https://odysee.com/\" group-title=\"News\",Anwar TV2 (720p)\r\r\n#EXTVLCOPT:http-referrer=https://odysee.com/\r\r\nhttps://cloud.odysee.live/content/f92670235a1ce2bce4cf77671cc4dcc2188baa1d/master.m3u8\r",
-      "line": 30,
+      "url": "https://5d94523502c2d.streamlock.net/alsharqiyalive/mystream/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"AlSharqiyaNews.iq@SD\" tvg-logo=\"https://i.imgur.com/PeAcXB9.png\" group-title=\"News\",Al-Sharqiya News (1080p)\r\r\nhttps://5d94523502c2d.streamlock.net/alsharqiyalive/mystream/playlist.m3u8\r",
+      "line": 22,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "AVA Family",
+      "tvg": {
+        "id": "AVAFamily.ir@SD",
+        "name": "",
+        "logo": "https://www.lyngsat.com/logo/tv/aa/ava-family-iq.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Family"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://familyhls.avatv.live/hls/stream.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"AVAFamily.ir@SD\" tvg-logo=\"https://www.lyngsat.com/logo/tv/aa/ava-family-iq.png\" group-title=\"Family\",AVA Family\r\r\nhttps://familyhls.avatv.live/hls/stream.m3u8\r",
+      "line": 33,
       "catchup": {
         "type": "",
         "days": "",
@@ -360,34 +416,6 @@
       "url": "https://live.beitolabbas.tv/live/beitolabbastv.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"BeitolAbbasTVChannel.iq@SD\" tvg-logo=\"https://i.imgur.com/s8PfUQy.png\" group-title=\"Religious\",BeitolAbbas TV Channel (720p)\r\r\nhttps://live.beitolabbas.tv/live/beitolabbastv.m3u8\r",
       "line": 39,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "EmanTv (1080p)",
-      "tvg": {
-        "id": "EmanTv.iq@HD",
-        "name": "",
-        "logo": "https://i.imgur.com/QmgaPSi.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Family"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://avr.host247.net/live/emantv/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"EmanTv.iq@HD\" tvg-logo=\"https://i.imgur.com/QmgaPSi.png\" group-title=\"Family\",EmanTv (1080p)\r\r\nhttps://avr.host247.net/live/emantv/playlist.m3u8\r",
-      "line": 45,
       "catchup": {
         "type": "",
         "days": "",
@@ -453,6 +481,34 @@
       "status": "OK"
     },
     {
+      "name": "EmanTv (1080p)",
+      "tvg": {
+        "id": "EmanTv.iq@HD",
+        "name": "",
+        "logo": "https://i.imgur.com/QmgaPSi.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Family"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://avr.host247.net/live/emantv/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"EmanTv.iq@HD\" tvg-logo=\"https://i.imgur.com/QmgaPSi.png\" group-title=\"Family\",EmanTv (1080p)\r\r\nhttps://avr.host247.net/live/emantv/playlist.m3u8\r",
+      "line": 45,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "FarmodaTV (1080p)",
       "tvg": {
         "id": "FarmodaTV.iq@HD",
@@ -472,34 +528,6 @@
       "url": "https://avr.host247.net/live/FarmodaTV/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"FarmodaTV.iq@HD\" tvg-logo=\"https://i.imgur.com/x4KCQlH.png\" group-title=\"Religious\",FarmodaTV (1080p)\r\r\nhttps://avr.host247.net/live/FarmodaTV/playlist.m3u8\r",
       "line": 47,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Imam Hussein TV 3 (1080p) [Not 24/7]",
-      "tvg": {
-        "id": "ImamHusseinTV3.iq@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/emQRHQZ.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Religious"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://live.imamhossaintv.com/live/ih3.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"ImamHusseinTV3.iq@SD\" tvg-logo=\"https://i.imgur.com/emQRHQZ.png\" group-title=\"Religious\",Imam Hussein TV 3 (1080p) [Not 24/7]\r\r\nhttps://live.imamhossaintv.com/live/ih3.m3u8\r",
-      "line": 53,
       "catchup": {
         "type": "",
         "days": "",
@@ -556,6 +584,34 @@
       "url": "https://live.imamhossaintv.com/live/ih2.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"ImamHusseinTV2.iq@SD\" tvg-logo=\"https://i.imgur.com/IXVSPdJ.png\" group-title=\"Religious\",Imam Hussein TV 2 (1080p) [Not 24/7]\r\r\nhttps://live.imamhossaintv.com/live/ih2.m3u8\r",
       "line": 51,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Imam Hussein TV 3 (1080p) [Not 24/7]",
+      "tvg": {
+        "id": "ImamHusseinTV3.iq@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/emQRHQZ.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Religious"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://live.imamhossaintv.com/live/ih3.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"ImamHusseinTV3.iq@SD\" tvg-logo=\"https://i.imgur.com/emQRHQZ.png\" group-title=\"Religious\",Imam Hussein TV 3 (1080p) [Not 24/7]\r\r\nhttps://live.imamhossaintv.com/live/ih3.m3u8\r",
+      "line": 53,
       "catchup": {
         "type": "",
         "days": "",
@@ -901,6 +957,34 @@
       "status": "OK"
     },
     {
+      "name": "Payam TV (720p) [Not 24/7]",
+      "tvg": {
+        "id": "PayamTV.iq@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/qySEibb.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "News"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://media2.streambrothers.com:1936/8218/8218/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"PayamTV.iq@SD\" tvg-logo=\"https://i.imgur.com/qySEibb.png\" group-title=\"News\",Payam TV (720p) [Not 24/7]\r\r\nhttps://media2.streambrothers.com:1936/8218/8218/playlist.m3u8\r",
+      "line": 91,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Rudaw TV (1080p)",
       "tvg": {
         "id": "RudawTV.iq@SD",
@@ -1004,34 +1088,6 @@
       "url": "https://live.kwikmotion.com/waarmedialive/waarmedia.smil/waarmediapublish/waarmedia_source/chunks.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"WaarTV.iq@SD\" tvg-logo=\"https://i.imgur.com/rK0y02d.png\" group-title=\"Undefined\",Waar TV (1080p)\r\r\nhttps://live.kwikmotion.com/waarmedialive/waarmedia.smil/waarmediapublish/waarmedia_source/chunks.m3u8\r",
       "line": 99,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Payam TV (720p) [Not 24/7]",
-      "tvg": {
-        "id": "PayamTV.iq@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/qySEibb.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "News"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://media2.streambrothers.com:1936/8218/8218/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"PayamTV.iq@SD\" tvg-logo=\"https://i.imgur.com/qySEibb.png\" group-title=\"News\",Payam TV (720p) [Not 24/7]\r\r\nhttps://media2.streambrothers.com:1936/8218/8218/playlist.m3u8\r",
-      "line": 91,
       "catchup": {
         "type": "",
         "days": "",
