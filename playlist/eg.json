@@ -173,6 +173,34 @@
       "status": "OK"
     },
     {
+      "name": "Coptic TV (720p) [Not 24/7]",
+      "tvg": {
+        "id": "CopticTV.eg@SD",
+        "name": "",
+        "logo": "https://www.ctvchannel.tv/images/CTV-logo-white.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Religious"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://ctv.icopts.app/CTV/index.fmp4.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"CopticTV.eg@SD\" tvg-logo=\"https://www.ctvchannel.tv/images/CTV-logo-white.png\" group-title=\"Religious\",Coptic TV (720p) [Not 24/7]\r\r\nhttps://ctv.icopts.app/CTV/index.fmp4.m3u8\r",
+      "line": 16,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Elbeshara GTV (1080p) [Not 24/7]",
       "tvg": {
         "id": "ElbesharaGTV.us@SD",
@@ -229,53 +257,25 @@
       "status": "OK"
     },
     {
-      "name": "Coptic TV (720p) [Not 24/7]",
+      "name": "Koogi TV (1080p)",
       "tvg": {
-        "id": "CopticTV.eg@SD",
+        "id": "KoogiTV.eg@SD",
         "name": "",
-        "logo": "https://www.ctvchannel.tv/images/CTV-logo-white.png",
+        "logo": "https://i.imgur.com/zojMTP9.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Religious"
+        "title": "Kids;Religious"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://ctv.icopts.app/CTV/index.fmp4.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"CopticTV.eg@SD\" tvg-logo=\"https://www.ctvchannel.tv/images/CTV-logo-white.png\" group-title=\"Religious\",Coptic TV (720p) [Not 24/7]\r\r\nhttps://ctv.icopts.app/CTV/index.fmp4.m3u8\r",
-      "line": 16,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "MBC 1 Egypt (1080p)",
-      "tvg": {
-        "id": "MBC1Egypt.eg@HD",
-        "name": "",
-        "logo": "https://i.imgur.com/CiA3plN.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-1-na/eec141533c90dd34722c503a296dd0d8/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"MBC1Egypt.eg@HD\" tvg-logo=\"https://i.imgur.com/CiA3plN.png\" group-title=\"General\",MBC 1 Egypt (1080p)\r\r\nhttps://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-1-na/eec141533c90dd34722c503a296dd0d8/index.m3u8\r",
-      "line": 26,
+      "url": "https://5d658d7e9f562.streamlock.net/koogi.tv/koogi.smil/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"KoogiTV.eg@SD\" tvg-logo=\"https://i.imgur.com/zojMTP9.png\" group-title=\"Kids;Religious\",Koogi TV (1080p)\r\r\nhttps://5d658d7e9f562.streamlock.net/koogi.tv/koogi.smil/playlist.m3u8\r",
+      "line": 24,
       "catchup": {
         "type": "",
         "days": "",
@@ -304,6 +304,34 @@
       "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-masr/956eac069c78a35d47245db6cdbb1575/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"MBCMasr.eg@SD\" tvg-logo=\"https://i.imgur.com/o2elx0u.png\" group-title=\"General\",MBC Masr (1080p)\r\r\nhttps://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-masr/956eac069c78a35d47245db6cdbb1575/index.m3u8\r",
       "line": 28,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "MBC 1 Egypt (1080p)",
+      "tvg": {
+        "id": "MBC1Egypt.eg@HD",
+        "name": "",
+        "logo": "https://i.imgur.com/CiA3plN.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-1-na/eec141533c90dd34722c503a296dd0d8/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"MBC1Egypt.eg@HD\" tvg-logo=\"https://i.imgur.com/CiA3plN.png\" group-title=\"General\",MBC 1 Egypt (1080p)\r\r\nhttps://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-1-na/eec141533c90dd34722c503a296dd0d8/index.m3u8\r",
+      "line": 26,
       "catchup": {
         "type": "",
         "days": "",
@@ -388,6 +416,34 @@
       "url": "https://mn-nl.mncdn.com/mekameleen/smil:mekameleentv.smil/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"MekameleenTV.tr@SD\" tvg-logo=\"https://i.imgur.com/q7iVchl.png\" group-title=\"News\",Mekameleen TV (1080p)\r\r\nhttps://mn-nl.mncdn.com/mekameleen/smil:mekameleentv.smil/playlist.m3u8\r",
       "line": 34,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "NogoumFMTV (672p) [Not 24/7]",
+      "tvg": {
+        "id": "NogoumFMTV.eg@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/krp3kgv.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Music"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://nogoumtv.nrpstream.com/hls/stream.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"NogoumFMTV.eg@SD\" tvg-logo=\"https://i.imgur.com/krp3kgv.png\" group-title=\"Music\",NogoumFMTV (672p) [Not 24/7]\r\r\nhttps://nogoumtv.nrpstream.com/hls/stream.m3u8\r",
+      "line": 40,
       "catchup": {
         "type": "",
         "days": "",
