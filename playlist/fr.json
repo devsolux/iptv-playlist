@@ -5,34 +5,6 @@
   },
   "items": [
     {
-      "name": "Action HD (720p)",
-      "tvg": {
-        "id": "Action.fr@HD",
-        "name": "",
-        "logo": "https://i.imgur.com/Zv9VsVq.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Movies"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://rezofoot.tv/Action/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Action.fr@HD\" tvg-logo=\"https://i.imgur.com/Zv9VsVq.png\" group-title=\"Movies\",Action HD (720p)\r\r\nhttp://rezofoot.tv/Action/index.m3u8\r",
-      "line": 4,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "20 Minutes TV (1080p)",
       "tvg": {
         "id": "20MinutesTV.fr@SD",
@@ -89,25 +61,25 @@
       "status": "OK"
     },
     {
-      "name": "Alerte à Malibu",
+      "name": "Action HD (720p)",
       "tvg": {
-        "id": "AlerteaMalibu.us@France",
+        "id": "Action.fr@HD",
         "name": "",
-        "logo": "https://i.imgur.com/hBiB6uk.png",
+        "logo": "https://i.imgur.com/Zv9VsVq.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Series"
+        "title": "Movies"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://jmp2.uk/plu-60afaa535580be0007ac9ee4.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"AlerteaMalibu.us@France\" tvg-logo=\"https://i.imgur.com/hBiB6uk.png\" group-title=\"Series\",Alerte à Malibu\r\r\nhttps://jmp2.uk/plu-60afaa535580be0007ac9ee4.m3u8\r",
-      "line": 14,
+      "url": "http://rezofoot.tv/Action/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Action.fr@HD\" tvg-logo=\"https://i.imgur.com/Zv9VsVq.png\" group-title=\"Movies\",Action HD (720p)\r\r\nhttp://rezofoot.tv/Action/index.m3u8\r",
+      "line": 4,
       "catchup": {
         "type": "",
         "days": "",
@@ -145,34 +117,6 @@
       "status": "OK"
     },
     {
-      "name": "Alpe d’Huez TV (720p) [Not 24/7]",
-      "tvg": {
-        "id": "AlpedHuezTV.fr@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/090tCQ5.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://edge13.vedge.infomaniak.com/livecast/ik:adhtv/manifest.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"AlpedHuezTV.fr@SD\" tvg-logo=\"https://i.imgur.com/090tCQ5.png\" group-title=\"General\",Alpe d’Huez TV (720p) [Not 24/7]\r\r\nhttps://edge13.vedge.infomaniak.com/livecast/ik:adhtv/manifest.m3u8\r",
-      "line": 16,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Africa 24 (1080p)",
       "tvg": {
         "id": "Africa24.fr@SD",
@@ -192,6 +136,62 @@
       "url": "https://africa24.vedge.infomaniak.com/livecast/ik:africa24/manifest.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"Africa24.fr@SD\" tvg-logo=\"https://africa24tv.com/wp-content/uploads/2021/09/logo.png\" group-title=\"News\",Africa 24 (1080p)\r\r\nhttps://africa24.vedge.infomaniak.com/livecast/ik:africa24/manifest.m3u8\r",
       "line": 8,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Alerte à Malibu",
+      "tvg": {
+        "id": "AlerteaMalibu.us@France",
+        "name": "",
+        "logo": "https://i.imgur.com/hBiB6uk.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Series"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://jmp2.uk/plu-60afaa535580be0007ac9ee4.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"AlerteaMalibu.us@France\" tvg-logo=\"https://i.imgur.com/hBiB6uk.png\" group-title=\"Series\",Alerte à Malibu\r\r\nhttps://jmp2.uk/plu-60afaa535580be0007ac9ee4.m3u8\r",
+      "line": 14,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Alpe d’Huez TV (720p) [Not 24/7]",
+      "tvg": {
+        "id": "AlpedHuezTV.fr@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/090tCQ5.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://edge13.vedge.infomaniak.com/livecast/ik:adhtv/manifest.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"AlpedHuezTV.fr@SD\" tvg-logo=\"https://i.imgur.com/090tCQ5.png\" group-title=\"General\",Alpe d’Huez TV (720p) [Not 24/7]\r\r\nhttps://edge13.vedge.infomaniak.com/livecast/ik:adhtv/manifest.m3u8\r",
+      "line": 16,
       "catchup": {
         "type": "",
         "days": "",
@@ -369,34 +369,6 @@
       "status": "OK"
     },
     {
-      "name": "Bob l'éponge (720p)",
-      "tvg": {
-        "id": "Bobleponge.de@FR",
-        "name": "",
-        "logo": "https://images.pluto.tv/channels/5ffc8c345822750007e167de/colorLogoPNG.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Kids"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://jmp2.uk/plu-5ffc8c345822750007e167de.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Bobleponge.de@FR\" tvg-logo=\"https://images.pluto.tv/channels/5ffc8c345822750007e167de/colorLogoPNG.png\" group-title=\"Kids\",Bob l'éponge (720p)\r\r\nhttps://jmp2.uk/plu-5ffc8c345822750007e167de.m3u8\r",
-      "line": 75,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Caillou",
       "tvg": {
         "id": "Caillou.fr@SD",
@@ -425,6 +397,34 @@
       "status": "OK"
     },
     {
+      "name": "Bob l'éponge (720p)",
+      "tvg": {
+        "id": "Bobleponge.de@FR",
+        "name": "",
+        "logo": "https://images.pluto.tv/channels/5ffc8c345822750007e167de/colorLogoPNG.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Kids"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://jmp2.uk/plu-5ffc8c345822750007e167de.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Bobleponge.de@FR\" tvg-logo=\"https://images.pluto.tv/channels/5ffc8c345822750007e167de/colorLogoPNG.png\" group-title=\"Kids\",Bob l'éponge (720p)\r\r\nhttps://jmp2.uk/plu-5ffc8c345822750007e167de.m3u8\r",
+      "line": 75,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Brionnais TV (720p)",
       "tvg": {
         "id": "BrionnaisTV.fr@SD",
@@ -444,6 +444,34 @@
       "url": "https://stream2.mandarine.media/brionnaistv/brionnaistv/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"BrionnaisTV.fr@SD\" tvg-logo=\"https://i.imgur.com/y94bhqX.jpg\" group-title=\"General\",Brionnais TV (720p)\r\r\nhttps://stream2.mandarine.media/brionnaistv/brionnaistv/playlist.m3u8\r",
       "line": 77,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Canal+ Cinemas (720p)",
+      "tvg": {
+        "id": "CanalPlusCinemas.fr@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/fvPoNEa.jpeg",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Movies"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://151.80.18.177:86/Canal+_cinema_HD/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"CanalPlusCinemas.fr@SD\" tvg-logo=\"https://i.imgur.com/fvPoNEa.jpeg\" group-title=\"Movies\",Canal+ Cinemas (720p)\r\r\nhttp://151.80.18.177:86/Canal+_cinema_HD/index.m3u8\r",
+      "line": 89,
       "catchup": {
         "type": "",
         "days": "",
@@ -509,25 +537,53 @@
       "status": "OK"
     },
     {
-      "name": "Canal+ Cinemas (720p)",
+      "name": "Cannes Lérins TV (1080p)",
       "tvg": {
-        "id": "CanalPlusCinemas.fr@SD",
+        "id": "CannesLerinsTV.fr@SD",
         "name": "",
-        "logo": "https://i.imgur.com/fvPoNEa.jpeg",
+        "logo": "https://i.imgur.com/atlgnum.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Movies"
+        "title": "General"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "http://151.80.18.177:86/Canal+_cinema_HD/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"CanalPlusCinemas.fr@SD\" tvg-logo=\"https://i.imgur.com/fvPoNEa.jpeg\" group-title=\"Movies\",Canal+ Cinemas (720p)\r\r\nhttp://151.80.18.177:86/Canal+_cinema_HD/index.m3u8\r",
-      "line": 89,
+      "url": "https://vdo2.pro-fhi.net:3628/live/uppodsfqlive.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"CannesLerinsTV.fr@SD\" tvg-logo=\"https://i.imgur.com/atlgnum.png\" group-title=\"General\",Cannes Lérins TV (1080p)\r\r\nhttps://vdo2.pro-fhi.net:3628/live/uppodsfqlive.m3u8\r",
+      "line": 97,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Canal 32 (1080p)",
+      "tvg": {
+        "id": "Canal32.fr@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/lAsE6kN.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://event.vedge.infomaniak.com/livecast/ik:canal32_4/manifest.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Canal32.fr@SD\" tvg-logo=\"https://i.imgur.com/lAsE6kN.png\" group-title=\"General\",Canal 32 (1080p)\r\r\nhttps://event.vedge.infomaniak.com/livecast/ik:canal32_4/manifest.m3u8\r",
+      "line": 83,
       "catchup": {
         "type": "",
         "days": "",
@@ -556,34 +612,6 @@
       "url": "https://jmp2.uk/plu-5f8eb66537867f0007146953.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"MTVCatfishTVShow.de@FR\" tvg-logo=\"https://images.pluto.tv/channels/6093f9ed2c75660007322bb7/colorLogoPNG_1750862971704.png\" group-title=\"Entertainment\",CATFISH TV (720p)\r\r\nhttps://jmp2.uk/plu-5f8eb66537867f0007146953.m3u8\r",
       "line": 99,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Cannes Lérins TV (1080p)",
-      "tvg": {
-        "id": "CannesLerinsTV.fr@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/atlgnum.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://vdo2.pro-fhi.net:3628/live/uppodsfqlive.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"CannesLerinsTV.fr@SD\" tvg-logo=\"https://i.imgur.com/atlgnum.png\" group-title=\"General\",Cannes Lérins TV (1080p)\r\r\nhttps://vdo2.pro-fhi.net:3628/live/uppodsfqlive.m3u8\r",
-      "line": 97,
       "catchup": {
         "type": "",
         "days": "",
@@ -649,34 +677,6 @@
       "status": "OK"
     },
     {
-      "name": "Canal 32 (1080p)",
-      "tvg": {
-        "id": "Canal32.fr@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/lAsE6kN.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://event.vedge.infomaniak.com/livecast/ik:canal32_4/manifest.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Canal32.fr@SD\" tvg-logo=\"https://i.imgur.com/lAsE6kN.png\" group-title=\"General\",Canal 32 (1080p)\r\r\nhttps://event.vedge.infomaniak.com/livecast/ik:canal32_4/manifest.m3u8\r",
-      "line": 83,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Ciné Action by Pluto TV",
       "tvg": {
         "id": "CineActionbyPlutoTV.de@FR",
@@ -733,34 +733,6 @@
       "status": "OK"
     },
     {
-      "name": "Ciné d'Asie by Pluto TV",
-      "tvg": {
-        "id": "CinedAsiebyPlutoTV.de@FR",
-        "name": "",
-        "logo": "https://images.pluto.tv/channels/62f3e2d000418d00070f7dbc/colorLogoPNG_1751272759694.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Movies"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://jmp2.uk/plu-62f3e2d000418d00070f7dbc.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"CinedAsiebyPlutoTV.de@FR\" tvg-logo=\"https://images.pluto.tv/channels/62f3e2d000418d00070f7dbc/colorLogoPNG_1751272759694.png\" group-title=\"Movies\",Ciné d'Asie by Pluto TV\r\r\nhttps://jmp2.uk/plu-62f3e2d000418d00070f7dbc.m3u8\r",
-      "line": 111,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Ciné Catastrophe by Pluto TV",
       "tvg": {
         "id": "CineCatastrophebyPlutoTV.de@FR",
@@ -780,6 +752,34 @@
       "url": "https://jmp2.uk/plu-65a69ef53af63d000825e0ee.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"CineCatastrophebyPlutoTV.de@FR\" tvg-logo=\"https://images.pluto.tv/channels/65a69ef53af63d000825e0ee/colorLogoPNG_1751272916058.png\" group-title=\"Movies\",Ciné Catastrophe by Pluto TV\r\r\nhttps://jmp2.uk/plu-65a69ef53af63d000825e0ee.m3u8\r",
       "line": 109,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Ciné d'Asie by Pluto TV",
+      "tvg": {
+        "id": "CinedAsiebyPlutoTV.de@FR",
+        "name": "",
+        "logo": "https://images.pluto.tv/channels/62f3e2d000418d00070f7dbc/colorLogoPNG_1751272759694.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Movies"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://jmp2.uk/plu-62f3e2d000418d00070f7dbc.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"CinedAsiebyPlutoTV.de@FR\" tvg-logo=\"https://images.pluto.tv/channels/62f3e2d000418d00070f7dbc/colorLogoPNG_1751272759694.png\" group-title=\"Movies\",Ciné d'Asie by Pluto TV\r\r\nhttps://jmp2.uk/plu-62f3e2d000418d00070f7dbc.m3u8\r",
+      "line": 111,
       "catchup": {
         "type": "",
         "days": "",
@@ -817,34 +817,6 @@
       "status": "OK"
     },
     {
-      "name": "Ciné Rétro by Pluto TV",
-      "tvg": {
-        "id": "CineRetrobyPlutoTV.de@FR",
-        "name": "",
-        "logo": "https://images.pluto.tv/channels/5f8ed168f72fcd0007e56269/colorLogoPNG_1751272859383.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Movies"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://jmp2.uk/plu-5f8ed168f72fcd0007e56269.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"CineRetrobyPlutoTV.de@FR\" tvg-logo=\"https://images.pluto.tv/channels/5f8ed168f72fcd0007e56269/colorLogoPNG_1751272859383.png\" group-title=\"Movies\",Ciné Rétro by Pluto TV\r\r\nhttps://jmp2.uk/plu-5f8ed168f72fcd0007e56269.m3u8\r",
-      "line": 115,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Ciné Romance by Pluto TV",
       "tvg": {
         "id": "CineRomancebyPlutoTV.de@FR",
@@ -873,11 +845,11 @@
       "status": "OK"
     },
     {
-      "name": "Ciné Sci-Fi by Pluto TV",
+      "name": "Ciné Rétro by Pluto TV",
       "tvg": {
-        "id": "CineSciFibyPlutoTV.de@FR",
+        "id": "CineRetrobyPlutoTV.de@FR",
         "name": "",
-        "logo": "https://images.pluto.tv/channels/60c34592c911890007f29a73/colorLogoPNG.png",
+        "logo": "https://images.pluto.tv/channels/5f8ed168f72fcd0007e56269/colorLogoPNG_1751272859383.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -889,37 +861,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://jmp2.uk/plu-60c34592c911890007f29a73.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"CineSciFibyPlutoTV.de@FR\" tvg-logo=\"https://images.pluto.tv/channels/60c34592c911890007f29a73/colorLogoPNG.png\" group-title=\"Movies\",Ciné Sci-Fi by Pluto TV\r\r\nhttps://jmp2.uk/plu-60c34592c911890007f29a73.m3u8\r",
-      "line": 119,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Ciné Thrillers by Pluto TV",
-      "tvg": {
-        "id": "CineThrillersbyPlutoTV.de@FR",
-        "name": "",
-        "logo": "https://images.pluto.tv/channels/60c3472a51a2050008dad272/colorLogoPNG_1751272093012.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Movies"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://jmp2.uk/plu-60c3472a51a2050008dad272.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"CineThrillersbyPlutoTV.de@FR\" tvg-logo=\"https://images.pluto.tv/channels/60c3472a51a2050008dad272/colorLogoPNG_1751272093012.png\" group-title=\"Movies\",Ciné Thrillers by Pluto TV\r\r\nhttps://jmp2.uk/plu-60c3472a51a2050008dad272.m3u8\r",
-      "line": 121,
+      "url": "https://jmp2.uk/plu-5f8ed168f72fcd0007e56269.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"CineRetrobyPlutoTV.de@FR\" tvg-logo=\"https://images.pluto.tv/channels/5f8ed168f72fcd0007e56269/colorLogoPNG_1751272859383.png\" group-title=\"Movies\",Ciné Rétro by Pluto TV\r\r\nhttps://jmp2.uk/plu-5f8ed168f72fcd0007e56269.m3u8\r",
+      "line": 115,
       "catchup": {
         "type": "",
         "days": "",
@@ -948,6 +892,34 @@
       "url": "http://99.27.51.147/CineClassic/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"CinePlusClassic.fr@SD\" tvg-logo=\"https://i.imgur.com/y2zeLS3.jpeg\" http-user-agent=\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3\" group-title=\"Movies\",Cine+ Classic\r\r\n#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3\r\r\nhttp://99.27.51.147/CineClassic/index.m3u8\r",
       "line": 125,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Ciné Sci-Fi by Pluto TV",
+      "tvg": {
+        "id": "CineSciFibyPlutoTV.de@FR",
+        "name": "",
+        "logo": "https://images.pluto.tv/channels/60c34592c911890007f29a73/colorLogoPNG.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Movies"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://jmp2.uk/plu-60c34592c911890007f29a73.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"CineSciFibyPlutoTV.de@FR\" tvg-logo=\"https://images.pluto.tv/channels/60c34592c911890007f29a73/colorLogoPNG.png\" group-title=\"Movies\",Ciné Sci-Fi by Pluto TV\r\r\nhttps://jmp2.uk/plu-60c34592c911890007f29a73.m3u8\r",
+      "line": 119,
       "catchup": {
         "type": "",
         "days": "",
@@ -1004,6 +976,34 @@
       "url": "https://raw.githubusercontent.com/LeBazarDeBryan/XTVZ_/main/Stream/Live/CNews.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"CNews.fr@SD\" tvg-logo=\"https://i.imgur.com/sSNhk2g.png\" group-title=\"News\",CNews (1080p) [Geo-blocked]\r\r\nhttps://raw.githubusercontent.com/LeBazarDeBryan/XTVZ_/main/Stream/Live/CNews.m3u8\r",
       "line": 133,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Ciné Thrillers by Pluto TV",
+      "tvg": {
+        "id": "CineThrillersbyPlutoTV.de@FR",
+        "name": "",
+        "logo": "https://images.pluto.tv/channels/60c3472a51a2050008dad272/colorLogoPNG_1751272093012.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Movies"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://jmp2.uk/plu-60c3472a51a2050008dad272.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"CineThrillersbyPlutoTV.de@FR\" tvg-logo=\"https://images.pluto.tv/channels/60c3472a51a2050008dad272/colorLogoPNG_1751272093012.png\" group-title=\"Movies\",Ciné Thrillers by Pluto TV\r\r\nhttps://jmp2.uk/plu-60c3472a51a2050008dad272.m3u8\r",
+      "line": 121,
       "catchup": {
         "type": "",
         "days": "",
@@ -1153,34 +1153,6 @@
       "status": "OK"
     },
     {
-      "name": "FashionTV Paris L'Original (1080p)",
-      "tvg": {
-        "id": "FashionTVParisLOriginal.fr@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/GFTAN5Q.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Lifestyle"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://edge-fast3.evrideo.tv/bfdbb576-83f7-11f0-9f89-0200170e3e04_1000028043_HLS/manifest.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"FashionTVParisLOriginal.fr@SD\" tvg-logo=\"https://i.imgur.com/GFTAN5Q.png\" group-title=\"Lifestyle\",FashionTV Paris L'Original (1080p)\r\r\nhttps://edge-fast3.evrideo.tv/bfdbb576-83f7-11f0-9f89-0200170e3e04_1000028043_HLS/manifest.m3u8\r",
-      "line": 153,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "FashionTV Secrets (1080p)",
       "tvg": {
         "id": "FashionTVSecrets.fr@HD",
@@ -1200,6 +1172,34 @@
       "url": "https://ssai.aniview.com/api/v1/hls/stream.m3u8?AVS_SSAIID=67c0c39764ad6f7dab07aa0b&AV_APPNAME=[ADS.APP_NAME]&AV_APPPKGNAME=[ADS.APP_BUNDLE]&AV_APPSTOREURL=[ADS.APP_STORE_URL]&AV_CCPA=[ADS.US_PRIVACY]&AV_CLIENT_SECTION=ftv_secrets&AV_CONSENT=[ADS.GDPR_CONSENT]&AV_CONTENT_CAT=IAB7&AV_CONTENT_CHANNEL=&AV_CONTENT_CONTEXT=&AV_CONTENT_EPISODE=&AV_CONTENT_GENRE=fashion+and+lifestyle&AV_CONTENT_ID=[ADS.VIDAA_ADS_CONTENTID]&AV_CONTENT_KEYWORDS=&AV_CONTENT_LANGUAGE=en&AV_CONTENT_LENGTH=&AV_CONTENT_NETWORK=&AV_CONTENT_PROVIDER=FTV&AV_CONTENT_RATING=R&AV_CONTENT_SEASON=&AV_CONTENT_SERIES=&AV_CONTENT_TITLE=&AV_CONTENT_URL=&AV_DNT=[ADS.DNT]&AV_GDPR=[ADS.GDPR]&AV_HEIGHT=[ADS.H]&AV_IDFA=[ADS.IFA]&AV_IFA_TYPE=[ADS.IFA_TYPE]&AV_LANGUAGE=[ADS.DEVICE_LANGUAGE]&AV_OSVERS=[ADS.DEVICE_OSV]&AV_RTB_DEVICE_TYPE=[ADS.DEVICE_TYPE]&AV_VAUTH=[ADS.VAUTH]&AV_WIDTH=[ADS.W]&Content_Id=[ADS.ADS_CONTENTID]&ads.vidaa_ads_param=1191723366&cb=[CACHEBUSTER]&content_channel_name=ftv+-fashiontv+Secrets&content_livestream=1",
       "raw": "#EXTINF:-1 tvg-id=\"FashionTVSecrets.fr@HD\" tvg-logo=\"https://i.ibb.co/fVGJyCC8/w512.png\" group-title=\"Lifestyle\",FashionTV Secrets (1080p)\r\r\nhttps://ssai.aniview.com/api/v1/hls/stream.m3u8?AVS_SSAIID=67c0c39764ad6f7dab07aa0b&AV_APPNAME=[ADS.APP_NAME]&AV_APPPKGNAME=[ADS.APP_BUNDLE]&AV_APPSTOREURL=[ADS.APP_STORE_URL]&AV_CCPA=[ADS.US_PRIVACY]&AV_CLIENT_SECTION=ftv_secrets&AV_CONSENT=[ADS.GDPR_CONSENT]&AV_CONTENT_CAT=IAB7&AV_CONTENT_CHANNEL=&AV_CONTENT_CONTEXT=&AV_CONTENT_EPISODE=&AV_CONTENT_GENRE=fashion+and+lifestyle&AV_CONTENT_ID=[ADS.VIDAA_ADS_CONTENTID]&AV_CONTENT_KEYWORDS=&AV_CONTENT_LANGUAGE=en&AV_CONTENT_LENGTH=&AV_CONTENT_NETWORK=&AV_CONTENT_PROVIDER=FTV&AV_CONTENT_RATING=R&AV_CONTENT_SEASON=&AV_CONTENT_SERIES=&AV_CONTENT_TITLE=&AV_CONTENT_URL=&AV_DNT=[ADS.DNT]&AV_GDPR=[ADS.GDPR]&AV_HEIGHT=[ADS.H]&AV_IDFA=[ADS.IFA]&AV_IFA_TYPE=[ADS.IFA_TYPE]&AV_LANGUAGE=[ADS.DEVICE_LANGUAGE]&AV_OSVERS=[ADS.DEVICE_OSV]&AV_RTB_DEVICE_TYPE=[ADS.DEVICE_TYPE]&AV_VAUTH=[ADS.VAUTH]&AV_WIDTH=[ADS.W]&Content_Id=[ADS.ADS_CONTENTID]&ads.vidaa_ads_param=1191723366&cb=[CACHEBUSTER]&content_channel_name=ftv+-fashiontv+Secrets&content_livestream=1\r",
       "line": 155,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "FashionTV Paris L'Original (1080p)",
+      "tvg": {
+        "id": "FashionTVParisLOriginal.fr@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/GFTAN5Q.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Lifestyle"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://edge-fast3.evrideo.tv/bfdbb576-83f7-11f0-9f89-0200170e3e04_1000028043_HLS/manifest.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"FashionTVParisLOriginal.fr@SD\" tvg-logo=\"https://i.imgur.com/GFTAN5Q.png\" group-title=\"Lifestyle\",FashionTV Paris L'Original (1080p)\r\r\nhttps://edge-fast3.evrideo.tv/bfdbb576-83f7-11f0-9f89-0200170e3e04_1000028043_HLS/manifest.m3u8\r",
+      "line": 153,
       "catchup": {
         "type": "",
         "days": "",
@@ -1293,34 +1293,6 @@
       "status": "OK"
     },
     {
-      "name": "France 24 French (1080p)",
-      "tvg": {
-        "id": "France24.fr@French",
-        "name": "",
-        "logo": "https://i.imgur.com/u8N6uoj.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "News"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://live.france24.com/hls/live/2037179-b/F24_FR_HI_HLS/master_5000.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"France24.fr@French\" tvg-logo=\"https://i.imgur.com/u8N6uoj.png\" group-title=\"News\",France 24 French (1080p)\r\r\nhttps://live.france24.com/hls/live/2037179-b/F24_FR_HI_HLS/master_5000.m3u8\r",
-      "line": 168,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "DBM TV (1080p)",
       "tvg": {
         "id": "DBMTV.fr@SD",
@@ -1340,6 +1312,34 @@
       "url": "https://dbmtv.vedge.infomaniak.com/livecast/dbmtv/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"DBMTV.fr@SD\" tvg-logo=\"https://i.imgur.com/ab6p2SW.png\" group-title=\"Music\",DBM TV (1080p)\r\r\nhttps://dbmtv.vedge.infomaniak.com/livecast/dbmtv/playlist.m3u8\r",
       "line": 137,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "France 24 French (1080p)",
+      "tvg": {
+        "id": "France24.fr@French",
+        "name": "",
+        "logo": "https://i.imgur.com/u8N6uoj.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "News"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://live.france24.com/hls/live/2037179-b/F24_FR_HI_HLS/master_5000.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"France24.fr@French\" tvg-logo=\"https://i.imgur.com/u8N6uoj.png\" group-title=\"News\",France 24 French (1080p)\r\r\nhttps://live.france24.com/hls/live/2037179-b/F24_FR_HI_HLS/master_5000.m3u8\r",
+      "line": 168,
       "catchup": {
         "type": "",
         "days": "",
@@ -1405,62 +1405,6 @@
       "status": "OK"
     },
     {
-      "name": "Gong (1080p)",
-      "tvg": {
-        "id": "Gong.fr@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/lA9UFMG.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Animation"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://amg01596-gongnetworks-gong-ono-vh5f2.amagi.tv/1080p-vtt/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Gong.fr@SD\" tvg-logo=\"https://i.imgur.com/lA9UFMG.png\" group-title=\"Animation\",Gong (1080p)\r\r\nhttps://amg01596-gongnetworks-gong-ono-vh5f2.amagi.tv/1080p-vtt/index.m3u8\r",
-      "line": 180,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Gulli HD (720p)",
-      "tvg": {
-        "id": "Gulli.fr@HD",
-        "name": "",
-        "logo": "https://i.imgur.com/kqYssbW.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Kids"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://41.205.77.102/GULLI/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Gulli.fr@HD\" tvg-logo=\"https://i.imgur.com/kqYssbW.png\" group-title=\"Kids\",Gulli HD (720p)\r\r\nhttp://41.205.77.102/GULLI/index.m3u8\r",
-      "line": 185,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Francophonie24 (1080p)",
       "tvg": {
         "id": "Francophonie24.fr@SD",
@@ -1489,25 +1433,25 @@
       "status": "OK"
     },
     {
-      "name": "iCarly TV",
+      "name": "Gong (1080p)",
       "tvg": {
-        "id": "iCarly.de@FR",
+        "id": "Gong.fr@SD",
         "name": "",
-        "logo": "https://images.pluto.tv/channels/5e8b580a233dc90007f0cb9d/colorLogoPNG.png",
+        "logo": "https://i.imgur.com/lA9UFMG.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Kids"
+        "title": "Animation"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://jmp2.uk/plu-5f8ecc7aa44d9c00081fca29.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"iCarly.de@FR\" tvg-logo=\"https://images.pluto.tv/channels/5e8b580a233dc90007f0cb9d/colorLogoPNG.png\" group-title=\"Kids\",iCarly TV\r\r\nhttps://jmp2.uk/plu-5f8ecc7aa44d9c00081fca29.m3u8\r",
-      "line": 191,
+      "url": "https://amg01596-gongnetworks-gong-ono-vh5f2.amagi.tv/1080p-vtt/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Gong.fr@SD\" tvg-logo=\"https://i.imgur.com/lA9UFMG.png\" group-title=\"Animation\",Gong (1080p)\r\r\nhttps://amg01596-gongnetworks-gong-ono-vh5f2.amagi.tv/1080p-vtt/index.m3u8\r",
+      "line": 180,
       "catchup": {
         "type": "",
         "days": "",
@@ -1545,6 +1489,34 @@
       "status": "OK"
     },
     {
+      "name": "Gulli HD (720p)",
+      "tvg": {
+        "id": "Gulli.fr@HD",
+        "name": "",
+        "logo": "https://i.imgur.com/kqYssbW.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Kids"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://41.205.77.102/GULLI/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Gulli.fr@HD\" tvg-logo=\"https://i.imgur.com/kqYssbW.png\" group-title=\"Kids\",Gulli HD (720p)\r\r\nhttp://41.205.77.102/GULLI/index.m3u8\r",
+      "line": 185,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "HANDICAP TV France",
       "tvg": {
         "id": "HANDICAPTV.fr@SD",
@@ -1564,6 +1536,62 @@
       "url": "https://srv.webtvmanager.fr:3697/stream/play.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"HANDICAPTV.fr@SD\" tvg-logo=\"https://i.imgur.com/vXbAeD0.png\" group-title=\"Lifestyle\",HANDICAP TV France\r\r\nhttps://srv.webtvmanager.fr:3697/stream/play.m3u8\r",
       "line": 187,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "iCarly TV",
+      "tvg": {
+        "id": "iCarly.de@FR",
+        "name": "",
+        "logo": "https://images.pluto.tv/channels/5e8b580a233dc90007f0cb9d/colorLogoPNG.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Kids"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://jmp2.uk/plu-5f8ecc7aa44d9c00081fca29.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"iCarly.de@FR\" tvg-logo=\"https://images.pluto.tv/channels/5e8b580a233dc90007f0cb9d/colorLogoPNG.png\" group-title=\"Kids\",iCarly TV\r\r\nhttps://jmp2.uk/plu-5f8ecc7aa44d9c00081fca29.m3u8\r",
+      "line": 191,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Generations TV (576p)",
+      "tvg": {
+        "id": "GenerationsTV.fr@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/NgBrDMe.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://event.vedge.infomaniak.com/livecast/ik:generation-tv/manifest.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"GenerationsTV.fr@SD\" tvg-logo=\"https://i.imgur.com/NgBrDMe.png\" group-title=\"Undefined\",Generations TV (576p)\r\r\nhttps://event.vedge.infomaniak.com/livecast/ik:generation-tv/manifest.m3u8\r",
+      "line": 178,
       "catchup": {
         "type": "",
         "days": "",
@@ -1657,62 +1685,6 @@
       "status": "OK"
     },
     {
-      "name": "Generations TV (576p)",
-      "tvg": {
-        "id": "GenerationsTV.fr@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/NgBrDMe.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://event.vedge.infomaniak.com/livecast/ik:generation-tv/manifest.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"GenerationsTV.fr@SD\" tvg-logo=\"https://i.imgur.com/NgBrDMe.png\" group-title=\"Undefined\",Generations TV (576p)\r\r\nhttps://event.vedge.infomaniak.com/livecast/ik:generation-tv/manifest.m3u8\r",
-      "line": 178,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "JAG",
-      "tvg": {
-        "id": "JAG.de@FR",
-        "name": "",
-        "logo": "https://images.pluto.tv/channels/65ccd26060eb870008db95fc/colorLogoPNG.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Series"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://jmp2.uk/plu-65ccd26060eb870008db95fc.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"JAG.de@FR\" tvg-logo=\"https://images.pluto.tv/channels/65ccd26060eb870008db95fc/colorLogoPNG.png\" group-title=\"Series\",JAG\r\r\nhttps://jmp2.uk/plu-65ccd26060eb870008db95fc.m3u8\r",
-      "line": 201,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Le Figaro IDF (1080p)",
       "tvg": {
         "id": "LeFigaroTVIledeFrance.fr@SD",
@@ -1769,34 +1741,6 @@
       "status": "OK"
     },
     {
-      "name": "Le miracle de l'amour",
-      "tvg": {
-        "id": "Lemiracledelamour.us@France",
-        "name": "",
-        "logo": "https://i.imgur.com/3Xz4hjD.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Series"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://jmp2.uk/plu-60549c238c3f21000753d3e0.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Lemiracledelamour.us@France\" tvg-logo=\"https://i.imgur.com/3Xz4hjD.png\" group-title=\"Series\",Le miracle de l'amour\r\r\nhttps://jmp2.uk/plu-60549c238c3f21000753d3e0.m3u8\r",
-      "line": 216,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Les Années fac",
       "tvg": {
         "id": "LesAnneesfac.us@France",
@@ -1825,11 +1769,11 @@
       "status": "OK"
     },
     {
-      "name": "Les Nouveaux Detectives",
+      "name": "JAG",
       "tvg": {
-        "id": "LesNouveauxDetectives.us@France",
+        "id": "JAG.de@FR",
         "name": "",
-        "logo": "https://i.imgur.com/ego8ozn.png",
+        "logo": "https://images.pluto.tv/channels/65ccd26060eb870008db95fc/colorLogoPNG.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -1841,9 +1785,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://jmp2.uk/plu-5f8edb6df1ebb800072edf10.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"LesNouveauxDetectives.us@France\" tvg-logo=\"https://i.imgur.com/ego8ozn.png\" group-title=\"Series\",Les Nouveaux Detectives\r\r\nhttps://jmp2.uk/plu-5f8edb6df1ebb800072edf10.m3u8\r",
-      "line": 222,
+      "url": "https://jmp2.uk/plu-65ccd26060eb870008db95fc.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"JAG.de@FR\" tvg-logo=\"https://images.pluto.tv/channels/65ccd26060eb870008db95fc/colorLogoPNG.png\" group-title=\"Series\",JAG\r\r\nhttps://jmp2.uk/plu-65ccd26060eb870008db95fc.m3u8\r",
+      "line": 201,
       "catchup": {
         "type": "",
         "days": "",
@@ -1881,34 +1825,6 @@
       "status": "OK"
     },
     {
-      "name": "M6 (1080p)",
-      "tvg": {
-        "id": "M6.fr@HD",
-        "name": "",
-        "logo": "https://i.imgur.com/7GVp3fW.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Entertainment"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3"
-      },
-      "url": "http://99.27.51.147:8080/M6/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"M6.fr@HD\" tvg-logo=\"https://i.imgur.com/7GVp3fW.png\" http-user-agent=\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3\" group-title=\"Entertainment\",M6 (1080p)\r\r\n#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3\r\r\nhttp://99.27.51.147:8080/M6/index.m3u8\r",
-      "line": 230,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Littoral FM (720p)",
       "tvg": {
         "id": "LittoralFMTV.fr@SD",
@@ -1928,6 +1844,62 @@
       "url": "https://live.creacast.com/littoralfm-ch1/stream/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"LittoralFMTV.fr@SD\" tvg-logo=\"https://i.imgur.com/DCZKAQ1.png\" group-title=\"Music\",Littoral FM (720p)\r\r\nhttps://live.creacast.com/littoralfm-ch1/stream/playlist.m3u8\r",
       "line": 224,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Le miracle de l'amour",
+      "tvg": {
+        "id": "Lemiracledelamour.us@France",
+        "name": "",
+        "logo": "https://i.imgur.com/3Xz4hjD.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Series"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://jmp2.uk/plu-60549c238c3f21000753d3e0.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Lemiracledelamour.us@France\" tvg-logo=\"https://i.imgur.com/3Xz4hjD.png\" group-title=\"Series\",Le miracle de l'amour\r\r\nhttps://jmp2.uk/plu-60549c238c3f21000753d3e0.m3u8\r",
+      "line": 216,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Les Nouveaux Detectives",
+      "tvg": {
+        "id": "LesNouveauxDetectives.us@France",
+        "name": "",
+        "logo": "https://i.imgur.com/ego8ozn.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Series"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://jmp2.uk/plu-5f8edb6df1ebb800072edf10.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"LesNouveauxDetectives.us@France\" tvg-logo=\"https://i.imgur.com/ego8ozn.png\" group-title=\"Series\",Les Nouveaux Detectives\r\r\nhttps://jmp2.uk/plu-5f8edb6df1ebb800072edf10.m3u8\r",
+      "line": 222,
       "catchup": {
         "type": "",
         "days": "",
@@ -1965,34 +1937,6 @@
       "status": "OK"
     },
     {
-      "name": "MacGyver",
-      "tvg": {
-        "id": "MacGyver.de@FR",
-        "name": "",
-        "logo": "https://images.pluto.tv/channels/6245ccd0c6cdb800074632e4/colorLogoPNG.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Series"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://jmp2.uk/plu-6245ccd0c6cdb800074632e4.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"MacGyver.de@FR\" tvg-logo=\"https://images.pluto.tv/channels/6245ccd0c6cdb800074632e4/colorLogoPNG.png\" group-title=\"Series\",MacGyver\r\r\nhttps://jmp2.uk/plu-6245ccd0c6cdb800074632e4.m3u8\r",
-      "line": 235,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "MDL (720p)",
       "tvg": {
         "id": "MDL.fr@SD",
@@ -2021,53 +1965,25 @@
       "status": "OK"
     },
     {
-      "name": "Monte Carlo Digital Television (1080p)",
+      "name": "MacGyver",
       "tvg": {
-        "id": "MonteCarloDigitalTelevision.fr@HD",
+        "id": "MacGyver.de@FR",
         "name": "",
-        "logo": "https://i.imgur.com/99h8F1y.jpeg",
+        "logo": "https://images.pluto.tv/channels/6245ccd0c6cdb800074632e4/colorLogoPNG.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Lifestyle"
+        "title": "Series"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://fl718492-exthls-p1.flovp.com/fl718492/live/live.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"MonteCarloDigitalTelevision.fr@HD\" tvg-logo=\"https://i.imgur.com/99h8F1y.jpeg\" group-title=\"Lifestyle\",Monte Carlo Digital Television (1080p)\r\r\nhttps://fl718492-exthls-p1.flovp.com/fl718492/live/live.m3u8\r",
-      "line": 253,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Mezzo (1080p)",
-      "tvg": {
-        "id": "Mezzo.fr@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/auNdGeW.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Music"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://live-3.otcnet.ru/Mezzo/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Mezzo.fr@SD\" tvg-logo=\"https://i.imgur.com/auNdGeW.png\" group-title=\"Music\",Mezzo (1080p)\r\r\nhttps://live-3.otcnet.ru/Mezzo/index.m3u8\r",
-      "line": 247,
+      "url": "https://jmp2.uk/plu-6245ccd0c6cdb800074632e4.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"MacGyver.de@FR\" tvg-logo=\"https://images.pluto.tv/channels/6245ccd0c6cdb800074632e4/colorLogoPNG.png\" group-title=\"Series\",MacGyver\r\r\nhttps://jmp2.uk/plu-6245ccd0c6cdb800074632e4.m3u8\r",
+      "line": 235,
       "catchup": {
         "type": "",
         "days": "",
@@ -2105,6 +2021,34 @@
       "status": "OK"
     },
     {
+      "name": "Mezzo (1080p)",
+      "tvg": {
+        "id": "Mezzo.fr@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/auNdGeW.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Music"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://live-3.otcnet.ru/Mezzo/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Mezzo.fr@SD\" tvg-logo=\"https://i.imgur.com/auNdGeW.png\" group-title=\"Music\",Mezzo (1080p)\r\r\nhttps://live-3.otcnet.ru/Mezzo/index.m3u8\r",
+      "line": 247,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "MyZen TV (1080p)",
       "tvg": {
         "id": "MyZenTV.fr@SD",
@@ -2124,62 +2068,6 @@
       "url": "https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01255-secomcofites-my-myzen-en-plex/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"MyZenTV.fr@SD\" tvg-logo=\"https://i.imgur.com/fIi8o0C.png\" group-title=\"Relax\",MyZen TV (1080p)\r\r\nhttps://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01255-secomcofites-my-myzen-en-plex/playlist.m3u8\r",
       "line": 267,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "National Geographic Wild (720p)",
-      "tvg": {
-        "id": "NationalGeographicWild.fr@SD",
-        "name": "",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/National_Geographic_Wild_logo.svg/960px-National_Geographic_Wild_logo.svg.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Documentary"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://41.205.77.102/NATGEO-WILD/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"NationalGeographicWild.fr@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/National_Geographic_Wild_logo.svg/960px-National_Geographic_Wild_logo.svg.png\" group-title=\"Documentary\",National Geographic Wild (720p)\r\r\nhttp://41.205.77.102/NATGEO-WILD/index.m3u8\r",
-      "line": 269,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Nature Time France (1080p)",
-      "tvg": {
-        "id": "NatureTime.ca@France",
-        "name": "",
-        "logo": "https://i.imgur.com/72JmyjM.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Documentary"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://bamusa-naturetime-emea-fra-rakuten.amagi.tv/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"NatureTime.ca@France\" tvg-logo=\"https://i.imgur.com/72JmyjM.png\" group-title=\"Documentary\",Nature Time France (1080p)\r\r\nhttps://bamusa-naturetime-emea-fra-rakuten.amagi.tv/playlist.m3u8\r",
-      "line": 271,
       "catchup": {
         "type": "",
         "days": "",
@@ -2217,6 +2105,34 @@
       "status": "OK"
     },
     {
+      "name": "National Geographic Wild (720p)",
+      "tvg": {
+        "id": "NationalGeographicWild.fr@SD",
+        "name": "",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/National_Geographic_Wild_logo.svg/960px-National_Geographic_Wild_logo.svg.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Documentary"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://41.205.77.102/NATGEO-WILD/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"NationalGeographicWild.fr@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/National_Geographic_Wild_logo.svg/960px-National_Geographic_Wild_logo.svg.png\" group-title=\"Documentary\",National Geographic Wild (720p)\r\r\nhttp://41.205.77.102/NATGEO-WILD/index.m3u8\r",
+      "line": 269,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Nickelodeon (1080p)",
       "tvg": {
         "id": "Nickelodeon.fr@SD",
@@ -2236,6 +2152,34 @@
       "url": "http://151.80.18.177:86/Nickelodeon_FR/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"Nickelodeon.fr@SD\" tvg-logo=\"https://i.imgur.com/E84jnP8.png\" group-title=\"Kids\",Nickelodeon (1080p)\r\r\nhttp://151.80.18.177:86/Nickelodeon_FR/index.m3u8\r",
       "line": 273,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Nature Time France (1080p)",
+      "tvg": {
+        "id": "NatureTime.ca@France",
+        "name": "",
+        "logo": "https://i.imgur.com/72JmyjM.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Documentary"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://bamusa-naturetime-emea-fra-rakuten.amagi.tv/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"NatureTime.ca@France\" tvg-logo=\"https://i.imgur.com/72JmyjM.png\" group-title=\"Documentary\",Nature Time France (1080p)\r\r\nhttps://bamusa-naturetime-emea-fra-rakuten.amagi.tv/playlist.m3u8\r",
+      "line": 271,
       "catchup": {
         "type": "",
         "days": "",
@@ -2301,34 +2245,6 @@
       "status": "OK"
     },
     {
-      "name": "Pluto TV 90's Classics",
-      "tvg": {
-        "id": "PlutoTV90sClassics.de@FR",
-        "name": "",
-        "logo": "https://images.pluto.tv/channels/66b4990746762a00084c2f78/colorLogoPNG.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Movies;Series"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://jmp2.uk/plu-66b4990746762a00084c2f78.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"PlutoTV90sClassics.de@FR\" tvg-logo=\"https://images.pluto.tv/channels/66b4990746762a00084c2f78/colorLogoPNG.png\" group-title=\"Movies;Series\",Pluto TV 90's Classics\r\r\nhttps://jmp2.uk/plu-66b4990746762a00084c2f78.m3u8\r",
-      "line": 286,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "P2M TV (720p)",
       "tvg": {
         "id": "P2MTV.fr@SD",
@@ -2357,25 +2273,25 @@
       "status": "OK"
     },
     {
-      "name": "Pluto TV Animaux",
+      "name": "Pluto TV 90's Classics",
       "tvg": {
-        "id": "PlutoTVAnimaux.de@FR",
+        "id": "PlutoTV90sClassics.de@FR",
         "name": "",
-        "logo": "https://images.pluto.tv/channels/60925a44f0350600075a1fdc/colorLogoPNG.png",
+        "logo": "https://images.pluto.tv/channels/66b4990746762a00084c2f78/colorLogoPNG.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Documentary"
+        "title": "Movies;Series"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://jmp2.uk/plu-60925a44f0350600075a1fdc.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"PlutoTVAnimaux.de@FR\" tvg-logo=\"https://images.pluto.tv/channels/60925a44f0350600075a1fdc/colorLogoPNG.png\" group-title=\"Documentary\",Pluto TV Animaux\r\r\nhttps://jmp2.uk/plu-60925a44f0350600075a1fdc.m3u8\r",
-      "line": 290,
+      "url": "https://jmp2.uk/plu-66b4990746762a00084c2f78.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"PlutoTV90sClassics.de@FR\" tvg-logo=\"https://images.pluto.tv/channels/66b4990746762a00084c2f78/colorLogoPNG.png\" group-title=\"Movies;Series\",Pluto TV 90's Classics\r\r\nhttps://jmp2.uk/plu-66b4990746762a00084c2f78.m3u8\r",
+      "line": 286,
       "catchup": {
         "type": "",
         "days": "",
@@ -2413,6 +2329,62 @@
       "status": "OK"
     },
     {
+      "name": "Monte Carlo Digital Television (1080p)",
+      "tvg": {
+        "id": "MonteCarloDigitalTelevision.fr@HD",
+        "name": "",
+        "logo": "https://i.imgur.com/99h8F1y.jpeg",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Lifestyle"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://fl718492-exthls-p1.flovp.com/fl718492/live/live.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"MonteCarloDigitalTelevision.fr@HD\" tvg-logo=\"https://i.imgur.com/99h8F1y.jpeg\" group-title=\"Lifestyle\",Monte Carlo Digital Television (1080p)\r\r\nhttps://fl718492-exthls-p1.flovp.com/fl718492/live/live.m3u8\r",
+      "line": 253,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Pluto TV Animaux",
+      "tvg": {
+        "id": "PlutoTVAnimaux.de@FR",
+        "name": "",
+        "logo": "https://images.pluto.tv/channels/60925a44f0350600075a1fdc/colorLogoPNG.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Documentary"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://jmp2.uk/plu-60925a44f0350600075a1fdc.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"PlutoTVAnimaux.de@FR\" tvg-logo=\"https://images.pluto.tv/channels/60925a44f0350600075a1fdc/colorLogoPNG.png\" group-title=\"Documentary\",Pluto TV Animaux\r\r\nhttps://jmp2.uk/plu-60925a44f0350600075a1fdc.m3u8\r",
+      "line": 290,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Pluto TV ANIME GO!",
       "tvg": {
         "id": "PlutoTVANIMEGO.de@FR",
@@ -2432,6 +2404,34 @@
       "url": "https://jmp2.uk/plu-691b3669c48674840c3b832a.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"PlutoTVANIMEGO.de@FR\" tvg-logo=\"https://images.pluto.tv/channels/691b3669c48674840c3b832a/colorLogoPNG_1778491402325.png\" group-title=\"Entertainment\",Pluto TV ANIME GO!\r\r\nhttps://jmp2.uk/plu-691b3669c48674840c3b832a.m3u8\r",
       "line": 292,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Pluto TV Comédie",
+      "tvg": {
+        "id": "PlutoTVComedie.de@FR",
+        "name": "",
+        "logo": "https://images.pluto.tv/channels/5f8eb91bb9b9e7000817e67f/colorLogoPNG.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Comedy"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://jmp2.uk/plu-5f8eb91bb9b9e7000817e67f.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"PlutoTVComedie.de@FR\" tvg-logo=\"https://images.pluto.tv/channels/5f8eb91bb9b9e7000817e67f/colorLogoPNG.png\" group-title=\"Comedy\",Pluto TV Comédie\r\r\nhttps://jmp2.uk/plu-5f8eb91bb9b9e7000817e67f.m3u8\r",
+      "line": 298,
       "catchup": {
         "type": "",
         "days": "",
@@ -2469,34 +2469,6 @@
       "status": "OK"
     },
     {
-      "name": "Pluto TV Comédies Cultes",
-      "tvg": {
-        "id": "PlutoTVComediesCultes.de@FR",
-        "name": "",
-        "logo": "https://images.pluto.tv/channels/67b4b2d976a934282e92d71c/colorLogoPNG.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Comedy;Movies"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://jmp2.uk/plu-67b4b2d976a934282e92d71c.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"PlutoTVComediesCultes.de@FR\" tvg-logo=\"https://images.pluto.tv/channels/67b4b2d976a934282e92d71c/colorLogoPNG.png\" group-title=\"Comedy;Movies\",Pluto TV Comédies Cultes\r\r\nhttps://jmp2.uk/plu-67b4b2d976a934282e92d71c.m3u8\r",
-      "line": 300,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Pluto TV Brigade Criminelle",
       "tvg": {
         "id": "PlutoTVBrigadeCriminelle.de@FR",
@@ -2516,34 +2488,6 @@
       "url": "https://jmp2.uk/plu-684bf01df7d8b74b625b7dd1.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"PlutoTVBrigadeCriminelle.de@FR\" tvg-logo=\"https://images.pluto.tv/channels/684bf01df7d8b74b625b7dd1/colorLogoPNG_1753890939606.png\" group-title=\"Series\",Pluto TV Brigade Criminelle\r\r\nhttps://jmp2.uk/plu-684bf01df7d8b74b625b7dd1.m3u8\r",
       "line": 296,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Pluto TV Cuisine",
-      "tvg": {
-        "id": "PlutoTVCuisine.de@FR",
-        "name": "",
-        "logo": "https://images.pluto.tv/channels/5f8ed48146ba9e00078424b6/colorLogoPNG_1733440509319.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Cooking;Lifestyle"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://jmp2.uk/plu-5f8ed48146ba9e00078424b6.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"PlutoTVCuisine.de@FR\" tvg-logo=\"https://images.pluto.tv/channels/5f8ed48146ba9e00078424b6/colorLogoPNG_1733440509319.png\" group-title=\"Cooking;Lifestyle\",Pluto TV Cuisine\r\r\nhttps://jmp2.uk/plu-5f8ed48146ba9e00078424b6.m3u8\r",
-      "line": 302,
       "catchup": {
         "type": "",
         "days": "",
@@ -2581,25 +2525,25 @@
       "status": "OK"
     },
     {
-      "name": "Pluto TV Footanim'",
+      "name": "Pluto TV Comédies Cultes",
       "tvg": {
-        "id": "PlutoTVFootanim.de@FR",
+        "id": "PlutoTVComediesCultes.de@FR",
         "name": "",
-        "logo": "https://images.pluto.tv/channels/69c2ae0d1f1accd54916c825/colorLogoPNG_1776860789196.png",
+        "logo": "https://images.pluto.tv/channels/67b4b2d976a934282e92d71c/colorLogoPNG.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Entertainment"
+        "title": "Comedy;Movies"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://jmp2.uk/plu-69c2ae0d1f1accd54916c825.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"PlutoTVFootanim.de@FR\" tvg-logo=\"https://images.pluto.tv/channels/69c2ae0d1f1accd54916c825/colorLogoPNG_1776860789196.png\" group-title=\"Entertainment\",Pluto TV Footanim'\r\r\nhttps://jmp2.uk/plu-69c2ae0d1f1accd54916c825.m3u8\r",
-      "line": 306,
+      "url": "https://jmp2.uk/plu-67b4b2d976a934282e92d71c.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"PlutoTVComediesCultes.de@FR\" tvg-logo=\"https://images.pluto.tv/channels/67b4b2d976a934282e92d71c/colorLogoPNG.png\" group-title=\"Comedy;Movies\",Pluto TV Comédies Cultes\r\r\nhttps://jmp2.uk/plu-67b4b2d976a934282e92d71c.m3u8\r",
+      "line": 300,
       "catchup": {
         "type": "",
         "days": "",
@@ -2609,25 +2553,25 @@
       "status": "OK"
     },
     {
-      "name": "Pluto TV French Collection",
+      "name": "Pluto TV Cuisine",
       "tvg": {
-        "id": "PlutoTVFrenchCollection.de@FR",
+        "id": "PlutoTVCuisine.de@FR",
         "name": "",
-        "logo": "https://images.pluto.tv/channels/62f3e0522443200008c567d7/colorLogoPNG.png",
+        "logo": "https://images.pluto.tv/channels/5f8ed48146ba9e00078424b6/colorLogoPNG_1733440509319.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Entertainment"
+        "title": "Cooking;Lifestyle"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://jmp2.uk/plu-62f3e0522443200008c567d7.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"PlutoTVFrenchCollection.de@FR\" tvg-logo=\"https://images.pluto.tv/channels/62f3e0522443200008c567d7/colorLogoPNG.png\" group-title=\"Entertainment\",Pluto TV French Collection\r\r\nhttps://jmp2.uk/plu-62f3e0522443200008c567d7.m3u8\r",
-      "line": 308,
+      "url": "https://jmp2.uk/plu-5f8ed48146ba9e00078424b6.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"PlutoTVCuisine.de@FR\" tvg-logo=\"https://images.pluto.tv/channels/5f8ed48146ba9e00078424b6/colorLogoPNG_1733440509319.png\" group-title=\"Cooking;Lifestyle\",Pluto TV Cuisine\r\r\nhttps://jmp2.uk/plu-5f8ed48146ba9e00078424b6.m3u8\r",
+      "line": 302,
       "catchup": {
         "type": "",
         "days": "",
@@ -2693,6 +2637,118 @@
       "status": "OK"
     },
     {
+      "name": "Pluto TV Footanim'",
+      "tvg": {
+        "id": "PlutoTVFootanim.de@FR",
+        "name": "",
+        "logo": "https://images.pluto.tv/channels/69c2ae0d1f1accd54916c825/colorLogoPNG_1776860789196.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Entertainment"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://jmp2.uk/plu-69c2ae0d1f1accd54916c825.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"PlutoTVFootanim.de@FR\" tvg-logo=\"https://images.pluto.tv/channels/69c2ae0d1f1accd54916c825/colorLogoPNG_1776860789196.png\" group-title=\"Entertainment\",Pluto TV Footanim'\r\r\nhttps://jmp2.uk/plu-69c2ae0d1f1accd54916c825.m3u8\r",
+      "line": 306,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Pluto TV French Collection",
+      "tvg": {
+        "id": "PlutoTVFrenchCollection.de@FR",
+        "name": "",
+        "logo": "https://images.pluto.tv/channels/62f3e0522443200008c567d7/colorLogoPNG.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Entertainment"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://jmp2.uk/plu-62f3e0522443200008c567d7.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"PlutoTVFrenchCollection.de@FR\" tvg-logo=\"https://images.pluto.tv/channels/62f3e0522443200008c567d7/colorLogoPNG.png\" group-title=\"Entertainment\",Pluto TV French Collection\r\r\nhttps://jmp2.uk/plu-62f3e0522443200008c567d7.m3u8\r",
+      "line": 308,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Pluto TV Junior (720p)",
+      "tvg": {
+        "id": "PlutoTVJunior.de@FR",
+        "name": "",
+        "logo": "https://images.pluto.tv/channels/5f1aa9bcd8160700076d45d1/colorLogoPNG_1747402544424.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Kids"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://jmp2.uk/plu-5f8ecb336537e8000764a17f.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"PlutoTVJunior.de@FR\" tvg-logo=\"https://images.pluto.tv/channels/5f1aa9bcd8160700076d45d1/colorLogoPNG_1747402544424.png\" group-title=\"Kids\",Pluto TV Junior (720p)\r\r\nhttps://jmp2.uk/plu-5f8ecb336537e8000764a17f.m3u8\r",
+      "line": 314,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Pluto TV Polar",
+      "tvg": {
+        "id": "PlutoTVPolar.de@FR",
+        "name": "",
+        "logo": "https://images.pluto.tv/channels/5f8ed4dbf6bb0800071ffbcb/colorLogoPNG.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Series"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://jmp2.uk/plu-5f8ed4dbf6bb0800071ffbcb.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"PlutoTVPolar.de@FR\" tvg-logo=\"https://images.pluto.tv/channels/5f8ed4dbf6bb0800071ffbcb/colorLogoPNG.png\" group-title=\"Series\",Pluto TV Polar\r\r\nhttps://jmp2.uk/plu-5f8ed4dbf6bb0800071ffbcb.m3u8\r",
+      "line": 322,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Pluto TV Kids Classics (720p)",
       "tvg": {
         "id": "PlutoTVKidsClassics.de@FR",
@@ -2712,6 +2768,34 @@
       "url": "https://jmp2.uk/plu-654a58dbf9cc82000868f0fb.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"PlutoTVKidsClassics.de@FR\" tvg-logo=\"https://images.pluto.tv/channels/609e7e423e9173000706a681/colorLogoPNG_1750147033956.png\" group-title=\"Kids\",Pluto TV Kids Classics (720p)\r\r\nhttps://jmp2.uk/plu-654a58dbf9cc82000868f0fb.m3u8\r",
       "line": 316,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Pluto TV Retro Toons",
+      "tvg": {
+        "id": "PlutoTVRetroToons.de@FR",
+        "name": "",
+        "logo": "https://images.pluto.tv/channels/611e6a9b4bb5790007a6f0f8/colorLogoPNG.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Animation;Kids"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://jmp2.uk/plu-611e6a9b4bb5790007a6f0f8.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"PlutoTVRetroToons.de@FR\" tvg-logo=\"https://images.pluto.tv/channels/611e6a9b4bb5790007a6f0f8/colorLogoPNG.png\" group-title=\"Animation;Kids\",Pluto TV Retro Toons\r\r\nhttps://jmp2.uk/plu-611e6a9b4bb5790007a6f0f8.m3u8\r",
+      "line": 326,
       "catchup": {
         "type": "",
         "days": "",
@@ -2777,118 +2861,6 @@
       "status": "OK"
     },
     {
-      "name": "Pluto TV Junior (720p)",
-      "tvg": {
-        "id": "PlutoTVJunior.de@FR",
-        "name": "",
-        "logo": "https://images.pluto.tv/channels/5f1aa9bcd8160700076d45d1/colorLogoPNG_1747402544424.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Kids"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://jmp2.uk/plu-5f8ecb336537e8000764a17f.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"PlutoTVJunior.de@FR\" tvg-logo=\"https://images.pluto.tv/channels/5f1aa9bcd8160700076d45d1/colorLogoPNG_1747402544424.png\" group-title=\"Kids\",Pluto TV Junior (720p)\r\r\nhttps://jmp2.uk/plu-5f8ecb336537e8000764a17f.m3u8\r",
-      "line": 314,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Pluto TV Retro Toons",
-      "tvg": {
-        "id": "PlutoTVRetroToons.de@FR",
-        "name": "",
-        "logo": "https://images.pluto.tv/channels/611e6a9b4bb5790007a6f0f8/colorLogoPNG.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Animation;Kids"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://jmp2.uk/plu-611e6a9b4bb5790007a6f0f8.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"PlutoTVRetroToons.de@FR\" tvg-logo=\"https://images.pluto.tv/channels/611e6a9b4bb5790007a6f0f8/colorLogoPNG.png\" group-title=\"Animation;Kids\",Pluto TV Retro Toons\r\r\nhttps://jmp2.uk/plu-611e6a9b4bb5790007a6f0f8.m3u8\r",
-      "line": 326,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Pluto TV Reality",
-      "tvg": {
-        "id": "PlutoTVReality.de@FR",
-        "name": "",
-        "logo": "https://images.pluto.tv/channels/67ebc1b6432a0e406f141341/colorLogoPNG.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Entertainment"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://jmp2.uk/plu-6092544e7639460007d4835e.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"PlutoTVReality.de@FR\" tvg-logo=\"https://images.pluto.tv/channels/67ebc1b6432a0e406f141341/colorLogoPNG.png\" group-title=\"Entertainment\",Pluto TV Reality\r\r\nhttps://jmp2.uk/plu-6092544e7639460007d4835e.m3u8\r",
-      "line": 324,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Pluto TV Polar",
-      "tvg": {
-        "id": "PlutoTVPolar.de@FR",
-        "name": "",
-        "logo": "https://images.pluto.tv/channels/5f8ed4dbf6bb0800071ffbcb/colorLogoPNG.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Series"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://jmp2.uk/plu-5f8ed4dbf6bb0800071ffbcb.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"PlutoTVPolar.de@FR\" tvg-logo=\"https://images.pluto.tv/channels/5f8ed4dbf6bb0800071ffbcb/colorLogoPNG.png\" group-title=\"Series\",Pluto TV Polar\r\r\nhttps://jmp2.uk/plu-5f8ed4dbf6bb0800071ffbcb.m3u8\r",
-      "line": 322,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Pluto TV Séries Fantastiques",
       "tvg": {
         "id": "PlutoTVSeriesFantastiques.de@FR",
@@ -2908,34 +2880,6 @@
       "url": "https://jmp2.uk/plu-625ec7a1c853fd00073b38fd.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"PlutoTVSeriesFantastiques.de@FR\" tvg-logo=\"https://images.pluto.tv/channels/625ec7a1c853fd00073b38fd/colorLogoPNG_1775048560569.png\" group-title=\"Series\",Pluto TV Séries Fantastiques\r\r\nhttps://jmp2.uk/plu-625ec7a1c853fd00073b38fd.m3u8\r",
       "line": 328,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Pluto TV Téléréalité France",
-      "tvg": {
-        "id": "PlutoTVTelerealiteFrance.de@FR",
-        "name": "",
-        "logo": "https://images.pluto.tv/channels/699865ccac36b147e74619fe/colorLogoPNG_1779788356699.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Entertainment"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://jmp2.uk/plu-699865ccac36b147e74619fe.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"PlutoTVTelerealiteFrance.de@FR\" tvg-logo=\"https://images.pluto.tv/channels/699865ccac36b147e74619fe/colorLogoPNG_1779788356699.png\" group-title=\"Entertainment\",Pluto TV Téléréalité France\r\r\nhttps://jmp2.uk/plu-699865ccac36b147e74619fe.m3u8\r",
-      "line": 336,
       "catchup": {
         "type": "",
         "days": "",
@@ -2973,25 +2917,25 @@
       "status": "OK"
     },
     {
-      "name": "Pluto TV Teen (720p)",
+      "name": "Pluto TV Reality",
       "tvg": {
-        "id": "PlutoTVTeen.de@FR",
+        "id": "PlutoTVReality.de@FR",
         "name": "",
-        "logo": "https://images.pluto.tv/channels/63eb944dc111bc0008fe7021/colorLogoPNG_1761820520562.png",
+        "logo": "https://images.pluto.tv/channels/67ebc1b6432a0e406f141341/colorLogoPNG.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Kids"
+        "title": "Entertainment"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://jmp2.uk/plu-5f8eb99ff17815000784a3b0.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"PlutoTVTeen.de@FR\" tvg-logo=\"https://images.pluto.tv/channels/63eb944dc111bc0008fe7021/colorLogoPNG_1761820520562.png\" group-title=\"Kids\",Pluto TV Teen (720p)\r\r\nhttps://jmp2.uk/plu-5f8eb99ff17815000784a3b0.m3u8\r",
-      "line": 334,
+      "url": "https://jmp2.uk/plu-6092544e7639460007d4835e.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"PlutoTVReality.de@FR\" tvg-logo=\"https://images.pluto.tv/channels/67ebc1b6432a0e406f141341/colorLogoPNG.png\" group-title=\"Entertainment\",Pluto TV Reality\r\r\nhttps://jmp2.uk/plu-6092544e7639460007d4835e.m3u8\r",
+      "line": 324,
       "catchup": {
         "type": "",
         "days": "",
@@ -3029,25 +2973,53 @@
       "status": "OK"
     },
     {
-      "name": "Qwest TV Jazz & Beyond (1080p)",
+      "name": "Pluto TV Téléréalité France",
       "tvg": {
-        "id": "QwestTVJazzBeyond.fr@SD",
+        "id": "PlutoTVTelerealiteFrance.de@FR",
         "name": "",
-        "logo": "https://i.imgur.com/89yWH5L.png",
+        "logo": "https://images.pluto.tv/channels/699865ccac36b147e74619fe/colorLogoPNG_1779788356699.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Music"
+        "title": "Entertainment"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://samsungau-qwestjazz-samsungtv-zw2jc.amagi.tv/playlist/samsungau-qwestjazz-samsungtv/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"QwestTVJazzBeyond.fr@SD\" tvg-logo=\"https://i.imgur.com/89yWH5L.png\" group-title=\"Music\",Qwest TV Jazz & Beyond (1080p)\r\r\nhttps://samsungau-qwestjazz-samsungtv-zw2jc.amagi.tv/playlist/samsungau-qwestjazz-samsungtv/playlist.m3u8\r",
-      "line": 344,
+      "url": "https://jmp2.uk/plu-699865ccac36b147e74619fe.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"PlutoTVTelerealiteFrance.de@FR\" tvg-logo=\"https://images.pluto.tv/channels/699865ccac36b147e74619fe/colorLogoPNG_1779788356699.png\" group-title=\"Entertainment\",Pluto TV Téléréalité France\r\r\nhttps://jmp2.uk/plu-699865ccac36b147e74619fe.m3u8\r",
+      "line": 336,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Pluto TV Teen (720p)",
+      "tvg": {
+        "id": "PlutoTVTeen.de@FR",
+        "name": "",
+        "logo": "https://images.pluto.tv/channels/63eb944dc111bc0008fe7021/colorLogoPNG_1761820520562.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Kids"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://jmp2.uk/plu-5f8eb99ff17815000784a3b0.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"PlutoTVTeen.de@FR\" tvg-logo=\"https://images.pluto.tv/channels/63eb944dc111bc0008fe7021/colorLogoPNG_1761820520562.png\" group-title=\"Kids\",Pluto TV Teen (720p)\r\r\nhttps://jmp2.uk/plu-5f8eb99ff17815000784a3b0.m3u8\r",
+      "line": 334,
       "catchup": {
         "type": "",
         "days": "",
@@ -3085,6 +3057,34 @@
       "status": "OK"
     },
     {
+      "name": "Qwest TV Jazz & Beyond (1080p)",
+      "tvg": {
+        "id": "QwestTVJazzBeyond.fr@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/89yWH5L.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Music"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://samsungau-qwestjazz-samsungtv-zw2jc.amagi.tv/playlist/samsungau-qwestjazz-samsungtv/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"QwestTVJazzBeyond.fr@SD\" tvg-logo=\"https://i.imgur.com/89yWH5L.png\" group-title=\"Music\",Qwest TV Jazz & Beyond (1080p)\r\r\nhttps://samsungau-qwestjazz-samsungtv-zw2jc.amagi.tv/playlist/samsungau-qwestjazz-samsungtv/playlist.m3u8\r",
+      "line": 344,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Ridiculousness (720p)",
       "tvg": {
         "id": "Ridiculousness.de@FR",
@@ -3104,34 +3104,6 @@
       "url": "https://jmp2.uk/plu-5f8eb8a8b2619a000710605c.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"Ridiculousness.de@FR\" tvg-logo=\"https://images.pluto.tv/channels/5f8eb8a8b2619a000710605c/colorLogoPNG.png\" group-title=\"Comedy\",Ridiculousness (720p)\r\r\nhttps://jmp2.uk/plu-5f8eb8a8b2619a000710605c.m3u8\r",
       "line": 352,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "RMC Decouverte (576p)",
-      "tvg": {
-        "id": "RMCDecouverte.fr@SD",
-        "name": "",
-        "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/b/b3/RMC_D%C3%A9couverte_logo_2017.svg/960px-RMC_D%C3%A9couverte_logo_2017.svg.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://41.205.77.102/RMCDECOUVERTE/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"RMCDecouverte.fr@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/fr/thumb/b/b3/RMC_D%C3%A9couverte_logo_2017.svg/960px-RMC_D%C3%A9couverte_logo_2017.svg.png\" group-title=\"Undefined\",RMC Decouverte (576p)\r\r\nhttp://41.205.77.102/RMCDECOUVERTE/index.m3u8\r",
-      "line": 354,
       "catchup": {
         "type": "",
         "days": "",
@@ -3169,6 +3141,34 @@
       "status": "OK"
     },
     {
+      "name": "RMC Decouverte (576p)",
+      "tvg": {
+        "id": "RMCDecouverte.fr@SD",
+        "name": "",
+        "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/b/b3/RMC_D%C3%A9couverte_logo_2017.svg/960px-RMC_D%C3%A9couverte_logo_2017.svg.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://41.205.77.102/RMCDECOUVERTE/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"RMCDecouverte.fr@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/fr/thumb/b/b3/RMC_D%C3%A9couverte_logo_2017.svg/960px-RMC_D%C3%A9couverte_logo_2017.svg.png\" group-title=\"Undefined\",RMC Decouverte (576p)\r\r\nhttp://41.205.77.102/RMCDECOUVERTE/index.m3u8\r",
+      "line": 354,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "RMC Life (720p)",
       "tvg": {
         "id": "RMCLife.fr@SD",
@@ -3188,6 +3188,34 @@
       "url": "http://41.205.77.102/CHERIE25/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"RMCLife.fr@SD\" tvg-logo=\"https://img1.dc2.oqee.net/channel_pictures/3606/w512\" group-title=\"Entertainment;Interactive\",RMC Life (720p)\r\r\nhttp://41.205.77.102/CHERIE25/index.m3u8\r",
       "line": 356,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Puissance TV",
+      "tvg": {
+        "id": "PuissanceTV.fr@SD",
+        "name": "",
+        "logo": "https://pbs.twimg.com/profile_images/1274572654016675842/A6v8Qo_X_400x400.jpg",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://event.vedge.infomaniak.com/livecast/ik:puissancetelevision/manifest.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"PuissanceTV.fr@SD\" tvg-logo=\"https://pbs.twimg.com/profile_images/1274572654016675842/A6v8Qo_X_400x400.jpg\" group-title=\"General\",Puissance TV\r\r\nhttps://event.vedge.infomaniak.com/livecast/ik:puissancetelevision/manifest.m3u8\r",
+      "line": 342,
       "catchup": {
         "type": "",
         "days": "",
@@ -3225,34 +3253,6 @@
       "status": "OK"
     },
     {
-      "name": "RTL9 (720p)",
-      "tvg": {
-        "id": "RTL9.lu@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/nFqjVNW.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Entertainment"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://rezofoot.tv/rtl-9/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"RTL9.lu@SD\" tvg-logo=\"https://i.imgur.com/nFqjVNW.png\" group-title=\"Entertainment\",RTL9 (720p)\r\r\nhttp://rezofoot.tv/rtl-9/index.m3u8\r",
-      "line": 364,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Sony One Blacklist (1080p)",
       "tvg": {
         "id": "SonyOneBlacklist.fr@HD",
@@ -3281,6 +3281,34 @@
       "status": "OK"
     },
     {
+      "name": "RTL9 (720p)",
+      "tvg": {
+        "id": "RTL9.lu@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/nFqjVNW.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Entertainment"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://rezofoot.tv/rtl-9/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"RTL9.lu@SD\" tvg-logo=\"https://i.imgur.com/nFqjVNW.png\" group-title=\"Entertainment\",RTL9 (720p)\r\r\nhttp://rezofoot.tv/rtl-9/index.m3u8\r",
+      "line": 364,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Sony One Favoris (1080p)",
       "tvg": {
         "id": "SonyOneFavoris.fr@HD",
@@ -3300,6 +3328,34 @@
       "url": "https://49d735318d6b4c30a24a7997ea594e1b.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-820-FR-SONYONEFAVORIS-LG_FR/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"SonyOneFavoris.fr@HD\" tvg-logo=\"https://i.imgur.com/RO4AM4b.png\" group-title=\"Movies\",Sony One Favoris (1080p)\r\r\nhttps://49d735318d6b4c30a24a7997ea594e1b.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-820-FR-SONYONEFAVORIS-LG_FR/playlist.m3u8\r",
       "line": 370,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Series by Pluto TV",
+      "tvg": {
+        "id": "SeriesbyPlutoTV.de@FR",
+        "name": "",
+        "logo": "https://images.pluto.tv/channels/5f8ed2d1c34c2300073bf02c/colorLogoPNG_1775048963457.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Series"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://jmp2.uk/plu-5f8ed2d1c34c2300073bf02c.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"SeriesbyPlutoTV.de@FR\" tvg-logo=\"https://images.pluto.tv/channels/5f8ed2d1c34c2300073bf02c/colorLogoPNG_1775048963457.png\" group-title=\"Series\",Series by Pluto TV\r\r\nhttps://jmp2.uk/plu-5f8ed2d1c34c2300073bf02c.m3u8\r",
+      "line": 366,
       "catchup": {
         "type": "",
         "days": "",
@@ -3365,34 +3421,6 @@
       "status": "OK"
     },
     {
-      "name": "Puissance TV",
-      "tvg": {
-        "id": "PuissanceTV.fr@SD",
-        "name": "",
-        "logo": "https://pbs.twimg.com/profile_images/1274572654016675842/A6v8Qo_X_400x400.jpg",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://event.vedge.infomaniak.com/livecast/ik:puissancetelevision/manifest.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"PuissanceTV.fr@SD\" tvg-logo=\"https://pbs.twimg.com/profile_images/1274572654016675842/A6v8Qo_X_400x400.jpg\" group-title=\"General\",Puissance TV\r\r\nhttps://event.vedge.infomaniak.com/livecast/ik:puissancetelevision/manifest.m3u8\r",
-      "line": 342,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Sony One Series Comedie (1080p)",
       "tvg": {
         "id": "SonyOneSeriesComedie.fr@HD",
@@ -3412,90 +3440,6 @@
       "url": "https://4f2a3e1ff5274297b115cf0f7da1c2cd.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-819-FR-SONYONESRIESCOMDIE-LG_FR/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"SonyOneSeriesComedie.fr@HD\" tvg-logo=\"https://i.ibb.co/ns4Md77B/FR-FAST-Plex-Comedy-TV-logo-dark.png\" group-title=\"Series\",Sony One Series Comedie (1080p)\r\r\nhttps://4f2a3e1ff5274297b115cf0f7da1c2cd.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-819-FR-SONYONESRIESCOMDIE-LG_FR/playlist.m3u8\r",
       "line": 376,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Sony One Series Thriller (1080p)",
-      "tvg": {
-        "id": "SonyOneSeriesThriller.fr@HD",
-        "name": "",
-        "logo": "https://i.imgur.com/RVS8LDj.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Series"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://483a1e90c18641c9a6d27becd41ad892.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-821-FR-SONYONESRIESTHRILLER-LG_FR/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"SonyOneSeriesThriller.fr@HD\" tvg-logo=\"https://i.imgur.com/RVS8LDj.png\" group-title=\"Series\",Sony One Series Thriller (1080p)\r\r\nhttps://483a1e90c18641c9a6d27becd41ad892.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-821-FR-SONYONESRIESTHRILLER-LG_FR/playlist.m3u8\r",
-      "line": 378,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Series by Pluto TV",
-      "tvg": {
-        "id": "SeriesbyPlutoTV.de@FR",
-        "name": "",
-        "logo": "https://images.pluto.tv/channels/5f8ed2d1c34c2300073bf02c/colorLogoPNG_1775048963457.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Series"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://jmp2.uk/plu-5f8ed2d1c34c2300073bf02c.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"SeriesbyPlutoTV.de@FR\" tvg-logo=\"https://images.pluto.tv/channels/5f8ed2d1c34c2300073bf02c/colorLogoPNG_1775048963457.png\" group-title=\"Series\",Series by Pluto TV\r\r\nhttps://jmp2.uk/plu-5f8ed2d1c34c2300073bf02c.m3u8\r",
-      "line": 366,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Syfy",
-      "tvg": {
-        "id": "Syfy.fr@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/gUOXdjv.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3"
-      },
-      "url": "http://99.27.51.147:8080/SYFY/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Syfy.fr@SD\" tvg-logo=\"https://i.imgur.com/gUOXdjv.png\" http-user-agent=\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3\" group-title=\"Undefined\",Syfy\r\r\n#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3\r\r\nhttp://99.27.51.147:8080/SYFY/index.m3u8\r",
-      "line": 384,
       "catchup": {
         "type": "",
         "days": "",
@@ -3533,25 +3477,81 @@
       "status": "OK"
     },
     {
-      "name": "Star Trek: The Original Series",
+      "name": "Syfy",
       "tvg": {
-        "id": "StarTrekTheOriginalSeries.de@FR",
+        "id": "Syfy.fr@SD",
         "name": "",
-        "logo": "https://images.pluto.tv/channels/69776b58036e883f39e5ab8a/colorLogoPNG_1769434091096.png",
+        "logo": "https://i.imgur.com/gUOXdjv.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Movies;Series"
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3"
+      },
+      "url": "http://99.27.51.147:8080/SYFY/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Syfy.fr@SD\" tvg-logo=\"https://i.imgur.com/gUOXdjv.png\" http-user-agent=\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3\" group-title=\"Undefined\",Syfy\r\r\n#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3\r\r\nhttp://99.27.51.147:8080/SYFY/index.m3u8\r",
+      "line": 384,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Sony One Series Thriller (1080p)",
+      "tvg": {
+        "id": "SonyOneSeriesThriller.fr@HD",
+        "name": "",
+        "logo": "https://i.imgur.com/RVS8LDj.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Series"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://jmp2.uk/plu-67b4b3c51a5ca760802cc1c7.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"StarTrekTheOriginalSeries.de@FR\" tvg-logo=\"https://images.pluto.tv/channels/69776b58036e883f39e5ab8a/colorLogoPNG_1769434091096.png\" group-title=\"Movies;Series\",Star Trek: The Original Series\r\r\nhttps://jmp2.uk/plu-67b4b3c51a5ca760802cc1c7.m3u8\r",
-      "line": 380,
+      "url": "https://483a1e90c18641c9a6d27becd41ad892.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-821-FR-SONYONESRIESTHRILLER-LG_FR/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"SonyOneSeriesThriller.fr@HD\" tvg-logo=\"https://i.imgur.com/RVS8LDj.png\" group-title=\"Series\",Sony One Series Thriller (1080p)\r\r\nhttps://483a1e90c18641c9a6d27becd41ad892.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-821-FR-SONYONESRIESTHRILLER-LG_FR/playlist.m3u8\r",
+      "line": 378,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Teva (720p)",
+      "tvg": {
+        "id": "Teva.fr@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/kDW0hN5.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://41.205.77.102/TEVA/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Teva.fr@SD\" tvg-logo=\"https://i.imgur.com/kDW0hN5.png\" group-title=\"Undefined\",Teva (720p)\r\r\nhttp://41.205.77.102/TEVA/index.m3u8\r",
+      "line": 395,
       "catchup": {
         "type": "",
         "days": "",
@@ -3579,7 +3579,7 @@
       },
       "url": "http://41.205.77.102/TIJI/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TiJi.fr@HD\" tvg-logo=\"https://i.imgur.com/ZjsfAGb.png\" group-title=\"Kids\",TiJi HD (720p)\r\r\nhttp://41.205.77.102/TIJI/index.m3u8\r",
-      "line": 395,
+      "line": 397,
       "catchup": {
         "type": "",
         "days": "",
@@ -3635,63 +3635,7 @@
       },
       "url": "https://jmp2.uk/plu-5f8ecc1b37867f00071469e9.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TortuesNinjaTV.de@FR\" tvg-logo=\"https://images.pluto.tv/channels/5f8ecc1b37867f00071469e9/colorLogoPNG.png\" group-title=\"Kids\",Tortues Ninja TV (720p)\r\r\nhttps://jmp2.uk/plu-5f8ecc1b37867f00071469e9.m3u8\r",
-      "line": 399,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Tout le monde déteste Chris",
-      "tvg": {
-        "id": "ToutlemondedetesteChris.de@FR",
-        "name": "",
-        "logo": "https://images.pluto.tv/channels/67b4b4a21a5ca760802d25fd/colorLogoPNG_1747394750060.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Series"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://jmp2.uk/plu-67b4b4a21a5ca760802d25fd.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"ToutlemondedetesteChris.de@FR\" tvg-logo=\"https://images.pluto.tv/channels/67b4b4a21a5ca760802d25fd/colorLogoPNG_1747394750060.png\" group-title=\"Series\",Tout le monde déteste Chris\r\r\nhttps://jmp2.uk/plu-67b4b4a21a5ca760802d25fd.m3u8\r",
       "line": 401,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Trace Africa",
-      "tvg": {
-        "id": "TraceAfrica.fr@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/kPUkoS7.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Music"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://channels.trace.plus/Traceprod/AFRICA_FR_hd/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TraceAfrica.fr@SD\" tvg-logo=\"https://i.imgur.com/kPUkoS7.png\" group-title=\"Music\",Trace Africa\r\r\nhttps://channels.trace.plus/Traceprod/AFRICA_FR_hd/index.m3u8\r",
-      "line": 403,
       "catchup": {
         "type": "",
         "days": "",
@@ -3719,7 +3663,7 @@
       },
       "url": "https://channels.trace.plus/Traceprod/TERANGA_hd/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TraceAfrikora.fr@SD\" tvg-logo=\"https://i.imgur.com/CQDdnhp.png\" group-title=\"Music\",Trace Afrikora\r\r\nhttps://channels.trace.plus/Traceprod/TERANGA_hd/index.m3u8\r",
-      "line": 405,
+      "line": 407,
       "catchup": {
         "type": "",
         "days": "",
@@ -3729,25 +3673,25 @@
       "status": "OK"
     },
     {
-      "name": "TRACE Brazuca (1080p)",
+      "name": "Tout le monde déteste Chris",
       "tvg": {
-        "id": "TraceBrazuca.fr@SD",
+        "id": "ToutlemondedetesteChris.de@FR",
         "name": "",
-        "logo": "https://i.imgur.com/DFBocPu.png",
+        "logo": "https://images.pluto.tv/channels/67b4b4a21a5ca760802d25fd/colorLogoPNG_1747394750060.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Music"
+        "title": "Series"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://amg01131-tracetv-amg01131c4-stirr-us-4390.playouts.now.amagi.tv/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TraceBrazuca.fr@SD\" tvg-logo=\"https://i.imgur.com/DFBocPu.png\" group-title=\"Music\",TRACE Brazuca (1080p)\r\r\nhttps://amg01131-tracetv-amg01131c4-stirr-us-4390.playouts.now.amagi.tv/playlist.m3u8\r",
-      "line": 411,
+      "url": "https://jmp2.uk/plu-67b4b4a21a5ca760802d25fd.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"ToutlemondedetesteChris.de@FR\" tvg-logo=\"https://images.pluto.tv/channels/67b4b4a21a5ca760802d25fd/colorLogoPNG_1747394750060.png\" group-title=\"Series\",Tout le monde déteste Chris\r\r\nhttps://jmp2.uk/plu-67b4b4a21a5ca760802d25fd.m3u8\r",
+      "line": 403,
       "catchup": {
         "type": "",
         "days": "",
@@ -3775,7 +3719,7 @@
       },
       "url": "https://channels.trace.plus/Traceprod/AYITI_hd/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TraceAyiti.fr@SD\" tvg-logo=\"https://i.imgur.com/KkJ6fet.png\" group-title=\"Music\",Trace Ayiti\r\r\nhttps://channels.trace.plus/Traceprod/AYITI_hd/index.m3u8\r",
-      "line": 407,
+      "line": 409,
       "catchup": {
         "type": "",
         "days": "",
@@ -3803,7 +3747,7 @@
       },
       "url": "https://channels.trace.plus/Traceprod/CARIBBEAN_hd/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TraceCaribbean.fr@SD\" tvg-logo=\"https://i.imgur.com/ZHD7Vxy.png\" group-title=\"Music\",Trace Caribbean\r\r\nhttps://channels.trace.plus/Traceprod/CARIBBEAN_hd/index.m3u8\r",
-      "line": 413,
+      "line": 415,
       "catchup": {
         "type": "",
         "days": "",
@@ -3831,34 +3775,6 @@
       },
       "url": "https://channels.trace.plus/Traceprod/GOSPEL_FR/.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TraceGospel.fr@SD\" tvg-logo=\"https://i.imgur.com/X0UmU3K.png\" group-title=\"Music;Religious\",Trace Gospel (1080p)\r\r\nhttps://channels.trace.plus/Traceprod/GOSPEL_FR/.m3u8\r",
-      "line": 415,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Trace Jama",
-      "tvg": {
-        "id": "TraceJama.fr@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/pthX34m.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Music"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://channels.trace.plus/Traceprod/JAMA_ld/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TraceJama.fr@SD\" tvg-logo=\"https://i.imgur.com/pthX34m.png\" group-title=\"Music\",Trace Jama\r\r\nhttps://channels.trace.plus/Traceprod/JAMA_ld/index.m3u8\r",
       "line": 417,
       "catchup": {
         "type": "",
@@ -3869,11 +3785,11 @@
       "status": "OK"
     },
     {
-      "name": "Trace Kitoko",
+      "name": "TRACE Brazuca (1080p)",
       "tvg": {
-        "id": "TraceKitoko.fr@SD",
+        "id": "TraceBrazuca.fr@SD",
         "name": "",
-        "logo": "https://i.imgur.com/q6vkMrU.png",
+        "logo": "https://i.imgur.com/DFBocPu.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -3885,9 +3801,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://channels.trace.plus/Traceprod/KITOKO_hd/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TraceKitoko.fr@SD\" tvg-logo=\"https://i.imgur.com/q6vkMrU.png\" group-title=\"Music\",Trace Kitoko\r\r\nhttps://channels.trace.plus/Traceprod/KITOKO_hd/index.m3u8\r",
-      "line": 419,
+      "url": "https://amg01131-tracetv-amg01131c4-stirr-us-4390.playouts.now.amagi.tv/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"TraceBrazuca.fr@SD\" tvg-logo=\"https://i.imgur.com/DFBocPu.png\" group-title=\"Music\",TRACE Brazuca (1080p)\r\r\nhttps://amg01131-tracetv-amg01131c4-stirr-us-4390.playouts.now.amagi.tv/playlist.m3u8\r",
+      "line": 413,
       "catchup": {
         "type": "",
         "days": "",
@@ -3897,11 +3813,11 @@
       "status": "OK"
     },
     {
-      "name": "Trace Latina (1080p)",
+      "name": "Trace Africa",
       "tvg": {
-        "id": "TraceLatina.fr@SD",
+        "id": "TraceAfrica.fr@SD",
         "name": "",
-        "logo": "https://i.imgur.com/CUVAi4u.png",
+        "logo": "https://i.imgur.com/kPUkoS7.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -3913,37 +3829,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://amg01131-tracetv-tracelatina-glewed-vtnk7.amagi.tv/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TraceLatina.fr@SD\" tvg-logo=\"https://i.imgur.com/CUVAi4u.png\" group-title=\"Music\",Trace Latina (1080p)\r\r\nhttps://amg01131-tracetv-tracelatina-glewed-vtnk7.amagi.tv/playlist.m3u8\r",
-      "line": 421,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Trace Muzika",
-      "tvg": {
-        "id": "TraceMuzika.fr@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/xsEGIXO.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Music"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://channels.trace.plus/Traceprod/MUZIKA_hd/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TraceMuzika.fr@SD\" tvg-logo=\"https://i.imgur.com/xsEGIXO.png\" group-title=\"Music\",Trace Muzika\r\r\nhttps://channels.trace.plus/Traceprod/MUZIKA_hd/index.m3u8\r",
-      "line": 425,
+      "url": "https://channels.trace.plus/Traceprod/AFRICA_FR_hd/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"TraceAfrica.fr@SD\" tvg-logo=\"https://i.imgur.com/kPUkoS7.png\" group-title=\"Music\",Trace Africa\r\r\nhttps://channels.trace.plus/Traceprod/AFRICA_FR_hd/index.m3u8\r",
+      "line": 405,
       "catchup": {
         "type": "",
         "days": "",
@@ -3971,7 +3859,7 @@
       },
       "url": "https://channels.trace.plus/Traceprod/MBOA_hd/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TraceMboa.fr@SD\" tvg-logo=\"https://i.imgur.com/cYwkCj2.png\" group-title=\"Music\",Trace Mboa\r\r\nhttps://channels.trace.plus/Traceprod/MBOA_hd/index.m3u8\r",
-      "line": 423,
+      "line": 425,
       "catchup": {
         "type": "",
         "days": "",
@@ -3981,39 +3869,11 @@
       "status": "OK"
     },
     {
-      "name": "Trace Sport Stars (Australia) (1080p)",
+      "name": "Trace Latina (1080p)",
       "tvg": {
-        "id": "TraceSportStars.fr@HD",
+        "id": "TraceLatina.fr@SD",
         "name": "",
-        "logo": "https://i.imgur.com/FabFP5A.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Sports"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://lightning-tracesport-samsungau.amagi.tv/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TraceSportStars.fr@HD\" tvg-logo=\"https://i.imgur.com/FabFP5A.png\" group-title=\"Sports\",Trace Sport Stars (Australia) (1080p)\r\r\nhttps://lightning-tracesport-samsungau.amagi.tv/playlist.m3u8\r",
-      "line": 431,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Trace Naija",
-      "tvg": {
-        "id": "TraceNaija.fr@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/Rguekcp.png",
+        "logo": "https://i.imgur.com/CUVAi4u.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -4025,9 +3885,65 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://channels.trace.plus/Traceprod/NAIJA_hd/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TraceNaija.fr@SD\" tvg-logo=\"https://i.imgur.com/Rguekcp.png\" group-title=\"Music\",Trace Naija\r\r\nhttps://channels.trace.plus/Traceprod/NAIJA_hd/index.m3u8\r",
-      "line": 429,
+      "url": "https://amg01131-tracetv-tracelatina-glewed-vtnk7.amagi.tv/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"TraceLatina.fr@SD\" tvg-logo=\"https://i.imgur.com/CUVAi4u.png\" group-title=\"Music\",Trace Latina (1080p)\r\r\nhttps://amg01131-tracetv-tracelatina-glewed-vtnk7.amagi.tv/playlist.m3u8\r",
+      "line": 423,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Trace Jama",
+      "tvg": {
+        "id": "TraceJama.fr@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/pthX34m.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Music"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://channels.trace.plus/Traceprod/JAMA_ld/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"TraceJama.fr@SD\" tvg-logo=\"https://i.imgur.com/pthX34m.png\" group-title=\"Music\",Trace Jama\r\r\nhttps://channels.trace.plus/Traceprod/JAMA_ld/index.m3u8\r",
+      "line": 419,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Trace Kitoko",
+      "tvg": {
+        "id": "TraceKitoko.fr@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/q6vkMrU.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Music"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://channels.trace.plus/Traceprod/KITOKO_hd/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"TraceKitoko.fr@SD\" tvg-logo=\"https://i.imgur.com/q6vkMrU.png\" group-title=\"Music\",Trace Kitoko\r\r\nhttps://channels.trace.plus/Traceprod/KITOKO_hd/index.m3u8\r",
+      "line": 421,
       "catchup": {
         "type": "",
         "days": "",
@@ -4055,6 +3971,90 @@
       },
       "url": "https://channels.trace.plus/Traceprod/MZIKI_hd/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TraceMziki.fr@SD\" tvg-logo=\"https://i.imgur.com/l3X9Gg4.png\" group-title=\"Music\",Trace Mziki\r\r\nhttps://channels.trace.plus/Traceprod/MZIKI_hd/index.m3u8\r",
+      "line": 429,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Trace Naija",
+      "tvg": {
+        "id": "TraceNaija.fr@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/Rguekcp.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Music"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://channels.trace.plus/Traceprod/NAIJA_hd/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"TraceNaija.fr@SD\" tvg-logo=\"https://i.imgur.com/Rguekcp.png\" group-title=\"Music\",Trace Naija\r\r\nhttps://channels.trace.plus/Traceprod/NAIJA_hd/index.m3u8\r",
+      "line": 431,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Trace Sport Stars (Australia) (1080p)",
+      "tvg": {
+        "id": "TraceSportStars.fr@HD",
+        "name": "",
+        "logo": "https://i.imgur.com/FabFP5A.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Sports"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://lightning-tracesport-samsungau.amagi.tv/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"TraceSportStars.fr@HD\" tvg-logo=\"https://i.imgur.com/FabFP5A.png\" group-title=\"Sports\",Trace Sport Stars (Australia) (1080p)\r\r\nhttps://lightning-tracesport-samsungau.amagi.tv/playlist.m3u8\r",
+      "line": 433,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Trace Muzika",
+      "tvg": {
+        "id": "TraceMuzika.fr@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/xsEGIXO.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Music"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://channels.trace.plus/Traceprod/MUZIKA_hd/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"TraceMuzika.fr@SD\" tvg-logo=\"https://i.imgur.com/xsEGIXO.png\" group-title=\"Music\",Trace Muzika\r\r\nhttps://channels.trace.plus/Traceprod/MUZIKA_hd/index.m3u8\r",
       "line": 427,
       "catchup": {
         "type": "",
@@ -4083,63 +4083,7 @@
       },
       "url": "https://lightning-traceurban-samsungau.amagi.tv/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TraceUrban.fr@SD\" tvg-logo=\"https://i.imgur.com/DLIbUMx.png\" group-title=\"Music\",Trace Urban (Australia) (1080p)\r\r\nhttps://lightning-traceurban-samsungau.amagi.tv/playlist.m3u8\r",
-      "line": 433,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "True Crime by Pluto TV",
-      "tvg": {
-        "id": "TrueCrimebyPlutoTV.de@FR",
-        "name": "",
-        "logo": "https://images.pluto.tv/channels/5f914f4b36d67d0007a91a04/colorLogoPNG.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Series"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://jmp2.uk/plu-5f914f4b36d67d0007a91a04.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TrueCrimebyPlutoTV.de@FR\" tvg-logo=\"https://images.pluto.tv/channels/5f914f4b36d67d0007a91a04/colorLogoPNG.png\" group-title=\"Series\",True Crime by Pluto TV\r\r\nhttps://jmp2.uk/plu-5f914f4b36d67d0007a91a04.m3u8\r",
-      "line": 440,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Trace Vanilla Islands",
-      "tvg": {
-        "id": "TraceVanillaIslands.fr@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/ngF58fe.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Music"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://channels.trace.plus/Traceprod/VANILLA_hd/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TraceVanillaIslands.fr@SD\" tvg-logo=\"https://i.imgur.com/ngF58fe.png\" group-title=\"Music\",Trace Vanilla Islands\r\r\nhttps://channels.trace.plus/Traceprod/VANILLA_hd/index.m3u8\r",
-      "line": 438,
+      "line": 435,
       "catchup": {
         "type": "",
         "days": "",
@@ -4167,7 +4111,7 @@
       },
       "url": "https://channels.trace.plus/Traceprod/URBAN_FR_hd/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TraceUrban.fr@HD\" tvg-logo=\"https://i.imgur.com/DLIbUMx.png\" http-user-agent=\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36\" group-title=\"Music\",Trace Urban HD\r\r\n#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36\r\r\nhttps://channels.trace.plus/Traceprod/URBAN_FR_hd/index.m3u8\r",
-      "line": 435,
+      "line": 437,
       "catchup": {
         "type": "",
         "days": "",
@@ -4177,24 +4121,24 @@
       "status": "OK"
     },
     {
-      "name": "Turbo (720p)",
+      "name": "True Crime by Pluto TV",
       "tvg": {
-        "id": "Turbo.de@FR",
+        "id": "TrueCrimebyPlutoTV.de@FR",
         "name": "",
-        "logo": "https://images.pluto.tv/channels/66f55c3955567d0008ef9b68/colorLogoPNG.png",
+        "logo": "https://images.pluto.tv/channels/5f914f4b36d67d0007a91a04/colorLogoPNG.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Entertainment"
+        "title": "Series"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://jmp2.uk/plu-66f55c3955567d0008ef9b68.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Turbo.de@FR\" tvg-logo=\"https://images.pluto.tv/channels/66f55c3955567d0008ef9b68/colorLogoPNG.png\" group-title=\"Entertainment\",Turbo (720p)\r\r\nhttps://jmp2.uk/plu-66f55c3955567d0008ef9b68.m3u8\r",
+      "url": "https://jmp2.uk/plu-5f914f4b36d67d0007a91a04.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"TrueCrimebyPlutoTV.de@FR\" tvg-logo=\"https://images.pluto.tv/channels/5f914f4b36d67d0007a91a04/colorLogoPNG.png\" group-title=\"Series\",True Crime by Pluto TV\r\r\nhttps://jmp2.uk/plu-5f914f4b36d67d0007a91a04.m3u8\r",
       "line": 442,
       "catchup": {
         "type": "",
@@ -4205,25 +4149,25 @@
       "status": "OK"
     },
     {
-      "name": "TV5Monde Style (1080p) [Geo-blocked]",
+      "name": "Trace Vanilla Islands",
       "tvg": {
-        "id": "TV5MondeStyle.fr@SD",
+        "id": "TraceVanillaIslands.fr@SD",
         "name": "",
-        "logo": "https://i.imgur.com/cwC7Q2V.png",
+        "logo": "https://i.imgur.com/ngF58fe.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Lifestyle"
+        "title": "Music"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://ott.tv5monde.com/Content/HLS/Live/channel(style1)/variant.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TV5MondeStyle.fr@SD\" tvg-logo=\"https://i.imgur.com/cwC7Q2V.png\" group-title=\"Lifestyle\",TV5Monde Style (1080p) [Geo-blocked]\r\r\nhttps://ott.tv5monde.com/Content/HLS/Live/channel(style1)/variant.m3u8\r",
-      "line": 450,
+      "url": "https://channels.trace.plus/Traceprod/VANILLA_hd/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"TraceVanillaIslands.fr@SD\" tvg-logo=\"https://i.imgur.com/ngF58fe.png\" group-title=\"Music\",Trace Vanilla Islands\r\r\nhttps://channels.trace.plus/Traceprod/VANILLA_hd/index.m3u8\r",
+      "line": 440,
       "catchup": {
         "type": "",
         "days": "",
@@ -4251,7 +4195,63 @@
       },
       "url": "https://tv3v.live-kd.com/live/tv3v/livestream/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TV3V.fr@SD\" tvg-logo=\"https://i.ibb.co/X2yd0zL/logo-tv3v.jpg\" group-title=\"General\",TV3V (720p)\r\r\nhttps://tv3v.live-kd.com/live/tv3v/livestream/index.m3u8\r",
+      "line": 446,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Turbo (720p)",
+      "tvg": {
+        "id": "Turbo.de@FR",
+        "name": "",
+        "logo": "https://images.pluto.tv/channels/66f55c3955567d0008ef9b68/colorLogoPNG.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Entertainment"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://jmp2.uk/plu-66f55c3955567d0008ef9b68.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Turbo.de@FR\" tvg-logo=\"https://images.pluto.tv/channels/66f55c3955567d0008ef9b68/colorLogoPNG.png\" group-title=\"Entertainment\",Turbo (720p)\r\r\nhttps://jmp2.uk/plu-66f55c3955567d0008ef9b68.m3u8\r",
       "line": 444,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "TV5Monde Style (1080p) [Geo-blocked]",
+      "tvg": {
+        "id": "TV5MondeStyle.fr@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/cwC7Q2V.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Lifestyle"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://ott.tv5monde.com/Content/HLS/Live/channel(style1)/variant.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"TV5MondeStyle.fr@SD\" tvg-logo=\"https://i.imgur.com/cwC7Q2V.png\" group-title=\"Lifestyle\",TV5Monde Style (1080p) [Geo-blocked]\r\r\nhttps://ott.tv5monde.com/Content/HLS/Live/channel(style1)/variant.m3u8\r",
+      "line": 452,
       "catchup": {
         "type": "",
         "days": "",
@@ -4279,7 +4279,7 @@
       },
       "url": "https://production-fast-mcrtv.content.okast.tv/channels/2116dc08-1959-465d-857f-3619daefb66b/b702b2b9-aebd-436c-be69-2118f56f3d86/master.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TVMonaco.mc@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/TVMonaco_2023.svg/960px-TVMonaco_2023.svg.png\" group-title=\"General\",TV Monaco (1080p)\r\r\nhttps://production-fast-mcrtv.content.okast.tv/channels/2116dc08-1959-465d-857f-3619daefb66b/b702b2b9-aebd-436c-be69-2118f56f3d86/master.m3u8\r",
-      "line": 456,
+      "line": 458,
       "catchup": {
         "type": "",
         "days": "",
@@ -4307,7 +4307,7 @@
       },
       "url": "https://tv7.live-kd.com/live/tv7/livestream/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TV7Colmar.fr@SD\" tvg-logo=\"https://i.imgur.com/kSdGi43.png\" group-title=\"General\",TV7 Colmar (576p)\r\r\nhttps://tv7.live-kd.com/live/tv7/livestream/playlist.m3u8\r",
-      "line": 452,
+      "line": 454,
       "catchup": {
         "type": "",
         "days": "",
@@ -4335,7 +4335,7 @@
       },
       "url": "https://5dd226f8f01e8.streamlock.net/via-matele-live/matelelive_1080/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"ViaMatele.fr@SD\" tvg-logo=\"https://i.imgur.com/XVCV9rj.png\" group-title=\"Undefined\",ViàMatélé (1080p)\r\r\nhttps://5dd226f8f01e8.streamlock.net/via-matele-live/matelelive_1080/playlist.m3u8\r",
-      "line": 462,
+      "line": 464,
       "catchup": {
         "type": "",
         "days": "",
@@ -4363,35 +4363,7 @@
       },
       "url": "https://srv.webtvmanager.fr:3970/live/viatelepaeselive.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"viaTelePaese.fr@SD\" tvg-logo=\"https://i.imgur.com/TLZsAKK.png\" group-title=\"General\",viàTéléPaese (720p)\r\r\nhttps://srv.webtvmanager.fr:3970/live/viatelepaeselive.m3u8\r",
-      "line": 468,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "W9 (1080p)",
-      "tvg": {
-        "id": "W9.fr@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/reYeMuE.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Entertainment"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://origin-m6web.live.6cloud.fr/out/v1/6play/6play-w9/cmaf_q2hyb21h/hls-short-hd.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"W9.fr@SD\" tvg-logo=\"https://i.imgur.com/reYeMuE.png\" group-title=\"Entertainment\",W9 (1080p)\r\r\nhttps://origin-m6web.live.6cloud.fr/out/v1/6play/6play-w9/cmaf_q2hyb21h/hls-short-hd.m3u8\r",
-      "line": 474,
+      "line": 470,
       "catchup": {
         "type": "",
         "days": "",
@@ -4419,7 +4391,7 @@
       },
       "url": "https://vosgestv.live-kd.com/live/vosgestv/vosgestv/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"VosgesTV.fr@SD\" tvg-logo=\"https://i.imgur.com/7y7ancc.png\" group-title=\"Undefined\",Vosges Télévision (576p) [Not 24/7]\r\r\nhttps://vosgestv.live-kd.com/live/vosgestv/vosgestv/playlist.m3u8\r",
-      "line": 470,
+      "line": 472,
       "catchup": {
         "type": "",
         "days": "",
@@ -4429,24 +4401,24 @@
       "status": "OK"
     },
     {
-      "name": "Walker Texas Ranger",
+      "name": "W9 (1080p)",
       "tvg": {
-        "id": "WalkerTexasRanger.us@France",
+        "id": "W9.fr@SD",
         "name": "",
-        "logo": "https://i.imgur.com/0N7EhuD.png",
+        "logo": "https://i.imgur.com/reYeMuE.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Series"
+        "title": "Entertainment"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://jmp2.uk/plu-635659445b4c4700076d2ad1.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"WalkerTexasRanger.us@France\" tvg-logo=\"https://i.imgur.com/0N7EhuD.png\" group-title=\"Series\",Walker Texas Ranger\r\r\nhttps://jmp2.uk/plu-635659445b4c4700076d2ad1.m3u8\r",
+      "url": "https://origin-m6web.live.6cloud.fr/out/v1/6play/6play-w9/cmaf_q2hyb21h/hls-short-hd.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"W9.fr@SD\" tvg-logo=\"https://i.imgur.com/reYeMuE.png\" group-title=\"Entertainment\",W9 (1080p)\r\r\nhttps://origin-m6web.live.6cloud.fr/out/v1/6play/6play-w9/cmaf_q2hyb21h/hls-short-hd.m3u8\r",
       "line": 476,
       "catchup": {
         "type": "",
@@ -4475,35 +4447,7 @@
       },
       "url": "https://jmp2.uk/plu-680291e38e1ff89c2427aefd.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"VoyagesSaveurs.es@FR\" tvg-logo=\"https://images.pluto.tv/channels/680291e38e1ff89c2427aefd/colorLogoPNG_1749650211442.png\" group-title=\"Lifestyle;Travel\",Voyages & Saveurs (720p)\r\r\nhttps://jmp2.uk/plu-680291e38e1ff89c2427aefd.m3u8\r",
-      "line": 472,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "zenith (1080p)",
-      "tvg": {
-        "id": "zenith.fr@HD",
-        "name": "",
-        "logo": "https://znth.tv/images/logo.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Culture;General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://live.azenagroup.com/zenith/index.ll.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"zenith.fr@HD\" tvg-logo=\"https://znth.tv/images/logo.png\" group-title=\"Culture;General\",zenith (1080p)\r\r\nhttps://live.azenagroup.com/zenith/index.ll.m3u8\r",
-      "line": 484,
+      "line": 474,
       "catchup": {
         "type": "",
         "days": "",
@@ -4531,7 +4475,35 @@
       },
       "url": "https://jmp2.uk/plu-612e044c970e6f00083bcf3b.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"Yaquelaveritequicompte.us@France\" tvg-logo=\"https://i.imgur.com/MDHN2Vc.png\" group-title=\"Entertainment\",Y'a que la vérité qui compte\r\r\nhttps://jmp2.uk/plu-612e044c970e6f00083bcf3b.m3u8\r",
-      "line": 480,
+      "line": 482,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Walker Texas Ranger",
+      "tvg": {
+        "id": "WalkerTexasRanger.us@France",
+        "name": "",
+        "logo": "https://i.imgur.com/0N7EhuD.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Series"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://jmp2.uk/plu-635659445b4c4700076d2ad1.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"WalkerTexasRanger.us@France\" tvg-logo=\"https://i.imgur.com/0N7EhuD.png\" group-title=\"Series\",Walker Texas Ranger\r\r\nhttps://jmp2.uk/plu-635659445b4c4700076d2ad1.m3u8\r",
+      "line": 478,
       "catchup": {
         "type": "",
         "days": "",
@@ -4559,63 +4531,7 @@
       },
       "url": "https://jmp2.uk/plu-60b4d6c806ad2a00073b3108.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"WildSideTV.fr@SD\" tvg-logo=\"https://i.imgur.com/cQkfRhH.png\" group-title=\"Movies\",Wild Side TV\r\r\nhttps://jmp2.uk/plu-60b4d6c806ad2a00073b3108.m3u8\r",
-      "line": 478,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Zylo Ciné Western (1080p)",
-      "tvg": {
-        "id": "CineWestern.fr@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/tteOFkL.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Movies"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://amg00711-zylo-amg00711c8-rakuten-uk-2686.playouts.now.amagi.tv/playlist/amg00711-zylofast-cinewestern-rakutenuk/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"CineWestern.fr@SD\" tvg-logo=\"https://i.imgur.com/tteOFkL.png\" group-title=\"Movies\",Zylo Ciné Western (1080p)\r\r\nhttps://amg00711-zylo-amg00711c8-rakuten-uk-2686.playouts.now.amagi.tv/playlist/amg00711-zylofast-cinewestern-rakutenuk/playlist.m3u8\r",
-      "line": 488,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Zylo Fréquence Novelas (1080p)",
-      "tvg": {
-        "id": "FrequenceNovelas.fr@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/fEjNAps.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Series"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://d20oth1416y9a1.cloudfront.net/playlist/amg00711-zylofast-frequencenovelas-rakutenus/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"FrequenceNovelas.fr@SD\" tvg-logo=\"https://i.imgur.com/fEjNAps.png\" group-title=\"Series\",Zylo Fréquence Novelas (1080p)\r\r\nhttps://d20oth1416y9a1.cloudfront.net/playlist/amg00711-zylofast-frequencenovelas-rakutenus/playlist.m3u8\r",
-      "line": 492,
+      "line": 480,
       "catchup": {
         "type": "",
         "days": "",
@@ -4643,7 +4559,63 @@
       },
       "url": "https://zylo-cinenanar-rakuten.amagi.tv/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"CineNanar.fr@SD\" tvg-logo=\"https://i.imgur.com/YnUZd3W.png\" group-title=\"Movies\",Zylo Ciné Nanar (1080p)\r\r\nhttps://zylo-cinenanar-rakuten.amagi.tv/playlist.m3u8\r",
+      "line": 488,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "zenith (1080p)",
+      "tvg": {
+        "id": "zenith.fr@HD",
+        "name": "",
+        "logo": "https://znth.tv/images/logo.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Culture;General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://live.azenagroup.com/zenith/index.ll.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"zenith.fr@HD\" tvg-logo=\"https://znth.tv/images/logo.png\" group-title=\"Culture;General\",zenith (1080p)\r\r\nhttps://live.azenagroup.com/zenith/index.ll.m3u8\r",
       "line": 486,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Zylo Ciné Western (1080p)",
+      "tvg": {
+        "id": "CineWestern.fr@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/tteOFkL.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Movies"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://amg00711-zylo-amg00711c8-rakuten-uk-2686.playouts.now.amagi.tv/playlist/amg00711-zylofast-cinewestern-rakutenuk/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"CineWestern.fr@SD\" tvg-logo=\"https://i.imgur.com/tteOFkL.png\" group-title=\"Movies\",Zylo Ciné Western (1080p)\r\r\nhttps://amg00711-zylo-amg00711c8-rakuten-uk-2686.playouts.now.amagi.tv/playlist/amg00711-zylofast-cinewestern-rakutenuk/playlist.m3u8\r",
+      "line": 490,
       "catchup": {
         "type": "",
         "days": "",
@@ -4671,7 +4643,35 @@
       },
       "url": "https://rakutenaa-zylo-emotional-rakuten-r1zkm.amagi.tv/playlist/rakutenAA-zylo-emotional-rakuten/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"EmotionL.fr@SD\" tvg-logo=\"https://i.imgur.com/MP34aaj.png\" group-title=\"Movies\",Zylo Emotion' L (1080p)\r\r\nhttps://rakutenaa-zylo-emotional-rakuten-r1zkm.amagi.tv/playlist/rakutenAA-zylo-emotional-rakuten/playlist.m3u8\r",
-      "line": 490,
+      "line": 492,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Zylo Fréquence Novelas (1080p)",
+      "tvg": {
+        "id": "FrequenceNovelas.fr@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/fEjNAps.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Series"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://d20oth1416y9a1.cloudfront.net/playlist/amg00711-zylofast-frequencenovelas-rakutenus/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"FrequenceNovelas.fr@SD\" tvg-logo=\"https://i.imgur.com/fEjNAps.png\" group-title=\"Series\",Zylo Fréquence Novelas (1080p)\r\r\nhttps://d20oth1416y9a1.cloudfront.net/playlist/amg00711-zylofast-frequencenovelas-rakutenus/playlist.m3u8\r",
+      "line": 494,
       "catchup": {
         "type": "",
         "days": "",
@@ -4699,7 +4699,7 @@
       },
       "url": "https://amg00711-zylo-amg00711c10-rakuten-fr-6731.playouts.now.amagi.tv/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"IntoCrime.fr@SD\" tvg-logo=\"https://i.imgur.com/43at4M2.png\" group-title=\"Documentary\",Zylo Into Crime (1080p)\r\r\nhttps://amg00711-zylo-amg00711c10-rakuten-fr-6731.playouts.now.amagi.tv/playlist.m3u8\r",
-      "line": 494,
+      "line": 496,
       "catchup": {
         "type": "",
         "days": "",
@@ -4727,7 +4727,7 @@
       },
       "url": "https://rakutenaa-zylo-screamin-rakuten-p11ej.amagi.tv/playlist/rakutenAA-zylo-screamin-rakuten/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"ScreamIN.fr@SD\" tvg-logo=\"https://i.imgur.com/tGmKbil.png\" group-title=\"Movies\",Zylo ScreamIN (1080p)\r\r\nhttps://rakutenaa-zylo-screamin-rakuten-p11ej.amagi.tv/playlist/rakutenAA-zylo-screamin-rakuten/playlist.m3u8\r",
-      "line": 496,
+      "line": 498,
       "catchup": {
         "type": "",
         "days": "",
