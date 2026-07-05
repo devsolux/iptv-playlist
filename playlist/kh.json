@@ -145,25 +145,25 @@
       "status": "OK"
     },
     {
-      "name": "iTV HD",
+      "name": "MOI TV",
       "tvg": {
-        "id": "iTVHD.kh@SD",
+        "id": "MOITV.kh@SD",
         "name": "",
-        "logo": "https://i.imgur.com/qIPvw8N.jpg",
+        "logo": "https://i.imgur.com/fbI2ybo.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Entertainment"
+        "title": "Legislative"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://live.eac-news.com/Khmer/streams/ITVHD.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"iTVHD.kh@SD\" tvg-logo=\"https://i.imgur.com/qIPvw8N.jpg\" group-title=\"Entertainment\",iTV HD\r\r\nhttps://live.eac-news.com/Khmer/streams/ITVHD.m3u8\r",
-      "line": 30,
+      "url": "http://202.62.56.22:8080/hls/MOITV.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"MOITV.kh@SD\" tvg-logo=\"https://i.imgur.com/fbI2ybo.png\" group-title=\"Legislative\",MOI TV\r\r\nhttp://202.62.56.22:8080/hls/MOITV.m3u8\r",
+      "line": 37,
       "catchup": {
         "type": "",
         "days": "",
@@ -192,34 +192,6 @@
       "url": "http://tv.cootel.com.kh:8077/streams/d/Komsan/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"KomsanTV.kh@SD\" tvg-logo=\"https://i.imgur.com/SNTf2r3.png\" group-title=\"Movies\",Komsan TV [Not 24/7]\r\r\nhttp://tv.cootel.com.kh:8077/streams/d/Komsan/playlist.m3u8\r",
       "line": 32,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "MOI TV",
-      "tvg": {
-        "id": "MOITV.kh@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/fbI2ybo.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Legislative"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://202.62.56.22:8080/hls/MOITV.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"MOITV.kh@SD\" tvg-logo=\"https://i.imgur.com/fbI2ybo.png\" group-title=\"Legislative\",MOI TV\r\r\nhttp://202.62.56.22:8080/hls/MOITV.m3u8\r",
-      "line": 37,
       "catchup": {
         "type": "",
         "days": "",
@@ -285,6 +257,34 @@
       "status": "OK"
     },
     {
+      "name": "One TV E-School Cambodia (1080p)",
+      "tvg": {
+        "id": "OneTVESchoolCambodia.kh@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/wLzVdeT.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Education"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://49.156.33.114:5080/live/streams/elearning.playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"OneTVESchoolCambodia.kh@SD\" tvg-logo=\"https://i.imgur.com/wLzVdeT.png\" group-title=\"Education\",One TV E-School Cambodia (1080p)\r\r\nhttp://49.156.33.114:5080/live/streams/elearning.playlist.m3u8\r",
+      "line": 52,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Sangkem TV",
       "tvg": {
         "id": "SangkemTV.kh@SD",
@@ -304,34 +304,6 @@
       "url": "https://live.sangkemtv.com/memfs/sangkem.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"SangkemTV.kh@SD\" tvg-logo=\"https://i.imgur.com/728fAcC.png\" group-title=\"Religious\",Sangkem TV\r\r\nhttps://live.sangkemtv.com/memfs/sangkem.m3u8\r",
       "line": 58,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "TVK 2 (720p)",
-      "tvg": {
-        "id": "TVK2.kh@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/L36ptO2.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Education"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://live.kh.malimarcdn.com/live/tvk2.stream/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TVK2.kh@SD\" tvg-logo=\"https://i.imgur.com/L36ptO2.png\" group-title=\"Education\",TVK 2 (720p)\r\r\nhttps://live.kh.malimarcdn.com/live/tvk2.stream/playlist.m3u8\r",
-      "line": 68,
       "catchup": {
         "type": "",
         "days": "",
@@ -369,11 +341,11 @@
       "status": "OK"
     },
     {
-      "name": "One TV E-School Cambodia (1080p)",
+      "name": "TVK 2 (720p)",
       "tvg": {
-        "id": "OneTVESchoolCambodia.kh@SD",
+        "id": "TVK2.kh@SD",
         "name": "",
-        "logo": "https://i.imgur.com/wLzVdeT.png",
+        "logo": "https://i.imgur.com/L36ptO2.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -385,9 +357,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "http://49.156.33.114:5080/live/streams/elearning.playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"OneTVESchoolCambodia.kh@SD\" tvg-logo=\"https://i.imgur.com/wLzVdeT.png\" group-title=\"Education\",One TV E-School Cambodia (1080p)\r\r\nhttp://49.156.33.114:5080/live/streams/elearning.playlist.m3u8\r",
-      "line": 52,
+      "url": "https://live.kh.malimarcdn.com/live/tvk2.stream/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"TVK2.kh@SD\" tvg-logo=\"https://i.imgur.com/L36ptO2.png\" group-title=\"Education\",TVK 2 (720p)\r\r\nhttps://live.kh.malimarcdn.com/live/tvk2.stream/playlist.m3u8\r",
+      "line": 68,
       "catchup": {
         "type": "",
         "days": "",
