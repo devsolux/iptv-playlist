@@ -89,6 +89,34 @@
       "status": "OK"
     },
     {
+      "name": "24 Канал (1080p)",
+      "tvg": {
+        "id": "Channel24.ua@SD",
+        "name": "",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/24_Group_Ukraine_04.png/960px-24_Group_Ukraine_04.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "News"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://streamvideol1.luxnet.ua/news24/smil:news24.stream.smil/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Channel24.ua@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/24_Group_Ukraine_04.png/960px-24_Group_Ukraine_04.png\" group-title=\"News\",24 Канал (1080p)\r\r\nhttps://streamvideol1.luxnet.ua/news24/smil:news24.stream.smil/playlist.m3u8\r",
+      "line": 7,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Apostrophe TV (1080p)",
       "tvg": {
         "id": "ApostropheTV.ua@SD",
@@ -136,34 +164,6 @@
       "url": "https://api-tv.ipnet.ua/api/v1/manifest/2118742632.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"ArmyTV.ua@SD\" tvg-logo=\"https://i.imgur.com/pGByjbh.png\" group-title=\"News\",Army TV (1080p)\r\r\nhttps://api-tv.ipnet.ua/api/v1/manifest/2118742632.m3u8\r",
       "line": 16,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "24 Канал (1080p)",
-      "tvg": {
-        "id": "Channel24.ua@SD",
-        "name": "",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/24_Group_Ukraine_04.png/960px-24_Group_Ukraine_04.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "News"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://streamvideol1.luxnet.ua/news24/smil:news24.stream.smil/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Channel24.ua@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/24_Group_Ukraine_04.png/960px-24_Group_Ukraine_04.png\" group-title=\"News\",24 Канал (1080p)\r\r\nhttps://streamvideol1.luxnet.ua/news24/smil:news24.stream.smil/playlist.m3u8\r",
-      "line": 7,
       "catchup": {
         "type": "",
         "days": "",
@@ -313,62 +313,6 @@
       "status": "OK"
     },
     {
-      "name": "Eko TV (720p)",
-      "tvg": {
-        "id": "EkoTV.ua@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/WovATGb.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Science"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": "curl/8.16.0"
-      },
-      "url": "https://ext.cdn.nashnet.tv/228.0.1.60/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"EkoTV.ua@SD\" tvg-logo=\"https://i.imgur.com/WovATGb.png\" http-user-agent=\"curl/8.16.0\" group-title=\"Science\",Eko TV (720p)\r\r\n#EXTVLCOPT:http-user-agent=curl/8.16.0\r\r\nhttps://ext.cdn.nashnet.tv/228.0.1.60/index.m3u8\r",
-      "line": 39,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Espreso TV (1080p)",
-      "tvg": {
-        "id": "EspresoTV.ua@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/xNatV8K.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "News"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://api-tv.ipnet.ua/api/v1/manifest/2118742594.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"EspresoTV.ua@SD\" tvg-logo=\"https://i.imgur.com/xNatV8K.png\" group-title=\"News\",Espreso TV (1080p)\r\r\nhttps://api-tv.ipnet.ua/api/v1/manifest/2118742594.m3u8\r",
-      "line": 42,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "DniproTV (1080p)",
       "tvg": {
         "id": "DniproTV.ua@SD",
@@ -397,6 +341,34 @@
       "status": "OK"
     },
     {
+      "name": "Eko TV (720p)",
+      "tvg": {
+        "id": "EkoTV.ua@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/WovATGb.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Science"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": "curl/8.16.0"
+      },
+      "url": "https://ext.cdn.nashnet.tv/228.0.1.60/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"EkoTV.ua@SD\" tvg-logo=\"https://i.imgur.com/WovATGb.png\" http-user-agent=\"curl/8.16.0\" group-title=\"Science\",Eko TV (720p)\r\r\n#EXTVLCOPT:http-user-agent=curl/8.16.0\r\r\nhttps://ext.cdn.nashnet.tv/228.0.1.60/index.m3u8\r",
+      "line": 39,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "FilmUA Live",
       "tvg": {
         "id": "FilmUALive.ua@SD",
@@ -416,6 +388,34 @@
       "url": "https://dash2.antik.sk/live/test_film_life_atktv/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"FilmUALive.ua@SD\" tvg-logo=\"https://i.imgur.com/kizTBgS.png\" group-title=\"Movies\",FilmUA Live\r\r\nhttps://dash2.antik.sk/live/test_film_life_atktv/playlist.m3u8\r",
       "line": 46,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Espreso TV (1080p)",
+      "tvg": {
+        "id": "EspresoTV.ua@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/xNatV8K.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "News"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://api-tv.ipnet.ua/api/v1/manifest/2118742594.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"EspresoTV.ua@SD\" tvg-logo=\"https://i.imgur.com/xNatV8K.png\" group-title=\"News\",Espreso TV (1080p)\r\r\nhttps://api-tv.ipnet.ua/api/v1/manifest/2118742594.m3u8\r",
+      "line": 42,
       "catchup": {
         "type": "",
         "days": "",
@@ -537,6 +537,34 @@
       "status": "OK"
     },
     {
+      "name": "Inter+ (720p)",
+      "tvg": {
+        "id": "InterPlus.ua@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/Y392Hh4.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://cdn15.live-tv.cloud/ua_infinitas_tv/inter-abr/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"InterPlus.ua@SD\" tvg-logo=\"https://i.imgur.com/Y392Hh4.png\" group-title=\"General\",Inter+ (720p)\r\r\nhttps://cdn15.live-tv.cloud/ua_infinitas_tv/inter-abr/playlist.m3u8\r",
+      "line": 63,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "IRT (720p)",
       "tvg": {
         "id": "IRT.ua@SD",
@@ -584,34 +612,6 @@
       "url": "https://cdn10.live-tv.cloud/itvrv/abr-lq/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"ITV.ua@SD\" tvg-logo=\"https://i.imgur.com/NZdT9yJ.png\" group-title=\"General\",ITV (480p)\r\r\nhttps://cdn10.live-tv.cloud/itvrv/abr-lq/playlist.m3u8\r",
       "line": 69,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Inter+ (720p)",
-      "tvg": {
-        "id": "InterPlus.ua@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/Y392Hh4.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://cdn15.live-tv.cloud/ua_infinitas_tv/inter-abr/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"InterPlus.ua@SD\" tvg-logo=\"https://i.imgur.com/Y392Hh4.png\" group-title=\"General\",Inter+ (720p)\r\r\nhttps://cdn15.live-tv.cloud/ua_infinitas_tv/inter-abr/playlist.m3u8\r",
-      "line": 63,
       "catchup": {
         "type": "",
         "days": "",
@@ -724,34 +724,6 @@
       "url": "http://158.101.222.193:88/georgia_play.php?id=kvartal95",
       "raw": "#EXTINF:-1 tvg-id=\"KvartalTV.ua@SD\" tvg-logo=\"https://i.imgur.com/6ZYWizP.png\" http-user-agent=\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36\" group-title=\"Entertainment\",Kvartal TV\r\r\n#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36\r\r\nhttp://158.101.222.193:88/georgia_play.php?id=kvartal95\r",
       "line": 75,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "M1 (720p)",
-      "tvg": {
-        "id": "M1.ua@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/wbRdUw8.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Music"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
-      },
-      "url": "http://158.101.222.193:88/georgia_play.php?id=m1",
-      "raw": "#EXTINF:-1 tvg-id=\"M1.ua@SD\" tvg-logo=\"https://i.imgur.com/wbRdUw8.png\" http-user-agent=\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36\" group-title=\"Music\",M1 (720p)\r\r\n#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36\r\r\nhttp://158.101.222.193:88/georgia_play.php?id=m1\r",
-      "line": 80,
       "catchup": {
         "type": "",
         "days": "",
@@ -1041,34 +1013,6 @@
       "status": "OK"
     },
     {
-      "name": "Suspilne. Kyiv (360p)",
-      "tvg": {
-        "id": "SuspilneKyiv.ua@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/MeR1dJw.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://live-nstu.cdn-03.cosmonova.net.ua/mobile-app/main/nstu-kyiv/master.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"SuspilneKyiv.ua@SD\" tvg-logo=\"https://i.imgur.com/MeR1dJw.png\" group-title=\"General\",Suspilne. Kyiv (360p)\r\r\nhttps://live-nstu.cdn-03.cosmonova.net.ua/mobile-app/main/nstu-kyiv/master.m3u8\r",
-      "line": 110,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Telekanal RAI (480p)",
       "tvg": {
         "id": "TelekanalRAI.ua@SD",
@@ -1088,6 +1032,34 @@
       "url": "https://stream.rai.ua/rai/stream.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TelekanalRAI.ua@SD\" tvg-logo=\"https://i.imgur.com/Ouv51WB.png\" group-title=\"General\",Telekanal RAI (480p)\r\r\nhttps://stream.rai.ua/rai/stream.m3u8\r",
       "line": 112,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Suspilne. Kyiv (360p)",
+      "tvg": {
+        "id": "SuspilneKyiv.ua@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/MeR1dJw.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://live-nstu.cdn-03.cosmonova.net.ua/mobile-app/main/nstu-kyiv/master.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"SuspilneKyiv.ua@SD\" tvg-logo=\"https://i.imgur.com/MeR1dJw.png\" group-title=\"General\",Suspilne. Kyiv (360p)\r\r\nhttps://live-nstu.cdn-03.cosmonova.net.ua/mobile-app/main/nstu-kyiv/master.m3u8\r",
+      "line": 110,
       "catchup": {
         "type": "",
         "days": "",
