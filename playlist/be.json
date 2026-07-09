@@ -33,34 +33,6 @@
       "status": "OK"
     },
     {
-      "name": "ATV (1080p)",
-      "tvg": {
-        "id": "ATV.be@SD",
-        "name": "",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/ATV_Belgium_logo.svg/960px-ATV_Belgium_logo.svg.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://live.zendzend.com/mpegts/29375_107244/media_mpegts_0.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"ATV.be@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/ATV_Belgium_logo.svg/960px-ATV_Belgium_logo.svg.png\" group-title=\"General\",ATV (1080p)\r\r\nhttps://live.zendzend.com/mpegts/29375_107244/media_mpegts_0.m3u8\r",
-      "line": 4,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Bouke (504p)",
       "tvg": {
         "id": "Bouke.be@SD",
@@ -80,6 +52,34 @@
       "url": "https://dlgt0tdl2hpq3.cloudfront.net/rtbf/clr-rtbf/e1ccc6aa/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"Bouke.be@SD\" tvg-logo=\"https://i.imgur.com/STLavel.png\" group-title=\"Undefined\",Bouke (504p)\r\r\nhttps://dlgt0tdl2hpq3.cloudfront.net/rtbf/clr-rtbf/e1ccc6aa/index.m3u8\r",
       "line": 10,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "ATV (1080p)",
+      "tvg": {
+        "id": "ATV.be@SD",
+        "name": "",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/ATV_Belgium_logo.svg/960px-ATV_Belgium_logo.svg.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://live.zendzend.com/mpegts/29375_107244/media_mpegts_0.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"ATV.be@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/ATV_Belgium_logo.svg/960px-ATV_Belgium_logo.svg.png\" group-title=\"General\",ATV (1080p)\r\r\nhttps://live.zendzend.com/mpegts/29375_107244/media_mpegts_0.m3u8\r",
+      "line": 4,
       "catchup": {
         "type": "",
         "days": "",
@@ -201,53 +201,25 @@
       "status": "OK"
     },
     {
-      "name": "Japanim TV (1080p)",
+      "name": "KTO (720p)",
       "tvg": {
-        "id": "JapanimTV.be@SD",
+        "id": "KTO.fr@SD",
         "name": "",
-        "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/6b97e19f-4243-4d48-b794-ff8cf54d795f-profile_image-300x300.png",
+        "logo": "https://i.imgur.com/EY6TsdV.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Animation;Kids"
+        "title": "Religious"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://foxkidstv.be:3369/stream/play.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"JapanimTV.be@SD\" tvg-logo=\"https://static-cdn.jtvnw.net/jtv_user_pictures/6b97e19f-4243-4d48-b794-ff8cf54d795f-profile_image-300x300.png\" group-title=\"Animation;Kids\",Japanim TV (1080p)\r\r\nhttps://foxkidstv.be:3369/stream/play.m3u8\r",
-      "line": 30,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "BAM-TV",
-      "tvg": {
-        "id": "BAMTV.be@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/9UmR6cs.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Culture"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://belafrikamediatv.vedge.infomaniak.com/livecast/ik:belafrikamediatv/manifest.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"BAMTV.be@SD\" tvg-logo=\"https://i.imgur.com/9UmR6cs.png\" group-title=\"Culture\",BAM-TV\r\r\nhttps://belafrikamediatv.vedge.infomaniak.com/livecast/ik:belafrikamediatv/manifest.m3u8\r",
-      "line": 6,
+      "url": "http://41.205.77.102/KTO/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"KTO.fr@SD\" tvg-logo=\"https://i.imgur.com/EY6TsdV.png\" group-title=\"Religious\",KTO (720p)\r\r\nhttp://41.205.77.102/KTO/index.m3u8\r",
+      "line": 34,
       "catchup": {
         "type": "",
         "days": "",
@@ -285,6 +257,34 @@
       "status": "OK"
     },
     {
+      "name": "BAM-TV",
+      "tvg": {
+        "id": "BAMTV.be@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/9UmR6cs.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Culture"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://belafrikamediatv.vedge.infomaniak.com/livecast/ik:belafrikamediatv/manifest.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"BAMTV.be@SD\" tvg-logo=\"https://i.imgur.com/9UmR6cs.png\" group-title=\"Culture\",BAM-TV\r\r\nhttps://belafrikamediatv.vedge.infomaniak.com/livecast/ik:belafrikamediatv/manifest.m3u8\r",
+      "line": 6,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "La Une (720p)",
       "tvg": {
         "id": "LaUne.be@SD",
@@ -304,34 +304,6 @@
       "url": "http://193.111.198.85:8589/stream/mstv/rtbflaunelive26/master.m3u8?u=Oleg&p=967e33767f592e1aaf3d4019f38f380bf784e113b193d89c412d047059d6300d",
       "raw": "#EXTINF:-1 tvg-id=\"LaUne.be@SD\" tvg-logo=\"https://i.imgur.com/jMwZp7z.png\" group-title=\"Entertainment\",La Une (720p)\r\r\nhttp://193.111.198.85:8589/stream/mstv/rtbflaunelive26/master.m3u8?u=Oleg&p=967e33767f592e1aaf3d4019f38f380bf784e113b193d89c412d047059d6300d\r",
       "line": 38,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "KTO (720p)",
-      "tvg": {
-        "id": "KTO.fr@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/EY6TsdV.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Religious"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://41.205.77.102/KTO/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"KTO.fr@SD\" tvg-logo=\"https://i.imgur.com/EY6TsdV.png\" group-title=\"Religious\",KTO (720p)\r\r\nhttp://41.205.77.102/KTO/index.m3u8\r",
-      "line": 34,
       "catchup": {
         "type": "",
         "days": "",
@@ -369,11 +341,11 @@
       "status": "OK"
     },
     {
-      "name": "MCM Top (720p)",
+      "name": "Fun Vision",
       "tvg": {
-        "id": "MCMTop.fr",
+        "id": "FunVision.be@SD",
         "name": "",
-        "logo": "https://i.imgur.com/EVtWQLd.png",
+        "logo": "https://i.imgur.com/AhkKr7Y.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -385,9 +357,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "http://rezofoot.tv/MCM/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"MCMTop.fr\" tvg-logo=\"https://i.imgur.com/EVtWQLd.png\" group-title=\"Music\",MCM Top (720p)\r\r\nhttp://rezofoot.tv/MCM/index.m3u8\r",
-      "line": 46,
+      "url": "https://funradiovisionhd.vedge.infomaniak.com/livecast/ik:funradiovisionhd/manifest.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"FunVision.be@SD\" tvg-logo=\"https://i.imgur.com/AhkKr7Y.png\" group-title=\"Music\",Fun Vision\r\r\nhttps://funradiovisionhd.vedge.infomaniak.com/livecast/ik:funradiovisionhd/manifest.m3u8\r",
+      "line": 26,
       "catchup": {
         "type": "",
         "days": "",
@@ -425,6 +397,62 @@
       "status": "OK"
     },
     {
+      "name": "MCM Top (720p)",
+      "tvg": {
+        "id": "MCMTop.fr",
+        "name": "",
+        "logo": "https://i.imgur.com/EVtWQLd.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Music"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://rezofoot.tv/MCM/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"MCMTop.fr\" tvg-logo=\"https://i.imgur.com/EVtWQLd.png\" group-title=\"Music\",MCM Top (720p)\r\r\nhttp://rezofoot.tv/MCM/index.m3u8\r",
+      "line": 46,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "MTV (720p)",
+      "tvg": {
+        "id": "MTV.fr@SD",
+        "name": "",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/MTV_2021_%28brand_version%29.svg/960px-MTV_2021_%28brand_version%29.svg.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Entertainment"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://41.205.70.146/MTVFRANCE/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"MTV.fr@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/MTV_2021_%28brand_version%29.svg/960px-MTV_2021_%28brand_version%29.svg.png\" group-title=\"Entertainment\",MTV (720p)\r\r\nhttp://41.205.70.146/MTVFRANCE/index.m3u8\r",
+      "line": 50,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Notele (576p) [Not 24/7]",
       "tvg": {
         "id": "Notele.be@SD",
@@ -453,25 +481,25 @@
       "status": "OK"
     },
     {
-      "name": "Fun Vision",
+      "name": "RT France (1080p) [Geo-blocked]",
       "tvg": {
-        "id": "FunVision.be@SD",
+        "id": "RTFrance.fr@SD",
         "name": "",
-        "logo": "https://i.imgur.com/AhkKr7Y.png",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/RT-France-logo.svg/960px-RT-France-logo.svg.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Music"
+        "title": "News"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://funradiovisionhd.vedge.infomaniak.com/livecast/ik:funradiovisionhd/manifest.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"FunVision.be@SD\" tvg-logo=\"https://i.imgur.com/AhkKr7Y.png\" group-title=\"Music\",Fun Vision\r\r\nhttps://funradiovisionhd.vedge.infomaniak.com/livecast/ik:funradiovisionhd/manifest.m3u8\r",
-      "line": 26,
+      "url": "https://rt-fra.rttv.com/dvr/rtfrance/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"RTFrance.fr@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/RT-France-logo.svg/960px-RT-France-logo.svg.png\" group-title=\"News\",RT France (1080p) [Geo-blocked]\r\r\nhttps://rt-fra.rttv.com/dvr/rtfrance/playlist.m3u8\r",
+      "line": 68,
       "catchup": {
         "type": "",
         "days": "",
@@ -537,25 +565,25 @@
       "status": "OK"
     },
     {
-      "name": "RT France (1080p) [Geo-blocked]",
+      "name": "WTV",
       "tvg": {
-        "id": "RTFrance.fr@SD",
+        "id": "WTV.be@SD",
         "name": "",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/RT-France-logo.svg/960px-RT-France-logo.svg.png",
+        "logo": "https://i.imgur.com/wvKe8mi.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "News"
+        "title": "Undefined"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://rt-fra.rttv.com/dvr/rtfrance/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"RTFrance.fr@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/RT-France-logo.svg/960px-RT-France-logo.svg.png\" group-title=\"News\",RT France (1080p) [Geo-blocked]\r\r\nhttps://rt-fra.rttv.com/dvr/rtfrance/playlist.m3u8\r",
-      "line": 68,
+      "url": "https://wtvlive.b-cdn.net/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"WTV.be@SD\" tvg-logo=\"https://i.imgur.com/wvKe8mi.png\" group-title=\"Undefined\",WTV\r\r\nhttps://wtvlive.b-cdn.net/playlist.m3u8\r",
+      "line": 100,
       "catchup": {
         "type": "",
         "days": "",
@@ -584,34 +612,6 @@
       "url": "https://7689426c.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/U2Ftc3VuZy1mcl9aZWVNYWdpY19ITFM/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"ZeeOne.uk@French\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/2/24/Zee_One_Logo_2025.png\" group-title=\"Entertainment\",Zee One Français (720p)\r\r\nhttps://7689426c.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/U2Ftc3VuZy1mcl9aZWVNYWdpY19ITFM/playlist.m3u8\r",
       "line": 102,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "WTV",
-      "tvg": {
-        "id": "WTV.be@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/wvKe8mi.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://wtvlive.b-cdn.net/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"WTV.be@SD\" tvg-logo=\"https://i.imgur.com/wvKe8mi.png\" group-title=\"Undefined\",WTV\r\r\nhttps://wtvlive.b-cdn.net/playlist.m3u8\r",
-      "line": 100,
       "catchup": {
         "type": "",
         "days": "",
