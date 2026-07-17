@@ -89,6 +89,62 @@
       "status": "OK"
     },
     {
+      "name": "CRTV (576p)",
+      "tvg": {
+        "id": "CRTV.cm@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/cQWNh3L.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://145.239.5.177/147/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"CRTV.cm@SD\" tvg-logo=\"https://i.imgur.com/cQWNh3L.png\" group-title=\"General\",CRTV (576p)\r\r\nhttp://145.239.5.177/147/index.m3u8\r",
+      "line": 19,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Allo Cine (1080p)",
+      "tvg": {
+        "id": "AlloCine.cm@SD",
+        "name": "",
+        "logo": "https://raw.githubusercontent.com/songwenhui239/Songwenhui239/refs/heads/main/Allo%20Cine.jpeg",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Movies"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://d1yl6bf4hrzbr0.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-5km3zs4zs9sp0/allo.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"AlloCine.cm@SD\" tvg-logo=\"https://raw.githubusercontent.com/songwenhui239/Songwenhui239/refs/heads/main/Allo%20Cine.jpeg\" group-title=\"Movies\",Allo Cine (1080p)\r\r\nhttps://d1yl6bf4hrzbr0.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-5km3zs4zs9sp0/allo.m3u8\r",
+      "line": 11,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "CAM 10 TV (720p)",
       "tvg": {
         "id": "CAM10TV.cm@SD",
@@ -107,7 +163,7 @@
       },
       "url": "https://stream.it-innov.com/cam10tv/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"CAM10TV.cm@SD\" tvg-logo=\"https://i.imgur.com/xspb9uY.png\" group-title=\"General\",CAM 10 TV (720p)\r\r\nhttps://stream.it-innov.com/cam10tv/index.m3u8\r",
-      "line": 11,
+      "line": 13,
       "catchup": {
         "type": "",
         "days": "",
@@ -135,7 +191,35 @@
       },
       "url": "https://live1.acangroup.org:1929/publiclive/crtv_news/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"CRTVNews.cm@SD\" tvg-logo=\"https://i.imgur.com/5CshVf9.png\" group-title=\"News\",CRTV News\r\r\nhttps://live1.acangroup.org:1929/publiclive/crtv_news/playlist.m3u8\r",
-      "line": 19,
+      "line": 21,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "For You TV",
+      "tvg": {
+        "id": "ForYouTV.cm@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/1oMboXL.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "News"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://stream.az-multimedia.com:3325/live/foryoutvlive.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"ForYouTV.cm@SD\" tvg-logo=\"https://i.imgur.com/1oMboXL.png\" group-title=\"News\",For You TV\r\r\nhttps://stream.az-multimedia.com:3325/live/foryoutvlive.m3u8\r",
+      "line": 25,
       "catchup": {
         "type": "",
         "days": "",
@@ -163,7 +247,7 @@
       },
       "url": "http://connectiktv.ddns.net:5000/mytvchannel/@mytvchannel/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"MyTVChannel.cm@SD\" tvg-logo=\"https://i.imgur.com/vh2373L.png\" group-title=\"Undefined\",My TV Channel (720p) [Not 24/7]\r\r\nhttp://connectiktv.ddns.net:5000/mytvchannel/@mytvchannel/playlist.m3u8\r",
-      "line": 31,
+      "line": 33,
       "catchup": {
         "type": "",
         "days": "",
@@ -191,7 +275,7 @@
       },
       "url": "http://connectiktv.ddns.net:5000/playtv/@playtv/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"PlayTV.cm@SD\" tvg-logo=\"https://i.imgur.com/1dmBqpf.png\" group-title=\"Music\",Play TV (720p) [Not 24/7]\r\r\nhttp://connectiktv.ddns.net:5000/playtv/@playtv/playlist.m3u8\r",
-      "line": 35,
+      "line": 37,
       "catchup": {
         "type": "",
         "days": "",
@@ -219,7 +303,7 @@
       },
       "url": "http://connectiktv.ddns.net:5000/plextv/@plextv/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"PLEXTV.cm@SD\" tvg-logo=\"https://i.ibb.co/H4VktvG/Plex-TV-237.jpg\" group-title=\"Entertainment\",PLEX TV\r\r\nhttp://connectiktv.ddns.net:5000/plextv/@plextv/playlist.m3u8\r",
-      "line": 37,
+      "line": 39,
       "catchup": {
         "type": "",
         "days": "",
@@ -247,7 +331,35 @@
       },
       "url": "https://streaming.lauradavemedia.com/ldm/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"LauraDaveMediaTV.cm@SD\" tvg-logo=\"https://i.imgur.com/zzG1S2n.png\" group-title=\"General\",Laura Dave Media TV (720p)\r\r\nhttps://streaming.lauradavemedia.com/ldm/index.m3u8\r",
-      "line": 27,
+      "line": 29,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Sun+ TV",
+      "tvg": {
+        "id": "SunPlusTV.cm@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/5XCXWy7.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Entertainment"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://livemaraboo.com/hls/stream.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"SunPlusTV.cm@SD\" tvg-logo=\"https://i.imgur.com/5XCXWy7.png\" group-title=\"Entertainment\",Sun+ TV\r\r\nhttps://livemaraboo.com/hls/stream.m3u8\r",
+      "line": 41,
       "catchup": {
         "type": "",
         "days": "",
@@ -275,7 +387,7 @@
       },
       "url": "https://stream.it-innov.com/tr24/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TR24Television.cm@SD\" tvg-logo=\"https://i.ibb.co/fQrBY1M/tr24-telepack.jpg\" group-title=\"Entertainment\",TR24 (720p)\r\r\nhttps://stream.it-innov.com/tr24/index.m3u8\r",
-      "line": 41,
+      "line": 43,
       "catchup": {
         "type": "",
         "days": "",
