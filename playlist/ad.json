@@ -5,11 +5,11 @@
   },
   "items": [
     {
-      "name": "3CatInfo (1080p)",
+      "name": "Canal 24 Horas (720p)",
       "tvg": {
-        "id": "3CatInfo.es@SD",
+        "id": "24Horas.es@SD",
         "name": "",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/3CatInfo_logo.svg/960px-3CatInfo_logo.svg.png",
+        "logo": "https://i.ibb.co/21sXZ3GT/24h.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -21,9 +21,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://directes-tv-int.3catdirectes.cat/live-origin/canal324-hls/master.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"3CatInfo.es@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/3CatInfo_logo.svg/960px-3CatInfo_logo.svg.png\" group-title=\"News;Public\",3CatInfo (1080p)\r\r\nhttps://directes-tv-int.3catdirectes.cat/live-origin/canal324-hls/master.m3u8\r",
-      "line": 2,
+      "url": "https://ztnr.rtve.es/ztnr/1694255.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"24Horas.es@SD\" tvg-logo=\"https://i.ibb.co/21sXZ3GT/24h.png\" group-title=\"News;Public\",Canal 24 Horas (720p)\r\r\nhttps://ztnr.rtve.es/ztnr/1694255.m3u8\r",
+      "line": 9,
       "catchup": {
         "type": "",
         "days": "",
@@ -61,11 +61,11 @@
       "status": "OK"
     },
     {
-      "name": "Canal 24 Horas (720p)",
+      "name": "3CatInfo (1080p)",
       "tvg": {
-        "id": "24Horas.es@SD",
+        "id": "3CatInfo.es@SD",
         "name": "",
-        "logo": "https://i.ibb.co/21sXZ3GT/24h.png",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/3CatInfo_logo.svg/960px-3CatInfo_logo.svg.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -77,9 +77,37 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://ztnr.rtve.es/ztnr/1694255.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"24Horas.es@SD\" tvg-logo=\"https://i.ibb.co/21sXZ3GT/24h.png\" group-title=\"News;Public\",Canal 24 Horas (720p)\r\r\nhttps://ztnr.rtve.es/ztnr/1694255.m3u8\r",
-      "line": 9,
+      "url": "https://directes-tv-int.3catdirectes.cat/live-origin/canal324-hls/master.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"3CatInfo.es@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/3CatInfo_logo.svg/960px-3CatInfo_logo.svg.png\" group-title=\"News;Public\",3CatInfo (1080p)\r\r\nhttps://directes-tv-int.3catdirectes.cat/live-origin/canal324-hls/master.m3u8\r",
+      "line": 2,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "La 2",
+      "tvg": {
+        "id": "La2.es@SD",
+        "name": "",
+        "logo": "https://i.ibb.co/rfsr9PSh/La-2.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General;Public"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://rtvelivestream.rtve.es/rtvesec/la2/la2_main.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"La2.es@SD\" tvg-logo=\"https://i.ibb.co/rfsr9PSh/La-2.png\" group-title=\"General;Public\",La 2\r\r\nhttps://rtvelivestream.rtve.es/rtvesec/la2/la2_main.m3u8\r",
+      "line": 15,
       "catchup": {
         "type": "",
         "days": "",
