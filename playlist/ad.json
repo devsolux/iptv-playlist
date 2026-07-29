@@ -5,6 +5,34 @@
   },
   "items": [
     {
+      "name": "Andorra TV (1080p)",
+      "tvg": {
+        "id": "AndorraTV.ad@SD",
+        "name": "",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/3/32/Logo_Andorra_Televisi%C3%B3.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://livesg1.rtva.hiway.media/11a6d6f4-ee13-47c7-9c27-7313cf5424e2/manifest.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"AndorraTV.ad@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/3/32/Logo_Andorra_Televisi%C3%B3.png\" group-title=\"General\",Andorra TV (1080p)\r\r\nhttps://livesg1.rtva.hiway.media/11a6d6f4-ee13-47c7-9c27-7313cf5424e2/manifest.m3u8\r",
+      "line": 6,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "24 Horas (1080p)",
       "tvg": {
         "id": "24Horas.es@SD",
@@ -61,7 +89,7 @@
       "status": "OK"
     },
     {
-      "name": "AXN White (576p)",
+      "name": "AXN White [Not 24/7]",
       "tvg": {
         "id": "AXNWhite.us@SD",
         "name": "",
@@ -75,39 +103,11 @@
       },
       "http": {
         "referrer": "",
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
-      },
-      "url": "https://aes.m3u8simplu.workers.dev/axnwhite/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"AXNWhite.us@SD\" tvg-logo=\"https://i.imgur.com/47IKxmt.png\" http-user-agent=\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36\" group-title=\"Entertainment\",AXN White (576p)\r\r\n#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36\r\r\nhttps://aes.m3u8simplu.workers.dev/axnwhite/index.m3u8\r",
-      "line": 8,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Andorra TV (1080p)",
-      "tvg": {
-        "id": "AndorraTV.ad@SD",
-        "name": "",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/3/32/Logo_Andorra_Televisi%C3%B3.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
         "user-agent": ""
       },
-      "url": "https://livesg1.rtva.hiway.media/11a6d6f4-ee13-47c7-9c27-7313cf5424e2/manifest.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"AndorraTV.ad@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/3/32/Logo_Andorra_Televisi%C3%B3.png\" group-title=\"General\",Andorra TV (1080p)\r\r\nhttps://livesg1.rtva.hiway.media/11a6d6f4-ee13-47c7-9c27-7313cf5424e2/manifest.m3u8\r",
-      "line": 6,
+      "url": "http://315e5a5d.ottrast.com/iptv/MM4E93NGF5LADZ/6950/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"AXNWhite.us@SD\" tvg-logo=\"https://i.imgur.com/47IKxmt.png\" group-title=\"Entertainment\",AXN White [Not 24/7]\r\r\nhttp://315e5a5d.ottrast.com/iptv/MM4E93NGF5LADZ/6950/index.m3u8\r",
+      "line": 8,
       "catchup": {
         "type": "",
         "days": "",
@@ -135,7 +135,7 @@
       },
       "url": "https://rtvelivestream.rtve.es/rtvesec/la2/la2_main.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"La2.es@SD\" tvg-logo=\"https://i.ibb.co/rfsr9PSh/La-2.png\" group-title=\"General;Public\",La 2\r\r\nhttps://rtvelivestream.rtve.es/rtvesec/la2/la2_main.m3u8\r",
-      "line": 15,
+      "line": 14,
       "catchup": {
         "type": "",
         "days": "",
