@@ -1,7 +1,9 @@
 {
   "header": {
-    "attrs": {},
-    "raw": "#EXTM3U\r"
+    "attrs": {
+      "x-tvg-url": "https://raw.githubusercontent.com/StrangeDrVN/epg/public/guide.xml.gz"
+    },
+    "raw": "#EXTM3U x-tvg-url=\"https://raw.githubusercontent.com/StrangeDrVN/epg/public/guide.xml.gz\"\r"
   },
   "items": [
     {
@@ -24,34 +26,6 @@
       "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/amarbanglatv.stream/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"AamarBangla.in@SD\" tvg-logo=\"https://jiotvimages.cdn.jio.com/dare_images/images/Amaar_Bangla.png\" group-title=\"Entertainment\",Aamar Bangla (720p)\r\r\nhttps://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/amarbanglatv.stream/playlist.m3u8\r",
       "line": 2,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "ATN Bangla (720p)",
-      "tvg": {
-        "id": "ATNBangla.bd@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/K1HmMRz.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://tvsen5.aynaott.com/atnbangla/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"ATNBangla.bd@SD\" tvg-logo=\"https://i.imgur.com/K1HmMRz.png\" group-title=\"General\",ATN Bangla (720p)\r\r\nhttps://tvsen5.aynaott.com/atnbangla/index.m3u8\r",
-      "line": 8,
       "catchup": {
         "type": "",
         "days": "",
@@ -145,6 +119,34 @@
       "status": "OK"
     },
     {
+      "name": "ATN Bangla (720p)",
+      "tvg": {
+        "id": "ATNBangla.bd@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/K1HmMRz.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://tvsen5.aynaott.com/atnbangla/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"ATNBangla.bd@SD\" tvg-logo=\"https://i.imgur.com/K1HmMRz.png\" group-title=\"General\",ATN Bangla (720p)\r\r\nhttps://tvsen5.aynaott.com/atnbangla/index.m3u8\r",
+      "line": 8,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "BTV Chattogram (1080p)",
       "tvg": {
         "id": "BTVChattogram.bd@SD",
@@ -173,25 +175,25 @@
       "status": "OK"
     },
     {
-      "name": "Channel S",
+      "name": "Channel 24 (1080p)",
       "tvg": {
-        "id": "ChannelS.bd@SD",
+        "id": "Channel24.bd@SD",
         "name": "",
-        "logo": "https://www.channels.com.bd/storage/project_files/logo/2024-05-14a_n17156821814310.png",
+        "logo": "https://i.imgur.com/4JLkaF7.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Culture"
+        "title": "News"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/channels.stream/live-orgin/channels.stream/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"ChannelS.bd@SD\" tvg-logo=\"https://www.channels.com.bd/storage/project_files/logo/2024-05-14a_n17156821814310.png\" group-title=\"Culture\",Channel S\r\r\nhttps://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/channels.stream/live-orgin/channels.stream/playlist.m3u8\r",
-      "line": 36,
+      "url": "https://bozztv.com/rongo/rongo-Channel24HD/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Channel24.bd@SD\" tvg-logo=\"https://i.imgur.com/4JLkaF7.png\" group-title=\"News\",Channel 24 (1080p)\r\r\nhttps://bozztv.com/rongo/rongo-Channel24HD/index.m3u8\r",
+      "line": 32,
       "catchup": {
         "type": "",
         "days": "",
@@ -220,6 +222,34 @@
       "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/chsukoff.stream/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"ChannelS.uk@SD\" tvg-logo=\"https://i.imgur.com/hJxFLvF.png\" group-title=\"Culture\",Channel S (576p)\r\r\nhttps://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/chsukoff.stream/playlist.m3u8\r",
       "line": 38,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Channel S",
+      "tvg": {
+        "id": "ChannelS.bd@SD",
+        "name": "",
+        "logo": "https://www.channels.com.bd/storage/project_files/logo/2024-05-14a_n17156821814310.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Culture"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/channels.stream/live-orgin/channels.stream/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"ChannelS.bd@SD\" tvg-logo=\"https://www.channels.com.bd/storage/project_files/logo/2024-05-14a_n17156821814310.png\" group-title=\"Culture\",Channel S\r\r\nhttps://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/channels.stream/live-orgin/channels.stream/playlist.m3u8\r",
+      "line": 36,
       "catchup": {
         "type": "",
         "days": "",
@@ -397,6 +427,34 @@
       "status": "OK"
     },
     {
+      "name": "Mohona TV (1080p)",
+      "tvg": {
+        "id": "MohonaTV.bd@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/E6doEWH.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://bozztv.com/rongo/rongo-MohonaTV/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"MohonaTV.bd@SD\" tvg-logo=\"https://i.imgur.com/E6doEWH.png\" group-title=\"General\",Mohona TV (1080p)\r\r\nhttps://bozztv.com/rongo/rongo-MohonaTV/index.m3u8\r",
+      "line": 76,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Movie Bangla",
       "tvg": {
         "id": "MovieBangla.bd@SD",
@@ -416,6 +474,34 @@
       "url": "http://alvetv.com/moviebanglatv/8080/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"MovieBangla.bd@SD\" tvg-logo=\"https://www.jagobd.com/wp-content/uploads/2016/02/moviebangla.jpg?x50681\" group-title=\"Movies\",Movie Bangla\r\r\nhttp://alvetv.com/moviebanglatv/8080/index.m3u8\r",
       "line": 78,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "NAN TV",
+      "tvg": {
+        "id": "NANTV.bd@SD",
+        "name": "",
+        "logo": "https://www.jagobd.com/wp-content/uploads/2019/11/NAN-TV-Logo-02.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "News"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/nantv.stream/live-orgin/nantv.stream/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"NANTV.bd@SD\" tvg-logo=\"https://www.jagobd.com/wp-content/uploads/2019/11/NAN-TV-Logo-02.png\" group-title=\"News\",NAN TV\r\r\nhttps://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/nantv.stream/live-orgin/nantv.stream/playlist.m3u8\r",
+      "line": 82,
       "catchup": {
         "type": "",
         "days": "",
@@ -509,6 +595,90 @@
       "status": "OK"
     },
     {
+      "name": "Rajdhani TV (1080p)",
+      "tvg": {
+        "id": "RajdhaniTV.bd@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/MBm2gPz.jpeg",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://stream.shariarsuvo.com/hls5/rajdhanicable.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"RajdhaniTV.bd@SD\" tvg-logo=\"https://i.imgur.com/MBm2gPz.jpeg\" group-title=\"General\",Rajdhani TV (1080p)\r\r\nhttps://stream.shariarsuvo.com/hls5/rajdhanicable.m3u8\r",
+      "line": 98,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "RTV (1080p)",
+      "tvg": {
+        "id": "RTV.bd@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/yu8ugqt.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://bozztv.com/rongo/rongo-RTV/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"RTV.bd@SD\" tvg-logo=\"https://i.imgur.com/yu8ugqt.png\" group-title=\"General\",RTV (1080p)\r\r\nhttps://bozztv.com/rongo/rongo-RTV/index.m3u8\r",
+      "line": 100,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Rupashi Bangla TV (720p)",
+      "tvg": {
+        "id": "RupashiBanglaTV.bd@SD",
+        "name": "",
+        "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Rupashi_Bangla.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Entertainment"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/ruposhibangla.stream/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"RupashiBanglaTV.bd@SD\" tvg-logo=\"https://jiotvimages.cdn.jio.com/dare_images/images/Rupashi_Bangla.png\" group-title=\"Entertainment\",Rupashi Bangla TV (720p)\r\r\nhttps://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/ruposhibangla.stream/playlist.m3u8\r",
+      "line": 102,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Somoy News TV (1080p)",
       "tvg": {
         "id": "SomoyNewsTV.bd@SD",
@@ -527,7 +697,35 @@
       },
       "url": "https://bozztv.com/rongo/rongo-somoy/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"SomoyNewsTV.bd@SD\" tvg-logo=\"https://i.imgur.com/i54AQic.png\" group-title=\"News\",Somoy News TV (1080p)\r\r\nhttps://bozztv.com/rongo/rongo-somoy/index.m3u8\r",
-      "line": 106,
+      "line": 108,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "T Sports (1080p)",
+      "tvg": {
+        "id": "TSports.bd@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/2JzlorD.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Sports"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://tvsen5.aynaott.com/TnMn5kZz8aLm/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"TSports.bd@SD\" tvg-logo=\"https://i.imgur.com/2JzlorD.png\" group-title=\"Sports\",T Sports (1080p)\r\r\nhttps://tvsen5.aynaott.com/TnMn5kZz8aLm/index.m3u8\r",
+      "line": 114,
       "catchup": {
         "type": "",
         "days": "",
@@ -555,7 +753,7 @@
       },
       "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/ColorsHD/default/ColorsHD.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"ZeeBanglaSonar.in@SD\" tvg-logo=\"https://dtil.tmsimg.com/assets/GNLZZGG00287G7K.png?lock=720x540\" group-title=\"Entertainment\",Zee Bangla Sonar (576p)\r\r\nhttps://d1g8wgjurz8via.cloudfront.net/bpk-tv/ColorsHD/default/ColorsHD.m3u8\r",
-      "line": 118,
+      "line": 120,
       "catchup": {
         "type": "",
         "days": "",
