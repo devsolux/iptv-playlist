@@ -1,7 +1,9 @@
 {
   "header": {
-    "attrs": {},
-    "raw": "#EXTM3U\r"
+    "attrs": {
+      "x-tvg-url": "https://raw.githubusercontent.com/StrangeDrVN/epg/public/guide.xml.gz"
+    },
+    "raw": "#EXTM3U x-tvg-url=\"https://raw.githubusercontent.com/StrangeDrVN/epg/public/guide.xml.gz\"\r"
   },
   "items": [
     {
@@ -89,34 +91,6 @@
       "status": "OK"
     },
     {
-      "name": "PSM News",
-      "tvg": {
-        "id": "PSMNews.mv@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/mGuBbPv.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "News"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://customer-ujex1meek7koqd9x.cloudflarestream.com/21262545317dadfa20dab4f9bd37c7c2/manifest/video.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"PSMNews.mv@SD\" tvg-logo=\"https://i.imgur.com/mGuBbPv.png\" group-title=\"News\",PSM News\r\r\nhttps://customer-ujex1meek7koqd9x.cloudflarestream.com/21262545317dadfa20dab4f9bd37c7c2/manifest/video.m3u8\r",
-      "line": 14,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "TV Maldives",
       "tvg": {
         "id": "TVMaldives.mv@SD",
@@ -164,6 +138,34 @@
       "url": "https://customer-ujex1meek7koqd9x.cloudflarestream.com/4f0b316cdb0fbb7f8ca93860ed11d38b/manifest/video.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"YES.mv@SD\" tvg-logo=\"https://i.imgur.com/HARIGQl.png\" group-title=\"News\",YES\r\r\nhttps://customer-ujex1meek7koqd9x.cloudflarestream.com/4f0b316cdb0fbb7f8ca93860ed11d38b/manifest/video.m3u8\r",
       "line": 24,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "PSM News",
+      "tvg": {
+        "id": "PSMNews.mv@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/mGuBbPv.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "News"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://customer-ujex1meek7koqd9x.cloudflarestream.com/21262545317dadfa20dab4f9bd37c7c2/manifest/video.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"PSMNews.mv@SD\" tvg-logo=\"https://i.imgur.com/mGuBbPv.png\" group-title=\"News\",PSM News\r\r\nhttps://customer-ujex1meek7koqd9x.cloudflarestream.com/21262545317dadfa20dab4f9bd37c7c2/manifest/video.m3u8\r",
+      "line": 14,
       "catchup": {
         "type": "",
         "days": "",
