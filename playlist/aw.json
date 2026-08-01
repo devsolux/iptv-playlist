@@ -5,34 +5,6 @@
   },
   "items": [
     {
-      "name": "Energia TV (720p) [Not 24/7]",
-      "tvg": {
-        "id": "EnergiaTV.bq@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/GVKjI5c.jpeg",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://sincerecloud.stream/loadbalancer/public/actMdyoE.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"EnergiaTV.bq@SD\" tvg-logo=\"https://i.imgur.com/GVKjI5c.jpeg\" group-title=\"General\",Energia TV (720p) [Not 24/7]\r\r\nhttps://sincerecloud.stream/loadbalancer/public/actMdyoE.m3u8\r",
-      "line": 8,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Cool FM 98.9 (720p)",
       "tvg": {
         "id": "CoolFM989.aw@SD",
@@ -51,7 +23,7 @@
       },
       "url": "https://live2.tensila.com/cool-v-1.arubara/hls/master.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"CoolFM989.aw@SD\" tvg-logo=\"https://i.imgur.com/uGE6lZ2.png\" group-title=\"Music\",Cool FM 98.9 (720p)\r\r\nhttps://live2.tensila.com/cool-v-1.arubara/hls/master.m3u8\r",
-      "line": 6,
+      "line": 8,
       "catchup": {
         "type": "",
         "days": "",
@@ -89,6 +61,34 @@
       "status": "OK"
     },
     {
+      "name": "ArubaTV +",
+      "tvg": {
+        "id": "ArubaTVPlus.aw@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/9s6LZJZ.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Entertainment"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://rtmpcontrol.com:1936/atvplus/ngrp:atvplus_all/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"ArubaTVPlus.aw@SD\" tvg-logo=\"https://i.imgur.com/9s6LZJZ.png\" group-title=\"Entertainment\",ArubaTV +\r\r\nhttps://rtmpcontrol.com:1936/atvplus/ngrp:atvplus_all/playlist.m3u8\r",
+      "line": 4,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Balchi TV",
       "tvg": {
         "id": "BalchiTV.aw@SD",
@@ -107,7 +107,7 @@
       },
       "url": "https://rtmpcontrol.com:1936/balchitv/balchitv/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"BalchiTV.aw@SD\" tvg-logo=\"https://i.imgur.com/XlCaZvF.png\" group-title=\"Culture\",Balchi TV\r\r\nhttps://rtmpcontrol.com:1936/balchitv/balchitv/playlist.m3u8\r",
-      "line": 4,
+      "line": 6,
       "catchup": {
         "type": "",
         "days": "",
@@ -117,11 +117,11 @@
       "status": "OK"
     },
     {
-      "name": "Wavez FM",
+      "name": "Heart Radio Aruba",
       "tvg": {
-        "id": "WavezFM.aw@SD",
+        "id": "HeartRadioAruba.aw@SD",
         "name": "",
-        "logo": "https://i.imgur.com/uyROZSS.png",
+        "logo": "https://i.imgur.com/MKZCskA.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -133,9 +133,37 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://media.streambrothers.com:1936/uszqnhpjpa/uszqnhpjpa/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"WavezFM.aw@SD\" tvg-logo=\"https://i.imgur.com/uyROZSS.png\" group-title=\"Music\",Wavez FM\r\r\nhttps://media.streambrothers.com:1936/uszqnhpjpa/uszqnhpjpa/playlist.m3u8\r",
-      "line": 20,
+      "url": "https://live2.tensila.com/heart-v-1.heartar/hls/live/mystream.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"HeartRadioAruba.aw@SD\" tvg-logo=\"https://i.imgur.com/MKZCskA.png\" group-title=\"Music\",Heart Radio Aruba\r\r\nhttps://live2.tensila.com/heart-v-1.heartar/hls/live/mystream.m3u8\r",
+      "line": 12,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Energia TV (720p) [Not 24/7]",
+      "tvg": {
+        "id": "EnergiaTV.bq@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/GVKjI5c.jpeg",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://sincerecloud.stream/loadbalancer/public/actMdyoE.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"EnergiaTV.bq@SD\" tvg-logo=\"https://i.imgur.com/GVKjI5c.jpeg\" group-title=\"General\",Energia TV (720p) [Not 24/7]\r\r\nhttps://sincerecloud.stream/loadbalancer/public/actMdyoE.m3u8\r",
+      "line": 10,
       "catchup": {
         "type": "",
         "days": "",
@@ -163,7 +191,35 @@
       },
       "url": "https://vcp11.myplaytv.com/powerfm/powerfm/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"Power1017FM.aw@SD\" tvg-logo=\"https://i.imgur.com/bkQrXjB.png\" group-title=\"Music\",Power 101.7 FM (720p)\r\r\nhttps://vcp11.myplaytv.com/powerfm/powerfm/playlist.m3u8\r",
-      "line": 13,
+      "line": 17,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Wavez FM",
+      "tvg": {
+        "id": "WavezFM.aw@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/uyROZSS.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Music"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://media.streambrothers.com:1936/uszqnhpjpa/uszqnhpjpa/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"WavezFM.aw@SD\" tvg-logo=\"https://i.imgur.com/uyROZSS.png\" group-title=\"Music\",Wavez FM\r\r\nhttps://media.streambrothers.com:1936/uszqnhpjpa/uszqnhpjpa/playlist.m3u8\r",
+      "line": 24,
       "catchup": {
         "type": "",
         "days": "",
