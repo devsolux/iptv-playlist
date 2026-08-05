@@ -33,34 +33,6 @@
       "status": "OK"
     },
     {
-      "name": "16tv Budapest (360p)",
-      "tvg": {
-        "id": "16tvBudapest.hu@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/04fCzHl.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://cloudfront44.lexanetwork.com:1344/freerelay/16tv.sdp/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"16tvBudapest.hu@SD\" tvg-logo=\"https://i.imgur.com/04fCzHl.png\" group-title=\"General\",16tv Budapest (360p)\r\r\nhttps://cloudfront44.lexanetwork.com:1344/freerelay/16tv.sdp/playlist.m3u8\r",
-      "line": 2,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Alföld TV (1080p)",
       "tvg": {
         "id": "AlfoldTV.hu@SD",
@@ -80,34 +52,6 @@
       "url": "https://cloudfront41.lexanetwork.com:1344/relay01/livestream006.sdp/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"AlfoldTV.hu@SD\" tvg-logo=\"https://i.imgur.com/W6jg8iM.png\" group-title=\"Entertainment\",Alföld TV (1080p)\r\r\nhttps://cloudfront41.lexanetwork.com:1344/relay01/livestream006.sdp/playlist.m3u8\r",
       "line": 4,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "AXN CEE",
-      "tvg": {
-        "id": "AXNCEE.es@Hungary",
-        "name": "",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/AXN_logo_%282015%29.svg/960px-AXN_logo_%282015%29.svg.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Movies"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-      },
-      "url": "http://88.212.15.19/live/axn_hun/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"AXNCEE.es@Hungary\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/AXN_logo_%282015%29.svg/960px-AXN_logo_%282015%29.svg.png\" http-user-agent=\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36\" group-title=\"Movies\",AXN CEE\r\r\n#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36\r\r\nhttp://88.212.15.19/live/axn_hun/index.m3u8\r",
-      "line": 15,
       "catchup": {
         "type": "",
         "days": "",
@@ -145,11 +89,39 @@
       "status": "OK"
     },
     {
-      "name": "Bajai TV (720p)",
+      "name": "AXN CEE",
       "tvg": {
-        "id": "BajaiTV.hu@SD",
+        "id": "AXNCEE.es@Hungary",
         "name": "",
-        "logo": "https://i.imgur.com/cyReGWh.png",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/AXN_logo_%282015%29.svg/960px-AXN_logo_%282015%29.svg.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Movies"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+      },
+      "url": "http://88.212.15.19/live/axn_hun/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"AXNCEE.es@Hungary\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/AXN_logo_%282015%29.svg/960px-AXN_logo_%282015%29.svg.png\" http-user-agent=\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36\" group-title=\"Movies\",AXN CEE\r\r\n#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36\r\r\nhttp://88.212.15.19/live/axn_hun/index.m3u8\r",
+      "line": 15,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "16tv Budapest (360p)",
+      "tvg": {
+        "id": "16tvBudapest.hu@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/04fCzHl.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -161,9 +133,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://cloudfront41.lexanetwork.com:1344/relay01/livestream002.sdp/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"BajaiTV.hu@SD\" tvg-logo=\"https://i.imgur.com/cyReGWh.png\" group-title=\"General\",Bajai TV (720p)\r\r\nhttps://cloudfront41.lexanetwork.com:1344/relay01/livestream002.sdp/playlist.m3u8\r",
-      "line": 22,
+      "url": "https://cloudfront44.lexanetwork.com:1344/freerelay/16tv.sdp/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"16tvBudapest.hu@SD\" tvg-logo=\"https://i.imgur.com/04fCzHl.png\" group-title=\"General\",16tv Budapest (360p)\r\r\nhttps://cloudfront44.lexanetwork.com:1344/freerelay/16tv.sdp/playlist.m3u8\r",
+      "line": 2,
       "catchup": {
         "type": "",
         "days": "",
@@ -192,6 +164,34 @@
       "url": "https://cloudfront44.lexanetwork.com:1344/freerelay/babolnatv.sdp/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"BTV.hu@SD\" tvg-logo=\"https://i.imgur.com/0PKqn3V.png\" group-title=\"General\",Bábolnai TV (360p)\r\r\nhttps://cloudfront44.lexanetwork.com:1344/freerelay/babolnatv.sdp/playlist.m3u8\r",
       "line": 20,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Bajai TV (720p)",
+      "tvg": {
+        "id": "BajaiTV.hu@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/cyReGWh.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://cloudfront41.lexanetwork.com:1344/relay01/livestream002.sdp/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"BajaiTV.hu@SD\" tvg-logo=\"https://i.imgur.com/cyReGWh.png\" group-title=\"General\",Bajai TV (720p)\r\r\nhttps://cloudfront41.lexanetwork.com:1344/relay01/livestream002.sdp/playlist.m3u8\r",
+      "line": 22,
       "catchup": {
         "type": "",
         "days": "",
@@ -481,6 +481,34 @@
       "status": "OK"
     },
     {
+      "name": "Fehérvár TV (360p)",
+      "tvg": {
+        "id": "FehervarTV.hu@SD",
+        "name": "",
+        "logo": "https://www.fehervartv.hu/css/img/icon-1-2.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://cloudfront44.lexanetwork.com:1344/freerelay/fehervartv.sdp/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"FehervarTV.hu@SD\" tvg-logo=\"https://www.fehervartv.hu/css/img/icon-1-2.png\" group-title=\"General\",Fehérvár TV (360p)\r\r\nhttps://cloudfront44.lexanetwork.com:1344/freerelay/fehervartv.sdp/playlist.m3u8\r",
+      "line": 59,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "FEM3",
       "tvg": {
         "id": "FEM3.hu@SD",
@@ -621,34 +649,6 @@
       "status": "OK"
     },
     {
-      "name": "FILMBOX+ Hits Hungary",
-      "tvg": {
-        "id": "FILMBOXPlusHits.pl@Hungary",
-        "name": "",
-        "logo": "https://spiintl.com/data/files/kcfinderUploadDir/images/filmboxplus/filmbox%2Bhits.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Movies"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-      },
-      "url": "http://88.212.15.19/live/fb_premium_hungary/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"FILMBOXPlusHits.pl@Hungary\" tvg-logo=\"https://spiintl.com/data/files/kcfinderUploadDir/images/filmboxplus/filmbox%2Bhits.png\" http-user-agent=\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36\" group-title=\"Movies\",FILMBOX+ Hits Hungary\r\r\n#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36\r\r\nhttp://88.212.15.19/live/fb_premium_hungary/index.m3u8\r",
-      "line": 79,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "FILMBOX+ Emotion Hungary (1080p)",
       "tvg": {
         "id": "FILMBOXPlusEmotion.pl@Hungary",
@@ -696,6 +696,34 @@
       "url": "http://88.212.15.19/live/test_filmbox_plus_hun_atk_1200/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"FILMBOXPlusOne.pl@Magyar\" tvg-logo=\"https://spiintl.com/data/files/kcfinderUploadDir/images/filmboxplus/filmbox%2Bone.png\" http-user-agent=\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36\" group-title=\"Movies\",FILMBOX+ One Magyar\r\r\n#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36\r\r\nhttp://88.212.15.19/live/test_filmbox_plus_hun_atk_1200/playlist.m3u8\r",
       "line": 82,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "FILMBOX+ Hits Hungary",
+      "tvg": {
+        "id": "FILMBOXPlusHits.pl@Hungary",
+        "name": "",
+        "logo": "https://spiintl.com/data/files/kcfinderUploadDir/images/filmboxplus/filmbox%2Bhits.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Movies"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+      },
+      "url": "http://88.212.15.19/live/fb_premium_hungary/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"FILMBOXPlusHits.pl@Hungary\" tvg-logo=\"https://spiintl.com/data/files/kcfinderUploadDir/images/filmboxplus/filmbox%2Bhits.png\" http-user-agent=\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36\" group-title=\"Movies\",FILMBOX+ Hits Hungary\r\r\n#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36\r\r\nhttp://88.212.15.19/live/fb_premium_hungary/index.m3u8\r",
+      "line": 79,
       "catchup": {
         "type": "",
         "days": "",
@@ -761,34 +789,6 @@
       "status": "OK"
     },
     {
-      "name": "Fehérvár TV (360p)",
-      "tvg": {
-        "id": "FehervarTV.hu@SD",
-        "name": "",
-        "logo": "https://www.fehervartv.hu/css/img/icon-1-2.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://cloudfront44.lexanetwork.com:1344/freerelay/fehervartv.sdp/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"FehervarTV.hu@SD\" tvg-logo=\"https://www.fehervartv.hu/css/img/icon-1-2.png\" group-title=\"General\",Fehérvár TV (360p)\r\r\nhttps://cloudfront44.lexanetwork.com:1344/freerelay/fehervartv.sdp/playlist.m3u8\r",
-      "line": 59,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Hévízi TV (1080p)",
       "tvg": {
         "id": "HeviziTV.hu@SD",
@@ -808,34 +808,6 @@
       "url": "https://cloudfront44.lexanetwork.com:1344/relay03/livestream003.sdp/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"HeviziTV.hu@SD\" tvg-logo=\"https://i.imgur.com/zuWQKDm.png\" group-title=\"General\",Hévízi TV (1080p)\r\r\nhttps://cloudfront44.lexanetwork.com:1344/relay03/livestream003.sdp/playlist.m3u8\r",
       "line": 105,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Hir TV (1080p)",
-      "tvg": {
-        "id": "HirTV.hu@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/xmIUDRN.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "News"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://video11.videa.hu/static/live/8.2966061.2530409.1.5.590.590/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"HirTV.hu@SD\" tvg-logo=\"https://i.imgur.com/xmIUDRN.png\" group-title=\"News\",Hir TV (1080p)\r\r\nhttps://video11.videa.hu/static/live/8.2966061.2530409.1.5.590.590/index.m3u8\r",
-      "line": 107,
       "catchup": {
         "type": "",
         "days": "",
@@ -901,34 +873,6 @@
       "status": "OK"
     },
     {
-      "name": "Jocky TV",
-      "tvg": {
-        "id": "JockyTV.hu@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/wLawFVP.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Entertainment"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-      },
-      "url": "http://88.212.15.19/live/jocky/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"JockyTV.hu@SD\" tvg-logo=\"https://i.imgur.com/wLawFVP.png\" http-user-agent=\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36\" group-title=\"Entertainment\",Jocky TV\r\r\n#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36\r\r\nhttp://88.212.15.19/live/jocky/index.m3u8\r",
-      "line": 117,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Jászsági Térségi TV (440p)",
       "tvg": {
         "id": "JaszsagiTersegiTV.hu@SD",
@@ -948,6 +892,34 @@
       "url": "https://cloudfront44.lexanetwork.com:1344/relay01/broadcast007.sdp/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"JaszsagiTersegiTV.hu@SD\" tvg-logo=\"https://i.imgur.com/bsDN0lH.png\" group-title=\"General\",Jászsági Térségi TV (440p)\r\r\nhttps://cloudfront44.lexanetwork.com:1344/relay01/broadcast007.sdp/playlist.m3u8\r",
       "line": 115,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Jocky TV",
+      "tvg": {
+        "id": "JockyTV.hu@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/wLawFVP.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Entertainment"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+      },
+      "url": "http://88.212.15.19/live/jocky/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"JockyTV.hu@SD\" tvg-logo=\"https://i.imgur.com/wLawFVP.png\" http-user-agent=\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36\" group-title=\"Entertainment\",Jocky TV\r\r\n#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36\r\r\nhttp://88.212.15.19/live/jocky/index.m3u8\r",
+      "line": 117,
       "catchup": {
         "type": "",
         "days": "",
@@ -1321,34 +1293,6 @@
       "status": "OK"
     },
     {
-      "name": "Minimax",
-      "tvg": {
-        "id": "Minimax.hu@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/WWOlm1x.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Kids"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-      },
-      "url": "http://88.212.15.19/live/minimax_hun/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Minimax.hu@SD\" tvg-logo=\"https://i.imgur.com/WWOlm1x.png\" http-user-agent=\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36\" group-title=\"Kids\",Minimax\r\r\n#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36\r\r\nhttp://88.212.15.19/live/minimax_hun/index.m3u8\r",
-      "line": 160,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Mezőkövesdi Televízió (360p)",
       "tvg": {
         "id": "MezokovesdiTelevizio.hu@SD",
@@ -1368,6 +1312,34 @@
       "url": "https://cloudfront44.lexanetwork.com:1344/freerelay/mezokovesdvtv.sdp/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"MezokovesdiTelevizio.hu@SD\" tvg-logo=\"https://i.imgur.com/2zCOXmH.png\" group-title=\"General\",Mezőkövesdi Televízió (360p)\r\r\nhttps://cloudfront44.lexanetwork.com:1344/freerelay/mezokovesdvtv.sdp/playlist.m3u8\r",
       "line": 158,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Minimax",
+      "tvg": {
+        "id": "Minimax.hu@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/WWOlm1x.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Kids"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+      },
+      "url": "http://88.212.15.19/live/minimax_hun/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Minimax.hu@SD\" tvg-logo=\"https://i.imgur.com/WWOlm1x.png\" http-user-agent=\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36\" group-title=\"Kids\",Minimax\r\r\n#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36\r\r\nhttp://88.212.15.19/live/minimax_hun/index.m3u8\r",
+      "line": 160,
       "catchup": {
         "type": "",
         "days": "",
@@ -1545,34 +1517,6 @@
       "status": "OK"
     },
     {
-      "name": "Móra-Net TV (576p)",
-      "tvg": {
-        "id": "MoraNetTV.hu@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/yT0RmKi.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://stream.moranettv.hu/live/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"MoraNetTV.hu@SD\" tvg-logo=\"https://i.imgur.com/yT0RmKi.png\" group-title=\"General\",Móra-Net TV (576p)\r\r\nhttps://stream.moranettv.hu/live/index.m3u8\r",
-      "line": 163,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Nick Jr.",
       "tvg": {
         "id": "NickJr.hu@SD",
@@ -1592,34 +1536,6 @@
       "url": "http://88.212.15.19/live/nick_junior_hun/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"NickJr.hu@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nick_Jr._logo_2023_(outline).svg/960px-Nick_Jr._logo_2023_(outline).svg.png\" http-user-agent=\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36\" group-title=\"Kids\",Nick Jr.\r\r\n#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36\r\r\nhttp://88.212.15.19/live/nick_junior_hun/index.m3u8\r",
       "line": 183,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Nicktoons",
-      "tvg": {
-        "id": "Nicktoons.hu@SD",
-        "name": "",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Nicktoons_UK_Logo_2014.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Kids"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-      },
-      "url": "http://88.212.15.19/live/nicktoons_hungary/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Nicktoons.hu@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/d/d8/Nicktoons_UK_Logo_2014.png\" http-user-agent=\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36\" group-title=\"Kids\",Nicktoons\r\r\n#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36\r\r\nhttp://88.212.15.19/live/nicktoons_hungary/index.m3u8\r",
-      "line": 189,
       "catchup": {
         "type": "",
         "days": "",
@@ -1657,6 +1573,34 @@
       "status": "OK"
     },
     {
+      "name": "Nicktoons",
+      "tvg": {
+        "id": "Nicktoons.hu@SD",
+        "name": "",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Nicktoons_UK_Logo_2014.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Kids"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+      },
+      "url": "http://88.212.15.19/live/nicktoons_hungary/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Nicktoons.hu@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/d/d8/Nicktoons_UK_Logo_2014.png\" http-user-agent=\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36\" group-title=\"Kids\",Nicktoons\r\r\n#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36\r\r\nhttp://88.212.15.19/live/nicktoons_hungary/index.m3u8\r",
+      "line": 189,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Oroszlányi Városi Televízió (720p)",
       "tvg": {
         "id": "OroszlanyiVarosiTelevizio.hu@SD",
@@ -1676,6 +1620,34 @@
       "url": "https://cloudfront44.lexanetwork.com:1344/relay01/broadcast002.sdp/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"OroszlanyiVarosiTelevizio.hu@SD\" tvg-logo=\"https://i.imgur.com/P0fxUH5.png\" group-title=\"General\",Oroszlányi Városi Televízió (720p)\r\r\nhttps://cloudfront44.lexanetwork.com:1344/relay01/broadcast002.sdp/playlist.m3u8\r",
       "line": 194,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Móra-Net TV (576p)",
+      "tvg": {
+        "id": "MoraNetTV.hu@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/yT0RmKi.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://stream.moranettv.hu/live/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"MoraNetTV.hu@SD\" tvg-logo=\"https://i.imgur.com/yT0RmKi.png\" group-title=\"General\",Móra-Net TV (576p)\r\r\nhttps://stream.moranettv.hu/live/index.m3u8\r",
+      "line": 163,
       "catchup": {
         "type": "",
         "days": "",
@@ -1769,6 +1741,34 @@
       "status": "OK"
     },
     {
+      "name": "Régió TV (406p)",
+      "tvg": {
+        "id": "RegioTV.sk@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/WlF6tlZ.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://tv.geniusnet.sk:8081/regiotv/pl.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"RegioTV.sk@SD\" tvg-logo=\"https://i.imgur.com/WlF6tlZ.png\" group-title=\"General\",Régió TV (406p)\r\r\nhttp://tv.geniusnet.sk:8081/regiotv/pl.m3u8\r",
+      "line": 214,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "RTL",
       "tvg": {
         "id": "RTL.hu@SD",
@@ -1788,34 +1788,6 @@
       "url": "http://88.212.15.19/live/test_rtl_klub_hungary_1200_atk/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"RTL.hu@SD\" tvg-logo=\"https://i.imgur.com/ruRshE1.png\" http-user-agent=\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36\" group-title=\"Undefined\",RTL\r\r\n#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36\r\r\nhttp://88.212.15.19/live/test_rtl_klub_hungary_1200_atk/playlist.m3u8\r",
       "line": 221,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "RTL Gold",
-      "tvg": {
-        "id": "RTLGold.hu@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/PwbLDUQ.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://budapest-cache-1.antik.sk/live/test_film_plus_2_hungary_1200_atk/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"RTLGold.hu@SD\" tvg-logo=\"https://i.imgur.com/PwbLDUQ.png\" group-title=\"Undefined\",RTL Gold\r\r\nhttps://budapest-cache-1.antik.sk/live/test_film_plus_2_hungary_1200_atk/playlist.m3u8\r",
-      "line": 224,
       "catchup": {
         "type": "",
         "days": "",
@@ -1853,34 +1825,6 @@
       "status": "OK"
     },
     {
-      "name": "RTL Otthon",
-      "tvg": {
-        "id": "RTLOtthon.hu@SD",
-        "name": "",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/RTL_Otthon.svg/1920px-RTL_Otthon.svg.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Entertainment"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
-      },
-      "url": "http://88.212.15.19/live/rtl_otthon_atk/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"RTLOtthon.hu@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/RTL_Otthon.svg/1920px-RTL_Otthon.svg.png\" http-user-agent=\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36\" group-title=\"Entertainment\",RTL Otthon\r\r\n#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36\r\r\nhttp://88.212.15.19/live/rtl_otthon_atk/index.m3u8\r",
-      "line": 232,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "RTL Ketto",
       "tvg": {
         "id": "RTLKetto.hu@SD",
@@ -1900,6 +1844,62 @@
       "url": "http://88.212.15.19/live/test_rtl2_hungary_1200_atk/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"RTLKetto.hu@SD\" tvg-logo=\"https://i.imgur.com/IVv0qrI.png\" http-user-agent=\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36\" group-title=\"Undefined\",RTL Ketto\r\r\n#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36\r\r\nhttp://88.212.15.19/live/test_rtl2_hungary_1200_atk/playlist.m3u8\r",
       "line": 229,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "RTL Gold",
+      "tvg": {
+        "id": "RTLGold.hu@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/PwbLDUQ.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://budapest-cache-1.antik.sk/live/test_film_plus_2_hungary_1200_atk/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"RTLGold.hu@SD\" tvg-logo=\"https://i.imgur.com/PwbLDUQ.png\" group-title=\"Undefined\",RTL Gold\r\r\nhttps://budapest-cache-1.antik.sk/live/test_film_plus_2_hungary_1200_atk/playlist.m3u8\r",
+      "line": 224,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "RTL Otthon",
+      "tvg": {
+        "id": "RTLOtthon.hu@SD",
+        "name": "",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/RTL_Otthon.svg/1920px-RTL_Otthon.svg.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Entertainment"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+      },
+      "url": "http://88.212.15.19/live/rtl_otthon_atk/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"RTLOtthon.hu@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/RTL_Otthon.svg/1920px-RTL_Otthon.svg.png\" http-user-agent=\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36\" group-title=\"Entertainment\",RTL Otthon\r\r\n#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36\r\r\nhttp://88.212.15.19/live/rtl_otthon_atk/index.m3u8\r",
+      "line": 232,
       "catchup": {
         "type": "",
         "days": "",
@@ -1993,34 +1993,6 @@
       "status": "OK"
     },
     {
-      "name": "Sorozatklub",
-      "tvg": {
-        "id": "Sorozatklub.hu@SD",
-        "name": "",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Sorozatklub.svg/1920px-Sorozatklub.svg.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Entertainment"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-      },
-      "url": "http://88.212.15.19/live/sorozatklub_atk/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Sorozatklub.hu@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Sorozatklub.svg/1920px-Sorozatklub.svg.png\" http-user-agent=\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36\" group-title=\"Entertainment\",Sorozatklub\r\r\n#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36\r\r\nhttp://88.212.15.19/live/sorozatklub_atk/index.m3u8\r",
-      "line": 245,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Spektrum",
       "tvg": {
         "id": "Spektrum.hu@SD",
@@ -2040,6 +2012,34 @@
       "url": "http://88.212.15.19/live/spektrum_hun/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"Spektrum.hu@SD\" tvg-logo=\"https://i.imgur.com/GmFRQ82.png\" http-user-agent=\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36\" group-title=\"Documentary\",Spektrum\r\r\n#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36\r\r\nhttp://88.212.15.19/live/spektrum_hun/index.m3u8\r",
       "line": 248,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Sorozatklub",
+      "tvg": {
+        "id": "Sorozatklub.hu@SD",
+        "name": "",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Sorozatklub.svg/1920px-Sorozatklub.svg.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Entertainment"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+      },
+      "url": "http://88.212.15.19/live/sorozatklub_atk/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Sorozatklub.hu@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Sorozatklub.svg/1920px-Sorozatklub.svg.png\" http-user-agent=\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36\" group-title=\"Entertainment\",Sorozatklub\r\r\n#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36\r\r\nhttp://88.212.15.19/live/sorozatklub_atk/index.m3u8\r",
+      "line": 245,
       "catchup": {
         "type": "",
         "days": "",
@@ -2133,34 +2133,6 @@
       "status": "OK"
     },
     {
-      "name": "Sport 1",
-      "tvg": {
-        "id": "Sport1.hu@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/X5X3tKC.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Sports"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-      },
-      "url": "http://88.212.15.19/live/sport1_hun/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Sport1.hu@SD\" tvg-logo=\"https://i.imgur.com/X5X3tKC.png\" http-user-agent=\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36\" group-title=\"Sports\",Sport 1\r\r\n#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36\r\r\nhttp://88.212.15.19/live/sport1_hun/index.m3u8\r",
-      "line": 260,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Sport 2",
       "tvg": {
         "id": "Sport2.hu@SD",
@@ -2208,6 +2180,34 @@
       "url": "http://88.212.15.19/live/test_story_4_atk_1200/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"Story4.hu@SD\" tvg-logo=\"https://i.imgur.com/pJsLyiv.png\" http-user-agent=\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36\" group-title=\"Undefined\",Story4\r\r\n#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36\r\r\nhttp://88.212.15.19/live/test_story_4_atk_1200/playlist.m3u8\r",
       "line": 266,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Sport 1",
+      "tvg": {
+        "id": "Sport1.hu@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/X5X3tKC.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Sports"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+      },
+      "url": "http://88.212.15.19/live/sport1_hun/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Sport1.hu@SD\" tvg-logo=\"https://i.imgur.com/X5X3tKC.png\" http-user-agent=\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36\" group-title=\"Sports\",Sport 1\r\r\n#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36\r\r\nhttp://88.212.15.19/live/sport1_hun/index.m3u8\r",
+      "line": 260,
       "catchup": {
         "type": "",
         "days": "",
@@ -2441,34 +2441,6 @@
       "status": "OK"
     },
     {
-      "name": "TV4",
-      "tvg": {
-        "id": "TV4.hu@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/cjypCfu.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
-      },
-      "url": "http://88.212.15.19/live/test_tv_4_hun_atk_1200/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TV4.hu@SD\" tvg-logo=\"https://i.imgur.com/cjypCfu.png\" http-user-agent=\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36\" group-title=\"Undefined\",TV4\r\r\n#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36\r\r\nhttp://88.212.15.19/live/test_tv_4_hun_atk_1200/playlist.m3u8\r",
-      "line": 298,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "TV2 Sef",
       "tvg": {
         "id": "TV2Sef.hu@SD",
@@ -2488,6 +2460,34 @@
       "url": "http://88.212.15.19/live/test_lichi_tv_atk_tv/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TV2Sef.hu@SD\" tvg-logo=\"https://i.imgur.com/8GFj3XP.png\" http-user-agent=\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36\" group-title=\"Undefined\",TV2 Sef\r\r\n#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36\r\r\nhttp://88.212.15.19/live/test_lichi_tv_atk_tv/playlist.m3u8\r",
       "line": 295,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "TV4",
+      "tvg": {
+        "id": "TV4.hu@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/cjypCfu.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+      },
+      "url": "http://88.212.15.19/live/test_tv_4_hun_atk_1200/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"TV4.hu@SD\" tvg-logo=\"https://i.imgur.com/cjypCfu.png\" http-user-agent=\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36\" group-title=\"Undefined\",TV4\r\r\n#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36\r\r\nhttp://88.212.15.19/live/test_tv_4_hun_atk_1200/playlist.m3u8\r",
+      "line": 298,
       "catchup": {
         "type": "",
         "days": "",
@@ -2525,34 +2525,6 @@
       "status": "OK"
     },
     {
-      "name": "TV Eger (1080p)",
-      "tvg": {
-        "id": "TVEger.hu@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/GUVW073.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://stream.tveger.hu:8010/live.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TVEger.hu@SD\" tvg-logo=\"https://i.imgur.com/GUVW073.png\" group-title=\"Undefined\",TV Eger (1080p)\r\r\nhttp://stream.tveger.hu:8010/live.m3u8\r",
-      "line": 305,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "TV Keszthely (360p)",
       "tvg": {
         "id": "TVKeszthely.hu@SD",
@@ -2572,6 +2544,34 @@
       "url": "https://cloudfront44.lexanetwork.com:1344/freerelay/keszthelyivtv.sdp/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TVKeszthely.hu@SD\" tvg-logo=\"https://i.imgur.com/2LE8xSW.png\" group-title=\"General\",TV Keszthely (360p)\r\r\nhttps://cloudfront44.lexanetwork.com:1344/freerelay/keszthelyivtv.sdp/playlist.m3u8\r",
       "line": 307,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "TV Eger (1080p)",
+      "tvg": {
+        "id": "TVEger.hu@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/GUVW073.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://stream.tveger.hu:8010/live.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"TVEger.hu@SD\" tvg-logo=\"https://i.imgur.com/GUVW073.png\" group-title=\"Undefined\",TV Eger (1080p)\r\r\nhttp://stream.tveger.hu:8010/live.m3u8\r",
+      "line": 305,
       "catchup": {
         "type": "",
         "days": "",
@@ -2609,34 +2609,6 @@
       "status": "OK"
     },
     {
-      "name": "Viasat 3",
-      "tvg": {
-        "id": "Viasat3.hu@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/ehx7R3A.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
-      },
-      "url": "http://88.212.15.19/live/viasat3/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Viasat3.hu@SD\" tvg-logo=\"https://i.imgur.com/ehx7R3A.png\" http-user-agent=\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36\" group-title=\"Undefined\",Viasat 3\r\r\n#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36\r\r\nhttp://88.212.15.19/live/viasat3/index.m3u8\r",
-      "line": 316,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Vásárhelyi Televízió (576p)",
       "tvg": {
         "id": "VasarhelyiTelevizio.hu@SD",
@@ -2656,6 +2628,34 @@
       "url": "https://stream.vasarhelyitelevizio.hu/stream/stream.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"VasarhelyiTelevizio.hu@SD\" tvg-logo=\"https://i.imgur.com/WOEqdmx.png\" group-title=\"General\",Vásárhelyi Televízió (576p)\r\r\nhttps://stream.vasarhelyitelevizio.hu/stream/stream.m3u8\r",
       "line": 311,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Viasat 3",
+      "tvg": {
+        "id": "Viasat3.hu@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/ehx7R3A.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+      },
+      "url": "http://88.212.15.19/live/viasat3/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Viasat3.hu@SD\" tvg-logo=\"https://i.imgur.com/ehx7R3A.png\" http-user-agent=\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36\" group-title=\"Undefined\",Viasat 3\r\r\n#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36\r\r\nhttp://88.212.15.19/live/viasat3/index.m3u8\r",
+      "line": 316,
       "catchup": {
         "type": "",
         "days": "",
