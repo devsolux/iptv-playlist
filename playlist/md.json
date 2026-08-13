@@ -145,34 +145,6 @@
       "status": "OK"
     },
     {
-      "name": "Privesc.Eu TV (2160p)",
-      "tvg": {
-        "id": "PrivescEuTV.md@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/ukBacSn.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Legislative"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://cachestar.privesc.eu/liniar/moldova/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"PrivescEuTV.md@SD\" tvg-logo=\"https://i.imgur.com/ukBacSn.png\" group-title=\"Legislative\",Privesc.Eu TV (2160p)\r\r\nhttps://cachestar.privesc.eu/liniar/moldova/playlist.m3u8\r",
-      "line": 32,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Moldova TV (1080p)",
       "tvg": {
         "id": "MoldovaTV.md@SD",
@@ -201,24 +173,52 @@
       "status": "OK"
     },
     {
-      "name": "Radio Moldova",
+      "name": "Privesc.Eu TV (2160p)",
       "tvg": {
-        "id": "RadioMoldova.md@SD",
+        "id": "PrivescEuTV.md@SD",
         "name": "",
-        "logo": "https://i.imgur.com/wNifDCo.png",
+        "logo": "https://i.imgur.com/ukBacSn.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "General"
+        "title": "Legislative"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://radiolive.trm.md/hls_rma/actualitati.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"RadioMoldova.md@SD\" tvg-logo=\"https://i.imgur.com/wNifDCo.png\" group-title=\"General\",Radio Moldova\r\r\nhttps://radiolive.trm.md/hls_rma/actualitati.m3u8\r",
+      "url": "https://cachestar.privesc.eu/liniar/moldova/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"PrivescEuTV.md@SD\" tvg-logo=\"https://i.imgur.com/ukBacSn.png\" group-title=\"Legislative\",Privesc.Eu TV (2160p)\r\r\nhttps://cachestar.privesc.eu/liniar/moldova/playlist.m3u8\r",
+      "line": 32,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Radio Chisinau (576p)",
+      "tvg": {
+        "id": "RadioChisinau.md@SD",
+        "name": "",
+        "logo": "https://static.wikia.nocookie.net/logopedia/images/5/56/Radio_Chi%C8%99in%C4%83u.svg",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Music"
+      },
+      "http": {
+        "referrer": "https://radiochisinau.md/",
+        "user-agent": ""
+      },
+      "url": "https://radiochisinau.md/hls/RChisinau.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"RadioChisinau.md@SD\" tvg-logo=\"https://static.wikia.nocookie.net/logopedia/images/5/56/Radio_Chi%C8%99in%C4%83u.svg\" http-referrer=\"https://radiochisinau.md/\" group-title=\"Music\",Radio Chisinau (576p)\r\r\n#EXTVLCOPT:http-referrer=https://radiochisinau.md/\r\r\nhttps://radiochisinau.md/hls/RChisinau.m3u8\r",
       "line": 36,
       "catchup": {
         "type": "",
@@ -257,6 +257,34 @@
       "status": "OK"
     },
     {
+      "name": "Radio Moldova",
+      "tvg": {
+        "id": "RadioMoldova.md@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/wNifDCo.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://radiolive.trm.md/hls_rma/actualitati.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"RadioMoldova.md@SD\" tvg-logo=\"https://i.imgur.com/wNifDCo.png\" group-title=\"General\",Radio Moldova\r\r\nhttps://radiolive.trm.md/hls_rma/actualitati.m3u8\r",
+      "line": 39,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Radio Moldova Muzical",
       "tvg": {
         "id": "RadioMoldovaMuzical.md@SD",
@@ -275,7 +303,7 @@
       },
       "url": "https://radiolive.trm.md:8001/hls_rmm/muzical.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"RadioMoldovaMuzical.md@SD\" tvg-logo=\"https://i.imgur.com/ZFHWst4.png\" group-title=\"Music\",Radio Moldova Muzical\r\r\nhttps://radiolive.trm.md:8001/hls_rmm/muzical.m3u8\r",
-      "line": 38,
+      "line": 41,
       "catchup": {
         "type": "",
         "days": "",
@@ -303,35 +331,7 @@
       },
       "url": "https://radiolive.trm.md:8001/hls_rmt/tineret.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"RadioMoldovaTineret.md@SD\" tvg-logo=\"https://i.imgur.com/h2oZuyc.png\" group-title=\"Entertainment\",Radio Moldova Tineret (1080p)\r\r\nhttps://radiolive.trm.md:8001/hls_rmt/tineret.m3u8\r",
-      "line": 40,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Sor TV (720p)",
-      "tvg": {
-        "id": "SorTV.md@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/BcfZgD8.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://188.237.212.16:8888/live/cameraFeed.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"SorTV.md@SD\" tvg-logo=\"https://i.imgur.com/BcfZgD8.png\" group-title=\"General\",Sor TV (720p)\r\r\nhttp://188.237.212.16:8888/live/cameraFeed.m3u8\r",
-      "line": 47,
+      "line": 43,
       "catchup": {
         "type": "",
         "days": "",
@@ -359,7 +359,35 @@
       },
       "url": "https://realitatealive.md/tv/rlive.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"RealitateaTV.md@SD\" tvg-logo=\"https://i.imgur.com/Ul4IIfX.png\" group-title=\"News\",Rlive TV (406p)\r\r\nhttps://realitatealive.md/tv/rlive.m3u8\r",
-      "line": 42,
+      "line": 45,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Sor TV (720p)",
+      "tvg": {
+        "id": "SorTV.md@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/BcfZgD8.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://188.237.212.16:8888/live/cameraFeed.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"SorTV.md@SD\" tvg-logo=\"https://i.imgur.com/BcfZgD8.png\" group-title=\"General\",Sor TV (720p)\r\r\nhttp://188.237.212.16:8888/live/cameraFeed.m3u8\r",
+      "line": 50,
       "catchup": {
         "type": "",
         "days": "",
@@ -387,7 +415,7 @@
       },
       "url": "https://vdo.ssl-stream.com:3247/stream/play.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TeleMoldovaPlus.ro@SD\" tvg-logo=\"https://i.imgur.com/8z0zLjw.jpeg\" group-title=\"News\",TeleMoldova + [Geo-blocked]\r\r\nhttps://vdo.ssl-stream.com:3247/stream/play.m3u8\r",
-      "line": 49,
+      "line": 52,
       "catchup": {
         "type": "",
         "days": "",
@@ -415,7 +443,7 @@
       },
       "url": "https://tezaurtv.md/stream/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TezaurTV.md@SD\" tvg-logo=\"https://i.imgur.com/eAagwLW.png\" group-title=\"Music\",Tezaur TV (576i)\r\r\nhttps://tezaurtv.md/stream/index.m3u8\r",
-      "line": 51,
+      "line": 54,
       "catchup": {
         "type": "",
         "days": "",
@@ -443,35 +471,7 @@
       },
       "url": "http://315e5a5d.ottrast.com/iptv/8KSD5KFDXA6H88/2454/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TV8.md@SD\" tvg-logo=\"https://i.imgur.com/Rsn4oUh.png\" group-title=\"Documentary;News\",TV8 [Not 24/7]\r\r\nhttp://315e5a5d.ottrast.com/iptv/8KSD5KFDXA6H88/2454/index.m3u8\r",
-      "line": 55,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "TSV (1080p)",
-      "tvg": {
-        "id": "TSV.md@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/6p4weSK.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://tsv.md/stream/hls/tsv-online/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TSV.md@SD\" tvg-logo=\"https://i.imgur.com/6p4weSK.png\" group-title=\"General\",TSV (1080p)\r\r\nhttps://tsv.md/stream/hls/tsv-online/index.m3u8\r",
-      "line": 53,
+      "line": 58,
       "catchup": {
         "type": "",
         "days": "",
@@ -499,7 +499,35 @@
       },
       "url": "https://tvr-moldova.lg.mncdn.com/tvrmoldova/smil:tvrmoldova.smil/chunklist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TVRMoldova.md@HD\" tvg-logo=\"https://i.imgur.com/wDe9gL2.png\" group-title=\"General\",TVR Moldova HD (1440p)\r\r\nhttps://tvr-moldova.lg.mncdn.com/tvrmoldova/smil:tvrmoldova.smil/chunklist.m3u8\r",
-      "line": 61,
+      "line": 62,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "TSV (1080p)",
+      "tvg": {
+        "id": "TSV.md@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/6p4weSK.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://tsv.md/stream/hls/tsv-online/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"TSV.md@SD\" tvg-logo=\"https://i.imgur.com/6p4weSK.png\" group-title=\"General\",TSV (1080p)\r\r\nhttps://tsv.md/stream/hls/tsv-online/index.m3u8\r",
+      "line": 56,
       "catchup": {
         "type": "",
         "days": "",
@@ -527,7 +555,7 @@
       },
       "url": "http://forever.megogo.xyz/iptv/QGB4M3H62GC7E3/2471/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"WeSportTV.md@SD\" tvg-logo=\"https://i.imgur.com/vJZgpOb.png\" group-title=\"Sports\",We Sport TV\r\r\nhttp://forever.megogo.xyz/iptv/QGB4M3H62GC7E3/2471/index.m3u8\r",
-      "line": 65,
+      "line": 66,
       "catchup": {
         "type": "",
         "days": "",
