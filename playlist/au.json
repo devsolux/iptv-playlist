@@ -1,11 +1,37 @@
 {
   "header": {
-    "attrs": {
-      "x-tvg-url": "https://raw.githubusercontent.com/StrangeDrVN/epg/public/guide.xml.gz"
-    },
-    "raw": "#EXTM3U x-tvg-url=\"https://raw.githubusercontent.com/StrangeDrVN/epg/public/guide.xml.gz\"\r"
+    "attrs": {},
+    "raw": "#EXTM3U\r"
   },
   "items": [
+    {
+      "name": "2GB Sydney (1080p)",
+      "tvg": {
+        "id": "2GB.au@SD",
+        "name": "",
+        "logo": "https://i.ibb.co/jwM8DFG/2GB-1.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "News"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://2gblive.akamaized.net/hls/live/2033805/2GB/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"2GB.au@SD\" tvg-logo=\"https://i.ibb.co/jwM8DFG/2GB-1.png\" group-title=\"News\",2GB Sydney (1080p)\r\r\nhttps://2gblive.akamaized.net/hls/live/2033805/2GB/index.m3u8\r",
+      "line": 2,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
     {
       "name": "10 Bold Adelaide (1080p)",
       "tvg": {
@@ -91,53 +117,25 @@
       "status": "OK"
     },
     {
-      "name": "2GB Sydney (1080p)",
+      "name": "ABC Entertains (720p)",
       "tvg": {
-        "id": "2GB.au@SD",
+        "id": "ABCEntertains.au@Sydney",
         "name": "",
-        "logo": "https://i.ibb.co/jwM8DFG/2GB-1.png",
+        "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/35/ABC_Entertains_logo.svg/960px-ABC_Entertains_logo.svg.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "News"
+        "title": "Education;Kids"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://2gblive.akamaized.net/hls/live/2033805/2GB/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"2GB.au@SD\" tvg-logo=\"https://i.ibb.co/jwM8DFG/2GB-1.png\" group-title=\"News\",2GB Sydney (1080p)\r\r\nhttps://2gblive.akamaized.net/hls/live/2033805/2GB/index.m3u8\r",
-      "line": 2,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "ABC News (720p)",
-      "tvg": {
-        "id": "ABCNews.au@Sydney",
-        "name": "",
-        "logo": "https://i.imgur.com/BrW7gk8.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "News"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://abc-news-dmd-streams-1.akamaized.net/out/v1/701126012d044971b3fa89406a440133/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"ABCNews.au@Sydney\" tvg-logo=\"https://i.imgur.com/BrW7gk8.png\" group-title=\"News\",ABC News (720p)\r\r\nhttps://abc-news-dmd-streams-1.akamaized.net/out/v1/701126012d044971b3fa89406a440133/index.m3u8\r",
-      "line": 22,
+      "url": "https://c.mjh.nz/abc-me.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"ABCEntertains.au@Sydney\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/en/thumb/3/35/ABC_Entertains_logo.svg/960px-ABC_Entertains_logo.svg.png\" group-title=\"Education;Kids\",ABC Entertains (720p)\r\r\nhttps://c.mjh.nz/abc-me.m3u8\r",
+      "line": 18,
       "catchup": {
         "type": "",
         "days": "",
@@ -175,25 +173,53 @@
       "status": "OK"
     },
     {
-      "name": "ABC Entertains (720p)",
+      "name": "ABC TV ACT (720p)",
       "tvg": {
-        "id": "ABCEntertains.au@Sydney",
+        "id": "ABCTV.au@ACT",
         "name": "",
-        "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/35/ABC_Entertains_logo.svg/960px-ABC_Entertains_logo.svg.png",
+        "logo": "https://i.imgur.com/DPVQSjM.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Education;Kids"
+        "title": "General"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://c.mjh.nz/abc-me.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"ABCEntertains.au@Sydney\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/en/thumb/3/35/ABC_Entertains_logo.svg/960px-ABC_Entertains_logo.svg.png\" group-title=\"Education;Kids\",ABC Entertains (720p)\r\r\nhttps://c.mjh.nz/abc-me.m3u8\r",
-      "line": 18,
+      "url": "https://c.mjh.nz/abc-act.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"ABCTV.au@ACT\" tvg-logo=\"https://i.imgur.com/DPVQSjM.png\" group-title=\"General\",ABC TV ACT (720p)\r\r\nhttps://c.mjh.nz/abc-act.m3u8\r",
+      "line": 24,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "ABC News (720p)",
+      "tvg": {
+        "id": "ABCNews.au@Sydney",
+        "name": "",
+        "logo": "https://i.imgur.com/BrW7gk8.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "News"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://abc-news-dmd-streams-1.akamaized.net/out/v1/701126012d044971b3fa89406a440133/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"ABCNews.au@Sydney\" tvg-logo=\"https://i.imgur.com/BrW7gk8.png\" group-title=\"News\",ABC News (720p)\r\r\nhttps://abc-news-dmd-streams-1.akamaized.net/out/v1/701126012d044971b3fa89406a440133/index.m3u8\r",
+      "line": 22,
       "catchup": {
         "type": "",
         "days": "",
@@ -231,34 +257,6 @@
       "status": "OK"
     },
     {
-      "name": "ABC TV ACT (720p)",
-      "tvg": {
-        "id": "ABCTV.au@ACT",
-        "name": "",
-        "logo": "https://i.imgur.com/DPVQSjM.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://c.mjh.nz/abc-act.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"ABCTV.au@ACT\" tvg-logo=\"https://i.imgur.com/DPVQSjM.png\" group-title=\"General\",ABC TV ACT (720p)\r\r\nhttps://c.mjh.nz/abc-act.m3u8\r",
-      "line": 24,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "ABC TV NT (720p)",
       "tvg": {
         "id": "ABCTV.au@NT",
@@ -278,34 +276,6 @@
       "url": "https://c.mjh.nz/abc-nt.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"ABCTV.au@NT\" tvg-logo=\"https://i.imgur.com/DPVQSjM.png\" group-title=\"General\",ABC TV NT (720p)\r\r\nhttps://c.mjh.nz/abc-nt.m3u8\r",
       "line": 28,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "ABC TV QLD (720p)",
-      "tvg": {
-        "id": "ABCTV.au@QLD",
-        "name": "",
-        "logo": "https://i.imgur.com/DPVQSjM.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://c.mjh.nz/abc-qld.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"ABCTV.au@QLD\" tvg-logo=\"https://i.imgur.com/DPVQSjM.png\" group-title=\"General\",ABC TV QLD (720p)\r\r\nhttps://c.mjh.nz/abc-qld.m3u8\r",
-      "line": 32,
       "catchup": {
         "type": "",
         "days": "",
@@ -343,9 +313,9 @@
       "status": "OK"
     },
     {
-      "name": "ABC TV TAS (720p)",
+      "name": "ABC TV QLD (720p)",
       "tvg": {
-        "id": "ABCTV.au@TAS",
+        "id": "ABCTV.au@QLD",
         "name": "",
         "logo": "https://i.imgur.com/DPVQSjM.png",
         "url": "",
@@ -359,9 +329,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://c.mjh.nz/abc-tas.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"ABCTV.au@TAS\" tvg-logo=\"https://i.imgur.com/DPVQSjM.png\" group-title=\"General\",ABC TV TAS (720p)\r\r\nhttps://c.mjh.nz/abc-tas.m3u8\r",
-      "line": 36,
+      "url": "https://c.mjh.nz/abc-qld.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"ABCTV.au@QLD\" tvg-logo=\"https://i.imgur.com/DPVQSjM.png\" group-title=\"General\",ABC TV QLD (720p)\r\r\nhttps://c.mjh.nz/abc-qld.m3u8\r",
+      "line": 32,
       "catchup": {
         "type": "",
         "days": "",
@@ -399,6 +369,34 @@
       "status": "OK"
     },
     {
+      "name": "ABC TV TAS (720p)",
+      "tvg": {
+        "id": "ABCTV.au@TAS",
+        "name": "",
+        "logo": "https://i.imgur.com/DPVQSjM.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://c.mjh.nz/abc-tas.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"ABCTV.au@TAS\" tvg-logo=\"https://i.imgur.com/DPVQSjM.png\" group-title=\"General\",ABC TV TAS (720p)\r\r\nhttps://c.mjh.nz/abc-tas.m3u8\r",
+      "line": 36,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Adventure Earth (1080p)",
       "tvg": {
         "id": "AdventureEarth.de@SD",
@@ -418,6 +416,34 @@
       "url": "https://a57e9c69976649b582a8d7604c00e69a.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RlaxxTV-eu_AdventureEarth/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"AdventureEarth.de@SD\" tvg-logo=\"https://d3b6luslimvglo.cloudfront.net/images/79/rlaxximages/channels-rescaled/icon-white/adventureearth_white.png\" group-title=\"Documentary\",Adventure Earth (1080p)\r\r\nhttps://a57e9c69976649b582a8d7604c00e69a.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RlaxxTV-eu_AdventureEarth/playlist.m3u8\r",
       "line": 42,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "ABC TV VIC (720p)",
+      "tvg": {
+        "id": "ABCTV.au@VIC",
+        "name": "",
+        "logo": "https://i.imgur.com/DPVQSjM.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://c.mjh.nz/abc-vic.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"ABCTV.au@VIC\" tvg-logo=\"https://i.imgur.com/DPVQSjM.png\" group-title=\"General\",ABC TV VIC (720p)\r\r\nhttps://c.mjh.nz/abc-vic.m3u8\r",
+      "line": 38,
       "catchup": {
         "type": "",
         "days": "",
@@ -595,11 +621,11 @@
       "status": "OK"
     },
     {
-      "name": "Channel 9 Adelaide (720p) [Geo-blocked]",
+      "name": "C31 Melbourne (240p)",
       "tvg": {
-        "id": "Channel9.au@Adelaide",
+        "id": "C31Melbourne.au@SD",
         "name": "",
-        "logo": "https://www.nineforbrands.com.au/wp-content/uploads/2025/06/9_BLUE.png",
+        "logo": "https://i.imgur.com/Ge1EutY.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -611,9 +637,37 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://9now-livestreams-fhd-t.akamaized.net/u/prod/simulcast/adl/ch9/hls/r1/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Channel9.au@Adelaide\" tvg-logo=\"https://www.nineforbrands.com.au/wp-content/uploads/2025/06/9_BLUE.png\" group-title=\"General\",Channel 9 Adelaide (720p) [Geo-blocked]\r\r\nhttps://9now-livestreams-fhd-t.akamaized.net/u/prod/simulcast/adl/ch9/hls/r1/index.m3u8\r",
-      "line": 60,
+      "url": "https://d1k6kax80wecy5.cloudfront.net/RLnAKY/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"C31Melbourne.au@SD\" tvg-logo=\"https://i.imgur.com/Ge1EutY.png\" group-title=\"General\",C31 Melbourne (240p)\r\r\nhttps://d1k6kax80wecy5.cloudfront.net/RLnAKY/index.m3u8\r",
+      "line": 54,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Channel 7 Melbourne",
+      "tvg": {
+        "id": "Channel7.au@Melbourne",
+        "name": "",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Seven_Network_logo.svg/500px-Seven_Network_logo.svg.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://44.32.200.142:5004/auto/v7",
+      "raw": "#EXTINF:-1 tvg-id=\"Channel7.au@Melbourne\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Seven_Network_logo.svg/500px-Seven_Network_logo.svg.png\" group-title=\"General\",Channel 7 Melbourne\r\r\nhttp://44.32.200.142:5004/auto/v7\r",
+      "line": 58,
       "catchup": {
         "type": "",
         "days": "",
@@ -651,11 +705,11 @@
       "status": "OK"
     },
     {
-      "name": "C31 Melbourne (240p)",
+      "name": "Channel 9 Adelaide (720p) [Geo-blocked]",
       "tvg": {
-        "id": "C31Melbourne.au@SD",
+        "id": "Channel9.au@Adelaide",
         "name": "",
-        "logo": "https://i.imgur.com/Ge1EutY.png",
+        "logo": "https://www.nineforbrands.com.au/wp-content/uploads/2025/06/9_BLUE.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -667,9 +721,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://d1k6kax80wecy5.cloudfront.net/RLnAKY/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"C31Melbourne.au@SD\" tvg-logo=\"https://i.imgur.com/Ge1EutY.png\" group-title=\"General\",C31 Melbourne (240p)\r\r\nhttps://d1k6kax80wecy5.cloudfront.net/RLnAKY/index.m3u8\r",
-      "line": 54,
+      "url": "https://9now-livestreams-fhd-t.akamaized.net/u/prod/simulcast/adl/ch9/hls/r1/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Channel9.au@Adelaide\" tvg-logo=\"https://www.nineforbrands.com.au/wp-content/uploads/2025/06/9_BLUE.png\" group-title=\"General\",Channel 9 Adelaide (720p) [Geo-blocked]\r\r\nhttps://9now-livestreams-fhd-t.akamaized.net/u/prod/simulcast/adl/ch9/hls/r1/index.m3u8\r",
+      "line": 60,
       "catchup": {
         "type": "",
         "days": "",
@@ -726,62 +780,6 @@
       "url": "https://9now-livestreams-fhd-t.akamaized.net/u/prod/simulcast/syd/ch9/hls/r1/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"Channel9.au@Sydney\" tvg-logo=\"https://www.nineforbrands.com.au/wp-content/uploads/2025/06/9_BLUE.png\" group-title=\"General\",Channel 9 Sydney (720p) [Geo-blocked]\r\r\nhttps://9now-livestreams-fhd-t.akamaized.net/u/prod/simulcast/syd/ch9/hls/r1/index.m3u8\r",
       "line": 66,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Channel 7 Melbourne",
-      "tvg": {
-        "id": "Channel7.au@Melbourne",
-        "name": "",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Seven_Network_logo.svg/500px-Seven_Network_logo.svg.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://44.32.200.142:5004/auto/v7",
-      "raw": "#EXTINF:-1 tvg-id=\"Channel7.au@Melbourne\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Seven_Network_logo.svg/500px-Seven_Network_logo.svg.png\" group-title=\"General\",Channel 7 Melbourne\r\r\nhttp://44.32.200.142:5004/auto/v7\r",
-      "line": 58,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Cricket Gold (1080p)",
-      "tvg": {
-        "id": "CricketGold.au@SD",
-        "name": "",
-        "logo": "https://resources.cricket-australia.pulselive.com/cricket-australia/photo/2025/07/25/836eddae-4329-4542-ad17-dcd37e9d951a/Cricket-Gold-1920x1080_noBG.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Sports"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://streams2.sofast.tv/ptnr-yupptv/title-cricketgold/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/b2048bb8-1686-4432-aa50-647245383e0c/manifest.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"CricketGold.au@SD\" tvg-logo=\"https://resources.cricket-australia.pulselive.com/cricket-australia/photo/2025/07/25/836eddae-4329-4542-ad17-dcd37e9d951a/Cricket-Gold-1920x1080_noBG.png\" group-title=\"Sports\",Cricket Gold (1080p)\r\r\nhttps://streams2.sofast.tv/ptnr-yupptv/title-cricketgold/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/b2048bb8-1686-4432-aa50-647245383e0c/manifest.m3u8\r",
-      "line": 70,
       "catchup": {
         "type": "",
         "days": "",
@@ -1565,7 +1563,7 @@
       },
       "url": "https://livecdn.use1-0004.jwplive.com/live/sites/Yal8cmyO/media/yfFI83Xz/live.isml/.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TBNInspire.us@SD\" tvg-logo=\"https://i.imgur.com/GSM0Pkr.png\" group-title=\"Religious\",TBN Inspire (1080p)\r\r\nhttps://livecdn.use1-0004.jwplive.com/live/sites/Yal8cmyO/media/yfFI83Xz/live.isml/.m3u8\r",
-      "line": 146,
+      "line": 144,
       "catchup": {
         "type": "",
         "days": "",
@@ -1593,7 +1591,7 @@
       },
       "url": "https://amg00426-littledotstudio-thechatshow-samsungnz-uqmtt.amagi.tv/playlist/amg00426-littledotstudio-thechatshow-samsungnz/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TheChatShowChannel.uk@SD\" tvg-logo=\"https://yt3.googleusercontent.com/aQ_vvywmcBt4X1SmeEMgT3uf7bb1Z__I9XVwabeg7RrSSEuIhswMlvwhyi0Wl4PlLHwXufLgOg=s900-c-k-c0x00ffffff-no-rj\" group-title=\"Comedy;Series\",The Chat Show Channel (1080p)\r\r\nhttps://amg00426-littledotstudio-thechatshow-samsungnz-uqmtt.amagi.tv/playlist/amg00426-littledotstudio-thechatshow-samsungnz/playlist.m3u8\r",
-      "line": 148,
+      "line": 146,
       "catchup": {
         "type": "",
         "days": "",
@@ -1621,7 +1619,7 @@
       },
       "url": "https://the-pet-collective-international-au.samsung.wurl.tv/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"ThePetCollective.us@Australia\" tvg-logo=\"https://i.imgur.com/yH7n2dF.png\" group-title=\"Family\",The Pet Collective International (720p)\r\r\nhttps://the-pet-collective-international-au.samsung.wurl.tv/playlist.m3u8\r",
-      "line": 150,
+      "line": 148,
       "catchup": {
         "type": "",
         "days": "",
@@ -1649,7 +1647,7 @@
       },
       "url": "https://amg01329-otterainc-toongoggles-samsungau-ad-4c.amagi.tv/playlist/amg01329-otterainc-toongoggles-samsungau/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"ToonGoggles.us@SD\" tvg-logo=\"https://i.imgur.com/JMnxswq.png\" group-title=\"Kids\",ToonGoggles (720p)\r\r\nhttps://amg01329-otterainc-toongoggles-samsungau-ad-4c.amagi.tv/playlist/amg01329-otterainc-toongoggles-samsungau/playlist.m3u8\r",
-      "line": 152,
+      "line": 150,
       "catchup": {
         "type": "",
         "days": "",
@@ -1677,7 +1675,7 @@
       },
       "url": "https://tvsnhlslivetest.akamaized.net/hls/live/2034711/TVSN-MSL4/master.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TVSN.au@SD\" tvg-logo=\"https://i.imgur.com/lmoAFm3.png\" group-title=\"Shop\",TVSN (1080p)\r\r\nhttps://tvsnhlslivetest.akamaized.net/hls/live/2034711/TVSN-MSL4/master.m3u8\r",
-      "line": 154,
+      "line": 152,
       "catchup": {
         "type": "",
         "days": "",
@@ -1705,7 +1703,7 @@
       },
       "url": "https://jukin-weatherspy-2-au.samsung.wurl.tv/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"WeatherSpy.au@SD\" tvg-logo=\"https://i.imgur.com/GTxN2nH.png\" group-title=\"Weather\",WeatherSpy (720p)\r\r\nhttps://jukin-weatherspy-2-au.samsung.wurl.tv/playlist.m3u8\r",
-      "line": 160,
+      "line": 156,
       "catchup": {
         "type": "",
         "days": "",
