@@ -1,11 +1,65 @@
 {
   "header": {
-    "attrs": {
-      "x-tvg-url": "https://raw.githubusercontent.com/StrangeDrVN/epg/public/guide.xml.gz"
-    },
-    "raw": "#EXTM3U x-tvg-url=\"https://raw.githubusercontent.com/StrangeDrVN/epg/public/guide.xml.gz\"\r"
+    "attrs": {},
+    "raw": "#EXTM3U\r"
   },
   "items": [
+    {
+      "name": "ATN Music (360p)",
+      "tvg": {
+        "id": "ATNMusic.bd@SD",
+        "name": "",
+        "logo": "https://www.jagobd.com/wp-content/uploads/2015/12/atnmusic.jpg?x50681",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Music"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/atnmusic.stream/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"ATNMusic.bd@SD\" tvg-logo=\"https://www.jagobd.com/wp-content/uploads/2015/12/atnmusic.jpg?x50681\" group-title=\"Music\",ATN Music (360p)\r\r\nhttps://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/atnmusic.stream/playlist.m3u8\r",
+      "line": 8,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "ATN Bangla (720p)",
+      "tvg": {
+        "id": "ATNBangla.bd@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/K1HmMRz.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://tvsen5.aynascope.net/atnbangla/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"ATNBangla.bd@SD\" tvg-logo=\"https://i.imgur.com/K1HmMRz.png\" group-title=\"General\",ATN Bangla (720p)\r\r\nhttp://tvsen5.aynascope.net/atnbangla/index.m3u8\r",
+      "line": 6,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
     {
       "name": "Aamar Bangla (720p)",
       "tvg": {
@@ -35,62 +89,6 @@
       "status": "OK"
     },
     {
-      "name": "ATN Music (360p)",
-      "tvg": {
-        "id": "ATNMusic.bd@SD",
-        "name": "",
-        "logo": "https://www.jagobd.com/wp-content/uploads/2015/12/atnmusic.jpg?x50681",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Music"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/atnmusic.stream/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"ATNMusic.bd@SD\" tvg-logo=\"https://www.jagobd.com/wp-content/uploads/2015/12/atnmusic.jpg?x50681\" group-title=\"Music\",ATN Music (360p)\r\r\nhttps://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/atnmusic.stream/playlist.m3u8\r",
-      "line": 10,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "ATN Bangla (720p)",
-      "tvg": {
-        "id": "ATNBangla.bd@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/K1HmMRz.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://tvsen5.aynaott.com/atnbangla/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"ATNBangla.bd@SD\" tvg-logo=\"https://i.imgur.com/K1HmMRz.png\" group-title=\"General\",ATN Bangla (720p)\r\r\nhttps://tvsen5.aynaott.com/atnbangla/index.m3u8\r",
-      "line": 8,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Azan TV",
       "tvg": {
         "id": "AzanTV.ca@SD",
@@ -109,6 +107,34 @@
       },
       "url": "https://dbcanada.sonarbanglatv.com/azantv/atv/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"AzanTV.ca@SD\" tvg-logo=\"https://i.imgur.com/JlqS6I4.jpeg\" group-title=\"Religious\",Azan TV\r\r\nhttps://dbcanada.sonarbanglatv.com/azantv/atv/index.m3u8\r",
+      "line": 10,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Boishakhi TV",
+      "tvg": {
+        "id": "BoishakhiTV.bd@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/gxL05Y4.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://boishakhi.sonarbanglatv.com/boishakhi/boishakhitv/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"BoishakhiTV.bd@SD\" tvg-logo=\"https://i.imgur.com/gxL05Y4.png\" group-title=\"General\",Boishakhi TV\r\r\nhttps://boishakhi.sonarbanglatv.com/boishakhi/boishakhitv/index.m3u8\r",
       "line": 14,
       "catchup": {
         "type": "",
@@ -137,7 +163,35 @@
       },
       "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/channels.stream/live-orgin/channels.stream/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"ChannelS.bd@SD\" tvg-logo=\"https://www.channels.com.bd/storage/project_files/logo/2024-05-14a_n17156821814310.png\" group-title=\"Culture\",Channel S\r\r\nhttps://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/channels.stream/live-orgin/channels.stream/playlist.m3u8\r",
-      "line": 36,
+      "line": 16,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Bangla Vision (720p)",
+      "tvg": {
+        "id": "BanglaVision.bd@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/nCWgp38.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://tvsen5.aynaott.com/banglavision/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"BanglaVision.bd@SD\" tvg-logo=\"https://i.imgur.com/nCWgp38.png\" group-title=\"General\",Bangla Vision (720p)\r\r\nhttps://tvsen5.aynaott.com/banglavision/index.m3u8\r",
+      "line": 12,
       "catchup": {
         "type": "",
         "days": "",
@@ -165,7 +219,7 @@
       },
       "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/chsukoff.stream/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"ChannelS.uk@SD\" tvg-logo=\"https://i.imgur.com/hJxFLvF.png\" group-title=\"Culture\",Channel S (576p)\r\r\nhttps://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/chsukoff.stream/playlist.m3u8\r",
-      "line": 38,
+      "line": 18,
       "catchup": {
         "type": "",
         "days": "",
@@ -193,7 +247,7 @@
       },
       "url": "https://deshitv.deshitv24.net/live/myStream/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"DeshiTV.ca@SD\" tvg-logo=\"https://i.imgur.com/PzqzgMm.png\" group-title=\"General\",Deshi TV (720p)\r\r\nhttps://deshitv.deshitv24.net/live/myStream/playlist.m3u8\r",
-      "line": 46,
+      "line": 22,
       "catchup": {
         "type": "",
         "days": "",
@@ -221,7 +275,35 @@
       },
       "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/greentv.stream/live-orgin/greentv.stream/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"GreenTV.bd@SD\" tvg-logo=\"https://www.jagobd.com/wp-content/uploads/2022/12/green-tv.jpg\" group-title=\"Family\",Green TV (1080p)\r\r\nhttps://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/greentv.stream/live-orgin/greentv.stream/playlist.m3u8\r",
-      "line": 62,
+      "line": 34,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Maasranga TV (720p)",
+      "tvg": {
+        "id": "MaasrangaTV.bd@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/uVZJMed.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Entertainment"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://tvsen5.aynascope.net/maasrangatv/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"MaasrangaTV.bd@SD\" tvg-logo=\"https://i.imgur.com/uVZJMed.png\" group-title=\"Entertainment\",Maasranga TV (720p)\r\r\nhttp://tvsen5.aynascope.net/maasrangatv/index.m3u8\r",
+      "line": 36,
       "catchup": {
         "type": "",
         "days": "",
@@ -249,7 +331,63 @@
       },
       "url": "http://alvetv.com/moviebanglatv/8080/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"MovieBangla.bd@SD\" tvg-logo=\"https://www.jagobd.com/wp-content/uploads/2016/02/moviebangla.jpg?x50681\" group-title=\"Movies\",Movie Bangla\r\r\nhttp://alvetv.com/moviebanglatv/8080/index.m3u8\r",
-      "line": 76,
+      "line": 40,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Ekushey TV (480p)",
+      "tvg": {
+        "id": "EkusheyTV.bd@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/lRpkGHj.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "News"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://ekusheyserver.com/etvlivesn.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"EkusheyTV.bd@SD\" tvg-logo=\"https://i.imgur.com/lRpkGHj.png\" group-title=\"News\",Ekushey TV (480p)\r\r\nhttps://ekusheyserver.com/etvlivesn.m3u8\r",
+      "line": 30,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "My TV",
+      "tvg": {
+        "id": "MyTV.bd@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/475qK5T.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/mytv-up-off.stream/live-orgin/mytv-up-off.stream/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"MyTV.bd@SD\" tvg-logo=\"https://i.imgur.com/475qK5T.png\" group-title=\"General\",My TV\r\r\nhttps://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/mytv-up-off.stream/live-orgin/mytv-up-off.stream/playlist.m3u8\r",
+      "line": 42,
       "catchup": {
         "type": "",
         "days": "",
@@ -277,7 +415,7 @@
       },
       "url": "https://streaming.madanichannel.tv/static/streaming-playlists/hls/d3e49b76-ac06-4689-a641-9200445b647f/master.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"MadaniChannelBangla.bd@SD\" tvg-logo=\"https://i.imgur.com/vIJTVia.png\" group-title=\"Religious\",Madani Channel Bangla (1080p)\r\r\nhttps://streaming.madanichannel.tv/static/streaming-playlists/hls/d3e49b76-ac06-4689-a641-9200445b647f/master.m3u8\r",
-      "line": 72,
+      "line": 38,
       "catchup": {
         "type": "",
         "days": "",
@@ -305,7 +443,7 @@
       },
       "url": "http://103.190.133.68:1935/news21live/live/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"News21BanglaTV.bd@SD\" tvg-logo=\"https://i.imgur.com/ijuJfmd.png\" group-title=\"News\",News 21 Bangla TV\r\r\nhttp://103.190.133.68:1935/news21live/live/playlist.m3u8\r",
-      "line": 86,
+      "line": 50,
       "catchup": {
         "type": "",
         "days": "",
@@ -315,25 +453,25 @@
       "status": "OK"
     },
     {
-      "name": "Peace TV Bangla (1080p)",
+      "name": "NTV (720p)",
       "tvg": {
-        "id": "PeaceTVBangla.ae@SD",
+        "id": "NTV.bd@SD",
         "name": "",
-        "logo": "https://i.imgur.com/1ztVXUi.png",
+        "logo": "https://i.imgur.com/l75bDTx.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Religious"
+        "title": "General"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://dzkyvlfyge.erbvr.com/PeaceTvBangla/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"PeaceTVBangla.ae@SD\" tvg-logo=\"https://i.imgur.com/1ztVXUi.png\" group-title=\"Religious\",Peace TV Bangla (1080p)\r\r\nhttps://dzkyvlfyge.erbvr.com/PeaceTvBangla/index.m3u8\r",
-      "line": 92,
+      "url": "https://tvsen5.aynaott.com/xV4jEKf3D9zc/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"NTV.bd@SD\" tvg-logo=\"https://i.imgur.com/l75bDTx.png\" group-title=\"General\",NTV (720p)\r\r\nhttps://tvsen5.aynaott.com/xV4jEKf3D9zc/index.m3u8\r",
+      "line": 52,
       "catchup": {
         "type": "",
         "days": "",
@@ -361,7 +499,63 @@
       },
       "url": "http://158.69.24.53:8080/probashi_tv/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"ProbashiTVNews.ca@SD\" tvg-logo=\"https://i.imgur.com/7oTsfQ4.png\" group-title=\"News\",Probashi TV News (1080p)\r\r\nhttp://158.69.24.53:8080/probashi_tv/index.m3u8\r",
-      "line": 94,
+      "line": 56,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Peace TV Bangla (1080p)",
+      "tvg": {
+        "id": "PeaceTVBangla.ae@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/1ztVXUi.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Religious"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://dzkyvlfyge.erbvr.com/PeaceTvBangla/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"PeaceTVBangla.ae@SD\" tvg-logo=\"https://i.imgur.com/1ztVXUi.png\" group-title=\"Religious\",Peace TV Bangla (1080p)\r\r\nhttps://dzkyvlfyge.erbvr.com/PeaceTvBangla/index.m3u8\r",
+      "line": 54,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "RTV (720p)",
+      "tvg": {
+        "id": "RTV.bd@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/yu8ugqt.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://tvsen5.aynascope.net/RtvHD/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"RTV.bd@SD\" tvg-logo=\"https://i.imgur.com/yu8ugqt.png\" group-title=\"General\",RTV (720p)\r\r\nhttp://tvsen5.aynascope.net/RtvHD/index.m3u8\r",
+      "line": 60,
       "catchup": {
         "type": "",
         "days": "",
@@ -389,63 +583,7 @@
       },
       "url": "https://stream.shariarsuvo.com/hls5/rajdhanicable.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"RajdhaniTV.bd@SD\" tvg-logo=\"https://i.imgur.com/MBm2gPz.jpeg\" group-title=\"General\",Rajdhani TV (1080p)\r\r\nhttps://stream.shariarsuvo.com/hls5/rajdhanicable.m3u8\r",
-      "line": 96,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "T Sports (1080p)",
-      "tvg": {
-        "id": "TSports.bd@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/2JzlorD.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Sports"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://tvsen5.aynaott.com/TnMn5kZz8aLm/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TSports.bd@SD\" tvg-logo=\"https://i.imgur.com/2JzlorD.png\" group-title=\"Sports\",T Sports (1080p)\r\r\nhttps://tvsen5.aynaott.com/TnMn5kZz8aLm/index.m3u8\r",
-      "line": 112,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Zee Bangla Sonar (576p)",
-      "tvg": {
-        "id": "ZeeBanglaSonar.in@SD",
-        "name": "",
-        "logo": "https://dtil.tmsimg.com/assets/GNLZZGG00287G7K.png?lock=720x540",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Entertainment"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/ColorsHD/default/ColorsHD.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"ZeeBanglaSonar.in@SD\" tvg-logo=\"https://dtil.tmsimg.com/assets/GNLZZGG00287G7K.png?lock=720x540\" group-title=\"Entertainment\",Zee Bangla Sonar (576p)\r\r\nhttps://d1g8wgjurz8via.cloudfront.net/bpk-tv/ColorsHD/default/ColorsHD.m3u8\r",
-      "line": 118,
+      "line": 58,
       "catchup": {
         "type": "",
         "days": "",
@@ -473,7 +611,63 @@
       },
       "url": "https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/YuppTV/ZeeBanglaHD.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"ZeeBangla.in@HD\" tvg-logo=\"https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_BANGLA/images/LOGO_HD/LOGO_HD_image.png\" group-title=\"Entertainment\",Zee Bangla HD (720p)\r\r\nhttps://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/YuppTV/ZeeBanglaHD.m3u8\r",
-      "line": 116,
+      "line": 68,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Zee Bangla Sonar (576p)",
+      "tvg": {
+        "id": "ZeeBanglaSonar.in@SD",
+        "name": "",
+        "logo": "https://dtil.tmsimg.com/assets/GNLZZGG00287G7K.png?lock=720x540",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Entertainment"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/ColorsHD/default/ColorsHD.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"ZeeBanglaSonar.in@SD\" tvg-logo=\"https://dtil.tmsimg.com/assets/GNLZZGG00287G7K.png?lock=720x540\" group-title=\"Entertainment\",Zee Bangla Sonar (576p)\r\r\nhttps://d1g8wgjurz8via.cloudfront.net/bpk-tv/ColorsHD/default/ColorsHD.m3u8\r",
+      "line": 70,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "T Sports (1080p)",
+      "tvg": {
+        "id": "TSports.bd@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/2JzlorD.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Sports"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://tvsen5.aynaott.com/TnMn5kZz8aLm/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"TSports.bd@SD\" tvg-logo=\"https://i.imgur.com/2JzlorD.png\" group-title=\"Sports\",T Sports (1080p)\r\r\nhttps://tvsen5.aynaott.com/TnMn5kZz8aLm/index.m3u8\r",
+      "line": 64,
       "catchup": {
         "type": "",
         "days": "",
