@@ -61,34 +61,6 @@
       "status": "OK"
     },
     {
-      "name": "aurLife HD (614p)",
-      "tvg": {
-        "id": "aurLifeHD.pk@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/GfWLn3O.jpg",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://124.109.47.101/hls/stream1.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"aurLifeHD.pk@SD\" tvg-logo=\"https://i.imgur.com/GfWLn3O.jpg\" group-title=\"General\",aurLife HD (614p)\r\r\nhttp://124.109.47.101/hls/stream1.m3u8\r",
-      "line": 25,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "BSTV (576p)",
       "tvg": {
         "id": "BSTV.pk@SD",
@@ -108,6 +80,34 @@
       "url": "https://lbgo.bozztv.com/ssh101/ssh101/bstv/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"BSTV.pk@SD\" tvg-logo=\"https://www.vivalivetv.com/public/files/shows/0/1/3952-640x360-FFFFFF.jpg\" group-title=\"General\",BSTV (576p)\r\r\nhttps://lbgo.bozztv.com/ssh101/ssh101/bstv/playlist.m3u8\r",
       "line": 31,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "aurLife HD (614p)",
+      "tvg": {
+        "id": "aurLifeHD.pk@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/GfWLn3O.jpg",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://124.109.47.101/hls/stream1.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"aurLifeHD.pk@SD\" tvg-logo=\"https://i.imgur.com/GfWLn3O.jpg\" group-title=\"General\",aurLife HD (614p)\r\r\nhttp://124.109.47.101/hls/stream1.m3u8\r",
+      "line": 25,
       "catchup": {
         "type": "",
         "days": "",
@@ -313,25 +313,25 @@
       "status": "OK"
     },
     {
-      "name": "God Stands TV",
+      "name": "God Stands Kids Club TV English",
       "tvg": {
-        "id": "GodStandsTV.pk@Main",
+        "id": "GodStandsKidsClubTV.pk@English",
         "name": "",
-        "logo": "https://i.imgur.com/EO6cYUI.png",
+        "logo": "https://i.imgur.com/FxDBbpz.jpeg",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Religious"
+        "title": "Kids;Religious"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://online.godstands.tv:5443/WebRTCApp/streams/mainlive.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"GodStandsTV.pk@Main\" tvg-logo=\"https://i.imgur.com/EO6cYUI.png\" group-title=\"Religious\",God Stands TV\r\r\nhttps://online.godstands.tv:5443/WebRTCApp/streams/mainlive.m3u8\r",
-      "line": 55,
+      "url": "https://online.godstands.tv:5443/WebRTCApp/streams/kidsenglish.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"GodStandsKidsClubTV.pk@English\" tvg-logo=\"https://i.imgur.com/FxDBbpz.jpeg\" group-title=\"Kids;Religious\",God Stands Kids Club TV English\r\r\nhttps://online.godstands.tv:5443/WebRTCApp/streams/kidsenglish.m3u8\r",
+      "line": 51,
       "catchup": {
         "type": "",
         "days": "",
@@ -369,6 +369,34 @@
       "status": "OK"
     },
     {
+      "name": "God Stands TV",
+      "tvg": {
+        "id": "GodStandsTV.pk@Main",
+        "name": "",
+        "logo": "https://i.imgur.com/EO6cYUI.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Religious"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://online.godstands.tv:5443/WebRTCApp/streams/mainlive.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"GodStandsTV.pk@Main\" tvg-logo=\"https://i.imgur.com/EO6cYUI.png\" group-title=\"Religious\",God Stands TV\r\r\nhttps://online.godstands.tv:5443/WebRTCApp/streams/mainlive.m3u8\r",
+      "line": 55,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "God Stands TV Chinese",
       "tvg": {
         "id": "GodStandsTV.pk@Chinese",
@@ -388,34 +416,6 @@
       "url": "https://online.godstands.tv:5443/WebRTCApp/streams/chineselive.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"GodStandsTV.pk@Chinese\" tvg-logo=\"https://i.imgur.com/EO6cYUI.png\" group-title=\"Religious\",God Stands TV Chinese\r\r\nhttps://online.godstands.tv:5443/WebRTCApp/streams/chineselive.m3u8\r",
       "line": 59,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "God Stands TV English",
-      "tvg": {
-        "id": "GodStandsTV.pk@English",
-        "name": "",
-        "logo": "https://i.imgur.com/EO6cYUI.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Religious"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://online.godstands.tv:5443/WebRTCApp/streams/EnglishStreaming.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"GodStandsTV.pk@English\" tvg-logo=\"https://i.imgur.com/EO6cYUI.png\" group-title=\"Religious\",God Stands TV English\r\r\nhttps://online.godstands.tv:5443/WebRTCApp/streams/EnglishStreaming.m3u8\r",
-      "line": 61,
       "catchup": {
         "type": "",
         "days": "",
@@ -453,9 +453,9 @@
       "status": "OK"
     },
     {
-      "name": "God Stands TV Tagalog",
+      "name": "God Stands TV English",
       "tvg": {
-        "id": "GodStandsTV.pk@Tagalog",
+        "id": "GodStandsTV.pk@English",
         "name": "",
         "logo": "https://i.imgur.com/EO6cYUI.png",
         "url": "",
@@ -469,9 +469,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://online.godstands.tv:5443/WebRTCApp/streams/Tagalog.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"GodStandsTV.pk@Tagalog\" tvg-logo=\"https://i.imgur.com/EO6cYUI.png\" group-title=\"Religious\",God Stands TV Tagalog\r\r\nhttps://online.godstands.tv:5443/WebRTCApp/streams/Tagalog.m3u8\r",
-      "line": 67,
+      "url": "https://online.godstands.tv:5443/WebRTCApp/streams/EnglishStreaming.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"GodStandsTV.pk@English\" tvg-logo=\"https://i.imgur.com/EO6cYUI.png\" group-title=\"Religious\",God Stands TV English\r\r\nhttps://online.godstands.tv:5443/WebRTCApp/streams/EnglishStreaming.m3u8\r",
+      "line": 61,
       "catchup": {
         "type": "",
         "days": "",
@@ -528,6 +528,34 @@
       "url": "https://online.godstands.tv:5443/WebRTCApp/streams/UrduStreaming.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"GodStandsTV.pk@Urdu\" tvg-logo=\"https://i.imgur.com/EO6cYUI.png\" group-title=\"Religious\",God Stands TV Urdu\r\r\nhttps://online.godstands.tv:5443/WebRTCApp/streams/UrduStreaming.m3u8\r",
       "line": 69,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "God Stands TV Tagalog",
+      "tvg": {
+        "id": "GodStandsTV.pk@Tagalog",
+        "name": "",
+        "logo": "https://i.imgur.com/EO6cYUI.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Religious"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://online.godstands.tv:5443/WebRTCApp/streams/Tagalog.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"GodStandsTV.pk@Tagalog\" tvg-logo=\"https://i.imgur.com/EO6cYUI.png\" group-title=\"Religious\",God Stands TV Tagalog\r\r\nhttps://online.godstands.tv:5443/WebRTCApp/streams/Tagalog.m3u8\r",
+      "line": 67,
       "catchup": {
         "type": "",
         "days": "",
@@ -621,6 +649,34 @@
       "status": "OK"
     },
     {
+      "name": "Jeremiah TV",
+      "tvg": {
+        "id": "JeremiahTV.pk@SD",
+        "name": "",
+        "logo": "https://raw.githubusercontent.com/songwenhui239/Songwenhui239/refs/heads/main/Jeremiah%20TV.jpeg",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://x.streamablecloud.com/stream/hls/jeremiahtv/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"JeremiahTV.pk@SD\" tvg-logo=\"https://raw.githubusercontent.com/songwenhui239/Songwenhui239/refs/heads/main/Jeremiah%20TV.jpeg\" group-title=\"General\",Jeremiah TV\r\r\nhttps://x.streamablecloud.com/stream/hls/jeremiahtv/index.m3u8\r",
+      "line": 81,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Joshua TV (720p)",
       "tvg": {
         "id": "JoshuaTV.pk@SD",
@@ -668,34 +724,6 @@
       "url": "https://streamer12.vdn.dstreamone.net/kingtv/kingtv/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"KingTV.pk@SD\" tvg-logo=\"https://i.imgur.com/dujrwRE.png\" group-title=\"Religious\",King TV (720p) [Not 24/7]\r\r\nhttps://streamer12.vdn.dstreamone.net/kingtv/kingtv/playlist.m3u8\r",
       "line": 91,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Jeremiah TV",
-      "tvg": {
-        "id": "JeremiahTV.pk@SD",
-        "name": "",
-        "logo": "https://raw.githubusercontent.com/songwenhui239/Songwenhui239/refs/heads/main/Jeremiah%20TV.jpeg",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://x.streamablecloud.com/stream/hls/jeremiahtv/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"JeremiahTV.pk@SD\" tvg-logo=\"https://raw.githubusercontent.com/songwenhui239/Songwenhui239/refs/heads/main/Jeremiah%20TV.jpeg\" group-title=\"General\",Jeremiah TV\r\r\nhttps://x.streamablecloud.com/stream/hls/jeremiahtv/index.m3u8\r",
-      "line": 81,
       "catchup": {
         "type": "",
         "days": "",
@@ -808,34 +836,6 @@
       "url": "https://cdn.rabta.stream/M-Sports/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"MSports.pk@SD\" tvg-logo=\"https://msports.pk/wp-content/uploads/2026/02/m-sports-300.png\" group-title=\"Sports\",M Sports (1080p)\r\r\nhttps://cdn.rabta.stream/M-Sports/index.m3u8\r",
       "line": 105,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Madani Channel English (720p)",
-      "tvg": {
-        "id": "MadaniChannelEnglish.pk@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/Abi9j0A.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Religious"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://tvsen7.aynascope.net/MadaniTV/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"MadaniChannelEnglish.pk@SD\" tvg-logo=\"https://i.imgur.com/Abi9j0A.png\" group-title=\"Religious\",Madani Channel English (720p)\r\r\nhttp://tvsen7.aynascope.net/MadaniTV/index.m3u8\r",
-      "line": 107,
       "catchup": {
         "type": "",
         "days": "",
@@ -1060,6 +1060,34 @@
       "url": "https://video.primexsports.com/suchnews/live/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"SuchTV.pk@SD\" tvg-logo=\"https://i.imgur.com/yYMh3JJ.png\" group-title=\"News\",Such TV\r\r\nhttps://video.primexsports.com/suchnews/live/playlist.m3u8\r",
       "line": 173,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Zindagi TV (576p) [Not 24/7]",
+      "tvg": {
+        "id": "ZindagiTV.pk@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/XBHvR5J.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://5ad386ff92705.streamlock.net/live_transcoder/ngrp:zindagitv.stream_all/chunklist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"ZindagiTV.pk@SD\" tvg-logo=\"https://i.imgur.com/XBHvR5J.png\" group-title=\"Undefined\",Zindagi TV (576p) [Not 24/7]\r\r\nhttps://5ad386ff92705.streamlock.net/live_transcoder/ngrp:zindagitv.stream_all/chunklist.m3u8\r",
+      "line": 189,
       "catchup": {
         "type": "",
         "days": "",
