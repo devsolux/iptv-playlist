@@ -5,11 +5,11 @@
   },
   "items": [
     {
-      "name": "Al Maghribia (1080p)",
+      "name": "2M Monde (360p)",
       "tvg": {
-        "id": "AlMaghribia.ma@SD",
+        "id": "2MMonde.ma@SD",
         "name": "",
-        "logo": "https://i.imgur.com/7GaahYh.png",
+        "logo": "https://i.imgur.com/MvpntzA.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -18,12 +18,12 @@
         "title": "General"
       },
       "http": {
-        "referrer": "",
-        "user-agent": ""
+        "referrer": "http://www.radio2m.ma/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0"
       },
-      "url": "http://185.9.2.18/chid_205/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"AlMaghribia.ma@SD\" tvg-logo=\"https://i.imgur.com/7GaahYh.png\" group-title=\"General\",Al Maghribia (1080p)\r\r\nhttp://185.9.2.18/chid_205/index.m3u8\r",
-      "line": 10,
+      "url": "https://cdn-globecast.akamaized.net/live/eds/2m_monde/hls_video_ts_tuhawxpiemz257adfc/2m_monde.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"2MMonde.ma@SD\" tvg-logo=\"https://i.imgur.com/MvpntzA.png\" http-referrer=\"http://www.radio2m.ma/\" http-user-agent=\"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0\" group-title=\"General\",2M Monde (360p)\r\r\n#EXTVLCOPT:http-referrer=http://www.radio2m.ma/\r\r\n#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0\r\r\nhttps://cdn-globecast.akamaized.net/live/eds/2m_monde/hls_video_ts_tuhawxpiemz257adfc/2m_monde.m3u8\r",
+      "line": 4,
       "catchup": {
         "type": "",
         "days": "",
@@ -89,6 +89,34 @@
       "status": "OK"
     },
     {
+      "name": "Al Maghribia (1080p)",
+      "tvg": {
+        "id": "AlMaghribia.ma@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/7GaahYh.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://185.9.2.18/chid_205/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"AlMaghribia.ma@SD\" tvg-logo=\"https://i.imgur.com/7GaahYh.png\" group-title=\"General\",Al Maghribia (1080p)\r\r\nhttp://185.9.2.18/chid_205/index.m3u8\r",
+      "line": 10,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Arryadia",
       "tvg": {
         "id": "Arryadia.ma@SD",
@@ -117,25 +145,53 @@
       "status": "OK"
     },
     {
-      "name": "2M Monde (360p)",
+      "name": "MBC 5 (1080p)",
       "tvg": {
-        "id": "2MMonde.ma@SD",
+        "id": "MBC5.ae@SD",
         "name": "",
-        "logo": "https://i.imgur.com/MvpntzA.png",
+        "logo": "https://i.imgur.com/fRWaDyF.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "General"
+        "title": "Family"
       },
       "http": {
-        "referrer": "http://www.radio2m.ma/",
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0"
+        "referrer": "",
+        "user-agent": ""
       },
-      "url": "https://cdn-globecast.akamaized.net/live/eds/2m_monde/hls_video_ts_tuhawxpiemz257adfc/2m_monde.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"2MMonde.ma@SD\" tvg-logo=\"https://i.imgur.com/MvpntzA.png\" http-referrer=\"http://www.radio2m.ma/\" http-user-agent=\"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0\" group-title=\"General\",2M Monde (360p)\r\r\n#EXTVLCOPT:http-referrer=http://www.radio2m.ma/\r\r\n#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0\r\r\nhttps://cdn-globecast.akamaized.net/live/eds/2m_monde/hls_video_ts_tuhawxpiemz257adfc/2m_monde.m3u8\r",
-      "line": 4,
+      "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-5/ee6b000cee0629411b666ab26cb13e9b/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"MBC5.ae@SD\" tvg-logo=\"https://i.imgur.com/fRWaDyF.png\" group-title=\"Family\",MBC 5 (1080p)\r\r\nhttps://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-5/ee6b000cee0629411b666ab26cb13e9b/index.m3u8\r",
+      "line": 18,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Medi 1 TV Maghreb (1080p)",
+      "tvg": {
+        "id": "Medi1TVMaghreb.ma@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/F5OFQsp.jpeg",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "News"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://cdn.live.easybroadcast.io/abr_corp/83_medi1tv-maghreb_jnbspmg/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Medi1TVMaghreb.ma@SD\" tvg-logo=\"https://i.imgur.com/F5OFQsp.jpeg\" group-title=\"News\",Medi 1 TV Maghreb (1080p)\r\r\nhttps://cdn.live.easybroadcast.io/abr_corp/83_medi1tv-maghreb_jnbspmg/playlist.m3u8\r",
+      "line": 24,
       "catchup": {
         "type": "",
         "days": "",
@@ -220,62 +276,6 @@
       "url": "https://edge13.vedge.infomaniak.com/livecast/ik:chadatv/manifest.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"ChadaTV.ma@SD\" tvg-logo=\"https://freebox.cdn.scw.iliad.fr/medium_Logo_chada_tv_2ee1412d38.png\" group-title=\"General\",Chada TV (720p)\r\r\nhttps://edge13.vedge.infomaniak.com/livecast/ik:chadatv/manifest.m3u8\r",
       "line": 14,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Medi 1 TV Maghreb (1080p)",
-      "tvg": {
-        "id": "Medi1TVMaghreb.ma@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/F5OFQsp.jpeg",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "News"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://cdn.live.easybroadcast.io/abr_corp/83_medi1tv-maghreb_jnbspmg/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Medi1TVMaghreb.ma@SD\" tvg-logo=\"https://i.imgur.com/F5OFQsp.jpeg\" group-title=\"News\",Medi 1 TV Maghreb (1080p)\r\r\nhttps://cdn.live.easybroadcast.io/abr_corp/83_medi1tv-maghreb_jnbspmg/playlist.m3u8\r",
-      "line": 24,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "MBC 5 (1080p)",
-      "tvg": {
-        "id": "MBC5.ae@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/fRWaDyF.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Family"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-5/ee6b000cee0629411b666ab26cb13e9b/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"MBC5.ae@SD\" tvg-logo=\"https://i.imgur.com/fRWaDyF.png\" group-title=\"Family\",MBC 5 (1080p)\r\r\nhttps://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-5/ee6b000cee0629411b666ab26cb13e9b/index.m3u8\r",
-      "line": 18,
       "catchup": {
         "type": "",
         "days": "",
