@@ -5,6 +5,34 @@
   },
   "items": [
     {
+      "name": "CNA (1080p)",
+      "tvg": {
+        "id": "CNA.al@SD",
+        "name": "",
+        "logo": "https://codeit.al/wp-content/uploads/2020/08/cna.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "News"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://live1.mediadesk.al/cnatvlive.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"CNA.al@SD\" tvg-logo=\"https://codeit.al/wp-content/uploads/2020/08/cna.png\" group-title=\"News\",CNA (1080p)\r\r\nhttps://live1.mediadesk.al/cnatvlive.m3u8\r",
+      "line": 6,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "AlbKanale Music TV (1080p)",
       "tvg": {
         "id": "AlbKanaleMusicTV.al@HD",
@@ -33,11 +61,11 @@
       "status": "OK"
     },
     {
-      "name": "CNA (1080p)",
+      "name": "Panorama TV",
       "tvg": {
-        "id": "CNA.al@SD",
+        "id": "PanoramaTV.al@SD",
         "name": "",
-        "logo": "https://codeit.al/wp-content/uploads/2020/08/cna.png",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Panorama_logo.svg/960px-Panorama_logo.svg.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -49,9 +77,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://live1.mediadesk.al/cnatvlive.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"CNA.al@SD\" tvg-logo=\"https://codeit.al/wp-content/uploads/2020/08/cna.png\" group-title=\"News\",CNA (1080p)\r\r\nhttps://live1.mediadesk.al/cnatvlive.m3u8\r",
-      "line": 6,
+      "url": "https://159.69.221.56/panorama/livestream/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"PanoramaTV.al@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Panorama_logo.svg/960px-Panorama_logo.svg.png\" group-title=\"News\",Panorama TV\r\r\nhttps://159.69.221.56/panorama/livestream/playlist.m3u8\r",
+      "line": 22,
       "catchup": {
         "type": "",
         "days": "",
@@ -89,34 +117,6 @@
       "status": "OK"
     },
     {
-      "name": "ntv (720p)",
-      "tvg": {
-        "id": "ntv.al@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/gtZLzxq.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "News"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://protokolldns.xyz/ntv.l.i.v.e5547892023/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"ntv.al@SD\" tvg-logo=\"https://i.imgur.com/gtZLzxq.png\" group-title=\"News\",ntv (720p)\r\r\nhttps://protokolldns.xyz/ntv.l.i.v.e5547892023/index.m3u8\r",
-      "line": 18,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Ora News (720p)",
       "tvg": {
         "id": "OraNews.al@SD",
@@ -145,11 +145,11 @@
       "status": "OK"
     },
     {
-      "name": "Panorama TV",
+      "name": "ntv (720p)",
       "tvg": {
-        "id": "PanoramaTV.al@SD",
+        "id": "ntv.al@SD",
         "name": "",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Panorama_logo.svg/960px-Panorama_logo.svg.png",
+        "logo": "https://i.imgur.com/gtZLzxq.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -161,9 +161,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://159.69.221.56/panorama/livestream/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"PanoramaTV.al@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Panorama_logo.svg/960px-Panorama_logo.svg.png\" group-title=\"News\",Panorama TV\r\r\nhttps://159.69.221.56/panorama/livestream/playlist.m3u8\r",
-      "line": 22,
+      "url": "https://protokolldns.xyz/ntv.l.i.v.e5547892023/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"ntv.al@SD\" tvg-logo=\"https://i.imgur.com/gtZLzxq.png\" group-title=\"News\",ntv (720p)\r\r\nhttps://protokolldns.xyz/ntv.l.i.v.e5547892023/index.m3u8\r",
+      "line": 18,
       "catchup": {
         "type": "",
         "days": "",
@@ -220,34 +220,6 @@
       "url": "https://live.prostream.al/al/smil:tropojatv.smil/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TropojaTelevizion.al@SD\" tvg-logo=\"https://i.imgur.com/D3hNOVS.png\" group-title=\"General\",Tropoja Televizion\r\r\nhttps://live.prostream.al/al/smil:tropojatv.smil/playlist.m3u8\r",
       "line": 44,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "TV 7 Albania",
-      "tvg": {
-        "id": "TV7Albania.al@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/tL1n9mh.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Religious"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://vs.sednastream.com:1936/tv7/tv7/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TV7Albania.al@SD\" tvg-logo=\"https://i.imgur.com/tL1n9mh.png\" group-title=\"Religious\",TV 7 Albania\r\r\nhttps://vs.sednastream.com:1936/tv7/tv7/playlist.m3u8\r",
-      "line": 46,
       "catchup": {
         "type": "",
         "days": "",
