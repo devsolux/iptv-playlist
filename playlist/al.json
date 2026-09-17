@@ -5,34 +5,6 @@
   },
   "items": [
     {
-      "name": "CNA (1080p)",
-      "tvg": {
-        "id": "CNA.al@SD",
-        "name": "",
-        "logo": "https://codeit.al/wp-content/uploads/2020/08/cna.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "News"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://live1.mediadesk.al/cnatvlive.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"CNA.al@SD\" tvg-logo=\"https://codeit.al/wp-content/uploads/2020/08/cna.png\" group-title=\"News\",CNA (1080p)\r\r\nhttps://live1.mediadesk.al/cnatvlive.m3u8\r",
-      "line": 6,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "AlbKanale Music TV (1080p)",
       "tvg": {
         "id": "AlbKanaleMusicTV.al@HD",
@@ -61,11 +33,11 @@
       "status": "OK"
     },
     {
-      "name": "News 24 Albania (392p)",
+      "name": "CNA (1080p)",
       "tvg": {
-        "id": "News24.al@SD",
+        "id": "CNA.al@SD",
         "name": "",
-        "logo": "https://i.imgur.com/eG33jue.png",
+        "logo": "https://codeit.al/wp-content/uploads/2020/08/cna.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -77,9 +49,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "http://tv.balkanweb.com:8081/news24/livestream/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"News24.al@SD\" tvg-logo=\"https://i.imgur.com/eG33jue.png\" group-title=\"News\",News 24 Albania (392p)\r\r\nhttp://tv.balkanweb.com:8081/news24/livestream/playlist.m3u8\r",
-      "line": 16,
+      "url": "https://live1.mediadesk.al/cnatvlive.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"CNA.al@SD\" tvg-logo=\"https://codeit.al/wp-content/uploads/2020/08/cna.png\" group-title=\"News\",CNA (1080p)\r\r\nhttps://live1.mediadesk.al/cnatvlive.m3u8\r",
+      "line": 6,
       "catchup": {
         "type": "",
         "days": "",
@@ -89,25 +61,25 @@
       "status": "OK"
     },
     {
-      "name": "Ora News (720p)",
+      "name": "Fieri Tv (720p)",
       "tvg": {
-        "id": "OraNews.al@SD",
+        "id": "FieriTv.al@HD",
         "name": "",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Ora_News_%28Albania%29.svg/960px-Ora_News_%28Albania%29.svg.png",
+        "logo": "https://raw.githubusercontent.com/biptv/fieri-tv-logo/main/120.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "News"
+        "title": "General"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://live1.mediadesk.al/oranews.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"OraNews.al@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Ora_News_%28Albania%29.svg/960px-Ora_News_%28Albania%29.svg.png\" group-title=\"News\",Ora News (720p)\r\r\nhttps://live1.mediadesk.al/oranews.m3u8\r",
-      "line": 20,
+      "url": "http://valashop.online:8090/fieritv.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"FieriTv.al@HD\" tvg-logo=\"https://raw.githubusercontent.com/biptv/fieri-tv-logo/main/120.png\" group-title=\"General\",Fieri Tv (720p)\r\r\nhttp://valashop.online:8090/fieritv.m3u8\r",
+      "line": 12,
       "catchup": {
         "type": "",
         "days": "",
@@ -135,6 +107,62 @@
       },
       "url": "https://159.69.221.56/panorama/livestream/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"PanoramaTV.al@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Panorama_logo.svg/960px-Panorama_logo.svg.png\" group-title=\"News\",Panorama TV\r\r\nhttps://159.69.221.56/panorama/livestream/playlist.m3u8\r",
+      "line": 24,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "News 24 Albania (392p)",
+      "tvg": {
+        "id": "News24.al@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/eG33jue.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "News"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://tv.balkanweb.com:8081/news24/livestream/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"News24.al@SD\" tvg-logo=\"https://i.imgur.com/eG33jue.png\" group-title=\"News\",News 24 Albania (392p)\r\r\nhttp://tv.balkanweb.com:8081/news24/livestream/playlist.m3u8\r",
+      "line": 18,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Ora News (720p)",
+      "tvg": {
+        "id": "OraNews.al@SD",
+        "name": "",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Ora_News_%28Albania%29.svg/960px-Ora_News_%28Albania%29.svg.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "News"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://live1.mediadesk.al/oranews.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"OraNews.al@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Ora_News_%28Albania%29.svg/960px-Ora_News_%28Albania%29.svg.png\" group-title=\"News\",Ora News (720p)\r\r\nhttps://live1.mediadesk.al/oranews.m3u8\r",
       "line": 22,
       "catchup": {
         "type": "",
@@ -163,7 +191,7 @@
       },
       "url": "https://protokolldns.xyz/ntv.l.i.v.e5547892023/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"ntv.al@SD\" tvg-logo=\"https://i.imgur.com/gtZLzxq.png\" group-title=\"News\",ntv (720p)\r\r\nhttps://protokolldns.xyz/ntv.l.i.v.e5547892023/index.m3u8\r",
-      "line": 18,
+      "line": 20,
       "catchup": {
         "type": "",
         "days": "",
@@ -191,7 +219,7 @@
       },
       "url": "https://stream.syritv.al/live/syritv/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"Syri.al@SD\" tvg-logo=\"https://i.imgur.com/EEHyKdL.jpeg\" group-title=\"News\",Syri (720p)\r\r\nhttps://stream.syritv.al/live/syritv/playlist.m3u8\r",
-      "line": 36,
+      "line": 38,
       "catchup": {
         "type": "",
         "days": "",
@@ -219,7 +247,7 @@
       },
       "url": "https://live.prostream.al/al/smil:tropojatv.smil/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TropojaTelevizion.al@SD\" tvg-logo=\"https://i.imgur.com/D3hNOVS.png\" group-title=\"General\",Tropoja Televizion\r\r\nhttps://live.prostream.al/al/smil:tropojatv.smil/playlist.m3u8\r",
-      "line": 44,
+      "line": 46,
       "catchup": {
         "type": "",
         "days": "",
@@ -247,7 +275,7 @@
       },
       "url": "https://protokolldns.xyz/johaniterweb44547dsd/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TVJohaniter.al@SD\" tvg-logo=\"https://i.imgur.com/Zo9lJgP.png\" group-title=\"General\",TV Johaniter (720p)\r\r\nhttps://protokolldns.xyz/johaniterweb44547dsd/index.m3u8\r",
-      "line": 48,
+      "line": 50,
       "catchup": {
         "type": "",
         "days": "",
@@ -275,7 +303,7 @@
       },
       "url": "https://tringliveviz.akamaized.net/delta/105/out/u/qwaszxerdfcvrtryuy.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"VizionPlus.al@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Vizion_Plus.svg/960px-Vizion_Plus.svg.png\" group-title=\"General\",Vizion Plus (1080p)\r\r\nhttps://tringliveviz.akamaized.net/delta/105/out/u/qwaszxerdfcvrtryuy.m3u8\r",
-      "line": 52,
+      "line": 54,
       "catchup": {
         "type": "",
         "days": "",
@@ -303,7 +331,7 @@
       },
       "url": "https://zjarr.future.al/hls/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"ZjarrTV.al@SD\" tvg-logo=\"https://i.imgur.com/hNuWZWe.png\" group-title=\"General\",Zjarr TV (360p)\r\r\nhttps://zjarr.future.al/hls/playlist.m3u8\r",
-      "line": 54,
+      "line": 56,
       "catchup": {
         "type": "",
         "days": "",
