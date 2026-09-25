@@ -5,34 +5,6 @@
   },
   "items": [
     {
-      "name": "BTN TV (Rwanda)",
-      "tvg": {
-        "id": "BTNTV.rw@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/WmaP8zP.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://tv.btnrwanda.com:3973/live/btnv2live.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"BTNTV.rw@SD\" tvg-logo=\"https://i.imgur.com/WmaP8zP.png\" group-title=\"General\",BTN TV (Rwanda)\r\r\nhttps://tv.btnrwanda.com:3973/live/btnv2live.m3u8\r",
-      "line": 2,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Isango TV (480p) [Not 24/7]",
       "tvg": {
         "id": "IsangoTV.rw@SD",
@@ -61,11 +33,11 @@
       "status": "OK"
     },
     {
-      "name": "TV1 (Rwanda)",
+      "name": "BTN TV (Rwanda)",
       "tvg": {
-        "id": "TV1.rw@SD",
+        "id": "BTNTV.rw@SD",
         "name": "",
-        "logo": "https://i.imgur.com/wk59tHA.png",
+        "logo": "https://i.imgur.com/WmaP8zP.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -77,9 +49,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://live.tv1.rw/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TV1.rw@SD\" tvg-logo=\"https://i.imgur.com/wk59tHA.png\" group-title=\"General\",TV1 (Rwanda)\r\r\nhttps://live.tv1.rw/index.m3u8\r",
-      "line": 12,
+      "url": "https://tv.btnrwanda.com:3973/live/btnv2live.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"BTNTV.rw@SD\" tvg-logo=\"https://i.imgur.com/WmaP8zP.png\" group-title=\"General\",BTN TV (Rwanda)\r\r\nhttps://tv.btnrwanda.com:3973/live/btnv2live.m3u8\r",
+      "line": 2,
       "catchup": {
         "type": "",
         "days": "",
@@ -89,25 +61,25 @@
       "status": "OK"
     },
     {
-      "name": "Rwanda TV (480p) [Not 24/7]",
+      "name": "KC2 (720p) [Not 24/7]",
       "tvg": {
-        "id": "RwandaTV.rw@SD",
+        "id": "KC2.rw@SD",
         "name": "",
-        "logo": "https://i.imgur.com/4nbGvxW.png",
+        "logo": "https://i.imgur.com/PsYPzNc.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "General"
+        "title": "Entertainment"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "http://197.243.19.131:1935/rtv25/rtv/chunklist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"RwandaTV.rw@SD\" tvg-logo=\"https://i.imgur.com/4nbGvxW.png\" group-title=\"General\",Rwanda TV (480p) [Not 24/7]\r\r\nhttp://197.243.19.131:1935/rtv25/rtv/chunklist.m3u8\r",
-      "line": 10,
+      "url": "http://197.243.19.131:1935/kc2/kc2/chunklist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"KC2.rw@SD\" tvg-logo=\"https://i.imgur.com/PsYPzNc.png\" group-title=\"Entertainment\",KC2 (720p) [Not 24/7]\r\r\nhttp://197.243.19.131:1935/kc2/kc2/chunklist.m3u8\r",
+      "line": 8,
       "catchup": {
         "type": "",
         "days": "",
@@ -145,6 +117,34 @@
       "status": "OK"
     },
     {
+      "name": "Rwanda TV (480p) [Not 24/7]",
+      "tvg": {
+        "id": "RwandaTV.rw@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/4nbGvxW.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://197.243.19.131:1935/rtv25/rtv/chunklist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"RwandaTV.rw@SD\" tvg-logo=\"https://i.imgur.com/4nbGvxW.png\" group-title=\"General\",Rwanda TV (480p) [Not 24/7]\r\r\nhttp://197.243.19.131:1935/rtv25/rtv/chunklist.m3u8\r",
+      "line": 10,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "TV10 (720p)",
       "tvg": {
         "id": "TV10.rw@SD",
@@ -164,6 +164,34 @@
       "url": "https://5c46fa289c89f.streamlock.net/pub1live/mystream/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TV10.rw@SD\" tvg-logo=\"https://i.imgur.com/DeaWC1N.png\" group-title=\"General\",TV10 (720p)\r\r\nhttps://5c46fa289c89f.streamlock.net/pub1live/mystream/playlist.m3u8\r",
       "line": 14,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "TV1 (Rwanda)",
+      "tvg": {
+        "id": "TV1.rw@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/wk59tHA.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://live.tv1.rw/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"TV1.rw@SD\" tvg-logo=\"https://i.imgur.com/wk59tHA.png\" group-title=\"General\",TV1 (Rwanda)\r\r\nhttps://live.tv1.rw/index.m3u8\r",
+      "line": 12,
       "catchup": {
         "type": "",
         "days": "",
