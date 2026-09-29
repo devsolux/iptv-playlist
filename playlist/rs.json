@@ -5,6 +5,62 @@
   },
   "items": [
     {
+      "name": "DM Sat (576p)",
+      "tvg": {
+        "id": "DMSat.rs@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/LdeA1Cn.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Music"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+      },
+      "url": "https://shift03.isp.bg/DMSat/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"DMSat.rs@SD\" tvg-logo=\"https://i.imgur.com/LdeA1Cn.png\" http-user-agent=\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36\" group-title=\"Music\",DM Sat (576p)\r\r\n#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36\r\r\nhttps://shift03.isp.bg/DMSat/index.m3u8\r",
+      "line": 14,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Narodna TV (720p)",
+      "tvg": {
+        "id": "NarodnaTV.rs@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/dua57HD.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://edge8.pink.rs/narodnatv/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"NarodnaTV.rs@SD\" tvg-logo=\"https://i.imgur.com/dua57HD.png\" group-title=\"Undefined\",Narodna TV (720p)\r\r\nhttps://edge8.pink.rs/narodnatv/index.m3u8\r",
+      "line": 24,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "IDJTV",
       "tvg": {
         "id": "IDJTV.rs@SD",
@@ -33,25 +89,25 @@
       "status": "OK"
     },
     {
-      "name": "Nova (Serbia) (1080p)",
+      "name": "Pink (720p)",
       "tvg": {
-        "id": "Nova.rs@SD",
+        "id": "Pink.rs@SD",
         "name": "",
-        "logo": "https://i.imgur.com/sU8UPPY.png",
+        "logo": "https://i.imgur.com/66wHb7E.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "General"
+        "title": "Undefined"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://best-str.umn.cdn.united.cloud/stream?channel=novashd&p=n0v43!23t001&player=m3u8&sp=novas&stream=hp7000&u=novas",
-      "raw": "#EXTINF:-1 tvg-id=\"Nova.rs@SD\" tvg-logo=\"https://i.imgur.com/sU8UPPY.png\" group-title=\"General\",Nova (Serbia) (1080p)\r\r\nhttps://best-str.umn.cdn.united.cloud/stream?channel=novashd&p=n0v43!23t001&player=m3u8&sp=novas&stream=hp7000&u=novas\r",
-      "line": 26,
+      "url": "https://edge8.pink.rs/pinktv/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Pink.rs@SD\" tvg-logo=\"https://i.imgur.com/66wHb7E.png\" group-title=\"Undefined\",Pink (720p)\r\r\nhttps://edge8.pink.rs/pinktv/index.m3u8\r",
+      "line": 30,
       "catchup": {
         "type": "",
         "days": "",
@@ -145,6 +201,34 @@
       "status": "OK"
     },
     {
+      "name": "Nova (Serbia) (1080p)",
+      "tvg": {
+        "id": "Nova.rs@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/sU8UPPY.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://best-str.umn.cdn.united.cloud/stream?channel=novashd&p=n0v43!23t001&player=m3u8&sp=novas&stream=hp7000&u=novas",
+      "raw": "#EXTINF:-1 tvg-id=\"Nova.rs@SD\" tvg-logo=\"https://i.imgur.com/sU8UPPY.png\" group-title=\"General\",Nova (Serbia) (1080p)\r\r\nhttps://best-str.umn.cdn.united.cloud/stream?channel=novashd&p=n0v43!23t001&player=m3u8&sp=novas&stream=hp7000&u=novas\r",
+      "line": 26,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "RTV 1 (Serbia) (576p) [Not 24/7]",
       "tvg": {
         "id": "RTV1.rs@SD",
@@ -229,11 +313,11 @@
       "status": "OK"
     },
     {
-      "name": "RTS 3 (Serbia) (720p)",
+      "name": "Sandzak TV (576p)",
       "tvg": {
-        "id": "RTS3.rs@SD",
+        "id": "SandzakTV.rs@SD",
         "name": "",
-        "logo": "https://i.imgur.com/gxuGB4J.png",
+        "logo": "https://i.imgur.com/lm9Fgsp.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -245,9 +329,37 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "http://185.81.240.65:15000/udp/233.233.233.36:12000",
-      "raw": "#EXTINF:-1 tvg-id=\"RTS3.rs@SD\" tvg-logo=\"https://i.imgur.com/gxuGB4J.png\" group-title=\"Undefined\",RTS 3 (Serbia) (720p)\r\r\nhttp://185.81.240.65:15000/udp/233.233.233.36:12000\r",
-      "line": 59,
+      "url": "https://streaming.iptv.nextfiber.rs/nxt004/master.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"SandzakTV.rs@SD\" tvg-logo=\"https://i.imgur.com/lm9Fgsp.png\" group-title=\"Undefined\",Sandzak TV (576p)\r\r\nhttps://streaming.iptv.nextfiber.rs/nxt004/master.m3u8\r",
+      "line": 83,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Sci Fi",
+      "tvg": {
+        "id": "SciFi.rs@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/FPumwfg.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Undefined"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+      },
+      "url": "https://webtvstream.bhtelecom.ba/sci-fi.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"SciFi.rs@SD\" tvg-logo=\"https://i.imgur.com/FPumwfg.png\" http-user-agent=\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36\" group-title=\"Undefined\",Sci Fi\r\r\n#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36\r\r\nhttps://webtvstream.bhtelecom.ba/sci-fi.m3u8\r",
+      "line": 85,
       "catchup": {
         "type": "",
         "days": "",
@@ -276,34 +388,6 @@
       "url": "https://tv.rtvnp.rs/stream.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"RTVNoviPazar.rs@SD\" tvg-logo=\"https://i.imgur.com/NpyRVyC.png\" group-title=\"Undefined\",RTV Novi Pazar\r\r\nhttps://tv.rtvnp.rs/stream.m3u8\r",
       "line": 81,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Sandzak TV (576p)",
-      "tvg": {
-        "id": "SandzakTV.rs@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/lm9Fgsp.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Undefined"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://streaming.iptv.nextfiber.rs/nxt004/master.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"SandzakTV.rs@SD\" tvg-logo=\"https://i.imgur.com/lm9Fgsp.png\" group-title=\"Undefined\",Sandzak TV (576p)\r\r\nhttps://streaming.iptv.nextfiber.rs/nxt004/master.m3u8\r",
-      "line": 83,
       "catchup": {
         "type": "",
         "days": "",
@@ -369,11 +453,11 @@
       "status": "OK"
     },
     {
-      "name": "Sci Fi",
+      "name": "RTS 3 (Serbia) (720p)",
       "tvg": {
-        "id": "SciFi.rs@SD",
+        "id": "RTS3.rs@SD",
         "name": "",
-        "logo": "https://i.imgur.com/FPumwfg.png",
+        "logo": "https://i.imgur.com/gxuGB4J.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -383,11 +467,11 @@
       },
       "http": {
         "referrer": "",
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+        "user-agent": ""
       },
-      "url": "https://webtvstream.bhtelecom.ba/sci-fi.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"SciFi.rs@SD\" tvg-logo=\"https://i.imgur.com/FPumwfg.png\" http-user-agent=\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36\" group-title=\"Undefined\",Sci Fi\r\r\n#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36\r\r\nhttps://webtvstream.bhtelecom.ba/sci-fi.m3u8\r",
-      "line": 85,
+      "url": "http://185.81.240.65:15000/udp/233.233.233.36:12000",
+      "raw": "#EXTINF:-1 tvg-id=\"RTS3.rs@SD\" tvg-logo=\"https://i.imgur.com/gxuGB4J.png\" group-title=\"Undefined\",RTS 3 (Serbia) (720p)\r\r\nhttp://185.81.240.65:15000/udp/233.233.233.36:12000\r",
+      "line": 59,
       "catchup": {
         "type": "",
         "days": "",
