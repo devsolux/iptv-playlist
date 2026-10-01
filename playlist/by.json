@@ -33,11 +33,11 @@
       "status": "OK"
     },
     {
-      "name": "Belarus-1 HD (1080p)",
+      "name": "Belarus-4 Gomel",
       "tvg": {
-        "id": "Belarus1.by@HD",
+        "id": "Belarus4.by@Gomel",
         "name": "",
-        "logo": "https://i.imgur.com/sUD9t5j.png",
+        "logo": "https://i.imgur.com/XNkQrMr.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -49,9 +49,37 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus1.smil/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Belarus1.by@HD\" tvg-logo=\"https://i.imgur.com/sUD9t5j.png\" group-title=\"General\",Belarus-1 HD (1080p)\r\r\nhttps://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus1.smil/playlist.m3u8\r",
-      "line": 6,
+      "url": "https://live.dc.beltelecom.by/trkgomel/trkgomel.stream/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Belarus4.by@Gomel\" tvg-logo=\"https://i.imgur.com/XNkQrMr.png\" group-title=\"General\",Belarus-4 Gomel\r\r\nhttps://live.dc.beltelecom.by/trkgomel/trkgomel.stream/playlist.m3u8\r",
+      "line": 12,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Belarus-5 HD (1080p)",
+      "tvg": {
+        "id": "Belarus5.by@HD",
+        "name": "",
+        "logo": "https://i.imgur.com/NJsRFud.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Sports"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://178.124.179.122:8080/BT5/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Belarus5.by@HD\" tvg-logo=\"https://i.imgur.com/NJsRFud.png\" group-title=\"Sports\",Belarus-5 HD (1080p)\r\r\nhttp://178.124.179.122:8080/BT5/index.m3u8\r",
+      "line": 18,
       "catchup": {
         "type": "",
         "days": "",
@@ -89,9 +117,9 @@
       "status": "OK"
     },
     {
-      "name": "Belarus-5 HD (1080p)",
+      "name": "Belarus-5 (1080p) [Not 24/7]",
       "tvg": {
-        "id": "Belarus5.by@HD",
+        "id": "Belarus5.by@SD",
         "name": "",
         "logo": "https://i.imgur.com/NJsRFud.png",
         "url": "",
@@ -105,9 +133,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "http://178.124.179.122:8080/BT5/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Belarus5.by@HD\" tvg-logo=\"https://i.imgur.com/NJsRFud.png\" group-title=\"Sports\",Belarus-5 HD (1080p)\r\r\nhttp://178.124.179.122:8080/BT5/index.m3u8\r",
-      "line": 18,
+      "url": "https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus5.smil/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"Belarus5.by@SD\" tvg-logo=\"https://i.imgur.com/NJsRFud.png\" group-title=\"Sports\",Belarus-5 (1080p) [Not 24/7]\r\r\nhttps://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus5.smil/playlist.m3u8\r",
+      "line": 16,
       "catchup": {
         "type": "",
         "days": "",
@@ -173,25 +201,25 @@
       "status": "OK"
     },
     {
-      "name": "Belarus-5 (1080p) [Not 24/7]",
+      "name": "First Music Channel (1080p)",
       "tvg": {
-        "id": "Belarus5.by@SD",
+        "id": "FirstMusicChannel.by@SD",
         "name": "",
-        "logo": "https://i.imgur.com/NJsRFud.png",
+        "logo": "https://i.imgur.com/YdyFJrl.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "Sports"
+        "title": "Music"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus5.smil/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"Belarus5.by@SD\" tvg-logo=\"https://i.imgur.com/NJsRFud.png\" group-title=\"Sports\",Belarus-5 (1080p) [Not 24/7]\r\r\nhttps://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus5.smil/playlist.m3u8\r",
-      "line": 16,
+      "url": "http://rtmp.one.by:1300",
+      "raw": "#EXTINF:-1 tvg-id=\"FirstMusicChannel.by@SD\" tvg-logo=\"https://i.imgur.com/YdyFJrl.png\" group-title=\"Music\",First Music Channel (1080p)\r\r\nhttp://rtmp.one.by:1300\r",
+      "line": 26,
       "catchup": {
         "type": "",
         "days": "",
@@ -220,34 +248,6 @@
       "url": "https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus24.smil/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"Belarus24.by@HD\" tvg-logo=\"https://i.imgur.com/BP7tY6F.png\" group-title=\"News\",Belarus-24 HD (1080p)\r\r\nhttps://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus24.smil/playlist.m3u8\r",
       "line": 24,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "First Music Channel (1080p)",
-      "tvg": {
-        "id": "FirstMusicChannel.by@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/YdyFJrl.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Music"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://rtmp.one.by:1300",
-      "raw": "#EXTINF:-1 tvg-id=\"FirstMusicChannel.by@SD\" tvg-logo=\"https://i.imgur.com/YdyFJrl.png\" group-title=\"Music\",First Music Channel (1080p)\r\r\nhttp://rtmp.one.by:1300\r",
-      "line": 26,
       "catchup": {
         "type": "",
         "days": "",
