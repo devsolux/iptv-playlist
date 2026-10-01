@@ -5,6 +5,34 @@
   },
   "items": [
     {
+      "name": "BTN TV (Rwanda)",
+      "tvg": {
+        "id": "BTNTV.rw@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/WmaP8zP.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://tv.btnrwanda.com:3973/live/btnv2live.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"BTNTV.rw@SD\" tvg-logo=\"https://i.imgur.com/WmaP8zP.png\" group-title=\"General\",BTN TV (Rwanda)\r\r\nhttps://tv.btnrwanda.com:3973/live/btnv2live.m3u8\r",
+      "line": 2,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Isango TV (480p) [Not 24/7]",
       "tvg": {
         "id": "IsangoTV.rw@SD",
@@ -24,34 +52,6 @@
       "url": "http://80.241.215.175:1935/isangostar/isangostar/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"IsangoTV.rw@SD\" tvg-logo=\"https://i.imgur.com/EfsHaMQ.png\" group-title=\"Music\",Isango TV (480p) [Not 24/7]\r\r\nhttp://80.241.215.175:1935/isangostar/isangostar/playlist.m3u8\r",
       "line": 4,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "TV1 (Rwanda)",
-      "tvg": {
-        "id": "TV1.rw@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/wk59tHA.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://live.tv1.rw/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TV1.rw@SD\" tvg-logo=\"https://i.imgur.com/wk59tHA.png\" group-title=\"General\",TV1 (Rwanda)\r\r\nhttps://live.tv1.rw/index.m3u8\r",
-      "line": 12,
       "catchup": {
         "type": "",
         "days": "",
@@ -89,11 +89,11 @@
       "status": "OK"
     },
     {
-      "name": "Isibo TV",
+      "name": "TV1 (Rwanda)",
       "tvg": {
-        "id": "IsiboTV.rw@SD",
+        "id": "TV1.rw@SD",
         "name": "",
-        "logo": "https://i.imgur.com/bXhEeTC.png",
+        "logo": "https://i.imgur.com/wk59tHA.png",
         "url": "",
         "rec": "",
         "shift": ""
@@ -105,9 +105,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://5c46fa289c89f.streamlock.net/pub2live/myStream/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"IsiboTV.rw@SD\" tvg-logo=\"https://i.imgur.com/bXhEeTC.png\" group-title=\"General\",Isibo TV\r\r\nhttps://5c46fa289c89f.streamlock.net/pub2live/myStream/playlist.m3u8\r",
-      "line": 6,
+      "url": "https://live.tv1.rw/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"TV1.rw@SD\" tvg-logo=\"https://i.imgur.com/wk59tHA.png\" group-title=\"General\",TV1 (Rwanda)\r\r\nhttps://live.tv1.rw/index.m3u8\r",
+      "line": 12,
       "catchup": {
         "type": "",
         "days": "",
@@ -136,6 +136,34 @@
       "url": "http://197.243.19.131:1935/rtv25/rtv/chunklist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"RwandaTV.rw@SD\" tvg-logo=\"https://i.imgur.com/4nbGvxW.png\" group-title=\"General\",Rwanda TV (480p) [Not 24/7]\r\r\nhttp://197.243.19.131:1935/rtv25/rtv/chunklist.m3u8\r",
       "line": 10,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Isibo TV",
+      "tvg": {
+        "id": "IsiboTV.rw@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/bXhEeTC.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://5c46fa289c89f.streamlock.net/pub2live/myStream/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"IsiboTV.rw@SD\" tvg-logo=\"https://i.imgur.com/bXhEeTC.png\" group-title=\"General\",Isibo TV\r\r\nhttps://5c46fa289c89f.streamlock.net/pub2live/myStream/playlist.m3u8\r",
+      "line": 6,
       "catchup": {
         "type": "",
         "days": "",
