@@ -5,6 +5,34 @@
   },
   "items": [
     {
+      "name": "Divya Darshan TV (720p)",
+      "tvg": {
+        "id": "DivyaDarshanTV.np@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/EwDQ12F.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Religious"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "http://live.divyadarshantv.com/hls/stream.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"DivyaDarshanTV.np@SD\" tvg-logo=\"https://i.imgur.com/EwDQ12F.png\" group-title=\"Religious\",Divya Darshan TV (720p)\r\r\nhttp://live.divyadarshantv.com/hls/stream.m3u8\r",
+      "line": 8,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Angel TV Nepal (720p)",
       "tvg": {
         "id": "AngelTV.in@Nepal",
@@ -33,25 +61,25 @@
       "status": "OK"
     },
     {
-      "name": "Capital TV HD (1080p)",
+      "name": "Divya Darshan TV HD (1080p)",
       "tvg": {
-        "id": "CapitalTVHD.np@SD",
+        "id": "DivyaDarshanTV.np@HD",
         "name": "",
-        "logo": "https://i.imgur.com/hb4bq1t.png",
+        "logo": "https://i.imgur.com/EwDQ12F.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "General"
+        "title": "Religious"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://streaming.tvnepal.com:19360/capitaltv/capitaltv.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"CapitalTVHD.np@SD\" tvg-logo=\"https://i.imgur.com/hb4bq1t.png\" group-title=\"General\",Capital TV HD (1080p)\r\r\nhttps://streaming.tvnepal.com:19360/capitaltv/capitaltv.m3u8\r",
-      "line": 4,
+      "url": "https://live.divyadarshantv.com/hls/0/stream.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"DivyaDarshanTV.np@HD\" tvg-logo=\"https://i.imgur.com/EwDQ12F.png\" group-title=\"Religious\",Divya Darshan TV HD (1080p)\r\r\nhttps://live.divyadarshantv.com/hls/0/stream.m3u8\r",
+      "line": 10,
       "catchup": {
         "type": "",
         "days": "",
@@ -80,6 +108,34 @@
       "url": "https://streaming.tvnepal.com:19360/capitaltv/720p.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"CapitalTVHD.np@HD\" tvg-logo=\"https://i.imgur.com/hb4bq1t.png\" group-title=\"General\",Capital TV HD HD\r\r\nhttps://streaming.tvnepal.com:19360/capitaltv/720p.m3u8\r",
       "line": 6,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Capital TV HD (1080p)",
+      "tvg": {
+        "id": "CapitalTVHD.np@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/hb4bq1t.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://streaming.tvnepal.com:19360/capitaltv/capitaltv.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"CapitalTVHD.np@SD\" tvg-logo=\"https://i.imgur.com/hb4bq1t.png\" group-title=\"General\",Capital TV HD (1080p)\r\r\nhttps://streaming.tvnepal.com:19360/capitaltv/capitaltv.m3u8\r",
+      "line": 4,
       "catchup": {
         "type": "",
         "days": "",
@@ -201,6 +257,34 @@
       "status": "OK"
     },
     {
+      "name": "TV Today Janakpur",
+      "tvg": {
+        "id": "TVTodayJanakpur.np@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/5fZF69m.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Entertainment;General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://tvtoday.rpmc.com.np/hls/bipashatech/1_2/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"TVTodayJanakpur.np@SD\" tvg-logo=\"https://i.imgur.com/5fZF69m.png\" group-title=\"Entertainment;General\",TV Today Janakpur\r\r\nhttps://tvtoday.rpmc.com.np/hls/bipashatech/1_2/index.m3u8\r",
+      "line": 45,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Ray TV HD",
       "tvg": {
         "id": "RayTVHD.np@HD",
@@ -248,34 +332,6 @@
       "url": "https://streaming.tvnepal.com:19360/raynewsdaily/480p.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"RayTVHD.np@SD\" tvg-logo=\"https://i.imgur.com/QIkgiEn.png\" group-title=\"Entertainment;General\",Ray TV HD SD (576p)\r\r\nhttps://streaming.tvnepal.com:19360/raynewsdaily/480p.m3u8\r",
       "line": 41,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "TV Today Janakpur",
-      "tvg": {
-        "id": "TVTodayJanakpur.np@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/5fZF69m.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "Entertainment;General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://tvtoday.rpmc.com.np/hls/bipashatech/1_2/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TVTodayJanakpur.np@SD\" tvg-logo=\"https://i.imgur.com/5fZF69m.png\" group-title=\"Entertainment;General\",TV Today Janakpur\r\r\nhttps://tvtoday.rpmc.com.np/hls/bipashatech/1_2/index.m3u8\r",
-      "line": 45,
       "catchup": {
         "type": "",
         "days": "",
