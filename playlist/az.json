@@ -5,34 +5,6 @@
   },
   "items": [
     {
-      "name": "APA Tv (1080p)",
-      "tvg": {
-        "id": "APATv.az@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/2CSW4V4.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "News"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "http://stream.apa.tv/apastream/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"APATv.az@SD\" tvg-logo=\"https://i.imgur.com/2CSW4V4.png\" group-title=\"News\",APA Tv (1080p)\r\r\nhttp://stream.apa.tv/apastream/index.m3u8\r",
-      "line": 6,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "Ayaz TV (720p)",
       "tvg": {
         "id": "AyazTV.az@SD",
@@ -61,25 +33,25 @@
       "status": "OK"
     },
     {
-      "name": "GunAz TV",
+      "name": "APA Tv (1080p)",
       "tvg": {
-        "id": "GunAzTV.us@SD",
+        "id": "APATv.az@SD",
         "name": "",
-        "logo": "https://i.imgur.com/2ZnQazl.png",
+        "logo": "https://i.imgur.com/2CSW4V4.png",
         "url": "",
         "rec": "",
         "shift": ""
       },
       "group": {
-        "title": "General"
+        "title": "News"
       },
       "http": {
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://tv.gunaz.tv/hls/live.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"GunAzTV.us@SD\" tvg-logo=\"https://i.imgur.com/2ZnQazl.png\" group-title=\"General\",GunAz TV\r\r\nhttps://tv.gunaz.tv/hls/live.m3u8\r",
-      "line": 18,
+      "url": "http://stream.apa.tv/apastream/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"APATv.az@SD\" tvg-logo=\"https://i.imgur.com/2CSW4V4.png\" group-title=\"News\",APA Tv (1080p)\r\r\nhttp://stream.apa.tv/apastream/index.m3u8\r",
+      "line": 6,
       "catchup": {
         "type": "",
         "days": "",
@@ -117,6 +89,34 @@
       "status": "OK"
     },
     {
+      "name": "GunAz TV",
+      "tvg": {
+        "id": "GunAzTV.us@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/2ZnQazl.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://tv.gunaz.tv/hls/live.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"GunAzTV.us@SD\" tvg-logo=\"https://i.imgur.com/2ZnQazl.png\" group-title=\"General\",GunAz TV\r\r\nhttps://tv.gunaz.tv/hls/live.m3u8\r",
+      "line": 22,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
       "name": "Kanal 35 (720p)",
       "tvg": {
         "id": "Kanal35.az@SD",
@@ -135,7 +135,7 @@
       },
       "url": "https://str2.yodacdn.net/kanal35/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"Kanal35.az@SD\" tvg-logo=\"https://live.ntv.az/kanal35.png\" group-title=\"General\",Kanal 35 (720p)\r\r\nhttps://str2.yodacdn.net/kanal35/index.m3u8\r",
-      "line": 22,
+      "line": 26,
       "catchup": {
         "type": "",
         "days": "",
@@ -163,7 +163,7 @@
       },
       "url": "https://live.eltv.az/live/eltv/playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"ELTV.az@SD\" tvg-logo=\"https://i.imgur.com/tTlokZ2.png\" group-title=\"General\",EL TV\r\r\nhttps://live.eltv.az/live/eltv/playlist.m3u8\r",
-      "line": 16,
+      "line": 20,
       "catchup": {
         "type": "",
         "days": "",
@@ -191,35 +191,7 @@
       },
       "url": "http://85.132.78.122:8050/hls/stream/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"KapazTV.az@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/az/thumb/3/3e/K%C9%99p%C9%99z_TV_%282019-h.h.%29.png/500px-K%C9%99p%C9%99z_TV_%282019-h.h.%29.png\" group-title=\"News\",Kapaz TV\r\r\nhttp://85.132.78.122:8050/hls/stream/index.m3u8\r",
-      "line": 26,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Kanal S",
-      "tvg": {
-        "id": "KanalS.az@SD",
-        "name": "",
-        "logo": "https://raw.githubusercontent.com/songwenhui239/Songwenhui239/refs/heads/main/Kanal%20S.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://lives.atv.az:5443/KANAL-S/streams/kanals.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"KanalS.az@SD\" tvg-logo=\"https://raw.githubusercontent.com/songwenhui239/Songwenhui239/refs/heads/main/Kanal%20S.png\" group-title=\"General\",Kanal S\r\r\nhttps://lives.atv.az:5443/KANAL-S/streams/kanals.m3u8\r",
-      "line": 24,
+      "line": 30,
       "catchup": {
         "type": "",
         "days": "",
@@ -247,91 +219,7 @@
       },
       "url": "https://cdn4.yayin.com.tr/kntv/tracks-v1a1/mono.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"KNMusicTV.az@SD\" tvg-logo=\"https://www.knmusictv.com/wp-content/uploads/2026/01/LOGO2112.png\" group-title=\"Music\",KN Music TV\r\r\nhttps://cdn4.yayin.com.tr/kntv/tracks-v1a1/mono.m3u8\r",
-      "line": 28,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Naxcivan TV (720p)",
-      "tvg": {
-        "id": "NaxcivanTV.az@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/8yLFkdE.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://str2.yodacdn.net/ntv/video.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"NaxcivanTV.az@SD\" tvg-logo=\"https://i.imgur.com/8yLFkdE.png\" group-title=\"General\",Naxcivan TV (720p)\r\r\nhttps://str2.yodacdn.net/ntv/video.m3u8\r",
       "line": 32,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Vilayet TV",
-      "tvg": {
-        "id": "VilayetTV.az@SD",
-        "name": "",
-        "logo": "https://vilayet.tv/wp-content/uploads/elementor/thumbs/logo-q3w2md1u47q39x7d0004wqzz74xdv1glw356ex6ph0.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://nl.livekadeh.com/hls2/vilayet.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"VilayetTV.az@SD\" tvg-logo=\"https://vilayet.tv/wp-content/uploads/elementor/thumbs/logo-q3w2md1u47q39x7d0004wqzz74xdv1glw356ex6ph0.png\" group-title=\"General\",Vilayet TV\r\r\nhttps://nl.livekadeh.com/hls2/vilayet.m3u8\r",
-      "line": 34,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "Xezer TV (720p)",
-      "tvg": {
-        "id": "XezerTV.az@SD",
-        "name": "",
-        "logo": "",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://www.xezerxeber.az/stream/index.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"XezerTV.az@SD\" tvg-logo=\"\" group-title=\"General\",Xezer TV (720p)\r\r\nhttps://www.xezerxeber.az/stream/index.m3u8\r",
-      "line": 36,
       "catchup": {
         "type": "",
         "days": "",
@@ -359,7 +247,147 @@
       },
       "url": "https://str.yodacdn.net/medeniyyettele/index.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"MedeniyyetTV.az@SD\" tvg-logo=\"https://i.imgur.com/PlvaDIa.png\" group-title=\"Culture\",Medeniyyet TV (1080p)\r\r\nhttps://str.yodacdn.net/medeniyyettele/index.m3u8\r",
-      "line": 30,
+      "line": 34,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Naxcivan TV (720p)",
+      "tvg": {
+        "id": "NaxcivanTV.az@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/8yLFkdE.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://str2.yodacdn.net/ntv/video.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"NaxcivanTV.az@SD\" tvg-logo=\"https://i.imgur.com/8yLFkdE.png\" group-title=\"General\",Naxcivan TV (720p)\r\r\nhttps://str2.yodacdn.net/ntv/video.m3u8\r",
+      "line": 36,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Vilayet TV",
+      "tvg": {
+        "id": "VilayetTV.az@SD",
+        "name": "",
+        "logo": "https://vilayet.tv/wp-content/uploads/elementor/thumbs/logo-q3w2md1u47q39x7d0004wqzz74xdv1glw356ex6ph0.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://nl.livekadeh.com/hls2/vilayet.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"VilayetTV.az@SD\" tvg-logo=\"https://vilayet.tv/wp-content/uploads/elementor/thumbs/logo-q3w2md1u47q39x7d0004wqzz74xdv1glw356ex6ph0.png\" group-title=\"General\",Vilayet TV\r\r\nhttps://nl.livekadeh.com/hls2/vilayet.m3u8\r",
+      "line": 38,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Xezer TV (720p)",
+      "tvg": {
+        "id": "XezerTV.az@SD",
+        "name": "",
+        "logo": "",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://www.xezerxeber.az/stream/index.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"XezerTV.az@SD\" tvg-logo=\"\" group-title=\"General\",Xezer TV (720p)\r\r\nhttps://www.xezerxeber.az/stream/index.m3u8\r",
+      "line": 40,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Azad TV (1080p)",
+      "tvg": {
+        "id": "AzadTV.az@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/rDYSoRL.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "No response",
+        "user-agent": "No response"
+      },
+      "url": "https://lives.atv.az:5443/ATV_TV_STREAM/streams/atvcanli.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"AzadTV.az@SD\" tvg-logo=\"https://i.imgur.com/rDYSoRL.png\" http-referrer=\"No response\" http-user-agent=\"No response\" group-title=\"General\",Azad TV (1080p)\r\r\n#EXTVLCOPT:http-referrer=No response\r\r\n#EXTVLCOPT:http-user-agent=No response\r\r\nhttps://lives.atv.az:5443/ATV_TV_STREAM/streams/atvcanli.m3u8\r",
+      "line": 12,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Kanal S",
+      "tvg": {
+        "id": "KanalS.az@SD",
+        "name": "",
+        "logo": "https://raw.githubusercontent.com/songwenhui239/Songwenhui239/refs/heads/main/Kanal%20S.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://lives.atv.az:5443/KANAL-S/streams/kanals.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"KanalS.az@SD\" tvg-logo=\"https://raw.githubusercontent.com/songwenhui239/Songwenhui239/refs/heads/main/Kanal%20S.png\" group-title=\"General\",Kanal S\r\r\nhttps://lives.atv.az:5443/KANAL-S/streams/kanals.m3u8\r",
+      "line": 28,
       "catchup": {
         "type": "",
         "days": "",
