@@ -89,39 +89,11 @@
       "status": "OK"
     },
     {
-      "name": "EAC News TV",
+      "name": "Bayon TV",
       "tvg": {
-        "id": "EACNewsTV.kh@SD",
+        "id": "BayonTV.kh@SD",
         "name": "",
-        "logo": "https://i.imgur.com/EuYhS9Z.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "News"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://live.eac-news.com/LiveApp/streams/eacnews.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"EACNewsTV.kh@SD\" tvg-logo=\"https://i.imgur.com/EuYhS9Z.png\" group-title=\"News\",EAC News TV\r\r\nhttps://live.eac-news.com/LiveApp/streams/eacnews.m3u8\r",
-      "line": 18,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
-      "name": "CTV8 HD",
-      "tvg": {
-        "id": "CTV8HD.kh@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/yrdr4Po.png",
+        "logo": "https://i.imgur.com/Gry2KEN.jpg",
         "url": "",
         "rec": "",
         "shift": ""
@@ -133,9 +105,9 @@
         "referrer": "",
         "user-agent": ""
       },
-      "url": "https://ip.pdtvhd.com/Khmer/streams/CTV8HD.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"CTV8HD.kh@SD\" tvg-logo=\"https://i.imgur.com/yrdr4Po.png\" group-title=\"General\",CTV8 HD\r\r\nhttps://ip.pdtvhd.com/Khmer/streams/CTV8HD.m3u8\r",
-      "line": 12,
+      "url": "https://live-evg2.tv360.metfone.com.kh/livebayontv/bayontvhd.stream/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"BayonTV.kh@SD\" tvg-logo=\"https://i.imgur.com/Gry2KEN.jpg\" group-title=\"General\",Bayon TV\r\r\nhttps://live-evg2.tv360.metfone.com.kh/livebayontv/bayontvhd.stream/playlist.m3u8\r",
+      "line": 6,
       "catchup": {
         "type": "",
         "days": "",
@@ -229,34 +201,6 @@
       "status": "OK"
     },
     {
-      "name": "MNB World (1080p)",
-      "tvg": {
-        "id": "MNBWorld.mn@SD",
-        "name": "",
-        "logo": "https://www.mongolsat.mn/assets/img/channel/22.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"
-      },
-      "url": "https://cdn4.skygo.mn/live/disk1/MNB_World/DASH-FTA/MNB_World.mpd",
-      "raw": "#EXTINF:-1 tvg-id=\"MNBWorld.mn@SD\" tvg-logo=\"https://www.mongolsat.mn/assets/img/channel/22.png\" http-user-agent=\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\" group-title=\"General\",MNB World (1080p)\r\r\n#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\r\r\nhttps://cdn4.skygo.mn/live/disk1/MNB_World/DASH-FTA/MNB_World.mpd\r",
-      "line": 30,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "One TV E-School Cambodia (1080p)",
       "tvg": {
         "id": "OneTVESchoolCambodia.kh@SD",
@@ -276,6 +220,34 @@
       "url": "http://49.156.33.114:5080/live/streams/elearning.playlist.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"OneTVESchoolCambodia.kh@SD\" tvg-logo=\"https://i.imgur.com/wLzVdeT.png\" group-title=\"Education\",One TV E-School Cambodia (1080p)\r\r\nhttp://49.156.33.114:5080/live/streams/elearning.playlist.m3u8\r",
       "line": 40,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "MNB World (1080p)",
+      "tvg": {
+        "id": "MNBWorld.mn@SD",
+        "name": "",
+        "logo": "https://www.mongolsat.mn/assets/img/channel/22.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"
+      },
+      "url": "https://cdn4.skygo.mn/live/disk1/MNB_World/DASH-FTA/MNB_World.mpd",
+      "raw": "#EXTINF:-1 tvg-id=\"MNBWorld.mn@SD\" tvg-logo=\"https://www.mongolsat.mn/assets/img/channel/22.png\" http-user-agent=\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\" group-title=\"General\",MNB World (1080p)\r\r\n#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\r\r\nhttps://cdn4.skygo.mn/live/disk1/MNB_World/DASH-FTA/MNB_World.mpd\r",
+      "line": 30,
       "catchup": {
         "type": "",
         "days": "",
@@ -369,34 +341,6 @@
       "status": "OK"
     },
     {
-      "name": "TVK (Cambodia) (720p)",
-      "tvg": {
-        "id": "TVK.kh@SD",
-        "name": "",
-        "logo": "https://i.imgur.com/5hPxjcl.png",
-        "url": "",
-        "rec": "",
-        "shift": ""
-      },
-      "group": {
-        "title": "General"
-      },
-      "http": {
-        "referrer": "",
-        "user-agent": ""
-      },
-      "url": "https://live.kh.malimarcdn.com/live/tvk.stream/playlist.m3u8",
-      "raw": "#EXTINF:-1 tvg-id=\"TVK.kh@SD\" tvg-logo=\"https://i.imgur.com/5hPxjcl.png\" group-title=\"General\",TVK (Cambodia) (720p)\r\r\nhttps://live.kh.malimarcdn.com/live/tvk.stream/playlist.m3u8\r",
-      "line": 56,
-      "catchup": {
-        "type": "",
-        "days": "",
-        "source": ""
-      },
-      "timeshift": "",
-      "status": "OK"
-    },
-    {
       "name": "TV5 Cambodia",
       "tvg": {
         "id": "TV5Cambodia.kh@SD",
@@ -416,6 +360,62 @@
       "url": "https://ip.pdtvhd.com/Khmer/streams/CTV5.m3u8",
       "raw": "#EXTINF:-1 tvg-id=\"TV5Cambodia.kh@SD\" tvg-logo=\"https://i.imgur.com/iMZLyoX.png\" group-title=\"Undefined\",TV5 Cambodia\r\r\nhttps://ip.pdtvhd.com/Khmer/streams/CTV5.m3u8\r",
       "line": 52,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "Sangkem TV",
+      "tvg": {
+        "id": "SangkemTV.kh@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/728fAcC.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "Religious"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://live.sangkemtv.com/memfs/sangkem.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"SangkemTV.kh@SD\" tvg-logo=\"https://i.imgur.com/728fAcC.png\" group-title=\"Religious\",Sangkem TV\r\r\nhttps://live.sangkemtv.com/memfs/sangkem.m3u8\r",
+      "line": 46,
+      "catchup": {
+        "type": "",
+        "days": "",
+        "source": ""
+      },
+      "timeshift": "",
+      "status": "OK"
+    },
+    {
+      "name": "TVK (Cambodia) (720p)",
+      "tvg": {
+        "id": "TVK.kh@SD",
+        "name": "",
+        "logo": "https://i.imgur.com/5hPxjcl.png",
+        "url": "",
+        "rec": "",
+        "shift": ""
+      },
+      "group": {
+        "title": "General"
+      },
+      "http": {
+        "referrer": "",
+        "user-agent": ""
+      },
+      "url": "https://live.kh.malimarcdn.com/live/tvk.stream/playlist.m3u8",
+      "raw": "#EXTINF:-1 tvg-id=\"TVK.kh@SD\" tvg-logo=\"https://i.imgur.com/5hPxjcl.png\" group-title=\"General\",TVK (Cambodia) (720p)\r\r\nhttps://live.kh.malimarcdn.com/live/tvk.stream/playlist.m3u8\r",
+      "line": 56,
       "catchup": {
         "type": "",
         "days": "",
